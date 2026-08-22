@@ -81,37 +81,37 @@ const industries = [
 
 const finishes = [
   {
-    img: "/img/foil.webp",
+    img: "/img/foil-clean.webp",
     alt: "Gold foil stamping",
     title: "Gold Foil Stamping",
     desc: "Metallic logo detailing for a premium first impression.",
   },
   {
-    img: "/img/emboss.webp",
+    img: "/img/emboss-clean.webp",
     alt: "Embossing and debossing",
     title: "Embossing / Debossing",
     desc: "Raised or recessed logo effects that add tactile depth.",
   },
   {
-    img: "/img/edge.webp",
+    img: "/img/edge-clean.webp",
     alt: "Premium edge finish",
     title: "Premium Edge Finish",
     desc: "Clean wrapped corners and precise edge alignment.",
   },
   {
-    img: "/img/ribbon.webp",
+    img: "/img/ribbon-clean.webp",
     alt: "Satin ribbon detail",
     title: "Ribbon & Accessories",
     desc: "Luxury closures and add-ons to elevate the unboxing experience.",
   },
   {
-    img: "/img/insert.webp",
+    img: "/img/insert-clean.webp",
     alt: "Custom packaging inserts",
     title: "Custom Inserts",
     desc: "Paper, EVA or velvet inserts tailored to your product fit.",
   },
   {
-    img: "/img/texture.webp",
+    img: "/img/texture-clean.webp",
     alt: "Textured paper finish",
     title: "Textured Paper",
     desc: "Specialty papers and surface textures for a more distinctive look.",
@@ -160,9 +160,9 @@ const projects = [
   { img: "/img/project-skincare.webp", alt: "Skincare gift box", title: "Skincare Gift Box", desc: "Magnetic rigid structure · premium insert" },
   { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", desc: "Rigid presentation box · foil detailing" },
   { img: "/img/project-jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Presentation", desc: "Premium insert · compact rigid structure" },
-  { img: "/img/project-candle.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
-  { img: "/img/project-gift.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
-  { img: "/img/project-pr.webp", alt: "PR packaging box", title: "PR / Influencer Box", desc: "Custom structure · campaign packaging" },
+  { img: "/img/project-candle-clean.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
+  { img: "/img/project-gift-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
+  { img: "/img/project-pr-clean.webp", alt: "PR packaging box", title: "PR / Influencer Box", desc: "Custom structure · campaign packaging" },
 ];
 
 const sustainList = [
