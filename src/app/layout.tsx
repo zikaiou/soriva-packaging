@@ -147,6 +147,16 @@ export default function RootLayout({
             </span>
           </div>
         </footer>
+        <a
+          className="whatsapp-float"
+          href="https://wa.me/8615913881634?text=Hello%20SORIVA%20Packaging%2C%20I%20would%20like%20to%20discuss%20a%20custom%20packaging%20project."
+          target="_blank"
+          rel="noopener"
+          aria-label="Chat with SORIVA Packaging on WhatsApp"
+        >
+          <span>WhatsApp</span>
+          <b>Chat Now</b>
+        </a>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

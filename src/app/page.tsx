@@ -41,21 +41,81 @@ const products = [
 ];
 
 const industries = [
-  { img: "/img/cosmetics.webp", alt: "Cosmetics packaging", label: "Cosmetics & Skincare" },
-  { img: "/img/perfume.webp", alt: "Perfume packaging", label: "Perfume & Fragrance" },
-  { img: "/img/jewelry.webp", alt: "Jewelry packaging", label: "Jewelry & Watches" },
-  { img: "/img/candles.webp", alt: "Candle packaging", label: "Candles" },
-  { img: "/img/fashion.webp", alt: "Fashion packaging", label: "Fashion & Apparel" },
-  { img: "/img/corporate.webp", alt: "Corporate gift packaging", label: "Corporate Gifts" },
+  {
+    img: "/img/cosmetics.webp",
+    alt: "Cosmetics and skincare packaging",
+    title: "Cosmetics & Skincare",
+    desc: "Refined gift boxes for serums, creams and skincare kits.",
+  },
+  {
+    img: "/img/perfume.webp",
+    alt: "Perfume and fragrance packaging",
+    title: "Perfume & Fragrance",
+    desc: "Presentation boxes with inserts for bottles and fragrance sets.",
+  },
+  {
+    img: "/img/jewelry.webp",
+    alt: "Jewelry and watches packaging",
+    title: "Jewelry & Watches",
+    desc: "Compact rigid structures for rings, necklaces and premium accessories.",
+  },
+  {
+    img: "/img/candles.webp",
+    alt: "Candle gift packaging",
+    title: "Candles",
+    desc: "Protective box formats for candle jars and luxury home fragrance.",
+  },
+  {
+    img: "/img/fashion.webp",
+    alt: "Fashion and apparel packaging",
+    title: "Fashion & Apparel",
+    desc: "Premium boxes and bags for garments, scarves and retail presentation.",
+  },
+  {
+    img: "/img/corporate.webp",
+    alt: "Corporate gift packaging",
+    title: "Corporate Gifts",
+    desc: "Gift set packaging for campaigns, events and executive presents.",
+  },
 ];
 
 const finishes = [
-  { img: "/img/foil.webp", alt: "Gold foil stamping", label: "Gold Foil Stamping" },
-  { img: "/img/emboss.webp", alt: "Embossing and debossing", label: "Embossing / Debossing" },
-  { img: "/img/edge.webp", alt: "Premium edge finish", label: "Premium Edge Finish" },
-  { img: "/img/ribbon.webp", alt: "Satin ribbon detail", label: "Ribbon & Accessories" },
-  { img: "/img/insert.webp", alt: "Custom packaging inserts", label: "Custom Inserts" },
-  { img: "/img/texture.webp", alt: "Textured paper finish", label: "Textured Paper" },
+  {
+    img: "/img/foil.webp",
+    alt: "Gold foil stamping",
+    title: "Gold Foil Stamping",
+    desc: "Metallic logo detailing for a premium first impression.",
+  },
+  {
+    img: "/img/emboss.webp",
+    alt: "Embossing and debossing",
+    title: "Embossing / Debossing",
+    desc: "Raised or recessed logo effects that add tactile depth.",
+  },
+  {
+    img: "/img/edge.webp",
+    alt: "Premium edge finish",
+    title: "Premium Edge Finish",
+    desc: "Clean wrapped corners and precise edge alignment.",
+  },
+  {
+    img: "/img/ribbon.webp",
+    alt: "Satin ribbon detail",
+    title: "Ribbon & Accessories",
+    desc: "Luxury closures and add-ons to elevate the unboxing experience.",
+  },
+  {
+    img: "/img/insert.webp",
+    alt: "Custom packaging inserts",
+    title: "Custom Inserts",
+    desc: "Paper, EVA or velvet inserts tailored to your product fit.",
+  },
+  {
+    img: "/img/texture.webp",
+    alt: "Textured paper finish",
+    title: "Textured Paper",
+    desc: "Specialty papers and surface textures for a more distinctive look.",
+  },
 ];
 
 const benefits = [
@@ -89,6 +149,13 @@ const steps = [
   { num: "05", title: "Worldwide Delivery", desc: "Shipment to warehouse or fulfillment center" },
 ];
 
+const factoryPoints = [
+  "Rigid box forming & assembly",
+  "In-process quality checks",
+  "Manual finishing and packing",
+  "Production footage available for buyer review",
+];
+
 const projects = [
   { img: "/img/project-skincare.webp", alt: "Skincare gift box", title: "Skincare Gift Box", desc: "Magnetic rigid structure · premium insert" },
   { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", desc: "Rigid presentation box · foil detailing" },
@@ -96,6 +163,14 @@ const projects = [
   { img: "/img/project-candle.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
   { img: "/img/project-gift.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
   { img: "/img/project-pr.webp", alt: "PR packaging box", title: "PR / Influencer Box", desc: "Custom structure · campaign packaging" },
+];
+
+const sustainList = [
+  "FSC-certified paper options*",
+  "Recyclable paper inserts",
+  "Molded pulp inserts",
+  "Reduced-plastic structures",
+  "Space-saving foldable boxes",
 ];
 
 export default function Home() {
@@ -151,12 +226,12 @@ export default function Home() {
             </p>
           </div>
           <div className="product-grid">
-            {products.map((item) => (
-              <article className="card" key={item.title}>
-                <img src={item.img} alt={item.alt} />
+            {products.map((p) => (
+              <article className="card" key={p.title}>
+                <img src={p.img} alt={p.alt} />
                 <div>
-                  <h3>{item.title}</h3>
-                  <p>{item.desc}</p>
+                  <h3>{p.title}</h3>
+                  <p>{p.desc}</p>
                   <a href="#quote">Request pricing →</a>
                 </div>
               </article>
@@ -176,11 +251,14 @@ export default function Home() {
             </p>
           </div>
           <div className="industry-grid">
-            {industries.map((item) => (
-              <div className="industry" key={item.label}>
-                <img src={item.img} alt={item.alt} />
-                <b>{item.label}</b>
-              </div>
+            {industries.map((i) => (
+              <article className="industry" key={i.title}>
+                <img src={i.img} alt={i.alt} />
+                <div className="industry-copy">
+                  <b>{i.title}</b>
+                  <span>{i.desc}</span>
+                </div>
+              </article>
             ))}
           </div>
         </div>
@@ -197,11 +275,14 @@ export default function Home() {
             </p>
           </div>
           <div className="finish-grid">
-            {finishes.map((item) => (
-              <div key={item.label}>
-                <img src={item.img} alt={item.alt} />
-                <b>{item.label}</b>
-              </div>
+            {finishes.map((f) => (
+              <article className="finish-card" key={f.title}>
+                <img src={f.img} alt={f.alt} />
+                <div>
+                  <b>{f.title}</b>
+                  <span>{f.desc}</span>
+                </div>
+              </article>
             ))}
           </div>
         </div>
@@ -214,11 +295,11 @@ export default function Home() {
             <h2>Built for Growing Brands</h2>
           </div>
           <div className="benefit-grid">
-            {benefits.map((item) => (
-              <article key={item.num}>
-                <strong>{item.num}</strong>
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
+            {benefits.map((b) => (
+              <article key={b.num}>
+                <strong>{b.num}</strong>
+                <h3>{b.title}</h3>
+                <p>{b.desc}</p>
               </article>
             ))}
           </div>
@@ -232,11 +313,11 @@ export default function Home() {
             <h2>From Idea to Finished Packaging</h2>
           </div>
           <ol className="steps">
-            {steps.map((item) => (
-              <li key={item.num}>
-                <span>{item.num}</span>
-                <b>{item.title}</b>
-                <small>{item.desc}</small>
+            {steps.map((s) => (
+              <li key={s.num}>
+                <span>{s.num}</span>
+                <b>{s.title}</b>
+                <small>{s.desc}</small>
               </li>
             ))}
           </ol>
@@ -251,26 +332,21 @@ export default function Home() {
             <p>
               From forming and printing to assembly and quality inspection,
               packaging projects are controlled throughout production. The
-              videos below use real manufacturing footage provided for this
-              project.
+              video below uses real manufacturing footage provided for this
+              project and is displayed in full frame to preserve the original
+              content.
             </p>
             <ul>
-              <li>Rigid box forming & assembly</li>
-              <li>In-process quality checks</li>
-              <li>Manual finishing and packing</li>
-              <li>Production footage available for buyer review</li>
+              {factoryPoints.map((point) => (
+                <li key={point}>{point}</li>
+              ))}
             </ul>
             <a className="btn dark" href="#quote">
               Discuss Your Project
             </a>
           </div>
           <div className="factory-video">
-            <video
-              controls
-              muted
-              preload="metadata"
-              poster="/img/factory-poster.webp"
-            >
+            <video controls muted preload="metadata" poster="/img/factory-poster.webp">
               <source src="/video/factory-tour.mp4" type="video/mp4" />
               Your browser does not support video.
             </video>
@@ -290,11 +366,11 @@ export default function Home() {
             </p>
           </div>
           <div className="project-grid">
-            {projects.map((item) => (
-              <article key={item.title}>
-                <img src={item.img} alt={item.alt} />
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
+            {projects.map((p) => (
+              <article key={p.title}>
+                <img src={p.img} alt={p.alt} />
+                <h3>{p.title}</h3>
+                <p>{p.desc}</p>
               </article>
             ))}
           </div>
@@ -305,16 +381,12 @@ export default function Home() {
         <div className="container sustain-grid">
           <div>
             <span className="eyebrow">BETTER MATERIAL CHOICES</span>
-            <h2>
-              Premium Packaging with Practical Sustainability Options
-            </h2>
+            <h2>Premium Packaging with Practical Sustainability Options</h2>
           </div>
           <div className="sustain-list">
-            <span>FSC-certified paper options*</span>
-            <span>Recyclable paper inserts</span>
-            <span>Molded pulp inserts</span>
-            <span>Reduced-plastic structures</span>
-            <span>Space-saving foldable boxes</span>
+            {sustainList.map((item) => (
+              <span key={item}>{item}</span>
+            ))}
           </div>
           <small>
             *Availability depends on the selected supplier, paper mill and
@@ -334,9 +406,17 @@ export default function Home() {
               The form will prepare a WhatsApp inquiry so you can send the full
               project details directly.
             </p>
-            <div className="contact-note">
-              <b>WhatsApp</b>
-              <span>+86 159 1388 1634</span>
+            <div className="contact-list">
+              <div className="contact-note">
+                <b>WhatsApp</b>
+                <a href="https://wa.me/8615913881634" target="_blank" rel="noopener">
+                  +86 159 1388 1634
+                </a>
+              </div>
+              <div className="contact-note">
+                <b>Email</b>
+                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+              </div>
             </div>
           </div>
           <QuoteForm />
