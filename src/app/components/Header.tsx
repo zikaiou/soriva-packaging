@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 const navItems = [
-  { href: "#products", label: "Products" },
-  { href: "#industries", label: "Industries" },
-  { href: "#custom", label: "Custom Options" },
-  { href: "#factory", label: "Factory" },
-  { href: "#projects", label: "Projects" },
+  { href: "/#products", label: "Products" },
+  { href: "/#industries", label: "Industries" },
+  { href: "/#custom", label: "Custom Options" },
+  { href: "/#factory", label: "Factory" },
+  { href: "/#projects", label: "Projects" },
 ];
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="site-header" id="top">
       <div className="nav-wrap">
-        <a className="brand" href="#top" aria-label="SORIVA Packaging home">
+        <a className="brand" href="/" aria-label="SORIVA Packaging home">
           <span className="brand-mark">S</span>
           <span>
             <b>SORIVA</b>
@@ -38,7 +38,7 @@ export default function Header() {
               {item.label}
             </a>
           ))}
-          <a href="#quote" className="nav-cta" onClick={close}>
+          <a href="/#quote" className="nav-cta" onClick={close}>
             Get a Quote
           </a>
         </nav>

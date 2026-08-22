@@ -119,23 +119,23 @@ export default function RootLayout({
             </div>
             <div>
               <b>Products</b>
-              <a href="#products">Magnetic Rigid Boxes</a>
-              <a href="#products">Rigid Gift Boxes</a>
-              <a href="#products">Drawer Boxes</a>
-              <a href="#products">Foldable Boxes</a>
+              <a href="/#products">Magnetic Rigid Boxes</a>
+              <a href="/#products">Rigid Gift Boxes</a>
+              <a href="/#products">Drawer Boxes</a>
+              <a href="/#products">Foldable Boxes</a>
             </div>
             <div>
               <b>Industries</b>
-              <a href="#industries">Cosmetics</a>
-              <a href="#industries">Perfume</a>
-              <a href="#industries">Jewelry</a>
-              <a href="#industries">Corporate Gifts</a>
+              <a href="/#industries">Cosmetics</a>
+              <a href="/#industries">Perfume</a>
+              <a href="/#industries">Jewelry</a>
+              <a href="/#industries">Corporate Gifts</a>
             </div>
             <div>
               <b>Company</b>
-              <a href="#factory">Factory</a>
-              <a href="#projects">Projects</a>
-              <a href="#quote">Request Quote</a>
+              <a href="/#factory">Factory</a>
+              <a href="/#projects">Projects</a>
+              <a href="/#quote">Request Quote</a>
             </div>
           </div>
           <div className="container copyright">
