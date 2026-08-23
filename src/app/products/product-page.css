@@ -754,3 +754,74 @@
   color: var(--gold);
   font-weight: 600;
 }
+
+/* ---------- Projects case cards ---------- */
+.mrb-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.mrb-case {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.mrb-case > img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.mrb-case-body {
+  padding: 20px 22px 22px;
+}
+.mrb-case-body h3 {
+  font-size: 17px;
+  margin: 0 0 14px;
+  color: var(--ink);
+  font-weight: 700;
+}
+.mrb-case .row {
+  display: flex;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 13px;
+}
+.mrb-case .row:last-child {
+  border-bottom: none;
+}
+.mrb-case .row b {
+  flex: none;
+  min-width: 86px;
+  color: var(--gold);
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+.mrb-case .row span {
+  color: var(--ink);
+}
+@media (max-width: 860px) {
+  .mrb-cases {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Process variants ---------- */
+.mrb-process-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.mrb-process .mrb-step small {
+  display: block;
+  color: #9a9a9a;
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+@media (max-width: 1024px) {
+  .mrb-process-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
