@@ -719,3 +719,18 @@
     text-align: left;
   }
 }
+
+/* ---------- Products hub page ---------- */
+.mrb-apps-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1024px) {
+  .mrb-apps-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 620px) {
+  .mrb-apps-3 {
+    grid-template-columns: 1fr;
+  }
+}
