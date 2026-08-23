@@ -825,3 +825,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ---------- MOQ note line (dark sections) ---------- */
+.mrb-moq-note {
+  text-align: center;
+  margin: 26px 0 0;
+  color: #e8c98a;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
