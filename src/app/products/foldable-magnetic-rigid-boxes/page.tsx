@@ -11,7 +11,7 @@ const PAGE_URL =
 export const metadata: Metadata = {
   title: "Custom Foldable Magnetic Rigid Boxes",
   description:
-    "Custom foldable magnetic rigid boxes that ship flat to cut freight and storage costs by up to 60%. Luxury presentation with tool-free assembly for cosmetics, candles, jewelry and corporate gifts.",
+    "Custom foldable magnetic rigid boxes with MOQ from 100 pcs, 48H sample and fast production. Greyboard + specialty paper, hidden magnetic closure and tailored inserts for cosmetics, perfume, jewelry and corporate gifts.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Foldable Magnetic Rigid Boxes | SORIVA Packaging",
     description:
-      "Flat-shipping foldable magnetic boxes with luxury finishes. Reduced freight, premium unboxing. OEM packaging for growing brands.",
+      "Foldable magnetic rigid boxes with space-saving design, MOQ from 100 pcs and factory production video. OEM packaging for growing brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -130,6 +130,22 @@ const applications = [
   },
 ];
 
+const specs = [
+  { label: "Structure", value: "Foldable Magnetic Rigid Box" },
+  { label: "Material", value: "Greyboard + Specialty Paper" },
+  { label: "Closure", value: "Hidden Magnetic Closure" },
+  { label: "Insert", value: "EVA / Velvet / Paper" },
+  { label: "MOQ", value: "From 100 pcs" },
+  { label: "Sample", value: "1 pc available" },
+];
+
+const stats = [
+  { value: "10,000㎡", label: "Factory Area" },
+  { value: "400+", label: "Employees" },
+  { value: "50M+", label: "Annual Capacity" },
+  { value: "20 Years", label: "Experience" },
+];
+
 const customOptions = [
   "Custom size & structure",
   "Specialty paper options",
@@ -163,13 +179,19 @@ export default function FoldableRigidBoxesPage() {
               <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
               <h1>Custom Foldable Magnetic Rigid Boxes</h1>
               <p className="mrb-subtitle">
-                Premium Presentation with Space-Saving Logistics
+                Luxury Packaging With Space-Saving Design
               </p>
               <p className="mrb-lead">
-                Combine the premium look of a rigid box with flat-shipping
-                logistics. Foldable magnetic boxes reduce freight and storage
-                cost while keeping the unboxing experience intact.
+                Premium foldable rigid boxes developed for cosmetics, perfume,
+                jewelry and luxury brands with flexible MOQ and fast
+                production.
               </p>
+              <div className="mrb-tags">
+                <span>MOQ From 100 pcs</span>
+                <span>1 Pc Prototype</span>
+                <span>48H Sample</span>
+                <span>7-Day Production</span>
+              </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
                   Get a Quote
@@ -195,6 +217,27 @@ export default function FoldableRigidBoxesPage() {
                 height="900"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">PRODUCT SPECIFICATIONS</span>
+            <h2>Product Specifications</h2>
+            <p>
+              Standard parameters for foldable magnetic rigid boxes. Custom
+              sizes and materials are available on request.
+            </p>
+          </div>
+          <div className="mrb-spec">
+            {specs.map((s) => (
+              <div className="mrb-spec-item" key={s.label}>
+                <b>{s.label}</b>
+                <span>{s.value}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -288,7 +331,7 @@ export default function FoldableRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head">
             <span className="mrb-eyebrow">PRODUCTION</span>
-            <h2>From Design to Production</h2>
+            <h2>Production Workflow</h2>
             <p>
               A controlled workflow from material preparation through final
               quality inspection and global delivery.
@@ -299,6 +342,50 @@ export default function FoldableRigidBoxesPage() {
               <div className="mrb-step" key={s}>
                 <span>{String(i + 1).padStart(2, "0")}</span>
                 <b>{s}</b>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section dark" id="factory-video">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="mrb-eyebrow">FACTORY VIDEO</span>
+            <h2>From Design to Production</h2>
+            <p>Real factory production process.</p>
+          </div>
+          <div className="mrb-factory-video">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              preload="metadata"
+              poster="/img/factory-poster.webp"
+            >
+              <source src="/video/factory-production.mp4" type="video/mp4" />
+              Your browser does not support video.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
+            <h2>Manufacturing Capability</h2>
+            <p>
+              Production capacity and experience behind every order.
+            </p>
+          </div>
+          <div className="mrb-stats">
+            {stats.map((s) => (
+              <div className="mrb-stat" key={s.label}>
+                <b>{s.value}</b>
+                <span>{s.label}</span>
               </div>
             ))}
           </div>
