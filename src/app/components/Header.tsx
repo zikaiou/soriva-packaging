@@ -5,9 +5,9 @@ import { useState } from "react";
 const navItems = [
   { href: "/products/", label: "Products" },
   { href: "/#industries", label: "Industries" },
-  { href: "/#custom", label: "Custom Options" },
+  { href: "/custom-packaging/", label: "Custom Options" },
   { href: "/#factory", label: "Factory" },
-  { href: "/#projects", label: "Projects" },
+  { href: "/projects/", label: "Projects" },
 ];
 
 export default function Header() {
