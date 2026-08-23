@@ -3,6 +3,19 @@ import type { MetadataRoute } from "next";
 const BASE_URL = "https://sorivapackaging.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const productPages = [
+    "magnetic-rigid-boxes",
+    "foldable-magnetic-rigid-boxes",
+    "drawer-boxes",
+    "two-piece-rigid-boxes",
+    "paper-bags",
+  ] as const;
+  const productEntries: MetadataRoute.Sitemap = productPages.map((slug) => ({
+    url: `${BASE_URL}/products/${slug}/`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
   return [
     {
       url: BASE_URL,
@@ -10,11 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1,
     },
+    ...productEntries,
     {
-      url: `${BASE_URL}/products/magnetic-rigid-boxes/`,
+      url: `${BASE_URL}/contact/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
     },
   ];
 }

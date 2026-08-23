@@ -5,29 +5,29 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/magnetic-rigid-boxes/";
+const PAGE_URL = "https://sorivapackaging.com/products/two-piece-rigid-boxes/";
 
 export const metadata: Metadata = {
-  title: "Custom Magnetic Rigid Boxes",
+  title: "Custom Two-Piece Rigid Boxes",
   description:
-    "Custom magnetic rigid boxes with strong closure, rigid board construction, custom inserts and luxury finishes. Premium packaging for cosmetics, perfume, jewelry and corporate gifts. Flexible MOQ and worldwide shipping.",
+    "Custom two-piece rigid boxes with classic lid-and-base construction, heavyweight board and premium wrapping. Timeless presentation for cosmetics, perfume, jewelry and corporate gifts.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes | SORIVA Packaging",
+    title: "Custom Two-Piece Rigid Boxes | SORIVA Packaging",
     description:
-      "Luxury magnetic rigid boxes with premium materials, refined finishes and tailored inserts. OEM packaging for cosmetics, perfume, jewelry and corporate gifts.",
+      "Classic lid-and-base rigid presentation boxes with premium finishes and custom inserts. OEM packaging for luxury brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://sorivapackaging.com/img/two-piece-rigid.webp",
         width: 1200,
         height: 900,
-        alt: "Custom magnetic rigid box",
+        alt: "Two piece rigid gift box",
       },
     ],
   },
@@ -38,10 +38,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Product",
-      name: "Custom Magnetic Rigid Boxes",
+      name: "Custom Two-Piece Rigid Boxes",
       description:
-        "Custom magnetic rigid boxes with strong magnetic closure, rigid board construction, custom inserts and luxury finishes. Available for cosmetics, perfume, jewelry and corporate gift packaging.",
-      image: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        "Classic lid-and-base rigid boxes with heavyweight board, premium paper wrapping, custom inserts and luxury finishes.",
+      image: "https://sorivapackaging.com/img/two-piece-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Rigid board, specialty paper",
@@ -53,7 +53,7 @@ const structuredData = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Custom Magnetic Rigid Boxes",
+          name: "Custom Two-Piece Rigid Boxes",
           item: PAGE_URL,
         },
       ],
@@ -64,30 +64,30 @@ const structuredData = {
 const features = [
   {
     num: "01",
-    title: "Strong Magnetic Closure",
-    desc: "Integrated magnets create a secure, satisfying close that protects contents during handling and transit.",
+    title: "Lid & Base Construction",
+    desc: "Classic two-piece structure that separates cleanly for a timeless presentation.",
   },
   {
     num: "02",
-    title: "Rigid Board Construction",
-    desc: "Durable board construction gives the box structure and weight, reinforcing the premium feel of your product.",
+    title: "Heavyweight Board",
+    desc: "Durable rigid board gives the box structure, weight and a substantial premium feel.",
   },
   {
     num: "03",
-    title: "Custom Inserts",
-    desc: "Paper, EVA or velvet inserts tailored to hold your product precisely in place.",
+    title: "Premium Paper Wrapping",
+    desc: "Wrapped in specialty paper, velvet or linen textures for a refined surface finish.",
   },
   {
     num: "04",
-    title: "Luxury Finishes",
-    desc: "Foil stamping, embossing, textured paper and premium edge finishing for a distinctive presentation.",
+    title: "Custom Inserts",
+    desc: "Paper, EVA or velvet inserts tailored to hold your product precisely in place.",
   },
 ];
 
 const details = [
   {
     img: "/img/foil-clean.webp",
-    alt: "Gold foil stamping on magnetic rigid box",
+    alt: "Gold foil stamping on rigid box",
     caption: "Gold Foil Stamping",
   },
   {
@@ -96,35 +96,35 @@ const details = [
     caption: "Embossing / Debossing",
   },
   {
-    img: "/img/insert-clean.webp",
-    alt: "Custom insert inside magnetic rigid box",
-    caption: "Custom Inserts",
+    img: "/img/edge-clean.webp",
+    alt: "Premium edge finish on rigid box",
+    caption: "Premium Edge Finish",
   },
 ];
 
 const applications = [
   {
     img: "/img/cosmetics.webp",
-    alt: "Cosmetics and skincare magnetic rigid box",
-    title: "Cosmetics Packaging",
+    alt: "Cosmetics and skincare packaging",
+    title: "Cosmetics & Skincare",
     desc: "Refined boxes for serums, creams and skincare kits.",
   },
   {
     img: "/img/perfume.webp",
-    alt: "Perfume packaging with custom insert",
-    title: "Perfume Packaging",
-    desc: "Presentation boxes with inserts for bottles and fragrance sets.",
+    alt: "Perfume and fragrance packaging",
+    title: "Perfume & Fragrance",
+    desc: "Presentation boxes for bottles and fragrance sets.",
   },
   {
     img: "/img/jewelry.webp",
     alt: "Jewelry and watches packaging",
-    title: "Jewelry Packaging",
+    title: "Jewelry & Watches",
     desc: "Compact rigid structures for rings, necklaces and accessories.",
   },
   {
     img: "/img/corporate.webp",
     alt: "Corporate gift packaging",
-    title: "Corporate Gift Packaging",
+    title: "Corporate Gifts",
     desc: "Gift set packaging for campaigns, events and executive presents.",
   },
 ];
@@ -149,33 +149,32 @@ const processSteps = [
   "Global Delivery",
 ];
 
-export default function MagneticRigidBoxesPage() {
+export default function TwoPieceRigidBoxesPage() {
   return (
     <main className="mrb-page">
-      {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a> / Products / Magnetic Rigid Boxes
+            <a href="/">Home</a> / Products / Two-Piece Rigid Boxes
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
-              <h1>Custom Magnetic Rigid Boxes</h1>
+              <h1>Custom Two-Piece Rigid Boxes</h1>
               <p className="mrb-subtitle">
-                Luxury Packaging Designed for Premium Brands
+                Classic Lid-and-Base Presentation
               </p>
               <p className="mrb-lead">
-                Create exceptional unboxing experiences with custom magnetic
-                rigid boxes featuring premium materials, refined finishes and
-                tailored inserts.
+                The timeless lid-and-base rigid box — heavyweight board,
+                premium wrapping and refined finishing. A clean, structural
+                presentation that lets the product and the brand speak.
               </p>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
                   Get a Quote
                 </a>
                 <a
-                  href={waLink(WA_MESSAGES.magnetic)}
+                  href={waLink(WA_MESSAGES.twoPiece)}
                   target="_blank"
                   rel="noopener"
                   className="btn-wa"
@@ -189,8 +188,8 @@ export default function MagneticRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/magnetic-rigid.webp"
-                alt="Custom magnetic rigid box with luxury finish"
+                src="/img/two-piece-rigid.webp"
+                alt="Custom two piece rigid gift box with luxury finish"
                 width="1200"
                 height="900"
               />
@@ -199,15 +198,13 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Features */}
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">PREMIUM FEATURES</span>
-            <h2>Premium Magnetic Rigid Box Solutions</h2>
+            <h2>Two-Piece Rigid Box Solutions</h2>
             <p>
-              Engineered structure, refined materials and tailored finishing
-              built around your product.
+              Structural elegance, premium materials and tailored finishing.
             </p>
           </div>
           <div className="mrb-features">
@@ -222,15 +219,14 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Details gallery */}
       <section className="mrb-section dark" id="details">
         <div className="container">
           <div className="mrb-head">
             <span className="mrb-eyebrow">PRODUCT DETAILS</span>
-            <h2>Explore Magnetic Rigid Box Details</h2>
+            <h2>Explore Two-Piece Rigid Box Details</h2>
             <p>
-              Finishing and insert options that define the look and feel of the
-              finished box.
+              Finishing and material options that define the look and feel of
+              the finished box.
             </p>
           </div>
           <div className="mrb-gallery">
@@ -244,14 +240,13 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Applications */}
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
             <h2>Perfect For Premium Products</h2>
             <p>
-              Magnetic rigid boxes are widely used across premium categories.
+              Two-piece rigid boxes are widely used across premium categories.
             </p>
           </div>
           <div className="mrb-industries">
@@ -268,7 +263,6 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Customization */}
       <section className="mrb-section">
         <div className="container mrb-custom">
           <div className="mrb-head">
@@ -291,7 +285,6 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Process */}
       <section className="mrb-section dark">
         <div className="container">
           <div className="mrb-head">
@@ -313,12 +306,11 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
           <div>
             <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Ready to Create Your Custom Magnetic Rigid Box?</h2>
+            <h2>Ready to Create Your Custom Two-Piece Rigid Box?</h2>
             <p>
               Tell us your product, approximate quantity and packaging idea.
               The form will prepare a WhatsApp inquiry so you can send the full
@@ -327,11 +319,7 @@ export default function MagneticRigidBoxesPage() {
             <div className="mrb-contact">
               <div className="mrb-contact-note">
                 <b>WhatsApp</b>
-                <a
-                  href="https://wa.me/8615913881634"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a href={waLink(WA_MESSAGES.twoPiece)} target="_blank" rel="noopener">
                   +86 159 1388 1634
                 </a>
               </div>

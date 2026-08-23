@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import QuoteForm from "./components/QuoteForm";
+import WhatsAppIcon from "./components/WhatsAppIcon";
+import { waLink, WA_MESSAGES } from "./lib/whatsapp";
 
 const products = [
   {
@@ -7,24 +9,28 @@ const products = [
     alt: "Custom magnetic rigid box",
     title: "Magnetic Rigid Boxes",
     desc: "Premium magnetic closure packaging for cosmetics, gifts and luxury products.",
+    slug: "magnetic-rigid-boxes",
   },
   {
     img: "/img/two-piece-rigid.webp",
     alt: "Two piece rigid gift box",
     title: "Two-Piece Rigid Boxes",
     desc: "Classic lid-and-base presentation boxes with premium finishes and inserts.",
+    slug: "two-piece-rigid-boxes",
   },
   {
     img: "/img/drawer-box.webp",
     alt: "Custom drawer packaging box",
     title: "Drawer Boxes",
     desc: "Elegant sliding boxes ideal for jewelry, beauty products and fragrances.",
+    slug: "drawer-boxes",
   },
   {
     img: "/img/foldable-rigid.webp",
     alt: "Foldable rigid gift box",
     title: "Foldable Rigid Boxes",
     desc: "Luxury presentation with reduced storage and international shipping volume.",
+    slug: "foldable-magnetic-rigid-boxes",
   },
   {
     img: "/img/tube-packaging.webp",
@@ -37,6 +43,7 @@ const products = [
     alt: "Custom luxury paper bags",
     title: "Luxury Paper Bags",
     desc: "Branded retail bags designed to complete your premium packaging system.",
+    slug: "paper-bags",
   },
 ];
 
@@ -193,6 +200,14 @@ export default function Home() {
               <a href="#quote" className="btn gold">
                 Get a Quote
               </a>
+              <a
+                href={waLink(WA_MESSAGES.home)}
+                target="_blank"
+                rel="noopener"
+                className="btn-wa"
+              >
+                <WhatsAppIcon /> Chat on WhatsApp
+              </a>
               <a href="#products" className="btn ghost">
                 Explore Packaging
               </a>
@@ -232,10 +247,22 @@ export default function Home() {
                 <div>
                   <h3>{p.title}</h3>
                   <p>{p.desc}</p>
-                  <a href="#quote">Request pricing →</a>
+                  <a href={p.slug ? `/products/${p.slug}/` : "#quote"}>
+                    {p.slug ? "View details →" : "Request pricing →"}
+                  </a>
                 </div>
               </article>
             ))}
+          </div>
+          <div className="section-cta">
+            <a
+              href={waLink(WA_MESSAGES.products)}
+              target="_blank"
+              rel="noopener"
+              className="btn-wa"
+            >
+              <WhatsAppIcon /> Ask about our packaging products
+            </a>
           </div>
         </div>
       </section>
@@ -260,6 +287,16 @@ export default function Home() {
                 </div>
               </article>
             ))}
+          </div>
+          <div className="section-cta">
+            <a
+              href={waLink(WA_MESSAGES.industries)}
+              target="_blank"
+              rel="noopener"
+              className="btn-wa"
+            >
+              <WhatsAppIcon /> Discuss packaging for your industry
+            </a>
           </div>
         </div>
       </section>
@@ -344,6 +381,15 @@ export default function Home() {
             <a className="btn dark" href="#quote">
               Discuss Your Project
             </a>
+            <a
+              className="btn-wa"
+              href={waLink(WA_MESSAGES.factory)}
+              target="_blank"
+              rel="noopener"
+              style={{ marginTop: 12 }}
+            >
+              <WhatsAppIcon /> Chat about manufacturing
+            </a>
           </div>
           <div className="factory-video">
             <video controls muted preload="metadata" poster="/img/factory-poster.webp">
@@ -373,6 +419,16 @@ export default function Home() {
                 <p>{p.desc}</p>
               </article>
             ))}
+          </div>
+          <div className="section-cta">
+            <a
+              href={waLink(WA_MESSAGES.projects)}
+              target="_blank"
+              rel="noopener"
+              className="btn-wa"
+            >
+              <WhatsAppIcon /> Start a project like these
+            </a>
           </div>
         </div>
       </section>

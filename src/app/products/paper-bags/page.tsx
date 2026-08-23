@@ -5,29 +5,29 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/magnetic-rigid-boxes/";
+const PAGE_URL = "https://sorivapackaging.com/products/paper-bags/";
 
 export const metadata: Metadata = {
-  title: "Custom Magnetic Rigid Boxes",
+  title: "Custom Luxury Paper Bags",
   description:
-    "Custom magnetic rigid boxes with strong closure, rigid board construction, custom inserts and luxury finishes. Premium packaging for cosmetics, perfume, jewelry and corporate gifts. Flexible MOQ and worldwide shipping.",
+    "Custom luxury paper bags with rope or ribbon handles, lamination, spot UV and foil accents. Branded retail bags that complete your premium packaging system.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes | SORIVA Packaging",
+    title: "Custom Luxury Paper Bags | SORIVA Packaging",
     description:
-      "Luxury magnetic rigid boxes with premium materials, refined finishes and tailored inserts. OEM packaging for cosmetics, perfume, jewelry and corporate gifts.",
+      "Branded retail paper bags with premium handles, lamination and foil accents. OEM packaging for fashion, retail and gifting brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://sorivapackaging.com/img/paper-bags.webp",
         width: 1200,
         height: 900,
-        alt: "Custom magnetic rigid box",
+        alt: "Custom luxury paper bags",
       },
     ],
   },
@@ -38,13 +38,13 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Product",
-      name: "Custom Magnetic Rigid Boxes",
+      name: "Custom Luxury Paper Bags",
       description:
-        "Custom magnetic rigid boxes with strong magnetic closure, rigid board construction, custom inserts and luxury finishes. Available for cosmetics, perfume, jewelry and corporate gift packaging.",
-      image: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        "Custom luxury paper bags with rope or ribbon handles, gloss or matte lamination, spot UV and foil accents for retail and gifting brands.",
+      image: "https://sorivapackaging.com/img/paper-bags.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
-      material: "Rigid board, specialty paper",
+      material: "Paper, specialty board",
     },
     {
       "@type": "BreadcrumbList",
@@ -53,7 +53,7 @@ const structuredData = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Custom Magnetic Rigid Boxes",
+          name: "Custom Luxury Paper Bags",
           item: PAGE_URL,
         },
       ],
@@ -64,68 +64,68 @@ const structuredData = {
 const features = [
   {
     num: "01",
-    title: "Strong Magnetic Closure",
-    desc: "Integrated magnets create a secure, satisfying close that protects contents during handling and transit.",
+    title: "Rope & Ribbon Handles",
+    desc: "Twisted paper rope or satin ribbon handles with reinforced attachment points.",
   },
   {
     num: "02",
-    title: "Rigid Board Construction",
-    desc: "Durable board construction gives the box structure and weight, reinforcing the premium feel of your product.",
+    title: "Lamination Options",
+    desc: "Gloss or matte lamination for a polished surface and consistent brand color.",
   },
   {
     num: "03",
-    title: "Custom Inserts",
-    desc: "Paper, EVA or velvet inserts tailored to hold your product precisely in place.",
+    title: "Spot UV & Foil Accents",
+    desc: "Selective gloss and metallic foil details that make branding stand out.",
   },
   {
     num: "04",
-    title: "Luxury Finishes",
-    desc: "Foil stamping, embossing, textured paper and premium edge finishing for a distinctive presentation.",
+    title: "Reinforced Base",
+    desc: "Heavyweight board base that keeps the bag stable when carrying heavier items.",
   },
 ];
 
 const details = [
   {
     img: "/img/foil-clean.webp",
-    alt: "Gold foil stamping on magnetic rigid box",
+    alt: "Gold foil stamping on paper bag",
     caption: "Gold Foil Stamping",
   },
   {
-    img: "/img/emboss-clean.webp",
-    alt: "Embossed logo detail on rigid box",
-    caption: "Embossing / Debossing",
+    img: "/img/texture-clean.webp",
+    alt: "Textured paper finish on paper bag",
+    caption: "Textured Paper",
   },
   {
-    img: "/img/insert-clean.webp",
-    alt: "Custom insert inside magnetic rigid box",
-    caption: "Custom Inserts",
+    img: "/img/ribbon-clean.webp",
+    alt: "Satin ribbon handle detail",
+    caption: "Ribbon & Accessories",
   },
 ];
 
 const applications = [
   {
-    img: "/img/cosmetics.webp",
-    alt: "Cosmetics and skincare magnetic rigid box",
-    title: "Cosmetics Packaging",
-    desc: "Refined boxes for serums, creams and skincare kits.",
-  },
-  {
-    img: "/img/perfume.webp",
-    alt: "Perfume packaging with custom insert",
-    title: "Perfume Packaging",
-    desc: "Presentation boxes with inserts for bottles and fragrance sets.",
-  },
-  {
-    img: "/img/jewelry.webp",
-    alt: "Jewelry and watches packaging",
-    title: "Jewelry Packaging",
-    desc: "Compact rigid structures for rings, necklaces and accessories.",
+    img: "/img/fashion.webp",
+    alt: "Fashion and apparel packaging",
+    title: "Fashion & Apparel",
+    desc: "Premium bags for garments, scarves and retail presentation.",
   },
   {
     img: "/img/corporate.webp",
     alt: "Corporate gift packaging",
-    title: "Corporate Gift Packaging",
-    desc: "Gift set packaging for campaigns, events and executive presents.",
+    title: "Corporate Gifts",
+    desc: "Branded bags for campaigns, events and client gifting.",
+  },
+  {
+    img: "/img/cosmetics.webp",
+    alt: "Cosmetics and skincare packaging",
+    title: "Cosmetics & Skincare",
+    desc: "Retail bags for beauty products and store presentation.",
+  },
+  {
+    img: "/img/jewelry.webp",
+    alt: "Jewelry and watches packaging",
+    title: "Jewelry & Watches",
+    desc: "Compact bags for boutique and retail jewelry sales.",
   },
 ];
 
@@ -133,49 +133,48 @@ const customOptions = [
   "Custom size & structure",
   "Specialty paper options",
   "Full-color printing",
-  "Custom inserts",
+  "Handle options",
   "Foil stamping",
-  "Embossing / debossing",
-  "Ribbons & accessories",
+  "Spot UV coating",
+  "Tissue paper & accessories",
   "Logo & artwork development",
 ];
 
 const processSteps = [
   "Material Preparation",
-  "Box Forming",
+  "Bag Forming",
   "Printing & Finishing",
   "Assembly",
   "Quality Inspection",
   "Global Delivery",
 ];
 
-export default function MagneticRigidBoxesPage() {
+export default function PaperBagsPage() {
   return (
     <main className="mrb-page">
-      {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a> / Products / Magnetic Rigid Boxes
+            <a href="/">Home</a> / Products / Luxury Paper Bags
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
-              <h1>Custom Magnetic Rigid Boxes</h1>
+              <h1>Custom Luxury Paper Bags</h1>
               <p className="mrb-subtitle">
-                Luxury Packaging Designed for Premium Brands
+                Branded Retail Bags That Complete Your Packaging System
               </p>
               <p className="mrb-lead">
-                Create exceptional unboxing experiences with custom magnetic
-                rigid boxes featuring premium materials, refined finishes and
-                tailored inserts.
+                Premium paper bags with rope or ribbon handles, lamination,
+                spot UV and foil accents — designed to carry your brand out
+                the door and into your customers' hands.
               </p>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
                   Get a Quote
                 </a>
                 <a
-                  href={waLink(WA_MESSAGES.magnetic)}
+                  href={waLink(WA_MESSAGES.paperBags)}
                   target="_blank"
                   rel="noopener"
                   className="btn-wa"
@@ -189,8 +188,8 @@ export default function MagneticRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/magnetic-rigid.webp"
-                alt="Custom magnetic rigid box with luxury finish"
+                src="/img/paper-bags.webp"
+                alt="Custom luxury paper bags with branded handles"
                 width="1200"
                 height="900"
               />
@@ -199,15 +198,13 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Features */}
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">PREMIUM FEATURES</span>
-            <h2>Premium Magnetic Rigid Box Solutions</h2>
+            <h2>Paper Bag Solutions</h2>
             <p>
-              Engineered structure, refined materials and tailored finishing
-              built around your product.
+              Branded retail bags built to complement your packaging range.
             </p>
           </div>
           <div className="mrb-features">
@@ -222,15 +219,14 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Details gallery */}
       <section className="mrb-section dark" id="details">
         <div className="container">
           <div className="mrb-head">
             <span className="mrb-eyebrow">PRODUCT DETAILS</span>
-            <h2>Explore Magnetic Rigid Box Details</h2>
+            <h2>Explore Paper Bag Details</h2>
             <p>
-              Finishing and insert options that define the look and feel of the
-              finished box.
+              Finishing and material options that define the look and feel of
+              the finished bag.
             </p>
           </div>
           <div className="mrb-gallery">
@@ -244,14 +240,13 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Applications */}
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
-            <h2>Perfect For Premium Products</h2>
+            <h2>Perfect For Retail & Gifting</h2>
             <p>
-              Magnetic rigid boxes are widely used across premium categories.
+              Paper bags are widely used across retail and gifting categories.
             </p>
           </div>
           <div className="mrb-industries">
@@ -268,7 +263,6 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Customization */}
       <section className="mrb-section">
         <div className="container mrb-custom">
           <div className="mrb-head">
@@ -276,8 +270,7 @@ export default function MagneticRigidBoxesPage() {
             <h2>Made to Your Specification</h2>
             <p>
               Every element can be developed around your brand — custom size,
-              paper, printing, inserts, foil stamping, embossing and
-              accessories.
+              paper, printing, handles, foil stamping, spot UV and accessories.
             </p>
             <a className="btn gold" href="#quote" style={{ marginTop: 8 }}>
               Discuss Your Project
@@ -291,7 +284,6 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Process */}
       <section className="mrb-section dark">
         <div className="container">
           <div className="mrb-head">
@@ -313,12 +305,11 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
-      {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
           <div>
             <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Ready to Create Your Custom Magnetic Rigid Box?</h2>
+            <h2>Ready to Create Your Custom Paper Bags?</h2>
             <p>
               Tell us your product, approximate quantity and packaging idea.
               The form will prepare a WhatsApp inquiry so you can send the full
@@ -327,11 +318,7 @@ export default function MagneticRigidBoxesPage() {
             <div className="mrb-contact">
               <div className="mrb-contact-note">
                 <b>WhatsApp</b>
-                <a
-                  href="https://wa.me/8615913881634"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <a href={waLink(WA_MESSAGES.paperBags)} target="_blank" rel="noopener">
                   +86 159 1388 1634
                 </a>
               </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import Header from "./components/Header";
+import { waLink, WA_MESSAGES } from "./lib/whatsapp";
 import "./globals.css";
 import "./site.css";
 
@@ -135,7 +136,7 @@ export default function RootLayout({
               <b>Company</b>
               <a href="/#factory">Factory</a>
               <a href="/#projects">Projects</a>
-              <a href="/#quote">Request Quote</a>
+              <a href="/contact/">Request Quote</a>
             </div>
           </div>
           <div className="container copyright">
@@ -149,7 +150,7 @@ export default function RootLayout({
         </footer>
         <a
           className="whatsapp-float"
-          href="https://wa.me/8615913881634?text=Hello%20SORIVA%20Packaging%2C%20I%20would%20like%20to%20discuss%20a%20custom%20packaging%20project."
+          href={waLink(WA_MESSAGES.home)}
           target="_blank"
           rel="noopener"
           aria-label="Chat with SORIVA Packaging on WhatsApp"

@@ -38,7 +38,7 @@ export default function Header() {
               {item.label}
             </a>
           ))}
-          <a href="/#quote" className="nav-cta" onClick={close}>
+          <a href="/contact/" className="nav-cta" onClick={close}>
             Get a Quote
           </a>
         </nav>

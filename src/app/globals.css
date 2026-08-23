@@ -33,3 +33,35 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* WhatsApp direct chat button (global, used on home + product pages) */
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #1f8f4e;
+  color: #fff !important;
+  border-radius: 999px;
+  padding: 13px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  box-shadow: 0 8px 22px rgba(31, 143, 78, 0.28);
+}
+.btn-wa:hover {
+  background: #177a41;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(31, 143, 78, 0.34);
+}
+.btn-wa svg {
+  flex: none;
+}
+
+/* Centered section-level CTA row (home sections) */
+.section-cta {
+  margin-top: 42px;
+  text-align: center;
+}
