@@ -9,9 +9,9 @@ const PAGE_URL =
   "https://sorivapackaging.com/products/foldable-magnetic-rigid-boxes/";
 
 export const metadata: Metadata = {
-  title: "Custom Foldable Magnetic Rigid Boxes",
+  title: "Custom Foldable Magnetic Rigid Boxes Manufacturer",
   description:
-    "Custom foldable magnetic rigid boxes with MOQ from 100 pcs, 48H sample and fast production. Greyboard + specialty paper, hidden magnetic closure and tailored inserts for cosmetics, perfume, jewelry and corporate gifts.",
+    "Custom Foldable Magnetic Rigid Boxes from SORIVA Packaging with custom size, premium finishes, inserts, MOQ from 100 pcs, 1 pc prototype, 48-hour sample support and global shipping.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Foldable Magnetic Rigid Boxes | SORIVA Packaging",
     description:
-      "Foldable magnetic rigid boxes with space-saving design, MOQ from 100 pcs and factory production video. OEM packaging for growing brands.",
+      "Foldable magnetic rigid boxes with premium presentation and space-saving logistics. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -34,6 +34,159 @@ export const metadata: Metadata = {
   },
 };
 
+const features = [
+  {
+    title: "Premium Rigid Construction",
+    desc: "Durable greyboard structure designed for a premium hand feel.",
+  },
+  {
+    title: "Custom Size & Structure",
+    desc: "Dimensions and structure developed around your product.",
+  },
+  {
+    title: "Custom Inserts",
+    desc: "EVA, velvet, paper or molded pulp options.",
+  },
+  {
+    title: "Luxury Finishes",
+    desc: "Foil, embossing, debossing, UV and specialty paper options.",
+  },
+];
+
+const logistics = [
+  {
+    title: "Flat-Pack Shipping",
+    desc: "Collapsible construction for more efficient export packing.",
+  },
+  {
+    title: "Space-Saving Storage",
+    desc: "Reduces warehouse space before boxes are assembled.",
+  },
+  {
+    title: "Premium Appearance",
+    desc: "Maintains the rigid presentation expected from luxury packaging.",
+  },
+  {
+    title: "Easy Assembly",
+    desc: "Designed for quick setup at your warehouse or fulfillment location.",
+  },
+];
+
+const specs = [
+  { label: "Product Type", value: "Custom Foldable Magnetic Rigid Boxes" },
+  { label: "Core Material", value: "Rigid Greyboard + Custom Wrapping Paper" },
+  {
+    label: "Surface Options",
+    value: "Art Paper / Specialty Paper / Textured Paper / Fabric / Leatherette",
+  },
+  { label: "Printing", value: "CMYK / Pantone / Offset / Digital" },
+  {
+    label: "Finishing",
+    value: "Gold/Silver Foil / Emboss / Deboss / Spot UV / Lamination",
+  },
+  { label: "Insert Options", value: "EVA / Velvet / Paperboard / Molded Pulp" },
+  { label: "MOQ", value: "From 100 pcs, subject to project specification" },
+  { label: "Prototype", value: "1 pc prototype available" },
+  {
+    label: "Sample Time",
+    value: "Fast sample support from 48 hours, depending on complexity",
+  },
+  {
+    label: "Production",
+    value: "Fast production support from around 7 days, depending on order details",
+  },
+];
+
+const structure = [
+  "Premium wrapping paper surface",
+  "Rigid greyboard core",
+  "Foldable hinge structure",
+  "Hidden magnetic closure",
+  "Custom product insert",
+];
+
+const details = [
+  { img: "/img/foldable-rigid.webp", caption: "Open Box Presentation" },
+  { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
+  { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
+  { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
+  { img: "/img/project-perfume.webp", caption: "Perfume Packaging" },
+  { img: "/img/project-skincare.webp", caption: "Skincare Gift Set" },
+];
+
+const applications = [
+  {
+    img: "/img/project-skincare.webp",
+    title: "Cosmetics & Skincare",
+    desc: "Serums, creams and beauty gift sets.",
+  },
+  {
+    img: "/img/project-perfume.webp",
+    title: "Perfume & Fragrance",
+    desc: "Fragrance bottles and luxury sets.",
+  },
+  {
+    img: "/img/project-jewelry.webp",
+    title: "Jewelry & Watches",
+    desc: "Rings, necklaces and premium accessories.",
+  },
+  {
+    img: "/img/project-gift-clean.webp",
+    title: "Corporate Gifts",
+    desc: "Brand campaigns and executive gift sets.",
+  },
+];
+
+const stats = [
+  { value: "10,000㎡", label: "Factory Area" },
+  { value: "400+", label: "Employees" },
+  { value: "50M+", label: "Annual Capacity" },
+  { value: "20 Years", label: "Production Experience" },
+];
+
+const processSteps = [
+  { title: "Material Preparation", sub: "Paper & board" },
+  { title: "Printing & Finishing", sub: "Brand artwork" },
+  { title: "Box Forming", sub: "Structure assembly" },
+  { title: "Quality Inspection", sub: "Appearance & fit" },
+  { title: "Global Delivery", sub: "Air / Sea / Express" },
+];
+
+const faqs = [
+  {
+    q: "Can I customize the box size?",
+    a: "Yes. Dimensions can be developed according to your product and packaging requirements.",
+  },
+  {
+    q: "What is the MOQ?",
+    a: "Selected custom projects can start from 100 pcs, depending on materials, size and finishing.",
+  },
+  {
+    q: "Can I order a prototype?",
+    a: "Yes. A 1 pc prototype can be produced for structure, size, artwork and finish confirmation.",
+  },
+  {
+    q: "How fast can samples be made?",
+    a: "Fast sample support can start from 48 hours for suitable projects; complex structures or finishes may require more time.",
+  },
+  {
+    q: "How long does production take?",
+    a: "Fast production can start from around 7 days for suitable confirmed projects, depending on quantity and finishing complexity.",
+  },
+  {
+    q: "Where do you ship?",
+    a: "We support customers in the USA, Europe, Japan, Korea and other international markets by sea, air and express.",
+  },
+  {
+    q: "Does the box require assembly?",
+    a: "Yes. Foldable boxes are shipped flat and designed for quick assembly before product packing.",
+  },
+  {
+    q: "Are foldable rigid boxes suitable for international shipping?",
+    a: "Yes. Their flat-pack structure can improve carton and warehouse space efficiency for export projects.",
+  },
+];
+
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -41,11 +194,11 @@ const structuredData = {
       "@type": "Product",
       name: "Custom Foldable Magnetic Rigid Boxes",
       description:
-        "Foldable magnetic rigid boxes that ship flat to reduce freight and storage cost, with tool-free assembly and luxury finishing options.",
+        "Custom foldable magnetic rigid boxes with premium presentation and space-saving logistics. Rigid greyboard construction, hidden magnetic closures and tailored inserts. MOQ from 100 pcs.",
       image: "https://sorivapackaging.com/img/foldable-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
-      material: "Rigid board, specialty paper",
+      material: "Rigid greyboard + custom wrapping paper",
     },
     {
       "@type": "BreadcrumbList",
@@ -59,116 +212,21 @@ const structuredData = {
         },
       ],
     },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
   ],
 };
-
-const features = [
-  {
-    num: "01",
-    title: "Ships Flat",
-    desc: "Collapsible structure reduces freight and storage volume by up to 60% compared with pre-assembled rigid boxes.",
-  },
-  {
-    num: "02",
-    title: "Tool-Free Assembly",
-    desc: "Unfold and press the corner tabs — the box takes its rigid shape in seconds, no tools required.",
-  },
-  {
-    num: "03",
-    title: "Magnetic Closure",
-    desc: "Hidden magnets create a secure, premium close that protects contents and elevates the unboxing moment.",
-  },
-  {
-    num: "04",
-    title: "Luxury Finishes",
-    desc: "Foil stamping, textured paper and satin ribbons deliver the same premium look as a rigid box.",
-  },
-];
-
-const details = [
-  {
-    img: "/img/texture-clean.webp",
-    alt: "Textured paper finish on foldable box",
-    caption: "Textured Paper",
-  },
-  {
-    img: "/img/foil-clean.webp",
-    alt: "Gold foil stamping on foldable box",
-    caption: "Gold Foil Stamping",
-  },
-  {
-    img: "/img/ribbon-clean.webp",
-    alt: "Satin ribbon closure on foldable box",
-    caption: "Ribbon & Accessories",
-  },
-];
-
-const applications = [
-  {
-    img: "/img/candles.webp",
-    alt: "Candle gift packaging in foldable box",
-    title: "Candle Packaging",
-    desc: "Protective formats for candle jars and home fragrance.",
-  },
-  {
-    img: "/img/cosmetics.webp",
-    alt: "Cosmetics and skincare packaging",
-    title: "Cosmetics & Skincare",
-    desc: "Refined boxes for serums, creams and skincare kits.",
-  },
-  {
-    img: "/img/corporate.webp",
-    alt: "Corporate gift packaging",
-    title: "Corporate Gifts",
-    desc: "Gift set packaging for campaigns and events.",
-  },
-  {
-    img: "/img/jewelry.webp",
-    alt: "Jewelry and watches packaging",
-    title: "Jewelry & Watches",
-    desc: "Compact rigid structures for premium accessories.",
-  },
-];
-
-const specs = [
-  { label: "Structure", value: "Foldable Magnetic Rigid Box" },
-  { label: "Material", value: "Greyboard + Specialty Paper" },
-  { label: "Closure", value: "Hidden Magnetic Closure" },
-  { label: "Insert", value: "EVA / Velvet / Paper" },
-  { label: "MOQ", value: "From 100 pcs" },
-  { label: "Sample", value: "1 pc available" },
-];
-
-const stats = [
-  { value: "10,000㎡", label: "Factory Area" },
-  { value: "400+", label: "Employees" },
-  { value: "50M+", label: "Annual Capacity" },
-  { value: "20 Years", label: "Experience" },
-];
-
-const customOptions = [
-  "Custom size & structure",
-  "Specialty paper options",
-  "Full-color printing",
-  "Custom inserts",
-  "Foil stamping",
-  "Embossing / debossing",
-  "Ribbons & accessories",
-  "Logo & artwork development",
-];
-
-const processSteps = [
-  "Material Preparation",
-  "Box Forming",
-  "Printing & Finishing",
-  "Assembly",
-  "Quality Inspection",
-  "Global Delivery",
-];
 
 export default function FoldableRigidBoxesPage() {
   return (
     <main className="mrb-page">
+      {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
@@ -179,12 +237,12 @@ export default function FoldableRigidBoxesPage() {
               <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
               <h1>Custom Foldable Magnetic Rigid Boxes</h1>
               <p className="mrb-subtitle">
-                Luxury Packaging With Space-Saving Design
+                Luxury Packaging with Space-Saving Design
               </p>
               <p className="mrb-lead">
-                Premium foldable rigid boxes developed for cosmetics, perfume,
-                jewelry and luxury brands with flexible MOQ and fast
-                production.
+                Combine premium rigid-box presentation with a foldable
+                structure designed for more efficient storage, export packing
+                and global distribution.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
@@ -221,40 +279,24 @@ export default function FoldableRigidBoxesPage() {
         </div>
       </section>
 
-      <section className="mrb-section soft">
-        <div className="container">
-          <div className="mrb-head">
-            <span className="eyebrow dark">PRODUCT SPECIFICATIONS</span>
-            <h2>Product Specifications</h2>
-            <p>
-              Standard parameters for foldable magnetic rigid boxes. Custom
-              sizes and materials are available on request.
-            </p>
-          </div>
-          <div className="mrb-spec">
-            {specs.map((s) => (
-              <div className="mrb-spec-item" key={s.label}>
-                <b>{s.label}</b>
-                <span>{s.value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      {/* Product overview */}
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">PREMIUM FEATURES</span>
-            <h2>Foldable Box Solutions</h2>
+            <span className="eyebrow dark">PRODUCT OVERVIEW</span>
+            <h2>Premium Custom Packaging Built Around Your Brand</h2>
             <p>
-              The premium rigid look with practical, cost-saving logistics.
+              Foldable magnetic rigid boxes combine the premium appearance of
+              rigid packaging with a collapsible structure that helps reduce
+              storage and shipping volume. Every project can be customized
+              around your product dimensions, brand artwork and distribution
+              needs.
             </p>
           </div>
           <div className="mrb-features">
-            {features.map((f) => (
-              <article className="mrb-feature" key={f.num}>
-                <strong>{f.num}</strong>
+            {features.map((f, i) => (
+              <article className="mrb-feature" key={f.title}>
+                <strong>{String(i + 1).padStart(2, "0")}</strong>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
               </article>
@@ -263,20 +305,76 @@ export default function FoldableRigidBoxesPage() {
         </div>
       </section>
 
+      {/* Logistics advantage */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">LOGISTICS ADVANTAGE</span>
+            <h2>Luxury Presentation, Smarter Logistics</h2>
+            <p>
+              The foldable structure ships flat and assembles quickly, helping
+              brands use warehouse and freight space more efficiently than
+              fully pre-assembled rigid boxes.
+            </p>
+          </div>
+          <div className="mrb-logistics">
+            {logistics.map((l, i) => (
+              <article className="mrb-feature" key={l.title}>
+                <strong>{String(i + 1).padStart(2, "0")}</strong>
+                <h3>{l.title}</h3>
+                <p>{l.desc}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Technical details */}
+      <section className="mrb-section">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">TECHNICAL DETAILS</span>
+              <h2>Product Specifications</h2>
+            </div>
+            <div className="mrb-spec" style={{ display: "grid", gap: 10 }}>
+              {specs.map((s) => (
+                <div className="mrb-spec-row" key={s.label}>
+                  <b>{s.label}</b>
+                  <span>{s.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="mrb-structure">
+            <div className="mrb-head">
+              <span className="eyebrow dark">STRUCTURE</span>
+              <h2>Materials & Construction</h2>
+            </div>
+            <ol>
+              {structure.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      {/* Details gallery */}
       <section className="mrb-section dark" id="details">
         <div className="container">
           <div className="mrb-head">
             <span className="mrb-eyebrow">PRODUCT DETAILS</span>
-            <h2>Explore Foldable Box Details</h2>
+            <h2>Explore Box Details</h2>
             <p>
-              Finishing and material options that define the look and feel of
-              the finished box.
+              Visual references for structure, finishing, inserts and premium
+              applications.
             </p>
           </div>
           <div className="mrb-gallery">
             {details.map((d) => (
               <figure key={d.caption}>
-                <img src={d.img} alt={d.alt} />
+                <img src={d.img} alt={d.caption} />
                 <figcaption>{d.caption}</figcaption>
               </figure>
             ))}
@@ -284,18 +382,18 @@ export default function FoldableRigidBoxesPage() {
         </div>
       </section>
 
-      <section className="mrb-section soft">
+      {/* Applications */}
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
-            <h2>Perfect For Premium Products</h2>
-            <p>Ideal for brands that ship regularly and value logistics.</p>
+            <h2>Designed for Premium Products</h2>
           </div>
-          <div className="mrb-industries">
+          <div className="mrb-apps">
             {applications.map((a) => (
-              <article className="mrb-industry" key={a.title}>
-                <img src={a.img} alt={a.alt} />
-                <div className="mrb-industry-copy">
+              <article className="mrb-app" key={a.title}>
+                <img src={a.img} alt={a.title} />
+                <div>
                   <b>{a.title}</b>
                   <span>{a.desc}</span>
                 </div>
@@ -305,57 +403,47 @@ export default function FoldableRigidBoxesPage() {
         </div>
       </section>
 
-      <section className="mrb-section">
-        <div className="container mrb-custom">
-          <div className="mrb-head">
-            <span className="eyebrow dark">FULL CUSTOMIZATION</span>
-            <h2>Made to Your Specification</h2>
-            <p>
-              Every element can be developed around your brand — custom size,
-              paper, printing, inserts, foil stamping, embossing and
-              accessories.
-            </p>
-            <a className="btn gold" href="#quote" style={{ marginTop: 8 }}>
-              Discuss Your Project
-            </a>
-          </div>
-          <ul>
-            {customOptions.map((o) => (
-              <li key={o}>{o}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <section className="mrb-section dark">
+      {/* Manufacturing stats */}
+      <section className="mrb-section soft">
         <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">PRODUCTION</span>
-            <h2>Production Workflow</h2>
-            <p>
-              A controlled workflow from material preparation through final
-              quality inspection and global delivery.
-            </p>
+          <div className="mrb-head center">
+            <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
+            <h2>Built for Sampling and Scalable Production</h2>
           </div>
-          <div className="mrb-process">
-            {processSteps.map((s, i) => (
-              <div className="mrb-step" key={s}>
-                <span>{String(i + 1).padStart(2, "0")}</span>
-                <b>{s}</b>
+          <div className="mrb-stats">
+            {stats.map((s) => (
+              <div className="mrb-stat" key={s.label}>
+                <b>{s.value}</b>
+                <span>{s.label}</span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="mrb-section dark" id="factory-video">
-        <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">FACTORY VIDEO</span>
-            <h2>From Design to Production</h2>
-            <p>Real factory production process.</p>
+      {/* Real production video */}
+      <section className="mrb-section dark">
+        <div className="container mrb-video-grid">
+          <div>
+            <span className="mrb-eyebrow">REAL PRODUCTION</span>
+            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
+              From Design to Production
+            </h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
+              Material preparation, printing, box forming, assembly and quality
+              control are coordinated through the production process.
+            </p>
+            <div className="mrb-process-5" style={{ marginTop: 26 }}>
+              {processSteps.map((s, i) => (
+                <div className="mrb-step" key={s.title}>
+                  <span>{String(i + 1).padStart(2, "0")}</span>
+                  <b>{s.title}</b>
+                  <small>{s.sub}</small>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="mrb-factory-video">
+          <div className="mrb-factory-video" style={{ marginTop: 0 }}>
             <video
               autoPlay
               muted
@@ -372,36 +460,36 @@ export default function FoldableRigidBoxesPage() {
         </div>
       </section>
 
-      <section className="mrb-section soft">
+      {/* FAQ */}
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Manufacturing Capability</h2>
-            <p>
-              Production capacity and experience behind every order.
-            </p>
+            <span className="eyebrow dark">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
           </div>
-          <div className="mrb-stats">
-            {stats.map((s) => (
-              <div className="mrb-stat" key={s.label}>
-                <b>{s.value}</b>
-                <span>{s.label}</span>
+          <div className="mrb-faq">
+            {faqs.map((f) => (
+              <div className="mrb-faq-item" key={f.q}>
+                <b>{f.q}</b>
+                <p>{f.a}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
           <div>
             <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Ready to Create Your Foldable Magnetic Rigid Box?</h2>
-            <p>
-              Tell us your product, approximate quantity and packaging idea.
-              The form will prepare a WhatsApp inquiry so you can send the full
-              project details directly.
-            </p>
+            <h2>Ready to Create Your Custom Packaging?</h2>
+            <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
+              <li>MOQ from 100 pcs</li>
+              <li>1 pc prototype available</li>
+              <li>Fast sample support from 48 hours</li>
+              <li>Air / Sea / Express delivery</li>
+            </ul>
             <div className="mrb-contact">
               <div className="mrb-contact-note">
                 <b>WhatsApp</b>

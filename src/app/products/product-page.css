@@ -547,3 +547,175 @@
     padding: 7px 11px;
   }
 }
+
+/* ---------- V2.1: specs table (row style) ---------- */
+.mrb-spec-wrap {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: start;
+}
+.mrb-spec-row {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 13px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+}
+.mrb-spec-row b {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: none;
+  font-weight: 700;
+}
+.mrb-spec-row span {
+  font-size: 14px;
+  color: var(--ink);
+  text-align: right;
+}
+
+/* ---------- V2.1: structure list ---------- */
+.mrb-structure ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: mrbstruct;
+  display: grid;
+  gap: 10px;
+}
+.mrb-structure li {
+  counter-increment: mrbstruct;
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 14px 18px;
+  font-size: 14px;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mrb-structure li::before {
+  content: counter(mrbstruct, decimal-leading-zero);
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+/* ---------- V2.1: applications cards ---------- */
+.mrb-apps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.mrb-app {
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.mrb-app img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.mrb-app div {
+  padding: 16px 18px;
+}
+.mrb-app b {
+  display: block;
+  font-size: 15px;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.mrb-app span {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+  display: block;
+}
+
+/* ---------- V2.1: FAQ ---------- */
+.mrb-faq {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.mrb-faq-item {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 20px 22px;
+}
+.mrb-faq-item b {
+  display: block;
+  font-size: 15px;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.mrb-faq-item p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- V2.1: video + process grid ---------- */
+.mrb-video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.mrb-process-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.mrb-step small {
+  display: block;
+  color: #9a9a9a;
+  font-size: 12px;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+/* ---------- V2.1: logistics (foldable) ---------- */
+.mrb-logistics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+/* ---------- V2.1 responsive ---------- */
+@media (max-width: 1024px) {
+  .mrb-apps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mrb-process-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 860px) {
+  .mrb-spec-wrap,
+  .mrb-video-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 620px) {
+  .mrb-faq,
+  .mrb-logistics {
+    grid-template-columns: 1fr;
+  }
+  .mrb-spec-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .mrb-spec-row span {
+    text-align: left;
+  }
+}

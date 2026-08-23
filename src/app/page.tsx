@@ -129,7 +129,7 @@ const benefits = [
   {
     num: "01",
     title: "Flexible MOQ",
-    desc: "Selected structures can start from approximately 300 pcs, subject to material and finish.",
+    desc: "Selected custom packaging projects can start from 100 pcs, subject to size, material and finishing requirements.",
   },
   {
     num: "02",
@@ -213,7 +213,7 @@ export default function Home() {
               </a>
             </div>
             <div className="trust-row">
-              <span>Low MOQ</span>
+              <span>MOQ From 100 pcs</span>
               <span>Custom Design</span>
               <span>Fast Prototyping</span>
               <span>Worldwide Shipping</span>
