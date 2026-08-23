@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const navItems = [
-  { href: "/#products", label: "Products" },
+  { href: "/products/", label: "Products" },
   { href: "/#industries", label: "Industries" },
   { href: "/#custom", label: "Custom Options" },
   { href: "/#factory", label: "Factory" },
