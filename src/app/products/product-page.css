@@ -734,3 +734,23 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Clickable app cards (industry pages) ---------- */
+.mrb-app-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.mrb-app-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.mrb-app-cta {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  font-weight: 600;
+}
