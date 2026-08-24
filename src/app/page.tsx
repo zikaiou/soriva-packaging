@@ -43,7 +43,7 @@ const products = [
     alt: "Custom luxury paper bags",
     title: "Luxury Paper Bags",
     desc: "Branded retail bags designed to complete your premium packaging system.",
-    slug: "paper-bags",
+    slug: "luxury-paper-bags",
   },
 ];
 
