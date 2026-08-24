@@ -134,8 +134,8 @@ export default function RootLayout({
             </div>
             <div>
               <b>Company</b>
-              <a href="/#factory">Factory</a>
-              <a href="/#projects">Projects</a>
+              <a href="/factory/">Factory</a>
+              <a href="/projects/">Projects</a>
               <a href="/contact/">Request Quote</a>
             </div>
           </div>
