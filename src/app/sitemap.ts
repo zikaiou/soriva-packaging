@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "drawer-boxes",
     "two-piece-rigid-boxes",
     "luxury-paper-bags",
+    "tube-packaging",
   ] as const;
   const productEntries: MetadataRoute.Sitemap = productPages.map((slug) => ({
     url: `${BASE_URL}/products/${slug}/`,

@@ -37,6 +37,7 @@ const products = [
     alt: "Luxury tube packaging",
     title: "Tube Packaging",
     desc: "Custom cylindrical packaging for fragrance, candles, bottles and gifts.",
+    slug: "tube-packaging",
   },
   {
     img: "/img/paper-bags.webp",
