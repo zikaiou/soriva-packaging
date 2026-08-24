@@ -41,6 +41,36 @@ const guides = [
     desc: "A practical overview of box structures, inserts, finishes, MOQ and sampling for skincare and beauty brands.",
     href: "/resources/cosmetic-packaging-guide/",
   },
+  {
+    tag: "MOQ & Ordering",
+    title: "Custom Packaging MOQ: What Buyers Should Know",
+    desc: "Understand minimum order quantities, what affects MOQ, and how brands can plan small and large production runs.",
+    href: "/resources/custom-packaging-moq-guide/",
+  },
+  {
+    tag: "Pricing",
+    title: "How Much Does Custom Luxury Packaging Cost?",
+    desc: "Learn the main factors that affect custom rigid box pricing, including structure, materials, inserts, finishes, quantity and shipping.",
+    href: "/resources/custom-packaging-cost-guide/",
+  },
+  {
+    tag: "Materials",
+    title: "Luxury Packaging Materials: A Buyer's Guide",
+    desc: "Compare greyboard, specialty paper, textured paper, fabric wraps and common insert materials used in premium custom packaging.",
+    href: "/resources/luxury-packaging-materials-guide/",
+  },
+  {
+    tag: "Perfume Packaging",
+    title: "How to Source Custom Perfume Packaging",
+    desc: "A sourcing guide for fragrance brands comparing rigid box structures, inserts, finishes, sampling and production.",
+    href: "/resources/perfume-packaging-buyer-guide/",
+  },
+  {
+    tag: "Jewelry Packaging",
+    title: "How to Choose Custom Jewelry Packaging",
+    desc: "A buyer guide for jewelry and watch brands comparing box structures, velvet and EVA inserts, finishes, MOQ and sampling.",
+    href: "/resources/jewelry-packaging-buyer-guide/",
+  },
 ];
 
 const structuredData = {
