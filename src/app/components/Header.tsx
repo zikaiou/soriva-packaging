@@ -8,6 +8,7 @@ const navItems = [
   { href: "/custom-packaging/", label: "Custom Options" },
   { href: "/factory/", label: "Factory" },
   { href: "/projects/", label: "Projects" },
+  { href: "/resources/", label: "Resources" },
 ];
 
 export default function Header() {
