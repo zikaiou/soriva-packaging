@@ -106,6 +106,8 @@ export default function HighIntentGuidePage({ guide }: { guide: HighIntentGuide 
                 )}
               </section>
             ))}
+            <div className="mrb-note"><b>SORIVA MOQ:</b> Selected custom packaging projects can start from 100 pcs, depending on structure, material and finishing requirements.</div>
+            <div className="mrb-note"><b>Prototype:</b> 1 pc prototype available for selected projects.</div>
             {guide.note && <div className="mrb-note"><b>SORIVA:</b> {guide.note}</div>}
             <div className="mrb-note"><b>Buyer Tip:</b> {guide.buyerTip}</div>
             <section className="guide-checklist"><h2>Buyer Checklist</h2><ul>{guide.checklist.map((item) => <li key={item}>{item}</li>)}</ul></section>
