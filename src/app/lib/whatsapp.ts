@@ -43,6 +43,14 @@ export const WA_MESSAGES = {
     "Hello SORIVA Packaging, I read your buyer guide and would like to discuss a custom packaging project.",
   projects:
     "Hello SORIVA Packaging, I saw your packaging projects and would like to discuss a similar project.",
+  skincareCase:
+    "Hello SORIVA Packaging, I reviewed your luxury skincare gift box case study and would like to discuss a similar custom packaging project.",
+  perfumeCase:
+    "Hello SORIVA Packaging, I reviewed your premium perfume packaging case study and would like to discuss a similar custom packaging project.",
+  jewelryCase:
+    "Hello SORIVA Packaging, I reviewed your fine jewelry presentation box case study and would like to discuss a similar custom packaging project.",
+  corporateCase:
+    "Hello SORIVA Packaging, I reviewed your corporate luxury gift box case study and would like to discuss a similar custom packaging project.",
   factory:
     "Hello SORIVA Packaging, I'd like to learn more about your factory and manufacturing capabilities.",
   contact: "Hello SORIVA Packaging, I have a packaging inquiry.",

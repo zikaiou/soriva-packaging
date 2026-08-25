@@ -34,6 +34,7 @@ const projects = [
   {
     img: "/img/project-skincare.webp",
     alt: "Luxury skincare gift box project",
+    slug: "luxury-skincare-gift-box",
     title: "Luxury Skincare Gift Box Project",
     fields: [
       ["Industry", "Beauty & Skincare"],
@@ -46,6 +47,7 @@ const projects = [
   {
     img: "/img/project-perfume.webp",
     alt: "Premium perfume packaging project",
+    slug: "premium-perfume-packaging",
     title: "Premium Perfume Packaging Project",
     fields: [
       ["Industry", "Fragrance"],
@@ -57,6 +59,7 @@ const projects = [
   {
     img: "/img/project-jewelry.webp",
     alt: "Fine jewelry presentation box project",
+    slug: "fine-jewelry-presentation-box",
     title: "Fine Jewelry Presentation Box Project",
     fields: [
       ["Industry", "Jewelry"],
@@ -68,6 +71,7 @@ const projects = [
   {
     img: "/img/project-gift-clean.webp",
     alt: "Corporate luxury gift box project",
+    slug: "corporate-luxury-gift-box",
     title: "Corporate Luxury Gift Box Project",
     fields: [
       ["Industry", "Corporate Gifts"],
@@ -189,6 +193,7 @@ export default function Page() {
                       <span>{v}</span>
                     </div>
                   ))}
+                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>VIEW CASE STUDY →</a>
                 </div>
               </article>
             ))}

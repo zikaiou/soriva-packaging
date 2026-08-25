@@ -801,8 +801,104 @@
   letter-spacing: 0.06em;
 }
 .mrb-case .row span {
-  color: var(--ink);
+  color: var(--muted);
+  font-size: 14px;
 }
+.mrb-case-cta {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+.mrb-case-cta:hover {
+  color: #a97d2f;
+}
+.case-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.case-meta-grid > div,
+.case-info-card {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 20px;
+}
+.case-meta-grid b,
+.case-meta-grid span {
+  display: block;
+}
+.case-meta-grid b {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.case-meta-grid span {
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.case-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  align-items: start;
+}
+.case-two-col h2 {
+  margin: 22px 0 10px;
+}
+.case-two-col h2:first-of-type {
+  margin-top: 8px;
+}
+.case-two-col p,
+.case-info-card p,
+.case-info-card li {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.case-image-card {
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.case-image-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.case-image-card span {
+  display: block;
+  padding: 10px 14px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.case-info-card h2 {
+  margin: 0 0 16px;
+}
+.case-info-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.case-related-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.case-quote-inner {
+  max-width: 760px;
+  text-align: center;
+}
+.case-quote-inner p {
+  margin: 12px auto 22px;
+  max-width: 680px;
+}
+
 @media (max-width: 860px) {
   .mrb-cases {
     grid-template-columns: 1fr;
@@ -1052,6 +1148,10 @@
     grid-template-columns: 1fr;
   }
   .product-cross-grid {
+    grid-template-columns: 1fr;
+  }
+  .case-meta-grid,
+  .case-two-col {
     grid-template-columns: 1fr;
   }
 }
