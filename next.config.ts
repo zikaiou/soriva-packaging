@@ -6,15 +6,6 @@ const nextConfig: NextConfig = {
     // this machine); TypeScript type checking still runs on every build.
     ignoreDuringBuilds: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/products/paper-bags/:path*",
-        destination: "/products/luxury-paper-bags/:path*",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
