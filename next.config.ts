@@ -9,13 +9,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/products/paper-bags",
-        destination: "/products/luxury-paper-bags",
-        permanent: true,
-      },
-      {
-        source: "/products/paper-bags/",
-        destination: "/products/luxury-paper-bags/",
+        source: "/products/paper-bags/:path*",
+        destination: "/products/luxury-paper-bags/:path*",
         permanent: true,
       },
     ];
