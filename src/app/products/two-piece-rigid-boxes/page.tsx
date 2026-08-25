@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
+import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -449,6 +450,7 @@ export default function TwoPieceRigidBoxesPage() {
         </div>
       </section>
 
+      <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

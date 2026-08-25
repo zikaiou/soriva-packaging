@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
+import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -438,6 +439,7 @@ export default function TubePackagingPage() {
         </div>
       </section>
 
+      <ProductCrossLinks industryHref="/industries/perfume-packaging/" industryLabel="Perfume Packaging" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

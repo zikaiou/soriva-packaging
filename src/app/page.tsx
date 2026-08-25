@@ -54,18 +54,21 @@ const industries = [
     alt: "Cosmetics and skincare packaging",
     title: "Cosmetics & Skincare",
     desc: "Refined gift boxes for serums, creams and skincare kits.",
+    href: "/industries/cosmetic-packaging/",
   },
   {
     img: "/img/perfume.webp",
     alt: "Perfume and fragrance packaging",
     title: "Perfume & Fragrance",
     desc: "Presentation boxes with inserts for bottles and fragrance sets.",
+    href: "/industries/perfume-packaging/",
   },
   {
     img: "/img/jewelry.webp",
     alt: "Jewelry and watches packaging",
     title: "Jewelry & Watches",
     desc: "Compact rigid structures for rings, necklaces and premium accessories.",
+    href: "/industries/jewelry-packaging/",
   },
   {
     img: "/img/candles.webp",
@@ -280,13 +283,13 @@ export default function Home() {
           </div>
           <div className="industry-grid">
             {industries.map((i) => (
-              <article className="industry" key={i.title}>
+              <a className="industry" href={i.href ?? "#quote"} key={i.title}>
                 <img src={i.img} alt={i.alt} />
                 <div className="industry-copy">
                   <b>{i.title}</b>
                   <span>{i.desc}</span>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
           <div className="section-cta">

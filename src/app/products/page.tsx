@@ -7,9 +7,9 @@ import "./product-page.css";
 const PAGE_URL = "https://sorivapackaging.com/products/";
 
 export const metadata: Metadata = {
-  title: "Custom Luxury Packaging Solutions",
+  title: "Custom Luxury Packaging Boxes",
   description:
-    "Explore SORIVA Packaging products: magnetic rigid boxes, foldable magnetic rigid boxes, drawer boxes and two-piece rigid boxes. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support and global shipping.",
+    "Explore SORIVA custom magnetic rigid boxes, foldable rigid boxes, drawer boxes, two-piece boxes, tube packaging and luxury paper bags for premium brands.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -64,32 +64,59 @@ const products = [
     title: "Two-Piece Rigid Boxes",
     slug: "two-piece-rigid-boxes",
   },
+  {
+    img: "/img/tube-packaging.webp",
+    alt: "Custom tube packaging",
+    title: "Tube Packaging",
+    slug: "tube-packaging",
+  },
+  {
+    img: "/img/paper-bags.webp",
+    alt: "Custom luxury paper bags",
+    title: "Luxury Paper Bags",
+    slug: "luxury-paper-bags",
+  },
+];
+
+const comparison = [
+  { type: "Magnetic", bestFor: "Beauty, fragrance, gifts", advantage: "Premium unboxing" },
+  { type: "Foldable Magnetic", bestFor: "Export, e-commerce", advantage: "Flat-pack efficiency" },
+  { type: "Drawer", bestFor: "Jewelry, sets", advantage: "Sliding reveal" },
+  { type: "Two-Piece", bestFor: "Cosmetics, gifting", advantage: "Classic premium structure" },
+  { type: "Tube", bestFor: "Perfume, candles, tea", advantage: "Distinctive cylindrical format" },
+  { type: "Paper Bags", bestFor: "Retail, gifting", advantage: "Completes brand system" },
 ];
 
 const industries = [
   {
     img: "/img/cosmetics.webp",
     title: "Cosmetics Packaging",
+    href: "/industries/cosmetic-packaging/",
   },
   {
     img: "/img/perfume.webp",
     title: "Perfume Packaging",
+    href: "/industries/perfume-packaging/",
   },
   {
     img: "/img/jewelry.webp",
     title: "Jewelry Packaging",
+    href: "/industries/jewelry-packaging/",
   },
   {
     img: "/img/fashion.webp",
     title: "Fashion Packaging",
+    href: "/contact/",
   },
   {
     img: "/img/corporate.webp",
     title: "Corporate Gift Packaging",
+    href: "/contact/",
   },
   {
     img: "/img/project-pr-clean.webp",
     title: "PR Packaging",
+    href: "/contact/",
   },
 ];
 
@@ -205,6 +232,22 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      {/* Comparison */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">STRUCTURE GUIDE</span>
+            <h2>Which Packaging Structure Fits Your Project?</h2>
+          </div>
+          <div className="mrb-table-wrap">
+            <table className="mrb-table">
+              <thead><tr><th>Type</th><th>Best For</th><th>Main Advantage</th></tr></thead>
+              <tbody>{comparison.map((row) => <tr key={row.type}><td>{row.type}</td><td>{row.bestFor}</td><td>{row.advantage}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Industries */}
       <section className="mrb-section">
         <div className="container">
@@ -214,12 +257,13 @@ export default function ProductsPage() {
           </div>
           <div className="mrb-apps mrb-apps-3">
             {industries.map((i) => (
-              <article className="mrb-app" key={i.title}>
+              <a className="mrb-app mrb-app-link" href={i.href ?? "/contact/"} key={i.title}>
                 <img src={i.img} alt={i.title} />
                 <div>
                   <b>{i.title}</b>
+                  <span className="mrb-app-cta">VIEW DETAILS →</span>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </div>

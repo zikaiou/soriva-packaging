@@ -120,16 +120,18 @@ export default function RootLayout({
             </div>
             <div>
               <b>Products</b>
-              <a href="/#products">Magnetic Rigid Boxes</a>
-              <a href="/#products">Rigid Gift Boxes</a>
-              <a href="/#products">Drawer Boxes</a>
-              <a href="/#products">Foldable Boxes</a>
+              <a href="/products/magnetic-rigid-boxes/">Magnetic Rigid Boxes</a>
+              <a href="/products/foldable-magnetic-rigid-boxes/">Foldable Magnetic Rigid Boxes</a>
+              <a href="/products/drawer-boxes/">Drawer Boxes</a>
+              <a href="/products/two-piece-rigid-boxes/">Two-Piece Rigid Boxes</a>
+              <a href="/products/tube-packaging/">Tube Packaging</a>
+              <a href="/products/luxury-paper-bags/">Luxury Paper Bags</a>
             </div>
             <div>
               <b>Industries</b>
-              <a href="/#industries">Cosmetics</a>
-              <a href="/#industries">Perfume</a>
-              <a href="/#industries">Jewelry</a>
+              <a href="/industries/cosmetic-packaging/">Cosmetics</a>
+              <a href="/industries/perfume-packaging/">Perfume</a>
+              <a href="/industries/jewelry-packaging/">Jewelry</a>
               <a href="/#industries">Corporate Gifts</a>
             </div>
             <div>

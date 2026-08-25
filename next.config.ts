@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         destination: "/products/luxury-paper-bags",
         permanent: true,
       },
+      {
+        source: "/products/paper-bags/",
+        destination: "/products/luxury-paper-bags/",
+        permanent: true,
+      },
     ];
   },
 };

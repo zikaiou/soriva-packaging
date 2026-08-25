@@ -56,7 +56,7 @@ const capabilities = [
 const industries = [
   { img: "/img/cosmetics.webp", alt: "Cosmetic packaging", title: "Cosmetic Packaging", href: "/industries/cosmetic-packaging/" },
   { img: "/img/perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", href: "/industries/perfume-packaging/" },
-  { img: "/img/jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/contact/" },
+  { img: "/img/jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/industries/jewelry-packaging/" },
   { img: "/img/fashion.webp", alt: "Fashion packaging", title: "Fashion Packaging", href: "/contact/" },
   { img: "/img/corporate.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/contact/" },
   { img: "/img/candles.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/contact/" },
