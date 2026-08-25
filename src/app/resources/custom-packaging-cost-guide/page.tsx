@@ -1,156 +1,27 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import WhatsAppIcon from "../../components/WhatsAppIcon";
-import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
-import "../../products/product-page.css";
+import HighIntentGuidePage, { guideMetadata, type HighIntentGuide } from "../../components/HighIntentGuidePage";
 
-const PAGE_URL =
-  "https://sorivapackaging.com/resources/custom-packaging-cost-guide/";
-
-export const metadata: Metadata = {
+const guide: HighIntentGuide = {
+  pageUrl: "https://sorivapackaging.com/resources/custom-packaging-cost-guide/",
   title: "How Much Does Custom Luxury Packaging Cost?",
-  description:
-    "Learn the main factors that affect custom rigid box pricing, including structure, materials, inserts, finishes, quantity and shipping.",
-  alternates: {
-    canonical: PAGE_URL,
-  },
-  openGraph: {
-    type: "article",
-    url: PAGE_URL,
-    title: "How Much Does Custom Luxury Packaging Cost? | SORIVA Packaging",
-    description:
-      "The 7 main cost factors for custom rigid boxes and how to get an accurate quote.",
-  },
-};
-
-const sidebarLinks = [
-  { href: "/products/", label: "All Products" },
-  { href: "/products/magnetic-rigid-boxes/", label: "Magnetic Rigid Boxes" },
-  { href: "/products/foldable-magnetic-rigid-boxes/", label: "Foldable Rigid Boxes" },
-  { href: "/custom-packaging/", label: "Custom Packaging" },
-  { href: "/factory/", label: "Factory" },
-];
-
-const costFactors = [
-  "Box dimensions",
-  "Board thickness",
-  "Surface paper",
-  "Printing",
-  "Foil or embossing",
-  "Insert",
-  "Quantity",
-];
-
-const structuredData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
-        { "@type": "ListItem", position: 3, name: "Custom Packaging Cost Guide", item: PAGE_URL },
-      ],
-    },
-    {
-      "@type": "Article",
-      headline: "How Much Does Custom Luxury Packaging Cost?",
-      author: { "@type": "Organization", name: "SORIVA Packaging" },
-      publisher: { "@type": "Organization", name: "SORIVA Packaging" },
-      mainEntityOfPage: PAGE_URL,
-    },
+  description: "A buyer guide to custom rigid box pricing, including size, materials, inserts, finishes, quantity and shipping.",
+  eyebrow: "PRICING & PLANNING",
+  intro: "Custom luxury packaging has no single fixed price because each project has different dimensions, structures, materials, finishes and quantities.",
+  sections: [
+    { heading: "8 Main Cost Factors", table: { headers: ["Factor", "Impact"], rows: [["Dimensions", "Larger boxes use more board, wrap material and carton space."], ["Structure", "Magnetic, drawer, foldable and two-piece boxes require different processes."], ["Board thickness", "Heavier products may require stronger rigid board."], ["Surface paper", "Standard and specialty papers vary in cost."], ["Printing", "CMYK, Pantone and special colors affect setup."], ["Finishing", "Foil, embossing, debossing and UV add processes."], ["Insert", "EVA, velvet, paperboard and molded pulp vary in cost."], ["Quantity", "Higher quantities usually spread setup costs more efficiently."]] } },
+    { heading: "Unit Price vs Total Landed Cost", body: "International buyers should also compare export cartons, freight, storage, assembly labor and product protection." },
+    { heading: "How to Get an Accurate Quote", bullets: ["Finished dimensions", "Product size and weight", "Structure", "Quantity", "Artwork or reference", "Insert", "Finishes", "Destination", "Timeline"] },
+    { heading: "How to Control Cost Without Looking Cheap", bullets: ["Use fewer finishes more intentionally", "Optimize dimensions", "Choose the right insert", "Match quantity to launch stage"] },
+  ],
+  buyerTip: "For export-heavy projects, compare traditional rigid boxes with foldable rigid structures before finalizing the packaging system.",
+  checklist: ["Finished dimensions", "Product size and weight", "Structure", "Quantity", "Artwork/reference", "Insert", "Finishes", "Destination", "Timeline"],
+  faqs: [
+    { question: "Why is there no fixed price?", answer: "Because size, structure, material, finish, insert and quantity differ by project." },
+    { question: "Does higher quantity lower unit cost?", answer: "Often yes, because setup costs are spread across more units." },
+    { question: "Should freight be considered?", answer: "Yes. Carton volume, shipping and storage affect total landed cost." },
+    { question: "What is needed for a quote?", answer: "Dimensions, structure, quantity, artwork or reference, insert, destination and timeline." },
   ],
 };
 
-export default function Page() {
-  return (
-    <main className="mrb-page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-
-      <section className="mrb-hero">
-        <div className="container">
-          <p className="mrb-breadcrumb">
-            <a href="/">Home</a> / <a href="/resources/">Resources</a> /
-            Cost Guide
-          </p>
-          <div className="mrb-hero-copy" style={{ maxWidth: 860 }}>
-            <span className="mrb-eyebrow">PRICING</span>
-            <h1>How Much Does Custom Luxury Packaging Cost?</h1>
-            <p className="mrb-lead">
-              Learn the main factors that affect custom rigid box pricing,
-              including structure, materials, inserts, finishes, quantity and
-              shipping.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="mrb-section">
-        <div className="container mrb-article">
-          <main className="mrb-article-main">
-            <p>
-              Custom packaging does not have one fixed price. The quotation
-              changes with size, structure, material, finish and quantity.
-            </p>
-            <h2>7 Main Cost Factors</h2>
-            <ol style={{ paddingLeft: 20, marginBottom: 18 }}>
-              {costFactors.map((f, i) => (
-                <li key={f} style={{ fontSize: 15, lineHeight: 1.7, marginBottom: 6 }}>
-                  {f}
-                </li>
-              ))}
-            </ol>
-            <h2>For a More Accurate Quote</h2>
-            <p>
-              Provide product size, preferred structure, quantity, artwork or
-              reference, destination and target delivery date.
-            </p>
-            <h2>Start With the Right Project Information</h2>
-            <p>
-              Prepare product dimensions, target quantity, preferred structure,
-              artwork or reference images, insert requirement, destination and
-              delivery timeline.
-            </p>
-          </main>
-          <aside className="mrb-sidebar">
-            <b>Related Pages</b>
-            {sidebarLinks.map((l) => (
-              <a key={l.href} href={l.href}>
-                {l.label}
-              </a>
-            ))}
-          </aside>
-        </div>
-      </section>
-
-      <section className="mrb-section dark">
-        <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">GET STARTED</span>
-            <h2>Start Your Custom Packaging Project</h2>
-            <p>
-              MOQ from 100 pcs · 1 pc prototype available · fast sample support
-              from 48 hours · global shipping.
-            </p>
-          </div>
-          <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
-            <a href="/contact/" className="btn gold">
-              Get a Quote
-            </a>
-            <a
-              href={waLink(WA_MESSAGES.guide)}
-              target="_blank"
-              rel="noopener"
-              className="btn-wa"
-            >
-              <WhatsAppIcon /> Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
+export const metadata: Metadata = guideMetadata(guide);
+export default function Page() { return <HighIntentGuidePage guide={guide} />; }

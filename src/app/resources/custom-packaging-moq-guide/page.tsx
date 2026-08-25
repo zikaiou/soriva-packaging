@@ -1,156 +1,28 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import WhatsAppIcon from "../../components/WhatsAppIcon";
-import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
-import "../../products/product-page.css";
+import HighIntentGuidePage, { guideMetadata, type HighIntentGuide } from "../../components/HighIntentGuidePage";
 
-const PAGE_URL =
-  "https://sorivapackaging.com/resources/custom-packaging-moq-guide/";
-
-export const metadata: Metadata = {
+const guide: HighIntentGuide = {
+  pageUrl: "https://sorivapackaging.com/resources/custom-packaging-moq-guide/",
   title: "Custom Packaging MOQ: What Buyers Should Know",
-  description:
-    "Understand custom packaging minimum order quantities, what affects MOQ, and how brands can plan small and large production runs.",
-  alternates: {
-    canonical: PAGE_URL,
-  },
-  openGraph: {
-    type: "article",
-    url: PAGE_URL,
-    title: "Custom Packaging MOQ: What Buyers Should Know | SORIVA Packaging",
-    description:
-      "What affects MOQ, SORIVA's 100 pcs starting point and how to plan production runs.",
-  },
-};
-
-const sidebarLinks = [
-  { href: "/products/", label: "All Products" },
-  { href: "/products/magnetic-rigid-boxes/", label: "Magnetic Rigid Boxes" },
-  { href: "/products/foldable-magnetic-rigid-boxes/", label: "Foldable Rigid Boxes" },
-  { href: "/custom-packaging/", label: "Custom Packaging" },
-  { href: "/factory/", label: "Factory" },
-];
-
-const moqFactors = [
-  "Box complexity",
-  "Custom paper and printing",
-  "Foil and embossing",
-  "Insert tooling",
-  "Assembly requirements",
-];
-
-const structuredData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
-        { "@type": "ListItem", position: 3, name: "Custom Packaging MOQ Guide", item: PAGE_URL },
-      ],
-    },
-    {
-      "@type": "Article",
-      headline: "Custom Packaging MOQ: What Buyers Should Know",
-      author: { "@type": "Organization", name: "SORIVA Packaging" },
-      publisher: { "@type": "Organization", name: "SORIVA Packaging" },
-      mainEntityOfPage: PAGE_URL,
-    },
+  description: "A practical guide to minimum order quantities, prototype planning and what affects MOQ in custom packaging.",
+  eyebrow: "MOQ & ORDERING",
+  intro: "MOQ is shaped by structure, materials, printing, finishing, tooling and assembly—not only by supplier policy.",
+  sections: [
+    { heading: "7 Factors That Affect MOQ", table: { headers: ["Factor", "Why It Matters"], rows: [["Box structure", "Complex structures require more setup and assembly."], ["Custom dimensions", "Unique sizes can require tooling or insert development."], ["Paper", "Specialty papers may have minimum purchasing quantities."], ["Printing", "CMYK and Pantone printing create fixed setup costs."], ["Finishing", "Foil, embossing and UV add extra setup."], ["Insert", "EVA, molded pulp or complex paper inserts may require tooling."], ["Assembly", "Labor-intensive structures affect the practical minimum run."]] } },
+    { heading: "Why Small Orders Cost More Per Box", body: "Fixed setup costs are divided across fewer pieces, so unit pricing is usually higher at low quantities." },
+    { heading: "Prototype vs MOQ", body: "A prototype is used to verify fit, structure and appearance before mass production. 1 pc prototype available for selected projects." },
+    { heading: "When 100–500 pcs Makes Sense", bullets: ["New brand launch", "Market testing", "PR or influencer campaigns", "Limited editions", "Seasonal gifting"] },
+  ],
+  note: "Selected custom packaging projects can start from 100 pcs, depending on structure, material and finishing requirements.",
+  buyerTip: "Small orders usually have a higher unit cost because setup costs are spread over fewer boxes.",
+  checklist: ["Product dimensions", "Target quantity", "Preferred box type", "Reference image or artwork", "Insert requirement", "Destination market", "Target delivery date"],
+  faqs: [
+    { question: "What is your MOQ?", answer: "Selected custom packaging projects can start from 100 pcs, depending on structure, material and finishing requirements." },
+    { question: "Can I order a prototype first?", answer: "Yes. 1 pc prototype available for selected projects." },
+    { question: "Why are small orders more expensive?", answer: "Setup costs are divided across fewer units." },
+    { question: "Does every box type have the same MOQ?", answer: "No. MOQ can vary by structure, paper, insert and finishing." },
   ],
 };
 
-export default function Page() {
-  return (
-    <main className="mrb-page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-
-      <section className="mrb-hero">
-        <div className="container">
-          <p className="mrb-breadcrumb">
-            <a href="/">Home</a> / <a href="/resources/">Resources</a> / MOQ
-            Guide
-          </p>
-          <div className="mrb-hero-copy" style={{ maxWidth: 860 }}>
-            <span className="mrb-eyebrow">MOQ &amp; ORDERING</span>
-            <h1>Custom Packaging MOQ: What Buyers Should Know</h1>
-            <p className="mrb-lead">
-              Understand custom packaging minimum order quantities, what
-              affects MOQ, and how brands can plan small and large production
-              runs.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="mrb-section">
-        <div className="container mrb-article">
-          <main className="mrb-article-main">
-            <p>
-              MOQ depends on structure, materials, printing, finishing and
-              production setup.
-            </p>
-            <h2>What Affects MOQ?</h2>
-            <ul>
-              {moqFactors.map((f) => (
-                <li key={f}>{f}</li>
-              ))}
-            </ul>
-            <h2>SORIVA Support</h2>
-            <p>
-              Selected projects can start from <b>100 pcs</b>. A{" "}
-              <b>1 pc prototype</b> is available before mass production.
-            </p>
-            <div className="mrb-note">
-              <b>Buyer Tip:</b> Small orders usually have a higher unit cost
-              because setup costs are spread over fewer boxes.
-            </div>
-            <h2>Start With the Right Project Information</h2>
-            <p>
-              Prepare product dimensions, target quantity, preferred structure,
-              artwork or reference images, insert requirement, destination and
-              delivery timeline.
-            </p>
-          </main>
-          <aside className="mrb-sidebar">
-            <b>Related Pages</b>
-            {sidebarLinks.map((l) => (
-              <a key={l.href} href={l.href}>
-                {l.label}
-              </a>
-            ))}
-          </aside>
-        </div>
-      </section>
-
-      <section className="mrb-section dark">
-        <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">GET STARTED</span>
-            <h2>Start Your Custom Packaging Project</h2>
-            <p>
-              MOQ from 100 pcs · 1 pc prototype available · fast sample support
-              from 48 hours · global shipping.
-            </p>
-          </div>
-          <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
-            <a href="/contact/" className="btn gold">
-              Get a Quote
-            </a>
-            <a
-              href={waLink(WA_MESSAGES.guide)}
-              target="_blank"
-              rel="noopener"
-              className="btn-wa"
-            >
-              <WhatsAppIcon /> Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
+export const metadata: Metadata = guideMetadata(guide);
+export default function Page() { return <HighIntentGuidePage guide={guide} />; }
