@@ -13,7 +13,6 @@ const guide: HighIntentGuide = {
     { heading: "Prototype vs MOQ", body: "A prototype is used to verify fit, structure and appearance before mass production. 1 pc prototype available for selected projects." },
     { heading: "When 100–500 pcs Makes Sense", bullets: ["New brand launch", "Market testing", "PR or influencer campaigns", "Limited editions", "Seasonal gifting"] },
   ],
-  note: "Selected custom packaging projects can start from 100 pcs, depending on structure, material and finishing requirements.",
   buyerTip: "Small orders usually have a higher unit cost because setup costs are spread over fewer boxes.",
   checklist: ["Product dimensions", "Target quantity", "Preferred box type", "Reference image or artwork", "Insert requirement", "Destination market", "Target delivery date"],
   faqs: [
