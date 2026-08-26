@@ -106,12 +106,17 @@ const industries = [
   {
     img: "/img/fashion.webp",
     title: "Fashion Packaging",
-    href: "/contact/",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/corporate.webp",
     title: "Corporate Gift Packaging",
-    href: "/contact/",
+    href: "/industries/corporate-gift-packaging/",
+  },
+  {
+    img: "/img/candles.webp",
+    title: "Candle Packaging",
+    href: "/industries/candle-packaging/",
   },
   {
     img: "/img/project-pr-clean.webp",

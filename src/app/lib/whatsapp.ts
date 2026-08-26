@@ -35,6 +35,12 @@ export const WA_MESSAGES = {
     "Hello SORIVA Packaging, I'm looking for custom cosmetic packaging. Could you share more details?",
   perfume:
     "Hello SORIVA Packaging, I'm looking for custom perfume packaging. Could you share more details?",
+  candle:
+    "Hello SORIVA Packaging, I am interested in custom candle packaging and would like to discuss structure, size, insert, MOQ and pricing.",
+  fashion:
+    "Hello SORIVA Packaging, I am interested in custom fashion packaging and would like to discuss box style, paper bags, MOQ and pricing.",
+  corporateGift:
+    "Hello SORIVA Packaging, I am interested in custom corporate gift packaging and would like to discuss structure, insert, MOQ, timeline and pricing.",
   custom:
     "Hello SORIVA Packaging, I'd like to discuss a custom packaging project from design to production.",
   resources:

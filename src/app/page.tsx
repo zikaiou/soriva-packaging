@@ -75,18 +75,21 @@ const industries = [
     alt: "Candle gift packaging",
     title: "Candles",
     desc: "Protective box formats for candle jars and luxury home fragrance.",
+    href: "/industries/candle-packaging/",
   },
   {
     img: "/img/fashion.webp",
     alt: "Fashion and apparel packaging",
     title: "Fashion & Apparel",
     desc: "Premium boxes and bags for garments, scarves and retail presentation.",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/corporate.webp",
     alt: "Corporate gift packaging",
     title: "Corporate Gifts",
     desc: "Gift set packaging for campaigns, events and executive presents.",
+    href: "/industries/corporate-gift-packaging/",
   },
 ];
 
