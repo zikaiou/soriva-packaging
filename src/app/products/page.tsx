@@ -167,7 +167,7 @@ export default function ProductsPage() {
               </p>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.products)}
@@ -228,7 +228,7 @@ export default function ProductsPage() {
                 <div>
                   <b>{p.title}</b>
                   <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 6 }}>
-                    View details →
+                    View Details
                   </span>
                 </div>
               </a>
@@ -266,7 +266,7 @@ export default function ProductsPage() {
                 <img src={i.img} alt={i.title} />
                 <div>
                   <b>{i.title}</b>
-                  <span className="mrb-app-cta">VIEW DETAILS →</span>
+                  <span className="mrb-app-cta">View Details</span>
                 </div>
               </a>
             ))}
@@ -292,7 +292,7 @@ export default function ProductsPage() {
             style={{ justifyContent: "center", marginTop: 8 }}
           >
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.products)}

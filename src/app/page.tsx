@@ -205,7 +205,7 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <a href="#quote" className="btn gold">
-                Get a Quote
+                Get A Quote
               </a>
               <a
                 href={waLink(WA_MESSAGES.home)}
@@ -255,7 +255,7 @@ export default function Home() {
                   <h3>{p.title}</h3>
                   <p>{p.desc}</p>
                   <a href={p.slug ? `/products/${p.slug}/` : "#quote"}>
-                    {p.slug ? "View details →" : "Request pricing →"}
+                    {p.slug ? "View Details" : "View Details"}
                   </a>
                 </div>
               </article>

@@ -161,7 +161,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.guide)}

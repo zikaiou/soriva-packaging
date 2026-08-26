@@ -78,7 +78,7 @@ export default function CaseStudyPage({ study }: { study: CaseStudy }) {
               <h1>{study.title}</h1>
               <p className="mrb-lead">{study.description}</p>
               <div className="mrb-hero-actions">
-                <a href="#quote" className="btn gold">Get a Quote</a>
+                <a href="#quote" className="btn gold">Get A Quote</a>
                 <a href={waLink(study.message)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
                 <a href="/projects/" className="btn ghost">All Projects</a>
               </div>
@@ -113,12 +113,12 @@ export default function CaseStudyPage({ study }: { study: CaseStudy }) {
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">RELATED SOLUTIONS</span><h2>Explore Similar Packaging</h2></div>
-          <div className="case-related-actions"><a className="btn gold" href={study.productHref}>{study.productLabel}</a><a className="btn ghost" href={study.industryHref}>{study.industryLabel}</a><a className="btn ghost" href="/custom-packaging/">Custom Packaging</a></div>
+          <div className="case-related-actions"><a className="btn gold" href={study.productHref}>{study.productLabel}</a><a className="btn ghost" href={study.industryHref}>{study.industryLabel}</a><a className="btn ghost" href="/custom-packaging/">Explore Custom Packaging</a></div>
         </div>
       </section>
 
       <section className="mrb-quote" id="quote">
-        <div className="container case-quote-inner"><span className="mrb-eyebrow">START A SIMILAR PROJECT</span><h2>Have a Packaging Project Like This?</h2><p>Send your product size, target quantity, reference images and preferred structure. We can help develop a prototype and quotation.</p><div className="mrb-hero-actions"><a href="/contact/" className="btn gold">Get a Quote</a><a href={waLink(study.message)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div>
+        <div className="container case-quote-inner"><span className="mrb-eyebrow">START A SIMILAR PROJECT</span><h2>Have a Packaging Project Like This?</h2><p>Send your product size, target quantity, reference images and preferred structure. We can help develop a prototype and quotation.</p><div className="mrb-hero-actions"><a href="/contact/" className="btn gold">Get A Quote</a><a href={waLink(study.message)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div>
       </section>
     </main>
   );

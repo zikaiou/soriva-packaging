@@ -98,7 +98,7 @@ export default function JewelryPackagingPage() {
               <p className="mrb-lead">Create a refined presentation for rings, necklaces, watches and jewelry gift sets with custom structures, protective inserts and premium finishes.</p>
               <div className="mrb-tags"><span>Premium Presentation</span><span>Custom Inserts</span><span>Luxury Finishes</span><span>MOQ From 100 pcs</span></div>
               <div className="mrb-hero-actions">
-                <a href="/contact/" className="btn gold">Get a Quote</a>
+                <a href="/contact/" className="btn gold">Get A Quote</a>
                 <a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function JewelryPackagingPage() {
         <div className="container">
           <div className="mrb-head"><span className="eyebrow dark">RECOMMENDED SOLUTIONS</span><h2>Jewelry Packaging Solutions</h2><p>Rigid packaging formats developed for product protection, gifting and premium retail presentation.</p></div>
           <div className="mrb-apps">
-            {recommendations.map((p) => <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}><img src={p.img} alt={p.alt} loading="lazy" /><div><b>{p.title}</b><span>{p.desc}</span><em className="mrb-app-cta">VIEW DETAILS →</em></div></a>)}
+            {recommendations.map((p) => <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}><img src={p.img} alt={p.alt} loading="lazy" /><div><b>{p.title}</b><span>{p.desc}</span><em className="mrb-app-cta">View Details</em></div></a>)}
           </div>
         </div>
       </section>
@@ -124,11 +124,11 @@ export default function JewelryPackagingPage() {
         <div className="container"><div className="mrb-head"><span className="eyebrow dark">APPLICATIONS</span><h2>Jewelry Packaging Applications</h2><p>Presentation solutions for collections, individual pieces and coordinated gift programs.</p></div><div className="mrb-apps">{applications.map((a) => <article className="mrb-app" key={a.title}><img src={a.img} alt={a.alt} loading="lazy" /><div><b>{a.title}</b></div></article>)}</div></div>
       </section>
 
-      <section className="mrb-section dark"><div className="container"><div className="mrb-head"><span className="mrb-eyebrow">PROFESSIONAL MANUFACTURER</span><h2>Your Reliable Jewelry Packaging Manufacturer</h2><p>From structure design and insert fitting to finishing, assembly and inspection, SORIVA supports custom jewelry packaging projects for global brands.</p></div><div className="mrb-stats">{stats.map((s) => <div key={s.label}><b>{s.value}</b><span>{s.label}</span></div>)}</div><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}><a href="/contact/" className="btn gold">Get a Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></section>
+      <section className="mrb-section dark"><div className="container"><div className="mrb-head"><span className="mrb-eyebrow">PROFESSIONAL MANUFACTURER</span><h2>Your Reliable Jewelry Packaging Manufacturer</h2><p>From structure design and insert fitting to finishing, assembly and inspection, SORIVA supports custom jewelry packaging projects for global brands.</p></div><div className="mrb-stats">{stats.map((s) => <div key={s.label}><b>{s.value}</b><span>{s.label}</span></div>)}</div><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}><a href="/contact/" className="btn gold">Get A Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></section>
 
       <section className="mrb-section soft"><div className="container"><div className="mrb-head center"><span className="eyebrow dark">FAQ</span><h2>Jewelry Packaging FAQs</h2></div><div className="mrb-faq">{faqs.map((f) => <div className="mrb-faq-item" key={f.q}><b>{f.q}</b><p>{f.a}</p></div>)}</div></div></section>
 
-      <section className="mrb-quote" id="quote"><div className="container"><div className="mrb-head center"><span className="mrb-eyebrow">START A PROJECT</span><h2>Ready to Create Your Jewelry Packaging?</h2><p>Send your jewelry dimensions, quantity, insert preference and references for a tailored quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 22 }}><a href="/contact/" className="btn gold">Request a Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></div></section>
+      <section className="mrb-quote" id="quote"><div className="container"><div className="mrb-head center"><span className="mrb-eyebrow">START A PROJECT</span><h2>Ready to Create Your Jewelry Packaging?</h2><p>Send your jewelry dimensions, quantity, insert preference and references for a tailored quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 22 }}><a href="/contact/" className="btn gold">Get A Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></div></section>
     </main>
   );
 }

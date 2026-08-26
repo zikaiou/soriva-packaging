@@ -172,7 +172,7 @@ export default function CosmeticPackagingPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.cosmetics)}
@@ -234,7 +234,7 @@ export default function CosmeticPackagingPage() {
                 <div>
                   <b>{s.title}</b>
                   <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 6 }}>
-                    View details →
+                    View Details
                   </span>
                 </div>
               </a>
@@ -312,7 +312,7 @@ export default function CosmeticPackagingPage() {
             style={{ justifyContent: "center", marginTop: 30 }}
           >
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.cosmetics)}

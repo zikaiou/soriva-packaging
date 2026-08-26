@@ -132,7 +132,7 @@ export default function RootLayout({
               <a href="/industries/cosmetic-packaging/">Cosmetics</a>
               <a href="/industries/perfume-packaging/">Perfume</a>
               <a href="/industries/jewelry-packaging/">Jewelry</a>
-              <a href="/#industries">Corporate Gifts</a>
+              <a href="/industries/corporate-gift-packaging/">Corporate Gifts</a>
             </div>
             <div>
               <b>Company</b>

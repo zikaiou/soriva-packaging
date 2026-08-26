@@ -118,7 +118,7 @@ export default function HighIntentGuidePage({ guide }: { guide: HighIntentGuide 
       </section>
 
       <section className="mrb-quote">
-        <div className="container case-quote-inner"><span className="mrb-eyebrow">START A PROJECT</span><h2>Need a Custom Packaging Quote?</h2><p>Send product dimensions, quantity, references and target market for a focused discussion.</p><div className="mrb-hero-actions"><a className="btn gold" href="/contact/">Get a Quote</a><a className="btn-wa" href={waLink(WA_MESSAGES.guide)} target="_blank" rel="noopener"><WhatsAppIcon /> Chat on WhatsApp</a></div></div>
+        <div className="container case-quote-inner"><span className="mrb-eyebrow">START A PROJECT</span><h2>Need a Custom Packaging Quote?</h2><p>Send product dimensions, quantity, references and target market for a focused discussion.</p><div className="mrb-hero-actions"><a className="btn gold" href="/contact/">Get A Quote</a><a className="btn-wa" href={waLink(WA_MESSAGES.guide)} target="_blank" rel="noopener"><WhatsAppIcon /> Chat on WhatsApp</a></div></div>
       </section>
     </main>
   );

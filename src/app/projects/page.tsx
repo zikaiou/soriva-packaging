@@ -155,7 +155,7 @@ export default function Page() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="/contact/" className="btn ghost">
-                  Get a Quote
+                  Get A Quote
                 </a>
               </div>
             </div>
@@ -193,7 +193,7 @@ export default function Page() {
                       <span>{v}</span>
                     </div>
                   ))}
-                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>VIEW CASE STUDY →</a>
+                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>View Case Study</a>
                 </div>
               </article>
             ))}
@@ -238,7 +238,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.projects)}

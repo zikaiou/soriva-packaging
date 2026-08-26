@@ -253,7 +253,7 @@ export default function FoldableRigidBoxesPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.foldable)}
@@ -264,7 +264,7 @@ export default function FoldableRigidBoxesPage() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="#details" className="btn ghost">
-                  Explore Details
+                  View Details
                 </a>
               </div>
             </div>

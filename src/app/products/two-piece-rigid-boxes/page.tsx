@@ -219,7 +219,7 @@ export default function TwoPieceRigidBoxesPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.twoPiece)}
@@ -230,7 +230,7 @@ export default function TwoPieceRigidBoxesPage() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="#details" className="btn ghost">
-                  Explore Details
+                  View Details
                 </a>
               </div>
             </div>
