@@ -22,6 +22,15 @@ export default function QuoteForm() {
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
       lines.join("\n")
     )}`;
+    (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.(
+      "event",
+      "quote_submit",
+      {
+        packaging_type: String(f.get("type") || ""),
+        has_quantity: Boolean(f.get("qty")),
+        has_project_details: Boolean(f.get("message")),
+      }
+    );
     window.open(url, "_blank", "noopener");
   };
 

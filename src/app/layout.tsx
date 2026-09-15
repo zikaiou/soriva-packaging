@@ -49,6 +49,23 @@ export const metadata: Metadata = {
     title: "Custom Luxury Packaging Manufacturer | SORIVA Packaging",
     description: SITE.description,
     locale: "en_US",
+    images: [
+      {
+        url: `${SITE.domain}/img/hero-boxes.webp`,
+        width: 1200,
+        height: 820,
+        alt: "SORIVA custom luxury packaging boxes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Luxury Packaging Manufacturer | SORIVA Packaging",
+    description: SITE.description,
+    images: [`${SITE.domain}/img/hero-boxes.webp`],
+  },
+  icons: {
+    icon: "/img/favicon.svg",
   },
   robots: {
     index: true,
@@ -107,7 +124,7 @@ export default function RootLayout({
               <p>
                 Custom luxury packaging for growing brands.
                 <br />
-                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+                <a href="mailto:AMY@XINGYUE.STORE" data-track="email_click" data-track-location="footer">AMY@XINGYUE.STORE</a>
                 <br />
                 <a
                   href="https://wa.me/8615913881634"
@@ -138,7 +155,7 @@ export default function RootLayout({
               <b>Company</b>
               <a href="/factory/">Factory</a>
               <a href="/projects/">Projects</a>
-              <a href="/contact/">Request Quote</a>
+              <a href="/contact/">Get A Quote</a>
             </div>
           </div>
           <div className="container copyright">
@@ -174,6 +191,21 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-QX8L7PQNK6');
+            document.addEventListener('click', function(event) {
+              if (typeof window.gtag !== 'function') return;
+              var target = event.target.closest('a');
+              if (!target) return;
+              var href = target.getAttribute('href') || '';
+              if (href.indexOf('wa.me/') !== -1) {
+                window.gtag('event', 'whatsapp_click', { link_location: target.closest('footer') ? 'footer' : 'page' });
+              } else if (href.indexOf('mailto:') === 0) {
+                window.gtag('event', 'email_click', { link_location: target.closest('footer') ? 'footer' : 'page' });
+              } else if (target.hasAttribute('data-track')) {
+                window.gtag('event', target.getAttribute('data-track'), {
+                  link_location: target.getAttribute('data-track-location') || 'site'
+                });
+              }
+            });
           `}
         </Script>
       </body>
