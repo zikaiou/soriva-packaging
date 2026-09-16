@@ -6,7 +6,7 @@ import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/tube-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/tube-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Tube Packaging Manufacturer | Paper Tube Boxes",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/tube-packaging.webp",
+        url: "https://www.sorivapackaging.com/img/tube-packaging.webp",
         width: 1200,
         height: 900,
         alt: "Custom paper tube packaging",
@@ -163,7 +163,7 @@ const structuredData = {
       name: "Custom Paper Tube Packaging",
       description:
         "Custom cylindrical paper packaging for cosmetics, perfume, candles, tea and premium gifts. MOQ from 100 pcs.",
-      image: "https://sorivapackaging.com/img/tube-packaging.webp",
+      image: "https://www.sorivapackaging.com/img/tube-packaging.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Paperboard tube + specialty paper",
@@ -171,8 +171,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Products", item: "https://sorivapackaging.com/products/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Products", item: "https://www.sorivapackaging.com/products/" },
         { "@type": "ListItem", position: 3, name: "Tube Packaging", item: PAGE_URL },
       ],
     },
@@ -213,7 +213,7 @@ export default function TubePackagingPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.tube)}
@@ -224,7 +224,7 @@ export default function TubePackagingPage() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="#details" className="btn ghost">
-                  Explore Details
+                  View Details
                 </a>
               </div>
             </div>

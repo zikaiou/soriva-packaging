@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/custom-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/custom-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Packaging Solutions Manufacturer",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "From concept to premium packaging production — structure design, materials, finishing and global delivery.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/foil-clean.webp",
+        url: "https://www.sorivapackaging.com/img/foil-clean.webp",
         width: 1200,
         height: 630,
         alt: "Custom packaging solutions with gold foil",
@@ -57,9 +57,9 @@ const industries = [
   { img: "/img/cosmetics.webp", alt: "Cosmetic packaging", title: "Cosmetic Packaging", href: "/industries/cosmetic-packaging/" },
   { img: "/img/perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", href: "/industries/perfume-packaging/" },
   { img: "/img/jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/industries/jewelry-packaging/" },
-  { img: "/img/fashion.webp", alt: "Fashion packaging", title: "Fashion Packaging", href: "/contact/" },
-  { img: "/img/corporate.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/contact/" },
-  { img: "/img/candles.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/contact/" },
+  { img: "/img/fashion.webp", alt: "Fashion packaging", title: "Fashion Packaging", href: "/industries/fashion-packaging/" },
+  { img: "/img/corporate.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/industries/corporate-gift-packaging/" },
+  { img: "/img/candles.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/industries/candle-packaging/" },
 ];
 
 const stats = [
@@ -75,7 +75,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Custom Packaging", item: PAGE_URL },
       ],
     },
@@ -122,7 +122,7 @@ export default function Page() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.custom)}
@@ -245,7 +245,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.custom)}

@@ -75,18 +75,21 @@ const industries = [
     alt: "Candle gift packaging",
     title: "Candles",
     desc: "Protective box formats for candle jars and luxury home fragrance.",
+    href: "/industries/candle-packaging/",
   },
   {
     img: "/img/fashion.webp",
     alt: "Fashion and apparel packaging",
     title: "Fashion & Apparel",
     desc: "Premium boxes and bags for garments, scarves and retail presentation.",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/corporate.webp",
     alt: "Corporate gift packaging",
     title: "Corporate Gifts",
     desc: "Gift set packaging for campaigns, events and executive presents.",
+    href: "/industries/corporate-gift-packaging/",
   },
 ];
 
@@ -202,7 +205,7 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <a href="#quote" className="btn gold">
-                Get a Quote
+                Get A Quote
               </a>
               <a
                 href={waLink(WA_MESSAGES.home)}
@@ -252,7 +255,7 @@ export default function Home() {
                   <h3>{p.title}</h3>
                   <p>{p.desc}</p>
                   <a href={p.slug ? `/products/${p.slug}/` : "#quote"}>
-                    {p.slug ? "View details →" : "Request pricing →"}
+                    {p.slug ? "View Details" : "View Details"}
                   </a>
                 </div>
               </article>

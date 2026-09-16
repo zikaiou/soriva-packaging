@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/projects/";
+const PAGE_URL = "https://www.sorivapackaging.com/projects/";
 
 export const metadata: Metadata = {
   title: "Custom Packaging Projects & Case Studies",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Real packaging projects developed for beauty, fragrance, jewelry and premium gift brands.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/hero-boxes.webp",
+        url: "https://www.sorivapackaging.com/img/hero-boxes.webp",
         width: 1200,
         height: 630,
         alt: "SORIVA Packaging projects",
@@ -34,6 +34,7 @@ const projects = [
   {
     img: "/img/project-skincare.webp",
     alt: "Luxury skincare gift box project",
+    slug: "luxury-skincare-gift-box",
     title: "Luxury Skincare Gift Box Project",
     fields: [
       ["Industry", "Beauty & Skincare"],
@@ -46,6 +47,7 @@ const projects = [
   {
     img: "/img/project-perfume.webp",
     alt: "Premium perfume packaging project",
+    slug: "premium-perfume-packaging",
     title: "Premium Perfume Packaging Project",
     fields: [
       ["Industry", "Fragrance"],
@@ -57,6 +59,7 @@ const projects = [
   {
     img: "/img/project-jewelry.webp",
     alt: "Fine jewelry presentation box project",
+    slug: "fine-jewelry-presentation-box",
     title: "Fine Jewelry Presentation Box Project",
     fields: [
       ["Industry", "Jewelry"],
@@ -68,6 +71,7 @@ const projects = [
   {
     img: "/img/project-gift-clean.webp",
     alt: "Corporate luxury gift box project",
+    slug: "corporate-luxury-gift-box",
     title: "Corporate Luxury Gift Box Project",
     fields: [
       ["Industry", "Corporate Gifts"],
@@ -97,7 +101,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Projects", item: PAGE_URL },
       ],
     },
@@ -151,7 +155,7 @@ export default function Page() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="/contact/" className="btn ghost">
-                  Get a Quote
+                  Get A Quote
                 </a>
               </div>
             </div>
@@ -189,6 +193,7 @@ export default function Page() {
                       <span>{v}</span>
                     </div>
                   ))}
+                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>View Case Study</a>
                 </div>
               </article>
             ))}
@@ -233,7 +238,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.projects)}

@@ -8,7 +8,7 @@ if not KEY:
     print("Usage: python indexnow_push.py <your-indexnow-key>")
     sys.exit(1)
 
-HOST = "sorivapackaging.com"
+HOST = "www.sorivapackaging.com"
 BASE = "https://" + HOST
 
 paths = [

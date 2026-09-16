@@ -4,7 +4,7 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/industries/perfume-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/industries/perfume-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Perfume Packaging Boxes Manufacturer",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Elegant custom perfume packaging with premium finishes, bottle protection inserts and MOQ from 100 pcs.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/perfume.webp",
+        url: "https://www.sorivapackaging.com/img/perfume.webp",
         width: 1200,
         height: 630,
         alt: "Custom perfume packaging boxes",
@@ -119,8 +119,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Industries", item: "https://sorivapackaging.com/#industries" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Industries", item: "https://www.sorivapackaging.com/#industries" },
         { "@type": "ListItem", position: 3, name: "Perfume Packaging", item: PAGE_URL },
       ],
     },
@@ -131,7 +131,7 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: p.title,
-        url: `https://sorivapackaging.com/products/${p.slug}/`,
+        url: `https://www.sorivapackaging.com/products/${p.slug}/`,
       })),
     },
   ],
@@ -170,7 +170,7 @@ export default function Page() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.perfume)}
@@ -211,7 +211,7 @@ export default function Page() {
                 <div>
                   <b>{p.title}</b>
                   <span>{p.desc}</span>
-                  <em className="mrb-app-cta">VIEW DETAILS →</em>
+                  <em className="mrb-app-cta">View Details</em>
                 </div>
               </a>
             ))}
@@ -294,7 +294,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.perfume)}

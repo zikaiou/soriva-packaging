@@ -7,7 +7,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL =
-  "https://sorivapackaging.com/products/foldable-magnetic-rigid-boxes/";
+  "https://www.sorivapackaging.com/products/foldable-magnetic-rigid-boxes/";
 
 export const metadata: Metadata = {
   title: "Custom Foldable Magnetic Rigid Boxes Manufacturer",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/foldable-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/foldable-rigid.webp",
         width: 1200,
         height: 900,
         alt: "Custom foldable magnetic rigid box",
@@ -196,7 +196,7 @@ const structuredData = {
       name: "Custom Foldable Magnetic Rigid Boxes",
       description:
         "Custom foldable magnetic rigid boxes with premium presentation and space-saving logistics. Rigid greyboard construction, hidden magnetic closures and tailored inserts. MOQ from 100 pcs.",
-      image: "https://sorivapackaging.com/img/foldable-rigid.webp",
+      image: "https://www.sorivapackaging.com/img/foldable-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Rigid greyboard + custom wrapping paper",
@@ -204,7 +204,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         {
           "@type": "ListItem",
           position: 2,
@@ -253,7 +253,7 @@ export default function FoldableRigidBoxesPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.foldable)}
@@ -264,7 +264,7 @@ export default function FoldableRigidBoxesPage() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="#details" className="btn ghost">
-                  Explore Details
+                  View Details
                 </a>
               </div>
             </div>

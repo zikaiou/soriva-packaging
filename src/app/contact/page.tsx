@@ -5,7 +5,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES, WHATSAPP_DISPLAY } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/contact/";
+const PAGE_URL = "https://www.sorivapackaging.com/contact/";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -38,7 +38,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Contact", item: PAGE_URL },
       ],
     },

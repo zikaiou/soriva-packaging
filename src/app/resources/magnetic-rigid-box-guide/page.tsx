@@ -4,7 +4,7 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/resources/magnetic-rigid-box-guide/";
+const PAGE_URL = "https://www.sorivapackaging.com/resources/magnetic-rigid-box-guide/";
 
 export const metadata: Metadata = {
   title: "What Is a Magnetic Rigid Box?",
@@ -43,8 +43,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Resources", item: "https://www.sorivapackaging.com/resources/" },
         { "@type": "ListItem", position: 3, name: "What Is a Magnetic Rigid Box?", item: PAGE_URL },
       ],
     },
@@ -161,7 +161,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.guide)}

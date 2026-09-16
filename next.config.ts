@@ -1,24 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  trailingSlash: true,
   eslint: {
     // Skip lint during builds (eslint-plugin-react dependency issue on
     // this machine); TypeScript type checking still runs on every build.
     ignoreDuringBuilds: true,
-  },
-  async redirects() {
-    return [
-      {
-        source: "/products/paper-bags",
-        destination: "/products/luxury-paper-bags",
-        permanent: true,
-      },
-      {
-        source: "/products/paper-bags/",
-        destination: "/products/luxury-paper-bags/",
-        permanent: true,
-      },
-    ];
   },
 };
 

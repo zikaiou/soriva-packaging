@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "./product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/";
 
 export const metadata: Metadata = {
   title: "Custom Luxury Packaging Boxes",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
         width: 1200,
         height: 900,
         alt: "SORIVA custom luxury packaging",
@@ -106,12 +106,17 @@ const industries = [
   {
     img: "/img/fashion.webp",
     title: "Fashion Packaging",
-    href: "/contact/",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/corporate.webp",
     title: "Corporate Gift Packaging",
-    href: "/contact/",
+    href: "/industries/corporate-gift-packaging/",
+  },
+  {
+    img: "/img/candles.webp",
+    title: "Candle Packaging",
+    href: "/industries/candle-packaging/",
   },
   {
     img: "/img/project-pr-clean.webp",
@@ -126,7 +131,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Products", item: PAGE_URL },
       ],
     },
@@ -137,7 +142,7 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: p.title,
-        url: `https://sorivapackaging.com/products/${p.slug}/`,
+        url: `https://www.sorivapackaging.com/products/${p.slug}/`,
       })),
     },
   ],
@@ -162,7 +167,7 @@ export default function ProductsPage() {
               </p>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.products)}
@@ -223,7 +228,7 @@ export default function ProductsPage() {
                 <div>
                   <b>{p.title}</b>
                   <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 6 }}>
-                    View details →
+                    View Details
                   </span>
                 </div>
               </a>
@@ -261,7 +266,7 @@ export default function ProductsPage() {
                 <img src={i.img} alt={i.title} />
                 <div>
                   <b>{i.title}</b>
-                  <span className="mrb-app-cta">VIEW DETAILS →</span>
+                  <span className="mrb-app-cta">View Details</span>
                 </div>
               </a>
             ))}
@@ -287,7 +292,7 @@ export default function ProductsPage() {
             style={{ justifyContent: "center", marginTop: 8 }}
           >
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.products)}

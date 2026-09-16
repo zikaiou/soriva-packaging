@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/factory/";
+const PAGE_URL = "https://www.sorivapackaging.com/factory/";
 
 export const metadata: Metadata = {
   title: "Packaging Manufacturer Factory | SORIVA",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Advanced manufacturing for premium packaging — structural development, printing, finishing, assembly and QC.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/factory-poster.webp",
+        url: "https://www.sorivapackaging.com/img/factory-poster.webp",
         width: 1200,
         height: 630,
         alt: "SORIVA Packaging factory",
@@ -67,7 +67,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Factory", item: PAGE_URL },
       ],
     },
@@ -113,7 +113,7 @@ export default function Page() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/contact/" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.factory)}
@@ -262,7 +262,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/contact/" className="btn gold">
-              Get a Quote
+              Get A Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.factory)}

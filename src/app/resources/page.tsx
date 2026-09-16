@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/resources/";
+const PAGE_URL = "https://www.sorivapackaging.com/resources/";
 
 export const metadata: Metadata = {
   title: "Packaging Resources & Buyer Guides",
@@ -79,7 +79,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Resources", item: PAGE_URL },
       ],
     },
@@ -90,7 +90,7 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: g.title,
-        url: `https://sorivapackaging.com${g.href}`,
+        url: `https://www.sorivapackaging.com${g.href}`,
       })),
     },
   ],
@@ -159,7 +159,7 @@ export default function Page() {
           </div>
           <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
             <a href="/custom-packaging/" className="btn gold">
-              Custom Packaging
+              Explore Custom Packaging
             </a>
             <a
               href={waLink(WA_MESSAGES.resources)}

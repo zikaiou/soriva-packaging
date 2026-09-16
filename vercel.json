@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/products/paper-bags/:path*",
+      "destination": "/products/luxury-paper-bags/:path*",
+      "statusCode": 301
+    }
+  ]
+}

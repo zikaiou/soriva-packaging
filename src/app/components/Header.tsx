@@ -40,7 +40,7 @@ export default function Header() {
             </a>
           ))}
           <a href="/contact/" className="nav-cta" onClick={close}>
-            Get a Quote
+            Get A Quote
           </a>
         </nav>
       </div>

@@ -6,7 +6,7 @@ import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/magnetic-rigid-boxes/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/";
 
 export const metadata: Metadata = {
   title: "Custom Magnetic Rigid Boxes Manufacturer",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
         width: 1200,
         height: 900,
         alt: "Custom magnetic rigid box",
@@ -176,7 +176,7 @@ const structuredData = {
       name: "Custom Magnetic Rigid Boxes",
       description:
         "Custom magnetic rigid boxes with hidden magnetic closures, rigid greyboard construction, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and 48-hour sample support.",
-      image: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+      image: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Rigid greyboard + custom wrapping paper",
@@ -184,7 +184,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         {
           "@type": "ListItem",
           position: 2,
@@ -233,7 +233,7 @@ export default function MagneticRigidBoxesPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="#quote" className="btn gold">
-                  Get a Quote
+                  Get A Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.magnetic)}
@@ -244,7 +244,7 @@ export default function MagneticRigidBoxesPage() {
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
                 <a href="#details" className="btn ghost">
-                  Explore Details
+                  View Details
                 </a>
               </div>
             </div>
