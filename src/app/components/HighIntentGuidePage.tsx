@@ -43,6 +43,9 @@ const links = [
   ["/custom-packaging/", "Custom Packaging"],
   ["/projects/", "Projects"],
   ["/factory/", "Factory"],
+  ["/industries/perfume-packaging/", "Perfume Packaging"],
+  ["/industries/cosmetic-packaging/", "Cosmetic Packaging"],
+  ["/contact/", "Get A Quote"],
 ];
 
 export default function HighIntentGuidePage({ guide }: { guide: HighIntentGuide }) {
