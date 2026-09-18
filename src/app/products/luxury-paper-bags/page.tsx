@@ -9,9 +9,9 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
-  title: "Custom Luxury Paper Bags Manufacturer",
+  title: "Custom Luxury Paper Bags Manufacturer & Supplier",
   description:
-    "Custom luxury paper bags with premium papers, reinforced handles, foil, embossing and custom sizes for cosmetics, perfume, jewelry, fashion and gift brands. MOQ from 100 pcs.",
+    "SORIVA is a custom luxury paper bags manufacturer and supplier offering premium papers, reinforced handles, foil, embossing and custom sizes for cosmetics, perfume, jewelry, fashion and gift brands. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -63,6 +63,8 @@ const specs = [
   { label: "Reinforcement", value: "Optional reinforced top and bottom board" },
   { label: "MOQ", value: "From 100 pcs for selected custom projects" },
   { label: "Prototype", value: "1 pc prototype available for selected projects" },
+  { label: "Supplier Type", value: "Custom packaging manufacturer and supplier" },
+  { label: "Lead Time", value: "Confirmed according to structure, material, finishing and production schedule" },
   { label: "Shipping", value: "Sea / Air / Express" },
 ];
 
@@ -177,7 +179,8 @@ const structuredData = {
       "@type": "Product",
       name: "Custom Luxury Paper Bags",
       description:
-        "Premium shopping and gift bags developed around your brand, product size and retail experience. MOQ from 100 pcs.",
+        "Custom luxury paper bags from a manufacturer and supplier, developed around your brand, product size and retail experience. MOQ from 100 pcs.",
+      url: PAGE_URL,
       image: "https://www.sorivapackaging.com/img/paper-bags.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
@@ -215,7 +218,7 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PAPER BAGS</span>
-              <h1>Premium Paper Bags for Luxury Brands</h1>
+              <h1>Custom Luxury Paper Bags Manufacturer &amp; Supplier</h1>
               <p className="mrb-lead">
                 Custom shopping and gift bags developed around your brand,
                 product size and retail experience. Choose paper, handle style,

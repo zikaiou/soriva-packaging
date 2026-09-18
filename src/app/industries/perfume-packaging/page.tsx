@@ -7,9 +7,9 @@ import "../../products/product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/industries/perfume-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Perfume Packaging Boxes Manufacturer",
+  title: "Premium Perfume Packaging Solutions Manufacturer",
   description:
-    "Custom perfume packaging boxes from SORIVA Packaging: magnetic boxes, drawer boxes and lid-and-base rigid boxes with EVA or velvet inserts, matte texture paper, foil and emboss finishes.",
+    "Premium perfume packaging solutions from SORIVA Packaging: magnetic boxes, drawer boxes and lid-and-base rigid boxes with EVA or velvet inserts, matte texture paper, foil and emboss finishes for fragrance brands.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -113,6 +113,29 @@ const stats = [
   { value: "20 Years", label: "Experience" },
 ];
 
+const faqs = [
+  {
+    q: "What perfume packaging structures can you produce?",
+    a: "We produce magnetic rigid boxes, foldable magnetic boxes, drawer boxes and two-piece rigid boxes for fragrance products and gift sets.",
+  },
+  {
+    q: "Can perfume boxes include custom inserts?",
+    a: "Yes. EVA, velvet and paper tray inserts can be developed around the bottle, accessories and gift-set arrangement.",
+  },
+  {
+    q: "What finishes are available for perfume packaging?",
+    a: "Common options include matte or textured paper, foil stamping and embossing, subject to the selected material and artwork.",
+  },
+  {
+    q: "What is the MOQ for custom perfume packaging?",
+    a: "Selected custom packaging projects can start from 100 pcs. The confirmed MOQ depends on structure, material and finishing requirements.",
+  },
+  {
+    q: "Can I request a prototype before production?",
+    a: "A 1 pc prototype is available for selected projects so the structure, bottle fit and appearance can be reviewed before production.",
+  },
+];
+
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -131,7 +154,15 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: p.title,
-        url: `https://www.sorivapackaging.com/products/${p.slug}/`,
+        item: `https://www.sorivapackaging.com/products/${p.slug}/`,
+      })),
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
       })),
     },
   ],
@@ -155,9 +186,9 @@ export default function Page() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">PERFUME PACKAGING</span>
-              <h1>Custom Perfume Packaging Boxes</h1>
+              <h1>Premium Perfume Packaging Solutions</h1>
               <p className="mrb-subtitle">
-                Luxury Packaging Solutions For Fragrance Brands
+                Custom Perfume Packaging Boxes For Fragrance Brands
               </p>
               <p className="mrb-lead">
                 Create elegant perfume packaging that enhances product value and
@@ -260,6 +291,24 @@ export default function Page() {
                   <b>{a.title}</b>
                 </div>
               </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- FAQ ---------- */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">FAQ</span>
+            <h2>Perfume Packaging FAQs</h2>
+          </div>
+          <div className="mrb-faq">
+            {faqs.map((f) => (
+              <div className="mrb-faq-item" key={f.q}>
+                <b>{f.q}</b>
+                <p>{f.a}</p>
+              </div>
             ))}
           </div>
         </div>
