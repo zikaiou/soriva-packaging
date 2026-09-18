@@ -176,15 +176,14 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Luxury Paper Bags",
+      "@type": "Service",
+      name: "Custom Luxury Paper Bag Manufacturing",
       description:
-        "Custom luxury paper bags from a manufacturer and supplier, developed around your brand, product size and retail experience. MOQ from 100 pcs.",
+        "Custom luxury paper bag manufacturing and supply for cosmetics, perfume, jewelry, fashion and gift brands, developed around your brand, product size and retail experience.",
       url: PAGE_URL,
-      image: "https://www.sorivapackaging.com/img/paper-bags.webp",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Art paper / Kraft paper / Specialty paper",
+      serviceType: "Custom luxury paper bag manufacturing",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
