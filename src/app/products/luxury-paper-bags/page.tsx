@@ -441,6 +441,27 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      {/* Buyer Resource */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BUYER RESOURCE</span>
+            <h2>Plan Your Custom Packaging Budget</h2>
+            <p>
+              Custom paper bag cost is driven by structure, paper, handle
+              style, printing, finishing, order quantity and tooling. Review
+              these factors before finalizing your specification and
+              requesting a quotation.
+            </p>
+            <p>
+              <a className="btn gold" href="/resources/custom-packaging-cost-guide/">
+                Read the Custom Packaging Cost Guide
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
