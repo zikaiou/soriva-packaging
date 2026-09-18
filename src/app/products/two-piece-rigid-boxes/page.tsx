@@ -6,7 +6,7 @@ import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/two-piece-rigid-boxes/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/two-piece-rigid-boxes/";
 
 export const metadata: Metadata = {
   title: "Custom Two Piece Rigid Boxes Manufacturer",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/two-piece-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/two-piece-rigid.webp",
         width: 1200,
         height: 900,
         alt: "Two piece rigid gift box",
@@ -162,7 +162,7 @@ const structuredData = {
       name: "Custom Two-Piece Rigid Boxes",
       description:
         "Classic lid-and-base rigid boxes with premium structure, strong protection and flexible customization. MOQ from 100 pcs, 1 pc prototype and 48-hour sample support.",
-      image: "https://sorivapackaging.com/img/two-piece-rigid.webp",
+      image: "https://www.sorivapackaging.com/img/two-piece-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Greyboard + specialty paper",
@@ -170,7 +170,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         {
           "@type": "ListItem",
           position: 2,

@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/custom-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/custom-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Packaging Solutions Manufacturer",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "From concept to premium packaging production — structure design, materials, finishing and global delivery.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/foil-clean.webp",
+        url: "https://www.sorivapackaging.com/img/foil-clean.webp",
         width: 1200,
         height: 630,
         alt: "Custom packaging solutions with gold foil",
@@ -75,7 +75,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Custom Packaging", item: PAGE_URL },
       ],
     },

@@ -22,7 +22,7 @@ export type IndustryLanding = {
 };
 
 export function industryMetadata(page: IndustryLanding): Metadata {
-  return { title: page.title, description: page.description, alternates: { canonical: page.pageUrl }, openGraph: { type: "website", url: page.pageUrl, title: `${page.title} | SORIVA Packaging`, description: page.description, images: [{ url: `https://sorivapackaging.com${page.image}`, width: 1200, height: 630, alt: page.imageAlt }] } };
+  return { title: page.title, description: page.description, alternates: { canonical: page.pageUrl }, openGraph: { type: "website", url: page.pageUrl, title: `${page.title} | SORIVA Packaging`, description: page.description, images: [{ url: `https://www.sorivapackaging.com${page.image}`, width: 1200, height: 630, alt: page.imageAlt }] } };
 }
 
 const stats = [
@@ -34,7 +34,7 @@ const stats = [
 
 export default function IndustryLandingPage({ page }: { page: IndustryLanding }) {
   const structuredData = { "@context": "https://schema.org", "@graph": [
-    { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" }, { "@type": "ListItem", position: 2, name: "Industries", item: "https://sorivapackaging.com/#industries" }, { "@type": "ListItem", position: 3, name: page.title, item: page.pageUrl }] },
+    { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" }, { "@type": "ListItem", position: 2, name: "Industries", item: "https://www.sorivapackaging.com/#industries" }, { "@type": "ListItem", position: 3, name: page.title, item: page.pageUrl }] },
     { "@type": "FAQPage", mainEntity: page.faq.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) },
   ] };
   return <main className="mrb-page">

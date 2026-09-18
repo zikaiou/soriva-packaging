@@ -4,7 +4,7 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/industries/jewelry-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/industries/jewelry-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Jewelry Packaging Boxes Manufacturer",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Premium jewelry packaging with custom rigid structures, velvet or EVA inserts and luxury finishing.",
     images: [
       {
-        url: "https://sorivapackaging.com/img/jewelry.webp",
+        url: "https://www.sorivapackaging.com/img/jewelry.webp",
         width: 1200,
         height: 630,
         alt: "Custom jewelry packaging boxes",
@@ -71,8 +71,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Industries", item: "https://sorivapackaging.com/#industries" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Industries", item: "https://www.sorivapackaging.com/#industries" },
         { "@type": "ListItem", position: 3, name: "Jewelry Packaging", item: PAGE_URL },
       ],
     },

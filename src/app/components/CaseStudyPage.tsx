@@ -27,7 +27,7 @@ export type CaseStudy = {
 };
 
 export function caseStudyMetadata(study: CaseStudy): Metadata {
-  const url = `https://sorivapackaging.com/projects/${study.slug}/`;
+  const url = `https://www.sorivapackaging.com/projects/${study.slug}/`;
   return {
     title: `${study.title} | SORIVA Packaging`,
     description: study.description,
@@ -37,21 +37,21 @@ export function caseStudyMetadata(study: CaseStudy): Metadata {
       url,
       title: `${study.title} | SORIVA Packaging`,
       description: study.description,
-      images: [{ url: `https://sorivapackaging.com${study.image}`, width: 1200, height: 900, alt: study.imageAlt }],
+      images: [{ url: `https://www.sorivapackaging.com${study.image}`, width: 1200, height: 900, alt: study.imageAlt }],
     },
   };
 }
 
 export default function CaseStudyPage({ study }: { study: CaseStudy }) {
-  const pageUrl = `https://sorivapackaging.com/projects/${study.slug}/`;
+  const pageUrl = `https://www.sorivapackaging.com/projects/${study.slug}/`;
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-          { "@type": "ListItem", position: 2, name: "Projects", item: "https://sorivapackaging.com/projects/" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+          { "@type": "ListItem", position: 2, name: "Projects", item: "https://www.sorivapackaging.com/projects/" },
           { "@type": "ListItem", position: 3, name: study.title, item: pageUrl },
         ],
       },
@@ -59,9 +59,9 @@ export default function CaseStudyPage({ study }: { study: CaseStudy }) {
         "@type": "Article",
         headline: study.title,
         description: study.description,
-        image: `https://sorivapackaging.com${study.image}`,
+        image: `https://www.sorivapackaging.com${study.image}`,
         mainEntityOfPage: pageUrl,
-        publisher: { "@type": "Organization", name: "SORIVA Packaging", url: "https://sorivapackaging.com" },
+        publisher: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com" },
       },
     ],
   };

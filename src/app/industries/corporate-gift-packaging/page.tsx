@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import IndustryLandingPage, { industryMetadata, type IndustryLanding } from "../../components/IndustryLandingPage";
 
 const page: IndustryLanding = {
-  pageUrl: "https://sorivapackaging.com/industries/corporate-gift-packaging/",
+  pageUrl: "https://www.sorivapackaging.com/industries/corporate-gift-packaging/",
   title: "Custom Corporate Gift Packaging Manufacturer",
   description: "Premium packaging for executive gifts, events, campaigns and seasonal programs.",
   eyebrow: "CORPORATE GIFT PACKAGING",

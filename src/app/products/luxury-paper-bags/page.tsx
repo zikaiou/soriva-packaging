@@ -6,7 +6,7 @@ import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/luxury-paper-bags/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: "Custom Luxury Paper Bags Manufacturer",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/paper-bags.webp",
+        url: "https://www.sorivapackaging.com/img/paper-bags.webp",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags",
@@ -178,7 +178,7 @@ const structuredData = {
       name: "Custom Luxury Paper Bags",
       description:
         "Premium shopping and gift bags developed around your brand, product size and retail experience. MOQ from 100 pcs.",
-      image: "https://sorivapackaging.com/img/paper-bags.webp",
+      image: "https://www.sorivapackaging.com/img/paper-bags.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Art paper / Kraft paper / Specialty paper",
@@ -186,8 +186,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Products", item: "https://sorivapackaging.com/products/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Products", item: "https://www.sorivapackaging.com/products/" },
         { "@type": "ListItem", position: 3, name: "Luxury Paper Bags", item: PAGE_URL },
       ],
     },

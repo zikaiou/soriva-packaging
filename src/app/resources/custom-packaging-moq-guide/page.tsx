@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import HighIntentGuidePage, { guideMetadata, type HighIntentGuide } from "../../components/HighIntentGuidePage";
 
 const guide: HighIntentGuide = {
-  pageUrl: "https://sorivapackaging.com/resources/custom-packaging-moq-guide/",
+  pageUrl: "https://www.sorivapackaging.com/resources/custom-packaging-moq-guide/",
   title: "Custom Packaging MOQ: What Buyers Should Know",
   description: "A practical guide to minimum order quantities, prototype planning and what affects MOQ in custom packaging.",
   eyebrow: "MOQ & ORDERING",

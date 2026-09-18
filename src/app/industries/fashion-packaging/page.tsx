@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import IndustryLandingPage, { industryMetadata, type IndustryLanding } from "../../components/IndustryLandingPage";
 
 const page: IndustryLanding = {
-  pageUrl: "https://sorivapackaging.com/industries/fashion-packaging/",
+  pageUrl: "https://www.sorivapackaging.com/industries/fashion-packaging/",
   title: "Custom Fashion Packaging Manufacturer",
   description: "Luxury packaging for apparel, accessories and premium retail brands.",
   eyebrow: "FASHION PACKAGING",

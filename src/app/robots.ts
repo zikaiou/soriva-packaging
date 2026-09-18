@@ -23,6 +23,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "meta-externalagent", allow: "/" },
       { userAgent: "Amazonbot", allow: "/" },
     ],
-    sitemap: "https://sorivapackaging.com/sitemap.xml",
+    sitemap: "https://www.sorivapackaging.com/sitemap.xml",
   };
 }

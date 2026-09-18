@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 const SITE = {
   name: "SORIVA Packaging",
-  domain: "https://sorivapackaging.com",
+  domain: "https://www.sorivapackaging.com",
   description:
     "Premium custom rigid boxes, magnetic gift boxes and luxury packaging solutions for cosmetics, jewelry, fragrance, gifts and growing brands. Flexible MOQ, custom design and worldwide shipping.",
 };

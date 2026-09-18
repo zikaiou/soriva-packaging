@@ -5,7 +5,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
 const PAGE_URL =
-  "https://sorivapackaging.com/resources/foldable-vs-traditional-rigid-box/";
+  "https://www.sorivapackaging.com/resources/foldable-vs-traditional-rigid-box/";
 
 export const metadata: Metadata = {
   title: "Foldable Rigid Boxes vs Traditional Rigid Boxes",
@@ -45,8 +45,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Resources", item: "https://www.sorivapackaging.com/resources/" },
         { "@type": "ListItem", position: 3, name: "Foldable vs Traditional Rigid Boxes", item: PAGE_URL },
       ],
     },

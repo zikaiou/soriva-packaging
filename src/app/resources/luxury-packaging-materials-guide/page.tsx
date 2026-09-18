@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import HighIntentGuidePage, { guideMetadata, type HighIntentGuide } from "../../components/HighIntentGuidePage";
 
 const guide: HighIntentGuide = {
-  pageUrl: "https://sorivapackaging.com/resources/luxury-packaging-materials-guide/",
+  pageUrl: "https://www.sorivapackaging.com/resources/luxury-packaging-materials-guide/",
   title: "Luxury Packaging Materials: A Buyer’s Guide",
   description: "Compare rigid greyboard, specialty paper, textured paper, fabric wraps and common insert materials for premium packaging.",
   eyebrow: "MATERIALS & FINISHES",

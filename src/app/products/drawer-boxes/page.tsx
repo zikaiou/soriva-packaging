@@ -6,7 +6,7 @@ import ProductCrossLinks from "../../components/ProductCrossLinks";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/drawer-boxes/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: "Custom Drawer Boxes Manufacturer",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/drawer-box.webp",
+        url: "https://www.sorivapackaging.com/img/drawer-box.webp",
         width: 1200,
         height: 900,
         alt: "Custom drawer packaging box",
@@ -160,7 +160,7 @@ const structuredData = {
       name: "Custom Drawer Boxes",
       description:
         "Custom drawer boxes with smooth sliding structures, premium rigid construction, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and 48-hour sample support.",
-      image: "https://sorivapackaging.com/img/drawer-box.webp",
+      image: "https://www.sorivapackaging.com/img/drawer-box.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
       material: "Greyboard + specialty paper",
@@ -168,7 +168,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Custom Drawer Boxes", item: PAGE_URL },
       ],
     },

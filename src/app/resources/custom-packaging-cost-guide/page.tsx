@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import HighIntentGuidePage, { guideMetadata, type HighIntentGuide } from "../../components/HighIntentGuidePage";
 
 const guide: HighIntentGuide = {
-  pageUrl: "https://sorivapackaging.com/resources/custom-packaging-cost-guide/",
+  pageUrl: "https://www.sorivapackaging.com/resources/custom-packaging-cost-guide/",
   title: "How Much Does Custom Luxury Packaging Cost?",
   description: "A buyer guide to custom rigid box pricing, including size, materials, inserts, finishes, quantity and shipping.",
   eyebrow: "PRICING & PLANNING",

@@ -5,7 +5,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
 const PAGE_URL =
-  "https://sorivapackaging.com/resources/jewelry-packaging-buyer-guide/";
+  "https://www.sorivapackaging.com/resources/jewelry-packaging-buyer-guide/";
 
 export const metadata: Metadata = {
   title: "How to Choose Custom Jewelry Packaging",
@@ -44,8 +44,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Resources", item: "https://www.sorivapackaging.com/resources/" },
         { "@type": "ListItem", position: 3, name: "Jewelry Packaging Buyer Guide", item: PAGE_URL },
       ],
     },

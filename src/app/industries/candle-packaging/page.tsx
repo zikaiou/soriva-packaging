@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import IndustryLandingPage, { industryMetadata, type IndustryLanding } from "../../components/IndustryLandingPage";
 
 const page: IndustryLanding = {
-  pageUrl: "https://sorivapackaging.com/industries/candle-packaging/",
+  pageUrl: "https://www.sorivapackaging.com/industries/candle-packaging/",
   title: "Custom Candle Packaging Boxes Manufacturer",
   description: "Premium packaging for candle and home fragrance brands.",
   eyebrow: "CANDLE PACKAGING",

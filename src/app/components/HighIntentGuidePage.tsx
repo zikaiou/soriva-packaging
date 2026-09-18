@@ -52,8 +52,8 @@ export default function HighIntentGuidePage({ guide }: { guide: HighIntentGuide 
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-          { "@type": "ListItem", position: 2, name: "Resources", item: "https://sorivapackaging.com/resources/" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+          { "@type": "ListItem", position: 2, name: "Resources", item: "https://www.sorivapackaging.com/resources/" },
           { "@type": "ListItem", position: 3, name: guide.title, item: guide.pageUrl },
         ],
       },

@@ -4,7 +4,7 @@ import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/industries/cosmetic-packaging/";
+const PAGE_URL = "https://www.sorivapackaging.com/industries/cosmetic-packaging/";
 
 export const metadata: Metadata = {
   title: "Custom Cosmetic Packaging Boxes Manufacturer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/cosmetics.webp",
+        url: "https://www.sorivapackaging.com/img/cosmetics.webp",
         width: 1200,
         height: 900,
         alt: "Custom cosmetic packaging",
@@ -127,8 +127,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Industries", item: "https://sorivapackaging.com/#industries" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Industries", item: "https://www.sorivapackaging.com/#industries" },
         { "@type": "ListItem", position: 3, name: "Cosmetic Packaging", item: PAGE_URL },
       ],
     },
@@ -139,7 +139,7 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: s.title,
-        url: `https://sorivapackaging.com/products/${s.slug}/`,
+        url: `https://www.sorivapackaging.com/products/${s.slug}/`,
       })),
     },
   ],

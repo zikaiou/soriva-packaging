@@ -4,7 +4,7 @@ import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "./product-page.css";
 
-const PAGE_URL = "https://sorivapackaging.com/products/";
+const PAGE_URL = "https://www.sorivapackaging.com/products/";
 
 export const metadata: Metadata = {
   title: "Custom Luxury Packaging Boxes",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
         width: 1200,
         height: 900,
         alt: "SORIVA custom luxury packaging",
@@ -131,7 +131,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://sorivapackaging.com/" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
         { "@type": "ListItem", position: 2, name: "Products", item: PAGE_URL },
       ],
     },
@@ -142,7 +142,7 @@ const structuredData = {
         "@type": "ListItem",
         position: i + 1,
         name: p.title,
-        url: `https://sorivapackaging.com/products/${p.slug}/`,
+        url: `https://www.sorivapackaging.com/products/${p.slug}/`,
       })),
     },
   ],
