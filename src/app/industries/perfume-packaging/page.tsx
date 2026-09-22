@@ -314,6 +314,22 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ---------- Buyer guide ---------- */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BUYER RESOURCE</span>
+            <h2>Plan Your Perfume Packaging Budget</h2>
+            <p>
+              Before requesting a quote, review the main cost factors for custom packaging, including structure, inserts, finishes, quantity and shipping.
+            </p>
+            <a href="/resources/custom-packaging-cost-guide/" className="btn gold">
+              Read the Custom Packaging Cost Guide
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ---------- Factory trust ---------- */}
       <section className="mrb-section dark">
         <div className="container">
