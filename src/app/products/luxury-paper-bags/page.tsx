@@ -441,6 +441,22 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      {/* Buyer guide link */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BUYER RESOURCE</span>
+            <h2>Plan Your Custom Packaging Budget</h2>
+            <p>
+              Compare structure, materials, inserts, finishes, quantity and shipping in our custom packaging cost guide before requesting a quote.
+            </p>
+            <a className="btn gold" href="/resources/custom-packaging-cost-guide/">
+              Read the Custom Packaging Cost Guide
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
