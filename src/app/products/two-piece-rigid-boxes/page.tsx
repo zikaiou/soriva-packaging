@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -449,6 +450,31 @@ export default function TwoPieceRigidBoxesPage() {
           <QuoteForm />
         </div>
       </section>
+
+      <ProductBuyerGuides
+        title="Two-Piece Box Buyer Guides & Resources"
+        subtitle="Compare lid-and-base packaging with other structures, check insert materials and prepare your RFQ specifications."
+        guides={[
+          {
+            tag: "Sampling",
+            title: "Custom Gift Box Sample Checklist Before Mass Production",
+            desc: "A pre-production checklist for reviewing lid fit, base depth, edge wrapping and logo alignment.",
+            href: "/resources/custom-gift-box-sample-checklist/",
+          },
+          {
+            tag: "RFQ Preparation",
+            title: "How to Prepare an RFQ for Custom Packaging",
+            desc: "Understand what details to provide including inner/outer dimensions, material grade, quantity and finishes.",
+            href: "/resources/how-to-prepare-custom-packaging-rfq/",
+          },
+          {
+            tag: "Packaging Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Review insert options to hold cosmetics, gifts, bottles and electronics securely inside two-piece boxes.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+        ]}
+      />
 
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
       <script

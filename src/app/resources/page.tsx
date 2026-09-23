@@ -71,6 +71,24 @@ const guides = [
     desc: "A buyer guide for jewelry and watch brands comparing box structures, velvet and EVA inserts, finishes, MOQ and sampling.",
     href: "/resources/jewelry-packaging-buyer-guide/",
   },
+  {
+    tag: "RFQ Preparation",
+    title: "How to Prepare an RFQ for Custom Packaging",
+    desc: "A practical guide to preparing a clear custom packaging RFQ with size, quantity, materials, inserts, finishes, shipping details and reference files.",
+    href: "/resources/how-to-prepare-custom-packaging-rfq/",
+  },
+  {
+    tag: "Sampling",
+    title: "Custom Gift Box Sample Checklist Before Mass Production",
+    desc: "A pre-production checklist for reviewing custom gift box samples, including size, structure, color, logo, insert fit, finishing and packing.",
+    href: "/resources/custom-gift-box-sample-checklist/",
+  },
+  {
+    tag: "Packaging Inserts",
+    title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+    desc: "Compare EVA, paperboard and molded pulp inserts for custom gift boxes, including protection, presentation and common applications.",
+    href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+  },
 ];
 
 const structuredData = {

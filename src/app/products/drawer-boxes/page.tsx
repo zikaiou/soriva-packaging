@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -443,6 +444,31 @@ export default function DrawerBoxesPage() {
           <QuoteForm />
         </div>
       </section>
+
+      <ProductBuyerGuides
+        title="Drawer Box Buyer Guides & Resources"
+        subtitle="Learn how to choose custom inserts, prepare accurate RFQ details and verify pre-production drawer box samples."
+        guides={[
+          {
+            tag: "Packaging Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Compare velvet-covered EVA, paperboard and molded pulp inserts for layered presentation in drawer boxes.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+          {
+            tag: "Sampling",
+            title: "Custom Gift Box Sample Checklist Before Mass Production",
+            desc: "Check drawer sliding action, ribbon pull alignment, sleeve fit and internal insert dimensions.",
+            href: "/resources/custom-gift-box-sample-checklist/",
+          },
+          {
+            tag: "RFQ Preparation",
+            title: "How to Prepare an RFQ for Custom Packaging",
+            desc: "Understand what specifications to provide for faster quoting and prototyping on custom sliding boxes.",
+            href: "/resources/how-to-prepare-custom-packaging-rfq/",
+          },
+        ]}
+      />
 
       <ProductCrossLinks industryHref="/industries/jewelry-packaging/" industryLabel="Jewelry Packaging" />
       <script

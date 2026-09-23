@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -465,6 +466,31 @@ export default function MagneticRigidBoxesPage() {
           <QuoteForm />
         </div>
       </section>
+
+      <ProductBuyerGuides
+        title="Magnetic Rigid Box Buyer Guides & Resources"
+        subtitle="Explore detailed guides on magnetic box specifications, insert engineering, sampling checklists and RFQ preparation."
+        guides={[
+          {
+            tag: "RFQ Preparation",
+            title: "How to Prepare an RFQ for Custom Packaging",
+            desc: "Key details to prepare including dimensions, materials, insert requirements and reference files.",
+            href: "/resources/how-to-prepare-custom-packaging-rfq/",
+          },
+          {
+            tag: "Sampling",
+            title: "Custom Gift Box Sample Checklist Before Mass Production",
+            desc: "A pre-production checklist for reviewing structure, magnetic closure, insert fit and finishes.",
+            href: "/resources/custom-gift-box-sample-checklist/",
+          },
+          {
+            tag: "Packaging Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Compare insert materials for custom luxury rigid boxes to optimize protection and presentation.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+        ]}
+      />
 
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
       <script

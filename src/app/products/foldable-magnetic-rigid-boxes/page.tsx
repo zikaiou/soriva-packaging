@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -510,6 +511,31 @@ export default function FoldableRigidBoxesPage() {
           <QuoteForm />
         </div>
       </section>
+
+      <ProductBuyerGuides
+        title="Foldable Packaging Buyer Guides & Resources"
+        subtitle="Compare foldable vs traditional rigid boxes, sampling workflows, insert options and RFQ preparation."
+        guides={[
+          {
+            tag: "Structure Comparison",
+            title: "Foldable vs Traditional Rigid Boxes",
+            desc: "Compare presentation, storage, export packing and assembly considerations before choosing a structure.",
+            href: "/resources/foldable-vs-traditional-rigid-box/",
+          },
+          {
+            tag: "RFQ Preparation",
+            title: "How to Prepare an RFQ for Custom Packaging",
+            desc: "A practical guide to preparing a clear custom packaging RFQ with size, quantity, materials and shipping details.",
+            href: "/resources/how-to-prepare-custom-packaging-rfq/",
+          },
+          {
+            tag: "Sampling",
+            title: "Custom Gift Box Sample Checklist Before Mass Production",
+            desc: "Review collapsible structure, adhesive tape, magnetic closure alignment and insert fit before mass production.",
+            href: "/resources/custom-gift-box-sample-checklist/",
+          },
+        ]}
+      />
 
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
       <script
