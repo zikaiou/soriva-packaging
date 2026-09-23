@@ -171,24 +171,41 @@ export async function POST(request: Request) {
     if (!resendKey || !from || !to) throw new Error("Missing Resend server environment variables");
 
     const resend = new Resend(resendKey);
-    const { error: emailError } = await resend.emails.send({
+    const internalSubject = `New RFQ | ${fields.packaging_type} | ${fields.quantity} | ${fields.country}`;
+    const internalHtml = `
+      <h1>New SORIVA RFQ</h1>
+      <p><strong>Received:</strong> ${escapeHtml(new Date().toISOString())}</p>
+      <h2>Customer</h2>
+      <p>Name: ${escapeHtml(fields.name)}<br>Company: ${escapeHtml(fields.company || "—")}<br>Email: ${escapeHtml(fields.email)}<br>WhatsApp: ${escapeHtml(fields.whatsapp || "—")}<br>Country: ${escapeHtml(fields.country)}<br>Postcode: ${escapeHtml(fields.postcode || "—")}</p>
+      <h2>Project</h2>
+      <p>Packaging type: ${escapeHtml(fields.packaging_type)}<br>Quantity: ${escapeHtml(fields.quantity)}<br>Finished size: ${escapeHtml(fields.finished_size || "—")}<br>Product size: ${escapeHtml(fields.product_size || "—")}<br>Preferred material: ${escapeHtml(fields.preferred_material || "—")}<br>Insert requirement: ${escapeHtml(fields.insert_requirement || "—")}<br>Finishing: ${escapeHtml(fields.finishing || "—")}<br>Target delivery date: ${escapeHtml(fields.target_delivery_date || "—")}<br>Destination market: ${escapeHtml(fields.destination_market || "—")}</p>
+      <h2>Project details</h2><p>${escapeHtml(fields.project_details).replace(/\n/g, "<br>")}</p>
+      <h2>Files</h2><ul>${links.join("") || "<li>No files uploaded</li>"}</ul>
+      <p>RFQ ID: ${escapeHtml(rfq.id)}</p>
+    `;
+    const { error: internalEmailError } = await resend.emails.send({
       from,
       to: [to],
       replyTo: fields.email,
-      subject: `New RFQ | ${fields.packaging_type} | ${fields.quantity} | ${fields.country}`,
+      subject: internalSubject,
+      html: internalHtml,
+    });
+    if (internalEmailError) throw internalEmailError;
+
+    const { error: confirmationEmailError } = await resend.emails.send({
+      from,
+      to: [fields.email],
+      replyTo: to,
+      subject: "We received your SORIVA packaging inquiry",
       html: `
-        <h1>New SORIVA RFQ</h1>
-        <p><strong>Received:</strong> ${escapeHtml(new Date().toISOString())}</p>
-        <h2>Customer</h2>
-        <p>Name: ${escapeHtml(fields.name)}<br>Company: ${escapeHtml(fields.company || "—")}<br>Email: ${escapeHtml(fields.email)}<br>WhatsApp: ${escapeHtml(fields.whatsapp || "—")}<br>Country: ${escapeHtml(fields.country)}<br>Postcode: ${escapeHtml(fields.postcode || "—")}</p>
-        <h2>Project</h2>
-        <p>Packaging type: ${escapeHtml(fields.packaging_type)}<br>Quantity: ${escapeHtml(fields.quantity)}<br>Finished size: ${escapeHtml(fields.finished_size || "—")}<br>Product size: ${escapeHtml(fields.product_size || "—")}<br>Preferred material: ${escapeHtml(fields.preferred_material || "—")}<br>Insert requirement: ${escapeHtml(fields.insert_requirement || "—")}<br>Finishing: ${escapeHtml(fields.finishing || "—")}<br>Target delivery date: ${escapeHtml(fields.target_delivery_date || "—")}<br>Destination market: ${escapeHtml(fields.destination_market || "—")}</p>
-        <h2>Project details</h2><p>${escapeHtml(fields.project_details).replace(/\n/g, "<br>")}</p>
-        <h2>Files</h2><ul>${links.join("") || "<li>No files uploaded</li>"}</ul>
-        <p>RFQ ID: ${escapeHtml(rfq.id)}</p>
+        <h1>Thank you, ${escapeHtml(fields.name)}</h1>
+        <p>We have received your custom packaging inquiry and will review the details before replying.</p>
+        <p><strong>Reference:</strong> ${escapeHtml(rfq.id)}</p>
+        <p><strong>Packaging type:</strong> ${escapeHtml(fields.packaging_type)}<br><strong>Quantity:</strong> ${escapeHtml(fields.quantity)}<br><strong>Country:</strong> ${escapeHtml(fields.country)}</p>
+        <p>If you would like to continue the discussion immediately, reply to this email or contact SORIVA on WhatsApp.</p>
       `,
     });
-    if (emailError) throw emailError;
+    if (confirmationEmailError) throw confirmationEmailError;
   } catch (error) {
     console.error("RFQ notification failed", error);
     await supabase.from("rfq_submissions").update({ status: "reviewing" } as never).eq("id", rfq.id);
