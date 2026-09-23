@@ -252,7 +252,7 @@ export default function FoldableRigidBoxesPage() {
                 <span>7-Day Production</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="#quote" className="btn gold">
+                <a href="/rfq/" className="btn gold">
                   Get A Quote
                 </a>
                 <a
