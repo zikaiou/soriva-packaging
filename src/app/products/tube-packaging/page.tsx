@@ -442,8 +442,14 @@ export default function TubePackagingPage() {
 
       <ProductBuyerGuides
         title="Tube Packaging Buyer Guides & Resources"
-        subtitle="Learn how to choose color systems, inserts and prepare custom paper tube packaging RFQs."
+        subtitle="Learn how to choose paper wraps, color systems, inserts and prepare custom paper tube packaging RFQs."
         guides={[
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare paper wrap options for rigid paper tubes including coated art paper, kraft paper and specialty textures.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
           {
             tag: "Color & Printing",
             title: "Pantone vs CMYK for Custom Packaging",

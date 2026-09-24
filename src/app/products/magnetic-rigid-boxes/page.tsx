@@ -469,8 +469,20 @@ export default function MagneticRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, finishing techniques, pre-shipment QC and RFQ preparation."
+        subtitle="Explore detailed guides on magnetic box specifications, greyboard thickness, paper wraps, finishing and pre-shipment QC."
         guides={[
+          {
+            tag: "Materials & Structure",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "A buyer guide to choosing greyboard thickness for custom magnetic rigid boxes and structural rigidity.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare outer wrapping papers including art paper, textured specialty paper and kraft wrap for magnetic boxes.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
           {
             tag: "Finishing Techniques",
             title: "Foil Stamping vs Embossing vs Spot UV",
@@ -482,18 +494,6 @@ export default function MagneticRigidBoxesPage() {
             title: "How to Inspect Custom Packaging Before Shipment",
             desc: "Check magnetic closure alignment, structure rigidity, wrapping finish and insert fit before dispatch.",
             href: "/resources/how-to-inspect-custom-packaging-before-shipment/",
-          },
-          {
-            tag: "Color & Printing",
-            title: "Pantone vs CMYK for Custom Packaging",
-            desc: "Understand when to use Pantone spot colors vs CMYK printing for consistent brand packaging.",
-            href: "/resources/pantone-vs-cmyk-custom-packaging/",
-          },
-          {
-            tag: "RFQ Preparation",
-            title: "How to Prepare an RFQ for Custom Packaging",
-            desc: "Key details to prepare including dimensions, materials, insert requirements and reference files.",
-            href: "/resources/how-to-prepare-custom-packaging-rfq/",
           },
         ]}
       />

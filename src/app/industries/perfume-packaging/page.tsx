@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
@@ -314,21 +315,31 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ---------- Buyer guide ---------- */}
-      <section className="mrb-section soft">
-        <div className="container">
-          <div className="mrb-head center">
-            <span className="eyebrow dark">BUYER RESOURCE</span>
-            <h2>Plan Your Perfume Packaging Budget</h2>
-            <p>
-              Before requesting a quote, review the main cost factors for custom packaging, including structure, inserts, finishes, quantity and shipping.
-            </p>
-            <a href="/resources/custom-packaging-cost-guide/" className="btn gold">
-              Read the Custom Packaging Cost Guide
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* ---------- Buyer Guides ---------- */}
+      <ProductBuyerGuides
+        title="Perfume Packaging Buyer Guides & Resources"
+        subtitle="Explore practical guides on bottle protection inserts, luxury wrapping paper types and perfume packaging budgeting."
+        guides={[
+          {
+            tag: "Sustainable Inserts",
+            title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
+            desc: "Compare molded pulp and EVA inserts for custom perfume bottles, diffusers and fragrance gift presentation.",
+            href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
+          },
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare textured specialty papers and laminated art papers for premium fragrance packaging.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
+            tag: "Perfume Packaging",
+            title: "How to Source Custom Perfume Packaging",
+            desc: "A sourcing guide for fragrance brands comparing rigid box structures, inserts, finishes, sampling and production.",
+            href: "/resources/perfume-packaging-buyer-guide/",
+          },
+        ]}
+      />
 
       {/* ---------- Factory trust ---------- */}
       <section className="mrb-section dark">

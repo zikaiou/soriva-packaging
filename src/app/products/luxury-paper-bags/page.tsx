@@ -445,8 +445,14 @@ export default function LuxuryPaperBagsPage() {
       {/* Buyer guides */}
       <ProductBuyerGuides
         title="Luxury Paper Bag Buyer Guides & Resources"
-        subtitle="Explore practical advice on paper bag shipping cost optimization, trade terms, color matching and custom packaging budgets."
+        subtitle="Explore practical advice on paper types, shipping cost optimization, trade terms and color matching."
         guides={[
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare white cardboard, coated art paper, kraft paper and specialty textured papers for luxury shopping bags.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
           {
             tag: "Freight & Logistics",
             title: "How to Reduce Custom Packaging Shipping Cost",
@@ -464,12 +470,6 @@ export default function LuxuryPaperBagsPage() {
             title: "Pantone vs CMYK for Custom Packaging",
             desc: "Understand color consistency across art paper, kraft paper and laminated luxury retail shopping bags.",
             href: "/resources/pantone-vs-cmyk-custom-packaging/",
-          },
-          {
-            tag: "Pricing & Budget",
-            title: "How Much Does Custom Luxury Packaging Cost?",
-            desc: "Compare structure, materials, handles, finishes, quantity and shipping in our custom packaging cost guide.",
-            href: "/resources/custom-packaging-cost-guide/",
           },
         ]}
       />

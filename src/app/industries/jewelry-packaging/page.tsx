@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
@@ -127,6 +128,32 @@ export default function JewelryPackagingPage() {
       <section className="mrb-section dark"><div className="container"><div className="mrb-head"><span className="mrb-eyebrow">PROFESSIONAL MANUFACTURER</span><h2>Your Reliable Jewelry Packaging Manufacturer</h2><p>From structure design and insert fitting to finishing, assembly and inspection, SORIVA supports custom jewelry packaging projects for global brands.</p></div><div className="mrb-stats">{stats.map((s) => <div key={s.label}><b>{s.value}</b><span>{s.label}</span></div>)}</div><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}><a href="/contact/" className="btn gold">Get A Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></section>
 
       <section className="mrb-section soft"><div className="container"><div className="mrb-head center"><span className="eyebrow dark">FAQ</span><h2>Jewelry Packaging FAQs</h2></div><div className="mrb-faq">{faqs.map((f) => <div className="mrb-faq-item" key={f.q}><b>{f.q}</b><p>{f.a}</p></div>)}</div></div></section>
+
+      {/* Buyer Guides */}
+      <ProductBuyerGuides
+        title="Jewelry Packaging Buyer Guides & Resources"
+        subtitle="Explore practical guides on choosing paper wraps, greyboard thickness, inserts and jewelry packaging specifications."
+        guides={[
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Explore textured specialty papers, soft-touch art papers and premium wrapping options for jewelry boxes.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
+            tag: "Materials & Structure",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "Learn how to choose the right greyboard thickness for sturdy, refined jewelry and watch presentation boxes.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
+          {
+            tag: "Jewelry Packaging",
+            title: "How to Choose Custom Jewelry Packaging",
+            desc: "A buyer guide for jewelry and watch brands comparing box structures, velvet and EVA inserts, finishes, MOQ and sampling.",
+            href: "/resources/jewelry-packaging-buyer-guide/",
+          },
+        ]}
+      />
 
       <section className="mrb-quote" id="quote"><div className="container"><div className="mrb-head center"><span className="mrb-eyebrow">START A PROJECT</span><h2>Ready to Create Your Jewelry Packaging?</h2><p>Send your jewelry dimensions, quantity, insert preference and references for a tailored quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 22 }}><a href="/contact/" className="btn gold">Get A Quote</a><a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div></div></div></section>
     </main>

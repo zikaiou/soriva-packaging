@@ -514,7 +514,7 @@ export default function FoldableRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Foldable Packaging Buyer Guides & Resources"
-        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, trade terms and RFQ preparation."
+        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, paper types and trade terms."
         guides={[
           {
             tag: "Structure Comparison",
@@ -529,16 +529,16 @@ export default function FoldableRigidBoxesPage() {
             href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
           },
           {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Explore paper wrap options for foldable boxes including laminated art paper and textured specialty stocks.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
             tag: "Trade Terms",
             title: "EXW vs FOB vs DDP for Custom Packaging Orders",
             desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging.",
             href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
-          },
-          {
-            tag: "RFQ Preparation",
-            title: "How to Prepare an RFQ for Custom Packaging",
-            desc: "A practical guide to preparing a clear custom packaging RFQ with size, quantity, materials and shipping details.",
-            href: "/resources/how-to-prepare-custom-packaging-rfq/",
           },
         ]}
       />

@@ -216,6 +216,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/resources/rigid-greyboard-thickness-guide-custom-boxes/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...productEntries,
      {
        url: `${BASE_URL}/rfq/`,

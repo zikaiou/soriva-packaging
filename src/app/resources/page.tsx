@@ -125,6 +125,24 @@ const guides = [
     desc: "A buyer checklist for inspecting custom packaging before shipment, including dimensions, printing, finishing, inserts and packing.",
     href: "/resources/how-to-inspect-custom-packaging-before-shipment/",
   },
+  {
+    tag: "Materials & Structure",
+    title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+    desc: "A buyer guide to choosing greyboard thickness for custom rigid boxes, including structure, product weight, durability and presentation.",
+    href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+  },
+  {
+    tag: "Paper & Finishing",
+    title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+    desc: "Compare art paper, specialty paper and kraft paper for custom luxury packaging, including printability, texture and finishing.",
+    href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+  },
+  {
+    tag: "Sustainable Inserts",
+    title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
+    desc: "Compare molded pulp and EVA inserts for custom packaging, including protection, fit, presentation and material composition.",
+    href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
+  },
 ];
 
 const structuredData = {

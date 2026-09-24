@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
@@ -289,6 +290,32 @@ export default function CosmeticPackagingPage() {
           </div>
         </div>
       </section>
+
+      {/* Buyer Guides */}
+      <ProductBuyerGuides
+        title="Cosmetic Packaging Buyer Guides & Resources"
+        subtitle="Explore practical guides on cosmetic box structures, insert materials, sustainable packaging and paper wraps."
+        guides={[
+          {
+            tag: "Sustainable Inserts",
+            title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
+            desc: "Compare molded pulp and EVA inserts for beauty and skincare bottles, jars and retail gift sets.",
+            href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
+          },
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare art paper and specialty papers for luxury cosmetic boxes, skincare sets and beauty packaging.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
+            tag: "Beauty Packaging",
+            title: "How to Choose Cosmetic Packaging",
+            desc: "A practical overview of box structures, inserts, finishes, MOQ and sampling for skincare and beauty brands.",
+            href: "/resources/cosmetic-packaging-guide/",
+          },
+        ]}
+      />
 
       {/* Factory partner */}
       <section className="mrb-quote">

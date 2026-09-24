@@ -453,19 +453,19 @@ export default function TwoPieceRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Two-Piece Box Buyer Guides & Resources"
-        subtitle="Compare lid-and-base packaging with other structures, check finishes, color targeting and prepare your RFQ specifications."
+        subtitle="Compare lid-and-base packaging, greyboard thickness, finishes, color targeting and prepare your RFQ specifications."
         guides={[
+          {
+            tag: "Materials & Structure",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "A buyer guide to choosing greyboard thickness for classic lid-and-base rigid boxes.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
           {
             tag: "Finishing Techniques",
             title: "Foil Stamping vs Embossing vs Spot UV",
             desc: "Compare foil stamping, embossing and spot UV for classic lid-and-base rigid boxes.",
             href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
-          },
-          {
-            tag: "Color & Printing",
-            title: "Pantone vs CMYK for Custom Packaging",
-            desc: "Understand color matching for lid-and-base boxes across specialty and coated wrapping papers.",
-            href: "/resources/pantone-vs-cmyk-custom-packaging/",
           },
           {
             tag: "Sampling",

@@ -447,8 +447,14 @@ export default function DrawerBoxesPage() {
 
       <ProductBuyerGuides
         title="Drawer Box Buyer Guides & Resources"
-        subtitle="Learn how to choose custom finishes, inserts, prepare accurate RFQ details and verify pre-production drawer box samples."
+        subtitle="Learn how to choose greyboard thickness, custom finishes, inserts, prepare RFQs and verify pre-production drawer box samples."
         guides={[
+          {
+            tag: "Materials & Structure",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "A buyer guide to choosing greyboard thickness for rigid sliding drawer boxes and structural rigidity.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
           {
             tag: "Finishing Techniques",
             title: "Foil Stamping vs Embossing vs Spot UV",
@@ -466,12 +472,6 @@ export default function DrawerBoxesPage() {
             title: "Custom Gift Box Sample Checklist Before Mass Production",
             desc: "Check drawer sliding action, ribbon pull alignment, sleeve fit and internal insert dimensions.",
             href: "/resources/custom-gift-box-sample-checklist/",
-          },
-          {
-            tag: "RFQ Preparation",
-            title: "How to Prepare an RFQ for Custom Packaging",
-            desc: "Understand what specifications to provide for faster quoting and prototyping on custom sliding boxes.",
-            href: "/resources/how-to-prepare-custom-packaging-rfq/",
           },
         ]}
       />

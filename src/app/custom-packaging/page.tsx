@@ -217,12 +217,30 @@ export default function Page() {
       {/* ---------- Buyer Guides ---------- */}
       <ProductBuyerGuides
         title="Custom Packaging Technical Guides & Resources"
-        subtitle="Explore detailed buyer guides on supplier selection, trade terms, color matching systems and luxury finishing techniques."
+        subtitle="Explore detailed buyer guides on materials, board thickness, insert engineering, paper types and luxury finishing."
         guides={[
+          {
+            tag: "Materials & Structure",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "A buyer guide to choosing greyboard thickness for custom rigid boxes, including structure and product weight.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
+          {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "Compare art paper, specialty paper and kraft paper for custom luxury packaging and outer wraps.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
+            tag: "Sustainable Inserts",
+            title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
+            desc: "Compare molded pulp and EVA inserts for custom packaging, protection and presentation.",
+            href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
+          },
           {
             tag: "Supplier Selection",
             title: "How to Choose a Custom Packaging Manufacturer in China",
-            desc: "A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability, sampling and QC.",
+            desc: "A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability and QC.",
             href: "/resources/how-to-choose-custom-packaging-manufacturer-china/",
           },
           {
@@ -236,18 +254,6 @@ export default function Page() {
             title: "Pantone vs CMYK for Custom Packaging",
             desc: "A buyer guide to choosing Pantone spot colors or CMYK printing with practical differences in color consistency.",
             href: "/resources/pantone-vs-cmyk-custom-packaging/",
-          },
-          {
-            tag: "Finishing Techniques",
-            title: "Foil Stamping vs Embossing vs Spot UV",
-            desc: "Compare foil stamping, embossing and spot UV for luxury packaging, including appearance and tactile effects.",
-            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
-          },
-          {
-            tag: "Freight & Logistics",
-            title: "How to Reduce Custom Packaging Shipping Cost",
-            desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions and carton optimization.",
-            href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
           },
         ]}
       />
