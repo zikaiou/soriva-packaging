@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import ProductBuyerGuides from "../components/ProductBuyerGuides";
 import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "./product-page.css";
@@ -273,6 +274,32 @@ export default function ProductsPage() {
           </div>
         </div>
       </section>
+
+      {/* Buyer Guides */}
+      <ProductBuyerGuides
+        title="Packaging Sourcing, Cost & Planning Guides"
+        subtitle="Practical guides on packaging cost components, MOQ economics, inventory planning and structure comparison."
+        guides={[
+          {
+            tag: "Cost Breakdown",
+            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+            desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing and freight.",
+            href: "/resources/custom-packaging-cost-breakdown/",
+          },
+          {
+            tag: "MOQ & Pricing",
+            title: "How Custom Packaging MOQ Affects Unit Cost",
+            desc: "A buyer guide to understanding how MOQ affects unit cost, setup cost allocation and production efficiency.",
+            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
+          },
+          {
+            tag: "Inventory Planning",
+            title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
+            desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders.",
+            href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
+          },
+        ]}
+      />
 
       {/* Why choose SORIVA */}
       <section className="mrb-quote">

@@ -217,8 +217,26 @@ export default function Page() {
       {/* ---------- Buyer Guides ---------- */}
       <ProductBuyerGuides
         title="Custom Packaging Technical Guides & Resources"
-        subtitle="Explore detailed buyer guides on materials, board thickness, insert engineering, paper types and luxury finishing."
+        subtitle="Explore detailed buyer guides on materials, board thickness, cost breakdown, MOQ economics, inventory planning and luxury finishing."
         guides={[
+          {
+            tag: "Cost Breakdown",
+            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+            desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing and freight.",
+            href: "/resources/custom-packaging-cost-breakdown/",
+          },
+          {
+            tag: "MOQ & Pricing",
+            title: "How Custom Packaging MOQ Affects Unit Cost",
+            desc: "A buyer guide to understanding how MOQ affects unit cost, setup cost allocation and production efficiency.",
+            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
+          },
+          {
+            tag: "Inventory Planning",
+            title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
+            desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders.",
+            href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
+          },
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
@@ -236,24 +254,6 @@ export default function Page() {
             title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
             desc: "Compare molded pulp and EVA inserts for custom packaging, protection and presentation.",
             href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
-          },
-          {
-            tag: "Supplier Selection",
-            title: "How to Choose a Custom Packaging Manufacturer in China",
-            desc: "A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability and QC.",
-            href: "/resources/how-to-choose-custom-packaging-manufacturer-china/",
-          },
-          {
-            tag: "Trade Terms",
-            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
-            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging.",
-            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
-          },
-          {
-            tag: "Color & Printing",
-            title: "Pantone vs CMYK for Custom Packaging",
-            desc: "A buyer guide to choosing Pantone spot colors or CMYK printing with practical differences in color consistency.",
-            href: "/resources/pantone-vs-cmyk-custom-packaging/",
           },
         ]}
       />

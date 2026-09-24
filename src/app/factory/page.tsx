@@ -148,10 +148,10 @@ export default function FactoryPage() {
         <div className="factory-container">
           <div className="factory-heading">
             <span className="factory-eyebrow dark">BUYER GUIDES & QC</span>
-            <h2>Factory Verification & Quality Resources</h2>
-            <p>Helpful guides on evaluating packaging manufacturers in China and inspecting bulk orders before shipment.</p>
+            <h2>Factory Verification & Production Planning Resources</h2>
+            <p>Helpful guides on evaluating packaging manufacturers in China, inspecting bulk orders and planning inventory lead times.</p>
           </div>
-          <div className="factory-grid two">
+          <div className="factory-grid three">
             <article className="factory-card">
               <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>SUPPLIER EVALUATION</span>
               <h3>How to Choose a Custom Packaging Manufacturer in China</h3>
@@ -163,6 +163,12 @@ export default function FactoryPage() {
               <h3>How to Inspect Custom Packaging Before Shipment</h3>
               <p>A buyer checklist for inspecting custom packaging before shipment, including dimensions, printing, finishing, inserts, quantity, packing and shipping readiness.</p>
               <a href="/resources/how-to-inspect-custom-packaging-before-shipment/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Inspection Guide →</a>
+            </article>
+            <article className="factory-card">
+              <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>INVENTORY PLANNING</span>
+              <h3>How to Plan Packaging Inventory for Seasonal Orders</h3>
+              <p>Learn how to calculate lead time buffers, sample approval dates and production schedules for holiday campaigns and product launches.</p>
+              <a href="/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Planning Guide →</a>
             </article>
           </div>
         </div>

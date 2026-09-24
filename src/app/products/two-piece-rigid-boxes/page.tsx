@@ -453,8 +453,14 @@ export default function TwoPieceRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Two-Piece Box Buyer Guides & Resources"
-        subtitle="Compare lid-and-base packaging, greyboard thickness, finishes, color targeting and prepare your RFQ specifications."
+        subtitle="Compare lid-and-base packaging, cost breakdown, greyboard thickness, finishes and sampling checklists."
         guides={[
+          {
+            tag: "Cost Breakdown",
+            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+            desc: "Understand the main cost drivers in classic two-piece rigid packaging including lid depth, board and wraps.",
+            href: "/resources/custom-packaging-cost-breakdown/",
+          },
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
@@ -472,12 +478,6 @@ export default function TwoPieceRigidBoxesPage() {
             title: "Custom Gift Box Sample Checklist Before Mass Production",
             desc: "A pre-production checklist for reviewing lid fit, base depth, edge wrapping and logo alignment.",
             href: "/resources/custom-gift-box-sample-checklist/",
-          },
-          {
-            tag: "RFQ Preparation",
-            title: "How to Prepare an RFQ for Custom Packaging",
-            desc: "Understand what details to provide including inner/outer dimensions, material grade, quantity and finishes.",
-            href: "/resources/how-to-prepare-custom-packaging-rfq/",
           },
         ]}
       />

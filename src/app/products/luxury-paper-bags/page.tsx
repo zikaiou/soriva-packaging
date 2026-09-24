@@ -445,8 +445,20 @@ export default function LuxuryPaperBagsPage() {
       {/* Buyer guides */}
       <ProductBuyerGuides
         title="Luxury Paper Bag Buyer Guides & Resources"
-        subtitle="Explore practical advice on paper types, shipping cost optimization, trade terms and color matching."
+        subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
+          {
+            tag: "MOQ & Pricing",
+            title: "How Custom Packaging MOQ Affects Unit Cost",
+            desc: "Learn how order quantity affects paper bag plate setup, printing efficiency and overall unit costs.",
+            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
+          },
+          {
+            tag: "Inventory Planning",
+            title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
+            desc: "A buyer guide to planning custom retail shopping bag inventory for seasonal campaigns and brand launches.",
+            href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
+          },
           {
             tag: "Paper & Finishing",
             title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
@@ -458,18 +470,6 @@ export default function LuxuryPaperBagsPage() {
             title: "How to Reduce Custom Packaging Shipping Cost",
             desc: "Learn how flat-packed luxury paper bags optimize carton volume and reduce international freight costs.",
             href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
-          },
-          {
-            tag: "Trade Terms",
-            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
-            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom luxury paper bags.",
-            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
-          },
-          {
-            tag: "Color & Printing",
-            title: "Pantone vs CMYK for Custom Packaging",
-            desc: "Understand color consistency across art paper, kraft paper and laminated luxury retail shopping bags.",
-            href: "/resources/pantone-vs-cmyk-custom-packaging/",
           },
         ]}
       />

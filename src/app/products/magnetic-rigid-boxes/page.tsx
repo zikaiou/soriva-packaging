@@ -469,8 +469,14 @@ export default function MagneticRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, greyboard thickness, paper wraps, finishing and pre-shipment QC."
+        subtitle="Explore detailed guides on magnetic box specifications, cost breakdown, greyboard thickness, paper wraps and finishing."
         guides={[
+          {
+            tag: "Cost Breakdown",
+            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+            desc: "Understand what drives custom magnetic box costs, including magnets, board, specialty paper, inserts and labor.",
+            href: "/resources/custom-packaging-cost-breakdown/",
+          },
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
@@ -488,12 +494,6 @@ export default function MagneticRigidBoxesPage() {
             title: "Foil Stamping vs Embossing vs Spot UV",
             desc: "Compare foil stamping, embossing and spot UV for luxury magnetic rigid boxes.",
             href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
-          },
-          {
-            tag: "Quality Control",
-            title: "How to Inspect Custom Packaging Before Shipment",
-            desc: "Check magnetic closure alignment, structure rigidity, wrapping finish and insert fit before dispatch.",
-            href: "/resources/how-to-inspect-custom-packaging-before-shipment/",
           },
         ]}
       />

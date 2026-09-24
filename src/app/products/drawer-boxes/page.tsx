@@ -447,13 +447,19 @@ export default function DrawerBoxesPage() {
 
       <ProductBuyerGuides
         title="Drawer Box Buyer Guides & Resources"
-        subtitle="Learn how to choose greyboard thickness, custom finishes, inserts, prepare RFQs and verify pre-production drawer box samples."
+        subtitle="Learn how to choose greyboard thickness, MOQ economics, custom finishes, inserts and verify pre-production samples."
         guides={[
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
             desc: "A buyer guide to choosing greyboard thickness for rigid sliding drawer boxes and structural rigidity.",
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
+          {
+            tag: "MOQ & Pricing",
+            title: "How Custom Packaging MOQ Affects Unit Cost",
+            desc: "Learn how order quantity impacts setup cost allocation and unit pricing on custom sliding drawer boxes.",
+            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
           },
           {
             tag: "Finishing Techniques",
@@ -466,12 +472,6 @@ export default function DrawerBoxesPage() {
             title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
             desc: "Compare velvet-covered EVA, paperboard and molded pulp inserts for layered presentation in drawer boxes.",
             href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
-          },
-          {
-            tag: "Sampling",
-            title: "Custom Gift Box Sample Checklist Before Mass Production",
-            desc: "Check drawer sliding action, ribbon pull alignment, sleeve fit and internal insert dimensions.",
-            href: "/resources/custom-gift-box-sample-checklist/",
           },
         ]}
       />

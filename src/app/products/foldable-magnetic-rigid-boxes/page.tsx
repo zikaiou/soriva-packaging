@@ -514,7 +514,7 @@ export default function FoldableRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Foldable Packaging Buyer Guides & Resources"
-        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, paper types and trade terms."
+        subtitle="Compare foldable vs traditional rigid boxes, cost drivers, inventory planning, freight reduction and trade terms."
         guides={[
           {
             tag: "Structure Comparison",
@@ -523,22 +523,22 @@ export default function FoldableRigidBoxesPage() {
             href: "/resources/foldable-vs-traditional-rigid-box/",
           },
           {
+            tag: "Cost Breakdown",
+            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+            desc: "Learn how flat-pack collapsible structures reduce shipping volume and overall packaging landed costs.",
+            href: "/resources/custom-packaging-cost-breakdown/",
+          },
+          {
+            tag: "Inventory Planning",
+            title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
+            desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders.",
+            href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
+          },
+          {
             tag: "Freight & Logistics",
             title: "How to Reduce Custom Packaging Shipping Cost",
             desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions and carton optimization.",
             href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
-          },
-          {
-            tag: "Paper & Finishing",
-            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
-            desc: "Explore paper wrap options for foldable boxes including laminated art paper and textured specialty stocks.",
-            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
-          },
-          {
-            tag: "Trade Terms",
-            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
-            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging.",
-            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
           },
         ]}
       />

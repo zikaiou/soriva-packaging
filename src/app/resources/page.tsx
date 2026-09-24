@@ -143,6 +143,24 @@ const guides = [
     desc: "Compare molded pulp and EVA inserts for custom packaging, including protection, fit, presentation and material composition.",
     href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
   },
+  {
+    tag: "MOQ & Pricing",
+    title: "How Custom Packaging MOQ Affects Unit Cost",
+    desc: "A buyer guide to understanding how MOQ affects unit cost, setup cost allocation, materials, finishing and shipping efficiency.",
+    href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
+  },
+  {
+    tag: "Cost Breakdown",
+    title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
+    desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing, inserts and freight.",
+    href: "/resources/custom-packaging-cost-breakdown/",
+  },
+  {
+    tag: "Inventory Planning",
+    title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
+    desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders with lead time buffers.",
+    href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
+  },
 ];
 
 const structuredData = {
