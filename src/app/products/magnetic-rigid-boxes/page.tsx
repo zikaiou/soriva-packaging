@@ -469,19 +469,25 @@ export default function MagneticRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, insert engineering, sampling checklists and RFQ preparation."
+        subtitle="Explore detailed guides on magnetic box specifications, color matching, finishing techniques, insert engineering and RFQ preparation."
         guides={[
+          {
+            tag: "Finishing Techniques",
+            title: "Foil Stamping vs Embossing vs Spot UV",
+            desc: "Compare foil stamping, embossing and spot UV for luxury magnetic rigid boxes.",
+            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+          },
+          {
+            tag: "Color & Printing",
+            title: "Pantone vs CMYK for Custom Packaging",
+            desc: "Understand when to use Pantone spot colors vs CMYK printing for consistent brand packaging.",
+            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+          },
           {
             tag: "RFQ Preparation",
             title: "How to Prepare an RFQ for Custom Packaging",
             desc: "Key details to prepare including dimensions, materials, insert requirements and reference files.",
             href: "/resources/how-to-prepare-custom-packaging-rfq/",
-          },
-          {
-            tag: "Sampling",
-            title: "Custom Gift Box Sample Checklist Before Mass Production",
-            desc: "A pre-production checklist for reviewing structure, magnetic closure, insert fit and finishes.",
-            href: "/resources/custom-gift-box-sample-checklist/",
           },
           {
             tag: "Packaging Inserts",

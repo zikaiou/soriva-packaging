@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -441,21 +442,31 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* Buyer guide link */}
-      <section className="mrb-section soft">
-        <div className="container">
-          <div className="mrb-head center">
-            <span className="eyebrow dark">BUYER RESOURCE</span>
-            <h2>Plan Your Custom Packaging Budget</h2>
-            <p>
-              Compare structure, materials, inserts, finishes, quantity and shipping in our custom packaging cost guide before requesting a quote.
-            </p>
-            <a className="btn gold" href="/resources/custom-packaging-cost-guide/">
-              Read the Custom Packaging Cost Guide
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* Buyer guides */}
+      <ProductBuyerGuides
+        title="Luxury Paper Bag Buyer Guides & Resources"
+        subtitle="Explore practical advice on paper bag shipping cost optimization, color matching and custom packaging budgets."
+        guides={[
+          {
+            tag: "Freight & Logistics",
+            title: "How to Reduce Custom Packaging Shipping Cost",
+            desc: "Learn how flat-packed luxury paper bags optimize carton volume and reduce international freight costs.",
+            href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
+          },
+          {
+            tag: "Color & Printing",
+            title: "Pantone vs CMYK for Custom Packaging",
+            desc: "Understand color consistency across art paper, kraft paper and laminated luxury retail shopping bags.",
+            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+          },
+          {
+            tag: "Pricing & Budget",
+            title: "How Much Does Custom Luxury Packaging Cost?",
+            desc: "Compare structure, materials, handles, finishes, quantity and shipping in our custom packaging cost guide.",
+            href: "/resources/custom-packaging-cost-guide/",
+          },
+        ]}
+      />
 
       {/* Quote */}
       <section className="mrb-quote" id="quote">

@@ -89,6 +89,24 @@ const guides = [
     desc: "Compare EVA, paperboard and molded pulp inserts for custom gift boxes, including protection, presentation and common applications.",
     href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
   },
+  {
+    tag: "Color & Printing",
+    title: "Pantone vs CMYK for Custom Packaging",
+    desc: "A buyer guide to choosing Pantone or CMYK printing for custom packaging, with practical differences in color consistency, artwork and production.",
+    href: "/resources/pantone-vs-cmyk-custom-packaging/",
+  },
+  {
+    tag: "Finishing Techniques",
+    title: "Foil Stamping vs Embossing vs Spot UV",
+    desc: "Compare foil stamping, embossing and spot UV for luxury packaging, including appearance, tactile effect and common uses.",
+    href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+  },
+  {
+    tag: "Freight & Logistics",
+    title: "How to Reduce Custom Packaging Shipping Cost",
+    desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions, carton optimization and freight planning.",
+    href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
+  },
 ];
 
 const structuredData = {

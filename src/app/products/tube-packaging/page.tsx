@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 import ProductCrossLinks from "../../components/ProductCrossLinks";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
 import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
@@ -438,6 +439,31 @@ export default function TubePackagingPage() {
           <QuoteForm />
         </div>
       </section>
+
+      <ProductBuyerGuides
+        title="Tube Packaging Buyer Guides & Resources"
+        subtitle="Learn how to choose color systems, inserts and prepare custom paper tube packaging RFQs."
+        guides={[
+          {
+            tag: "Color & Printing",
+            title: "Pantone vs CMYK for Custom Packaging",
+            desc: "A buyer guide to choosing Pantone spot colors or CMYK printing for cylindrical tube packaging.",
+            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+          },
+          {
+            tag: "Packaging Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Review insert options to hold bottles, candles and cosmetics securely inside tube packaging.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+          {
+            tag: "RFQ Preparation",
+            title: "How to Prepare an RFQ for Custom Packaging",
+            desc: "Understand what diameter, height, material grade and quantity details to provide for accurate tube quotes.",
+            href: "/resources/how-to-prepare-custom-packaging-rfq/",
+          },
+        ]}
+      />
 
       <ProductCrossLinks industryHref="/industries/perfume-packaging/" industryLabel="Perfume Packaging" />
       <script

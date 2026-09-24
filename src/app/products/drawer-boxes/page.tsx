@@ -447,8 +447,14 @@ export default function DrawerBoxesPage() {
 
       <ProductBuyerGuides
         title="Drawer Box Buyer Guides & Resources"
-        subtitle="Learn how to choose custom inserts, prepare accurate RFQ details and verify pre-production drawer box samples."
+        subtitle="Learn how to choose custom finishes, inserts, prepare accurate RFQ details and verify pre-production drawer box samples."
         guides={[
+          {
+            tag: "Finishing Techniques",
+            title: "Foil Stamping vs Embossing vs Spot UV",
+            desc: "Compare foil stamping, embossing and spot UV for custom sliding drawer boxes.",
+            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+          },
           {
             tag: "Packaging Inserts",
             title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",

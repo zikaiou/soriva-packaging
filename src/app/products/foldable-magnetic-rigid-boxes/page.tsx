@@ -514,7 +514,7 @@ export default function FoldableRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Foldable Packaging Buyer Guides & Resources"
-        subtitle="Compare foldable vs traditional rigid boxes, sampling workflows, insert options and RFQ preparation."
+        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, color consistency and RFQ preparation."
         guides={[
           {
             tag: "Structure Comparison",
@@ -523,16 +523,22 @@ export default function FoldableRigidBoxesPage() {
             href: "/resources/foldable-vs-traditional-rigid-box/",
           },
           {
+            tag: "Freight & Logistics",
+            title: "How to Reduce Custom Packaging Shipping Cost",
+            desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions and carton optimization.",
+            href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
+          },
+          {
+            tag: "Color & Printing",
+            title: "Pantone vs CMYK for Custom Packaging",
+            desc: "Learn how Pantone and CMYK color targeting works across foldable rigid box materials.",
+            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+          },
+          {
             tag: "RFQ Preparation",
             title: "How to Prepare an RFQ for Custom Packaging",
             desc: "A practical guide to preparing a clear custom packaging RFQ with size, quantity, materials and shipping details.",
             href: "/resources/how-to-prepare-custom-packaging-rfq/",
-          },
-          {
-            tag: "Sampling",
-            title: "Custom Gift Box Sample Checklist Before Mass Production",
-            desc: "Review collapsible structure, adhesive tape, magnetic closure alignment and insert fit before mass production.",
-            href: "/resources/custom-gift-box-sample-checklist/",
           },
         ]}
       />

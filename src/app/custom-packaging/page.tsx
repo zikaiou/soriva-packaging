@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import ProductBuyerGuides from "../components/ProductBuyerGuides";
 import WhatsAppIcon from "../components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 import "../products/product-page.css";
@@ -212,6 +213,32 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* ---------- Buyer Guides ---------- */}
+      <ProductBuyerGuides
+        title="Custom Packaging Technical Guides & Resources"
+        subtitle="Explore detailed buyer guides on color matching systems, luxury finishing techniques and international shipping cost optimization."
+        guides={[
+          {
+            tag: "Color & Printing",
+            title: "Pantone vs CMYK for Custom Packaging",
+            desc: "A buyer guide to choosing Pantone spot colors or CMYK printing with practical differences in color consistency.",
+            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+          },
+          {
+            tag: "Finishing Techniques",
+            title: "Foil Stamping vs Embossing vs Spot UV",
+            desc: "Compare foil stamping, embossing and spot UV for luxury packaging, including appearance and tactile effects.",
+            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+          },
+          {
+            tag: "Freight & Logistics",
+            title: "How to Reduce Custom Packaging Shipping Cost",
+            desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions and carton optimization.",
+            href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
+          },
+        ]}
+      />
 
       {/* ---------- Why choose ---------- */}
       <section className="mrb-section dark">

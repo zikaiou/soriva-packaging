@@ -180,6 +180,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/resources/pantone-vs-cmyk-custom-packaging/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/foil-stamping-vs-embossing-vs-spot-uv/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/how-to-reduce-custom-packaging-shipping-cost/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...productEntries,
      {
        url: `${BASE_URL}/rfq/`,
