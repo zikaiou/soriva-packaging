@@ -115,6 +115,17 @@ export default function RfqPage() {
           <p className="rfq-eyebrow">REQUEST A QUOTE</p>
           <h1>Tell Us About Your Packaging Project</h1>
           <p>Share your product details, quantity, preferred structure, finishing and target delivery date for a more accurate quotation.</p>
+          <p style={{ marginTop: 14, fontSize: 13, color: "#c79a51" }}>
+            Need guidance on sizes or box types? See our{" "}
+            <Link href="/resources/how-to-measure-product-for-custom-box-packaging/" style={{ color: "#fff", textDecoration: "underline" }}>
+              Measurement Guide
+            </Link>{" "}
+            and{" "}
+            <Link href="/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/" style={{ color: "#fff", textDecoration: "underline" }}>
+              Structure Guide
+            </Link>
+            .
+          </p>
         </div>
       </section>
       <section className="rfq-section">

@@ -514,8 +514,14 @@ export default function FoldableRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Foldable Packaging Buyer Guides & Resources"
-        subtitle="Compare foldable vs traditional rigid boxes, cost drivers, inventory planning, freight reduction and trade terms."
+        subtitle="Compare foldable vs traditional rigid boxes, structure selection, cost drivers, inventory planning and freight reduction."
         guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience and packing efficiency.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
           {
             tag: "Structure Comparison",
             title: "Foldable vs Traditional Rigid Boxes",
@@ -533,12 +539,6 @@ export default function FoldableRigidBoxesPage() {
             title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
             desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders.",
             href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
-          },
-          {
-            tag: "Freight & Logistics",
-            title: "How to Reduce Custom Packaging Shipping Cost",
-            desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions and carton optimization.",
-            href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
           },
         ]}
       />

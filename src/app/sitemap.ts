@@ -252,6 +252,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/resources/how-to-measure-product-for-custom-box-packaging/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/prototype-sample-vs-pre-production-sample/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...productEntries,
      {
        url: `${BASE_URL}/rfq/`,

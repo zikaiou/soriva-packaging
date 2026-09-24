@@ -294,8 +294,14 @@ export default function CosmeticPackagingPage() {
       {/* Buyer Guides */}
       <ProductBuyerGuides
         title="Cosmetic Packaging Buyer Guides & Resources"
-        subtitle="Explore practical guides on cosmetic box structures, insert materials, sustainable packaging and paper wraps."
+        subtitle="Explore practical guides on cosmetic box structures, product measurement, insert materials and paper wraps."
         guides={[
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "Learn how to measure skincare bottles, jars and sets with proper clearance and insert allowances.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
           {
             tag: "Sustainable Inserts",
             title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",

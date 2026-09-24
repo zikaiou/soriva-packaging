@@ -453,13 +453,19 @@ export default function TwoPieceRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Two-Piece Box Buyer Guides & Resources"
-        subtitle="Compare lid-and-base packaging, cost breakdown, greyboard thickness, finishes and sampling checklists."
+        subtitle="Compare lid-and-base packaging, structure selection, product measurement, finishes and sampling checklists."
         guides={[
           {
-            tag: "Cost Breakdown",
-            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
-            desc: "Understand the main cost drivers in classic two-piece rigid packaging including lid depth, board and wraps.",
-            href: "/resources/custom-packaging-cost-breakdown/",
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare classic lid-and-base two-piece boxes with magnetic and sliding drawer box structures.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "A practical buyer guide to measuring product dimensions to ensure proper lid fit and base clearance.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
           },
           {
             tag: "Materials & Structure",
@@ -472,12 +478,6 @@ export default function TwoPieceRigidBoxesPage() {
             title: "Foil Stamping vs Embossing vs Spot UV",
             desc: "Compare foil stamping, embossing and spot UV for classic lid-and-base rigid boxes.",
             href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
-          },
-          {
-            tag: "Sampling",
-            title: "Custom Gift Box Sample Checklist Before Mass Production",
-            desc: "A pre-production checklist for reviewing lid fit, base depth, edge wrapping and logo alignment.",
-            href: "/resources/custom-gift-box-sample-checklist/",
           },
         ]}
       />

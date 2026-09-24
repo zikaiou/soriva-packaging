@@ -318,8 +318,14 @@ export default function Page() {
       {/* ---------- Buyer Guides ---------- */}
       <ProductBuyerGuides
         title="Perfume Packaging Buyer Guides & Resources"
-        subtitle="Explore practical guides on bottle protection inserts, luxury wrapping paper types and perfume packaging budgeting."
+        subtitle="Explore practical guides on bottle dimension measurement, bottle protection inserts, paper types and perfume packaging sourcing."
         guides={[
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "Learn how to measure fragrance bottles, caps, sprayers and accessories for secure custom box sizing.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
           {
             tag: "Sustainable Inserts",
             title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",

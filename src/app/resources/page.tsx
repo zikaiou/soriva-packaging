@@ -161,6 +161,24 @@ const guides = [
     desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders with lead time buffers.",
     href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
   },
+  {
+    tag: "Product Measurement",
+    title: "How to Measure a Product for Custom Box Packaging",
+    desc: "A practical buyer guide to measuring product dimensions for custom box packaging, including clearance, inserts and orientation.",
+    href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+  },
+  {
+    tag: "Box Structures",
+    title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+    desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience, presentation and packing efficiency.",
+    href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+  },
+  {
+    tag: "Sampling",
+    title: "Prototype Sample vs Pre-Production Sample: What Buyers Should Know",
+    desc: "Understand the difference between prototype and pre-production samples for custom packaging before mass production.",
+    href: "/resources/prototype-sample-vs-pre-production-sample/",
+  },
 ];
 
 const structuredData = {

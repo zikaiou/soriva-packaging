@@ -447,8 +447,20 @@ export default function DrawerBoxesPage() {
 
       <ProductBuyerGuides
         title="Drawer Box Buyer Guides & Resources"
-        subtitle="Learn how to choose greyboard thickness, MOQ economics, custom finishes, inserts and verify pre-production samples."
+        subtitle="Learn how to choose rigid box structures, measure product dimensions, select greyboard thickness and custom finishes."
         guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare sliding drawer boxes with magnetic and lid-and-base structures for luxury presentation.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "Learn how to measure items to ensure smooth tray sliding action and precise insert cutouts.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
@@ -456,22 +468,10 @@ export default function DrawerBoxesPage() {
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
           },
           {
-            tag: "MOQ & Pricing",
-            title: "How Custom Packaging MOQ Affects Unit Cost",
-            desc: "Learn how order quantity impacts setup cost allocation and unit pricing on custom sliding drawer boxes.",
-            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
-          },
-          {
             tag: "Finishing Techniques",
             title: "Foil Stamping vs Embossing vs Spot UV",
             desc: "Compare foil stamping, embossing and spot UV for custom sliding drawer boxes.",
             href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
-          },
-          {
-            tag: "Packaging Inserts",
-            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
-            desc: "Compare velvet-covered EVA, paperboard and molded pulp inserts for layered presentation in drawer boxes.",
-            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
           },
         ]}
       />

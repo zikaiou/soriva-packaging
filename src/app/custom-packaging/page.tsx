@@ -217,25 +217,31 @@ export default function Page() {
       {/* ---------- Buyer Guides ---------- */}
       <ProductBuyerGuides
         title="Custom Packaging Technical Guides & Resources"
-        subtitle="Explore detailed buyer guides on materials, board thickness, cost breakdown, MOQ economics, inventory planning and luxury finishing."
+        subtitle="Explore detailed buyer guides on product measurement, box structures, sampling stages, materials, cost breakdown and luxury finishing."
         guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience, presentation and packing efficiency.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "A practical buyer guide to measuring product dimensions for custom box packaging, including clearance, inserts and orientation.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
+          {
+            tag: "Sampling",
+            title: "Prototype Sample vs Pre-Production Sample: What Buyers Should Know",
+            desc: "Understand the difference between prototype and pre-production samples for custom packaging before mass production.",
+            href: "/resources/prototype-sample-vs-pre-production-sample/",
+          },
           {
             tag: "Cost Breakdown",
             title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
             desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing and freight.",
             href: "/resources/custom-packaging-cost-breakdown/",
-          },
-          {
-            tag: "MOQ & Pricing",
-            title: "How Custom Packaging MOQ Affects Unit Cost",
-            desc: "A buyer guide to understanding how MOQ affects unit cost, setup cost allocation and production efficiency.",
-            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
-          },
-          {
-            tag: "Inventory Planning",
-            title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
-            desc: "A buyer guide to planning custom packaging inventory for launches, holiday seasons and recurring orders.",
-            href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/",
           },
           {
             tag: "Materials & Structure",
@@ -248,12 +254,6 @@ export default function Page() {
             title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
             desc: "Compare art paper, specialty paper and kraft paper for custom luxury packaging and outer wraps.",
             href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
-          },
-          {
-            tag: "Sustainable Inserts",
-            title: "Molded Pulp vs EVA for Sustainable Packaging Inserts",
-            desc: "Compare molded pulp and EVA inserts for custom packaging, protection and presentation.",
-            href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
           },
         ]}
       />

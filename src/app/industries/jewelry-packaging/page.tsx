@@ -132,8 +132,14 @@ export default function JewelryPackagingPage() {
       {/* Buyer Guides */}
       <ProductBuyerGuides
         title="Jewelry Packaging Buyer Guides & Resources"
-        subtitle="Explore practical guides on choosing paper wraps, greyboard thickness, inserts and jewelry packaging specifications."
+        subtitle="Explore practical guides on measuring jewelry items, choosing paper wraps, greyboard thickness and packaging specifications."
         guides={[
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "Learn how to measure rings, necklaces, watches and sets for precise insert cutouts and box clearance.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
           {
             tag: "Paper & Finishing",
             title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",

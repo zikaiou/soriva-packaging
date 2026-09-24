@@ -469,8 +469,20 @@ export default function MagneticRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, cost breakdown, greyboard thickness, paper wraps and finishing."
+        subtitle="Explore detailed guides on magnetic box specifications, structure comparison, product measurement, cost breakdown and finishing."
         guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience and presentation.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Product Measurement",
+            title: "How to Measure a Product for Custom Box Packaging",
+            desc: "A practical buyer guide to measuring product dimensions and allowances for custom magnetic boxes.",
+            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+          },
           {
             tag: "Cost Breakdown",
             title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
@@ -482,18 +494,6 @@ export default function MagneticRigidBoxesPage() {
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
             desc: "A buyer guide to choosing greyboard thickness for custom magnetic rigid boxes and structural rigidity.",
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
-          },
-          {
-            tag: "Paper & Finishing",
-            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
-            desc: "Compare outer wrapping papers including art paper, textured specialty paper and kraft wrap for magnetic boxes.",
-            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
-          },
-          {
-            tag: "Finishing Techniques",
-            title: "Foil Stamping vs Embossing vs Spot UV",
-            desc: "Compare foil stamping, embossing and spot UV for luxury magnetic rigid boxes.",
-            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
           },
         ]}
       />
