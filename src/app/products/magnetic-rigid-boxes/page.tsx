@@ -469,13 +469,19 @@ export default function MagneticRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, color matching, finishing techniques, insert engineering and RFQ preparation."
+        subtitle="Explore detailed guides on magnetic box specifications, finishing techniques, pre-shipment QC and RFQ preparation."
         guides={[
           {
             tag: "Finishing Techniques",
             title: "Foil Stamping vs Embossing vs Spot UV",
             desc: "Compare foil stamping, embossing and spot UV for luxury magnetic rigid boxes.",
             href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+          },
+          {
+            tag: "Quality Control",
+            title: "How to Inspect Custom Packaging Before Shipment",
+            desc: "Check magnetic closure alignment, structure rigidity, wrapping finish and insert fit before dispatch.",
+            href: "/resources/how-to-inspect-custom-packaging-before-shipment/",
           },
           {
             tag: "Color & Printing",
@@ -488,12 +494,6 @@ export default function MagneticRigidBoxesPage() {
             title: "How to Prepare an RFQ for Custom Packaging",
             desc: "Key details to prepare including dimensions, materials, insert requirements and reference files.",
             href: "/resources/how-to-prepare-custom-packaging-rfq/",
-          },
-          {
-            tag: "Packaging Inserts",
-            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
-            desc: "Compare insert materials for custom luxury rigid boxes to optimize protection and presentation.",
-            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
           },
         ]}
       />

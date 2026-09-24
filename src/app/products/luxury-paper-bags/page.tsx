@@ -445,13 +445,19 @@ export default function LuxuryPaperBagsPage() {
       {/* Buyer guides */}
       <ProductBuyerGuides
         title="Luxury Paper Bag Buyer Guides & Resources"
-        subtitle="Explore practical advice on paper bag shipping cost optimization, color matching and custom packaging budgets."
+        subtitle="Explore practical advice on paper bag shipping cost optimization, trade terms, color matching and custom packaging budgets."
         guides={[
           {
             tag: "Freight & Logistics",
             title: "How to Reduce Custom Packaging Shipping Cost",
             desc: "Learn how flat-packed luxury paper bags optimize carton volume and reduce international freight costs.",
             href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
+          },
+          {
+            tag: "Trade Terms",
+            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
+            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom luxury paper bags.",
+            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
           },
           {
             tag: "Color & Printing",

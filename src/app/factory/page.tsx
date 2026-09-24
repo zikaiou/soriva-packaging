@@ -144,6 +144,30 @@ export default function FactoryPage() {
         <div className="factory-container"><div className="factory-heading"><span className="factory-eyebrow dark">BEFORE SHIPMENT</span><h2>What Buyers Can Confirm Before Dispatch</h2></div><div className="factory-grid four">{beforeShipment.map(([title, text]) => <article className="factory-card" key={title}><h3>{title}</h3><p>{text}</p></article>)}</div></div>
       </section>
 
+      <section className="factory-section">
+        <div className="factory-container">
+          <div className="factory-heading">
+            <span className="factory-eyebrow dark">BUYER GUIDES & QC</span>
+            <h2>Factory Verification & Quality Resources</h2>
+            <p>Helpful guides on evaluating packaging manufacturers in China and inspecting bulk orders before shipment.</p>
+          </div>
+          <div className="factory-grid two">
+            <article className="factory-card">
+              <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>SUPPLIER EVALUATION</span>
+              <h3>How to Choose a Custom Packaging Manufacturer in China</h3>
+              <p>A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability, sampling, QC, communication and shipping support.</p>
+              <a href="/resources/how-to-choose-custom-packaging-manufacturer-china/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Supplier Guide →</a>
+            </article>
+            <article className="factory-card">
+              <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>QUALITY CHECKLIST</span>
+              <h3>How to Inspect Custom Packaging Before Shipment</h3>
+              <p>A buyer checklist for inspecting custom packaging before shipment, including dimensions, printing, finishing, inserts, quantity, packing and shipping readiness.</p>
+              <a href="/resources/how-to-inspect-custom-packaging-before-shipment/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Inspection Guide →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="factory-cta"><div className="factory-container"><span className="factory-eyebrow">VERIFY BEFORE YOU ORDER</span><h2>Want to Discuss Factory Capability or Your Packaging Project?</h2><p>Send your product dimensions, target quantity and reference images. You can also ask for factory material, sample support or production updates for suitable projects.</p><CtaButtons compact /></div></section>
     </main>
   );

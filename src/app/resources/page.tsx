@@ -107,6 +107,24 @@ const guides = [
     desc: "Practical ways to reduce custom packaging shipping cost through structure, dimensions, carton optimization and freight planning.",
     href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
   },
+  {
+    tag: "Supplier Selection",
+    title: "How to Choose a Custom Packaging Manufacturer in China",
+    desc: "A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability, sampling, QC and shipping.",
+    href: "/resources/how-to-choose-custom-packaging-manufacturer-china/",
+  },
+  {
+    tag: "Trade Terms",
+    title: "EXW vs FOB vs DDP for Custom Packaging Orders",
+    desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging, including freight and customs responsibilities.",
+    href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
+  },
+  {
+    tag: "Quality Control",
+    title: "How to Inspect Custom Packaging Before Shipment",
+    desc: "A buyer checklist for inspecting custom packaging before shipment, including dimensions, printing, finishing, inserts and packing.",
+    href: "/resources/how-to-inspect-custom-packaging-before-shipment/",
+  },
 ];
 
 const structuredData = {

@@ -217,8 +217,20 @@ export default function Page() {
       {/* ---------- Buyer Guides ---------- */}
       <ProductBuyerGuides
         title="Custom Packaging Technical Guides & Resources"
-        subtitle="Explore detailed buyer guides on color matching systems, luxury finishing techniques and international shipping cost optimization."
+        subtitle="Explore detailed buyer guides on supplier selection, trade terms, color matching systems and luxury finishing techniques."
         guides={[
+          {
+            tag: "Supplier Selection",
+            title: "How to Choose a Custom Packaging Manufacturer in China",
+            desc: "A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability, sampling and QC.",
+            href: "/resources/how-to-choose-custom-packaging-manufacturer-china/",
+          },
+          {
+            tag: "Trade Terms",
+            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
+            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging.",
+            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
+          },
           {
             tag: "Color & Printing",
             title: "Pantone vs CMYK for Custom Packaging",

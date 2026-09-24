@@ -514,7 +514,7 @@ export default function FoldableRigidBoxesPage() {
 
       <ProductBuyerGuides
         title="Foldable Packaging Buyer Guides & Resources"
-        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, color consistency and RFQ preparation."
+        subtitle="Compare foldable vs traditional rigid boxes, freight reduction techniques, trade terms and RFQ preparation."
         guides={[
           {
             tag: "Structure Comparison",
@@ -529,10 +529,10 @@ export default function FoldableRigidBoxesPage() {
             href: "/resources/how-to-reduce-custom-packaging-shipping-cost/",
           },
           {
-            tag: "Color & Printing",
-            title: "Pantone vs CMYK for Custom Packaging",
-            desc: "Learn how Pantone and CMYK color targeting works across foldable rigid box materials.",
-            href: "/resources/pantone-vs-cmyk-custom-packaging/",
+            tag: "Trade Terms",
+            title: "EXW vs FOB vs DDP for Custom Packaging Orders",
+            desc: "Understand the practical differences between EXW, FOB and DDP when importing custom packaging.",
+            href: "/resources/exw-vs-fob-vs-ddp-custom-packaging/",
           },
           {
             tag: "RFQ Preparation",
