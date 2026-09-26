@@ -108,21 +108,25 @@ const applications = [
     img: "/img/project-skincare.webp",
     title: "Cosmetics",
     desc: "Skincare, makeup and beauty retail bags.",
+    href: "/industries/cosmetic-packaging/",
   },
   {
     img: "/img/project-perfume.webp",
     title: "Perfume",
     desc: "Fragrance boutiques, gift sets and launch packaging.",
+    href: "/industries/perfume-packaging/",
   },
   {
     img: "/img/project-jewelry.webp",
     title: "Jewelry",
     desc: "Ring, necklace, bracelet and watch brand shopping bags.",
+    href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/project-gift-clean.webp",
-    title: "Fashion & Gifts",
-    desc: "Apparel, accessories, corporate gifts and premium retail products.",
+    img: "/img/fashion.webp",
+    title: "Fashion & Apparel",
+    desc: "Apparel boutiques, scarves, accessories and luxury shopping bags.",
+    href: "/industries/fashion-packaging/",
   },
 ];
 
@@ -347,7 +351,7 @@ export default function LuxuryPaperBagsPage() {
               <article className="mrb-app" key={a.title}>
                 <img src={a.img} alt={a.title} />
                 <div>
-                  <b>{a.title}</b>
+                  <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>
                 </div>
               </article>

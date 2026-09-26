@@ -92,7 +92,7 @@ const details = [
   { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
-  { img: "/img/project-perfume.webp", caption: "Perfume Packaging" },
+  { img: "/img/project-perfume.webp", caption: "Premium Perfume Project", href: "/projects/premium-perfume-packaging/" },
   { img: "/img/project-skincare.webp", caption: "Skincare Gift Set" },
 ];
 
@@ -101,16 +101,25 @@ const applications = [
     img: "/img/project-skincare.webp",
     title: "Cosmetics & Skincare",
     desc: "Serums, creams and beauty gift sets.",
+    href: "/industries/cosmetic-packaging/",
   },
   {
     img: "/img/project-perfume.webp",
     title: "Perfume & Fragrance",
     desc: "Fragrance bottles and luxury sets.",
+    href: "/industries/perfume-packaging/",
+  },
+  {
+    img: "/img/candles.webp",
+    title: "Candle & Home Fragrance",
+    desc: "Luxury jar candles, diffusers and scented gift collections.",
+    href: "/industries/candle-packaging/",
   },
   {
     img: "/img/project-jewelry.webp",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces and premium accessories.",
+    href: "/industries/jewelry-packaging/",
   },
   {
     img: "/img/project-gift-clean.webp",
@@ -332,7 +341,7 @@ export default function MagneticRigidBoxesPage() {
             {details.map((d) => (
               <figure key={d.caption}>
                 <img src={d.img} alt={d.caption} />
-                <figcaption>{d.caption}</figcaption>
+                <figcaption>{d.href ? <a href={d.href} style={{ color: "inherit", textDecoration: "underline" }}>{d.caption} →</a> : d.caption}</figcaption>
               </figure>
             ))}
           </div>
@@ -351,7 +360,7 @@ export default function MagneticRigidBoxesPage() {
               <article className="mrb-app" key={a.title}>
                 <img src={a.img} alt={a.title} />
                 <div>
-                  <b>{a.title}</b>
+                  <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>
                 </div>
               </article>

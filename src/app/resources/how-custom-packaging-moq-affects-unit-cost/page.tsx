@@ -30,7 +30,7 @@ const sidebarLinks = [
   { href: "/factory/", label: "Factory" },
   { href: "/resources/custom-packaging-cost-breakdown/", label: "Cost Breakdown Guide" },
   { href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/", label: "Inventory Planning Guide" },
-  { href: "/resources/custom-packaging-moq-guide/", label: "MOQ Basics Guide" },
+  { href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/", label: "Box Structure Guide" },
   { href: "/resources/how-to-reduce-custom-packaging-shipping-cost/", label: "Shipping Cost Guide" },
 ];
 

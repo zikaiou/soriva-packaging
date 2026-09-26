@@ -87,16 +87,31 @@ const applications = [
     img: "/img/project-skincare.webp",
     title: "Cosmetics & Skincare",
     desc: "Serums, creams and beauty gift sets.",
+    href: "/industries/cosmetic-packaging/",
+  },
+  {
+    img: "/img/candles.webp",
+    title: "Candle & Home Fragrance",
+    desc: "Jar candles, diffuser sets and scented home gifts.",
+    href: "/industries/candle-packaging/",
+  },
+  {
+    img: "/img/fashion.webp",
+    title: "Fashion & Apparel Gifting",
+    desc: "Scarves, accessories and boutique retail presentation.",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/project-perfume.webp",
     title: "Perfume & Fragrance",
     desc: "Fragrance bottles and luxury sets.",
+    href: "/industries/perfume-packaging/",
   },
   {
     img: "/img/project-jewelry.webp",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces and premium accessories.",
+    href: "/industries/jewelry-packaging/",
   },
   {
     img: "/img/project-gift-clean.webp",
@@ -335,7 +350,7 @@ export default function TwoPieceRigidBoxesPage() {
               <article className="mrb-app" key={a.title}>
                 <img src={a.img} alt={a.title} />
                 <div>
-                  <b>{a.title}</b>
+                  <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>
                 </div>
               </article>

@@ -315,10 +315,10 @@ export default function CosmeticPackagingPage() {
             href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
           },
           {
-            tag: "Beauty Packaging",
-            title: "How to Choose Cosmetic Packaging",
-            desc: "A practical overview of box structures, inserts, finishes, MOQ and sampling for skincare and beauty brands.",
-            href: "/resources/cosmetic-packaging-guide/",
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare magnetic, sliding drawer and lid-and-base structures for luxury cosmetic and beauty packaging.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
           },
         ]}
       />

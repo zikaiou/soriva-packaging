@@ -32,7 +32,7 @@ const sidebarLinks = [
   { href: "/factory/", label: "Factory" },
   { href: "/resources/how-custom-packaging-moq-affects-unit-cost/", label: "MOQ vs Unit Cost Guide" },
   { href: "/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/", label: "Inventory Planning Guide" },
-  { href: "/resources/custom-packaging-cost-guide/", label: "Cost Overview Guide" },
+  { href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/", label: "Greyboard Thickness Guide" },
   { href: "/resources/how-to-reduce-custom-packaging-shipping-cost/", label: "Shipping Cost Guide" },
 ];
 

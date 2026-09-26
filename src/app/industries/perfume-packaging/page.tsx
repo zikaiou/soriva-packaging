@@ -97,8 +97,9 @@ const applications = [
   },
   {
     img: "/img/project-perfume.webp",
-    alt: "Perfume sample collection box",
-    title: "Sample Collection Boxes",
+    alt: "Premium perfume packaging project",
+    title: "Premium Perfume Project",
+    href: "/projects/premium-perfume-packaging/",
   },
   {
     img: "/img/foil-clean.webp",
@@ -289,7 +290,7 @@ export default function Page() {
               <article className="mrb-app" key={a.title}>
                 <img src={a.img} alt={a.alt} loading="lazy" />
                 <div>
-                  <b>{a.title}</b>
+                  <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                 </div>
               </article>
             ))}
