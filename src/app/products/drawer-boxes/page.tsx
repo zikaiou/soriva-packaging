@@ -10,18 +10,20 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
-  title: "Custom Drawer Boxes Manufacturer",
+  title: {
+    absolute: "Custom Drawer Boxes Manufacturer & Supplier | SORIVA Packaging",
+  },
   description:
-    "Custom Drawer Boxes from SORIVA Packaging with smooth sliding structures, premium materials and personalized inserts. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support and global shipping.",
+    "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Drawer Boxes | SORIVA Packaging",
+    title: "Custom Drawer Boxes Manufacturer & Supplier | SORIVA Packaging",
     description:
-      "Luxury sliding drawer boxes with smooth structures, premium rigid construction and custom inserts. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support.",
+      "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -29,77 +31,274 @@ export const metadata: Metadata = {
         url: "https://www.sorivapackaging.com/img/drawer-box.webp",
         width: 1200,
         height: 900,
-        alt: "Custom drawer packaging box",
+        alt: "Custom rigid drawer boxes for premium packaging",
       },
     ],
   },
 };
 
-const features = [
+const customizationPillars = [
   {
-    title: "Smooth Sliding Structure",
-    desc: "Precision-fit drawer glides smoothly for an elegant unboxing moment.",
+    num: "01",
+    title: "Custom Sizes & Proportions",
+    desc: "Engineered Length × Width × Height dimensions tailored precisely to your product dimensions and insert clearance.",
+    href: "/resources/how-to-measure-product-for-custom-box-packaging/",
+    linkText: "Measurement Guide →",
   },
   {
-    title: "Premium Rigid Construction",
-    desc: "Durable greyboard structure designed for a premium hand feel.",
+    num: "02",
+    title: "Custom Board Thickness",
+    desc: "1.5mm to 3.0mm high-density rigid greyboard core selected according to box scale, sleeve depth and required structural rigidity.",
+    href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+    linkText: "Board Thickness Guide →",
   },
   {
-    title: "Custom Inserts",
-    desc: "EVA, velvet, paper or molded pulp options.",
+    num: "03",
+    title: "Custom Paper Materials",
+    desc: "Coated art paper, dyed black card, kraft paper, soft-touch sheets, pearlized stock and tactile specialty textured wraps.",
+    href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+    linkText: "Paper Types Guide →",
   },
   {
-    title: "Luxury Finishes",
-    desc: "Foil, embossing, debossing, UV and specialty paper options.",
+    num: "04",
+    title: "Custom Product Inserts",
+    desc: "Precision cut EVA foam, velvet-flocked trays, structured paperboard, molded pulp and custom divider compartments.",
+    href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+    linkText: "Insert Comparison Guide →",
+  },
+  {
+    num: "05",
+    title: "CMYK & Pantone Printing",
+    desc: "High-definition offset printing for full-color artwork and exact Pantone (PMS) matching for consistent brand color fidelity.",
+    href: "/resources/pantone-vs-cmyk-custom-packaging/",
+    linkText: "Pantone vs CMYK Guide →",
+  },
+  {
+    num: "06",
+    title: "Luxury Surface Finishing",
+    desc: "Metallic hot foil stamping, precision multi-level embossing, debossing, gloss spot UV coating and anti-scratch lamination.",
+    href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+    linkText: "Finishing Comparison →",
+  },
+  {
+    num: "07",
+    title: "Custom Pull Tabs & Ribbons",
+    desc: "Grosgrain ribbons, satin pull loops, half-moon thumb cuts, metal ring pulls and custom-branded woven tags.",
   },
 ];
 
-const specs = [
-  { label: "Product Type", value: "Custom Drawer Box" },
-  { label: "Material", value: "Greyboard + Specialty Paper" },
-  { label: "Insert", value: "EVA / Velvet / Paper" },
-  { label: "MOQ", value: "From 100 pcs" },
-  { label: "Prototype", value: "1 pc available" },
-  { label: "Sample", value: "48 hours" },
-  { label: "Production", value: "From around 7 days" },
+const structureDetails = [
+  {
+    title: "Outer Rigid Sleeve",
+    desc: "Formed with rigid greyboard wrapped in premium paper; creates a seamless 3-sided enclosure with smooth sliding tolerance.",
+  },
+  {
+    title: "Inner Sliding Tray",
+    desc: "Sturdy tray construction designed to hold custom inserts securely and glide effortlessly upon opening.",
+  },
+  {
+    title: "Pull Mechanism",
+    desc: "Satin ribbon loops, grosgrain tabs, embedded fabric pulls or notch cuts engineered for ergonomic extraction.",
+  },
+  {
+    title: "Custom Insert Nesting",
+    desc: "Tailored cavity cutouts holding jewelry, cosmetics, fragrance bottles or accessories flush with the tray rim.",
+  },
 ];
 
-const structure = [
-  "Premium wrapping paper surface",
-  "Rigid greyboard core",
-  "Sliding drawer structure",
-  "Custom product insert",
+const sizeGuide = [
+  {
+    category: "Small (Jewelry / Rings / Watches)",
+    dimensions: "80 × 80 × 35 mm / 100 × 100 × 40 mm",
+    idealFor: "Rings, earrings, pendants, luxury watches, cufflinks and delicate jewelry sets.",
+  },
+  {
+    category: "Medium (Cosmetics / Perfume / Gifts)",
+    dimensions: "150 × 100 × 50 mm / 180 × 120 × 60 mm",
+    idealFor: "Skincare serums, luxury perfume bottles, compact palettes, scented candles and gift cards.",
+  },
+  {
+    category: "Large (Apparel / Presentation Sets)",
+    dimensions: "240 × 180 × 70 mm / 300 × 220 × 80 mm",
+    idealFor: "Silk scarves, designer accessories, eyewear cases, multi-product corporate gift sets and VIP launch kits.",
+  },
+  {
+    category: "Custom Dimensions",
+    dimensions: "Fully Tailored Proportions",
+    idealFor: "Bespoke dimensions engineered around your specific product size, accessory layout and shipping carton requirements.",
+  },
 ];
 
-const details = [
-  { img: "/img/drawer-box.webp", caption: "Drawer Box Presentation" },
-  { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
-  { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
-  { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
-  { img: "/img/project-jewelry.webp", caption: "Jewelry Packaging" },
-  { img: "/img/project-perfume.webp", caption: "Perfume Packaging" },
+const greyboardGuide = [
+  {
+    thickness: "1.5 mm (1000 GSM)",
+    rigidity: "Lightweight Rigidity",
+    bestFor: "Small jewelry boxes, lightweight beauty compacts and small accessory drawer boxes.",
+  },
+  {
+    thickness: "2.0 mm (1200 GSM)",
+    rigidity: "Standard Luxury (Most Popular)",
+    bestFor: "Cosmetics gift boxes, perfume drawer packaging, candle gift sets and general retail presentation.",
+  },
+  {
+    thickness: "2.5 mm – 3.0 mm (1500–1800 GSM)",
+    rigidity: "Heavyweight Ultra-Rigid Structure",
+    bestFor: "Large presentation hampers, heavier glass bottles, multi-tier sliding drawers and premium collectors' editions.",
+  },
+];
+
+const materials = [
+  {
+    name: "Coated Art Paper",
+    features: "Smooth white surface ideal for crisp photographic printing, vibrant CMYK graphics, soft-touch coating and hot foil.",
+  },
+  {
+    name: "Specialty Textured Paper",
+    features: "Distinctive linen, felt, woodgrain or geometric embossed textures providing high tactile luxury.",
+    href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+    linkText: "Paper Types Guide →",
+  },
+  {
+    name: "Dyed Black Cardstock",
+    features: "Solid black core stock throughout; eliminates white edge creasing, perfect for metallic foil and gloss spot UV.",
+  },
+  {
+    name: "Natural Kraft Paper",
+    features: "Durable organic brown or bleached white kraft paper delivering a clean, contemporary aesthetic with high tear resistance.",
+  },
+  {
+    name: "Metallic & Pearlized Card",
+    features: "Shimmering reflective coatings that interact elegantly with ambient light across luxury retail displays.",
+  },
+  {
+    name: "Fabric & Velvet Wraps",
+    features: "Linen, silk or velvet laminated wraps for heirloom jewelry packaging and high-end presentation cases.",
+  },
+];
+
+const insertOptions = [
+  {
+    name: "High-Density EVA Foam",
+    desc: "Precision CNC-cut or die-cut foam offering impact protection; available with white, black, grey or velvet-flocked tops.",
+    href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+    linkText: "EVA vs Paperboard Guide →",
+  },
+  {
+    name: "Velvet-Covered Trays",
+    desc: "Luxury flocked thermoformed or foam inserts that protect delicate polished metals, crystals and glass from scratching.",
+  },
+  {
+    name: "Folded Paperboard Inserts",
+    desc: "Recyclable, mono-material custom folded card inserts with die-cut tabs holding cosmetics or gift accessories firmly in place.",
+  },
+  {
+    name: "Custom Molded Pulp Trays",
+    desc: "Engineered wet-press molded sugarcane or bamboo fiber inserts offering organic contours and sustainable luxury appeal.",
+    href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
+    linkText: "Molded Pulp vs EVA Guide →",
+  },
+  {
+    name: "Rigid Cardboard Dividers",
+    desc: "Cross-hatched or slotted grid partitions for modular multi-product advent calendars and gift collections.",
+  },
+];
+
+const finishingOptions = [
+  {
+    title: "Hot Foil Stamping",
+    desc: "Metallic gold, silver, rose gold, copper or holographic foils applied with heated dies for crisp logo highlights.",
+  },
+  {
+    title: "Embossing & Debossing",
+    desc: "Multi-level 3D raised or pressed relief creating subtle textural branding on the outer sleeve or tray rim.",
+  },
+  {
+    title: "Gloss Spot UV Coating",
+    desc: "High-shine selective polymer coating creating high-contrast graphic patterns over a velvet matte lamination.",
+  },
+  {
+    title: "Soft-Touch Matte Lamination",
+    desc: "Velvety smooth tactile barrier coating that prevents scuffing and enhances the overall handling feel.",
+  },
+  {
+    title: "Anti-Scratch Matte Film",
+    desc: "Specialized matte lamination that protects dark-colored outer sleeves from fingernail marks during retail handling.",
+  },
+  {
+    title: "Custom Textured Embossing",
+    desc: "All-over background texture patterns pressed directly onto art paper surfaces for unique tactile character.",
+  },
 ];
 
 const applications = [
   {
     img: "/img/project-jewelry.webp",
-    title: "Jewelry & Watches",
-    desc: "Rings, necklaces and premium accessories.",
+    title: "Jewelry & Fine Watches",
+    desc: "Sliding presentation boxes for rings, necklaces, bracelets and luxury timepieces.",
+    href: "/industries/jewelry-packaging/",
   },
   {
     img: "/img/project-perfume.webp",
     title: "Perfume & Fragrance",
-    desc: "Fragrance bottles and luxury sets.",
+    desc: "Sophisticated drawer packaging for fragrance bottles, travel atomizers and discovery sets.",
+    href: "/industries/perfume-packaging/",
   },
   {
     img: "/img/project-skincare.webp",
     title: "Cosmetics & Skincare",
-    desc: "Serums, creams and beauty gift sets.",
+    desc: "Sleek sliding gift boxes for beauty ampoules, serums, creams and cosmetic collections.",
+    href: "/industries/cosmetic-packaging/",
+  },
+  {
+    img: "/img/fashion.webp",
+    title: "Fashion Accessories",
+    desc: "Rigid drawer boxes for leather wallets, silk scarves, belts and luxury eyewear.",
+    href: "/industries/fashion-packaging/",
   },
   {
     img: "/img/project-gift-clean.webp",
-    title: "Corporate Gifts",
-    desc: "Brand campaigns and executive gift sets.",
+    title: "Corporate Gifts & VIP Kits",
+    desc: "Executive gift packaging, membership welcome kits and brand milestone presentations.",
+    href: "/industries/corporate-gift-packaging/",
+  },
+  {
+    img: "/img/candles.webp",
+    title: "Candle & Home Fragrance",
+    desc: "Reinforced rigid sliding boxes for luxury jar candles, wick trimmers and diffuser sets.",
+    href: "/industries/candle-packaging/",
+  },
+];
+
+const processSteps = [
+  {
+    num: "01",
+    title: "Send Product Details",
+    desc: "Share product dimensions, weight, preferred box style, quantity, artwork and insert preference.",
+  },
+  {
+    num: "02",
+    title: "Structure & Insert Dieline",
+    desc: "We engineer the sleeve-to-tray clearance, board thickness, insert cutout tolerances and provide vector dielines.",
+  },
+  {
+    num: "03",
+    title: "Quotation & Specification",
+    desc: "Transparent price quotation based on quantity tiers, paper selection, printing methods, finishes and shipping terms.",
+  },
+  {
+    num: "04",
+    title: "Prototyping & Sampling",
+    desc: "Physical sample manufactured to verify sliding smoothness, insert fit, print color fidelity and finishing.",
+  },
+  {
+    num: "05",
+    title: "Mass Production & QC",
+    desc: "Automated board cutting, precision printing, lamination, die-cutting, tray assembly and 100% manual inspection.",
+  },
+  {
+    num: "06",
+    title: "Packing & Global Delivery",
+    desc: "Protective carton packing with corner guards; shipped via Sea, Air or Express to your warehouse or fulfillment center.",
   },
 ];
 
@@ -110,46 +309,38 @@ const stats = [
   { value: "20 Years", label: "Production Experience" },
 ];
 
-const processSteps = [
-  { title: "Material Preparation", sub: "Paper & board" },
-  { title: "Printing & Finishing", sub: "Brand artwork" },
-  { title: "Box Forming", sub: "Structure assembly" },
-  { title: "Quality Inspection", sub: "Appearance & fit" },
-  { title: "Global Delivery", sub: "Air / Sea / Express" },
-];
-
 const faqs = [
   {
-    q: "Can I customize the drawer box size?",
-    a: "Yes. All dimensions can be developed according to your product and packaging requirements.",
+    q: "What is a drawer box?",
+    a: "A drawer box (also known as a slide box or matchbox style rigid box) consists of an outer rigid sleeve and an inner sliding tray. The structure can be fully customized in size, materials, inserts, pull ribbons and finishing.",
   },
   {
-    q: "Can I add inserts?",
-    a: "Yes. EVA, velvet and paper insert options are available.",
+    q: "Can drawer boxes be customized to my exact product size?",
+    a: "Yes. The outer sleeve, inner tray and custom insert are custom-engineered around your exact product dimensions, orientation and unboxing presentation requirements.",
   },
   {
-    q: "What is the MOQ?",
-    a: "Selected custom projects can start from 100 pcs, depending on materials, size and finishing.",
+    q: "What insert materials are available for drawer boxes?",
+    a: "Common options include precision-cut EVA foam, velvet-flocked trays, structured paperboard dividers, custom molded pulp and thermoformed inserts depending on protection and sustainability requirements.",
   },
   {
-    q: "Can I order a prototype?",
-    a: "Yes. A 1 pc prototype can be produced for structure, size, artwork and finish confirmation.",
+    q: "Can I customize the pull tab, ribbon or handle?",
+    a: "Yes. We offer satin ribbon loops, grosgrain tabs, embedded fabric pulls, half-moon thumb cuts and custom-branded woven tags to ensure smooth and stylish opening.",
   },
   {
-    q: "How fast can samples be made?",
-    a: "Fast sample support can start from 48 hours for suitable projects; complex structures or finishes may require more time.",
+    q: "Can you match specific Pantone (PMS) brand colors?",
+    a: "Yes. In addition to high-definition CMYK process printing, we support Pantone spot color matching for precise brand color consistency across all outer and inner surfaces.",
   },
   {
-    q: "How long does production take?",
-    a: "Fast production can start from around 7 days for suitable confirmed projects, depending on quantity and finishing complexity.",
+    q: "What luxury finishing options are available?",
+    a: "Available finishes include hot foil stamping (gold, silver, rose gold, holographic), multi-level embossing, debossing, gloss spot UV coating, soft-touch matte lamination and anti-scratch films.",
   },
   {
-    q: "Where do you ship?",
-    a: "We support customers in the USA, Europe, Japan, Korea and other international markets by sea, air and express.",
+    q: "Can I order a physical sample before mass production?",
+    a: "Yes. 1 pc prototype or pre-production sample is available for custom projects to confirm sliding smoothness, insert snugness, material quality and printing before mass manufacturing.",
   },
   {
-    q: "Are drawer boxes suitable for premium products?",
-    a: "Yes. Drawer boxes are widely used for cosmetics, perfume, jewelry, watches and premium gifts.",
+    q: "What is the MOQ for custom drawer boxes?",
+    a: "Selected custom drawer box projects can start from around 100 pcs. The optimal production quantity depends on box size, board thickness, paper selection, insert complexity and finishing techniques.",
   },
 ];
 
@@ -158,19 +349,57 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Product",
-      name: "Custom Drawer Boxes",
-      description:
-        "Custom drawer boxes with smooth sliding structures, premium rigid construction, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and 48-hour sample support.",
+      name: "Custom Rigid Drawer Boxes",
       image: "https://www.sorivapackaging.com/img/drawer-box.webp",
+      description:
+        "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Greyboard + specialty paper",
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "USD",
+        price: "1.20",
+        lowPrice: "0.50",
+        highPrice: "4.50",
+        offerCount: "1000",
+        availability: "https://schema.org/InStock",
+      },
+      url: PAGE_URL,
+    },
+    {
+      "@type": "Service",
+      name: "Custom Drawer Box Manufacturing",
+      description:
+        "OEM/ODM custom rigid drawer box manufacturing and supply for jewelry, cosmetics, perfume, accessories and luxury corporate gifting brands.",
+      url: PAGE_URL,
+      serviceType: "Custom Rigid Packaging Manufacturing",
+      provider: {
+        "@type": "Organization",
+        name: "SORIVA Packaging",
+        url: "https://www.sorivapackaging.com/",
+      },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
-        { "@type": "ListItem", position: 2, name: "Custom Drawer Boxes", item: PAGE_URL },
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.sorivapackaging.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Products",
+          item: "https://www.sorivapackaging.com/products/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Drawer Boxes",
+          item: PAGE_URL,
+        },
       ],
     },
     {
@@ -191,29 +420,27 @@ export default function DrawerBoxesPage() {
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a> / Products / Drawer Boxes
+            <a href="/">Home</a> / <a href="/products/">Products</a> / Drawer Boxes
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
-              <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
-              <h1>Custom Drawer Boxes</h1>
-              <p className="mrb-subtitle">
-                Luxury Sliding Packaging Designed for Premium Products
-              </p>
+              <span className="mrb-eyebrow">CUSTOM RIGID PACKAGING</span>
+              <h1>Custom Rigid Drawer Boxes for Premium Packaging</h1>
               <p className="mrb-lead">
-                Create an elegant unboxing experience with custom drawer boxes
-                featuring smooth sliding structures, premium materials and
-                personalized inserts.
+                Create an unforgettable unboxing experience with custom drawer boxes featuring a
+                smooth sliding mechanism, rigid greyboard construction, tailored product inserts
+                and luxury finishing. Ideal for jewelry, cosmetics, fragrances and luxury gifts.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
-                <span>1 Pc Prototype</span>
-                <span>48H Sample</span>
-                <span>7-Day Production</span>
+                <span>Custom Size &amp; Inserts</span>
+                <span>Satin / Grosgrain Ribbon Pulls</span>
+                <span>Foil / Emboss / Spot UV</span>
+                <span>Global Shipping</span>
               </div>
               <div className="mrb-hero-actions">
                 <a href="/rfq/" className="btn gold">
-                  Get A Quote
+                  Request Packaging Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.drawer)}
@@ -223,15 +450,15 @@ export default function DrawerBoxesPage() {
                 >
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
-                <a href="#details" className="btn ghost">
-                  View Details
+                <a href="#structure" className="btn ghost">
+                  Explore Structure
                 </a>
               </div>
             </div>
             <div className="mrb-hero-media">
               <img
                 src="/img/drawer-box.webp"
-                alt="Custom drawer packaging box with luxury finish"
+                alt="Custom rigid drawer box with sliding tray and gold foil branding"
                 width="1200"
                 height="900"
               />
@@ -240,20 +467,313 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
-      {/* Product overview */}
-      <section className="mrb-section">
+      {/* 1. Drawer Box Structure */}
+      <section className="mrb-section" id="structure">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">PRODUCT OVERVIEW</span>
-            <h2>Premium Drawer Box Packaging Solutions</h2>
+            <span className="eyebrow dark">STRUCTURAL ENGINEERING</span>
+            <h2>How Drawer Box Packaging Works</h2>
             <p>
-              Drawer boxes combine functional sliding structures with luxury
-              presentation. They are widely used for cosmetics, perfume,
-              jewelry, watches and premium gifts.
+              Drawer boxes (slide-style rigid boxes) combine a rigid outer sleeve with an inner
+              sliding tray, creating a theatrical reveal while ensuring structural protection.
             </p>
           </div>
           <div className="mrb-features">
-            {features.map((f, i) => (
+            {structureDetails.map((item, idx) => (
+              <article className="mrb-feature" key={item.title}>
+                <strong>{String(idx + 1).padStart(2, "0")}</strong>
+                <h3>{item.title}</h3>
+                <p>{item.desc}</p>
+              </article>
+            ))}
+          </div>
+          <div className="mrb-note" style={{ marginTop: 24 }}>
+            <b>Buyer Tip:</b> The sliding tray should glide smoothly with slight friction resistance
+            so it never drops out loosely. Structural fit, sleeve tolerance and ribbon anchoring are
+            rigorously verified during pre-production sampling.
+          </div>
+        </div>
+      </section>
+
+      {/* 2. Customization Overview */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">CUSTOMIZATION OVERVIEW</span>
+            <h2>Customize Every Detail of Your Drawer Boxes</h2>
+            <p>
+              From core board density and wrap papers to custom-molded inserts and pull tabs, every
+              component is tailored to your brand specifications.
+            </p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {customizationPillars.map((p) => (
+              <article className="mrb-feature" key={p.title}>
+                <strong>{p.num}</strong>
+                <h3>{p.title}</h3>
+                <p>{p.desc}</p>
+                {p.href && (
+                  <p style={{ marginTop: 10 }}>
+                    <a href={p.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600, fontSize: 13 }}>
+                      {p.linkText}
+                    </a>
+                  </p>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Size & Structure Guide */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SIZE &amp; DIMENSIONS</span>
+            <h2>Custom Sizes Built Around Your Product</h2>
+            <p>
+              Provide your product dimensions, weight and orientation. We calculate the required
+              clearance, insert cavity depths and sleeve proportions.
+            </p>
+          </div>
+          <div className="mrb-table-wrap">
+            <table className="mrb-table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Standard Reference Proportions (L × W × H)</th>
+                  <th>Typical Industry Applications</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sizeGuide.map((row) => (
+                  <tr key={row.category}>
+                    <td><strong>{row.category}</strong></td>
+                    <td>{row.dimensions}</td>
+                    <td>{row.idealFor}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div style={{ textAlign: "center", marginTop: 20 }}>
+            <a
+              href="/resources/how-to-measure-product-for-custom-box-packaging/"
+              style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+            >
+              Read our step-by-step Product Measurement Guide →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Greyboard Thickness */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">CORE RIGIDITY</span>
+            <h2>Rigid Board Options for Different Box Sizes</h2>
+            <p>
+              Greyboard thickness is matched to box dimensions, product weight and sleeve depth.
+              Thicker board increases rigidity, while balanced thickness ensures optimal sliding feel.
+            </p>
+          </div>
+          <div className="mrb-table-wrap">
+            <table className="mrb-table">
+              <thead>
+                <tr>
+                  <th>Greyboard Caliper</th>
+                  <th>Rigidity Classification</th>
+                  <th>Recommended Applications</th>
+                </tr>
+              </thead>
+              <tbody>
+                {greyboardGuide.map((g) => (
+                  <tr key={g.thickness}>
+                    <td><strong style={{ color: "var(--color-gold, #c79a51)" }}>{g.thickness}</strong></td>
+                    <td>{g.rigidity}</td>
+                    <td>{g.bestFor}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div style={{ textAlign: "center", marginTop: 20 }}>
+            <a
+              href="/resources/rigid-greyboard-thickness-guide-custom-boxes/"
+              style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+            >
+              Explore our comprehensive Greyboard Thickness Guide →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Material Options */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">MATERIAL OPTIONS</span>
+            <h2>Paper and Wrap Materials</h2>
+            <p>
+              Choose from smooth coated art paper, dyed cardstocks, organic kraft papers and tactile
+              embossed specialty wraps.
+            </p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {materials.map((m) => (
+              <article className="mrb-feature" key={m.name}>
+                <h3>{m.name}</h3>
+                <p>{m.features}</p>
+                {m.href && (
+                  <p style={{ marginTop: 10 }}>
+                    <a href={m.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600, fontSize: 13 }}>
+                      {m.linkText}
+                    </a>
+                  </p>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Insert Options */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">INSERT OPTIONS</span>
+            <h2>Custom Inserts for Product Protection and Presentation</h2>
+            <p>
+              The inner insert secures products in position and prevents movement when the drawer is
+              pulled open.
+            </p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {insertOptions.map((ins) => (
+              <article className="mrb-feature" key={ins.name}>
+                <h3>{ins.name}</h3>
+                <p>{ins.desc}</p>
+                {ins.href && (
+                  <p style={{ marginTop: 10 }}>
+                    <a href={ins.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600, fontSize: 13 }}>
+                      {ins.linkText}
+                    </a>
+                  </p>
+                )}
+              </article>
+            ))}
+          </div>
+          <div style={{ display: "flex", gap: 20, justifyContent: "center", flexWrap: "wrap", marginTop: 24 }}>
+            <a
+              href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/"
+              style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+            >
+              Compare EVA vs Paperboard vs Molded Pulp →
+            </a>
+            <a
+              href="/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/"
+              style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+            >
+              Sustainable Molded Pulp vs EVA Guide →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Mid-Page Call to Action */}
+      <section className="mrb-section dark" style={{ textAlign: "center", padding: "48px 0" }}>
+        <div className="container">
+          <span className="mrb-eyebrow">CUSTOM PACKAGING SUPPORT</span>
+          <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(26px, 3.2vw, 36px)", fontWeight: 500, margin: "12px 0 16px" }}>
+            Ready to Develop Your Custom Drawer Boxes?
+          </h2>
+          <p style={{ color: "#c5c5c5", maxWidth: 680, margin: "0 auto 24px", lineHeight: 1.65 }}>
+            Send us your product dimensions, target order quantity and reference images. We will
+            provide structure advice, dieline templates and tier-based quotations.
+          </p>
+          <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
+            <a href="/rfq/" className="btn gold">
+              Request Packaging Quote
+            </a>
+            <a
+              href={waLink(WA_MESSAGES.drawer)}
+              target="_blank"
+              rel="noopener"
+              className="btn-wa"
+            >
+              <WhatsAppIcon /> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Printing & Color */}
+      <section className="mrb-section">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">COLOR &amp; PRINTING</span>
+              <h2>CMYK Process &amp; Pantone Color Matching</h2>
+            </div>
+            <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
+              Whether you need rich full-color graphics or exact corporate brand colors across both
+              the outer sleeve and inner tray:
+            </p>
+            <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
+              <li>
+                <strong>CMYK Offset Printing:</strong> High-resolution full-color printing for
+                illustrations, photographic imagery and multi-color artwork.
+              </li>
+              <li>
+                <strong>Pantone (PMS) Spot Colors:</strong> Precise ink formulation for brand-critical
+                solid colors, logos and consistent repeat runs.
+              </li>
+              <li>
+                <strong>Inner Tray Printing:</strong> Contrast color flooding or branded patterns
+                revealed inside the drawer tray upon sliding.
+              </li>
+            </ul>
+            <p>
+              <a
+                href="/resources/pantone-vs-cmyk-custom-packaging/"
+                style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+              >
+                Read our Pantone vs CMYK Color Guide →
+              </a>
+            </p>
+          </div>
+          <div className="mrb-structure">
+            <div className="mrb-head">
+              <span className="eyebrow dark">PULL ACCESSORIES</span>
+              <h2>Pull Tabs, Ribbons &amp; Opening Hardware</h2>
+            </div>
+            <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 14 }}>
+              The pull mechanism completes the interactive sliding experience:
+            </p>
+            <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20 }}>
+              <li><strong>Satin &amp; Grosgrain Ribbons:</strong> Elegant silky pull loops anchored inside the tray.</li>
+              <li><strong>Half-Moon Notch Cuts:</strong> Clean finger recesses on the sleeve edge for push-through sliding.</li>
+              <li><strong>Metal Pull Hardware:</strong> Minimalist metal ring or knob attachments for luxury collections.</li>
+              <li><strong>Custom Woven Tags:</strong> Branded woven textile pull labels for apparel and boutique gifts.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Finishing Options */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">LUXURY FINISHING</span>
+            <h2>Premium Finishing for Drawer Boxes</h2>
+            <p>
+              Enhance visual contrast and tactile sophistication with hot stamping, embossing and
+              selective gloss coatings.
+            </p>
+          </div>
+          <div className="mrb-features">
+            {finishingOptions.map((f, i) => (
               <article className="mrb-feature" key={f.title}>
                 <strong>{String(i + 1).padStart(2, "0")}</strong>
                 <h3>{f.title}</h3>
@@ -261,75 +781,42 @@ export default function DrawerBoxesPage() {
               </article>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Technical details */}
-      <section className="mrb-section soft">
-        <div className="container mrb-spec-wrap">
-          <div>
-            <div className="mrb-head">
-              <span className="eyebrow dark">TECHNICAL DETAILS</span>
-              <h2>Product Specifications</h2>
-            </div>
-            <div className="mrb-spec" style={{ display: "grid", gap: 10 }}>
-              {specs.map((s) => (
-                <div className="mrb-spec-row" key={s.label}>
-                  <b>{s.label}</b>
-                  <span>{s.value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mrb-structure">
-            <div className="mrb-head">
-              <span className="eyebrow dark">STRUCTURE</span>
-              <h2>Materials & Construction</h2>
-            </div>
-            <ol>
-              {structure.map((s) => (
-                <li key={s}>{s}</li>
-              ))}
-            </ol>
+          <div style={{ textAlign: "center", marginTop: 24 }}>
+            <a
+              href="/resources/foil-stamping-vs-embossing-vs-spot-uv/"
+              style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
+            >
+              Compare Foil Stamping vs Embossing vs Spot UV in our guide →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Details gallery */}
-      <section className="mrb-section dark" id="details">
-        <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">PRODUCT DETAILS</span>
-            <h2>Explore Box Details</h2>
-            <p>
-              Visual references for structure, finishing, inserts and premium
-              applications.
-            </p>
-          </div>
-          <div className="mrb-gallery">
-            {details.map((d) => (
-              <figure key={d.caption}>
-                <img src={d.img} alt={d.caption} />
-                <figcaption>{d.caption}</figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Applications */}
-      <section className="mrb-section">
+      {/* 9. Application Industries */}
+      <section className="mrb-section" id="details">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
-            <h2>Designed for Premium Products</h2>
+            <h2>Drawer Boxes for Different Industries</h2>
+            <p>
+              Widely chosen by luxury brands across fine jewelry, cosmetics, perfume, designer fashion
+              accessories and executive corporate gifts.
+            </p>
           </div>
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
                 <img src={a.img} alt={a.title} />
                 <div>
-                  <b>{a.title}</b>
+                  <b>
+                    {a.href ? (
+                      <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>
+                        {a.title} →
+                      </a>
+                    ) : (
+                      a.title
+                    )}
+                  </b>
                   <span>{a.desc}</span>
                 </div>
               </article>
@@ -338,12 +825,39 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
-      {/* Manufacturing stats */}
+      {/* 10. Sample & Order Process */}
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Professional Packaging Manufacturer</h2>
+            <span className="eyebrow dark">ORDER PROCESS</span>
+            <h2>From Structure Review to Mass Production</h2>
+            <p>
+              Our step-by-step OEM / ODM workflow ensures smooth communication, precision sampling
+              and dependable bulk delivery.
+            </p>
+          </div>
+          <div className="mrb-process">
+            {processSteps.map((s) => (
+              <div className="mrb-step" key={s.title}>
+                <span>{s.num}</span>
+                <b>{s.title}</b>
+                <small>{s.desc}</small>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 11. Why SORIVA (Factory capability) */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">FACTORY CAPABILITY</span>
+            <h2>Custom Packaging Support for Global Buyers</h2>
+            <p>
+              Backed by robust manufacturing infrastructure, experienced paper-box craftsmen and
+              strict QC tolerances before international dispatch.
+            </p>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
@@ -353,54 +867,21 @@ export default function DrawerBoxesPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Real production video */}
-      <section className="mrb-section dark">
-        <div className="container mrb-video-grid">
-          <div>
-            <span className="mrb-eyebrow">REAL PRODUCTION</span>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
-              From Design to Production
-            </h2>
-            <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
-              Material preparation, printing, box forming, assembly and quality
-              control are coordinated through the production process.
-            </p>
-            <div className="mrb-process-5" style={{ marginTop: 26 }}>
-              {processSteps.map((s, i) => (
-                <div className="mrb-step" key={s.title}>
-                  <span>{String(i + 1).padStart(2, "0")}</span>
-                  <b>{s.title}</b>
-                  <small>{s.sub}</small>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mrb-factory-video" style={{ marginTop: 0 }}>
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              controls
-              preload="metadata"
-              poster="/img/factory-poster.webp"
-            >
-              <source src="/video/factory-production.mp4" type="video/mp4" />
-              Your browser does not support video.
-            </video>
+          <div style={{ textAlign: "center", marginTop: 24 }}>
+            <a href="/factory/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}>
+              Tour our factory facilities &amp; QC verification →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="mrb-section">
+      {/* 12. FAQ */}
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">FAQ</span>
             <h2>Frequently Asked Questions</h2>
+            <p>Answers to common questions about drawer box structures, sizes, inserts, sampling and MOQ.</p>
           </div>
           <div className="mrb-faq">
             {faqs.map((f) => (
@@ -413,38 +894,7 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
-      {/* Quote */}
-      <section className="mrb-quote" id="quote">
-        <div className="container mrb-quote-grid">
-          <div>
-            <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Ready to Create Your Custom Packaging?</h2>
-            <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
-              <li>MOQ from 100 pcs</li>
-              <li>1 pc prototype available</li>
-              <li>Fast sample support from 48 hours</li>
-              <li>Air / Sea / Express delivery</li>
-            </ul>
-            <div className="mrb-contact">
-              <div className="mrb-contact-note">
-                <b>WhatsApp</b>
-                <a href={waLink(WA_MESSAGES.drawer)} target="_blank" rel="noopener">
-                  +86 159 1388 1634
-                </a>
-              </div>
-              <div className="mrb-contact-note">
-                <b>Email</b>
-                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
-              </div>
-            </div>
-            <a className="mrb-back" href="/">
-              ← Back to homepage
-            </a>
-          </div>
-          <QuoteForm />
-        </div>
-      </section>
-
+      {/* Buyer Guides & Technical Resources */}
       <ProductBuyerGuides
         title="Drawer Box Buyer Guides & Resources"
         subtitle="Learn how to choose rigid box structures, measure product dimensions, select greyboard thickness and custom finishes."
@@ -458,7 +908,7 @@ export default function DrawerBoxesPage() {
           {
             tag: "Product Measurement",
             title: "How to Measure a Product for Custom Box Packaging",
-            desc: "Learn how to measure items to ensure smooth tray sliding action and precise insert cutouts.",
+            desc: "Learn how to measure product dimensions and calculate sliding tray clearance and insert depth.",
             href: "/resources/how-to-measure-product-for-custom-box-packaging/",
           },
           {
@@ -468,13 +918,50 @@ export default function DrawerBoxesPage() {
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
           },
           {
-            tag: "Finishing Techniques",
-            title: "Foil Stamping vs Embossing vs Spot UV",
-            desc: "Compare foil stamping, embossing and spot UV for custom sliding drawer boxes.",
-            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+            tag: "MOQ & Pricing",
+            title: "How Custom Packaging MOQ Affects Unit Cost",
+            desc: "Learn how order quantity affects tooling, sleeve folding setup and overall custom drawer box costs.",
+            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
           },
         ]}
       />
+
+      {/* 13 & 14. Final Quote & WhatsApp CTA */}
+      <section className="mrb-quote" id="quote">
+        <div className="container mrb-quote-grid">
+          <div>
+            <span className="mrb-eyebrow">START A PROJECT</span>
+            <h2>Start Your Custom Drawer Box Project</h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
+              Send us your product dimensions, quantity, artwork, insert preference and destination.
+              Our packaging engineering team will help review a suitable drawer box structure and
+              customization plan.
+            </p>
+            <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
+              <li>MOQ from 100 pcs for selected projects</li>
+              <li>1 pc prototype available</li>
+              <li>OEM / ODM custom dimensions &amp; branding</li>
+              <li>Sea, Air &amp; Express global shipping</li>
+            </ul>
+            <div className="mrb-contact">
+              <div className="mrb-contact-note">
+                <b>WhatsApp</b>
+                <a href={waLink(WA_MESSAGES.drawer)} target="_blank" rel="noopener">
+                  +86 159 1388 1634
+                </a>
+              </div>
+              <div className="mrb-contact-note">
+                <b>Email</b>
+                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+              </div>
+            </div>
+            <a className="mrb-back" href="/custom-packaging/">
+              Explore Custom Packaging System →
+            </a>
+          </div>
+          <QuoteForm />
+        </div>
+      </section>
 
       <ProductCrossLinks industryHref="/industries/jewelry-packaging/" industryLabel="Jewelry Packaging" />
       <script
