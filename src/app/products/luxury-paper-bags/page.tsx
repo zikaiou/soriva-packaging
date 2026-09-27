@@ -10,7 +10,9 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
-  title: "Custom Luxury Paper Bags Manufacturer & Supplier | SORIVA Packaging",
+  title: {
+    absolute: "Custom Luxury Paper Bags Manufacturer & Supplier | SORIVA Packaging",
+  },
   description:
     "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
   alternates: {
