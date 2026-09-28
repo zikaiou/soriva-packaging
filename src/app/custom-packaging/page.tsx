@@ -8,9 +8,9 @@ import "../products/product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/custom-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging Solutions Manufacturer",
+  title: "Custom Packaging Solutions Manufacturer | SORIVA Packaging",
   description:
-    "Complete custom packaging solutions from SORIVA Packaging: structure design, material selection, prototyping, mass production and global delivery. MOQ from 100 pcs with 48H sample support.",
+    "Complete custom packaging solutions from SORIVA Packaging: structure design, material selection, prototyping, mass production and global delivery. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -122,7 +122,7 @@ export default function Page() {
                 ))}
               </div>
               <div className="mrb-hero-actions">
-                <a href="/contact/" className="btn gold">
+                <a href="/rfq/" className="btn gold">
                   Get A Quote
                 </a>
                 <a
@@ -191,8 +191,45 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ---------- Industries ---------- */}
+      {/* ---------- Custom Paper Bags & Coordinated Sets ---------- */}
       <section className="mrb-section">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">COORDINATED SUITES</span>
+              <h2>Custom Paper Bags &amp; Matching Packaging Sets</h2>
+            </div>
+            <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
+              Deliver a unified retail unboxing experience by pairing custom rigid gift boxes with
+              matching luxury shopping bags, custom tissue paper and branded cards:
+            </p>
+            <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
+              <li><strong>Matched Brand Colors:</strong> Precise Pantone (PMS) matching across paper bags and rigid boxes.</li>
+              <li><strong>Custom Ribbon &amp; Rope Handles:</strong> Satin, grosgrain or natural cotton rope handles.</li>
+              <li><strong>Unified Embellishments:</strong> Coordinated hot foil stamping, embossing and soft-touch lamination.</li>
+            </ul>
+            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+              <a href="/products/luxury-paper-bags/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
+                Explore Luxury Paper Bags →
+              </a>
+              <a href="/rfq/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
+                Request Packaging Quote →
+              </a>
+            </div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <img
+              src="/img/sample-paperbag-matching-set.jpg"
+              alt="Coordinated custom luxury paper bag and rigid gift box set"
+              loading="lazy"
+              style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Industries ---------- */}
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head">
             <span className="eyebrow dark">INDUSTRIES</span>
@@ -238,65 +275,92 @@ export default function Page() {
             href: "/resources/prototype-sample-vs-pre-production-sample/",
           },
           {
+            tag: "Paper & Finishing",
+            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
+            desc: "A comprehensive guide to choosing the right paper wrap, texture, GSM and coating for custom luxury packaging boxes.",
+            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+          },
+          {
             tag: "Cost Breakdown",
             title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
-            desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing and freight.",
+            desc: "Understand what drives custom packaging costs, including board thickness, paper grade, print processes, inserts and freight.",
             href: "/resources/custom-packaging-cost-breakdown/",
           },
           {
-            tag: "Materials & Structure",
-            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
-            desc: "A buyer guide to choosing greyboard thickness for custom rigid boxes, including structure and product weight.",
-            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
-          },
-          {
-            tag: "Paper & Finishing",
-            title: "Luxury Packaging Paper Types: Art Paper vs Specialty Paper vs Kraft",
-            desc: "Compare art paper, specialty paper and kraft paper for custom luxury packaging and outer wraps.",
-            href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
+            tag: "Luxury Finishing",
+            title: "Foil Stamping vs Embossing vs Spot UV for Custom Packaging",
+            desc: "Compare metallic foil stamping, 3D embossing, debossing and gloss spot UV coating for high-end packaging aesthetics.",
+            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
           },
         ]}
       />
 
-      {/* ---------- Why choose ---------- */}
-      <section className="mrb-section dark">
+      {/* ---------- Factory & Trust Stats ---------- */}
+      <section className="mrb-section">
         <div className="container">
-          <div className="mrb-head">
-            <span className="mrb-eyebrow">WHY CHOOSE SORIVA</span>
-            <h2>Why Choose SORIVA</h2>
+          <div className="mrb-head center">
+            <span className="eyebrow dark">FACTORY CAPABILITY</span>
+            <h2>Manufacturing Infrastructure You Can Rely On</h2>
             <p>
-              Factory-direct custom packaging with flexible MOQ and fast
-              development cycles.
+              Direct factory production with strict in-house quality control and verified capacity.
             </p>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
-              <div key={s.label}>
+              <div className="mrb-stat" key={s.label}>
                 <b>{s.value}</b>
                 <span>{s.label}</span>
               </div>
             ))}
           </div>
-          <p className="mrb-moq-note">
-            MOQ From 100 pcs · 1 Pc Prototype · 48H Sample · Global Export
-          </p>
-          <div className="mrb-contact">
-            <span>
-              <b>WhatsApp</b> +86 159 1388 1634
-            </span>
-            <span>
-              <b>Email</b> AMY@XINGYUE.STORE
-            </span>
+          <div style={{ textAlign: "center", marginTop: 24 }}>
+            <a href="/factory/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
+              Tour Our Factory Facilities &amp; Equipment →
+            </a>
           </div>
-          <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
-            <a href="/contact/" className="btn gold">
-              Get A Quote
+        </div>
+      </section>
+
+      {/* ---------- CTA ---------- */}
+      <section className="mrb-quote">
+        <div className="container mrb-quote-grid">
+          <div>
+            <span className="mrb-eyebrow">GET STARTED</span>
+            <h2>Start Your Packaging Project</h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
+              Tell us your product size, quantity and material preferences.
+              We will help review suitable structures and provide quotations.
+            </p>
+            <div className="mrb-contact">
+              <div className="mrb-contact-note">
+                <b>WhatsApp</b>
+                <a
+                  href={waLink(WA_MESSAGES.custom)}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  +86 159 1388 1634
+                </a>
+              </div>
+              <div className="mrb-contact-note">
+                <b>Email</b>
+                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+              </div>
+            </div>
+            <a className="mrb-back" href="/products/magnetic-rigid-boxes/">
+              Explore Magnetic Rigid Boxes →
+            </a>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14, justifyContent: "center", alignItems: "flex-start" }}>
+            <a href="/rfq/" className="btn gold" style={{ minWidth: 200, textAlign: "center" }}>
+              Request Packaging Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.custom)}
               target="_blank"
               rel="noopener"
               className="btn-wa"
+              style={{ minWidth: 200 }}
             >
               <WhatsAppIcon /> Chat on WhatsApp
             </a>

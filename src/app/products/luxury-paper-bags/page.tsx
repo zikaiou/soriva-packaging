@@ -105,6 +105,45 @@ const bagStyles = [
   },
 ];
 
+const sampleShowcase = [
+  {
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    alt: "Custom minimal luxury paper bag sample with satin ribbon handles",
+    title: "Minimal Luxury Paper Bags with Ribbon Handles",
+    desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
+  },
+  {
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
+    alt: "Custom branded paper bag and coordinated packaging set with gold hot stamping",
+    title: "Coordinated Floral Packaging & Shopping Bags",
+    desc: "Full-bleed CMYK pattern printing paired with metallic hot foil stamping and matching gift packaging elements.",
+  },
+  {
+    img: "/img/sample-paperbag-matching-set.jpg",
+    alt: "Matching luxury paper bag and rigid gift box packaging suite",
+    title: "Matching Paper Bag & Rigid Box Suite",
+    desc: "Unified paper texture, Pantone brand color matching and foil accents across both retail carrier bags and rigid presentation boxes.",
+  },
+];
+
+const showroomImages = [
+  {
+    img: "/img/showroom-wide-display.png",
+    alt: "Custom luxury paper bags and gift boxes displayed in SORIVA packaging showroom",
+    caption: "Wide Showroom Display — Comparing structures, dimensions and material options in person.",
+  },
+  {
+    img: "/img/showroom-paperbag-assortment.png",
+    alt: "Assortment of custom paper bags with different handle styles and colors in showroom",
+    caption: "Handle & Color Assortment — Cotton ropes, satin ribbons, grosgrain and twisted paper cords.",
+  },
+  {
+    img: "/img/showroom-giftbox-paperbag-variety.png",
+    alt: "Packaging showroom featuring coordinated rigid boxes and boutique shopping bags",
+    caption: "Coordinated Suites — Developing matching retail carrier bags alongside custom rigid gift boxes.",
+  },
+];
+
 const sizeGuide = [
   {
     category: "Small (Boutique / Jewelry)",
@@ -500,8 +539,41 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      {/* NEW: Real Custom Paper Bag Samples (Visual Trust Module A) */}
+      <section className="mrb-section soft" id="samples">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">REAL SAMPLE SHOWCASE</span>
+            <h2>Real Custom Paper Bag Samples</h2>
+            <p>
+              Explore real paper bag samples developed for different brand styles, sizes, handle
+              structures and presentation requirements.
+            </p>
+          </div>
+          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+            {sampleShowcase.map((s) => (
+              <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
+                <img
+                  src={s.img}
+                  alt={s.alt}
+                  loading="lazy"
+                  style={{ width: "100%", height: 260, objectFit: "cover" }}
+                />
+                <div style={{ padding: "18px 20px" }}>
+                  <b style={{ fontSize: 18, color: "#111", display: "block", marginBottom: 8 }}>{s.title}</b>
+                  <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
+                </div>
+              </article>
+            ))}
+          </div>
+          <p style={{ fontSize: 12, color: "#888", textAlign: "center", marginTop: 16 }}>
+            <em>Sample displays shown for packaging capability reference.</em>
+          </p>
+        </div>
+      </section>
+
       {/* 2. Paper Bag Styles */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BAG STYLES</span>
@@ -519,6 +591,42 @@ export default function LuxuryPaperBagsPage() {
                 <p>{style.desc}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: Explore Packaging Showroom (Visual Trust Module B) */}
+      <section className="mrb-section soft" id="showroom">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SHOWROOM VERIFICATION</span>
+            <h2>Explore Our Packaging Showroom</h2>
+            <p>
+              Our showroom displays a wide range of paper bags, rigid boxes and coordinated packaging
+              solutions, helping buyers compare structures, materials, colors, handles and finishing options.
+            </p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 24 }}>
+            {showroomImages.map((item) => (
+              <div key={item.img} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
+                <img
+                  src={item.img}
+                  alt={item.alt}
+                  loading="lazy"
+                  style={{ width: "100%", height: 260, objectFit: "cover" }}
+                />
+                <div style={{ padding: "14px 18px" }}>
+                  <p style={{ fontSize: 13, color: "#444", lineHeight: 1.5, margin: 0 }}>
+                    {item.caption}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: 24 }}>
+            <a href="/factory/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
+              Tour Factory Facilities &amp; Production Verification →
+            </a>
           </div>
         </div>
       </section>
@@ -630,8 +738,48 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* 6. CMYK & Pantone Printing */}
+      {/* NEW: Coordinated Packaging Set Capability (Visual Trust Module C) */}
       <section className="mrb-section soft">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">COORDINATED PACKAGING</span>
+              <h2>Build a Coordinated Packaging Set</h2>
+            </div>
+            <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
+              Paper bags can be developed together with matching rigid gift boxes, custom tissue paper,
+              cards and ribbon closures for a consistent retail presentation across every touchpoint:
+            </p>
+            <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
+              <li><strong>Matching Rigid Boxes:</strong> Pair with magnetic boxes, sliding drawer boxes or two-piece gift boxes.</li>
+              <li><strong>Consistent Brand Colors:</strong> Precise Pantone (PMS) matching across paper bags and box wraps.</li>
+              <li><strong>Unified Embellishments:</strong> Coordinated hot foil stamping, embossing and soft-touch textures.</li>
+            </ul>
+            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+              <a href="/products/magnetic-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Magnetic Rigid Boxes →
+              </a>
+              <a href="/products/drawer-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Sliding Drawer Boxes →
+              </a>
+              <a href="/products/two-piece-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Two-Piece Rigid Boxes →
+              </a>
+            </div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <img
+              src="/img/sample-paperbag-matching-set.jpg"
+              alt="Coordinated paper bag and gift box packaging set"
+              loading="lazy"
+              style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* 6. CMYK & Pantone Printing */}
+      <section className="mrb-section">
         <div className="container mrb-spec-wrap">
           <div>
             <div className="mrb-head">
@@ -764,8 +912,37 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      {/* NEW: Video Showcase (Visual Trust Module E) */}
+      <section className="mrb-section" id="video-tour">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">VIDEO PROOF</span>
+            <h2>See Our Paper Bag Samples &amp; Showroom</h2>
+            <p>
+              Watch our packaging showroom walk-through and physical sample inspections to verify
+              craftsmanship, paper weight, ribbon feel and structural stability.
+            </p>
+          </div>
+          <div style={{ maxWidth: 840, margin: "0 auto", background: "#000", borderRadius: 12, overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}>
+            <video
+              controls
+              playsInline
+              preload="none"
+              poster="/img/showroom-wide-display.png"
+              style={{ width: "100%", maxHeight: 480, display: "block" }}
+            >
+              <source src="/video/showroom-paperbag-tour.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p style={{ textAlign: "center", fontSize: 13, color: "#666", marginTop: 14 }}>
+            <em>Video demonstrates real showroom displays and custom packaging samples.</em>
+          </p>
+        </div>
+      </section>
+
       {/* 9. Application Industries */}
-      <section className="mrb-section" id="details">
+      <section className="mrb-section soft" id="details">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
@@ -798,7 +975,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 10. Sample & Order Process */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">ORDER PROCESS</span>
@@ -821,7 +998,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 11. Why Work With SORIVA (Factory capability) */}
-      <section className="mrb-section">
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">FACTORY CAPABILITY</span>
@@ -848,7 +1025,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 12. FAQ */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">FAQ</span>

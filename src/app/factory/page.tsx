@@ -122,14 +122,56 @@ export default function FactoryPage() {
         </div>
       </section>
 
+      {/* Showroom & Sample Verification */}
       <section className="factory-section">
+        <div className="factory-container">
+          <div className="factory-heading">
+            <span className="factory-eyebrow dark">SHOWROOM &amp; SAMPLES</span>
+            <h2>Showroom &amp; Sample Verification</h2>
+            <p>Review real paper bag and gift packaging samples in our showroom before starting a custom project.</p>
+          </div>
+          <div className="factory-two-col" style={{ alignItems: "center", gap: 32 }}>
+            <img
+              className="factory-image"
+              src="/img/showroom-wide-display.png"
+              alt="Packaging showroom displaying custom paper bags and luxury rigid boxes"
+              loading="lazy"
+              style={{ borderRadius: 8, maxHeight: 380, objectFit: "cover" }}
+            />
+            <div>
+              <h3 style={{ fontFamily: "Georgia, serif", fontSize: 24, marginBottom: 12, color: "#111" }}>
+                Inspect Real Packaging Samples
+              </h3>
+              <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
+                Our showroom displays hundreds of physical samples spanning custom luxury paper bags,
+                magnetic boxes, sliding drawer structures, paperboard canisters and bespoke inserts.
+              </p>
+              <ul style={{ color: "#555", lineHeight: 1.8, paddingLeft: 20, marginBottom: 20 }}>
+                <li>Compare paper thicknesses, textures and coating finishes in person</li>
+                <li>Verify ribbon, cotton rope and twisted handle attachments</li>
+                <li>Inspect matching sets combining retail carrier bags and rigid gift boxes</li>
+              </ul>
+              <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+                <a href="/products/luxury-paper-bags/" style={{ color: "var(--factory-gold)", fontWeight: 700 }}>
+                  Explore Luxury Paper Bags →
+                </a>
+                <a href="/projects/" style={{ color: "var(--factory-gold)", fontWeight: 700 }}>
+                  View Real Projects →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="factory-section cream">
         <div className="factory-container">
           <div className="factory-heading"><span className="factory-eyebrow dark">PRODUCTION EQUIPMENT</span><h2>Core Manufacturing Capability</h2><p>Equipment labels are intentionally generic and describe production capabilities without claiming specific brands or models.</p></div>
           <div className="factory-grid three">{equipment.map(([title, text]) => <article className="factory-card" key={title}><h3>{title}</h3><p>{text}</p></article>)}</div>
         </div>
       </section>
 
-      <section className="factory-section cream">
+      <section className="factory-section">
         <div className="factory-container factory-two-col reverse-mobile">
           <img className="factory-image" src="/img/factory-v1-advantages.jpg" alt="SORIVA packaging design, factory, production team and logistics support" loading="lazy" />
           <div><span className="factory-eyebrow dark">FROM DESIGN TO DELIVERY</span><h2>One Workflow, Multiple Capabilities</h2><div className="factory-checklist">{delivery.map(([title, text]) => <div className="factory-check" key={title}><b>{title}</b><p>{text}</p></div>)}</div></div>
