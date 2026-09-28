@@ -38,57 +38,57 @@ export const metadata: Metadata = {
 
 const priorities = [
   {
-    title: "Anti-Scratch & Anti-Tarnish Protection",
-    desc: "Precious metals and gemstones require plush velvet flocking and sulfur-free paper materials to prevent surface scratches and tarnishing during storage.",
+    title: "Product Protection & Surface Care",
+    desc: "Plush velvet linings and smooth paper wraps help protect delicate jewelry surfaces during storage and display.",
   },
   {
     title: "Precision Cutout Slits & Tabs",
-    desc: "Custom laser-cut slits engineered for rings, necklace chains, earring studs and bracelets ensure items remain perfectly centered when the lid opens.",
+    desc: "Custom-cut slits engineered for rings, necklace chains, earring studs and bracelets ensure items remain centered when the lid opens.",
   },
   {
-    title: "Smooth, Quiet Magnetic Snap",
-    desc: "Concealed miniature neodymium magnets provide an effortless opening and closing experience that enhances the unboxing prestige of fine jewelry.",
+    title: "Smooth Magnetic Closure",
+    desc: "Concealed magnets provide a smooth opening and closing experience that enhances the unboxing presentation of fine jewelry.",
   },
   {
     title: "Compact Luxury Proportions",
-    desc: "Rigid greyboard structures engineered with tight, sharp corners and bespoke calipers (1.5mm–2.0mm) for a compact, substantial hand feel.",
+    desc: "Greyboard thickness is selected according to box size, product weight and structural requirements to ensure compact, solid proportions.",
   },
 ];
 
 const structures = [
   {
     title: "Flap Magnetic Jewelry Box",
-    desc: "Front-closing magnetic flap box providing a sleek, modern presentation suitable for ring boxes, pendant cases and accessory sets.",
-    ideal: "Rings, earrings, diamond pendants and luxury boutique accessories.",
+    desc: "Front-closing magnetic flap box providing a sleek presentation suitable for ring boxes, pendant cases and accessory sets.",
+    ideal: "Rings, earrings, diamond pendants and boutique accessories.",
   },
   {
     title: "Book-Style Magnetic Jewelry Case",
-    desc: "Three-panel hinged presentation case opening completely flat, allowing necklaces and bracelets to be displayed horizontally across the inner tray.",
+    desc: "Three-panel hinged presentation case opening flat, allowing necklaces and bracelets to be displayed horizontally across the inner tray.",
     ideal: "Necklaces, tennis bracelets, bridal jewelry sets and VIP presentation.",
   },
   {
     title: "Square Compact Gift Box",
-    desc: "Classic square proportions with magnetic closure, paired with satin pull ribbons or custom velvet pouch inserts.",
-    ideal: "Luxury watches, cufflinks, brooches and designer fashion jewelry.",
+    desc: "Classic square proportions with magnetic closure, paired with satin pull ribbons or custom pouch inserts.",
+    ideal: "Luxury watches, cufflinks, brooches and designer jewelry.",
   },
 ];
 
 const inserts = [
   {
-    title: "Velvet-Flocked Slotted EVA",
-    desc: "High-density EVA foam laminated with plush black, cream, grey or navy velvet, with custom laser-cut slits for rings and earrings.",
+    title: "Velvet-Covered Slotted EVA",
+    desc: "EVA foam laminated with black, cream, grey or navy velvet, with custom-cut slits for rings and earrings.",
   },
   {
     title: "Pillow Cushion Inserts",
-    desc: "Soft micro-fiber or satin-wrapped padded pillows engineered to cradle luxury watches and bangle bracelets.",
+    desc: "Soft micro-fiber or satin-wrapped padded pillows engineered to support watches and bangle bracelets.",
   },
   {
     title: "Cardboard Velvet Folders",
-    desc: "Recyclable structured card folders with elastic or ribbon loops to hold delicate necklace chains firmly in place.",
+    desc: "Recyclable structured card folders with elastic or ribbon loops to hold delicate necklace chains.",
   },
   {
     title: "Custom Molded Pulp Trays",
-    desc: "Biodegradable molded pulp inserts contoured around jewelry presentation cases for eco-conscious luxury brands.",
+    desc: "Biodegradable molded pulp inserts contoured around jewelry presentation cases for eco-conscious brands.",
   },
 ];
 
@@ -112,8 +112,8 @@ const samples = [
 
 const faqs = [
   {
-    q: "How do you ensure the magnets do not interfere with jewelry or watches?",
-    a: "We use miniature concealed neodymium magnets isolated inside the board layers and positioned away from mechanical watch movements or sensitive electronic components.",
+    q: "How do you ensure the magnets are suitable for jewelry and watch boxes?",
+    a: "We use miniature concealed magnets isolated inside the board layers and positioned away from mechanical components.",
   },
   {
     q: "Can you create custom insert slits for specific jewelry pieces?",
@@ -129,7 +129,7 @@ const faqs = [
   },
   {
     q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc prototype sample with custom-cut velvet insert and foil stamped logo is available to verify fit, magnet strength and finishing quality before bulk manufacturing.",
+    a: "Yes. 1 pc prototype sample with custom-cut velvet insert and foil stamped logo is available to verify fit, magnet placement and finishing quality before bulk manufacturing.",
   },
   {
     q: "Can we develop matching jewelry shopping bags and pouches?",
@@ -187,13 +187,13 @@ export default function JewelryMagneticBoxesSolution() {
               <h1>Custom Magnetic Rigid Boxes for Jewelry</h1>
               <p className="mrb-lead">
                 Showcase fine jewelry with bespoke magnetic rigid boxes.
-                Engineered with plush anti-tarnish velvet inserts, concealed neodymium magnets,
+                Engineered with soft velvet inserts, concealed magnetic closure,
                 compact luxury proportions and metallic hot foil stamping for rings, necklaces and watches.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
-                <span>Anti-Tarnish Velvet Inserts</span>
-                <span>Concealed Miniature Magnets</span>
+                <span>Velvet-Covered Inserts</span>
+                <span>Concealed Magnetic Closure</span>
                 <span>Custom Ring &amp; Chain Slits</span>
                 <span>Worldwide Shipping</span>
               </div>
@@ -232,7 +232,7 @@ export default function JewelryMagneticBoxesSolution() {
           <div className="mrb-head center">
             <span className="eyebrow dark">JEWELRY PACKAGING PRIORITIES</span>
             <h2>Jewelry Presentation &amp; Delicate Protection</h2>
-            <p>Fine jewelry requires anti-scratch velvet linings, secure magnet closures and compact proportions.</p>
+            <p>EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.</p>
           </div>
           <div className="mrb-features">
             {priorities.map((p) => (
@@ -276,7 +276,7 @@ export default function JewelryMagneticBoxesSolution() {
               <h2>Custom Velvet &amp; Foam Inserts</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
-              Plush interior cushions prevent gemstone scratching and keep chains tangle-free:
+              EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements:
             </p>
             <div style={{ display: "grid", gap: 14 }}>
               {inserts.map((ins) => (
@@ -290,14 +290,14 @@ export default function JewelryMagneticBoxesSolution() {
           <div className="mrb-structure">
             <div className="mrb-head">
               <span className="eyebrow dark">TACTILE WRAPS &amp; FOIL</span>
-              <h2>Luxury Surface Craftsmanship</h2>
+              <h2>Surface Craftsmanship</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
               Enhance the perceived value of your jewelry with refined embellishments:
             </p>
             <ul style={{ color: "#444", lineHeight: 1.8, paddingLeft: 20 }}>
-              <li><strong>Micro-Foil Stamping:</strong> Razor-sharp metallic gold, silver or rose gold logos.</li>
-              <li><strong>Blind Embossing:</strong> Subtle raised monograms with crisp 3D relief.</li>
+              <li><strong>Hot Foil Stamping:</strong> Metallic gold, silver or rose gold logos.</li>
+              <li><strong>Blind Embossing:</strong> Subtle raised monograms with tactile relief.</li>
               <li><strong>Specialty Textured Papers:</strong> Linen, pearlized and soft-touch tactile sheets.</li>
               <li><strong>Satin Ribbon Pulls:</strong> Integrated ribbon tabs for smooth opening.</li>
             </ul>

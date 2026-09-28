@@ -38,57 +38,57 @@ export const metadata: Metadata = {
 
 const priorities = [
   {
-    title: "Heavyweight Glass Bottle Protection",
-    desc: "Luxury perfume bottles with heavy glass bases require 1.8mm–2.5mm rigid greyboard to prevent corner crushing and impact during global transit.",
+    title: "Glass Bottle Protection",
+    desc: "Greyboard thickness is selected according to box size, product weight and structural requirements to ensure structural protection during transit.",
   },
   {
     title: "Concealed Magnetic Closure",
-    desc: "Dual high-strength neodymium magnets embedded invisibly inside the front flap provide a satisfying, crisp acoustic snap upon closing.",
+    desc: "Concealed magnets embedded inside the front flap provide a smooth, reliable magnetic closure upon closing.",
   },
   {
     title: "Precision Bottle Cavity Fit",
-    desc: "Laser-cut high-density EVA foam and velvet-flocked trays keep delicate glass bottles and atomizer caps firmly in place with zero rattling.",
+    desc: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
   },
   {
     title: "Pantone (PMS) Brand Fidelity",
-    desc: "Exact spot color ink calibration across wrap papers, interior lining and coordinated gift bags ensures 100% brand tone consistency.",
+    desc: "Calibrated spot color ink matching across wrap papers, interior lining and coordinated gift bags ensures cohesive brand color fidelity.",
   },
 ];
 
 const structures = [
   {
     title: "Book-Style Magnetic Box",
-    desc: "Three-panel rigid construction opening like a luxury hardcover book, offering an expansive interior lid surface for storytelling.",
-    ideal: "Signature perfume collections, limited-edition fragrance launches and luxury gift sets.",
+    desc: "Three-panel rigid construction opening like a hardcover book, offering an expansive interior lid surface for brand presentation.",
+    ideal: "Signature perfume collections, fragrance launches and gift sets.",
   },
   {
     title: "Front-Opening Flap Magnetic Box",
-    desc: "Single or double magnetic flap extending over the front edge for a secure, elegant closure and seamless exterior look.",
+    desc: "Single or double magnetic flap extending over the front edge for a secure magnetic closure and clean exterior silhouette.",
     ideal: "Standard retail fragrance bottles, eau de parfum bottles and travel atomizers.",
   },
   {
     title: "Foldable Magnetic Rigid Box",
-    desc: "Collapsible rigid box structure shipping 100% flat to reduce international freight volume by up to 80% while retaining rigid box prestige.",
-    ideal: "High-volume retail distribution, global boutique shipping and seasonal gift campaigns.",
+    desc: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects.",
+    ideal: "Retail distribution, boutique shipping and seasonal gift campaigns.",
   },
 ];
 
 const inserts = [
   {
-    title: "High-Density EVA Foam",
-    desc: "Firm shock-absorbing foam precision-routed to the exact contour of the fragrance bottle, spray nozzle and cap.",
+    title: "Custom EVA Foam Inserts",
+    desc: "Shock-absorbing foam precision-cut to the contour of the fragrance bottle and cap.",
   },
   {
-    title: "Velvet-Flocked Trays",
-    desc: "Soft tactile velvet coating bonded over EVA or thermoformed trays for an ultra-luxurious, scratch-free cradle.",
+    title: "Velvet-Covered Trays",
+    desc: "Plush velvet coating bonded over EVA or formed trays for a refined presentation cradle.",
   },
   {
     title: "Custom Molded Pulp Trays",
-    desc: "Biodegradable wet-pressed molded fiber inserts contoured smoothly around the bottle for eco-conscious fragrance brands.",
+    desc: "Biodegradable wet-pressed molded fiber inserts contoured smoothly around the bottle for sustainable packaging programs.",
   },
   {
     title: "Structured Paperboard Dividers",
-    desc: "100% recyclable folded card partitions engineered to organize multi-bottle discovery sets and sample vials.",
+    desc: "Recyclable folded card partitions engineered to organize multi-bottle discovery sets and sample vials.",
   },
 ];
 
@@ -96,7 +96,7 @@ const samples = [
   {
     img: "/img/project-perfume.webp",
     title: "Signature Fragrance Magnetic Box",
-    desc: "Book-style magnetic box with soft-touch matte wrap, gold foil typography and velvet-flocked EVA insert.",
+    desc: "Book-style magnetic box with soft-touch matte wrap, gold foil typography and velvet-covered EVA insert.",
   },
   {
     img: "/img/perfume.webp",
@@ -112,12 +112,12 @@ const samples = [
 
 const faqs = [
   {
-    q: "How do you ensure the magnetic closure is strong enough for heavy perfume bottles?",
-    a: "We embed high-grade N35/N38 neodymium magnets sized appropriately for the box dimensions and weight. The magnetic polarity and placement are tested to ensure a firm, reliable snap that stays closed during shipping and handling.",
+    q: "How do you ensure the magnetic closure is suitable for perfume packaging?",
+    a: "Magnets are calibrated to the box dimensions, weight and closure requirements to ensure a smooth, reliable magnetic closure that stays securely closed during handling.",
   },
   {
-    q: "What insert material is best for luxury glass fragrance bottles?",
-    a: "High-density EVA foam with black or cream velvet flocking is the industry standard for luxury perfume because it offers superior impact absorption, clean edges and a premium tactile finish that prevents bottle scratching.",
+    q: "What insert options are available for fragrance bottles?",
+    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
   },
   {
     q: "What is the MOQ for custom perfume magnetic boxes?",
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Do you offer foldable magnetic box options for perfume sets?",
-    a: "Yes. Our foldable magnetic rigid boxes ship completely flat to save up to 80% shipping volume, and assemble in seconds via 4 corner adhesive tabs when packing at your facility.",
+    a: "Yes. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, assembling easily with corner adhesive tabs.",
   },
 ];
 
@@ -187,13 +187,13 @@ export default function PerfumeMagneticBoxesSolution() {
               <h1>Custom Magnetic Rigid Boxes for Perfume</h1>
               <p className="mrb-lead">
                 Elevate your fragrance presentation with bespoke magnetic rigid boxes.
-                Engineered with high-density greyboard, precision-cut velvet EVA inserts,
-                concealed neodymium magnets and metallic hot foil stamping for luxury perfume brands.
+                Engineered with sturdy greyboard structures, precision-cut velvet-covered EVA inserts,
+                concealed magnetic closure and metallic hot foil stamping for luxury perfume brands.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
-                <span>Concealed Neodymium Magnets</span>
-                <span>Velvet-Flocked EVA Inserts</span>
+                <span>Concealed Magnetic Closure</span>
+                <span>Velvet-Covered EVA Inserts</span>
                 <span>Pantone (PMS) Color Matching</span>
                 <span>Worldwide Shipping</span>
               </div>
@@ -232,7 +232,7 @@ export default function PerfumeMagneticBoxesSolution() {
           <div className="mrb-head center">
             <span className="eyebrow dark">FRAGRANCE PACKAGING PRIORITIES</span>
             <h2>Why Magnetic Rigid Boxes Work for Perfume</h2>
-            <p>Fragrance bottles demand structural protection, zero rattling and an unforgettable unboxing reveal.</p>
+            <p>Fragrance bottles benefit from reliable structural support, organized presentation and an elegant unboxing reveal.</p>
           </div>
           <div className="mrb-features">
             {priorities.map((p) => (
@@ -276,7 +276,7 @@ export default function PerfumeMagneticBoxesSolution() {
               <h2>Custom Inserts for Perfume Bottles</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
-              The interior insert cushions the glass bottle and prevents cap displacement:
+              EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements:
             </p>
             <div style={{ display: "grid", gap: 14 }}>
               {inserts.map((ins) => (
@@ -290,15 +290,15 @@ export default function PerfumeMagneticBoxesSolution() {
           <div className="mrb-structure">
             <div className="mrb-head">
               <span className="eyebrow dark">FINISHING &amp; EMBELLISHMENTS</span>
-              <h2>Luxury Surface Craftsmanship</h2>
+              <h2>Surface Craftsmanship</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
-              Add visual contrast and tactile prestige to your perfume box exterior:
+              Add visual contrast and tactile refinement to your perfume box exterior:
             </p>
             <ul style={{ color: "#444", lineHeight: 1.8, paddingLeft: 20 }}>
               <li><strong>Metallic Hot Foil:</strong> Gold, silver, copper, rose gold and holographic foil.</li>
-              <li><strong>3D Embossing &amp; Debossing:</strong> Multi-level raised monograms and logo reliefs.</li>
-              <li><strong>Soft-Touch Matte Lamination:</strong> Velvety tactile coating that resists fingerprints.</li>
+              <li><strong>3D Embossing &amp; Debossing:</strong> Raised monograms and tactile logo reliefs.</li>
+              <li><strong>Soft-Touch Matte Lamination:</strong> Smooth matte tactile finish.</li>
               <li><strong>Gloss Spot UV:</strong> High-shine selective coating for sharp logo contrast.</li>
             </ul>
             <div style={{ marginTop: 20 }}>

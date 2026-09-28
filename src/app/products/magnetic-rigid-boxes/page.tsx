@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const features = [
   {
     title: "Premium Rigid Construction",
-    desc: "Durable high-density greyboard structure designed for a solid, prestigious hand feel.",
+    desc: "Durable greyboard structure designed for a solid, prestigious presentation.",
   },
   {
     title: "Custom Size & Structure",
@@ -48,7 +48,7 @@ const features = [
   },
   {
     title: "Precision Inserts",
-    desc: "Custom-cut EVA foam, velvet-flocked trays, structured paperboard or molded pulp.",
+    desc: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
   },
   {
     title: "Luxury Finishes",
@@ -60,19 +60,19 @@ const magneticSolutions = [
   {
     tag: "FRAGRANCE & PERFUME",
     title: "Magnetic Rigid Boxes for Perfume",
-    desc: "Heavyweight bottle protection, concealed neodymium magnets and custom velvet-flocked EVA inserts for fragrance collections.",
+    desc: "Bottle protection, concealed magnetic closure and velvet-covered EVA inserts for fragrance collections.",
     href: "/solutions/magnetic-rigid-boxes-for-perfume/",
   },
   {
     tag: "COSMETICS & BEAUTY",
     title: "Magnetic Gift Boxes for Cosmetics",
-    desc: "Multi-product cavity organization, soft-touch velvet finish and foldable flat-shipping options for skincare sets.",
+    desc: "Multi-product cavity organization, soft-touch velvet finish and foldable packaging options for skincare sets.",
     href: "/solutions/magnetic-gift-boxes-for-cosmetics/",
   },
   {
     tag: "JEWELRY & ACCESSORIES",
     title: "Magnetic Rigid Boxes for Jewelry",
-    desc: "Compact luxury proportions, anti-tarnish velvet linings, custom ring slits and quiet magnetic closures.",
+    desc: "Compact luxury proportions, velvet-covered linings, custom ring slits and smooth magnetic closures.",
     href: "/solutions/magnetic-rigid-boxes-for-jewelry/",
   },
 ];
@@ -81,20 +81,20 @@ const magneticProjects = [
   {
     tag: "CAPABILITY CASE STUDY",
     title: "Premium Magnetic Gift Box Project",
-    desc: "Book-style front-opening rigid box with 2.0mm greyboard, concealed neodymium magnets and metallic gold foil.",
+    desc: "Book-style front-opening rigid box with rigid greyboard, concealed magnets and metallic gold foil.",
     href: "/projects/premium-magnetic-gift-box-project/",
   },
   {
     tag: "SKINCARE CASE STUDY",
     title: "Cosmetic Magnetic Packaging Project",
-    desc: "Foldable magnetic rigid box with multi-cavity bottle insert, rose gold foil and 80% export volume savings.",
+    desc: "Foldable magnetic rigid box with multi-cavity bottle insert, rose gold foil and improved packing efficiency.",
     href: "/projects/cosmetic-magnetic-packaging-project/",
   },
 ];
 
 const specs = [
   { label: "Product Type", value: "Custom Magnetic Rigid Boxes" },
-  { label: "Core Material", value: "1.5mm–3.0mm Rigid Greyboard + Custom Wrapping Paper" },
+  { label: "Core Material", value: "Greyboard thickness selected according to box size and structural requirements" },
   {
     label: "Surface Options",
     value: "Coated Art Paper / Specialty Textured Paper / Black Card / Metallic Card",
@@ -104,7 +104,7 @@ const specs = [
     label: "Finishing",
     value: "Gold/Silver Hot Foil / 3D Embossing / Debossing / Spot UV / Soft-Touch Lamination",
   },
-  { label: "Insert Options", value: "High-Density EVA / Velvet / Paperboard / Molded Pulp" },
+  { label: "Insert Options", value: "EVA / Velvet / Paperboard / Molded Pulp" },
   { label: "MOQ", value: "From 100 pcs, subject to project specification" },
   { label: "Prototype", value: "1 pc prototype sample available" },
   {
@@ -115,9 +115,9 @@ const specs = [
 
 const structure = [
   "Premium wrapping paper surface (Art / Specialty / Textured)",
-  "Rigid greyboard core (1.5mm to 3.0mm caliper)",
+  "Rigid greyboard core tailored to size requirements",
   "Precision V-grooved sharp corner edges",
-  "Concealed high-strength neodymium magnets",
+  "Concealed magnetic closure",
   "Custom-engineered product cavity insert",
 ];
 
@@ -195,11 +195,11 @@ const faqs = [
   },
   {
     q: "What types of product inserts can you produce?",
-    a: "We offer high-density EVA foam (with or without velvet flocking), structured paperboard dividers, wet-press molded pulp trays, thermoformed blister trays and satin-lined cushions.",
+    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
   },
   {
-    q: "How strong are the concealed magnetic closures?",
-    a: "We embed high-grade neodymium magnets (N35/N38) calibrated to the size and weight of the box. They provide a firm, reliable snap that stays securely closed during transit and handling.",
+    q: "How are the magnetic closures integrated?",
+    a: "Magnets are calibrated to the size and weight of the box to provide a reliable magnetic closure that stays securely closed during transit and handling.",
   },
   {
     q: "Can I order a physical sample before mass production?",
@@ -207,7 +207,7 @@ const faqs = [
   },
   {
     q: "Do you offer foldable magnetic box options for export shipping?",
-    a: "Yes. Our foldable magnetic rigid boxes ship completely flat to save up to 80% container volume, reducing international freight costs while maintaining rigid box luxury upon assembly.",
+    a: "Yes. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, maintaining rigid box presentation upon assembly.",
   },
 ];
 
@@ -270,13 +270,13 @@ export default function MagneticRigidBoxesPage() {
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
               <h1>Custom Magnetic Rigid Boxes</h1>
               <p className="mrb-lead">
-                Premium custom magnetic rigid boxes engineered with high-density greyboard,
-                concealed neodymium magnets, precision-cut inserts and bespoke finishes for
+                Premium custom magnetic rigid boxes engineered with greyboard structures,
+                concealed magnetic closure, precision-cut inserts and bespoke finishes for
                 cosmetics, fragrance, jewelry and luxury gifting brands.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
-                <span>Concealed Neodymium Magnets</span>
+                <span>Concealed Magnetic Closure</span>
                 <span>Custom Foam / Pulp Inserts</span>
                 <span>Foil / Emboss / Soft-Touch</span>
                 <span>Worldwide Shipping</span>

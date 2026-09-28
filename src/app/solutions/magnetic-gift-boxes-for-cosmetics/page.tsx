@@ -39,19 +39,19 @@ export const metadata: Metadata = {
 const priorities = [
   {
     title: "Multi-Product Cavity Organization",
-    desc: "Cosmetic gift sets often combine serums, creams, toners and spatulas. We engineer custom-routed EVA inserts holding each item securely in its designated place.",
+    desc: "Cosmetic gift sets often combine serums, creams, toners and spatulas. We engineer custom-cut inserts holding each item securely in its designated place.",
   },
   {
-    title: "Satisfying Magnetic Snap",
-    desc: "Concealed neodymium magnets inside the front flap provide a smooth, tactile closure that reinforces premium product value upon every use.",
+    title: "Smooth Magnetic Closure",
+    desc: "Concealed magnets inside the front flap provide a smooth, reliable magnetic closure that reinforces product presentation upon every use.",
   },
   {
-    title: "Velvet Soft-Touch Barrier",
-    desc: "Scratch-resistant soft-touch matte lamination prevents fingerprint marks and scuffs during beauty counter retail handling.",
+    title: "Velvet Soft-Touch Finish",
+    desc: "Smooth soft-touch matte lamination creates a refined tactile surface suitable for cosmetic retail presentation.",
   },
   {
-    title: "Foldable Freight Efficiency",
-    desc: "For global retail distribution, our foldable magnetic rigid box option saves up to 80% shipping volume while maintaining rigid box luxury.",
+    title: "Foldable Packaging Option",
+    desc: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects.",
   },
 ];
 
@@ -63,23 +63,23 @@ const structures = [
   },
   {
     title: "Collapsible Foldable Magnetic Box",
-    desc: "Rigid board structure that ships completely flat and pops up into a sturdy presentation box via adhesive corner tabs.",
-    ideal: "Cross-border ecommerce brands, subscription beauty boxes and high-volume retail programs.",
+    desc: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects.",
+    ideal: "Ecommerce brands, subscription beauty boxes and retail programs.",
   },
   {
     title: "Deep Base Magnetic Box",
-    desc: "Engineered with deep vertical gussets to accommodate heavy glass jars, pump bottles and foundation compacts.",
+    desc: "Engineered with tailored vertical gussets to accommodate glass jars, pump bottles and foundation compacts.",
     ideal: "Comprehensive full-routine beauty sets and luxury cosmetic hampers.",
   },
 ];
 
 const inserts = [
   {
-    title: "Multi-Tier High-Density EVA",
-    desc: "Custom laser-routed EVA foam with precision depth stepped around droppers, jars and applicators.",
+    title: "Custom EVA Foam Inserts",
+    desc: "Custom-cut EVA foam with precision depth stepped around droppers, jars and applicators.",
   },
   {
-    title: "Velvet-Flocked Custom Trays",
+    title: "Velvet-Covered Custom Trays",
     desc: "Plush velvet flocking in black, white, pastel pink or nude tones matching your brand aesthetic.",
   },
   {
@@ -96,7 +96,7 @@ const samples = [
   {
     img: "/img/project-skincare.webp",
     title: "Multi-Product Skincare Magnetic Box",
-    desc: "Foldable magnetic rigid box with rose gold foil stamping, custom-routed EVA insert and Pantone color matching.",
+    desc: "Foldable magnetic rigid box with rose gold foil stamping, custom-cut EVA insert and Pantone color matching.",
   },
   {
     img: "/img/cosmetics.webp",
@@ -113,11 +113,11 @@ const samples = [
 const faqs = [
   {
     q: "Can a single magnetic box hold multiple skincare products of different sizes?",
-    a: "Yes. Our engineering team designs custom multi-cavity inserts (typically high-density EVA foam or molded pulp) tailored around the exact 3D dimensions of each dropper, jar, tube and applicator.",
+    a: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
   },
   {
     q: "How does the foldable magnetic rigid box work for cosmetics?",
-    a: "The box is manufactured from rigid greyboard but engineered with pre-scored folding joints. It ships completely flat (saving ~80% freight volume) and pops up into a rigid box in seconds by removing 4 corner adhesive release liners.",
+    a: "The box is manufactured from rigid greyboard but engineered with pre-scored folding joints. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects.",
   },
   {
     q: "What is the MOQ for custom cosmetic magnetic boxes?",
@@ -125,7 +125,7 @@ const faqs = [
   },
   {
     q: "Can you match our beauty brand's exact Pantone colors?",
-    a: "Yes. We offer precise Pantone (PMS) spot color ink mixing for exterior wraps, inner lid printing and interior trays to maintain 100% brand fidelity.",
+    a: "Yes. We offer precise Pantone (PMS) spot color ink mixing for exterior wraps, inner lid printing and interior trays to maintain brand color fidelity.",
   },
   {
     q: "Can I get a prototype sample before placing a bulk order?",
@@ -188,12 +188,12 @@ export default function CosmeticMagneticBoxesSolution() {
               <p className="mrb-lead">
                 Create memorable beauty unboxing experiences with custom magnetic gift boxes.
                 Engineered with multi-product cavity inserts, soft-touch velvet lamination,
-                concealed magnetic snaps and metallic foil stamping for premium skincare and cosmetic sets.
+                concealed magnetic closure and metallic foil stamping for premium skincare and cosmetic sets.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
                 <span>Multi-Product Custom Inserts</span>
-                <span>Foldable Flat-Shipping Option</span>
+                <span>Foldable Packaging Option</span>
                 <span>Soft-Touch Velvet Finish</span>
                 <span>Worldwide Shipping</span>
               </div>
@@ -232,7 +232,7 @@ export default function CosmeticMagneticBoxesSolution() {
           <div className="mrb-head center">
             <span className="eyebrow dark">BEAUTY PACKAGING PRIORITIES</span>
             <h2>Why Magnetic Gift Boxes Suit Cosmetics</h2>
-            <p>Multi-product skincare routines demand organized presentation, jar protection and a luxurious tactile feel.</p>
+            <p>Multi-product skincare routines benefit from organized presentation, reliable protection and a refined tactile feel.</p>
           </div>
           <div className="mrb-features">
             {priorities.map((p) => (
@@ -276,7 +276,7 @@ export default function CosmeticMagneticBoxesSolution() {
               <h2>Custom Inserts for Jars &amp; Bottles</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
-              Precision-cut insert compartments keep each product securely positioned:
+              EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements:
             </p>
             <div style={{ display: "grid", gap: 14 }}>
               {inserts.map((ins) => (
@@ -293,13 +293,13 @@ export default function CosmeticMagneticBoxesSolution() {
               <h2>Brand Aesthetics &amp; Embellishments</h2>
             </div>
             <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
-              Create an unforgettable first impression on retail counters:
+              Create an elegant impression on retail counters:
             </p>
             <ul style={{ color: "#444", lineHeight: 1.8, paddingLeft: 20 }}>
               <li><strong>Pantone (PMS) Color Matching:</strong> Exact shades for pastel or vibrant beauty branding.</li>
               <li><strong>Metallic Foil Stamping:</strong> Rose gold, yellow gold, silver and holographic foil logos.</li>
               <li><strong>Multi-Level Embossing:</strong> 3D tactile relief on logos and brand patterns.</li>
-              <li><strong>Soft-Touch Matte Lamination:</strong> Anti-glare velvet finish that resists scuffs.</li>
+              <li><strong>Soft-Touch Matte Lamination:</strong> Smooth matte finish with surface protection.</li>
             </ul>
             <div style={{ marginTop: 20 }}>
               <a href="/resources/pantone-vs-cmyk-custom-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
