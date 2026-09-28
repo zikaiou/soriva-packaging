@@ -7,9 +7,9 @@ import "../products/product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/projects/";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging Projects & Case Studies",
+  title: "Custom Packaging Projects & Case Studies | SORIVA Packaging",
   description:
-    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes and two-piece rigid boxes with premium finishes.",
+    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes and luxury paper bags.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Packaging Projects | SORIVA Packaging",
     description:
-      "Real packaging projects developed for beauty, fragrance, jewelry and premium gift brands.",
+      "Real packaging projects developed for beauty, fragrance, jewelry, fashion and premium gift brands.",
     images: [
       {
         url: "https://www.sorivapackaging.com/img/hero-boxes.webp",
@@ -31,6 +31,32 @@ export const metadata: Metadata = {
 };
 
 const projects = [
+  {
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    alt: "Minimal luxury paper bag project with satin ribbon handles",
+    slug: "minimal-luxury-paper-bag-project",
+    title: "Minimal Luxury Paper Bag Project",
+    fields: [
+      ["Industry", "Boutique Retail & Cosmetics"],
+      ["Packaging", "Luxury Paper Shopping Bag"],
+      ["Material", "250 GSM Coated Art Paper"],
+      ["Finish", "Soft-Touch Matte + Gold Foil"],
+      ["Handles", "Embedded Satin Ribbon"],
+    ],
+  },
+  {
+    img: "/img/sample-paperbag-matching-set.jpg",
+    alt: "Coordinated luxury paper bag and rigid gift box packaging suite",
+    slug: "coordinated-paper-bag-gift-box-packaging",
+    title: "Coordinated Paper Bag & Gift Box Suite",
+    fields: [
+      ["Industry", "Luxury Gifting & Fragrance"],
+      ["Packaging", "Matching Bag & Rigid Box Suite"],
+      ["Material", "2.0mm Greyboard + 250 GSM Bag"],
+      ["Finish", "Pantone Matching + Gold Foil"],
+      ["Insert", "High-Density Velvet EVA"],
+    ],
+  },
   {
     img: "/img/project-skincare.webp",
     alt: "Luxury skincare gift box project",
@@ -140,7 +166,7 @@ export default function Page() {
               </p>
               <p className="mrb-lead">
                 Explore our custom packaging projects for beauty, fragrance,
-                jewelry and premium gift brands.
+                jewelry, fashion and premium gift brands.
               </p>
               <div className="mrb-hero-actions">
                 <a href="#featured" className="btn gold">
@@ -154,8 +180,8 @@ export default function Page() {
                 >
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
-                <a href="/contact/" className="btn ghost">
-                  Get A Quote
+                <a href="/rfq/" className="btn ghost">
+                  Request Quote
                 </a>
               </div>
             </div>
@@ -178,7 +204,7 @@ export default function Page() {
             <h2>Featured Packaging Projects</h2>
             <p>
               A selection of custom packaging solutions delivered for global
-              beauty, fragrance, jewelry and gift brands.
+              beauty, fragrance, jewelry, fashion and gift brands.
             </p>
           </div>
           <div className="mrb-cases">
@@ -193,7 +219,7 @@ export default function Page() {
                       <span>{v}</span>
                     </div>
                   ))}
-                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>View Case Study</a>
+                  <a className="mrb-case-cta" href={`/projects/${p.slug}/`}>View Case Study →</a>
                 </div>
               </article>
             ))}
@@ -201,17 +227,18 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ---------- From concept to production ---------- */}
-      <section className="mrb-section dark">
+      {/* ---------- Process ---------- */}
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head">
-            <span className="mrb-eyebrow">WORKFLOW</span>
-            <h2>From Concept To Production</h2>
+            <span className="eyebrow dark">PROCESS</span>
+            <h2>How We Deliver Custom Packaging</h2>
             <p>
-              A streamlined process from first sketch to delivered packaging.
+              From structure development to sampling, mass production and
+              global delivery.
             </p>
           </div>
-          <div className="mrb-process mrb-process-4">
+          <div className="mrb-process">
             {processSteps.map((s, i) => (
               <div className="mrb-step" key={s.title}>
                 <span>{String(i + 1).padStart(2, "0")}</span>
@@ -220,31 +247,70 @@ export default function Page() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ---------- Factory & Stats ---------- */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">CAPABILITY</span>
+            <h2>Factory-Direct Manufacturing</h2>
+            <p>
+              Complete in-house production with strict quality control.
+            </p>
+          </div>
           <div className="mrb-stats">
             {stats.map((s) => (
-              <div key={s.label}>
+              <div className="mrb-stat" key={s.label}>
                 <b>{s.value}</b>
                 <span>{s.label}</span>
               </div>
             ))}
           </div>
-          <div className="mrb-contact">
-            <span>
-              <b>WhatsApp</b> +86 159 1388 1634
-            </span>
-            <span>
-              <b>Email</b> AMY@XINGYUE.STORE
-            </span>
+        </div>
+      </section>
+
+      {/* ---------- CTA ---------- */}
+      <section className="mrb-quote">
+        <div className="container mrb-quote-grid">
+          <div>
+            <span className="mrb-eyebrow">START A PROJECT</span>
+            <h2>Have a Packaging Project in Mind?</h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
+              Tell us your product size, quantity and material preferences.
+              We will help review suitable structures and provide quotations.
+            </p>
+            <div className="mrb-contact">
+              <div className="mrb-contact-note">
+                <b>WhatsApp</b>
+                <a
+                  href={waLink(WA_MESSAGES.projects)}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  +86 159 1388 1634
+                </a>
+              </div>
+              <div className="mrb-contact-note">
+                <b>Email</b>
+                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+              </div>
+            </div>
+            <a className="mrb-back" href="/products/magnetic-rigid-boxes/">
+              Explore Magnetic Rigid Boxes →
+            </a>
           </div>
-          <div className="mrb-hero-actions" style={{ justifyContent: "center", marginTop: 28 }}>
-            <a href="/contact/" className="btn gold">
-              Get A Quote
+          <div style={{ display: "flex", flexDirection: "column", gap: 14, justifyContent: "center", alignItems: "flex-start" }}>
+            <a href="/rfq/" className="btn gold" style={{ minWidth: 200, textAlign: "center" }}>
+              Request Packaging Quote
             </a>
             <a
               href={waLink(WA_MESSAGES.projects)}
               target="_blank"
               rel="noopener"
               className="btn-wa"
+              style={{ minWidth: 200 }}
             >
               <WhatsAppIcon /> Chat on WhatsApp
             </a>

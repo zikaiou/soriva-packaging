@@ -111,18 +111,24 @@ const sampleShowcase = [
     alt: "Custom minimal luxury paper bag sample with satin ribbon handles",
     title: "Minimal Luxury Paper Bags with Ribbon Handles",
     desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
+    href: "/projects/minimal-luxury-paper-bag-project/",
+    linkText: "View Case Study →",
   },
   {
     img: "/img/sample-paperbag-coordinated-floral.jpg",
     alt: "Custom branded paper bag and coordinated packaging set with gold hot stamping",
     title: "Coordinated Floral Packaging & Shopping Bags",
     desc: "Full-bleed CMYK pattern printing paired with metallic hot foil stamping and matching gift packaging elements.",
+    href: "/solutions/luxury-paper-bags-for-fashion/",
+    linkText: "Fashion Solutions →",
   },
   {
     img: "/img/sample-paperbag-matching-set.jpg",
     alt: "Matching luxury paper bag and rigid gift box packaging suite",
     title: "Matching Paper Bag & Rigid Box Suite",
     desc: "Unified paper texture, Pantone brand color matching and foil accents across both retail carrier bags and rigid presentation boxes.",
+    href: "/projects/coordinated-paper-bag-gift-box-packaging/",
+    linkText: "View Case Study →",
   },
 ];
 
@@ -268,6 +274,27 @@ const finishingOptions = [
   {
     title: "Precision Die-Cutting & Embossed Borders",
     desc: "Custom die-cut window details, scalloped edges, textured borders and bespoke structural folds.",
+  },
+];
+
+const solutionsList = [
+  {
+    tag: "COSMETICS & BEAUTY",
+    title: "Luxury Paper Bags for Cosmetics",
+    desc: "Tailored paper bags with ribbon handles and reinforced bottom boards for skincare and beauty retail.",
+    href: "/solutions/luxury-paper-bags-for-cosmetics/",
+  },
+  {
+    tag: "FASHION & APPAREL",
+    title: "Luxury Paper Bags for Fashion Brands",
+    desc: "Heavyweight 250–300+ GSM shopping bags engineered for designer garments, footwear and boutique apparel.",
+    href: "/solutions/luxury-paper-bags-for-fashion/",
+  },
+  {
+    tag: "COORDINATED SUITES",
+    title: "Custom Paper Bags with Matching Gift Boxes",
+    desc: "Unified packaging suites pairing luxury carrier bags with matching magnetic and drawer rigid gift boxes.",
+    href: "/solutions/custom-paper-bags-with-matching-gift-boxes/",
   },
 ];
 
@@ -561,7 +588,12 @@ export default function LuxuryPaperBagsPage() {
                 />
                 <div style={{ padding: "18px 20px" }}>
                   <b style={{ fontSize: 18, color: "#111", display: "block", marginBottom: 8 }}>{s.title}</b>
-                  <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
+                  <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6, display: "block", marginBottom: 12 }}>{s.desc}</span>
+                  {s.href && (
+                    <a href={s.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                      {s.linkText}
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
@@ -572,8 +604,35 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* 2. Paper Bag Styles */}
+      {/* Solutions & Specific Industry Pages */}
       <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">INDUSTRY SOLUTIONS</span>
+            <h2>Dedicated Paper Bag Solutions</h2>
+            <p>Explore dedicated packaging configurations tailored for specific industry sectors and packaging suites.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {solutionsList.map((sol) => (
+              <article className="mrb-feature" key={sol.title}>
+                <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "var(--color-gold, #c79a51)", display: "block", marginBottom: 6 }}>
+                  {sol.tag}
+                </span>
+                <h3>{sol.title}</h3>
+                <p>{sol.desc}</p>
+                <p style={{ marginTop: 14 }}>
+                  <a href={sol.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                    View Solution →
+                  </a>
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 2. Paper Bag Styles */}
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BAG STYLES</span>
@@ -596,7 +655,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* NEW: Explore Packaging Showroom (Visual Trust Module B) */}
-      <section className="mrb-section soft" id="showroom">
+      <section className="mrb-section" id="showroom">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">SHOWROOM VERIFICATION</span>
@@ -632,7 +691,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 3. Size & Dimension Guide */}
-      <section className="mrb-section">
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">DIMENSION GUIDE</span>
@@ -671,7 +730,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 4. GSM / Thickness Guide */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">PAPER THICKNESS</span>
@@ -710,7 +769,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 5. Paper Materials */}
-      <section className="mrb-section">
+      <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MATERIAL OPTIONS</span>
@@ -739,7 +798,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* NEW: Coordinated Packaging Set Capability (Visual Trust Module C) */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container mrb-spec-wrap">
           <div>
             <div className="mrb-head">
@@ -756,14 +815,14 @@ export default function LuxuryPaperBagsPage() {
               <li><strong>Unified Embellishments:</strong> Coordinated hot foil stamping, embossing and soft-touch textures.</li>
             </ul>
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+              <a href="/solutions/custom-paper-bags-with-matching-gift-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Matching Bags &amp; Boxes Solution →
+              </a>
               <a href="/products/magnetic-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Magnetic Rigid Boxes →
               </a>
               <a href="/products/drawer-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Sliding Drawer Boxes →
-              </a>
-              <a href="/products/two-piece-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Two-Piece Rigid Boxes →
               </a>
             </div>
           </div>
@@ -779,7 +838,7 @@ export default function LuxuryPaperBagsPage() {
       </section>
 
       {/* 6. CMYK & Pantone Printing */}
-      <section className="mrb-section">
+      <section className="mrb-section soft">
         <div className="container mrb-spec-wrap">
           <div>
             <div className="mrb-head">

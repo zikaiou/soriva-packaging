@@ -97,6 +97,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/projects/minimal-luxury-paper-bag-project/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/projects/coordinated-paper-bag-gift-box-packaging/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/solutions/luxury-paper-bags-for-cosmetics/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/solutions/luxury-paper-bags-for-fashion/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/solutions/custom-paper-bags-with-matching-gift-boxes/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/custom-packaging/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -253,17 +283,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     ...productEntries,
-     {
-       url: `${BASE_URL}/rfq/`,
-       lastModified: new Date(),
-       changeFrequency: "monthly",
-       priority: 0.9,
-     },
-     {
-       url: `${BASE_URL}/contact/`,
-       lastModified: new Date(),
-       changeFrequency: "monthly",
-       priority: 0.7,
-     },
+    {
+      url: `${BASE_URL}/rfq/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/contact/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }
