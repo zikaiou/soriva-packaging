@@ -1,0 +1,449 @@
+/* eslint-disable @next/next/no-img-element */
+import type { Metadata } from "next";
+import QuoteForm from "../../components/QuoteForm";
+import WhatsAppIcon from "../../components/WhatsAppIcon";
+import ProductBuyerGuides from "../../components/ProductBuyerGuides";
+import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
+import "../../products/product-page.css";
+
+const PAGE_URL = "https://www.sorivapackaging.com/solutions/magnetic-rigid-boxes-for-jewelry/";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Magnetic Rigid Boxes for Jewelry | Custom Luxury Jewelry Packaging | SORIVA Packaging",
+  },
+  description:
+    "Custom magnetic rigid boxes for jewelry, rings, necklaces and luxury accessories. Compact proportions, velvet inserts, hidden magnets and hot foil branding.",
+  alternates: {
+    canonical: PAGE_URL,
+  },
+  openGraph: {
+    type: "website",
+    url: PAGE_URL,
+    title: "Magnetic Rigid Boxes for Jewelry | Custom Luxury Jewelry Packaging | SORIVA Packaging",
+    description:
+      "Custom magnetic rigid boxes for jewelry, rings, necklaces and luxury accessories. Compact proportions, velvet inserts, hidden magnets and hot foil branding.",
+    siteName: "SORIVA Packaging",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://www.sorivapackaging.com/img/jewelry.webp",
+        width: 1200,
+        height: 900,
+        alt: "Custom magnetic rigid boxes for jewelry and luxury accessories",
+      },
+    ],
+  },
+};
+
+const priorities = [
+  {
+    title: "Anti-Scratch & Anti-Tarnish Protection",
+    desc: "Precious metals and gemstones require plush velvet flocking and sulfur-free paper materials to prevent surface scratches and tarnishing during storage.",
+  },
+  {
+    title: "Precision Cutout Slits & Tabs",
+    desc: "Custom laser-cut slits engineered for rings, necklace chains, earring studs and bracelets ensure items remain perfectly centered when the lid opens.",
+  },
+  {
+    title: "Smooth, Quiet Magnetic Snap",
+    desc: "Concealed miniature neodymium magnets provide an effortless opening and closing experience that enhances the unboxing prestige of fine jewelry.",
+  },
+  {
+    title: "Compact Luxury Proportions",
+    desc: "Rigid greyboard structures engineered with tight, sharp corners and bespoke calipers (1.5mm–2.0mm) for a compact, substantial hand feel.",
+  },
+];
+
+const structures = [
+  {
+    title: "Flap Magnetic Jewelry Box",
+    desc: "Front-closing magnetic flap box providing a sleek, modern presentation suitable for ring boxes, pendant cases and accessory sets.",
+    ideal: "Rings, earrings, diamond pendants and luxury boutique accessories.",
+  },
+  {
+    title: "Book-Style Magnetic Jewelry Case",
+    desc: "Three-panel hinged presentation case opening completely flat, allowing necklaces and bracelets to be displayed horizontally across the inner tray.",
+    ideal: "Necklaces, tennis bracelets, bridal jewelry sets and VIP presentation.",
+  },
+  {
+    title: "Square Compact Gift Box",
+    desc: "Classic square proportions with magnetic closure, paired with satin pull ribbons or custom velvet pouch inserts.",
+    ideal: "Luxury watches, cufflinks, brooches and designer fashion jewelry.",
+  },
+];
+
+const inserts = [
+  {
+    title: "Velvet-Flocked Slotted EVA",
+    desc: "High-density EVA foam laminated with plush black, cream, grey or navy velvet, with custom laser-cut slits for rings and earrings.",
+  },
+  {
+    title: "Pillow Cushion Inserts",
+    desc: "Soft micro-fiber or satin-wrapped padded pillows engineered to cradle luxury watches and bangle bracelets.",
+  },
+  {
+    title: "Cardboard Velvet Folders",
+    desc: "Recyclable structured card folders with elastic or ribbon loops to hold delicate necklace chains firmly in place.",
+  },
+  {
+    title: "Custom Molded Pulp Trays",
+    desc: "Biodegradable molded pulp inserts contoured around jewelry presentation cases for eco-conscious luxury brands.",
+  },
+];
+
+const samples = [
+  {
+    img: "/img/project-jewelry.webp",
+    title: "Fine Jewelry Presentation Box",
+    desc: "Rigid drawer and magnetic presentation box with custom velvet-lined insert and metallic gold foil.",
+  },
+  {
+    img: "/img/jewelry.webp",
+    title: "Luxury Ring & Pendant Case",
+    desc: "Flap magnetic rigid box with textured specialty paper wrap and precision ring slot cutouts.",
+  },
+  {
+    img: "/img/magnetic-rigid.webp",
+    title: "Bespoke Jewelry Suite Box",
+    desc: "Book-style magnetic presentation box engineered for complete jewelry collection displays.",
+  },
+];
+
+const faqs = [
+  {
+    q: "How do you ensure the magnets do not interfere with jewelry or watches?",
+    a: "We use miniature concealed neodymium magnets isolated inside the board layers and positioned away from mechanical watch movements or sensitive electronic components.",
+  },
+  {
+    q: "Can you create custom insert slits for specific jewelry pieces?",
+    a: "Yes. We customize the exact slot geometry (ring slits, earring holes, necklace tabs, watch collars) based on your physical product samples or 2D/3D CAD drawings.",
+  },
+  {
+    q: "What is the MOQ for custom jewelry magnetic boxes?",
+    a: "Custom jewelry magnetic box projects can start from 100 pcs for selected designs. Production runs of 500–3,000+ pcs achieve optimal unit economics.",
+  },
+  {
+    q: "What paper wraps are best for luxury jewelry boxes?",
+    a: "Specialty textured papers (linen, laid, soft-touch matte) and dyed black or colored cardstock are ideal because they provide a rich tactile feel and show crisp, sharp foil stamping.",
+  },
+  {
+    q: "Can I request a prototype sample before mass production?",
+    a: "Yes. 1 pc prototype sample with custom-cut velvet insert and foil stamped logo is available to verify fit, magnet strength and finishing quality before bulk manufacturing.",
+  },
+  {
+    q: "Can we develop matching jewelry shopping bags and pouches?",
+    a: "Yes. We offer coordinated retail suites including small boutique paper bags with ribbon handles, velvet pouches, polishing cloths and branded warranty cards.",
+  },
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Solutions", item: "https://www.sorivapackaging.com/custom-packaging/" },
+        { "@type": "ListItem", position: 3, name: "Jewelry Magnetic Boxes", item: PAGE_URL },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Custom Magnetic Rigid Boxes for Jewelry",
+      description:
+        "OEM/ODM custom magnetic rigid box manufacturing for jewelry, watches and luxury accessory brands.",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      url: PAGE_URL,
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+  ],
+};
+
+export default function JewelryMagneticBoxesSolution() {
+  return (
+    <main className="mrb-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
+      {/* Hero */}
+      <section className="mrb-hero">
+        <div className="container">
+          <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a> / <a href="/custom-packaging/">Solutions</a> / Magnetic Rigid Boxes for Jewelry
+          </nav>
+          <div className="mrb-hero-grid">
+            <div className="mrb-hero-copy">
+              <span className="mrb-eyebrow">JEWELRY &amp; ACCESSORY PACKAGING</span>
+              <h1>Custom Magnetic Rigid Boxes for Jewelry</h1>
+              <p className="mrb-lead">
+                Showcase fine jewelry with bespoke magnetic rigid boxes.
+                Engineered with plush anti-tarnish velvet inserts, concealed neodymium magnets,
+                compact luxury proportions and metallic hot foil stamping for rings, necklaces and watches.
+              </p>
+              <div className="mrb-tags">
+                <span>MOQ From 100 pcs</span>
+                <span>Anti-Tarnish Velvet Inserts</span>
+                <span>Concealed Miniature Magnets</span>
+                <span>Custom Ring &amp; Chain Slits</span>
+                <span>Worldwide Shipping</span>
+              </div>
+              <div className="mrb-hero-actions">
+                <a href="/rfq/" className="btn gold">
+                  Request Packaging Quote
+                </a>
+                <a
+                  href={waLink(WA_MESSAGES.jewelry)}
+                  target="_blank"
+                  rel="noopener"
+                  className="btn-wa"
+                >
+                  <WhatsAppIcon /> Chat on WhatsApp
+                </a>
+                <a href="/industries/jewelry-packaging/" className="btn ghost">
+                  Jewelry Packaging Hub
+                </a>
+              </div>
+            </div>
+            <div className="mrb-hero-media">
+              <img
+                src="/img/jewelry.webp"
+                alt="Custom magnetic rigid boxes for jewelry and luxury accessories"
+                width="1200"
+                height="900"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Priorities */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">JEWELRY PACKAGING PRIORITIES</span>
+            <h2>Jewelry Presentation &amp; Delicate Protection</h2>
+            <p>Fine jewelry requires anti-scratch velvet linings, secure magnet closures and compact proportions.</p>
+          </div>
+          <div className="mrb-features">
+            {priorities.map((p) => (
+              <article className="mrb-feature" key={p.title}>
+                <h3>{p.title}</h3>
+                <p>{p.desc}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Box Structures */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BOX STRUCTURE OPTIONS</span>
+            <h2>Magnetic Structures for Fine Jewelry</h2>
+            <p>Select tailored silhouettes engineered for rings, pendants, watches and complete jewelry suites.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {structures.map((s) => (
+              <article className="mrb-feature" key={s.title}>
+                <h3>{s.title}</h3>
+                <p>{s.desc}</p>
+                <div style={{ marginTop: 12, fontSize: 13, color: "#666" }}>
+                  <strong>Best for:</strong> {s.ideal}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Custom Inserts & Materials */}
+      <section className="mrb-section">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">PRECISION INSERTS</span>
+              <h2>Custom Velvet &amp; Foam Inserts</h2>
+            </div>
+            <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
+              Plush interior cushions prevent gemstone scratching and keep chains tangle-free:
+            </p>
+            <div style={{ display: "grid", gap: 14 }}>
+              {inserts.map((ins) => (
+                <div key={ins.title} style={{ background: "#fcfbfa", padding: "14px 18px", borderRadius: 8, border: "1px solid #e7e2d9" }}>
+                  <b style={{ color: "#111", display: "block", marginBottom: 4 }}>{ins.title}</b>
+                  <span style={{ fontSize: 13, color: "#555" }}>{ins.desc}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="mrb-structure">
+            <div className="mrb-head">
+              <span className="eyebrow dark">TACTILE WRAPS &amp; FOIL</span>
+              <h2>Luxury Surface Craftsmanship</h2>
+            </div>
+            <p style={{ color: "#444", lineHeight: 1.7, marginBottom: 16 }}>
+              Enhance the perceived value of your jewelry with refined embellishments:
+            </p>
+            <ul style={{ color: "#444", lineHeight: 1.8, paddingLeft: 20 }}>
+              <li><strong>Micro-Foil Stamping:</strong> Razor-sharp metallic gold, silver or rose gold logos.</li>
+              <li><strong>Blind Embossing:</strong> Subtle raised monograms with crisp 3D relief.</li>
+              <li><strong>Specialty Textured Papers:</strong> Linen, pearlized and soft-touch tactile sheets.</li>
+              <li><strong>Satin Ribbon Pulls:</strong> Integrated ribbon tabs for smooth opening.</li>
+            </ul>
+            <div style={{ marginTop: 20 }}>
+              <a href="/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Read our Luxury Paper Types Guide →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Real Sample Gallery */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SAMPLE PROOF</span>
+            <h2>Real Jewelry Magnetic Box References</h2>
+            <p>Explore real packaging capability samples produced for fine jewelry and watch brands.</p>
+          </div>
+          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+            {samples.map((s) => (
+              <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
+                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: 260, objectFit: "cover" }} />
+                <div style={{ padding: "16px 20px" }}>
+                  <b style={{ fontSize: 17, color: "#111", display: "block", marginBottom: 6 }}>{s.title}</b>
+                  <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
+                </div>
+              </article>
+            ))}
+          </div>
+          <p style={{ fontSize: 12, color: "#888", textAlign: "center", marginTop: 16 }}>
+            <em>Sample displays shown for packaging capability reference.</em>
+          </p>
+        </div>
+      </section>
+
+      {/* Internal Links to Jewelry Hub & Projects */}
+      <section className="mrb-section">
+        <div className="container mrb-spec-wrap">
+          <div>
+            <div className="mrb-head">
+              <span className="eyebrow dark">JEWELRY PACKAGING NETWORK</span>
+              <h2>Complete Jewelry Packaging Solutions</h2>
+            </div>
+            <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
+              In addition to magnetic rigid boxes, we produce sliding drawer boxes, two-piece boxes
+              and matching small boutique shopping bags for jewelry brands:
+            </p>
+            <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
+              <a href="/industries/jewelry-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Jewelry Packaging Industry Hub →
+              </a>
+              <a href="/projects/fine-jewelry-presentation-box/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Fine Jewelry Case Study →
+              </a>
+              <a href="/products/drawer-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Sliding Drawer Boxes →
+              </a>
+            </div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <img
+              src="/img/jewelry.webp"
+              alt="Jewelry presentation packaging solutions"
+              loading="lazy"
+              style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>Common questions about custom magnetic rigid boxes for jewelry and watches.</p>
+          </div>
+          <div className="mrb-faq">
+            {faqs.map((f) => (
+              <div className="mrb-faq-item" key={f.q}>
+                <b>{f.q}</b>
+                <p>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Guides */}
+      <ProductBuyerGuides
+        title="Jewelry Packaging Guides & Resources"
+        subtitle="Technical advice on box structures, foam insert materials and sample verification."
+        guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare sliding drawer boxes, magnetic cases and lid-and-base boxes for fine jewelry.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Inserts Comparison",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Understand protection, presentation and sustainability differences across jewelry insert materials.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+          {
+            tag: "Sampling",
+            title: "Prototype Sample vs Pre-Production Sample: What Buyers Should Know",
+            desc: "Understand what each sample stage verifies before releasing bulk jewelry box manufacturing.",
+            href: "/resources/prototype-sample-vs-pre-production-sample/",
+          },
+        ]}
+      />
+
+      {/* Final Quote & Contact */}
+      <section className="mrb-quote" id="quote">
+        <div className="container mrb-quote-grid">
+          <div>
+            <span className="mrb-eyebrow">START A PROJECT</span>
+            <h2>Develop Your Custom Jewelry Magnetic Boxes</h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
+              Send us your jewelry dimensions, target quantity, artwork files and insert preferences.
+              Our packaging specialists will provide dielines, material recommendations and quotation.
+            </p>
+            <div className="mrb-contact">
+              <div className="mrb-contact-note">
+                <b>WhatsApp</b>
+                <a href={waLink(WA_MESSAGES.jewelry)} target="_blank" rel="noopener">
+                  +86 159 1388 1634
+                </a>
+              </div>
+              <div className="mrb-contact-note">
+                <b>Email</b>
+                <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
+              </div>
+            </div>
+            <a className="mrb-back" href="/industries/jewelry-packaging/">
+              Back to Jewelry Packaging Hub →
+            </a>
+          </div>
+          <QuoteForm />
+        </div>
+      </section>
+    </main>
+  );
+}

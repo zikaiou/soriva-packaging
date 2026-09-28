@@ -32,6 +32,32 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    img: "/img/magnetic-rigid.webp",
+    alt: "Premium magnetic gift box project reference",
+    slug: "premium-magnetic-gift-box-project",
+    title: "Premium Magnetic Gift Box Project",
+    fields: [
+      ["Industry", "Luxury Gifting & VIP"],
+      ["Packaging", "Book-Style Magnetic Box"],
+      ["Material", "2.0mm High-Density Board"],
+      ["Finish", "Gold Foil + Velvet Matte"],
+      ["Insert", "Velvet-Flocked EVA Insert"],
+    ],
+  },
+  {
+    img: "/img/project-skincare.webp",
+    alt: "Cosmetic magnetic gift packaging project reference",
+    slug: "cosmetic-magnetic-packaging-project",
+    title: "Cosmetic Magnetic Packaging Project",
+    fields: [
+      ["Industry", "Beauty & Skincare"],
+      ["Packaging", "Foldable Magnetic Box"],
+      ["Material", "1.8mm Greyboard + Art Paper"],
+      ["Finish", "Rose Gold Foil + Soft-Touch"],
+      ["Insert", "Multi-Cavity Bottle Insert"],
+    ],
+  },
+  {
     img: "/img/sample-paperbag-ribbon-minimal.jpg",
     alt: "Minimal luxury paper bag project with satin ribbon handles",
     slug: "minimal-luxury-paper-bag-project",

@@ -10,9 +10,11 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/";
 
 export const metadata: Metadata = {
-  title: "Custom Magnetic Rigid Boxes Manufacturer",
+  title: {
+    absolute: "Custom Magnetic Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
+  },
   description:
-    "Custom Magnetic Rigid Boxes from SORIVA Packaging with custom size, premium finishes, inserts, MOQ from 100 pcs, 1 pc prototype, 48-hour sample support and global shipping.",
+    "Custom magnetic rigid boxes with hidden magnetic closures, premium paper wraps, bespoke inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global export.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -21,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Magnetic Rigid Boxes | SORIVA Packaging",
     description:
-      "Premium magnetic rigid boxes with hidden magnetic closures, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support.",
+      "Premium magnetic rigid boxes with hidden magnetic closures, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global shipping.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -38,53 +40,85 @@ export const metadata: Metadata = {
 const features = [
   {
     title: "Premium Rigid Construction",
-    desc: "Durable greyboard structure designed for a premium hand feel.",
+    desc: "Durable high-density greyboard structure designed for a solid, prestigious hand feel.",
   },
   {
     title: "Custom Size & Structure",
-    desc: "Dimensions and structure developed around your product.",
+    desc: "Book-style, front-flap and collapsible foldable structures tailored around your product.",
   },
   {
-    title: "Custom Inserts",
-    desc: "EVA, velvet, paper or molded pulp options.",
+    title: "Precision Inserts",
+    desc: "Custom-cut EVA foam, velvet-flocked trays, structured paperboard or molded pulp.",
   },
   {
     title: "Luxury Finishes",
-    desc: "Foil, embossing, debossing, UV and specialty paper options.",
+    desc: "Metallic hot foil, 3D embossing, debossing, gloss spot UV and soft-touch lamination.",
+  },
+];
+
+const magneticSolutions = [
+  {
+    tag: "FRAGRANCE & PERFUME",
+    title: "Magnetic Rigid Boxes for Perfume",
+    desc: "Heavyweight bottle protection, concealed neodymium magnets and custom velvet-flocked EVA inserts for fragrance collections.",
+    href: "/solutions/magnetic-rigid-boxes-for-perfume/",
+  },
+  {
+    tag: "COSMETICS & BEAUTY",
+    title: "Magnetic Gift Boxes for Cosmetics",
+    desc: "Multi-product cavity organization, soft-touch velvet finish and foldable flat-shipping options for skincare sets.",
+    href: "/solutions/magnetic-gift-boxes-for-cosmetics/",
+  },
+  {
+    tag: "JEWELRY & ACCESSORIES",
+    title: "Magnetic Rigid Boxes for Jewelry",
+    desc: "Compact luxury proportions, anti-tarnish velvet linings, custom ring slits and quiet magnetic closures.",
+    href: "/solutions/magnetic-rigid-boxes-for-jewelry/",
+  },
+];
+
+const magneticProjects = [
+  {
+    tag: "CAPABILITY CASE STUDY",
+    title: "Premium Magnetic Gift Box Project",
+    desc: "Book-style front-opening rigid box with 2.0mm greyboard, concealed neodymium magnets and metallic gold foil.",
+    href: "/projects/premium-magnetic-gift-box-project/",
+  },
+  {
+    tag: "SKINCARE CASE STUDY",
+    title: "Cosmetic Magnetic Packaging Project",
+    desc: "Foldable magnetic rigid box with multi-cavity bottle insert, rose gold foil and 80% export volume savings.",
+    href: "/projects/cosmetic-magnetic-packaging-project/",
   },
 ];
 
 const specs = [
   { label: "Product Type", value: "Custom Magnetic Rigid Boxes" },
-  { label: "Core Material", value: "Rigid Greyboard + Custom Wrapping Paper" },
+  { label: "Core Material", value: "1.5mm–3.0mm Rigid Greyboard + Custom Wrapping Paper" },
   {
     label: "Surface Options",
-    value: "Art Paper / Specialty Paper / Textured Paper / Fabric / Leatherette",
+    value: "Coated Art Paper / Specialty Textured Paper / Black Card / Metallic Card",
   },
-  { label: "Printing", value: "CMYK / Pantone / Offset / Digital" },
+  { label: "Printing", value: "CMYK Full-Color / Pantone (PMS) Spot Color Matching" },
   {
     label: "Finishing",
-    value: "Gold/Silver Foil / Emboss / Deboss / Spot UV / Lamination",
+    value: "Gold/Silver Hot Foil / 3D Embossing / Debossing / Spot UV / Soft-Touch Lamination",
   },
-  { label: "Insert Options", value: "EVA / Velvet / Paperboard / Molded Pulp" },
+  { label: "Insert Options", value: "High-Density EVA / Velvet / Paperboard / Molded Pulp" },
   { label: "MOQ", value: "From 100 pcs, subject to project specification" },
-  { label: "Prototype", value: "1 pc prototype available" },
+  { label: "Prototype", value: "1 pc prototype sample available" },
   {
-    label: "Sample Time",
-    value: "Fast sample support from 48 hours, depending on complexity",
-  },
-  {
-    label: "Production",
-    value: "Fast production support from around 7 days, depending on order details",
+    label: "Lead Time",
+    value: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
 const structure = [
-  "Premium wrapping paper surface",
-  "Rigid greyboard core",
-  "Rigid box body construction",
-  "Hidden magnetic closure",
-  "Custom product insert",
+  "Premium wrapping paper surface (Art / Specialty / Textured)",
+  "Rigid greyboard core (1.5mm to 3.0mm caliper)",
+  "Precision V-grooved sharp corner edges",
+  "Concealed high-strength neodymium magnets",
+  "Custom-engineered product cavity insert",
 ];
 
 const details = [
@@ -93,7 +127,7 @@ const details = [
   { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
   { img: "/img/project-perfume.webp", caption: "Premium Perfume Project", href: "/projects/premium-perfume-packaging/" },
-  { img: "/img/project-skincare.webp", caption: "Skincare Gift Set" },
+  { img: "/img/project-skincare.webp", caption: "Skincare Gift Set", href: "/projects/luxury-skincare-gift-box/" },
 ];
 
 const applications = [
@@ -118,13 +152,20 @@ const applications = [
   {
     img: "/img/project-jewelry.webp",
     title: "Jewelry & Watches",
-    desc: "Rings, necklaces and premium accessories.",
+    desc: "Rings, necklaces, watches and fine jewelry.",
     href: "/industries/jewelry-packaging/",
   },
   {
+    img: "/img/fashion.webp",
+    title: "Fashion & Accessories",
+    desc: "Belts, wallets, silk scarves and sunglasses.",
+    href: "/industries/fashion-packaging/",
+  },
+  {
     img: "/img/project-gift-clean.webp",
-    title: "Corporate Gifts",
-    desc: "Brand campaigns and executive gift sets.",
+    title: "Corporate & VIP Gifts",
+    desc: "Executive gift boxes, launch kits and corporate sets.",
+    href: "/industries/corporate-gift-packaging/",
   },
 ];
 
@@ -136,45 +177,37 @@ const stats = [
 ];
 
 const processSteps = [
-  { title: "Material Preparation", sub: "Paper & board" },
-  { title: "Printing & Finishing", sub: "Brand artwork" },
-  { title: "Box Forming", sub: "Structure assembly" },
-  { title: "Quality Inspection", sub: "Appearance & fit" },
-  { title: "Global Delivery", sub: "Air / Sea / Express" },
+  { title: "Design & Dieline", sub: "Size & structural planning" },
+  { title: "Material Sourcing", sub: "Board & paper preparation" },
+  { title: "Printing & Foil", sub: "CMYK, Pantone & finishing" },
+  { title: "Box Assembly", sub: "Die-cutting, folding & magnets" },
+  { title: "100% Inspection", sub: "QC & export carton packing" },
 ];
 
 const faqs = [
   {
-    q: "Can I customize the box size?",
-    a: "Yes. Dimensions can be developed according to your product and packaging requirements.",
+    q: "What is the MOQ for custom magnetic rigid boxes?",
+    a: "Selected custom magnetic rigid box projects can start from 100 pcs. The optimal production quantity depends on box size, paper material, insert complexity and surface finishing requirements.",
   },
   {
-    q: "What is the MOQ?",
-    a: "Selected custom projects can start from 100 pcs, depending on materials, size and finishing.",
+    q: "Can I customize the exact box dimensions and structure?",
+    a: "Yes. Every dimension (Length × Width × Height) and structural opening style (book-style, front-flap, double-door or foldable) is fully customized around your product specifications.",
   },
   {
-    q: "Can I order a prototype?",
-    a: "Yes. A 1 pc prototype can be produced for structure, size, artwork and finish confirmation.",
+    q: "What types of product inserts can you produce?",
+    a: "We offer high-density EVA foam (with or without velvet flocking), structured paperboard dividers, wet-press molded pulp trays, thermoformed blister trays and satin-lined cushions.",
   },
   {
-    q: "How fast can samples be made?",
-    a: "Fast sample support can start from 48 hours for suitable projects; complex structures or finishes may require more time.",
+    q: "How strong are the concealed magnetic closures?",
+    a: "We embed high-grade neodymium magnets (N35/N38) calibrated to the size and weight of the box. They provide a firm, reliable snap that stays securely closed during transit and handling.",
   },
   {
-    q: "How long does production take?",
-    a: "Fast production can start from around 7 days for suitable confirmed projects, depending on quantity and finishing complexity.",
+    q: "Can I order a physical sample before mass production?",
+    a: "Yes. 1 pc custom prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
   },
   {
-    q: "Where do you ship?",
-    a: "We support customers in the USA, Europe, Japan, Korea and other international markets by sea, air and express.",
-  },
-  {
-    q: "Are the magnets visible?",
-    a: "Typically no. Hidden magnets can be integrated into the box structure for a clean premium appearance.",
-  },
-  {
-    q: "Can the box include a custom product insert?",
-    a: "Yes. EVA, velvet, paperboard and molded pulp insert options can be developed around your product.",
+    q: "Do you offer foldable magnetic box options for export shipping?",
+    a: "Yes. Our foldable magnetic rigid boxes ship completely flat to save up to 80% container volume, reducing international freight costs while maintaining rigid box luxury upon assembly.",
   },
 ];
 
@@ -184,23 +217,27 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Magnetic Rigid Boxes",
-      description:
-        "Custom magnetic rigid boxes with hidden magnetic closures, rigid greyboard construction, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and 48-hour sample support.",
       image: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
+      description:
+        "Custom magnetic rigid boxes with hidden magnetic closures, premium paper wraps, bespoke inserts and luxury finishes.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Rigid greyboard + custom wrapping paper",
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "USD",
+        price: "1.20",
+        lowPrice: "0.80",
+        highPrice: "5.00",
+        offerCount: "1000",
+        availability: "https://schema.org/InStock",
+      },
+      url: PAGE_URL,
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Custom Magnetic Rigid Boxes",
-          item: PAGE_URL,
-        },
+        { "@type": "ListItem", position: 2, name: "Products", item: "https://www.sorivapackaging.com/products/" },
+        { "@type": "ListItem", position: 3, name: "Magnetic Rigid Boxes", item: PAGE_URL },
       ],
     },
     {
@@ -217,33 +254,36 @@ const structuredData = {
 export default function MagneticRigidBoxesPage() {
   return (
     <main className="mrb-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a> / Products / Magnetic Rigid Boxes
+            <a href="/">Home</a> / <a href="/products/">Products</a> / Magnetic Rigid Boxes
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
-              <span className="mrb-eyebrow">CUSTOM PACKAGING SOLUTIONS</span>
+              <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
               <h1>Custom Magnetic Rigid Boxes</h1>
-              <p className="mrb-subtitle">
-                Luxury Packaging Designed for Premium Brands
-              </p>
               <p className="mrb-lead">
-                Create premium unboxing experiences with custom magnetic rigid
-                boxes featuring strong construction, hidden magnetic closures,
-                refined finishes and tailored inserts.
+                Premium custom magnetic rigid boxes engineered with high-density greyboard,
+                concealed neodymium magnets, precision-cut inserts and bespoke finishes for
+                cosmetics, fragrance, jewelry and luxury gifting brands.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
-                <span>1 Pc Prototype</span>
-                <span>48H Sample</span>
-                <span>7-Day Production</span>
+                <span>Concealed Neodymium Magnets</span>
+                <span>Custom Foam / Pulp Inserts</span>
+                <span>Foil / Emboss / Soft-Touch</span>
+                <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
                 <a href="/rfq/" className="btn gold">
-                  Get A Quote
+                  Request Packaging Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.magnetic)}
@@ -253,8 +293,8 @@ export default function MagneticRigidBoxesPage() {
                 >
                   <WhatsAppIcon /> Chat on WhatsApp
                 </a>
-                <a href="#details" className="btn ghost">
-                  View Details
+                <a href="#solutions" className="btn ghost">
+                  Industry Solutions
                 </a>
               </div>
             </div>
@@ -295,8 +335,35 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
+      {/* Industry Solutions */}
+      <section className="mrb-section soft" id="solutions">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">INDUSTRY SOLUTIONS</span>
+            <h2>Dedicated Magnetic Box Solutions by Industry</h2>
+            <p>Explore specialized magnetic box configurations tailored for perfume, cosmetics and jewelry collections.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {magneticSolutions.map((sol) => (
+              <article className="mrb-feature" key={sol.title}>
+                <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "var(--color-gold, #c79a51)", display: "block", marginBottom: 6 }}>
+                  {sol.tag}
+                </span>
+                <h3>{sol.title}</h3>
+                <p>{sol.desc}</p>
+                <p style={{ marginTop: 14 }}>
+                  <a href={sol.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                    View Solution →
+                  </a>
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Technical details */}
-      <section className="mrb-section soft">
+      <section className="mrb-section">
         <div className="container mrb-spec-wrap">
           <div>
             <div className="mrb-head">
@@ -315,13 +382,40 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-structure">
             <div className="mrb-head">
               <span className="eyebrow dark">STRUCTURE</span>
-              <h2>Materials & Construction</h2>
+              <h2>Materials &amp; Construction</h2>
             </div>
             <ol>
               {structure.map((s) => (
                 <li key={s}>{s}</li>
               ))}
             </ol>
+          </div>
+        </div>
+      </section>
+
+      {/* Capability Projects */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">FEATURED CASE STUDIES</span>
+            <h2>Magnetic Box Capability Projects</h2>
+            <p>Explore real capability-based packaging case studies developed for luxury gifting and skincare.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
+            {magneticProjects.map((p) => (
+              <article className="mrb-feature" key={p.title}>
+                <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "var(--color-gold, #c79a51)", display: "block", marginBottom: 6 }}>
+                  {p.tag}
+                </span>
+                <h3>{p.title}</h3>
+                <p>{p.desc}</p>
+                <p style={{ marginTop: 14 }}>
+                  <a href={p.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                    Read Case Study →
+                  </a>
+                </p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -444,18 +538,48 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
+      {/* Buyer Guides & Technical Resources */}
+      <ProductBuyerGuides
+        title="Magnetic Rigid Box Buyer Guides & Resources"
+        subtitle="Explore practical advice on greyboard thickness, box structures, custom inserts and cost drivers."
+        guides={[
+          {
+            tag: "Box Structures",
+            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
+            desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience, presentation and packing efficiency.",
+            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
+          },
+          {
+            tag: "Board Caliper",
+            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
+            desc: "A buyer guide to choosing greyboard thickness from 1.5mm to 3.0mm based on box size and product weight.",
+            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
+          },
+          {
+            tag: "Packaging Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Compare protection, presentation and sustainability differences across insert materials.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+          {
+            tag: "Foldable Option",
+            title: "Foldable vs Traditional Rigid Boxes",
+            desc: "Understand how foldable magnetic rigid boxes optimize storage space and international shipping costs.",
+            href: "/resources/foldable-vs-traditional-rigid-box/",
+          },
+        ]}
+      />
+
       {/* Quote */}
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
           <div>
             <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Ready to Create Your Custom Packaging?</h2>
-            <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
-              <li>MOQ from 100 pcs</li>
-              <li>1 pc prototype available</li>
-              <li>Fast sample support from 48 hours</li>
-              <li>Air / Sea / Express delivery</li>
-            </ul>
+            <h2>Request A Custom Magnetic Box Quote</h2>
+            <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
+              Send us your product size, target quantity, material preferences and destination.
+              Our packaging specialists will provide dielines, material recommendations and quotation.
+            </p>
             <div className="mrb-contact">
               <div className="mrb-contact-note">
                 <b>WhatsApp</b>
@@ -468,50 +592,15 @@ export default function MagneticRigidBoxesPage() {
                 <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
               </div>
             </div>
-            <a className="mrb-back" href="/">
-              ← Back to homepage
+            <a className="mrb-back" href="/custom-packaging/">
+              Explore Custom Packaging System →
             </a>
           </div>
           <QuoteForm />
         </div>
       </section>
 
-      <ProductBuyerGuides
-        title="Magnetic Rigid Box Buyer Guides & Resources"
-        subtitle="Explore detailed guides on magnetic box specifications, structure comparison, product measurement, cost breakdown and finishing."
-        guides={[
-          {
-            tag: "Box Structures",
-            title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
-            desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience and presentation.",
-            href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
-          },
-          {
-            tag: "Product Measurement",
-            title: "How to Measure a Product for Custom Box Packaging",
-            desc: "A practical buyer guide to measuring product dimensions and allowances for custom magnetic boxes.",
-            href: "/resources/how-to-measure-product-for-custom-box-packaging/",
-          },
-          {
-            tag: "Cost Breakdown",
-            title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
-            desc: "Understand what drives custom magnetic box costs, including magnets, board, specialty paper, inserts and labor.",
-            href: "/resources/custom-packaging-cost-breakdown/",
-          },
-          {
-            tag: "Materials & Structure",
-            title: "Rigid Greyboard Thickness Guide for Custom Boxes",
-            desc: "A buyer guide to choosing greyboard thickness for custom magnetic rigid boxes and structural rigidity.",
-            href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
-          },
-        ]}
-      />
-
-      <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetic Packaging" />
     </main>
   );
 }
