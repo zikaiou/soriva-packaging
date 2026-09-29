@@ -33,4 +33,15 @@ const page: IndustryLanding = {
 };
 
 export const metadata: Metadata = industryMetadata(page);
-export default function Page() { return <IndustryLandingPage page={page} />; }
+export default function Page() {
+  return (
+    <>
+      <IndustryLandingPage page={page} />
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">TUBE PACKAGING SOLUTION</span><h2>Cylindrical Candle Packaging</h2><p>Explore a dedicated tube packaging route for jar candles, diffusers and home fragrance gifts.</p><a className="btn gold" href="/solutions/tube-packaging-for-candles/">View Tube Packaging for Candles →</a></div>
+        </div>
+      </section>
+    </>
+  );
+}

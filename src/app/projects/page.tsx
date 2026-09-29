@@ -32,6 +32,32 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    img: "/img/project-perfume.webp",
+    alt: "Cylindrical perfume tube packaging project reference",
+    slug: "cylindrical-perfume-tube-packaging-project",
+    title: "Cylindrical Perfume Tube Packaging Project",
+    fields: [
+      ["Industry", "Perfume & Fragrance"],
+      ["Packaging", "Custom Cylindrical Tube"],
+      ["Material", "Paperboard Tube + Specialty Wrap"],
+      ["Finish", "Foil + Matte Lamination"],
+      ["Insert", "Project-Selected Insert Options"],
+    ],
+  },
+  {
+    img: "/img/tube-packaging.webp",
+    alt: "Luxury cylindrical tube gift packaging project reference",
+    slug: "luxury-tube-gift-packaging-project",
+    title: "Luxury Tube Gift Packaging Project",
+    fields: [
+      ["Industry", "Premium Gifts & Specialty Retail"],
+      ["Packaging", "Cylindrical Lift-Off Tube"],
+      ["Material", "Paperboard Tube + Art Paper"],
+      ["Finish", "Foil + Emboss Options"],
+      ["Insert", "Project-Selected Insert Options"],
+    ],
+  },
+  {
     img: "/img/two-piece-rigid.webp",
     alt: "Premium two-piece rigid gift box project reference",
     slug: "premium-two-piece-gift-box-project",

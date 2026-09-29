@@ -57,7 +57,7 @@ const features = [
 const specs = [
   { label: "Size", value: "Custom diameter and height" },
   { label: "Structure", value: "Paper Tube / Telescopic Tube / Shoulder-Neck Tube / Custom Cylindrical Structure" },
-  { label: "Core Material", value: "Paperboard tube with customized wall thickness" },
+  { label: "Core Material", value: "Paperboard tube with wall thickness selected according to project requirements" },
   { label: "Outer Wrap", value: "Art Paper / Kraft Paper / Specialty Paper / Textured Paper" },
   { label: "Printing", value: "CMYK / Pantone" },
   { label: "Finishing", value: "Gold Foil / Silver Foil / Emboss / Deboss / Spot UV / Lamination" },
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     q: "Can diameter and height be customized?",
-    a: "Yes. Dimensions and wall thickness can be developed around your product.",
+    a: "Yes. Diameter, height and wall thickness are reviewed around your product and project requirements.",
   },
   {
     q: "What tube structures are available?",
@@ -140,7 +140,7 @@ const faqs = [
   },
   {
     q: "Can you make custom inserts?",
-    a: "Yes. EVA, paperboard, molded pulp and custom inserts are available.",
+    a: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to project requirements.",
   },
   {
     q: "Can you match Pantone colors?",
@@ -380,6 +380,32 @@ export default function TubePackagingPage() {
                 <b>{s.value}</b>
                 <span>{s.label}</span>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Tube Solutions & Capability Projects */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">TUBE PACKAGING SOLUTIONS</span>
+            <h2>Explore Tube Packaging by Application</h2>
+            <p>Review dedicated solutions and capability-based project references for perfume, cosmetics, candles and premium gifts.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
+            {[
+              ["Perfume Tube Packaging", "/solutions/tube-packaging-for-perfume/", "Custom cylindrical perfume and fragrance packaging."],
+              ["Cosmetic Tube Packaging", "/solutions/tube-packaging-for-cosmetics/", "Tube packaging for skincare, jars and beauty gift sets."],
+              ["Candle Tube Packaging", "/solutions/tube-packaging-for-candles/", "Cylindrical packaging for candles and home fragrance."],
+              ["Cylindrical Perfume Tube Project", "/projects/cylindrical-perfume-tube-packaging-project/", "Capability reference for fragrance tube development."],
+              ["Luxury Tube Gift Project", "/projects/luxury-tube-gift-packaging-project/", "Capability reference for premium cylindrical gift packaging."],
+            ].map(([title, href, desc]) => (
+              <article className="mrb-feature" key={href}>
+                <h3>{title}</h3>
+                <p>{desc}</p>
+                <a href={href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>View Details →</a>
+              </article>
             ))}
           </div>
         </div>

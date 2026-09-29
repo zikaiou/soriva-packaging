@@ -371,6 +371,11 @@ export default function CosmeticPackagingPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">TUBE PACKAGING SOLUTION</span><h2>Cylindrical Cosmetic Packaging</h2><p>Explore a dedicated tube packaging route for skincare jars, serums, beauty discovery sets and cosmetic gifts.</p><a className="btn gold" href="/solutions/tube-packaging-for-cosmetics/">View Tube Packaging for Cosmetics →</a></div>
+        </div>
+      </section>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

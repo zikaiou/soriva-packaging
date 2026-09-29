@@ -763,6 +763,11 @@ export default function PerfumePackagingPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">TUBE PACKAGING SOLUTION</span><h2>Cylindrical Perfume Packaging</h2><p>Explore a dedicated tube packaging route for fragrance bottles, discovery sets and premium scent gifts.</p><a className="btn gold" href="/solutions/tube-packaging-for-perfume/">View Tube Packaging for Perfume →</a></div>
+        </div>
+      </section>
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetics Packaging" />
       <script
         type="application/ld+json"

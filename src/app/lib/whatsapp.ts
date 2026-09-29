@@ -25,6 +25,12 @@ export const WA_MESSAGES = {
     "Hello SORIVA Packaging, I would like a quote for custom drawer boxes.",
   twoPiece:
     "Hello SORIVA Packaging, I would like a quote for custom two-piece rigid boxes.",
+  tubePerfume:
+    "Hello SORIVA Packaging, I am interested in custom tube packaging for perfume and would like to discuss size, structure, insert, MOQ and pricing.",
+  tubeCosmetics:
+    "Hello SORIVA Packaging, I am interested in custom tube packaging for cosmetics and would like to discuss size, structure, insert, MOQ and pricing.",
+  tubeCandle:
+    "Hello SORIVA Packaging, I am interested in custom tube packaging for candles and would like to discuss size, structure, insert, MOQ and pricing.",
   paperBags:
     "Hello SORIVA Packaging, I am interested in your custom luxury paper bags and would like to discuss size, paper, handle, MOQ and pricing.",
   tube:

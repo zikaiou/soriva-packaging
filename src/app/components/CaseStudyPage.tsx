@@ -113,7 +113,7 @@ export default function CaseStudyPage({ study }: { study: CaseStudy }) {
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">RELATED SOLUTIONS</span><h2>Explore Similar Packaging</h2></div>
-          <div className="case-related-actions"><a className="btn gold" href={study.productHref}>{study.productLabel}</a><a className="btn ghost" href={study.industryHref}>{study.industryLabel}</a><a className="btn ghost" href="/custom-packaging/">Explore Custom Packaging</a></div>
+          <div className="case-related-actions"><a className="btn gold" href={study.productHref}>{study.productLabel}</a><a className="btn ghost" href={study.industryHref}>{study.industryLabel}</a><a className="btn ghost" href="/custom-packaging/">Explore Custom Packaging</a><a className="btn ghost" href="/factory/">Factory Verification</a><a className="btn ghost" href="/rfq/">Request a Quote</a></div>
         </div>
       </section>
 
