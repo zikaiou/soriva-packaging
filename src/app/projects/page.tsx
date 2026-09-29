@@ -32,6 +32,32 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    img: "/img/foldable-rigid.webp",
+    alt: "Foldable magnetic gift box project reference",
+    slug: "foldable-magnetic-gift-box-project",
+    title: "Foldable Magnetic Gift Box Project",
+    fields: [
+      ["Industry", "Luxury Retail & Gifting"],
+      ["Packaging", "Foldable Magnetic Box"],
+      ["Material", "Rigid Greyboard + Soft-Touch"],
+      ["Finish", "Gold Foil + Matte Lamination"],
+      ["Insert", "Custom-Cut Velvet EVA"],
+    ],
+  },
+  {
+    img: "/img/project-gift-clean.webp",
+    alt: "Flat-pack corporate gift box project reference",
+    slug: "flat-pack-corporate-gift-box-project",
+    title: "Flat-Pack Corporate Gift Box Project",
+    fields: [
+      ["Industry", "Corporate Gifting & VIP"],
+      ["Packaging", "Foldable Presentation Box"],
+      ["Material", "Rigid Board + Black Wrap"],
+      ["Finish", "Silver Foil + Matte Lamination"],
+      ["Insert", "Multi-Compartment EVA"],
+    ],
+  },
+  {
     img: "/img/magnetic-rigid.webp",
     alt: "Premium magnetic gift box project reference",
     slug: "premium-magnetic-gift-box-project",
@@ -39,9 +65,9 @@ const projects = [
     fields: [
       ["Industry", "Luxury Gifting & VIP"],
       ["Packaging", "Book-Style Magnetic Box"],
-      ["Material", "2.0mm High-Density Board"],
+      ["Material", "Rigid Greyboard + Specialty Paper"],
       ["Finish", "Gold Foil + Velvet Matte"],
-      ["Insert", "Velvet-Flocked EVA Insert"],
+      ["Insert", "Velvet-Covered EVA Insert"],
     ],
   },
   {
@@ -52,7 +78,7 @@ const projects = [
     fields: [
       ["Industry", "Beauty & Skincare"],
       ["Packaging", "Foldable Magnetic Box"],
-      ["Material", "1.8mm Greyboard + Art Paper"],
+      ["Material", "Rigid Greyboard + Art Paper"],
       ["Finish", "Rose Gold Foil + Soft-Touch"],
       ["Insert", "Multi-Cavity Bottle Insert"],
     ],
@@ -78,9 +104,9 @@ const projects = [
     fields: [
       ["Industry", "Luxury Gifting & Fragrance"],
       ["Packaging", "Matching Bag & Rigid Box Suite"],
-      ["Material", "2.0mm Greyboard + 250 GSM Bag"],
+      ["Material", "Rigid Greyboard + 250 GSM Bag"],
       ["Finish", "Pantone Matching + Gold Foil"],
-      ["Insert", "High-Density Velvet EVA"],
+      ["Insert", "Velvet-Covered EVA Insert"],
     ],
   },
   {
@@ -136,7 +162,7 @@ const projects = [
 const processSteps = [
   { title: "Structure Design", desc: "Tailored structure per product" },
   { title: "Prototype Development", desc: "1 pc prototype available" },
-  { title: "Mass Production", desc: "From 100 pcs, 7-day cycle" },
+  { title: "Mass Production", desc: "From 100 pcs scalable volume" },
   { title: "Global Shipping", desc: "Air / Sea / Express" },
 ];
 
@@ -323,8 +349,8 @@ export default function Page() {
                 <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
               </div>
             </div>
-            <a className="mrb-back" href="/products/magnetic-rigid-boxes/">
-              Explore Magnetic Rigid Boxes →
+            <a className="mrb-back" href="/products/foldable-magnetic-rigid-boxes/">
+              Explore Foldable Magnetic Boxes →
             </a>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 14, justifyContent: "center", alignItems: "flex-start" }}>
