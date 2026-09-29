@@ -18,6 +18,10 @@ export type TubeSolutionData = {
   industryLabel: string;
   relatedProjectHref?: string;
   relatedProjectLabel?: string;
+  buyerGuideHref?: string;
+  buyerGuideLabel?: string;
+  buyerDecisionHeading: string;
+  buyerDecisionIntro: string;
   priorities: { title: string; desc: string }[];
   structures: { title: string; desc: string }[];
   applications: string[];
@@ -103,6 +107,8 @@ export default function TubeSolutionPage({ page }: { page: TubeSolutionData }) {
         </div>
       </section>
 
+      <section className="mrb-section soft p2-differentiation"><div className="container"><div className="mrb-head"><span className="eyebrow dark">{page.buyerDecisionHeading}</span><h2>Buyer Decision Notes</h2><p>{page.buyerDecisionIntro}</p></div></div></section>
+
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">PACKAGING PRIORITIES</span><h2>Why Cylindrical Tube Packaging Works</h2><p>Paper tube structures create a distinctive presentation while allowing diameter, height, materials and opening style to be developed around the product.</p></div>
@@ -150,7 +156,7 @@ export default function TubeSolutionPage({ page }: { page: TubeSolutionData }) {
       <section className="mrb-section dark">
         <div className="container">
           <div className="mrb-head center"><span className="mrb-eyebrow">RELATED PACKAGING</span><h2>Continue Exploring SORIVA Solutions</h2><p>Connect this tube packaging route with product, industry, factory and capability resources.</p></div>
-          <div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a href="/products/tube-packaging/" className="btn gold">Tube Packaging Product Page</a><a href={page.industryHref} className="btn ghost">{page.industryLabel}</a><a href="/custom-packaging/" className="btn ghost">Custom Packaging System</a><a href="/factory/" className="btn ghost">Factory Verification</a>{page.relatedProjectHref && <a href={page.relatedProjectHref} className="btn ghost">{page.relatedProjectLabel}</a>}</div>
+          <div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a href="/products/tube-packaging/" className="btn gold">Tube Packaging Product Page</a><a href={page.industryHref} className="btn ghost">{page.industryLabel}</a><a href="/custom-packaging/" className="btn ghost">Custom Packaging System</a><a href="/factory/" className="btn ghost">Factory Verification</a>{page.relatedProjectHref && <a href={page.relatedProjectHref} className="btn ghost">{page.relatedProjectLabel}</a>}{page.buyerGuideHref && <a href={page.buyerGuideHref} className="btn ghost">{page.buyerGuideLabel}</a>}</div>
         </div>
       </section>
 

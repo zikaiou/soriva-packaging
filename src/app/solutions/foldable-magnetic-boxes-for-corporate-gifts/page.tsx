@@ -113,28 +113,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose foldable magnetic boxes for corporate gifts and events?",
-    a: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, while providing an executive rigid presentation and satisfying magnetic closure.",
+    q: "How should mixed corporate items be planned?",
+    a: "List the merchandise, presentation order and event workflow so compartments and insert materials can be reviewed together.",
   },
   {
-    q: "Can the interior insert hold varied items like pens, tumblers and tech accessories?",
-    a: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "What is the MOQ for a custom corporate foldable box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom corporate foldable boxes?",
-    a: "Selected custom corporate gift box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs provide optimal unit economics.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review compartments, assembly, artwork and finishing.",
   },
   {
-    q: "What paper wraps work best for corporate branding?",
-    a: "Specialty textured papers (linen, ribbed, soft-touch matte) and dyed black or colored cardstock are popular choices for crisp foil stamping and blind embossing.",
-  },
-  {
-    q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching corporate paper shopping bags?",
-    a: "Yes. We produce matching luxury paper shopping bags with ribbon or cotton rope handles, coordinated Pantone printing and matching foil accents for a complete event suite.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -226,6 +218,16 @@ export default function FoldableCorporateGiftBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">CORPORATE KIT DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Corporate gift packaging usually contains a mixed set rather than one standardized product. The buyer decision is therefore the compartment plan: notebooks, pens, drinkware, technology accessories or event materials may need separate positions and different support methods. A foldable magnetic box can keep the presentation format compact before an event while opening into a more structured executive kit. The specification should identify the item list, the order in which recipients will see the contents and whether assembly happens centrally or at the event destination. Branding is also more than a logo on the lid; foil, paper color, inner message panels and dividers should work as one corporate system. Reviewing a representative kit during sampling helps confirm the compartment logic without turning the page into a generic gift-box description.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

@@ -260,6 +260,11 @@ const industryPackagingGuides = [
     href: "/industries/perfume-packaging/",
   },
   {
+    title: "Perfume Packaging Buyer Guide",
+    desc: "An informational sourcing guide covering structures, inserts, sampling and procurement questions.",
+    href: "/resources/perfume-packaging-buyer-guide/",
+  },
+  {
     title: "Jewelry & Watch Packaging",
     desc: "Refined drawer and two-piece boxes with velvet-flocked insert cushions.",
     href: "/industries/jewelry-packaging/",

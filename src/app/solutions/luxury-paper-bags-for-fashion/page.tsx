@@ -136,28 +136,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "What paper GSM is best for apparel shopping bags?",
-    a: "We recommend 250 GSM to 300 GSM coated art paper or heavyweight cardstock for fashion and apparel shopping bags. This ensures the bag holds its shape when carrying garments and shoe boxes.",
+    q: "How should fashion bag proportions be selected?",
+    a: "Apparel, shoes and accessories require different widths, depths, gussets and handle drops, so the purchase mix should be supplied.",
   },
   {
-    q: "How much weight can these luxury paper bags hold?",
-    a: "With top turnover greyboard reinforcement and bottom card inserts, our 250+ GSM fashion bags easily support 5–8 kg of boutique apparel, footwear and accessories without handle failure or base sag.",
+    q: "What is the MOQ for a custom fashion paper bag?",
+    a: "Selected custom projects can start from 100 pcs, depending on paper, size, handles and finishing.",
   },
   {
-    q: "Can you match our fashion brand's exact Pantone colors?",
-    a: "Yes. We offer precise Pantone (PMS) spot color ink mixing for solid backgrounds, gussets and interior linings to ensure 100% brand consistency.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review proportions, handles, artwork and color.",
   },
   {
-    q: "Can we develop matching foldable apparel boxes and paper bags?",
-    a: "Yes. We frequently develop matching packaging suites combining foldable magnetic rigid boxes (for flat shipping) with coordinating luxury shopping bags and branded tissue paper.",
-  },
-  {
-    q: "What is the MOQ for custom fashion shopping bags?",
-    a: "Selected custom fashion paper bag projects can start from 100 pcs. Larger volumes (500–5,000+ pcs) benefit from optimal unit economics.",
-  },
-  {
-    q: "Do you ship flat-packed to overseas distribution centers?",
-    a: "Yes. Bags are flat-packed in heavy-duty export master cartons with protective PE liners to optimize sea/air freight CBM and prevent moisture during transit.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -249,6 +241,16 @@ export default function FashionPaperBagsSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">FASHION CARRY DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Fashion paper bags are selected around boutique proportions and the carrying experience after a purchase. The buyer decision is the relationship between apparel or accessory dimensions, bag width and depth, handle drop and the way garments or shoe boxes sit inside. A landscape carrier may suit folded apparel, while a compact square or vertical format may work better for accessories and seasonal gifting. Paper surface, pattern placement and foil scale should be reviewed across gussets, front panels and handles so the bag reads consistently in a retail environment. If the program includes matching boxes or tissue, those items should be considered before the bag dieline is locked. This page therefore owns fashion retail proportions, handles and carry experience rather than the beauty or coordinated-suite intent of the neighboring solutions.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Use Cases */}
       <section className="mrb-section">
@@ -382,19 +384,19 @@ export default function FashionPaperBagsSolution() {
               foldable magnetic gift boxes and custom branded tissue paper:
             </p>
             <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
-              <li><strong>Foldable Magnetic Boxes:</strong> Ship completely flat to save 80% shipping volume.</li>
+              <li><strong>Foldable Magnetic Boxes:</strong> Suitable foldable structures can ship flat and may improve packing efficiency for selected projects.</li>
               <li><strong>Two-Piece Apparel Boxes:</strong> Classic lid-and-base presentation for sweaters and shirts.</li>
               <li><strong>Custom Tissue Paper:</strong> Branded wrap paper for a sophisticated retail unboxing.</li>
             </ul>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <a href="/products/foldable-magnetic-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Foldable Magnetic Rigid Boxes →
+                Explore Related Box Structures →
               </a>
               <a href="/products/two-piece-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Two-Piece Rigid Boxes →
               </a>
               <a href="/industries/fashion-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Fashion Packaging Solutions →
+                View Fashion Packaging Solutions →
               </a>
             </div>
           </div>

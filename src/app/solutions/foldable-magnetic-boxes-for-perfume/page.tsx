@@ -113,28 +113,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose foldable magnetic boxes for perfume collections?",
-    a: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, while retaining the rigid luxury feel and magnetic snap of traditional rigid boxes.",
+    q: "What makes a foldable perfume box different from a standard rigid box?",
+    a: "The foldable format is reviewed around flat storage, corner assembly, bottle cavity and the required fragrance opening experience.",
   },
   {
-    q: "How easy is the assembly process?",
-    a: "Assembly takes only a few seconds. The corner joints are pre-fitted with high-tack adhesive strips beneath peel-away release liners for quick, tool-free setup.",
+    q: "What is the MOQ for a custom foldable perfume box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What insert options are available for fragrance bottles?",
-    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review assembly, insert fit, artwork and finishing.",
   },
   {
-    q: "What is the MOQ for custom foldable perfume boxes?",
-    a: "Selected custom foldable magnetic box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs achieve optimal unit economics.",
-  },
-  {
-    q: "Can I request a prototype sample before placing a bulk order?",
-    a: "Yes. 1 pc prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching paper bags for our foldable boxes?",
-    a: "Yes. We produce matching luxury paper shopping bags with ribbon handles, coordinated Pantone printing and matching foil accents for a complete retail packaging suite.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -226,6 +218,16 @@ export default function FoldablePerfumeBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">FLAT-PACK FRAGRANCE DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>For foldable perfume packaging, the buyer is balancing a rigid presentation with flat-pack storage and distribution. The structural decision is where folding joints, corner assembly and the magnetic flap should sit around the bottle cavity. A single fragrance bottle may need a centered cavity and cap clearance, while a discovery set may need dividers that remain aligned after assembly. The design brief should state whether boxes will be assembled at the factory, at a warehouse or close to a retail launch. This affects how the insert is handled and how the opening sequence is reviewed in the prototype. Product dimensions, carton strategy, campaign quantity and artwork hierarchy should be confirmed together so that the flat format supports the fragrance presentation instead of becoming a generic rigid-box variation.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

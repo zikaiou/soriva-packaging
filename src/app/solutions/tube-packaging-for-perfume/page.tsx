@@ -13,6 +13,10 @@ const page: TubeSolutionData = {
   industryLabel: "Perfume Packaging Industry Hub",
   relatedProjectHref: "/projects/cylindrical-perfume-tube-packaging-project/",
   relatedProjectLabel: "Cylindrical Perfume Tube Project",
+  buyerGuideHref: "/resources/perfume-packaging-buyer-guide/",
+  buyerGuideLabel: "Perfume Packaging Procurement Guide",
+  buyerDecisionHeading: "CYLINDRICAL FRAGRANCE DECISION",
+  buyerDecisionIntro: "Tube packaging for perfume begins with cylindrical fit rather than a conventional rectangular cavity. The buyer decision is the relationship between bottle diameter, total height, cap clearance and the internal stabilization method. A single bottle may suit a clean telescopic tube, while a discovery set may need an internal tray or paperboard divider that keeps multiple items ordered. The brief should also state whether the tube is intended for boutique retail, a fragrance launch or a gift presentation, because the opening style and surface treatment can change with the use case. Actual bottle measurements or a physical sample should guide the insert and tube dimensions. This makes the tube page a specialist route for round packaging geometry, not a duplicate of magnetic, foldable or two-piece perfume boxes.",
   priorities: [
     { title: "Distinctive Cylindrical Presentation", desc: "Round tube packaging creates a different shelf and unboxing profile for fragrance bottles, discovery sets and premium gift presentations." },
     { title: "Bottle Fit Planning", desc: "Diameter, height, lid clearance and internal cavity dimensions are developed around product measurements or physical samples." },
@@ -32,11 +36,9 @@ const page: TubeSolutionData = {
     { tag: "RFQ Preparation", title: "How to Prepare an RFQ for Custom Packaging", desc: "Learn which diameter, height, product and quantity details support a useful tube packaging quote.", href: "/resources/how-to-prepare-custom-packaging-rfq/" },
   ],
   faq: [
-    { question: "What perfume products can be packaged in custom tubes?", answer: "Perfume bottles, discovery sets, travel atomizers and selected fragrance gift products can be developed in custom cylindrical structures." },
-    { question: "Can the tube diameter and height be customized?", answer: "Yes. Diameter, height, lid clearance and insert depth can be developed around your product dimensions and presentation requirements." },
-    { question: "What inserts are available for fragrance bottles?", answer: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to project requirements." },
-    { question: "What is the MOQ?", answer: "Selected custom tube packaging projects can start from 100 pcs, depending on structure, materials, size and finishing." },
-    { question: "Can I request a prototype?", answer: "A 1 pc prototype is available for selected projects to review structure, fit, artwork and finishing." },
+    { question: "Which bottle measurements are needed for a perfume tube?", answer: "Provide bottle diameter, total height, cap clearance and orientation so the cylindrical cavity and stabilization method can be reviewed." },
+    { question: "What is the MOQ for custom perfume tube packaging?", answer: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing." },
+    { question: "Can I request a prototype?", answer: "A 1 pc prototype is available for selected projects to review diameter, height, insert fit and surface treatment." },
     { question: "What is the lead time?", answer: "Lead time depends on design complexity, quantity, materials and finishing requirements." },
   ],
 };

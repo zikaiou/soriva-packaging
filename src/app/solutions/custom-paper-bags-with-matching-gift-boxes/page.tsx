@@ -107,28 +107,20 @@ const alignmentSteps = [
 
 const faqs = [
   {
-    q: "Why should I order paper bags and rigid boxes from the same manufacturer?",
-    a: "Ordering both from SORIVA ensures 100% color and material consistency. Different factories often use varying ink batches and paper substrates, resulting in noticeable shade mismatches between bags and boxes.",
-  },
-  {
-    q: "How do you ensure the rigid box fits perfectly inside the paper bag?",
-    a: "Our structural engineering team designs the bag dielines with calculated clearance tolerances (typically 10–20 mm extra on each dimension) so the box slides in smoothly without tearing the bag gussets.",
-  },
-  {
-    q: "Can you match Pantone spot colors across different paper weights?",
-    a: "Yes. We formulate and draw down custom Pantone inks specifically for the 250 GSM bag art paper and the 128–157 GSM box wrapping paper to achieve unified color reproduction under all lighting conditions.",
+    q: "How should a coordinated bag-and-box system be started?",
+    a: "Start with the outer box dimensions, desired carry experience, artwork system and accessories so both dielines can be reviewed together.",
   },
   {
     q: "What is the MOQ for a coordinated packaging suite?",
-    a: "Selected coordinated packaging projects can start from 100 sets (100 boxes + 100 bags). Optimal production pricing is achieved at 500–3,000+ sets.",
+    a: "Selected coordinated projects can start from 100 sets, depending on components, materials, size and finishing.",
   },
   {
-    q: "Can I get a complete physical sample set before placing the bulk order?",
-    a: "Yes. 1 pc prototype sample set (matching bag + matching rigid box with custom insert) is available for physical review and approval before releasing mass production.",
+    q: "Can I request a complete prototype set?",
+    a: "A 1 pc prototype set is available for selected projects to review bag fit, box presentation, color and finishing.",
   },
   {
-    q: "Can you include matching tissue paper and ribbon?",
-    a: "Yes. We offer complete unboxing accessories including custom-printed tissue paper, die-cut branded stickers, satin/grosgrain ribbons and greeting cards.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -220,6 +212,16 @@ export default function MatchingBagsAndBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">COORDINATED SUITE DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>A matching bag-and-box program is a coordination problem across two packaging formats. The buyer decision is the system: outer bag proportions must accept the selected box, while color, logo scale, paper texture, tissue, stickers and foil should read as one visual identity. The correct starting point is the outer dimensions of the box, the intended carry experience and the order in which the customer encounters the bag, tissue and gift box. A single source of dieline and artwork control can reduce avoidable mismatch during sampling, but each component still needs its own fit and finish review. This page is therefore about alignment between complementary packaging items, not about one bag shape or one box structure. The brief should include both products, accessories and the target retail or gifting occasion.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Why Coordinated Packaging */}
       <section className="mrb-section">
@@ -258,7 +260,7 @@ export default function MatchingBagsAndBoxesSolution() {
                 </div>
                 <p style={{ marginTop: 14 }}>
                   <a href={c.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                    Explore Structure →
+                    Compare Coordinated Structures →
                   </a>
                 </p>
               </article>
@@ -421,7 +423,7 @@ export default function MatchingBagsAndBoxesSolution() {
               </div>
             </div>
             <a className="mrb-back" href="/custom-packaging/">
-              Explore Custom Packaging System →
+              Start a Coordinated Packaging RFQ →
             </a>
           </div>
           <QuoteForm />

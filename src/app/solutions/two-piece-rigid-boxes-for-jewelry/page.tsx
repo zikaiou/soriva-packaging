@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose two-piece rigid boxes for jewelry packaging?",
-    a: "Two-piece lid-and-base boxes are the traditional gold standard in luxury jewelry, offering a timeless lifting reveal, excellent structural rigidity and compact countertop proportions.",
+    q: "How should compact jewelry proportions be decided?",
+    a: "The product category, display angle, insert geometry and gifting context should guide the lid, base and cavity proportions.",
   },
   {
-    q: "Can you create custom insert slits for specific jewelry pieces?",
-    a: "Yes. We customize the exact slot geometry (ring slits, earring holes, necklace tabs, watch collars) based on your physical product samples or 2D/3D CAD drawings.",
+    q: "What is the MOQ for a custom jewelry two-piece box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom jewelry two-piece boxes?",
-    a: "Custom jewelry rigid box projects can start from 100 pcs for selected designs. Production runs of 500–3,000+ pcs achieve optimal unit economics.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review insert geometry, lid fit and finishing.",
   },
   {
-    q: "What paper wraps are best for luxury jewelry boxes?",
-    a: "Specialty textured papers (linen, laid, soft-touch matte) and dyed black or colored cardstock are ideal because they provide a rich tactile feel and show crisp, sharp foil stamping.",
-  },
-  {
-    q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc prototype sample with custom-cut velvet insert and foil stamped logo is available to verify fit, lid tolerance and finishing quality before bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching jewelry shopping bags and pouches?",
-    a: "Yes. We offer coordinated retail suites including small boutique paper bags with ribbon handles, velvet pouches, polishing cloths and branded warranty cards.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function TwoPieceJewelryBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">COMPACT JEWELRY DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Two-piece jewelry boxes are often selected for a compact, gift-ready reveal where the lid and base frame a small product precisely. The buyer decision is the proportion of the base and the insert geometry: ring slits, necklace tabs, watch pillows and bracelet supports each create a different presentation. The box can be optimized for a single item, a matched pair or a small collection, but the physical jewelry or approved drawings should guide the cavity rather than a stock dimension. Surface paper, velvet color and foil scale also matter because small boxes leave little room for visual noise. A useful procurement brief identifies the hero item, display angle, insert material, gifting occasion and preferred opening feel. That information keeps the two-piece structure distinct from broader magnetic or corporate gift-box routes.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

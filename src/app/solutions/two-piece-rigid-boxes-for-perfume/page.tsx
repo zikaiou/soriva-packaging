@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose two-piece rigid boxes for perfume packaging?",
-    a: "Two-piece lid-and-base rigid boxes offer a classic, luxurious reveal where the recipient lifts off the lid to present the fragrance bottle upright, delivering exceptional structural stability.",
+    q: "How should a two-piece perfume box fit the bottle?",
+    a: "Bottle height, cap position, orientation and lid-base clearance should be reviewed with the selected insert cavity.",
   },
   {
-    q: "How do you achieve a smooth lid-lifting feel?",
-    a: "We calibrate the internal clearance tolerance between the lid and base to achieve a smooth, controlled sliding fit with gentle air-release friction.",
+    q: "What is the MOQ for a custom two-piece perfume box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What insert options are available for fragrance bottles?",
-    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review lid fit, insert cavity, artwork and finishing.",
   },
   {
-    q: "What is the MOQ for custom two-piece perfume boxes?",
-    a: "Selected custom two-piece rigid box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs achieve optimal unit economics.",
-  },
-  {
-    q: "Can I request a prototype sample with our actual perfume bottle?",
-    a: "Yes. 1 pc prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching perfume shopping bags?",
-    a: "Yes. We produce matching luxury paper bags with ribbon or rope handles, color-matched Pantone printing and coordinated foil stamping for a complete retail packaging suite.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function TwoPiecePerfumeBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">LID-AND-BASE FRAGRANCE DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>A two-piece perfume box is chosen when the lift-off reveal and bottle orientation are central to the presentation. The buyer decision is the relationship between lid-base clearance, bottle height, cap position and the insert cavity. A single bottle can be centered for a clean reveal, while a discovery set may need a wider base with dividers and a controlled arrangement of sample vials. The lid can be full-telescope, partial-telescope or paired with a shoulder-neck construction depending on the desired visual band and opening feel. A sourcing brief should include the filled bottle, cap, outer dimensions, product orientation and intended retail or gifting context. This allows the prototype to evaluate the lid fit and insert presentation together rather than treating them as separate generic packaging features.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

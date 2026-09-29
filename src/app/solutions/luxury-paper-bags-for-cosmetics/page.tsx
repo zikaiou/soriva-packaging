@@ -113,28 +113,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "What paper weight (GSM) is recommended for cosmetic paper bags?",
-    a: "210 GSM to 250 GSM coated art paper or white cardstock is the most popular choice for cosmetics. Heavier items such as glass cream jars and perfume sets benefit from 250–300 GSM paper with reinforced bottom board inserts.",
+    q: "What product mix should a cosmetic bag accommodate?",
+    a: "Share the typical jars, bottles, sets or rigid boxes so proportions, gussets and bottom support can be reviewed.",
   },
   {
-    q: "Can you produce matching paper bags and rigid cosmetic gift boxes?",
-    a: "Yes. We specialize in coordinated packaging systems where paper bags, magnetic rigid boxes, drawer boxes, tissue paper and custom stickers share exact Pantone colors, paper textures and foil finishes.",
+    q: "What is the MOQ for a custom cosmetic paper bag?",
+    a: "Selected custom projects can start from 100 pcs, depending on paper, size, handles and finishing.",
   },
   {
-    q: "What is the MOQ for custom cosmetic paper bags?",
-    a: "Custom cosmetic paper bag projects typically start from 100 pcs. Larger order volumes offer lower unit costs by spreading plate setup and printing tooling expenses.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review paper, handle feel, logo alignment and color.",
   },
   {
-    q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc physical prototype is available to verify paper stiffness, ribbon feel, logo alignment and color accuracy before mass manufacturing.",
-  },
-  {
-    q: "What handle styles are best for luxury skincare packaging?",
-    a: "Satin and grosgrain ribbons are the top choices for luxury beauty and skincare brands because they offer a soft, luxurious hand feel and can be color-matched to your brand palette.",
-  },
-  {
-    q: "Do you offer international shipping for flat-packed paper bags?",
-    a: "Yes. Our paper bags are flat-packed in moisture-resistant master cartons to optimize container CBM and reduce international Sea, Air or Express freight costs.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -226,6 +218,16 @@ export default function CosmeticPaperBagsSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">BEAUTY RETAIL BAG DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Cosmetic paper bags are a retail-carry decision as much as a branding decision. The buyer should first identify the typical purchase mix: small skincare items, glass jars, perfume sets or a coordinated box-and-bag purchase. That determines bag proportions, gusset allowance, bottom support and handle choice. Satin, grosgrain or paper cord handles create different carrying experiences, while the outer wrap and interior print need to remain consistent with the beauty brand palette. If the bag will carry a rigid box, the bag dieline should be reviewed against the box dimensions before artwork is finalized. A useful brief includes the product mix, desired carrying feel, display environment and matching packaging references. This keeps the page focused on cosmetic retail and coordinated carry systems rather than generic luxury paper bags.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">
@@ -330,13 +332,13 @@ export default function CosmeticPaperBagsSolution() {
             </ul>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <a href="/products/drawer-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Sliding Drawer Boxes →
+                Compare Drawer Box Options →
               </a>
               <a href="/products/magnetic-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Magnetic Rigid Boxes →
               </a>
               <a href="/industries/cosmetic-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Explore Cosmetic Packaging →
+                View Cosmetic Packaging Solutions →
               </a>
             </div>
           </div>

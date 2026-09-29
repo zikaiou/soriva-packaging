@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose two-piece rigid boxes for corporate gifting?",
-    a: "Two-piece lid-and-base rigid boxes provide a classic, prestigious unboxing experience with superior structural stability for executive merchandise and multi-item VIP sets.",
+    q: "How should a layered corporate gift set be planned?",
+    a: "Define the item list, stacking order, presentation height and compartment layout before the lid and base are finalized.",
   },
   {
-    q: "Can the interior insert hold varied items like pens, tumblers and tech accessories?",
-    a: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "What is the MOQ for a custom corporate two-piece box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom corporate two-piece boxes?",
-    a: "Selected custom corporate gift box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs provide optimal unit economics.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review compartments, lid fit, artwork and finishing.",
   },
   {
-    q: "What paper wraps work best for corporate branding?",
-    a: "Specialty textured papers (linen, ribbed, soft-touch matte) and dyed black or colored cardstock are popular choices for crisp foil stamping and blind embossing.",
-  },
-  {
-    q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching corporate paper shopping bags?",
-    a: "Yes. We produce matching luxury paper shopping bags with ribbon or cotton rope handles, coordinated Pantone printing and matching foil accents for a complete event suite.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function TwoPieceCorporateGiftBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">LAYERED CORPORATE GIFT DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Corporate two-piece boxes are suited to larger-format presentation where a lid-and-base reveal can stage several items in layers. The buyer decision is compartment planning: a deep base may hold drinkware, notebooks, accessories or a seasonal assortment, while a raised tray or divider can create a clear first view. The specification should define item dimensions, stacking order, presentation height and whether a paperboard, EVA, velvet-covered or molded pulp insert is appropriate. A corporate milestone, VIP event or employee onboarding kit may each require a different visual sequence and message panel. Sampling should review the assembled set, lid clearance and logo placement together. This keeps the project anchored in layered corporate presentation instead of repeating the compact jewelry or bottle-fit logic used by other two-piece pages.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

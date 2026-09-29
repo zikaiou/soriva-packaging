@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "How do you ensure the magnetic closure is suitable for perfume packaging?",
-    a: "Magnets are calibrated to the box dimensions, weight and closure requirements to ensure a smooth, reliable magnetic closure that stays securely closed during handling.",
+    q: "Which perfume bottle details should be supplied for a cavity review?",
+    a: "Provide bottle and cap dimensions, filled weight, orientation and any approved physical sample so the insert cavity can be reviewed.",
   },
   {
-    q: "What insert options are available for fragrance bottles?",
-    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "What is the MOQ for a custom perfume magnetic box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom perfume magnetic boxes?",
-    a: "Selected custom perfume magnetic box projects can start from 100 pcs. Larger order quantities (500–3,000+ pcs) achieve optimal production pricing by amortizing tooling and setup costs.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review cavity fit, closure, artwork and finishing.",
   },
   {
-    q: "Can I request a prototype sample with our actual perfume bottle?",
-    a: "Yes. You can send us your physical bottle or 3D CAD dimensions. We will produce a 1 pc prototype sample to verify cavity tolerance, cap clearance, opening angle and print colors before bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching perfume shopping bags?",
-    a: "Yes. We produce matching luxury paper bags with ribbon or rope handles, color-matched Pantone printing and coordinated foil stamping for a complete retail packaging suite.",
-  },
-  {
-    q: "Do you offer foldable magnetic box options for perfume sets?",
-    a: "Yes. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, assembling easily with corner adhesive tabs.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function PerfumeMagneticBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">PERFUME BOTTLE DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Perfume packaging buyers usually decide between a presentation-led opening and a cavity-led fit. For a magnetic rigid box, the important questions are the bottle orientation, cap clearance, insert cavity geometry and how the front flap presents the fragrance when opened. A book-style structure can give the inner lid room for artwork or a scent story, while a front-opening format can keep the bottle visually direct. Insert material is selected after reviewing the bottle, cap and filled weight rather than from a generic template. The sourcing brief should also state whether the box is for one bottle, a discovery set or a coordinated fragrance gift. This keeps the magnetic closure, interior layout, wrap paper and finishing aligned with the actual perfume presentation.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">
@@ -356,6 +358,9 @@ export default function PerfumeMagneticBoxesSolution() {
               </a>
               <a href="/products/magnetic-rigid-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Magnetic Rigid Boxes Catalog →
+              </a>
+              <a href="/resources/perfume-packaging-buyer-guide/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
+                Guide to Custom Perfume Packaging →
               </a>
             </div>
           </div>

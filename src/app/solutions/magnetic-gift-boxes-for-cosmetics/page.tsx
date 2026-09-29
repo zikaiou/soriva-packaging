@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Can a single magnetic box hold multiple skincare products of different sizes?",
-    a: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "How should a multi-product skincare layout be planned?",
+    a: "List the jars, serums, droppers and accessories together so the cavity order and insert depth can be reviewed as one set.",
   },
   {
-    q: "How does the foldable magnetic rigid box work for cosmetics?",
-    a: "The box is manufactured from rigid greyboard but engineered with pre-scored folding joints. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects.",
+    q: "What is the MOQ for a custom cosmetic magnetic box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom cosmetic magnetic boxes?",
-    a: "Selected custom cosmetic magnetic box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs provide optimal unit economics.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review product fit, artwork and finishing.",
   },
   {
-    q: "Can you match our beauty brand's exact Pantone colors?",
-    a: "Yes. We offer precise Pantone (PMS) spot color ink mixing for exterior wraps, inner lid printing and interior trays to maintain brand color fidelity.",
-  },
-  {
-    q: "Can I get a prototype sample before placing a bulk order?",
-    a: "Yes. 1 pc prototype sample (complete with custom insert and foil stamping) is available to verify bottle snugness and opening experience before bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching paper bags for our cosmetic gift boxes?",
-    a: "Yes. We produce matching luxury paper shopping bags with ribbon handles, coordinated Pantone printing and matching foil accents for a complete retail packaging suite.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function CosmeticMagneticBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">COSMETIC SET DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Cosmetic packaging buyers are often solving a multi-SKU layout rather than a single-product box. A magnetic gift box should therefore be planned around the combination of serums, jars, droppers, spatulas or promotional accessories that will appear together. The primary structural decision is the cavity map: each item needs its own position, clearance and visual order. The inner lid can then support a routine message, ingredient story or launch theme without competing with the product set. Paper wrap, interior lining and print colors should be checked as one brand system, especially when several finishes appear beside white, glass or pastel packaging. A physical product set, target assortment and intended campaign use give the supplier enough information to propose an insert layout that is practical for sampling and repeat production.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

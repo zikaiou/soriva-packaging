@@ -113,28 +113,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "Why choose foldable magnetic boxes for cosmetics and skincare sets?",
-    a: "Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, while maintaining the rigid luxury appearance and magnetic snap of traditional rigid boxes.",
+    q: "How should a foldable beauty set be arranged?",
+    a: "The SKU list, cavity order and campaign format should be reviewed together so the insert supports the intended beauty routine or discovery set.",
   },
   {
-    q: "How does the foldable mechanism work for cosmetic kits?",
-    a: "The box is manufactured from rigid greyboard with pre-scored folding hinges. It ships completely flat and pops up into a sturdy presentation box via 4 corner adhesive release liners.",
+    q: "What is the MOQ for a custom foldable cosmetic box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What insert options are available for beauty kits?",
-    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review assembly, insert placement and brand finishing.",
   },
   {
-    q: "What is the MOQ for custom foldable cosmetic boxes?",
-    a: "Selected custom foldable cosmetic box projects can start from 100 pcs. Production volume tiers of 500–3,000+ pcs provide optimal unit economics.",
-  },
-  {
-    q: "Can you match our beauty brand's exact Pantone colors?",
-    a: "Yes. We offer precise Pantone (PMS) spot color ink mixing for exterior wraps, inner lid printing and interior trays to maintain brand color fidelity.",
-  },
-  {
-    q: "Can I get a prototype sample before placing a bulk order?",
-    a: "Yes. 1 pc prototype sample complete with custom insert and foil stamping is available to verify bottle snugness and opening experience before bulk manufacturing.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -226,6 +218,16 @@ export default function FoldableCosmeticBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">FOLDABLE BEAUTY SET DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Foldable cosmetic boxes are most useful when a beauty brand needs a multi-SKU presentation together with compact storage before a launch or seasonal campaign. The buyer decision is the relationship between the foldable structure and the insert layout: jars, serum bottles, droppers and applicators may require different cavity depths and a deliberate loading order. The interior can be organized as a skincare routine, a discovery set or a promotional assortment rather than a single open cavity. Artwork, Pantone colors and soft-touch surfaces should be checked against the full product range because packaging colors often sit beside different bottle finishes. A clear SKU list, actual product samples and campaign timing allow the prototype to verify assembly, insert placement and presentation before the production specification is finalized.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

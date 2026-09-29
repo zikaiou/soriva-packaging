@@ -13,6 +13,8 @@ const page: TubeSolutionData = {
   industryLabel: "Cosmetic Packaging Industry Hub",
   relatedProjectHref: "/projects/luxury-skincare-gift-box/",
   relatedProjectLabel: "Luxury Skincare Project",
+  buyerDecisionHeading: "CYLINDRICAL BEAUTY DECISION",
+  buyerDecisionIntro: "Cosmetic tube packaging is most useful when jars, serum bottles or beauty sets benefit from a round presentation format. The buyer decision is product fit: jar diameter, bottle height, dropper clearance and the order of multiple beauty items should guide the inner support. A single skincare product may use a simple cavity, while a discovery set may need a tray or divider with a clear routine sequence. The surface system should be reviewed against the beauty brand palette, bottle finish and retail lighting so the wrap, printing and finishing remain coherent. Product samples, SKU count and campaign purpose make the prototype more informative than a generic size request. This page therefore owns cylindrical cosmetic presentation and fit planning, while broader cosmetic packaging pages can cover other structures.",
   priorities: [
     { title: "Beauty Shelf Differentiation", desc: "Cylindrical packaging creates a distinctive silhouette for skincare, cosmetic and beauty gift-set presentation." },
     { title: "Jar & Bottle Fit", desc: "Tube diameter, height and internal clearance are reviewed around actual jars, bottles, droppers and applicators." },
@@ -32,11 +34,9 @@ const page: TubeSolutionData = {
     { tag: "Sampling", title: "Prototype Sample vs Pre-Production Sample", desc: "Understand what each sample stage can verify before bulk production.", href: "/resources/prototype-sample-vs-pre-production-sample/" },
   ],
   faq: [
-    { question: "What cosmetic products can use custom tube packaging?", answer: "Skincare jars, serum bottles, creams, beauty discovery sets and selected cosmetic gift kits can be developed in cylindrical formats." },
-    { question: "Can you make inserts for multiple cosmetic items?", answer: "Yes. EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to project requirements." },
-    { question: "Can the tube be matched to our brand colors?", answer: "Yes. CMYK or Pantone printing can be reviewed together with the selected outer wrap paper and finishing." },
-    { question: "What is the MOQ?", answer: "Selected custom tube packaging projects can start from 100 pcs, depending on structure, materials, size and finishing." },
-    { question: "Can I request a prototype before production?", answer: "A 1 pc prototype is available for selected projects to review size, artwork, opening style and product fit." },
+    { question: "How should jars and serum bottles be arranged in a cosmetic tube?", answer: "Share the SKU list, jar diameter, bottle height and preferred display order so the cylindrical fit can be reviewed." },
+    { question: "What is the MOQ for custom cosmetic tube packaging?", answer: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing." },
+    { question: "Can I request a prototype?", answer: "A 1 pc prototype is available for selected projects to review product fit, artwork and finishing." },
     { question: "What is the lead time?", answer: "Lead time depends on design complexity, quantity, materials and finishing requirements." },
   ],
 };

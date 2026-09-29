@@ -112,28 +112,20 @@ const samples = [
 
 const faqs = [
   {
-    q: "How do you ensure the magnets are suitable for jewelry and watch boxes?",
-    a: "We use miniature concealed magnets isolated inside the board layers and positioned away from mechanical components.",
+    q: "Which jewelry pieces can be supported with custom inserts?",
+    a: "Ring slits, necklace tabs, earring holes, watch pillows and bracelet supports can be reviewed according to the product.",
   },
   {
-    q: "Can you create custom insert slits for specific jewelry pieces?",
-    a: "Yes. We customize the exact slot geometry (ring slits, earring holes, necklace tabs, watch collars) based on your physical product samples or 2D/3D CAD drawings.",
+    q: "What is the MOQ for a custom jewelry magnetic box?",
+    a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
   },
   {
-    q: "What is the MOQ for custom jewelry magnetic boxes?",
-    a: "Custom jewelry magnetic box projects can start from 100 pcs for selected designs. Production runs of 500–3,000+ pcs achieve optimal unit economics.",
+    q: "Can I request a prototype?",
+    a: "A 1 pc prototype is available for selected projects to review insert geometry, presentation and finishing.",
   },
   {
-    q: "What paper wraps are best for luxury jewelry boxes?",
-    a: "Specialty textured papers (linen, laid, soft-touch matte) and dyed black or colored cardstock are ideal because they provide a rich tactile feel and show crisp, sharp foil stamping.",
-  },
-  {
-    q: "Can I request a prototype sample before mass production?",
-    a: "Yes. 1 pc prototype sample with custom-cut velvet insert and foil stamped logo is available to verify fit, magnet placement and finishing quality before bulk manufacturing.",
-  },
-  {
-    q: "Can we develop matching jewelry shopping bags and pouches?",
-    a: "Yes. We offer coordinated retail suites including small boutique paper bags with ribbon handles, velvet pouches, polishing cloths and branded warranty cards.",
+    q: "What is the lead time?",
+    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
   },
 ];
 
@@ -225,6 +217,16 @@ export default function JewelryMagneticBoxesSolution() {
           </div>
         </div>
       </section>
+      <section className="mrb-section soft p2-differentiation">
+        <div className="container">
+          <div className="mrb-head">
+            <span className="eyebrow dark">JEWELRY PRESENTATION DECISION</span>
+            <h2>Buyer Decision Notes</h2>
+            <p>Jewelry buyers typically need compact presentation with precise support for different product geometries. The key decision is not simply whether the box closes magnetically; it is how rings, necklace chains, earrings, watches or bracelets are positioned when the lid opens. Slits, tabs, pillows and trays can each create a different presentation order and handling experience. A magnetic rigid box can be sized for a single hero item, a matched set or a compact gifting program, with the insert selected around the physical jewelry or approved drawings. Surface paper and foil should reinforce the intended retail level without obscuring small logo details. Supplying the product category, display orientation, insert preference and gifting context helps the project team keep proportions compact while preserving a deliberate presentation.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Priorities */}
       <section className="mrb-section">

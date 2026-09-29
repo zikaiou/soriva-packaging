@@ -11,6 +11,8 @@ const page: TubeSolutionData = {
   message: "Hello SORIVA Packaging, I am interested in custom tube packaging for candles and would like to discuss size, structure, insert, MOQ and pricing.",
   industryHref: "/industries/candle-packaging/",
   industryLabel: "Candle Packaging Industry Hub",
+  buyerDecisionHeading: "CANDLE VESSEL DECISION",
+  buyerDecisionIntro: "Candle tube packaging is driven by the vessel rather than by a standard gift-box format. The buyer decision is jar diameter, total height, lid clearance and the base support needed for a stable retail or gift presentation. A single candle may use a simple cylindrical cavity, while a candle and diffuser set may need a tray or divider that separates the vessels. The sourcing brief should identify the vessel material, approximate filled weight, collection format and whether the tube will be displayed in a boutique, shipped as a gift or used for a seasonal launch. Surface paper and finishing can then be coordinated with the scent collection without changing the structural purpose. Reviewing the actual jar or an approved sample helps keep the tube route distinct from rectangular candle boxes and general home-fragrance packaging.",
   priorities: [
     { title: "Distinctive Candle Presentation", desc: "Cylindrical tubes create a recognizable format for jar candles, diffuser sets and home fragrance gift packaging." },
     { title: "Product Fit Planning", desc: "Diameter, height, lid clearance and interior support are reviewed around the actual candle vessel or gift set." },
@@ -30,11 +32,9 @@ const page: TubeSolutionData = {
     { tag: "Cost Planning", title: "Custom Packaging Cost Breakdown", desc: "Understand the main factors behind custom tube packaging costs.", href: "/resources/custom-packaging-cost-breakdown/" },
   ],
   faq: [
-    { question: "What candle products can use custom tube packaging?", answer: "Jar candles, candle gift sets, diffusers and selected home fragrance gifts can be developed in cylindrical tube formats." },
-    { question: "Can the tube fit different candle vessel sizes?", answer: "Yes. Diameter, height, lid clearance and insert depth can be developed around the vessel dimensions and presentation requirements." },
-    { question: "What insert materials are available?", answer: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to project requirements." },
-    { question: "What is the MOQ?", answer: "Selected custom tube packaging projects can start from 100 pcs, depending on structure, materials, size and finishing." },
-    { question: "Can you provide a prototype?", answer: "A 1 pc prototype is available for selected projects to review structure, product fit, artwork and finishing." },
+    { question: "How should a candle tube fit the jar?", answer: "Provide jar diameter, total height, lid clearance and approximate filled weight so base support and cavity fit can be reviewed." },
+    { question: "What is the MOQ for custom candle tube packaging?", answer: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing." },
+    { question: "Can I request a prototype?", answer: "A 1 pc prototype is available for selected projects to review jar fit, opening style and finishing." },
     { question: "What is the lead time?", answer: "Lead time depends on design complexity, quantity, materials and finishing requirements." },
   ],
 };
