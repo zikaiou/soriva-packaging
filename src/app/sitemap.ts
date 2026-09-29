@@ -133,6 +133,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/projects/premium-two-piece-gift-box-project/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/projects/jewelry-two-piece-rigid-box-project/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/solutions/luxury-paper-bags-for-cosmetics/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -182,6 +194,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/solutions/foldable-magnetic-boxes-for-corporate-gifts/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/solutions/two-piece-rigid-boxes-for-perfume/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/solutions/two-piece-rigid-boxes-for-jewelry/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/solutions/two-piece-rigid-boxes-for-corporate-gifts/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

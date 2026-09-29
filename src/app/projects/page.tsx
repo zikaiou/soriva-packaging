@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.sorivapackaging.com/projects/";
 export const metadata: Metadata = {
   title: "Custom Packaging Projects & Case Studies | SORIVA Packaging",
   description:
-    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes and luxury paper bags.",
+    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes and luxury paper bags.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -31,6 +31,32 @@ export const metadata: Metadata = {
 };
 
 const projects = [
+  {
+    img: "/img/two-piece-rigid.webp",
+    alt: "Premium two-piece rigid gift box project reference",
+    slug: "premium-two-piece-gift-box-project",
+    title: "Premium Two-Piece Gift Box Project",
+    fields: [
+      ["Industry", "Luxury Retail & Gifting"],
+      ["Packaging", "Two-Piece Lid & Base Box"],
+      ["Material", "Rigid Greyboard + Textured Wrap"],
+      ["Finish", "Gold Foil + Matte Lamination"],
+      ["Insert", "Custom-Cut Velvet EVA"],
+    ],
+  },
+  {
+    img: "/img/project-jewelry.webp",
+    alt: "Jewelry two-piece rigid box packaging project reference",
+    slug: "jewelry-two-piece-rigid-box-project",
+    title: "Jewelry Two-Piece Rigid Box Project",
+    fields: [
+      ["Industry", "Fine Jewelry & Watches"],
+      ["Packaging", "Compact Lid & Base Box"],
+      ["Material", "Rigid Board + Black Paper"],
+      ["Finish", "Gold Foil + Matte Lamination"],
+      ["Insert", "Velvet Insert with Slits"],
+    ],
+  },
   {
     img: "/img/foldable-rigid.webp",
     alt: "Foldable magnetic gift box project reference",
@@ -349,8 +375,8 @@ export default function Page() {
                 <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
               </div>
             </div>
-            <a className="mrb-back" href="/products/foldable-magnetic-rigid-boxes/">
-              Explore Foldable Magnetic Boxes →
+            <a className="mrb-back" href="/products/two-piece-rigid-boxes/">
+              Explore Two-Piece Rigid Boxes →
             </a>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 14, justifyContent: "center", alignItems: "flex-start" }}>
