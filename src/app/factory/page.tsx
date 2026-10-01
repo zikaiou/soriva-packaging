@@ -7,16 +7,16 @@ import "./factory-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/factory/";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging Factory | Production & Quality Control | SORIVA Packaging",
+  title: { absolute: "Custom Packaging Factory | Production & Quality Control | SORIVA Packaging" },
   description:
-    "Explore SORIVA Packaging factory capability, production equipment, workshop processes, QC, production updates and verification options for custom luxury packaging projects.",
+    "Explore SORIVA packaging production, quality control, sample inspection, finishing, assembly and packing support for custom packaging projects.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     url: PAGE_URL,
     title: "Custom Packaging Factory | Production & Quality Control | SORIVA Packaging",
     description:
-      "Explore SORIVA Packaging factory capability, production equipment, workshop processes, QC, production updates and verification options for custom luxury packaging projects.",
+      "Explore SORIVA packaging production, quality control, sample inspection, finishing, assembly and packing support for custom packaging projects.",
     images: [{ url: "https://www.sorivapackaging.com/img/factory-v1-workshop-overview.jpg", alt: "SORIVA packaging production workshops" }],
   },
 };
@@ -189,6 +189,12 @@ export default function FactoryPage() {
       <section className="factory-section">
         <div className="factory-container">
           <div className="factory-heading">
+            <span className="factory-eyebrow dark">PRODUCTS & BUYER GUIDES</span>
+            <h2>Explore Products Before Factory Verification</h2>
+            <p>Review the packaging range, then use the supplier-selection and pre-shipment guides to prepare a clear project brief.</p>
+            <div className="factory-actions compact"><a className="factory-btn gold" href="/products/">Explore Products →</a><a className="factory-btn" href="/projects/">View Projects →</a><a className="factory-btn" href="/rfq/">Request a Quote →</a></div>
+          </div>
+          <div className="factory-heading">
             <span className="factory-eyebrow dark">BUYER GUIDES & QC</span>
             <h2>Factory Verification & Production Planning Resources</h2>
             <p>Helpful guides on evaluating packaging manufacturers in China, inspecting bulk orders and planning inventory lead times.</p>
@@ -198,13 +204,13 @@ export default function FactoryPage() {
               <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>SUPPLIER EVALUATION</span>
               <h3>How to Choose a Custom Packaging Manufacturer in China</h3>
               <p>A practical buyer guide to evaluating custom packaging manufacturers in China, including factory capability, sampling, QC, communication and shipping support.</p>
-              <a href="/resources/how-to-choose-custom-packaging-manufacturer-china/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Supplier Guide →</a>
+               <a href="/resources/how-to-choose-custom-packaging-manufacturer-china/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Supplier Selection Guide →</a>
             </article>
             <article className="factory-card">
               <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>QUALITY CHECKLIST</span>
               <h3>How to Inspect Custom Packaging Before Shipment</h3>
               <p>A buyer checklist for inspecting custom packaging before shipment, including dimensions, printing, finishing, inserts, quantity, packing and shipping readiness.</p>
-              <a href="/resources/how-to-inspect-custom-packaging-before-shipment/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Inspection Guide →</a>
+               <a href="/resources/how-to-inspect-custom-packaging-before-shipment/" style={{ display: "inline-block", marginTop: 14, color: "var(--factory-gold)", fontWeight: 700 }}>Read Pre-Shipment Inspection Guide →</a>
             </article>
             <article className="factory-card">
               <span className="factory-eyebrow dark" style={{ display: "block", marginBottom: 8, fontSize: 11 }}>INVENTORY PLANNING</span>

@@ -48,7 +48,7 @@ const customizationPillars = [
   {
     num: "02",
     title: "Custom Board Thickness",
-    desc: "1.5mm to 3.0mm high-density rigid greyboard core selected according to box scale, sleeve depth and required structural rigidity.",
+    desc: "Greyboard thickness is selected according to box dimensions, product weight, sleeve depth and structural requirements.",
     href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
     linkText: "Board Thickness Guide →",
   },
@@ -69,14 +69,14 @@ const customizationPillars = [
   {
     num: "05",
     title: "CMYK & Pantone Printing",
-    desc: "High-definition offset printing for full-color artwork and exact Pantone (PMS) matching for consistent brand color fidelity.",
+    desc: "High-definition offset printing for full-color artwork and Pantone (PMS) color matching based on approved artwork and production specifications.",
     href: "/resources/pantone-vs-cmyk-custom-packaging/",
     linkText: "Pantone vs CMYK Guide →",
   },
   {
     num: "06",
     title: "Luxury Surface Finishing",
-    desc: "Metallic hot foil stamping, precision multi-level embossing, debossing, gloss spot UV coating and anti-scratch lamination.",
+    desc: "Metallic hot foil stamping, precision multi-level embossing, debossing, gloss spot UV coating and matte or gloss lamination.",
     href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
     linkText: "Finishing Comparison →",
   },
@@ -131,18 +131,18 @@ const sizeGuide = [
 
 const greyboardGuide = [
   {
-    thickness: "1.5 mm (1000 GSM)",
-    rigidity: "Lightweight Rigidity",
+    thickness: "Reference size only",
+    rigidity: "Selected by project requirements",
     bestFor: "Small jewelry boxes, lightweight beauty compacts and small accessory drawer boxes.",
   },
   {
-    thickness: "2.0 mm (1200 GSM)",
-    rigidity: "Standard Luxury (Most Popular)",
+    thickness: "Reference size only",
+    rigidity: "Selected by project requirements",
     bestFor: "Cosmetics gift boxes, perfume drawer packaging, candle gift sets and general retail presentation.",
   },
   {
-    thickness: "2.5 mm – 3.0 mm (1500–1800 GSM)",
-    rigidity: "Heavyweight Ultra-Rigid Structure",
+    thickness: "Reference size only",
+    rigidity: "Selected by project requirements",
     bestFor: "Large presentation hampers, heavier glass bottles, multi-tier sliding drawers and premium collectors' editions.",
   },
 ];
@@ -221,8 +221,8 @@ const finishingOptions = [
     desc: "Velvety smooth tactile barrier coating that prevents scuffing and enhances the overall handling feel.",
   },
   {
-    title: "Anti-Scratch Matte Film",
-    desc: "Specialized matte lamination that protects dark-colored outer sleeves from fingernail marks during retail handling.",
+    title: "Matte Surface Lamination",
+    desc: "Matte lamination selected according to the artwork, paper and handling requirements of the project.",
   },
   {
     title: "Custom Textured Embossing",
@@ -328,11 +328,11 @@ const faqs = [
   },
   {
     q: "Can you match specific Pantone (PMS) brand colors?",
-    a: "Yes. In addition to high-definition CMYK process printing, we support Pantone spot color matching for precise brand color consistency across all outer and inner surfaces.",
+    a: "Pantone (PMS) color matching is based on approved artwork and production specifications, alongside high-definition CMYK process printing.",
   },
   {
     q: "What luxury finishing options are available?",
-    a: "Available finishes include hot foil stamping (gold, silver, rose gold, holographic), multi-level embossing, debossing, gloss spot UV coating, soft-touch matte lamination and anti-scratch films.",
+    a: "Available finishes include hot foil stamping (gold, silver, rose gold, holographic), multi-level embossing, debossing, gloss spot UV coating, soft-touch matte lamination and matte or gloss lamination.",
   },
   {
     q: "Can I order a physical sample before mass production?",
@@ -488,9 +488,7 @@ export default function DrawerBoxesPage() {
             ))}
           </div>
           <div className="mrb-note" style={{ marginTop: 24 }}>
-            <b>Buyer Tip:</b> The sliding tray should glide smoothly with slight friction resistance
-            so it never drops out loosely. Structural fit, sleeve tolerance and ribbon anchoring are
-            rigorously verified during pre-production sampling.
+            <b>Buyer Decision Note:</b> Choose a drawer box when the sliding reveal, insert layout and pull mechanism are important to the product presentation. Final sleeve tolerance, tray fit and insert clearance should be confirmed during sampling.
           </div>
         </div>
       </section>
@@ -582,7 +580,7 @@ export default function DrawerBoxesPage() {
             <table className="mrb-table">
               <thead>
                 <tr>
-                  <th>Greyboard Caliper</th>
+                  <th>Greyboard Reference</th>
                   <th>Rigidity Classification</th>
                   <th>Recommended Applications</th>
                 </tr>
@@ -599,6 +597,7 @@ export default function DrawerBoxesPage() {
             </table>
           </div>
           <div style={{ textAlign: "center", marginTop: 20 }}>
+            <p style={{ color: "#555", marginBottom: 10 }}>Reference sizes only — final dimensions are customized to the product.</p>
             <a
               href="/resources/rigid-greyboard-thickness-guide-custom-boxes/"
               style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}
@@ -963,6 +962,11 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">RELATED INDUSTRIES &amp; GUIDES</span><h2>Plan Your Drawer Box Project</h2><p>Compare drawer box requirements across jewelry, cosmetics and perfume projects before preparing an RFQ.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+        </div>
+      </section>
       <ProductCrossLinks industryHref="/industries/jewelry-packaging/" industryLabel="Jewelry Packaging" />
       <script
         type="application/ld+json"

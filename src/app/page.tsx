@@ -263,6 +263,12 @@ export default function Home() {
           </div>
           <div className="section-cta">
             <a
+              href="/products/"
+              className="btn dark"
+            >
+              Explore All Product Categories →
+            </a>
+            <a
               href={waLink(WA_MESSAGES.products)}
               target="_blank"
               rel="noopener"
@@ -385,8 +391,14 @@ export default function Home() {
                 <li key={point}>{point}</li>
               ))}
             </ul>
-            <a className="btn dark" href="#quote">
-              Discuss Your Project
+            <a className="btn dark" href="/factory/">
+              Explore Factory Verification →
+            </a>
+            <a className="btn ghost" href="/resources/">
+              Browse Buyer Resources →
+            </a>
+            <a className="btn gold" href="/rfq/">
+              Request a Packaging Quote →
             </a>
             <a
               className="btn-wa"

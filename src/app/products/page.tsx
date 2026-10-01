@@ -8,18 +8,18 @@ import "./product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/";
 
 export const metadata: Metadata = {
-  title: "Custom Luxury Packaging Boxes",
+  title: { absolute: "Custom Luxury Packaging Boxes Manufacturer | SORIVA Packaging" },
   description:
-    "Explore SORIVA custom magnetic rigid boxes, foldable rigid boxes, drawer boxes, two-piece boxes, tube packaging and luxury paper bags for premium brands.",
+    "Explore custom magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes, tube packaging and luxury paper bags for premium brand packaging projects.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Packaging Solutions | SORIVA Packaging",
+    title:       "Custom Luxury Packaging Boxes Manufacturer | SORIVA Packaging",
     description:
-      "Premium rigid boxes and custom packaging solutions designed for global brands.",
+      "Explore custom magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes, tube packaging and luxury paper bags for premium brand packaging projects.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -214,7 +214,7 @@ export default function ProductsPage() {
             <h2>Our Packaging Solutions</h2>
             <p>
               Custom structures developed around your product, brand and
-              budget, with flexible MOQ and fast sampling.
+              budget, with flexible MOQ and sampling support. Sample timing depends on structure, materials, finishing and project requirements.
             </p>
           </div>
           <div className="mrb-apps">
@@ -276,6 +276,12 @@ export default function ProductsPage() {
       </section>
 
       {/* Buyer Guides */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">NEXT STEPS</span><h2>From Product Selection to RFQ</h2><p>Compare the six product categories, review factory capability and prepare a practical sourcing brief.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/custom-packaging/">Custom Packaging System →</a><a className="btn ghost" href="/factory/">Factory Verification →</a><a className="btn ghost" href="/resources/">Buyer Resources →</a><a className="btn gold" href="/rfq/">Request a Packaging Quote →</a></div></div>
+        </div>
+      </section>
+
       <ProductBuyerGuides
         title="Packaging Sourcing, Cost & Planning Guides"
         subtitle="Practical guides on packaging cost components, MOQ economics, inventory planning and structure comparison."
@@ -310,7 +316,7 @@ export default function ProductsPage() {
               Custom Packaging, Delivered
             </h2>
             <p style={{ color: "#e8c98a", fontSize: 15, letterSpacing: "0.02em", margin: "0 auto 26px" }}>
-              MOQ From 100 pcs &nbsp;|&nbsp; 1 Pc Prototype &nbsp;|&nbsp; 48H Sample
+              MOQ From 100 pcs &nbsp;|&nbsp; 1 Pc Prototype &nbsp;|&nbsp; Sampling Support
               &nbsp;|&nbsp; Global Shipping
             </p>
           </div>
