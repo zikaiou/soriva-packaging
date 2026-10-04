@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "Custom Magnetic Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
   },
   description:
-    "Custom magnetic rigid boxes with hidden magnetic closures, premium paper wraps, bespoke inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global export.",
+    "Custom magnetic rigid boxes with book-style structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, jewelry and gift packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -122,12 +122,27 @@ const structure = [
 ];
 
 const details = [
-  { img: "/img/magnetic-rigid.webp", caption: "Open Box Presentation" },
-  { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
-  { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
-  { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
-  { img: "/img/project-perfume.webp", caption: "Premium Perfume Project", href: "/projects/premium-perfume-packaging/" },
-  { img: "/img/project-skincare.webp", caption: "Skincare Gift Set", href: "/projects/luxury-skincare-gift-box/" },
+  { img: "/img/magnetic-rigid.webp", caption: "Packaging Style Reference: Open Box Presentation" },
+  { img: "/img/foil-clean.webp", caption: "Packaging Style Reference: Gold Foil & Branding" },
+  { img: "/img/emboss-clean.webp", caption: "Packaging Style Reference: Embossing / Debossing" },
+  { img: "/img/insert-clean.webp", caption: "Packaging Style Reference: Custom Product Insert" },
+  { img: "/img/project-perfume.webp", caption: "Application Example: Premium Perfume Packaging", href: "/projects/premium-perfume-packaging/" },
+  { img: "/img/project-skincare.webp", caption: "Application Example: Skincare Gift Set", href: "/projects/luxury-skincare-gift-box/" },
+];
+
+const realSamples = [
+  {
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
+    alt: "Custom magnetic rigid gift box with satin-style interior lining",
+    caption: "Magnetic rigid gift box with satin-style interior presentation",
+    note: "Real sample reference — interior presentation and ribbon detail",
+  },
+  {
+    img: "/img/magnetic-rigid-box-brown-textured-sample.png",
+    alt: "Brown textured book-style magnetic rigid gift box sample",
+    caption: "Brown textured magnetic rigid box with book-style opening",
+    note: "Real sample reference — surface texture and structure reference",
+  },
 ];
 
 const applications = [
@@ -186,6 +201,22 @@ const processSteps = [
 
 const faqs = [
   {
+    q: "Can magnetic rigid boxes be customized with a logo?",
+    a: "Yes. Logo treatment can include printing, foil stamping, embossing, debossing or other suitable finishing depending on the paper and design.",
+  },
+  {
+    q: "Can you customize the insert?",
+    a: "Yes. Insert structure and material can be selected according to the product shape, dimensions, presentation and project requirements.",
+  },
+  {
+    q: "What information is needed for a quote?",
+    a: "Product or box dimensions, quantity, preferred structure, materials, printing or finishing, insert requirements and destination are useful for quotation.",
+  },
+  {
+    q: "Can I order a sample before production?",
+    a: "Prototype or sample support is available for selected projects. Timing depends on structure, materials and finishing requirements.",
+  },
+  {
     q: "What is the MOQ for custom magnetic rigid boxes?",
     a: "Selected custom magnetic rigid box projects can start from 100 pcs. The optimal production quantity depends on box size, paper material, insert complexity and surface finishing requirements.",
   },
@@ -219,7 +250,7 @@ const structuredData = {
       name: "Custom Magnetic Rigid Boxes",
       image: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
       description:
-        "Custom magnetic rigid boxes with hidden magnetic closures, premium paper wraps, bespoke inserts and luxury finishes.",
+        "Custom magnetic rigid boxes with book-style structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, jewelry and gift packaging.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       offers: {
         "@type": "AggregateOffer",
@@ -335,6 +366,41 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
+      {/* Real sample references */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">REAL MAGNETIC RIGID BOX SAMPLES</span>
+            <h2>Sample Structure References</h2>
+            <p>Explore real magnetic rigid box samples showing different interior presentation, surface texture and book-style opening structures. Final dimensions, materials, inserts and finishing are customized to each project.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
+            {realSamples.map((sample) => (
+              <figure className="mrb-feature" key={sample.caption} style={{ margin: 0 }}>
+                <img src={sample.img} alt={sample.alt} width="1200" height="1200" loading="lazy" style={{ width: "100%", height: "auto", display: "block", borderRadius: 6 }} />
+                <figcaption style={{ marginTop: 14 }}><strong>{sample.caption}</strong><br /><span>{sample.note}</span></figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Buyer decision */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BUYER DECISION</span>
+            <h2>When to Choose a Magnetic Rigid Box</h2>
+            <p>Choose a magnetic rigid box when premium presentation, hinged opening and concealed magnetic closure are important to the unboxing experience. Final structure, insert fit, paper selection and finishing should be confirmed during sampling.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
+            <article className="mrb-feature"><h3>Book-Style Magnetic Box</h3><p>A hinged book-style magnetic box creates a clear opening sequence for fragrance, jewelry and premium gift presentation.</p></article>
+            <article className="mrb-feature"><h3>Custom Insert Presentation</h3><p>Insert material and layout are selected according to product dimensions, weight, presentation and protection requirements.</p></article>
+            <article className="mrb-feature"><h3>Branding &amp; Finishing</h3><p>Printing, foil stamping, embossing, debossing, Spot UV, printed paper and specialty paper can be reviewed for the approved artwork.</p></article>
+          </div>
+        </div>
+      </section>
+
       {/* Industry Solutions */}
       <section className="mrb-section soft" id="solutions">
         <div className="container">
@@ -424,11 +490,10 @@ export default function MagneticRigidBoxesPage() {
       <section className="mrb-section dark" id="details">
         <div className="container">
           <div className="mrb-head">
-            <span className="mrb-eyebrow">PRODUCT DETAILS</span>
+            <span className="mrb-eyebrow">PACKAGING STYLE REFERENCES</span>
             <h2>Explore Box Details</h2>
             <p>
-              Visual references for structure, finishing, inserts and premium
-              applications.
+              Packaging style references for structure, finishing, inserts and premium applications. Real sample imagery is identified in the dedicated sample section above.
             </p>
           </div>
           <div className="mrb-gallery">
@@ -524,8 +589,8 @@ export default function MagneticRigidBoxesPage() {
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">FAQ</span>
-            <h2>Frequently Asked Questions</h2>
+            <span className="eyebrow dark">BUYER FAQ</span>
+            <h2>Magnetic Rigid Box Buying Questions</h2>
           </div>
           <div className="mrb-faq">
             {faqs.map((f) => (
@@ -552,7 +617,7 @@ export default function MagneticRigidBoxesPage() {
           {
             tag: "Board Caliper",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
-            desc: "A buyer guide to choosing greyboard thickness from 1.5mm to 3.0mm based on box size and product weight.",
+            desc: "A buyer guide to selecting greyboard thickness according to box dimensions, product weight and structural requirements.",
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
           },
           {
@@ -564,7 +629,7 @@ export default function MagneticRigidBoxesPage() {
           {
             tag: "Foldable Option",
             title: "Foldable vs Traditional Rigid Boxes",
-            desc: "Understand how foldable magnetic rigid boxes optimize storage space and international shipping costs.",
+            desc: "Understand how suitable foldable magnetic rigid box structures can improve packing efficiency for selected export projects.",
             href: "/resources/foldable-vs-traditional-rigid-box/",
           },
         ]}
@@ -600,6 +665,11 @@ export default function MagneticRigidBoxesPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">MAGNETIC BOX BUYER RESOURCES</span><h2>Compare Applications, Inserts and Finishes</h2><p>Use these guides to prepare product dimensions, choose insert materials and review branding options before requesting a quote.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Materials Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK Guide →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+        </div>
+      </section>
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetic Packaging" />
     </main>
   );
