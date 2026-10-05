@@ -376,6 +376,30 @@ const faqs = [
     a: "A drawer box (also known as a slide box or matchbox style rigid box) consists of an outer rigid sleeve and an inner sliding tray. The structure can be customized in size, materials, inserts, pull ribbons and finishing according to the project.",
   },
   {
+    q: "Are these drawer gift boxes for jewelry and gifts?",
+    a: "Yes. These drawer gift boxes can be developed for jewelry, perfume, cosmetics and corporate gifting, with structure and inserts selected for the project.",
+  },
+  {
+    q: "Can you make matchbox style boxes?",
+    a: "Yes. Matchbox style boxes use an outer sleeve and sliding tray; proportions, materials and pull solutions are customized according to the product.",
+  },
+  {
+    q: "Can you make drawer boxes with ribbon pull?",
+    a: "Yes. Drawer boxes with ribbon pull can be developed with satin, grosgrain or other suitable pull-tab solutions.",
+  },
+  {
+    q: "Can I order drawer gift boxes with logo?",
+    a: "Yes. Drawer gift boxes with logo can use printing, foil stamping, embossing, debossing or suitable finishing based on the artwork.",
+  },
+  {
+    q: "Are you a drawer box manufacturer and drawer box supplier?",
+    a: "SORIVA supports buyers comparing a drawer box manufacturer and drawer box supplier for custom rigid sliding packaging projects.",
+  },
+  {
+    q: "Do you offer wholesale drawer boxes?",
+    a: "Wholesale drawer boxes are available for selected custom projects; quantity, materials, inserts and finishing are reviewed before quotation.",
+  },
+  {
     q: "Can drawer boxes be customized to my product size?",
     a: "Yes. The outer sleeve, inner tray and custom insert are developed around product dimensions, orientation and presentation requirements.",
   },
@@ -982,10 +1006,16 @@ export default function DrawerBoxesPage() {
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
           },
           {
-            tag: "MOQ & Pricing",
-            title: "How Custom Packaging MOQ Affects Unit Cost",
-             desc: "Learn which project factors contribute to custom drawer box cost, including quantity, materials, inserts and finishing.",
-            href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
+             tag: "Cost & Pricing",
+             title: "Custom Packaging Cost Breakdown Guide",
+              desc: "Learn which project factors contribute to custom drawer box cost, including quantity, materials, inserts and finishing.",
+             href: "/resources/custom-packaging-cost-breakdown/",
+           },
+           {
+             tag: "MOQ & Pricing",
+             title: "How Custom Packaging MOQ Affects Unit Cost",
+             desc: "Learn how order quantity affects custom drawer box planning and quotation.",
+             href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
           },
         ]}
       />
