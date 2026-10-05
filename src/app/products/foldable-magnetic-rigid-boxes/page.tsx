@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     absolute: "Custom Foldable Magnetic Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
   },
   description:
-    "Custom foldable magnetic rigid boxes with space-saving flat-pack logistics, premium paper wraps, bespoke inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global export.",
+    "Custom foldable magnetic rigid boxes with flat-pack structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics and corporate gift packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -61,32 +61,32 @@ const foldableSolutions = [
   {
     tag: "FRAGRANCE & PERFUME",
     title: "Foldable Magnetic Boxes for Perfume",
-    desc: "Combines fragrance presentation with space-saving flat-pack shipping, custom bottle inserts and Pantone matching.",
+    desc: "Combines fragrance presentation with a flatter supply form, custom bottle inserts and Pantone (PMS) color matching based on approved artwork and production specifications.",
     href: "/solutions/foldable-magnetic-boxes-for-perfume/",
   },
   {
     tag: "COSMETICS & BEAUTY",
     title: "Foldable Magnetic Boxes for Cosmetics",
-    desc: "Multi-product cavity inserts, soft-touch velvet lamination and flat-pack warehouse efficiency for skincare sets.",
+    desc: "Multi-product cavity inserts, selected matte or soft-touch lamination and a flatter supply form for skincare sets.",
     href: "/solutions/foldable-magnetic-boxes-for-cosmetics/",
   },
   {
     tag: "CORPORATE & VIP GIFTS",
     title: "Foldable Magnetic Gift Boxes for Corporate Gifts",
-    desc: "Flat-pack on-site storage, quick event assembly, multi-item compartment inserts and metallic foil branding.",
+    desc: "A flatter supply form for on-site storage, event assembly, multi-item compartment inserts and metallic foil branding.",
     href: "/solutions/foldable-magnetic-boxes-for-corporate-gifts/",
   },
 ];
 
 const foldableProjects = [
   {
-    tag: "RETAIL CASE STUDY",
+    tag: "RETAIL CAPABILITY REFERENCE",
     title: "Foldable Magnetic Gift Box Project",
     desc: "Collapsible rigid gift box featuring V-grooved folding hinges, concealed magnetic closure and soft-touch wrap.",
     href: "/projects/foldable-magnetic-gift-box-project/",
   },
   {
-    tag: "EVENT CASE STUDY",
+    tag: "EVENT CAPABILITY REFERENCE",
     title: "Flat-Pack Corporate Gift Box Project",
     desc: "Flat-pack corporate presentation box with multi-compartment velvet EVA insert and silver foil branding.",
     href: "/projects/flat-pack-corporate-gift-box-project/",
@@ -100,15 +100,15 @@ const logistics = [
   },
   {
     title: "Space-Saving Storage",
-    desc: "Reduces warehouse storage space before boxes are assembled for product loading.",
+    desc: "Can support a flatter storage form before boxes are assembled for product loading, subject to the selected structure.",
   },
   {
     title: "Premium Appearance",
-    desc: "Maintains the rigid presentation and smooth magnetic closure expected from luxury packaging.",
+    desc: "Maintains the rigid presentation and magnetic closure expected from a selected luxury packaging structure.",
   },
   {
     title: "Easy Assembly",
-    desc: "Designed for quick setup at your warehouse or fulfillment location with pre-applied adhesive corners.",
+    desc: "Assembly guidance can be prepared for the selected corner fixing method and fulfillment workflow.",
   },
 ];
 
@@ -119,14 +119,14 @@ const specs = [
     label: "Surface Options",
     value: "Art Paper / Specialty Paper / Textured Paper / Fabric / Leatherette",
   },
-  { label: "Printing", value: "CMYK Full-Color / Pantone (PMS) Spot Color Matching" },
+  { label: "Printing", value: "CMYK Full-Color / Pantone (PMS) Color Matching Based on Approved Artwork" },
   {
     label: "Finishing",
     value: "Gold/Silver Foil / Emboss / Deboss / Spot UV / Soft-Touch Lamination",
   },
   { label: "Insert Options", value: "EVA / Velvet / Paperboard / Molded Pulp" },
   { label: "MOQ", value: "From 100 pcs, subject to project specification" },
-  { label: "Prototype", value: "1 pc prototype available" },
+  { label: "Prototype", value: "1 pc prototype available for selected projects" },
   {
     label: "Lead Time",
     value: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
@@ -148,6 +148,44 @@ const details = [
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
   { img: "/img/project-perfume.webp", caption: "Perfume Packaging", href: "/solutions/foldable-magnetic-boxes-for-perfume/" },
   { img: "/img/project-skincare.webp", caption: "Skincare Gift Set", href: "/solutions/foldable-magnetic-boxes-for-cosmetics/" },
+];
+
+const conceptReferences = [
+  {
+    img: "/img/foldable-magnetic-box-structure-reference.png",
+    alt: "Flat-pack foldable magnetic rigid box structure reference",
+    eyebrow: "STRUCTURE REFERENCE",
+    title: "Foldable Magnetic Box Structure",
+    caption: "Flat-pack foldable magnetic rigid box shown in flat and assembled form",
+  },
+  {
+    img: "/img/foldable-magnetic-box-assembly-guide.png",
+    alt: "Foldable magnetic rigid box assembly steps from flat form to finished box",
+    eyebrow: "ASSEMBLY GUIDE",
+    title: "How the Foldable Structure Assembles",
+    caption: "Four-step assembly reference for a foldable magnetic rigid box",
+  },
+  {
+    img: "/img/foldable-magnetic-box-customization-options.png",
+    alt: "Customization options for foldable magnetic rigid boxes",
+    eyebrow: "CUSTOMIZATION REFERENCE",
+    title: "Customization Options",
+    caption: "Material, surface finishing and ribbon options for foldable magnetic boxes",
+  },
+  {
+    img: "/img/foldable-magnetic-box-insert-lining-options.png",
+    alt: "Insert and lining options for custom foldable magnetic gift boxes",
+    eyebrow: "INSERT & LINING REFERENCE",
+    title: "Insert & Lining Options",
+    caption: "Insert and lining options selected according to product and presentation needs",
+  },
+  {
+    img: "/img/foldable-magnetic-box-production-workflow.png",
+    alt: "Foldable magnetic rigid box production workflow illustration",
+    eyebrow: "WORKFLOW ILLUSTRATION",
+    title: "Production Workflow",
+    caption: "Illustrated workflow from design review to packing for foldable magnetic rigid boxes",
+  },
 ];
 
 const applications = [
@@ -185,14 +223,37 @@ const stats = [
 ];
 
 const processSteps = [
+  { title: "Design / Structure Review", sub: "Dieline & fit" },
   { title: "Material Preparation", sub: "Paper & board" },
-  { title: "Printing & Finishing", sub: "Brand artwork" },
-  { title: "Box Forming", sub: "Structure assembly" },
+  { title: "Printing", sub: "Approved artwork" },
+  { title: "Surface Finishing", sub: "Foil / UV / lamination" },
+  { title: "Die-Cutting", sub: "Scored panels" },
+  { title: "Structure Assembly", sub: "Corners & closure" },
   { title: "Quality Inspection", sub: "Appearance & fit" },
-  { title: "Global Delivery", sub: "Air / Sea / Express" },
+  { title: "Packing", sub: "Export preparation" },
 ];
 
 const faqs = [
+  {
+    q: "What is the difference between a foldable magnetic box and a standard magnetic rigid box?",
+    a: "A foldable magnetic box is designed to be supplied in a flatter form and assembled before use, while a standard magnetic rigid box is generally supplied in its finished rigid form. The best structure depends on product size, presentation and shipping requirements.",
+  },
+  {
+    q: "Can foldable magnetic boxes be customized with a logo?",
+    a: "Yes. Logo treatments can include printing, foil stamping, embossing, debossing or other suitable finishing depending on the selected paper and design.",
+  },
+  {
+    q: "Can the insert be customized?",
+    a: "Yes. Insert layout and material are selected according to product dimensions, weight, presentation and project requirements.",
+  },
+  {
+    q: "Can I order a sample before production?",
+    a: "Prototype or sample support is available for selected projects. Timing depends on structure, materials and finishing requirements.",
+  },
+  {
+    q: "Are foldable magnetic boxes suitable for perfume, cosmetics and corporate gifts?",
+    a: "They can be suitable for these applications when the structure, insert and dimensions are developed for the specific product.",
+  },
   {
     q: "Can I customize the box size and dieline?",
     a: "Yes. Dimensions and dielines are developed according to your product dimensions and packaging requirements.",
@@ -215,7 +276,7 @@ const faqs = [
   },
   {
     q: "Does the box require assembly?",
-    a: "Yes. Foldable boxes ship flat and assemble in seconds by lifting the side walls and bonding the pre-applied corner adhesive tabs.",
+    a: "Yes. Foldable boxes are supplied in a flatter form and assembled by raising the walls and securing the selected corner fixing method. Exact assembly steps should be confirmed for the project structure.",
   },
   {
     q: "Are foldable rigid boxes suitable for international shipping?",
@@ -230,7 +291,7 @@ const structuredData = {
       "@type": "Product",
       name: "Custom Foldable Magnetic Rigid Boxes",
       description:
-        "Custom foldable magnetic rigid boxes with premium presentation and space-saving logistics. Rigid greyboard construction, concealed magnetic closures and tailored inserts. MOQ from 100 pcs.",
+        "Custom foldable magnetic rigid boxes with flat-pack structures, concealed magnetic closures and tailored inserts. Final structure and project specifications are confirmed during sampling.",
       image: "https://www.sorivapackaging.com/img/foldable-rigid.webp",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
@@ -326,8 +387,7 @@ export default function FoldableMagneticRigidBoxesPage() {
             <span className="eyebrow dark">WHY CHOOSE FOLDABLE</span>
             <h2>The Best of Both Worlds</h2>
             <p>
-              Designed for brands that want premium rigid packaging presentation
-              while optimizing international shipping volume and warehouse storage space.
+              Designed for brands that want premium rigid packaging presentation while evaluating a flatter supply form for storage and shipment.
             </p>
           </div>
           <div className="mrb-features">
@@ -342,13 +402,42 @@ export default function FoldableMagneticRigidBoxesPage() {
         </div>
       </section>
 
+      {/* ---------- Structure & procurement guide ---------- */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">WHAT IS A FOLDABLE MAGNETIC RIGID BOX?</span>
+            <h2>Flat-Pack Structure for Premium Presentation</h2>
+            <p>A foldable magnetic rigid box is designed to ship and store in a flatter form, then assemble into a structured presentation box for use. The final structure, closure, reinforcement and interior layout should be confirmed during sampling according to box size, product weight and presentation requirements.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))" }}>
+            {[
+              ["Flat storage form", "The box can be reviewed in its flatter supply and storage form."],
+              ["Fold-up side walls", "Scored joints allow the walls and lid to be raised during assembly."],
+              ["Closure and fixing", "Magnetic closure and corner fixing details are selected according to the project."],
+              ["Assembled presentation", "The finished form is reviewed for product fit, insert clearance and presentation."],
+            ].map(([title, desc]) => <article className="mrb-feature" key={title}><h3>{title}</h3><p>{desc}</p></article>)}
+          </div>
+          <div className="mrb-note" style={{ marginTop: 24 }}><b>Buyer Decision:</b> Choose a foldable magnetic rigid box when a premium rigid-box presentation is required together with a structure that can be supplied in a flatter form for storage or shipment. Final assembly method, reinforcement, insert fit and closure details should be confirmed during sampling.</div>
+        </div>
+      </section>
+
+      <section className="mrb-section" id="references">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE &amp; PROCESS REFERENCES</span><h2>Foldable Magnetic Box Reference Guides</h2><p>These generated images are structure, assembly, customization, insert and workflow illustrations only. They are not real customer projects, factory photos, production samples or shipment photos.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.title} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} style={{ width: "100%", borderRadius: 8 }} loading="lazy" /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.eyebrow}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+          </div>
+        </div>
+      </section>
+
       {/* ---------- Industry Solutions ---------- */}
       <section className="mrb-section soft" id="solutions">
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">INDUSTRY SOLUTIONS</span>
             <h2>Dedicated Foldable Box Solutions by Industry</h2>
-            <p>Explore specialized foldable magnetic box configurations tailored for perfume, cosmetics and corporate gifts.</p>
+            <p>Explore specialized foldable magnetic box configurations for perfume, cosmetics and corporate gifts, then compare inserts, dimensions and finishing before requesting an RFQ.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
             {foldableSolutions.map((sol) => (
@@ -417,6 +506,8 @@ export default function FoldableMagneticRigidBoxesPage() {
                 <li key={s}>{s}</li>
               ))}
             </ol>
+            <p style={{ marginTop: 18, color: "#555", lineHeight: 1.7 }}><b>Customization options:</b> specialty paper, printed paper, matte or gloss lamination, foil stamping, embossing, debossing, spot UV, custom logo and suitable ribbon or pull-tab options.</p>
+            <p style={{ marginTop: 12, color: "#555", lineHeight: 1.7 }}><b>Insert &amp; lining options:</b> EVA, EPE foam, sponge foam, paperboard, corrugated paper, molded pulp, satin lining or other suitable solutions. Insert material and layout are selected according to product dimensions, weight, presentation and protection requirements.</p>
           </div>
         </div>
       </section>
@@ -425,9 +516,9 @@ export default function FoldableMagneticRigidBoxesPage() {
       <section className="mrb-section" id="projects">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">FEATURED CASE STUDIES</span>
-            <h2>Foldable Box Capability Projects</h2>
-            <p>Explore real capability-based packaging case studies developed for retail and corporate events.</p>
+            <span className="eyebrow dark">CAPABILITY REFERENCES</span>
+            <h2>Foldable Box Capability References</h2>
+            <p>Explore capability-based packaging references for retail and corporate gift applications. These pages describe packaging approaches and are not claims of named customer results.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
             {foldableProjects.map((p) => (
@@ -439,7 +530,7 @@ export default function FoldableMagneticRigidBoxesPage() {
                 <p>{p.desc}</p>
                 <p style={{ marginTop: 14 }}>
                   <a href={p.href} style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                    Read Case Study →
+                    Read Capability Reference →
                   </a>
                 </p>
               </article>
@@ -513,13 +604,12 @@ export default function FoldableMagneticRigidBoxesPage() {
       <section className="mrb-section dark">
         <div className="container mrb-video-grid">
           <div>
-            <span className="mrb-eyebrow">REAL PRODUCTION</span>
+            <span className="mrb-eyebrow">PRODUCTION WORKFLOW REFERENCE</span>
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
               From Material to Finished Box
             </h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
-              Precision die-cutting, pre-scored folding hinges, automated gluing
-              and concealed magnetic insertion ensure reliable structural performance.
+              A typical project workflow may include design review, material preparation, printing, finishing, die-cutting, structure assembly, quality inspection and packing. Exact steps depend on the selected project structure and production requirements.
             </p>
             <div className="mrb-process-5" style={{ marginTop: 26 }}>
               {processSteps.map((s, i) => (
@@ -552,8 +642,8 @@ export default function FoldableMagneticRigidBoxesPage() {
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">FAQ</span>
-            <h2>Frequently Asked Questions</h2>
+              <span className="eyebrow dark">BUYER FAQ</span>
+            <h2>Foldable Magnetic Box Buying Questions</h2>
           </div>
           <div className="mrb-faq">
             {faqs.map((f) => (
@@ -569,7 +659,7 @@ export default function FoldableMagneticRigidBoxesPage() {
       {/* ---------- Guides ---------- */}
       <ProductBuyerGuides
         title="Foldable Magnetic Box Buyer Guides & Resources"
-        subtitle="Explore practical advice on packaging structures, shipping optimization and sample verification."
+         subtitle="Explore practical guidance on product measurement, inserts, finishing, color matching and sample review."
         guides={[
           {
             tag: "Structure Guide",
@@ -580,7 +670,7 @@ export default function FoldableMagneticRigidBoxesPage() {
           {
             tag: "Foldable Comparison",
             title: "Foldable vs Traditional Rigid Boxes",
-            desc: "Understand how foldable magnetic rigid boxes optimize storage space and international shipping costs.",
+             desc: "Compare flat-pack supply forms with traditional rigid box formats for storage and shipment planning.",
             href: "/resources/foldable-vs-traditional-rigid-box/",
           },
           {
@@ -628,6 +718,11 @@ export default function FoldableMagneticRigidBoxesPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">FOLDABLE BOX BUYER RESOURCES</span><h2>Prepare a Foldable Magnetic Box RFQ</h2><p>Compare applications, check product dimensions, review insert and finishing options, then send the project requirements for quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+        </div>
+      </section>
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetic Packaging" />
     </main>
   );
