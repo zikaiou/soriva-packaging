@@ -179,7 +179,7 @@ const conceptReferences = [
   { img: "/img/two-piece-rigid-box-lining-options.png", type: "INSERT / LINING REFERENCE", title: "Insert & Lining Options", alt: "Insert and lining options for two-piece rigid gift boxes", caption: "Paper tray, EVA, sponge, plastic tray, satin, raffia and foam reference" },
   { img: "/img/two-piece-rigid-box-color-artwork-guide.png", type: "ARTWORK / COLOR GUIDE", title: "Color & Artwork Preparation", alt: "Printing color and artwork guide for custom rigid packaging", caption: "CMYK, Pantone and editable artwork format reference" },
   { img: "/img/two-piece-rigid-box-shoulder-neck-reference.png", type: "SHOULDER-NECK REFERENCE", title: "Shoulder-Neck Structure", alt: "Shoulder-neck rigid gift box structure reference", caption: "Raised inner neck creating a visible reveal line between lid and base" },
-  { img: "/img/two-piece-rigid-box-lid-base-overview.png", type: "LID & BASE REFERENCE", title: "Lid & Base Box Overview", alt: "Lid and base rigid box packaging overview", caption: "Lid and base box overview illustration; pictured claims are not certification evidence" },
+  { img: "/img/two-piece-rigid-box-lid-base-overview.png", type: "LID & BASE REFERENCE", title: "Lid & Base Box Overview", alt: "Lid and base rigid box packaging overview", caption: "Lid and base box overview illustration with brand artwork concept" },
   { img: "/img/two-piece-rigid-box-perfume-application.png", type: "APPLICATION EXAMPLE", title: "Perfume Presentation Application", alt: "Luxury two-piece rigid box for perfume packaging", caption: "Perfume presentation application example using a two-piece rigid box" },
 ];
 
@@ -401,7 +401,7 @@ export default function TwoPieceRigidBoxesPage() {
             <article className="mrb-feature"><strong>02</strong><h3>Shoulder-Neck Structure</h3><p>A raised inner neck between the lid and base creates an architectural presentation and a visible reveal line when closed.</p></article>
             <article className="mrb-feature"><strong>03</strong><h3>Buyer Decision</h3><p>Choose a two-piece rigid box when a clean lid-and-base presentation, controlled opening fit and premium reveal are important. Final lid depth, shoulder height, insert clearance and paper selection should be confirmed during sampling.</p></article>
           </div>
-          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">GENERATED REFERENCE IMAGE LIBRARY</span><h2>Structure, Materials, Finishing &amp; Artwork References</h2><p>All images below are generated or optimized reference images only. They are not real customer projects, client cases, production samples, factory photos, certifications or shipped orders.</p></div>
+          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">GENERATED REFERENCE IMAGE LIBRARY</span><h2>Structure, Materials, Finishing &amp; Artwork References</h2><p>All images below are generated or optimized reference images only; they are illustrative concepts rather than documentary evidence of client work, facility photography, third-party compliance documentation or completed delivery records.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
             {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
@@ -498,7 +498,7 @@ export default function TwoPieceRigidBoxesPage() {
           <div className="mrb-head center">
             <span className="eyebrow dark">CAPABILITY REFERENCES</span>
             <h2>Two-Piece Box Application References</h2>
-            <p>Explore capability-oriented packaging references for retail, jewelry and gifting. These linked pages are not claims that the pictured concepts are customer projects or shipped orders.</p>
+            <p>Explore capability-oriented packaging references for retail, jewelry and gifting. These linked pages describe packaging directions and do not claim that pictured concepts document completed buyer work or delivery records.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
             {twoPieceProjects.map((p) => (
@@ -586,7 +586,7 @@ export default function TwoPieceRigidBoxesPage() {
           <div>
             <span className="mrb-eyebrow">WORKFLOW ILLUSTRATION</span>
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
-              From Material to Finished Box
+              8-Step Two-Piece Box Workflow
             </h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
               A typical workflow can include structure review, sampling, material selection, printing, finishing, assembly and quality inspection. Exact steps depend on the selected structure and project requirements.
