@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/two-piece-rigid-boxes
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Two-Piece Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
+    absolute: "Custom Two-Piece Rigid Boxes Manufacturer | SORIVA Packaging",
   },
   description:
-    "Custom two-piece rigid boxes with classic separate lid and base construction, premium paper wraps, bespoke inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global export.",
+    "Custom two-piece rigid boxes with separate lid and base, shoulder-neck structures, tailored inserts and premium finishing for perfume, jewelry, cosmetics and gift packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Two-Piece Rigid Boxes | SORIVA Packaging",
     description:
-      "Classic lid-and-base rigid boxes with premium structure, dependable protection and flexible customization. MOQ from 100 pcs, 1 pc prototype and global export.",
+      "Custom two-piece rigid boxes with separate lid and base, tailored inserts, artwork review and project-dependent finishing for premium packaging.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -44,7 +44,7 @@ const features = [
   },
   {
     title: "Solid Structural Protection",
-    desc: "Durable greyboard core provides dependable protection during handling and transit.",
+    desc: "A rigid board core is selected according to box dimensions, product weight and structural requirements.",
   },
   {
     title: "Flexible Customization",
@@ -52,7 +52,7 @@ const features = [
   },
   {
     title: "Multiple Applications",
-    desc: "Widely used for cosmetics, perfume, jewelry, corporate gifts and retail brands.",
+    desc: "Common application directions include jewelry, perfume, cosmetics, corporate gifts and premium retail gift sets.",
   },
 ];
 
@@ -60,13 +60,13 @@ const twoPieceSolutions = [
   {
     tag: "FRAGRANCE & PERFUME",
     title: "Two-Piece Rigid Boxes for Perfume",
-    desc: "Classic lid and base structure, custom-cut velvet EVA inserts, Pantone color matching and luxury foil stamping.",
+    desc: "Perfume presentation boxes with lid and base structure, selected inserts, Pantone (PMS) color matching and project-dependent foil stamping.",
     href: "/solutions/two-piece-rigid-boxes-for-perfume/",
   },
   {
     tag: "JEWELRY & ACCESSORIES",
     title: "Two-Piece Rigid Boxes for Jewelry",
-    desc: "Compact luxury proportions, plush velvet inserts, custom ring/necklace slits and precision foil branding.",
+    desc: "Compact jewelry presentation boxes with velvet inserts, custom ring or necklace slits and project-dependent foil branding.",
     href: "/solutions/two-piece-rigid-boxes-for-jewelry/",
   },
   {
@@ -79,15 +79,15 @@ const twoPieceSolutions = [
 
 const twoPieceProjects = [
   {
-    tag: "RETAIL CASE STUDY",
-    title: "Premium Two-Piece Gift Box Project",
-    desc: "Classic lid and base rigid box featuring controlled air-friction fit, textured wrap and gold foil typography.",
+    tag: "APPLICATION REFERENCE",
+    title: "Premium Two-Piece Gift Box Reference",
+    desc: "Classic lid and base rigid box reference featuring a textured wrap and gold foil typography.",
     href: "/projects/premium-two-piece-gift-box-project/",
   },
   {
-    tag: "JEWELRY CASE STUDY",
-    title: "Jewelry Two-Piece Rigid Box Project",
-    desc: "Compact lift-off lid rigid box with precision velvet-lined insert, custom ring slits and gold foil branding.",
+    tag: "APPLICATION REFERENCE",
+    title: "Jewelry Two-Piece Rigid Box Reference",
+    desc: "Compact lift-off lid rigid box reference with velvet-lined insert, custom ring slits and gold foil branding.",
     href: "/projects/jewelry-two-piece-rigid-box-project/",
   },
 ];
@@ -111,8 +111,8 @@ const structure = [
   "Premium wrapping paper surface (Art / Specialty / Textured)",
   "Rigid greyboard core tailored to size requirements",
   "Separate lid and base construction (Full or Partial Telescope)",
-  "Controlled air-release friction fit",
-  "Custom-engineered product cavity insert",
+    "Lid depth and fit reviewed around the project",
+    "Insert material and layout selected around the product",
 ];
 
 const details = [
@@ -146,7 +146,7 @@ const applications = [
   {
     img: "/img/project-skincare.webp",
     title: "Cosmetics & Skincare",
-    desc: "Serums, creams and beauty gift collections.",
+    desc: "Cosmetic rigid gift boxes for serums, creams and beauty gift collections.",
     href: "/industries/cosmetic-packaging/",
   },
   {
@@ -170,15 +170,59 @@ const stats = [
   { value: "20 Years", label: "Production Experience" },
 ];
 
+const conceptReferences = [
+  { img: "/img/two-piece-rigid-box-floral-reference.png", type: "LID & BASE REFERENCE", title: "Classic Lid & Base Structure", alt: "Custom two-piece rigid lid and base gift box", caption: "Separate lid and base structure with a printed inner lining" },
+  { img: "/img/two-piece-rigid-box-style-guide.png", type: "STRUCTURE REFERENCE", title: "Box Structure Comparison", alt: "Packaging box structure guide with lid and base box styles", caption: "Structure comparison reference including lid and base, drawer and magnetic formats" },
+  { img: "/img/two-piece-rigid-box-premium-structure.png", type: "STRUCTURE REFERENCE", title: "Premium Two-Piece Structure", alt: "Luxury two-piece rigid presentation box with separate lid and base", caption: "Premium rigid presentation box with separate lid and base" },
+  { img: "/img/two-piece-rigid-box-material-selection.png", type: "MATERIAL SELECTION REFERENCE", title: "Material Selection", alt: "Material selection options for custom two-piece rigid boxes", caption: "Board, coated, kraft, specialty and metallic paper selection reference" },
+  { img: "/img/two-piece-rigid-box-finishing-options.png", type: "FINISHING REFERENCE", title: "Surface Finishing", alt: "Finishing options for two-piece rigid gift boxes", caption: "Lamination, foil, embossing, debossing, UV and texture reference" },
+  { img: "/img/two-piece-rigid-box-lining-options.png", type: "INSERT / LINING REFERENCE", title: "Insert & Lining Options", alt: "Insert and lining options for two-piece rigid gift boxes", caption: "Paper tray, EVA, sponge, plastic tray, satin, raffia and foam reference" },
+  { img: "/img/two-piece-rigid-box-color-artwork-guide.png", type: "ARTWORK / COLOR GUIDE", title: "Color & Artwork Preparation", alt: "Printing color and artwork guide for custom rigid packaging", caption: "CMYK, Pantone and editable artwork format reference" },
+  { img: "/img/two-piece-rigid-box-shoulder-neck-reference.png", type: "SHOULDER-NECK REFERENCE", title: "Shoulder-Neck Structure", alt: "Shoulder-neck rigid gift box structure reference", caption: "Raised inner neck creating a visible reveal line between lid and base" },
+  { img: "/img/two-piece-rigid-box-lid-base-overview.png", type: "LID & BASE REFERENCE", title: "Lid & Base Box Overview", alt: "Lid and base rigid box packaging overview", caption: "Lid and base box overview illustration; pictured claims are not certification evidence" },
+  { img: "/img/two-piece-rigid-box-perfume-application.png", type: "APPLICATION EXAMPLE", title: "Perfume Presentation Application", alt: "Luxury two-piece rigid box for perfume packaging", caption: "Perfume presentation application example using a two-piece rigid box" },
+];
+
 const processSteps = [
-  { title: "Material Preparation", sub: "Paper & board" },
-  { title: "Printing & Finishing", sub: "Brand artwork" },
-  { title: "Box Forming", sub: "Structure assembly" },
+  { title: "Design / Structure Review", sub: "Lid, base & neck" },
+  { title: "Sampling", sub: "Fit & insert review" },
+  { title: "Material Selection", sub: "Board & wrap" },
+  { title: "Printing", sub: "CMYK / Pantone" },
+  { title: "Lamination / Finishing", sub: "Foil / UV / texture" },
+  { title: "Die-Cutting", sub: "Components" },
+  { title: "Box Assembly", sub: "Lid, base & insert" },
   { title: "Quality Inspection", sub: "Appearance & fit" },
-  { title: "Global Delivery", sub: "Air / Sea / Express" },
 ];
 
 const faqs = [
+  {
+    q: "What is the difference between a two-piece rigid box and a magnetic rigid box?",
+    a: "A two-piece rigid box uses a separate lid and base, while a magnetic rigid box uses a hinged lid with magnetic closure.",
+  },
+  {
+    q: "What is a lid and base box?",
+    a: "A lid and base box is a two-piece structure with a separate top lid and bottom base. Lid depth and fit can be adjusted according to the packaging design.",
+  },
+  {
+    q: "What is a shoulder-neck rigid box?",
+    a: "A shoulder-neck box includes a raised inner neck between the base and lid, creating a more architectural presentation and visible reveal line.",
+  },
+  {
+    q: "Can two-piece rigid boxes be customized with a logo?",
+    a: "Yes. Suitable logo treatments can include printing, foil stamping, embossing, debossing, spot UV or other finishing according to the selected paper and artwork.",
+  },
+  {
+    q: "Can the insert be customized?",
+    a: "Yes. Insert material and layout can be developed according to product dimensions, weight, presentation and project requirements.",
+  },
+  {
+    q: "What information is needed for a quote?",
+    a: "Product or box dimensions, quantity, preferred structure, materials, finishing, insert requirements and destination are useful for quotation.",
+  },
+  {
+    q: "Can I order a sample before production?",
+    a: "Prototype or sample support is available for selected projects. Timing depends on structure, materials and finishing requirements.",
+  },
   {
     q: "Can I customize the box size and lid depth?",
     a: "Yes. Dimensions and lid depth (full telescope, partial telescope or shoulder neck style) are developed according to your product specifications.",
@@ -205,7 +249,23 @@ const faqs = [
   },
   {
     q: "Are two-piece rigid boxes suitable for premium products?",
-    a: "Yes. They provide a timeless, prestigious packaging solution for luxury products, gifts and retail brands.",
+    a: "Yes. They provide a structured presentation option for luxury products, gifts and retail brands.",
+  },
+  {
+    q: "What types of rigid lid boxes and set-up boxes can you develop?",
+    a: "Custom lid and base boxes, rigid lid boxes, lid & base gift boxes, set-up boxes, shoulder-neck boxes and rigid presentation boxes can be reviewed according to the product and opening experience.",
+  },
+  {
+    q: "Do you supply luxury rigid gift boxes and two-piece gift boxes with logo?",
+    a: "Yes. Luxury rigid gift boxes and two-piece gift boxes with logo can be developed with printing, foil, embossing, debossing or spot UV based on approved artwork.",
+  },
+  {
+    q: "Can a rigid box manufacturer or rigid box supplier support wholesale orders?",
+    a: "A rigid box manufacturer or rigid box supplier can review wholesale rigid gift boxes based on quantity, board, wrap paper, inserts, finishing and destination.",
+  },
+  {
+    q: "Are these suitable for jewelry presentation boxes, perfume presentation boxes and cosmetic rigid gift boxes?",
+    a: "Yes. Jewelry presentation boxes, perfume presentation boxes and cosmetic rigid gift boxes can use separate lid and base structures with project-dependent inserts and finishing.",
   },
 ];
 
@@ -328,6 +388,52 @@ export default function TwoPieceRigidBoxesPage() {
         </div>
       </section>
 
+      {/* ---------- Structure & Reference Library ---------- */}
+      <section className="mrb-section soft" id="structure">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">WHAT IS A TWO-PIECE RIGID BOX?</span>
+            <h2>Lid &amp; Base Structures for Premium Presentation</h2>
+            <p>A two-piece rigid box uses a separate lid and base to create a clean presentation structure. Lid depth, fit, insert clearance, paper selection and finishing are confirmed around the product and project requirements.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            <article className="mrb-feature"><strong>01</strong><h3>Lid &amp; Base Structure</h3><p>Separate top lid and bottom base with full-depth or partial-depth lid options, controlled fit and compatibility with the selected insert.</p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Shoulder-Neck Structure</h3><p>A raised inner neck between the lid and base creates an architectural presentation and a visible reveal line when closed.</p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Buyer Decision</h3><p>Choose a two-piece rigid box when a clean lid-and-base presentation, controlled opening fit and premium reveal are important. Final lid depth, shoulder height, insert clearance and paper selection should be confirmed during sampling.</p></article>
+          </div>
+          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">GENERATED REFERENCE IMAGE LIBRARY</span><h2>Structure, Materials, Finishing &amp; Artwork References</h2><p>All images below are generated or optimized reference images only. They are not real customer projects, client cases, production samples, factory photos, certifications or shipped orders.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Procurement Options ---------- */}
+      <section className="mrb-section" id="options">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">MATERIALS, FINISHING, INSERTS &amp; ARTWORK</span><h2>Build the Two-Piece Rigid Box Around the Product</h2><p>Each option is selected according to product dimensions, weight, presentation, artwork and project requirements.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            <article className="mrb-feature"><strong>01</strong><h3>Material Selection</h3><p>Greyboard / rigid board, specialty paper, coated paper, art paper, kraft paper where appropriate and metallic or holographic paper where suitable.</p><p><a href="/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/">Paper Types Guide →</a></p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Surface Finishing</h3><p>Matte or gloss lamination, foil stamping, embossing, debossing, spot UV / high-gloss UV, texture effects and custom logo treatments can be reviewed.</p><p><a href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Comparison →</a></p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Insert &amp; Lining Options</h3><p>Paper tray, EVA, sponge foam, plastic tray, paperboard insert, satin, raffia and foam can be considered according to product dimensions and presentation.</p><p><a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Comparison →</a></p><p><a href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a></p></article>
+            <article className="mrb-feature"><strong>04</strong><h3>Color &amp; Artwork Preparation</h3><p>CMYK supports process printing; Pantone (PMS) color matching is based on approved artwork and production specifications. Artwork is reviewed before sampling and editable/vector formats can be supplied where applicable.</p><p><a href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK Guide →</a></p></article>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Structure Comparison ---------- */}
+      <section className="mrb-section soft" id="comparison">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE COMPARISON</span><h2>Two-Piece vs Drawer vs Magnetic Packaging</h2><p>Compare the opening direction, presentation reveal and structural requirements before preparing an RFQ.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature"><h3>Two-Piece / Lid &amp; Base</h3><p>Separate top lid and bottom base for a clean lift-off reveal and flexible insert layout.</p></article>
+            <article className="mrb-feature"><h3>Drawer Box</h3><p>Sliding tray and outer sleeve for a directional opening experience.</p><p><a href="/products/drawer-boxes/">Explore Drawer Boxes →</a></p></article>
+            <article className="mrb-feature"><h3>Magnetic Rigid Box</h3><p>Hinged lid with magnetic closure for a connected opening experience.</p><p><a href="/products/magnetic-rigid-boxes/">Explore Magnetic Boxes →</a></p></article>
+            <article className="mrb-feature"><h3>Foldable Magnetic Box</h3><p>Foldable construction with magnetic closure where logistics and presentation requirements suit the project.</p><p><a href="/products/foldable-magnetic-rigid-boxes/">Explore Foldable Magnetic Boxes →</a></p></article>
+          </div>
+        </div>
+      </section>
+
       {/* ---------- Industry Solutions ---------- */}
       <section className="mrb-section soft" id="solutions">
         <div className="container">
@@ -386,13 +492,13 @@ export default function TwoPieceRigidBoxesPage() {
         </div>
       </section>
 
-      {/* ---------- Capability Projects ---------- */}
+      {/* ---------- Capability References ---------- */}
       <section className="mrb-section soft" id="projects">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">FEATURED CASE STUDIES</span>
-            <h2>Two-Piece Box Capability Projects</h2>
-            <p>Explore real capability-based packaging case studies developed for retail and fine jewelry.</p>
+            <span className="eyebrow dark">CAPABILITY REFERENCES</span>
+            <h2>Two-Piece Box Application References</h2>
+            <p>Explore capability-oriented packaging references for retail, jewelry and gifting. These linked pages are not claims that the pictured concepts are customer projects or shipped orders.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
             {twoPieceProjects.map((p) => (
@@ -478,15 +584,14 @@ export default function TwoPieceRigidBoxesPage() {
       <section className="mrb-section dark">
         <div className="container mrb-video-grid">
           <div>
-            <span className="mrb-eyebrow">REAL PRODUCTION</span>
+            <span className="mrb-eyebrow">WORKFLOW ILLUSTRATION</span>
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
               From Material to Finished Box
             </h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
-              Precision die-cutting, corner taping, wrapping and automated lid forming
-              ensure crisp edges and consistent fit.
+              A typical workflow can include structure review, sampling, material selection, printing, finishing, assembly and quality inspection. Exact steps depend on the selected structure and project requirements.
             </p>
-            <div className="mrb-process-5" style={{ marginTop: 26 }}>
+            <div className="mrb-process-5" style={{ marginTop: 26, gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))" }}>
               {processSteps.map((s, i) => (
                 <div className="mrb-step" key={s.title}>
                   <span>{String(i + 1).padStart(2, "0")}</span>
