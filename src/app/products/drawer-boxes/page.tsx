@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "Custom Drawer Boxes Manufacturer & Supplier | SORIVA Packaging",
   },
   description:
-    "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
+    "Custom rigid drawer boxes with sliding trays, ribbon pulls, tailored inserts and premium finishing for jewelry, perfume, cosmetics and gift packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -41,7 +41,7 @@ const customizationPillars = [
   {
     num: "01",
     title: "Custom Sizes & Proportions",
-    desc: "Engineered Length × Width × Height dimensions tailored precisely to your product dimensions and insert clearance.",
+    desc: "Length × Width × Height dimensions are developed around product dimensions, tray clearance and insert layout.",
     href: "/resources/how-to-measure-product-for-custom-box-packaging/",
     linkText: "Measurement Guide →",
   },
@@ -55,14 +55,14 @@ const customizationPillars = [
   {
     num: "03",
     title: "Custom Paper Materials",
-    desc: "Coated art paper, dyed black card, kraft paper, soft-touch sheets, pearlized stock and tactile specialty textured wraps.",
+    desc: "Specialty paper, printed paper, art paper, kraft paper where appropriate, soft-touch sheets, pearlized stock and tactile textured wraps.",
     href: "/resources/luxury-packaging-paper-types-art-paper-vs-specialty-paper-vs-kraft/",
     linkText: "Paper Types Guide →",
   },
   {
     num: "04",
     title: "Custom Product Inserts",
-    desc: "Precision cut EVA foam, velvet-flocked trays, structured paperboard, molded pulp and custom divider compartments.",
+    desc: "Paperboard, EVA, EPE foam, sponge foam, molded pulp where suitable, satin or fabric presentation and custom divider compartments.",
     href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
     linkText: "Insert Comparison Guide →",
   },
@@ -83,43 +83,51 @@ const customizationPillars = [
   {
     num: "07",
     title: "Custom Pull Tabs & Ribbons",
-    desc: "Grosgrain ribbons, satin pull loops, half-moon thumb cuts, metal ring pulls and custom-branded woven tags.",
+    desc: "Ribbon pulls, satin loops, half-moon thumb cuts, metal ring pulls and woven tags can be considered according to the box size and structure.",
   },
 ];
 
 const structureDetails = [
   {
     title: "Outer Rigid Sleeve",
-    desc: "Formed with rigid greyboard wrapped in premium paper; creates a seamless 3-sided enclosure with smooth sliding tolerance.",
+    desc: "An outer sleeve formed with rigid greyboard and wrapped paper; sleeve tolerance is reviewed around the inner tray and project requirements.",
   },
   {
     title: "Inner Sliding Tray",
-    desc: "Sturdy tray construction designed to hold custom inserts securely and glide effortlessly upon opening.",
+    desc: "An inner sliding tray designed around the selected insert, product dimensions and opening experience.",
   },
   {
     title: "Pull Mechanism",
-    desc: "Satin ribbon loops, grosgrain tabs, embedded fabric pulls or notch cuts engineered for ergonomic extraction.",
+    desc: "Satin ribbon loops, grosgrain tabs, embedded fabric pulls or notch cuts can be selected for the intended opening experience.",
   },
   {
     title: "Custom Insert Nesting",
-    desc: "Tailored cavity cutouts holding jewelry, cosmetics, fragrance bottles or accessories flush with the tray rim.",
+    desc: "Tailored cavity layouts can hold jewelry, cosmetics, fragrance bottles or accessories according to product and presentation requirements.",
+  },
+  {
+    title: "Opening Options",
+    desc: "Ribbon pull, finger-notch and other pull-tab solutions can be considered according to the tray size and opening experience.",
+  },
+  {
+    title: "Format Options",
+    desc: "Matchbox-style, long-format and premium sleeve-and-tray proportions can be developed for the intended product presentation.",
   },
 ];
 
 const sizeGuide = [
   {
     category: "Small (Jewelry / Rings / Watches)",
-    dimensions: "80 × 80 × 35 mm / 100 × 100 × 40 mm",
+    dimensions: "Reference proportions only",
     idealFor: "Rings, earrings, pendants, luxury watches, cufflinks and delicate jewelry sets.",
   },
   {
     category: "Medium (Cosmetics / Perfume / Gifts)",
-    dimensions: "150 × 100 × 50 mm / 180 × 120 × 60 mm",
+    dimensions: "Reference proportions only",
     idealFor: "Skincare serums, luxury perfume bottles, compact palettes, scented candles and gift cards.",
   },
   {
     category: "Large (Apparel / Presentation Sets)",
-    dimensions: "240 × 180 × 70 mm / 300 × 220 × 80 mm",
+    dimensions: "Reference proportions only",
     idealFor: "Silk scarves, designer accessories, eyewear cases, multi-product corporate gift sets and VIP launch kits.",
   },
   {
@@ -160,11 +168,11 @@ const materials = [
   },
   {
     name: "Dyed Black Cardstock",
-    features: "Solid black core stock throughout; eliminates white edge creasing, perfect for metallic foil and gloss spot UV.",
+    features: "Solid black core stock selected for the artwork, edge appearance and finishing requirements of the project.",
   },
   {
     name: "Natural Kraft Paper",
-    features: "Durable organic brown or bleached white kraft paper delivering a clean, contemporary aesthetic with high tear resistance.",
+    features: "Organic brown or bleached white kraft paper for selected projects where a natural visual direction is required.",
   },
   {
     name: "Metallic & Pearlized Card",
@@ -179,13 +187,13 @@ const materials = [
 const insertOptions = [
   {
     name: "High-Density EVA Foam",
-    desc: "Precision CNC-cut or die-cut foam offering impact protection; available with white, black, grey or velvet-flocked tops.",
+    desc: "EVA foam can be selected for shaped cavities and presentation requirements; color and surface treatment depend on the project.",
     href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
     linkText: "EVA vs Paperboard Guide →",
   },
   {
     name: "Velvet-Covered Trays",
-    desc: "Luxury flocked thermoformed or foam inserts that protect delicate polished metals, crystals and glass from scratching.",
+    desc: "Velvet-covered trays can be considered for delicate products where a soft presentation surface is required.",
   },
   {
     name: "Folded Paperboard Inserts",
@@ -193,7 +201,7 @@ const insertOptions = [
   },
   {
     name: "Custom Molded Pulp Trays",
-    desc: "Engineered wet-press molded sugarcane or bamboo fiber inserts offering organic contours and sustainable luxury appeal.",
+    desc: "Molded pulp trays can be considered where the product, layout and material direction suit the project.",
     href: "/resources/molded-pulp-vs-eva-sustainable-packaging-inserts/",
     linkText: "Molded Pulp vs EVA Guide →",
   },
@@ -210,15 +218,15 @@ const finishingOptions = [
   },
   {
     title: "Embossing & Debossing",
-    desc: "Multi-level 3D raised or pressed relief creating subtle textural branding on the outer sleeve or tray rim.",
+    desc: "Raised or pressed relief can add textural branding on the outer sleeve or tray rim, subject to artwork and material selection.",
   },
   {
     title: "Gloss Spot UV Coating",
-    desc: "High-shine selective polymer coating creating high-contrast graphic patterns over a velvet matte lamination.",
+    desc: "Selective gloss spot UV can create contrast over a suitable matte or printed surface according to the artwork.",
   },
   {
     title: "Soft-Touch Matte Lamination",
-    desc: "Velvety smooth tactile barrier coating that prevents scuffing and enhances the overall handling feel.",
+    desc: "Soft-touch matte lamination selected according to the artwork, paper and handling requirements of the project.",
   },
   {
     title: "Matte Surface Lamination",
@@ -269,37 +277,74 @@ const applications = [
   },
 ];
 
+const conceptReferences = [
+  {
+    img: "/img/drawer-box-structure-reference.png",
+    type: "STRUCTURE REFERENCE",
+    title: "Custom Drawer Box Structure",
+    alt: "Custom rigid drawer box with ribbon pull tab",
+    caption: "Custom rigid drawer box with ribbon pull and sliding tray structure",
+  },
+  {
+    img: "/img/drawer-box-minimal-structure-reference.png",
+    type: "STRUCTURE REFERENCE",
+    title: "Minimal Drawer Box Structure",
+    alt: "Minimal rigid drawer gift box with sliding tray",
+    caption: "Minimal two-piece rigid drawer box with sliding tray",
+  },
+  {
+    img: "/img/drawer-box-jewelry-application.png",
+    type: "APPLICATION EXAMPLE",
+    title: "Jewelry & Watch Application",
+    alt: "Custom drawer box for jewelry and watch packaging",
+    caption: "Drawer-style rigid box for jewelry and watch presentation",
+  },
+  {
+    img: "/img/drawer-box-ribbon-pull-reference.png",
+    type: "RIBBON PULL REFERENCE",
+    title: "Ribbon Pull Detail",
+    alt: "Luxury rigid drawer box with ribbon pull",
+    caption: "Long-format rigid drawer box with ribbon pull tab",
+  },
+  {
+    img: "/img/drawer-box-application-grid.png",
+    type: "APPLICATION EXAMPLE",
+    title: "Applications & Packaging Ideas",
+    alt: "Custom drawer box packaging application examples",
+    caption: "Drawer box application references for jewelry, cosmetics, perfume, fashion and gifting",
+  },
+  {
+    img: "/img/drawer-box-materials-finishes-reference.png",
+    type: "MATERIALS & FINISHES REFERENCE",
+    title: "Materials & Finishes",
+    alt: "Materials and finishing options for custom drawer boxes",
+    caption: "Paper materials and finishing options for custom drawer boxes",
+  },
+  {
+    img: "/img/drawer-box-print-finishing-options.png",
+    type: "MATERIALS & FINISHES REFERENCE",
+    title: "Print & Surface Finishing",
+    alt: "Printing and finishing options for rigid drawer boxes",
+    caption: "Print and surface finishing references for rigid drawer packaging",
+  },
+  {
+    img: "/img/drawer-box-production-workflow.png",
+    type: "WORKFLOW ILLUSTRATION",
+    title: "Production Workflow",
+    alt: "Drawer box production workflow illustration",
+    caption: "Illustrated workflow from design review to quality inspection for drawer boxes",
+  },
+];
+
 const processSteps = [
-  {
-    num: "01",
-    title: "Send Product Details",
-    desc: "Share product dimensions, weight, preferred box style, quantity, artwork and insert preference.",
-  },
-  {
-    num: "02",
-    title: "Structure & Insert Dieline",
-    desc: "We engineer the sleeve-to-tray clearance, board thickness, insert cutout tolerances and provide vector dielines.",
-  },
-  {
-    num: "03",
-    title: "Quotation & Specification",
-    desc: "Transparent price quotation based on quantity tiers, paper selection, printing methods, finishes and shipping terms.",
-  },
-  {
-    num: "04",
-    title: "Prototyping & Sampling",
-    desc: "Physical sample manufactured to verify sliding smoothness, insert fit, print color fidelity and finishing.",
-  },
-  {
-    num: "05",
-    title: "Mass Production & QC",
-    desc: "Automated board cutting, precision printing, lamination, die-cutting, tray assembly and 100% manual inspection.",
-  },
-  {
-    num: "06",
-    title: "Packing & Global Delivery",
-    desc: "Protective carton packing with corner guards; shipped via Sea, Air or Express to your warehouse or fulfillment center.",
-  },
+  { num: "01", title: "Design / Structure Review", desc: "Review product dimensions, opening experience, sleeve-to-tray structure and artwork requirements." },
+  { num: "02", title: "Sampling", desc: "Prototype or sample support can be used to review tray fit, insert layout, artwork and finishing." },
+  { num: "03", title: "Material Selection", desc: "Select paper, board, insert and pull-tab options according to the project." },
+  { num: "04", title: "Printing", desc: "Prepare CMYK artwork or Pantone color matching based on approved artwork and production specifications." },
+  { num: "05", title: "Lamination / Finishing", desc: "Review matte or gloss lamination, foil, embossing, debossing and spot UV options." },
+  { num: "06", title: "Die-Cutting", desc: "Cut sleeve, tray and insert components according to the reviewed structure." },
+  { num: "07", title: "Box Assembly", desc: "Assemble the sleeve, tray, pull mechanism and selected insert layout." },
+  { num: "08", title: "Quality Inspection", desc: "Review appearance, dimensions, structure, sliding fit and finishing before packing." },
 ];
 
 const stats = [
@@ -311,20 +356,36 @@ const stats = [
 
 const faqs = [
   {
-    q: "What is a drawer box?",
-    a: "A drawer box (also known as a slide box or matchbox style rigid box) consists of an outer rigid sleeve and an inner sliding tray. The structure can be fully customized in size, materials, inserts, pull ribbons and finishing.",
+    q: "What is the difference between a drawer box and a two-piece rigid box?",
+    a: "A drawer box uses a sliding inner tray and outer sleeve, while a two-piece rigid box typically uses a separate lid and base. The best structure depends on product shape, presentation and opening experience.",
   },
   {
-    q: "Can drawer boxes be customized to my exact product size?",
-    a: "Yes. The outer sleeve, inner tray and custom insert are custom-engineered around your exact product dimensions, orientation and unboxing presentation requirements.",
+    q: "Can drawer boxes be customized with a logo?",
+    a: "Yes. Logo treatments can include printing, foil stamping, embossing, debossing or suitable finishing depending on paper and artwork.",
+  },
+  {
+    q: "Can I add a ribbon pull?",
+    a: "Yes. Ribbon pulls or other pull-tab solutions can be considered depending on the box size and structure.",
+  },
+  {
+    q: "What information is needed for a quote?",
+    a: "Product or box dimensions, quantity, preferred structure, materials, printing or finishing, insert requirements and destination are useful for quotation.",
+  },
+  {
+    q: "What is a drawer box?",
+    a: "A drawer box (also known as a slide box or matchbox style rigid box) consists of an outer rigid sleeve and an inner sliding tray. The structure can be customized in size, materials, inserts, pull ribbons and finishing according to the project.",
+  },
+  {
+    q: "Can drawer boxes be customized to my product size?",
+    a: "Yes. The outer sleeve, inner tray and custom insert are developed around product dimensions, orientation and presentation requirements.",
   },
   {
     q: "What insert materials are available for drawer boxes?",
-    a: "Common options include precision-cut EVA foam, velvet-flocked trays, structured paperboard dividers, custom molded pulp and thermoformed inserts depending on protection and sustainability requirements.",
+    a: "Options can include paperboard, EVA, EPE foam, sponge foam, molded pulp, satin or fabric presentation depending on product dimensions, weight, presentation and project requirements.",
   },
   {
     q: "Can I customize the pull tab, ribbon or handle?",
-    a: "Yes. We offer satin ribbon loops, grosgrain tabs, embedded fabric pulls, half-moon thumb cuts and custom-branded woven tags to ensure smooth and stylish opening.",
+    a: "Yes. Satin ribbon loops, grosgrain tabs, embedded fabric pulls, half-moon thumb cuts and woven tags can be considered according to the box size and structure.",
   },
   {
     q: "Can you match specific Pantone (PMS) brand colors?",
@@ -336,11 +397,11 @@ const faqs = [
   },
   {
     q: "Can I order a physical sample before mass production?",
-    a: "Yes. 1 pc prototype or pre-production sample is available for custom projects to confirm sliding smoothness, insert snugness, material quality and printing before mass manufacturing.",
+    a: "Prototype or pre-production sample support is available for selected projects to review tray fit, insert layout, materials and printing before production.",
   },
   {
     q: "What is the MOQ for custom drawer boxes?",
-    a: "Selected custom drawer box projects can start from around 100 pcs. The optimal production quantity depends on box size, board thickness, paper selection, insert complexity and finishing techniques.",
+    a: "Selected custom drawer box projects can start from 100 pcs. Quantity depends on box size, board selection, paper, insert complexity and finishing requirements.",
   },
 ];
 
@@ -354,22 +415,13 @@ const structuredData = {
       description:
         "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        price: "1.20",
-        lowPrice: "0.50",
-        highPrice: "4.50",
-        offerCount: "1000",
-        availability: "https://schema.org/InStock",
-      },
       url: PAGE_URL,
     },
     {
       "@type": "Service",
       name: "Custom Drawer Box Manufacturing",
       description:
-        "OEM/ODM custom rigid drawer box manufacturing and supply for jewelry, cosmetics, perfume, accessories and luxury corporate gifting brands.",
+        "Custom rigid drawer box manufacturing and supply for jewelry, cosmetics, perfume, accessories and corporate gift packaging projects.",
       url: PAGE_URL,
       serviceType: "Custom Rigid Packaging Manufacturing",
       provider: {
@@ -474,8 +526,7 @@ export default function DrawerBoxesPage() {
             <span className="eyebrow dark">STRUCTURAL ENGINEERING</span>
             <h2>How Drawer Box Packaging Works</h2>
             <p>
-              Drawer boxes (slide-style rigid boxes) combine a rigid outer sleeve with an inner
-              sliding tray, creating a theatrical reveal while ensuring structural protection.
+              A drawer box uses an outer sleeve with a sliding inner tray to create a controlled reveal during opening. It is commonly selected for jewelry, perfume, cosmetics, accessories and gift packaging where presentation and insert layout are important.
             </p>
           </div>
           <div className="mrb-features">
@@ -493,6 +544,26 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
+      {/* Reference images: generated structure/application/process guidance only */}
+      <section className="mrb-section soft" id="references">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE, APPLICATION &amp; PROCESS REFERENCES</span><h2>Drawer Box Packaging Reference Guides</h2><p>These generated or optimized images are reference illustrations only. They are not real customer projects, factory photos, production samples or shipped orders.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+          </div>
+        </div>
+      </section>
+
+      {/* Generated reference imagery: structure, application, materials and workflow only */}
+      <section className="mrb-section soft" id="references">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Drawer Box Structure, Application &amp; Workflow References</h2><p>All images in this section are generated or optimized reference illustrations only. They are not real customer cases, factory photos, production samples or shipped orders, and pictured equipment is not claimed as verified factory equipment.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+          </div>
+        </div>
+      </section>
+
       {/* 2. Customization Overview */}
       <section className="mrb-section soft">
         <div className="container">
@@ -500,8 +571,7 @@ export default function DrawerBoxesPage() {
             <span className="eyebrow dark">CUSTOMIZATION OVERVIEW</span>
             <h2>Customize Every Detail of Your Drawer Boxes</h2>
             <p>
-              From core board density and wrap papers to custom-molded inserts and pull tabs, every
-              component is tailored to your brand specifications.
+              From specialty paper and board selection to inserts, pull tabs and finishing, drawer box components are developed according to the product, brand artwork and project requirements.
             </p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
@@ -539,7 +609,7 @@ export default function DrawerBoxesPage() {
               <thead>
                 <tr>
                   <th>Category</th>
-                  <th>Standard Reference Proportions (L × W × H)</th>
+                  <th>Reference Proportions Only (L × W × H)</th>
                   <th>Typical Industry Applications</th>
                 </tr>
               </thead>
@@ -716,8 +786,7 @@ export default function DrawerBoxesPage() {
               <h2>CMYK Process &amp; Pantone Color Matching</h2>
             </div>
             <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
-              Whether you need rich full-color graphics or exact corporate brand colors across both
-              the outer sleeve and inner tray:
+              Whether you need rich full-color graphics or Pantone (PMS) color matching based on approved artwork and production specifications across the outer sleeve and inner tray:
             </p>
             <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
               <li>
@@ -725,8 +794,7 @@ export default function DrawerBoxesPage() {
                 illustrations, photographic imagery and multi-color artwork.
               </li>
               <li>
-                <strong>Pantone (PMS) Spot Colors:</strong> Precise ink formulation for brand-critical
-                solid colors, logos and consistent repeat runs.
+                <strong>Pantone (PMS) Color Matching:</strong> Color matching is based on approved artwork and production specifications.
               </li>
               <li>
                 <strong>Inner Tray Printing:</strong> Contrast color flooding or branded patterns
@@ -798,8 +866,7 @@ export default function DrawerBoxesPage() {
             <span className="eyebrow dark">APPLICATIONS</span>
             <h2>Drawer Boxes for Different Industries</h2>
             <p>
-              Widely chosen by luxury brands across fine jewelry, cosmetics, perfume, designer fashion
-              accessories and executive corporate gifts.
+              Application examples include jewelry, watches, cosmetics, perfume, fashion accessories, candles and corporate gift packaging. The generated image references on this page illustrate possibilities and are not customer project claims.
             </p>
           </div>
           <div className="mrb-apps">
@@ -831,8 +898,7 @@ export default function DrawerBoxesPage() {
             <span className="eyebrow dark">ORDER PROCESS</span>
             <h2>From Structure Review to Mass Production</h2>
             <p>
-              Our step-by-step OEM / ODM workflow ensures smooth communication, precision sampling
-              and dependable bulk delivery.
+              A project workflow can include structure review, sampling, material selection, printing, finishing, assembly and quality inspection. Exact steps depend on the selected structure and requirements.
             </p>
           </div>
           <div className="mrb-process">
@@ -854,8 +920,7 @@ export default function DrawerBoxesPage() {
             <span className="eyebrow dark">FACTORY CAPABILITY</span>
             <h2>Custom Packaging Support for Global Buyers</h2>
             <p>
-              Backed by robust manufacturing infrastructure, experienced paper-box craftsmen and
-              strict QC tolerances before international dispatch.
+              Review the factory capability page for general production, quality-control and packing information. Any pictured equipment or process illustration should be treated as reference unless separately verified.
             </p>
           </div>
           <div className="mrb-stats">
@@ -868,7 +933,7 @@ export default function DrawerBoxesPage() {
           </div>
           <div style={{ textAlign: "center", marginTop: 24 }}>
             <a href="/factory/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 600 }}>
-              Tour our factory facilities &amp; QC verification →
+              Review Factory Production &amp; QC Information →
             </a>
           </div>
         </div>
@@ -913,13 +978,13 @@ export default function DrawerBoxesPage() {
           {
             tag: "Materials & Structure",
             title: "Rigid Greyboard Thickness Guide for Custom Boxes",
-            desc: "A buyer guide to choosing greyboard thickness for rigid sliding drawer boxes and structural rigidity.",
+             desc: "A buyer guide to selecting greyboard thickness according to box dimensions, product weight and structural requirements.",
             href: "/resources/rigid-greyboard-thickness-guide-custom-boxes/",
           },
           {
             tag: "MOQ & Pricing",
             title: "How Custom Packaging MOQ Affects Unit Cost",
-            desc: "Learn how order quantity affects tooling, sleeve folding setup and overall custom drawer box costs.",
+             desc: "Learn which project factors contribute to custom drawer box cost, including quantity, materials, inserts and finishing.",
             href: "/resources/how-custom-packaging-moq-affects-unit-cost/",
           },
         ]}
