@@ -10,9 +10,9 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/tube-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Tube Packaging Manufacturer | Paper Tube Boxes",
+  title: "Custom Paper Tube Packaging Manufacturer | SORIVA Packaging",
   description:
-    "Custom paper tube packaging for cosmetics, perfume, candles, tea and premium gifts. Custom sizes, inserts and luxury finishes. MOQ from 100 pcs.",
+    "Custom paper tube packaging with telescopic, shoulder-neck and cylindrical structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, candles and gifts.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Tube Packaging | SORIVA Packaging",
     description:
-      "Premium cylindrical paper packaging developed around your product size, retail presentation and branding requirements. MOQ from 100 pcs.",
+      "Custom paper tube packaging developed around product size, retail presentation, branding requirements and project-dependent inserts.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -68,22 +68,12 @@ const specs = [
 ];
 
 const structures = [
-  {
-    title: "Classic Paper Tube",
-    desc: "Clean cylindrical packaging for cosmetics, tea and gifts.",
-  },
-  {
-    title: "Telescopic Tube",
-    desc: "Separate lid and base for premium presentation.",
-  },
-  {
-    title: "Shoulder-Neck Tube",
-    desc: "Inner shoulder construction for refined opening and fit.",
-  },
-  {
-    title: "Custom Insert Tube",
-    desc: "Internal support for bottles, jars and fragile products.",
-  },
+  { title: "Telescopic Tube", desc: "A lid overlaps the base to create a defined cylindrical opening." },
+  { title: "Shoulder-Neck Tube", desc: "An inner raised section creates a clear reveal and alignment between lid and base." },
+  { title: "Full-Cover Tube", desc: "A full-cover structure can be reviewed for the intended product presentation." },
+  { title: "Two-Piece Tube", desc: "Separate lid and base construction for a clean presentation format." },
+  { title: "Rolled-Edge Tube", desc: "A rolled edge can be selected where the opening and tactile detail suit the project." },
+  { title: "Flat-Edge / Window Tube", desc: "Flat-edge or window / hollow structures can be considered where suitable." },
 ];
 
 const applications = [
@@ -109,13 +99,30 @@ const applications = [
   },
 ];
 
+const conceptReferences = [
+  { img: "/img/tube-packaging-customization-printing-guide.png", type: "CUSTOMIZATION REFERENCE", title: "Customization, Printing & Materials", alt: "Custom paper tube packaging printing and material guide", caption: "Customization flow, printing finishes, paper materials and artwork file guidance" },
+  { img: "/img/tube-packaging-custom-size-guide.png", type: "CUSTOM SIZE GUIDE", title: "Diameter & Height Planning", alt: "Custom paper tube diameter and height size guide", caption: "Custom diameter and height planning around the product and required fit" },
+  { img: "/img/tube-packaging-decorative-materials-reference.jpg", type: "MATERIALS REFERENCE", title: "Decorative Options & Materials", alt: "Decorative and material options for custom paper tubes", caption: "Decorative pulls, ribbons and paper materials as project-dependent options" },
+  { img: "/img/tube-packaging-application-grid.jpg", type: "APPLICATION EXAMPLE", title: "Tube Packaging Applications", alt: "Custom paper tube packaging application examples", caption: "Application examples for cylindrical packaging across product categories" },
+  { img: "/img/tube-packaging-black-gold-reference.jpg", type: "STRUCTURE REFERENCE", title: "Premium Tube Structure", alt: "Premium black and gold paper tube packaging reference", caption: "Premium black and metallic tube structure reference" },
+  { img: "/img/tube-packaging-kraft-closed-end-reference.jpg", type: "STRUCTURE REFERENCE", title: "Kraft Closed-End Tube", alt: "Kraft paper tube closed-end structure reference", caption: "Kraft paper tube with a closed-end construction reference" },
+  { img: "/img/tube-packaging-kraft-open-end-reference.jpg", type: "STRUCTURE REFERENCE", title: "Kraft Open-End Tube", alt: "Kraft paper tube open-end structure reference", caption: "Kraft paper tube open-end construction reference" },
+  { img: "/img/tube-packaging-structure-customization-reference.jpg", type: "CUSTOMIZATION REFERENCE", title: "Structure & Closure Options", alt: "Custom paper tube structure and closure options", caption: "Shape, edge and closure customization reference" },
+  { img: "/img/tube-packaging-print-color-reference.jpg", type: "PRINTING & FINISHING REFERENCE", title: "Printing Technology & Color", alt: "Paper tube printing and custom color options", caption: "Foil, embossing, debossing, UV, lamination and color reference" },
+  { img: "/img/tube-packaging-various-styles-reference.jpg", type: "PRINTING & FINISHING REFERENCE", title: "Tube Styles & Printing", alt: "Various custom paper tube packaging styles", caption: "Various tube styles, printing and Pantone color reference" },
+  { img: "/img/tube-packaging-inner-material-options.jpg", type: "INSERT / LINING REFERENCE", title: "Inner Material & Insert Options", alt: "Inner material options for custom paper tube packaging", caption: "Inner material and insert concepts for different presentation requirements" },
+  { img: "/img/tube-packaging-lining-material-reference.jpg", type: "INSERT / LINING REFERENCE", title: "Lining Material Options", alt: "Paper tube inner lining material options", caption: "White, kraft, coated, black, aluminum foil and other lining references" },
+];
+
 const processSteps = [
-  { title: "Size & Structure", sub: "Dimensions approval" },
-  { title: "Tube Core", sub: "Paperboard wall" },
+  { title: "Design / Structure Review", sub: "Diameter, height & lid" },
+  { title: "Sampling", sub: "Fit & insert review" },
+  { title: "Material Selection", sub: "Board, wrap & lining" },
   { title: "Printing", sub: "CMYK / Pantone" },
   { title: "Finishing", sub: "Foil / Emboss / UV" },
+  { title: "Tube Forming", sub: "Cylindrical structure" },
   { title: "Assembly", sub: "Lid, insert & wrap" },
-  { title: "QC & Packing", sub: "Inspection" },
+  { title: "Quality Inspection", sub: "Appearance & fit" },
 ];
 
 const stats = [
@@ -127,12 +134,60 @@ const stats = [
 
 const faqs = [
   {
+    q: "What sizes can paper tube packaging be made in?",
+    a: "Diameter and height can be customized according to the product dimensions, insert requirements and desired fit. Final dimensions should be confirmed during sampling.",
+  },
+  {
+    q: "What is the difference between telescopic and shoulder-neck tube packaging?",
+    a: "A telescopic tube typically uses a lid that overlaps the base, while a shoulder-neck tube uses an inner raised section to create a defined reveal and alignment between lid and base.",
+  },
+  {
+    q: "Can paper tubes be customized with a logo?",
+    a: "Yes. Suitable options can include printing, foil stamping, embossing, debossing, spot UV or other finishing based on the selected paper and artwork.",
+  },
+  {
+    q: "Can I customize the inside of the tube?",
+    a: "Yes. Inner lining and insert options can be selected according to the product dimensions, presentation and project requirements.",
+  },
+  {
+    q: "Are custom paper tubes suitable for perfume, cosmetics and candles?",
+    a: "They can be suitable for these applications when the tube dimensions, lining, insert and structure are developed for the specific product.",
+  },
+  {
+    q: "What information is needed for a quote?",
+    a: "Product or tube dimensions, quantity, structure, materials, printing or finishing, insert requirements and destination are useful for quotation.",
+  },
+  {
+    q: "Can I order a sample before production?",
+    a: "Prototype or sample support is available for selected projects. Timing depends on structure, materials and finishing requirements.",
+  },
+  {
+    q: "What is the difference between paper tube packaging, cardboard tube packaging and rigid paper tubes?",
+    a: "These terms describe cylindrical paperboard packaging formats. Final construction, wall build, lining and closure are selected according to the product and project requirements.",
+  },
+  {
+    q: "Do you support custom tube packaging and custom paper tubes with a logo?",
+    a: "Yes. A tube packaging manufacturer or tube packaging supplier can review custom tube packaging, custom paper tubes and custom tube boxes with logo using approved artwork and suitable printing or finishing.",
+  },
+  {
+    q: "Can you supply wholesale paper tubes?",
+    a: "Wholesale paper tubes can be reviewed according to quantity, diameter, height, materials, structure, inserts, finishing and destination.",
+  },
+  {
+    q: "Do you make paper tube boxes and rigid paper tubes?",
+    a: "A paper tube manufacturer can develop paper tube boxes and rigid paper tubes in cylindrical formats with project-dependent wall build, lining, closure and finishing.",
+  },
+  {
+    q: "What does a paper tube manufacturer or tube packaging supplier need for a quote?",
+    a: "A paper tube manufacturer or tube packaging supplier typically reviews product dimensions, quantity, structure, materials, printing, inserts, finishing and destination.",
+  },
+  {
     q: "What is the MOQ?",
     a: "Selected custom tube packaging projects can start from 100 pcs.",
   },
   {
     q: "Can diameter and height be customized?",
-    a: "Yes. Diameter, height and wall thickness are reviewed around your product and project requirements.",
+    a: "Yes. Diameter and height are reviewed around your product, insert clearance and required fit; wall build is selected according to project requirements."
   },
   {
     q: "What tube structures are available?",
@@ -144,7 +199,7 @@ const faqs = [
   },
   {
     q: "Can you match Pantone colors?",
-    a: "Yes. CMYK and Pantone printing are available.",
+    a: "CMYK process printing and Pantone (PMS) color matching based on approved artwork and production specifications can be reviewed."
   },
   {
     q: "Can I get a prototype?",
@@ -264,6 +319,25 @@ export default function TubePackagingPage() {
         </div>
       </section>
 
+      {/* Procurement details and reference library */}
+      <section className="mrb-section soft" id="tube-options">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">WHAT IS PAPER TUBE PACKAGING?</span><h2>Custom Cylindrical Packaging for Product Presentation</h2><p>Paper tube packaging uses a cylindrical paperboard structure and can be customized in diameter, height, lid style, lining, printing and finishing. It is often selected for perfume, cosmetics, candles, gifts and other products where a distinctive cylindrical presentation is preferred.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
+            <article className="mrb-feature"><strong>01</strong><h3>Custom Size</h3><p>Custom diameter, custom height, product-based sizing, insert clearance and lid fit can be reviewed. Final dimensions should be confirmed according to product size, insert and required fit during sampling.</p><p><a href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a></p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Lid &amp; Closure Options</h3><p>Paper lid, rigid paper cover, transparent cover, metal lid, pull-tab or easy-open structures can be considered where suitable for the project.</p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Materials</h3><p>Greyboard / rigid paperboard, white linerboard, kraft paper, specialty paper, coated paper, black paper and pearlescent or metallic paper where suitable.</p></article>
+            <article className="mrb-feature"><strong>04</strong><h3>Printing &amp; Finishing</h3><p>Offset printing, screen printing where suitable, foil stamping, embossing, debossing, spot UV, matte lamination, gloss lamination and custom artwork can be reviewed.</p><p><a href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Comparison →</a></p></article>
+            <article className="mrb-feature"><strong>05</strong><h3>Inner Lining &amp; Inserts</h3><p>Paper lining, black or white coated paper, kraft lining, aluminum foil lining where appropriate, paper insert, EVA or foam insert and molded insert where suitable.</p><p><a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Comparison →</a></p></article>
+            <article className="mrb-feature"><strong>06</strong><h3>Buyer Decision</h3><p>Choose paper tube packaging when cylindrical presentation, shelf differentiation and flexible diameter or height customization are important. Final structure, lid fit, lining, insert and finishing should be confirmed during sampling.</p></article>
+          </div>
+          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Tube Structure, Materials &amp; Customization References</h2>            <p>All images below are reference or concept-support images only; they are illustrative concepts rather than documentary evidence of client work, facility photography, third-party compliance documentation or completed delivery records. Visible third-party marks are not presented as SORIVA customers.</p></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+          </div>
+        </div>
+      </section>
+
       {/* Specifications */}
       <section className="mrb-section soft">
         <div className="container mrb-spec-wrap">
@@ -337,17 +411,16 @@ export default function TubePackagingPage() {
         </div>
       </section>
 
-      {/* Real production video */}
+      {/* Workflow illustration / production information */}
       <section className="mrb-section dark">
         <div className="container mrb-video-grid">
           <div>
-            <span className="mrb-eyebrow">REAL PRODUCTION</span>
+            <span className="mrb-eyebrow">WORKFLOW ILLUSTRATION</span>
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(28px, 3.4vw, 40px)", fontWeight: 500, lineHeight: 1.12, margin: "14px 0 12px" }}>
-              See Our Manufacturing Environment
+              Tube Packaging Production Workflow
             </h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.65 }}>
-              Tube core forming, printing, finishing, assembly and quality
-              control are coordinated through the production process.
+              A typical workflow can include structure review, sampling, material selection, printing, finishing, tube forming, assembly and quality inspection. Exact steps depend on the selected structure and project requirements.
             </p>
           </div>
           <div className="mrb-factory-video" style={{ marginTop: 0 }}>
@@ -367,12 +440,12 @@ export default function TubePackagingPage() {
         </div>
       </section>
 
-      {/* Factory capability */}
+      {/* Company capability */}
       <section className="mrb-section">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">FACTORY CAPABILITY</span>
-            <h2>Reliable Custom Packaging Production</h2>
+            <span className="eyebrow dark">COMPANY CAPABILITY</span>
+            <h2>Custom Packaging Production Information</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
@@ -391,15 +464,22 @@ export default function TubePackagingPage() {
           <div className="mrb-head center">
             <span className="eyebrow dark">TUBE PACKAGING SOLUTIONS</span>
             <h2>Explore Tube Packaging by Application</h2>
-            <p>Review dedicated solutions and capability-based project references for perfume, cosmetics, candles and premium gifts.</p>
+            <p>Review dedicated solution pages and application references for perfume, cosmetics, candles and premium gifts. The concept images on this page are not claims of completed customer projects.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
             {[
-              ["Perfume Tube Packaging", "/solutions/tube-packaging-for-perfume/", "Custom cylindrical perfume and fragrance packaging."],
-              ["Cosmetic Tube Packaging", "/solutions/tube-packaging-for-cosmetics/", "Tube packaging for skincare, jars and beauty gift sets."],
-              ["Candle Tube Packaging", "/solutions/tube-packaging-for-candles/", "Cylindrical packaging for candles and home fragrance."],
-              ["Cylindrical Perfume Tube Project", "/projects/cylindrical-perfume-tube-packaging-project/", "Capability reference for fragrance tube development."],
-              ["Luxury Tube Gift Project", "/projects/luxury-tube-gift-packaging-project/", "Capability reference for premium cylindrical gift packaging."],
+              ["Perfume Tube Packaging", "/solutions/tube-packaging-for-perfume/", "Perfume tube packaging for cylindrical fragrance presentation."],
+              ["Cosmetic Tube Packaging", "/solutions/tube-packaging-for-cosmetics/", "Cosmetic tube packaging for skincare, jars and beauty gift sets."],
+              ["Candle Tube Packaging", "/solutions/tube-packaging-for-candles/", "Candle tube packaging for candles and home fragrance."],
+              ["Cylindrical Perfume Tube Project", "/projects/cylindrical-perfume-tube-packaging-project/", "Application reference for fragrance tube development."],
+              ["Luxury Tube Gift Project", "/projects/luxury-tube-gift-packaging-project/", "Application reference for premium cylindrical gift packaging."],
+              ["Perfume Packaging Industry", "/industries/perfume-packaging/", "Perfume packaging requirements for cylindrical formats."],
+              ["Cosmetic Packaging Industry", "/industries/cosmetic-packaging/", "Cosmetic packaging options for skincare and beauty products."],
+              ["Candle Packaging Industry", "/industries/candle-packaging/", "Candle packaging considerations for jars and home fragrance."],
+              ["Measurement Guide", "/resources/how-to-measure-product-for-custom-box-packaging/", "Measure product size and clearance before preparing a tube quote."],
+              ["Pantone vs CMYK", "/resources/pantone-vs-cmyk-custom-packaging/", "Compare process printing and spot-color matching for tube artwork."],
+              ["Finishing Comparison", "/resources/foil-stamping-vs-embossing-vs-spot-uv/", "Compare foil, embossing, debossing and UV finishing."],
+              ["Cost Breakdown", "/resources/custom-packaging-cost-breakdown/", "Review the factors that contribute to custom tube packaging cost."],
             ].map(([title, href, desc]) => (
               <article className="mrb-feature" key={href}>
                 <h3>{title}</h3>
