@@ -196,7 +196,7 @@ const processSteps = [
   { title: "Material Sourcing", sub: "Board & paper preparation" },
   { title: "Printing & Foil", sub: "CMYK, Pantone & finishing" },
   { title: "Box Assembly", sub: "Die-cutting, folding & magnets" },
-  { title: "100% Inspection", sub: "QC & export carton packing" },
+  { title: "Quality Inspection", sub: "QC & export carton packing" },
 ];
 
 const faqs = [
@@ -230,7 +230,7 @@ const faqs = [
   },
   {
     q: "How are the magnetic closures integrated?",
-    a: "Magnets are calibrated to the size and weight of the box to provide a reliable magnetic closure that stays securely closed during transit and handling.",
+    a: "Magnetic closure specifications are selected according to box size, structure and project requirements.",
   },
   {
     q: "Can I order a physical sample before mass production?",
