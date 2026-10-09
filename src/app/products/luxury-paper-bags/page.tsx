@@ -51,7 +51,7 @@ const customizationPillars = [
   {
     num: "03",
     title: "Custom Colors",
-    desc: "Full-color CMYK printing and precise Pantone (PMS) matching for absolute brand identity consistency.",
+    desc: "Full-color CMYK printing and Pantone (PMS) color matching based on approved artwork and production specifications.",
     href: "/resources/pantone-vs-cmyk-custom-packaging/",
     linkText: "Pantone vs CMYK Guide →",
   },
@@ -63,7 +63,7 @@ const customizationPillars = [
   {
     num: "05",
     title: "Custom Finishing",
-    desc: "Hot foil stamping, multi-level embossing, debossing, spot UV coating, soft-touch and anti-scratch lamination.",
+    desc: "Hot foil stamping, embossing, debossing, spot UV coating, matte lamination and other project-dependent surface finishes.",
     href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
     linkText: "Finishing Comparison →",
   },
@@ -85,7 +85,7 @@ const bagStyles = [
   },
   {
     title: "Luxury Shopping Bags",
-    desc: "Heavyweight boutique shopping bags with reinforced top turn-overs and bottom greyboard inserts for retail durability.",
+    desc: "Boutique shopping bags with reinforced top turn-overs and bottom inserts selected according to bag size, product load and presentation requirements.",
   },
   {
     title: "Gift & Presentation Bags",
@@ -97,7 +97,7 @@ const bagStyles = [
   },
   {
     title: "Rope Handle Bags",
-    desc: "Classic cotton or PP rope handles knotted or tipped with metal aglets for a sturdy, comfortable grip.",
+    desc: "Cotton, paper or synthetic rope handles can be selected according to appearance, bag size and project requirements.",
   },
   {
     title: "Twisted Handle Bags",
@@ -112,7 +112,7 @@ const sampleShowcase = [
     title: "Minimal Luxury Paper Bags with Ribbon Handles",
     desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
     href: "/projects/minimal-luxury-paper-bag-project/",
-    linkText: "View Case Study →",
+    linkText: "View Capability Reference →",
   },
   {
     img: "/img/sample-paperbag-coordinated-floral.jpg",
@@ -126,9 +126,9 @@ const sampleShowcase = [
     img: "/img/sample-paperbag-matching-set.jpg",
     alt: "Matching luxury paper bag and rigid gift box packaging suite",
     title: "Matching Paper Bag & Rigid Box Suite",
-    desc: "Unified paper texture, Pantone brand color matching and foil accents across both retail carrier bags and rigid presentation boxes.",
+    desc: "Coordinated paper texture, color direction and finishing can be developed across retail carrier bags and rigid presentation boxes.",
     href: "/projects/coordinated-paper-bag-gift-box-packaging/",
-    linkText: "View Case Study →",
+    linkText: "View Capability Reference →",
   },
 ];
 
@@ -189,7 +189,7 @@ const gsmGuide = [
   {
     gsm: "300+ GSM",
     type: "Heavyweight Rigid Structure",
-    strength: "Maximum Load Capacity",
+    strength: "Higher Structural Support",
     bestFor: "Heavy bottles, apparel gift boxes, candle collections, multiple products and ultra-luxury brand presentation.",
   },
 ];
@@ -201,7 +201,7 @@ const materials = [
   },
   {
     name: "White Card Paper (C1S / C2S)",
-    features: "Crisp white substrate with high tensile strength, stiffness and clean creasing lines for structured bags.",
+    features: "Crisp white substrate selected where stiffness, clean folding and a structured presentation are required.",
   },
   {
     name: "Black Card Paper",
@@ -209,7 +209,7 @@ const materials = [
   },
   {
     name: "Natural Kraft Paper (Brown / White)",
-    features: "Durable unbleached or bleached kraft paper offering a raw organic texture and excellent tear resistance.",
+    features: "Unbleached or bleached kraft paper offering a natural appearance and tactile paper texture for selected projects.",
   },
   {
     name: "Specialty Textured Paper",
@@ -226,7 +226,7 @@ const materials = [
 const handleOptions = [
   {
     title: "Cotton Rope Handles",
-    desc: "Soft natural cotton cords knotted or capped, providing a premium ergonomic hand feel and substantial strength.",
+    desc: "Soft cotton cords can be knotted or capped and selected according to the desired appearance and carrying requirements.",
   },
   {
     title: "Satin / Grosgrain Ribbon",
@@ -246,7 +246,7 @@ const handleOptions = [
   },
   {
     title: "PP Cord / Synthetic Rope",
-    desc: "High-strength braided synthetic ropes with plastic or metal aglets for commercial retail applications.",
+    desc: "Braided synthetic rope options with plastic or metal aglets can be reviewed for commercial retail applications.",
   },
 ];
 
@@ -265,11 +265,11 @@ const finishingOptions = [
   },
   {
     title: "Soft-Touch Matte Lamination",
-    desc: "Velvety tactile lamination offering scratch resistance, moisture protection and a signature premium hand feel.",
+    desc: "Velvety tactile lamination selected for a soft matte appearance and premium hand feel.",
   },
   {
     title: "Gloss Lamination",
-    desc: "Protective high-shine barrier enhancing color saturation, brilliance and exterior surface durability.",
+    desc: "High-shine lamination used to enhance color saturation and create a glossy surface appearance.",
   },
   {
     title: "Precision Die-Cutting & Embossed Borders",
@@ -361,12 +361,12 @@ const processSteps = [
   {
     num: "05",
     title: "Mass Production & QC",
-    desc: "Precision printing, surface lamination, die-cutting, folding, gluing, handle assembly and 100% inspection.",
+    desc: "Printing, surface finishing, die-cutting, folding, gluing, handle assembly and quality inspection according to the approved production specification.",
   },
   {
     num: "06",
     title: "Packing & Global Delivery",
-    desc: "Flat-packed in heavy-duty export cartons with moisture protection; delivered via Sea, Air or Express.",
+    desc: "Packed for international shipment according to project requirements and delivered via Sea, Air or Express.",
   },
 ];
 
@@ -379,16 +379,28 @@ const stats = [
 
 const faqs = [
   {
+    q: "Do you make branded paper bags and paper bags with logo?",
+    a: "Yes. Branded paper bags and custom paper bags with logo can be developed using printing, foil stamping, embossing, debossing, spot UV or other suitable finishing based on the selected paper and artwork.",
+  },
+  {
+    q: "Can you supply custom retail bags or wholesale paper bags?",
+    a: "Yes. Custom retail bags and wholesale paper bags can be reviewed according to quantity, dimensions, paper stock, handle style, printing, finishing and shipping destination.",
+  },
+  {
+    q: "What information should I send to a paper bag manufacturer for quotation?",
+    a: "Please provide target bag dimensions or product dimensions, quantity, paper preference, handle style, printing or finishing requirements, logo artwork and destination.",
+  },
+  {
     q: "What is the MOQ for custom luxury paper bags?",
     a: "Selected custom paper bag projects can start from around 100 pcs. The optimal production quantity depends on paper material, plate setup, printing complexity and handle assembly requirements.",
   },
   {
     q: "Can I customize the exact paper bag dimensions?",
-    a: "Yes. Every dimension (Length × Width × Height / Gusset depth) is fully custom-engineered to fit your product packaging, retail boxes or gift merchandise perfectly.",
+    a: "Yes. Length, width, height and gusset depth can be customized according to the product, retail box or gift set. Final dimensions should be confirmed during sampling.",
   },
   {
     q: "Can you match specific Pantone (PMS) brand colors?",
-    a: "Yes. In addition to high-definition CMYK process printing, we offer Pantone spot color mixing to ensure precise color fidelity across your entire packaging program.",
+    a: "CMYK process printing and Pantone (PMS) spot-color matching can be reviewed based on approved artwork, paper choice and production specifications.",
   },
   {
     q: "What paper materials and weights (GSM) are available?",
@@ -404,7 +416,7 @@ const faqs = [
   },
   {
     q: "Can I order a physical sample before mass production?",
-    a: "Yes. 1 pc prototype or pre-production sample is available for custom projects to confirm size, paper thickness, print alignment, handle feel and finishing before mass manufacturing.",
+    a: "A 1 pc prototype or pre-production sample is available for selected projects to review size, paper choice, print alignment, handle feel and finishing before mass production.",
   },
   {
     q: "What are the shipping options and production lead times?",
@@ -422,15 +434,6 @@ const structuredData = {
       description:
         "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        price: "0.50",
-        lowPrice: "0.20",
-        highPrice: "2.50",
-        offerCount: "1000",
-        availability: "https://schema.org/InStock",
-      },
       url: PAGE_URL,
     },
     {
@@ -729,6 +732,25 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      {/* Buyer Decision */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">BUYER DECISION</span>
+            <h2>Choose the Right Custom Paper Shopping Bag</h2>
+            <p>
+              Custom luxury paper bags, branded paper bags and retail shopping bags should be specified around the product size, expected load, paper stock, handle attachment and finishing requirements rather than a single standard construction.
+            </p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
+            <article className="mrb-feature"><strong>01</strong><h3>Product &amp; Bag Size</h3><p>Confirm product or box dimensions first, then allow suitable clearance for loading, carrying and presentation.</p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Paper &amp; Reinforcement</h3><p>Paper weight, top turnover and bottom reinforcement should be selected according to bag dimensions and intended product load.</p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Handle Style</h3><p>Ribbon, rope, twisted paper, embedded or die-cut handles can be reviewed according to brand appearance and carrying requirements.</p></article>
+            <article className="mrb-feature"><strong>04</strong><h3>Branding &amp; Finish</h3><p>Printing, foil, embossing, debossing, spot UV and lamination should be confirmed against the selected paper and approved artwork.</p></article>
+          </div>
+        </div>
+      </section>
+
       {/* 4. GSM / Thickness Guide */}
       <section className="mrb-section">
         <div className="container">
@@ -775,7 +797,7 @@ export default function LuxuryPaperBagsPage() {
             <span className="eyebrow dark">MATERIAL OPTIONS</span>
             <h2>Paper Materials for Distinctive Brand Aesthetics</h2>
             <p>
-              We source certified, premium-grade paper stocks tailored for vibrant color printing,
+              We review paper stocks according to printing, structural and presentation requirements,
               deep embossing and durable retail usage.
             </p>
           </div>
@@ -811,7 +833,7 @@ export default function LuxuryPaperBagsPage() {
             </p>
             <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
               <li><strong>Matching Rigid Boxes:</strong> Pair with magnetic boxes, sliding drawer boxes or two-piece gift boxes.</li>
-              <li><strong>Consistent Brand Colors:</strong> Precise Pantone (PMS) matching across paper bags and box wraps.</li>
+              <li><strong>Consistent Brand Colors:</strong> Pantone (PMS) color matching based on approved artwork and production specifications.</li>
               <li><strong>Unified Embellishments:</strong> Coordinated hot foil stamping, embossing and soft-touch textures.</li>
             </ul>
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
@@ -846,8 +868,7 @@ export default function LuxuryPaperBagsPage() {
               <h2>CMYK &amp; Pantone (PMS) Color Matching</h2>
             </div>
             <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 16 }}>
-              Color accuracy defines brand prestige. We offer both full-color process printing and
-              exact spot color matching across all bag surfaces, gussets and interior linings:
+              Color planning is important for brand consistency. CMYK process printing and Pantone (PMS) spot-color matching can be reviewed according to artwork, paper and production specifications:
             </p>
             <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20, marginBottom: 20 }}>
               <li>
@@ -855,8 +876,7 @@ export default function LuxuryPaperBagsPage() {
                 subtle gradients and multi-color illustrations.
               </li>
               <li>
-                <strong>Pantone (PMS) Spot Colors:</strong> Recommended for solid brand colors,
-                monograms and consistent identity across multiple production runs.
+                <strong>Pantone (PMS) Spot Colors:</strong> Recommended for solid brand colors and monograms where controlled color matching is required.
               </li>
               <li>
                 <strong>Inside Print &amp; Floods:</strong> Enhance the unboxing experience with
@@ -878,14 +898,13 @@ export default function LuxuryPaperBagsPage() {
               <h2>Protective Lamination &amp; Coatings</h2>
             </div>
             <p style={{ lineHeight: 1.7, color: "#444", marginBottom: 14 }}>
-              To ensure bag durability, prevent edge cracking along score lines and protect
-              against moisture, we apply protective barrier coatings:
+              Surface lamination and coating options can be selected according to the desired appearance, paper stock and handling requirements:
             </p>
             <ul style={{ lineHeight: 1.8, color: "#444", paddingLeft: 20 }}>
               <li><strong>Soft-Touch Matte:</strong> Velvety, anti-glare premium tactile feel.</li>
-              <li><strong>Anti-Scratch Matte:</strong> Resists scuffs during transit and retail handling.</li>
+              <li><strong>Matte Lamination:</strong> Creates a soft, low-gloss surface and can be selected according to the project.</li>
               <li><strong>High-Gloss Lamination:</strong> Maximizes color brilliance and reflective shine.</li>
-              <li><strong>Aqueous &amp; Varnish:</strong> Eco-conscious lightweight protective coats.</li>
+              <li><strong>Aqueous &amp; Varnish:</strong> Lightweight coating options that can be reviewed where appropriate.</li>
             </ul>
           </div>
         </div>
@@ -978,8 +997,7 @@ export default function LuxuryPaperBagsPage() {
             <span className="eyebrow dark">VIDEO PROOF</span>
             <h2>See Our Paper Bag Samples &amp; Showroom</h2>
             <p>
-              Watch our packaging showroom walk-through and physical sample inspections to verify
-              craftsmanship, paper weight, ribbon feel and structural stability.
+              View our packaging showroom and sample references to compare structures, paper choices, handle styles and presentation options.
             </p>
           </div>
           <div style={{ maxWidth: 840, margin: "0 auto", background: "#000", borderRadius: 12, overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}>
@@ -995,7 +1013,7 @@ export default function LuxuryPaperBagsPage() {
             </video>
           </div>
           <p style={{ textAlign: "center", fontSize: 13, color: "#666", marginTop: 14 }}>
-            <em>Video demonstrates real showroom displays and custom packaging samples.</em>
+            <em>Showroom and sample display reference. Visible third-party marks are not presented as customer endorsements unless separately verified.</em>
           </p>
         </div>
       </section>
@@ -1063,8 +1081,7 @@ export default function LuxuryPaperBagsPage() {
             <span className="eyebrow dark">FACTORY CAPABILITY</span>
             <h2>Custom Packaging Support for Global Buyers</h2>
             <p>
-              Backed by robust production infrastructure, experienced craftsmen and strict QC
-              inspections before international dispatch.
+              Supported by packaging production resources, experienced teams and quality inspection before international dispatch.
             </p>
           </div>
           <div className="mrb-stats">
