@@ -46,37 +46,73 @@ const products = [
     alt: "Custom magnetic rigid box",
     title: "Magnetic Rigid Boxes",
     slug: "magnetic-rigid-boxes",
+    buyerNote: "Premium hinged rigid boxes with magnetic closure for fragrance, beauty and gift presentation.",
   },
   {
     img: "/img/foldable-rigid.webp",
     alt: "Custom foldable magnetic rigid box",
     title: "Foldable Magnetic Rigid Boxes",
     slug: "foldable-magnetic-rigid-boxes",
+    buyerNote: "Flat-pack rigid structures for projects where storage and export efficiency matter.",
   },
   {
     img: "/img/drawer-box.webp",
     alt: "Custom drawer box",
     title: "Drawer Boxes",
     slug: "drawer-boxes",
+    buyerNote: "Sliding tray packaging for jewelry, cosmetics, accessories and curated gift sets.",
   },
   {
     img: "/img/two-piece-rigid.webp",
     alt: "Custom two piece rigid box",
     title: "Two-Piece Rigid Boxes",
     slug: "two-piece-rigid-boxes",
+    buyerNote: "Classic lid-and-base rigid presentation boxes with optional shoulder-neck structures.",
   },
   {
     img: "/img/tube-packaging.webp",
     alt: "Custom tube packaging",
     title: "Tube Packaging",
     slug: "tube-packaging",
+    buyerNote: "Cylindrical paper packaging for perfume, cosmetics, candles and premium gift products.",
   },
   {
     img: "/img/paper-bags.webp",
     alt: "Custom luxury paper bags",
     title: "Luxury Paper Bags",
     slug: "luxury-paper-bags",
+    buyerNote: "Branded retail bags with custom paper, handles, printing and coordinated finishing.",
   },
+];
+
+const buyingPaths = [
+  { title: "Perfume Magnetic Packaging", desc: "Rigid magnetic presentation structures for fragrance projects.", href: "/solutions/magnetic-rigid-boxes-for-perfume/" },
+  { title: "Foldable Corporate Gift Boxes", desc: "Flat-pack premium structures for corporate gifting programs.", href: "/solutions/foldable-magnetic-boxes-for-corporate-gifts/" },
+  { title: "Jewelry Drawer Packaging", desc: "Explore jewelry packaging requirements and presentation formats.", href: "/industries/jewelry-packaging/" },
+  { title: "Two-Piece Jewelry Boxes", desc: "Lid-and-base rigid boxes for jewelry and premium accessories.", href: "/solutions/two-piece-rigid-boxes-for-jewelry/" },
+  { title: "Perfume Tube Packaging", desc: "Cylindrical paper tube structures for fragrance packaging.", href: "/solutions/tube-packaging-for-perfume/" },
+  { title: "Paper Bags + Gift Boxes", desc: "Coordinate branded shopping bags with matching rigid packaging.", href: "/solutions/custom-paper-bags-with-matching-gift-boxes/" },
+];
+
+const visualCatalog = [
+  { img: "/img/magnetic-rigid.webp", alt: "Custom magnetic rigid gift box", category: "Magnetic", title: "Magnetic Rigid Box" },
+  { img: "/img/magnetic-rigid-box-satin-lining-sample.png", alt: "Magnetic rigid box with satin lining reference", category: "Magnetic", title: "Satin Lining Reference" },
+  { img: "/img/magnetic-rigid-box-brown-textured-sample.png", alt: "Brown textured magnetic rigid box reference", category: "Magnetic", title: "Textured Paper Reference" },
+  { img: "/img/foldable-rigid.webp", alt: "Custom foldable magnetic rigid box", category: "Foldable", title: "Foldable Magnetic Box" },
+  { img: "/img/foldable-magnetic-box-structure-reference.png", alt: "Foldable magnetic rigid box structure reference", category: "Foldable", title: "Flat-Pack Structure" },
+  { img: "/img/foldable-magnetic-box-customization-options.png", alt: "Foldable magnetic box customization reference", category: "Foldable", title: "Customization Reference" },
+  { img: "/img/drawer-box.webp", alt: "Custom rigid drawer box", category: "Drawer", title: "Rigid Drawer Box" },
+  { img: "/img/drawer-box-jewelry-application.png", alt: "Drawer box jewelry application reference", category: "Drawer", title: "Jewelry Application" },
+  { img: "/img/drawer-box-minimal-structure-reference.png", alt: "Minimal drawer box structure reference", category: "Drawer", title: "Minimal Structure" },
+  { img: "/img/two-piece-rigid.webp", alt: "Custom two-piece rigid box", category: "Two-Piece", title: "Lid & Base Box" },
+  { img: "/img/two-piece-rigid-box-shoulder-neck-reference.png", alt: "Shoulder-neck rigid box structure reference", category: "Two-Piece", title: "Shoulder-Neck Structure" },
+  { img: "/img/two-piece-rigid-box-perfume-application.png", alt: "Two-piece rigid perfume packaging reference", category: "Two-Piece", title: "Perfume Application" },
+  { img: "/img/tube-packaging.webp", alt: "Custom paper tube packaging", category: "Tube", title: "Paper Tube Packaging" },
+  { img: "/img/tube-packaging-black-gold-reference.jpg", alt: "Black and gold paper tube packaging reference", category: "Tube", title: "Premium Tube Reference" },
+  { img: "/img/tube-packaging-various-styles-reference.jpg", alt: "Various paper tube packaging styles", category: "Tube", title: "Tube Style Reference" },
+  { img: "/img/paper-bags.webp", alt: "Custom luxury paper bags", category: "Paper Bags", title: "Luxury Paper Bags" },
+  { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Ribbon handle paper bag sample reference", category: "Paper Bags", title: "Ribbon Handle Reference" },
+  { img: "/img/sample-paperbag-matching-set.jpg", alt: "Coordinated paper bag and packaging set reference", category: "Paper Bags", title: "Coordinated Packaging Set" },
 ];
 
 const comparison = [
@@ -228,11 +264,58 @@ export default function ProductsPage() {
                 <img src={p.img} alt={p.alt} />
                 <div>
                   <b>{p.title}</b>
-                  <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 6 }}>
+                  <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>
+                    {p.buyerNote}
+                  </p>
+                  <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 8 }}>
                     View Details
                   </span>
                 </div>
               </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Buyer Paths */}
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SHOP BY BUYING NEED</span>
+            <h2>Start With Your Product or Packaging Goal</h2>
+            <p>Use these focused paths to move from a packaging structure to a more specific industry or sourcing solution.</p>
+          </div>
+          <div className="mrb-apps mrb-apps-3">
+            {buyingPaths.map((item) => (
+              <a className="mrb-app mrb-app-link" href={item.href} key={item.href}>
+                <div>
+                  <b>{item.title}</b>
+                  <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>{item.desc}</p>
+                  <span className="mrb-app-cta">Explore Solution</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Visual Catalog */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">PACKAGING VISUAL CATALOG</span>
+            <h2>Explore Structures, Applications &amp; Finishes</h2>
+            <p>A visual reference library across our six core packaging categories. Reference images illustrate structure, application and customization directions rather than confirmed customer projects unless stated otherwise.</p>
+          </div>
+          <div className="mrb-apps mrb-apps-3">
+            {visualCatalog.map((item) => (
+              <figure className="mrb-app" key={item.img} style={{ margin: 0 }}>
+                <img src={item.img} alt={item.alt} loading="lazy" />
+                <figcaption>
+                  <span style={{ color: "#c79a51", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{item.category}</span>
+                  <b style={{ display: "block", marginTop: 6 }}>{item.title}</b>
+                </figcaption>
+              </figure>
             ))}
           </div>
         </div>
