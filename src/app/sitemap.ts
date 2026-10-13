@@ -337,6 +337,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/volumetric-weight-custom-packaging-shipping-cost/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/how-to-choose-custom-packaging-manufacturer-china/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
