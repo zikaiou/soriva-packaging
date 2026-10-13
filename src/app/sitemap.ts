@@ -313,6 +313,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/design-one-packaging-insert-for-multiple-products/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/pantone-vs-cmyk-custom-packaging/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
