@@ -95,7 +95,7 @@ const applications = [
     img: "/img/tube-packaging-application-grid.jpg",
     title: "Vials & Sample Kits",
     desc: "Sample bottles, fragrance vials, trial sets and compact presentation kits.",
-    href: "/products/tube-packaging/",
+    href: "/products/custom-vial-sample-kit-boxes/",
   },
 ];
 
