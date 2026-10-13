@@ -465,6 +465,12 @@ export default function CustomGiftBoxesWithInsertsPage() {
             href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
           },
           {
+            tag: "Multi-SKU Inserts",
+            title: "How to Design One Packaging Insert for Multiple Products",
+            desc: "Plan one outer box or insert system across several products or SKUs.",
+            href: "/resources/design-one-packaging-insert-for-multiple-products/",
+          },
+          {
             tag: "Measurement",
             title: "How to Measure a Product for Custom Box Packaging",
             desc: "Prepare accurate dimensions before developing a fitted cavity or compartment layout.",
