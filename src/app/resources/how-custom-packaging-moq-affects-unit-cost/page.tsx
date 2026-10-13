@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 const sidebarLinks = [
+  { href: "/resources/low-moq-custom-packaging-small-business-guide/", label: "Low MOQ Small Business Guide" },
   { href: "/rfq/", label: "Request a Quote" },
   { href: "/products/", label: "Products" },
   { href: "/custom-packaging/", label: "Custom Packaging" },
