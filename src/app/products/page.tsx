@@ -86,6 +86,7 @@ const products = [
 ];
 
 const buyingPaths = [
+  { title: "Vial & Sample Kit Boxes", desc: "Packaging for fragrance vials, sample bottles and discovery sets with fitted inserts.", href: "/products/custom-vial-sample-kit-boxes/" },
   { title: "Gift Boxes with Inserts", desc: "Compare rigid box structures and fitted insert options for premium product sets.", href: "/products/custom-gift-boxes-with-inserts/" },
   { title: "Perfume Magnetic Packaging", desc: "Rigid magnetic presentation structures for fragrance projects.", href: "/solutions/magnetic-rigid-boxes-for-perfume/" },
   { title: "Foldable Corporate Gift Boxes", desc: "Flat-pack premium structures for corporate gifting programs.", href: "/solutions/foldable-magnetic-boxes-for-corporate-gifts/" },
