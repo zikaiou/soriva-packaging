@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import QuoteForm from "./components/QuoteForm";
 import WhatsAppIcon from "./components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "./lib/whatsapp";
@@ -227,13 +228,15 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-media">
-            <img
+            <Image
               src="/img/hero-boxes.webp"
               alt="SORIVA custom luxury rigid packaging boxes"
-              width="1200"
-              height="820"
+              width={1200}
+              height={820}
+              priority
               fetchPriority="high"
-              decoding="async"
+              sizes="(max-width: 980px) 100vw, 54vw"
+              quality={80}
             />
           </div>
         </div>
