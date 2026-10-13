@@ -1,0 +1,27 @@
+name: Submit IndexNow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-production
+  cancel-in-progress: true
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Vercel production deploy
+        run: sleep 120
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Submit production sitemap URLs to IndexNow
+        run: node scripts/submit-indexnow.mjs
