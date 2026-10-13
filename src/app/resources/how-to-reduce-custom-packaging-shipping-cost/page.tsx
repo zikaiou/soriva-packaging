@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 const sidebarLinks = [
+  { href: "/resources/volumetric-weight-custom-packaging-shipping-cost/", label: "Volumetric Weight Guide" },
   { href: "/rfq/", label: "Request a Quote" },
   { href: "/products/", label: "Products" },
   { href: "/custom-packaging/", label: "Custom Packaging" },
@@ -174,7 +175,8 @@ export default function Page() {
             <h2>4. Understand Volumetric Weight</h2>
             <p>
               Air and express freight may charge based on volumetric weight
-              rather than actual weight.
+              rather than actual weight. For a deeper explanation of dimensional pricing,
+              carton dimensions and margin impact, read our <a href="/resources/volumetric-weight-custom-packaging-shipping-cost/">volumetric weight and custom packaging shipping cost guide</a>.
             </p>
 
             <h2>5. Choose the Right Shipping Method</h2>
