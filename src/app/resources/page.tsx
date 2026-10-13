@@ -253,6 +253,12 @@ const samplingAndQcGuides = [
 
 const shippingAndTradeGuides = [
   {
+    tag: "Volumetric Weight",
+    title: "Volumetric Weight & Custom Packaging Shipping Cost",
+    desc: "Learn why a lightweight rigid box can still increase air or express freight and what dimensions to review before approval.",
+    href: "/resources/volumetric-weight-custom-packaging-shipping-cost/",
+  },
+  {
     tag: "Freight & Logistics",
     title: "How to Reduce Custom Packaging Shipping Cost",
     desc: "Actionable ways to lower international freight via volume and packaging design.",
