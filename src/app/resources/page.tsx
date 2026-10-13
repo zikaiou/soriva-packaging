@@ -160,6 +160,12 @@ const costAndPlanningGuides = [
 
 const materialsAndStructureGuides = [
   {
+    tag: "Multi-SKU Inserts",
+    title: "How to Design One Packaging Insert for Multiple Products",
+    desc: "Plan one box and insert system across several SKUs while controlling fit, complexity and freight volume.",
+    href: "/resources/design-one-packaging-insert-for-multiple-products/",
+  },
+  {
     tag: "Materials & Structure",
     title: "Rigid Greyboard Thickness Guide for Custom Boxes",
     desc: "Choose from 1.5mm to 3.0mm greyboard based on box scale and rigidity.",
