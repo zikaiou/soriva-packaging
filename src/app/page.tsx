@@ -232,6 +232,8 @@ export default function Home() {
               alt="SORIVA custom luxury rigid packaging boxes"
               width="1200"
               height="820"
+              fetchPriority="high"
+              decoding="async"
             />
           </div>
         </div>
@@ -250,7 +252,7 @@ export default function Home() {
           <div className="product-grid">
             {products.map((p) => (
               <article className="card" key={p.title}>
-                <img src={p.img} alt={p.alt} />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <h3>{p.title}</h3>
                   <p>{p.desc}</p>
@@ -293,7 +295,7 @@ export default function Home() {
           <div className="industry-grid">
             {industries.map((i) => (
               <a className="industry" href={i.href ?? "#quote"} key={i.title}>
-                <img src={i.img} alt={i.alt} />
+                <img src={i.img} alt={i.alt} loading="lazy" decoding="async" />
                 <div className="industry-copy">
                   <b>{i.title}</b>
                   <span>{i.desc}</span>
@@ -327,7 +329,7 @@ export default function Home() {
           <div className="finish-grid">
             {finishes.map((f) => (
               <article className="finish-card" key={f.title}>
-                <img src={f.img} alt={f.alt} />
+                <img src={f.img} alt={f.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{f.title}</b>
                   <span>{f.desc}</span>
@@ -411,7 +413,7 @@ export default function Home() {
             </a>
           </div>
           <div className="factory-video">
-            <video controls muted preload="metadata" poster="/img/factory-poster.webp">
+            <video controls muted preload="none" poster="/img/factory-poster.webp">
               <source src="/video/factory-tour.mp4" type="video/mp4" />
               Your browser does not support video.
             </video>
@@ -433,7 +435,7 @@ export default function Home() {
           <div className="project-grid">
             {projects.map((p) => (
               <article key={p.title}>
-                <img src={p.img} alt={p.alt} />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <h3>{p.title}</h3>
                 <p>{p.desc}</p>
               </article>
