@@ -55,6 +55,12 @@ const startHereGuides = [
 
 const featuredGuides = [
   {
+    tag: "Low MOQ & Startups",
+    title: "Low MOQ Custom Packaging for Small Business",
+    desc: "How startups and growing brands can plan a first custom packaging run without overordering or overcomplicating the structure.",
+    href: "/resources/low-moq-custom-packaging-small-business-guide/",
+  },
+  {
     tag: "Cost Breakdown",
     title: "Custom Packaging Cost Breakdown: What Buyers Are Paying For",
     desc: "Understand the main cost drivers in custom packaging, including materials, structure, printing, finishing, inserts and freight.",
@@ -120,6 +126,12 @@ const gettingStartedGuides = [
 ];
 
 const costAndPlanningGuides = [
+  {
+    tag: "Low MOQ & First Run",
+    title: "Low MOQ Custom Packaging for Small Business",
+    desc: "Practical first-run strategies for controlling inventory risk while keeping custom packaging premium.",
+    href: "/resources/low-moq-custom-packaging-small-business-guide/",
+  },
   {
     tag: "MOQ & Pricing",
     title: "How Custom Packaging MOQ Affects Unit Cost",
