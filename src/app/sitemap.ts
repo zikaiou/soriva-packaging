@@ -397,6 +397,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/how-much-does-custom-packaging-cost-small-brand/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/how-to-plan-packaging-inventory-seasonal-launch-orders/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
