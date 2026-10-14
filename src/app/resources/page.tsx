@@ -127,6 +127,12 @@ const gettingStartedGuides = [
 
 const costAndPlanningGuides = [
   {
+    tag: "Small Brand Budget",
+    title: "How Much Does Custom Packaging Cost for a Small Brand?",
+    desc: "A first-order budgeting guide covering MOQ, structure, finishing, inserts, freight and landed cost.",
+    href: "/resources/how-much-does-custom-packaging-cost-small-brand/",
+  },
+  {
     tag: "Low MOQ & First Run",
     title: "Low MOQ Custom Packaging for Small Business",
     desc: "Practical first-run strategies for controlling inventory risk while keeping custom packaging premium.",
