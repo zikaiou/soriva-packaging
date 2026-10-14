@@ -26,6 +26,7 @@ export const metadata: Metadata = {
 };
 
 const sidebarLinks = [
+  { href: "/resources/how-much-does-custom-packaging-cost-small-brand/", label: "Small Brand Packaging Cost Guide" },
   { href: "/rfq/", label: "Request a Quote" },
   { href: "/products/", label: "Products" },
   { href: "/custom-packaging/", label: "Custom Packaging" },
