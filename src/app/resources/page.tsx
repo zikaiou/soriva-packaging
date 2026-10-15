@@ -280,6 +280,11 @@ const shippingAndTradeGuides = [
 
 const industryPackagingGuides = [
   {
+    title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
+    desc: "Buyer guide to paper materials, GSM, ribbon handles, logo finishes and MOQ for skincare and cosmetics retail bags.",
+    href: "/resources/luxury-paper-bags-beauty-cosmetic-brands/",
+  },
+  {
     title: "Cosmetic & Skincare Packaging",
     desc: "Custom rigid boxes and gift sets for beauty bottles, jars and serums.",
     href: "/industries/cosmetic-packaging/",
