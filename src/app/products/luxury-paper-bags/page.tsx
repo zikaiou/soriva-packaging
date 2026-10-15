@@ -277,6 +277,12 @@ const finishingOptions = [
   },
 ];
 
+const buyerGuideLink = {
+  title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
+  desc: "Compare paper materials, GSM, ribbon and rope handles, logo finishes and MOQ for beauty retail bags.",
+  href: "/resources/luxury-paper-bags-beauty-cosmetic-brands/",
+};
+
 const solutionsList = [
   {
     tag: "COSMETICS & BEAUTY",
@@ -487,7 +493,15 @@ const structuredData = {
 export default function LuxuryPaperBagsPage() {
   return (
     <main className="mrb-page">
-      {/* Hero */}
+      <section className="mrb-section soft" style={{ paddingTop: 28, paddingBottom: 28 }}>
+        <div className="container">
+          <div className="mrb-note" style={{ margin: 0 }}>
+            <b>Beauty & Cosmetic Brands:</b> Read our <a href={buyerGuideLink.href}>{buyerGuideLink.title}</a> for materials, GSM, handles, finishes and MOQ planning.
+          </div>
+        </div>
+      </section>
+
+            {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
