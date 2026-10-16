@@ -81,7 +81,7 @@ const shapesAndProportions = [
 const materials = [
   {
     name: "Coated Art Paper (250–300+ GSM)",
-    desc: "Exceptional surface smoothness supporting razor-sharp offset printing, rich dark flood coats and anti-scratch matte lamination.",
+    desc: "Exceptional surface smoothness supporting razor-sharp offset printing, rich dark flood coats and project-dependent matte lamination.",
   },
   {
     name: "Heavyweight White Cardstock",
@@ -211,7 +211,7 @@ export default function FashionPaperBagsSolution() {
                 <span>Heavyweight 250–300+ GSM</span>
                 <span>Wide Landscape Formats</span>
                 <span>Thick Cotton Rope &amp; Ribbon</span>
-                <span>Anti-Scratch Matte Barrier</span>
+                <span>Matte &amp; Specialty Finishes</span>
               </div>
               <div className="mrb-hero-actions">
                 <a href="/rfq/" className="btn gold">
@@ -435,6 +435,12 @@ export default function FashionPaperBagsSolution() {
         title="Fashion Packaging Guides & Resources"
         subtitle="Practical buyer guides on paper materials, inventory planning and freight reduction."
         guides={[
+          {
+            tag: "Boutique Shopping Bags",
+            title: "Custom Boutique Shopping Bags for Fashion Brands",
+            desc: "Choose bag proportions, paper weights, handles and finishing for premium apparel and boutique retail.",
+            href: "/resources/custom-boutique-shopping-bags-fashion-brands/",
+          },
           {
             tag: "Inventory Planning",
             title: "How to Plan Packaging Inventory for Seasonal or Launch Orders",
