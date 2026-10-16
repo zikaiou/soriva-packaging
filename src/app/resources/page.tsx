@@ -286,6 +286,11 @@ const shippingAndTradeGuides = [
 
 const industryPackagingGuides = [
   {
+    title: "Custom Boutique Shopping Bags for Fashion Brands",
+    desc: "Buyer guide to bag proportions, paper weights, handles, finishing and MOQ for apparel and premium retail.",
+    href: "/resources/custom-boutique-shopping-bags-fashion-brands/",
+  },
+  {
     title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
     desc: "Buyer guide to paper materials, GSM, ribbon handles, logo finishes and MOQ for skincare and cosmetics retail bags.",
     href: "/resources/luxury-paper-bags-beauty-cosmetic-brands/",
