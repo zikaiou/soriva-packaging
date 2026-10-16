@@ -11,17 +11,17 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer & Supplier | SORIVA Packaging",
+    absolute: "Custom Luxury Paper Bags Manufacturer | Branded Paper Bags | SORIVA",
   },
   description:
-    "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
+    "Custom luxury branded paper bags from a direct manufacturer. Custom sizes, textured and specialty papers, ribbon or rope handles, logo printing, foil, embossing, sampling and MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer & Supplier | SORIVA Packaging",
+    title: "Custom Luxury Paper Bags Manufacturer | Branded Paper Bags | SORIVA",
     description:
       "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
     siteName: "SORIVA Packaging",
@@ -510,7 +510,7 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Luxury Paper Bags for Premium Brands</h1>
+              <h1>Custom Luxury Paper Bags Manufacturer for Premium Brands</h1>
               <p className="mrb-lead">
                 Create premium paper bags that reflect your brand identity through customized
                 sizes, materials, colors, handles, printing and finishing. From boutique shopping
@@ -553,7 +553,22 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* 1. Customization Overview */}
+      <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
+        <div className="container">
+          <div className="mrb-head" style={{ maxWidth: 900, marginBottom: 0 }}>
+            <span className="eyebrow dark">BRANDED PAPER BAGS</span>
+            <h2>Luxury Branded Paper Bags for Beauty, Fashion &amp; Premium Retail</h2>
+            <p>
+              Source custom luxury paper bags directly from SORIVA with tailored dimensions, specialty or textured papers,
+              logo printing, ribbon or rope handles and premium finishing. For tactile paper selection, see our
+              {" "}<a href="/resources/textured-specialty-paper-bags-luxury-brands/">textured &amp; specialty paper bag guide</a>;
+              for skincare and cosmetics, see the <a href="/resources/luxury-paper-bags-beauty-cosmetic-brands/">beauty paper bag buyer guide</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+            {/* 1. Customization Overview */}
       <section className="mrb-section" id="customization">
         <div className="container">
           <div className="mrb-head center">
