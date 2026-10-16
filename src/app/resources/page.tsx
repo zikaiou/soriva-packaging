@@ -286,6 +286,11 @@ const shippingAndTradeGuides = [
 
 const industryPackagingGuides = [
   {
+    title: "Matching Paper Bags & Gift Boxes",
+    desc: "Buyer guide to bag-to-box fit, color, paper, foil, ribbon, sampling and coordinated packaging systems.",
+    href: "/resources/matching-paper-bags-gift-boxes-brand-packaging-guide/",
+  },
+  {
     title: "Custom Boutique Shopping Bags for Fashion Brands",
     desc: "Buyer guide to bag proportions, paper weights, handles, finishing and MOQ for apparel and premium retail.",
     href: "/resources/custom-boutique-shopping-bags-fashion-brands/",
