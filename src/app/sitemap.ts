@@ -331,6 +331,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/textured-specialty-paper-bags-luxury-brands/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/foil-stamping-vs-embossing-vs-spot-uv/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
