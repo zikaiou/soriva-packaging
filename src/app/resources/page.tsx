@@ -166,6 +166,12 @@ const costAndPlanningGuides = [
 
 const materialsAndStructureGuides = [
   {
+    tag: "Paper Bag Engineering",
+    title: "Luxury Paper Bag Size & GSM Guide",
+    desc: "Choose bag dimensions, gusset depth, paper weight and reinforcement for cosmetics, gifts, apparel and retail.",
+    href: "/resources/luxury-paper-bag-size-gsm-guide/",
+  },
+  {
     tag: "Multi-SKU Inserts",
     title: "How to Design One Packaging Insert for Multiple Products",
     desc: "Plan one box and insert system across several SKUs while controlling fit, complexity and freight volume.",
