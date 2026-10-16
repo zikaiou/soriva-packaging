@@ -166,6 +166,12 @@ const costAndPlanningGuides = [
 
 const materialsAndStructureGuides = [
   {
+    tag: "Handles & Reinforcement",
+    title: "Luxury Paper Bag Handles & Reinforcement Guide",
+    desc: "Compare ribbon, rope, die-cut and paper handles plus top and bottom reinforcement for premium retail bags.",
+    href: "/resources/luxury-paper-bag-handles-reinforcement-guide/",
+  },
+  {
     tag: "Paper Bag Engineering",
     title: "Luxury Paper Bag Size & GSM Guide",
     desc: "Choose bag dimensions, gusset depth, paper weight and reinforcement for cosmetics, gifts, apparel and retail.",
