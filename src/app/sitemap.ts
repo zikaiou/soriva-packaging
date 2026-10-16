@@ -337,6 +337,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/custom-boutique-shopping-bags-fashion-brands/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/foil-stamping-vs-embossing-vs-spot-uv/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
