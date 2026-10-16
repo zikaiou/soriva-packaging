@@ -223,6 +223,12 @@ const materialsAndStructureGuides = [
 
 const printingAndFinishingGuides = [
   {
+    tag: "Specialty Paper Bags",
+    title: "Textured & Specialty Paper Bags for Luxury Brands",
+    desc: "Compare tactile paper surfaces, foil, embossing, handle options and sampling for premium branded paper bags.",
+    href: "/resources/textured-specialty-paper-bags-luxury-brands/",
+  },
+  {
     tag: "Color & Printing",
     title: "Pantone vs CMYK for Custom Packaging",
     desc: "When to use CMYK process printing versus exact Pantone (PMS) spot colors.",
