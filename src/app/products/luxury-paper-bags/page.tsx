@@ -1154,6 +1154,12 @@ export default function LuxuryPaperBagsPage() {
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
           {
+            tag: "Size & GSM",
+            title: "Luxury Paper Bag Size & GSM Guide",
+            desc: "Choose bag dimensions, gusset depth, paper weight and reinforcement for premium retail packaging.",
+            href: "/resources/luxury-paper-bag-size-gsm-guide/",
+          },
+          {
             tag: "MOQ & Pricing",
             title: "How Custom Packaging MOQ Affects Unit Cost",
             desc: "Learn how order quantity affects paper bag plate setup, printing efficiency and overall unit costs.",
