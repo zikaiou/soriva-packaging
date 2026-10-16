@@ -1154,6 +1154,12 @@ export default function LuxuryPaperBagsPage() {
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
           {
+            tag: "Handles & Reinforcement",
+            title: "Luxury Paper Bag Handles & Reinforcement Guide",
+            desc: "Compare ribbon, grosgrain, rope, twisted paper and die-cut handles plus reinforcement options for premium shopping bags.",
+            href: "/resources/luxury-paper-bag-handles-reinforcement-guide/",
+          },
+          {
             tag: "Size & GSM",
             title: "Luxury Paper Bag Size & GSM Guide",
             desc: "Choose bag dimensions, gusset depth, paper weight and reinforcement for premium retail packaging.",
