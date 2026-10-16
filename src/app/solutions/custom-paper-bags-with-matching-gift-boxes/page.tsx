@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     absolute: "Custom Paper Bags with Matching Gift Boxes | Coordinated Packaging | SORIVA Packaging",
   },
   description:
-    "Custom paper bags with matching rigid gift boxes for a complete coordinated packaging experience. Unified Pantone color matching, materials, foils and dieline alignment.",
+    "Custom paper bags with matching rigid gift boxes for coordinated premium packaging. Align bag fit, paper, brand colors, foil, ribbon, tissue and artwork across one packaging system.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
 const benefits = [
   {
     title: "Seamless Brand Consistency",
-    desc: "Ensure exact color formula, paper grain texture, logo scale and foil sheen remain unified between the outer carrier bag and the inner presentation gift box.",
+    desc: "Coordinate color direction, paper texture, logo scale and foil appearance between the outer carrier bag and the inner presentation gift box.",
   },
   {
     title: "Elevated Unboxing Journey",
-    desc: "A two-tier packaging sequence — from luxury shopping bag with ribbon handles to opening the rigid gift box — significantly increases customer perceived value.",
+    desc: "A two-tier packaging sequence — from luxury shopping bag with ribbon handles to opening the rigid gift box — can create a more considered premium presentation.",
   },
   {
     title: "Single Sourcing Partner",
@@ -51,7 +51,7 @@ const benefits = [
   },
   {
     title: "Optimized Flat-Packed Shipping",
-    desc: "Paper bags fold flat while rigid boxes can be nested or engineered as foldable magnetic structures, maximizing shipping container efficiency and reducing freight CBM.",
+    desc: "Paper bags fold flat, while suitable rigid box structures can be nested or designed to fold for more efficient storage and freight planning.",
   },
 ];
 
@@ -91,12 +91,12 @@ const alignmentSteps = [
   {
     num: "02",
     title: "Pantone (PMS) Ink Synchronization",
-    desc: "Exact spot ink formulation is calibrated across coated art paper (bag) and specialty wrapped board (box) to achieve identical visual color temperature.",
+    desc: "Pantone (PMS) references can be reviewed across the selected bag and box papers to improve visual coordination between different substrates.",
   },
   {
     num: "03",
     title: "Foil & Embellishment Alignment",
-    desc: "Shared vector dies ensure hot foil stamping, embossing depth and spot UV logos maintain identical proportions and optical brilliance across all items.",
+    desc: "Shared artwork references help keep foil, embossing and spot UV logo scale visually coordinated across the selected components.",
   },
   {
     num: "04",
@@ -175,11 +175,11 @@ export default function MatchingBagsAndBoxesSolution() {
               <p className="mrb-lead">
                 Create a cohesive, high-impact unboxing experience with custom paper shopping bags
                 developed alongside matching rigid gift boxes. Single-source production ensures
-                flawless Pantone color fidelity, synchronized hot foil finishes and precision sizing.
+                coordinated color direction, finishing and dimensional fit across both components.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 Sets</span>
-                <span>Unified Pantone Matching</span>
+                <span>Coordinated Brand Colors</span>
                 <span>Box + Bag Dimensional Alignment</span>
                 <span>Matching Ribbon &amp; Tissue</span>
                 <span>Global Export Shipping</span>
@@ -341,7 +341,7 @@ export default function MatchingBagsAndBoxesSolution() {
           <div className="mrb-head center">
             <span className="eyebrow dark">DEVELOPMENT PROCESS</span>
             <h2>How We Synchronize Bags &amp; Boxes</h2>
-            <p>Our 4-step engineering workflow ensures zero discrepancy between box and bag components.</p>
+            <p>Our 4-step workflow helps coordinate box and bag dimensions, color direction, artwork and finishing before production.</p>
           </div>
           <div className="mrb-features">
             {alignmentSteps.map((s) => (
@@ -377,8 +377,14 @@ export default function MatchingBagsAndBoxesSolution() {
       {/* Guides */}
       <ProductBuyerGuides
         title="Coordinated Packaging Guides & Resources"
-        subtitle="Technical advice on box structures, Pantone color matching and cost breakdown."
+        subtitle="Technical advice on box structures, color coordination, matching bags and boxes, and cost planning."
         guides={[
+          {
+            tag: "Matching Bags & Boxes",
+            title: "Matching Paper Bags & Gift Boxes: Brand Packaging Guide",
+            desc: "Plan bag-to-box fit, color, paper, foil, ribbon, sampling and quotation requirements as one coordinated system.",
+            href: "/resources/matching-paper-bags-gift-boxes-brand-packaging-guide/",
+          },
           {
             tag: "Box Structures",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
