@@ -1154,6 +1154,30 @@ export default function LuxuryPaperBagsPage() {
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
           {
+            tag: "Beauty & Cosmetics",
+            title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
+            desc: "Choose paper, GSM, ribbon or rope handles and logo finishing for skincare, cosmetics and fragrance retail bags.",
+            href: "/resources/luxury-paper-bags-beauty-cosmetic-brands/",
+          },
+          {
+            tag: "Fashion & Boutique",
+            title: "Custom Boutique Shopping Bags for Fashion Brands",
+            desc: "Plan proportions, paper weight, handles and finishing for apparel, footwear and premium retail.",
+            href: "/resources/custom-boutique-shopping-bags-fashion-brands/",
+          },
+          {
+            tag: "Matching Sets",
+            title: "Matching Paper Bags & Gift Boxes",
+            desc: "Coordinate bag-to-box fit, paper, brand colors, foil, ribbon and sampling as one packaging system.",
+            href: "/resources/matching-paper-bags-gift-boxes-brand-packaging-guide/",
+          },
+          {
+            tag: "Textured Papers",
+            title: "Textured & Specialty Paper Bags for Luxury Brands",
+            desc: "Compare tactile paper surfaces, foil, embossing and handle options for premium branded shopping bags.",
+            href: "/resources/textured-specialty-paper-bags-luxury-brands/",
+          },
+          {
             tag: "Handles & Reinforcement",
             title: "Luxury Paper Bag Handles & Reinforcement Guide",
             desc: "Compare ribbon, grosgrain, rope, twisted paper and die-cut handles plus reinforcement options for premium shopping bags.",
