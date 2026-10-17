@@ -265,7 +265,7 @@ export default function Page() {
 
           <aside className="mrb-sidebar">
             <b>Related Pages</b>
-            <a href="/products/luxury-paper-bags/">Custom Luxury Paper Bags</a>
+            <a href="/products/luxury-paper-bags/">Custom Luxury Paper Bags Manufacturer</a>
             <a href="/solutions/luxury-paper-bags-for-fashion/">Fashion Paper Bag Solution</a>
             <a href="/industries/fashion-packaging/">Fashion Packaging</a>
             <a href="/resources/textured-specialty-paper-bags-luxury-brands/">Textured Paper Bags</a>
