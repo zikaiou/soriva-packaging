@@ -464,6 +464,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...productEntries,
     {
+      url: `${BASE_URL}/products/portable-ring-box/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/products/custom-jewelry-boxes/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
