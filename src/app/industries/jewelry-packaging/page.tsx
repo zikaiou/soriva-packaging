@@ -320,6 +320,21 @@ const structuredData = {
 export default function JewelryPackagingPage() {
   return (
     <main className="mrb-page">
+      <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SHOP BY JEWELRY TYPE</span>
+            <h2>Explore Custom Jewelry Box Products</h2>
+            <p>Start with the jewelry piece, then choose the rigid box structure, insert and finishing for your project.</p>
+            <div className="mrb-hero-actions" style={{ justifyContent: "center" }}>
+              <a className="btn ghost" href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
+              <a className="btn ghost" href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
+              <a className="btn ghost" href="/products/custom-necklace-earring-boxes/">Necklace &amp; Earring Boxes →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Hero */}
       <section className="mrb-hero">
         <div className="container">
