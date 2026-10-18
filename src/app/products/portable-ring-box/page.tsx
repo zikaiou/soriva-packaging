@@ -17,7 +17,7 @@ export const metadata:Metadata={
     title:"Portable Ring Box | PU Leather Travel Ring Case | SORIVA",
     description:"In-stock fingertip ring box with PU leather exterior, velvet lining and MOQ from 20 pcs.",
     siteName:"SORIVA Packaging",locale:"en_US",
-    images:[{url:"https://www.sorivapackaging.com/img/portable-ring-box-1.webp",width:1200,height:900,alt:"Portable ring box for jewelry storage"}]
+    images:[{url:"https://www.sorivapackaging.com/img/project-jewelry.webp",width:1200,height:900,alt:"Portable ring box for jewelry storage"}]
   }
 };
 
@@ -49,7 +49,7 @@ const faqs=[
 ];
 
 const structuredData={"@context":"https://schema.org","@graph":[
-  {"@type":"Product",name:"Portable Ring Box",image:"https://www.sorivapackaging.com/img/portable-ring-box-1.webp",description:"In-stock portable ring box made with PU leather and velvet lining.",brand:{"@type":"Brand",name:"SORIVA Packaging"},url:PAGE_URL},
+  {"@type":"Product",name:"Portable Ring Box",image:"https://www.sorivapackaging.com/img/project-jewelry.webp",description:"In-stock portable ring box made with PU leather and velvet lining.",brand:{"@type":"Brand",name:"SORIVA Packaging"},url:PAGE_URL},
   {"@type":"BreadcrumbList",itemListElement:[
     {"@type":"ListItem",position:1,name:"Home",item:"https://www.sorivapackaging.com/"},
     {"@type":"ListItem",position:2,name:"Products",item:"https://www.sorivapackaging.com/products/"},
@@ -69,13 +69,8 @@ export default function PortableRingBoxPage(){return <main className="mrb-page">
 <div className="mrb-tags"><span>In Stock</span><span>MOQ From 20 pcs</span><span>PU Leather + Velvet</span><span>10 × 4.8 × 3.3 cm</span></div>
 <div className="mrb-hero-actions"><a className="btn gold" href="/rfq/">Request Stock Quote</a><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
 </div>
-<div className="mrb-hero-media"><img src="/img/portable-ring-box-1.webp" alt="Portable fingertip ring box with velvet lining" width="1200" height="900"/></div>
+<div className="mrb-hero-media"><img src="/img/project-jewelry.webp" alt="Portable fingertip ring box with velvet lining" width="1200" height="900"/></div>
 </div></div></section>
-
-<section className="mrb-section soft"><div className="container">
-<div className="mrb-head center"><span className="eyebrow dark">PRODUCT GALLERY</span><h2>Portable Ring Box Details &amp; Style Options</h2><p>Product information, available styles, material details and in-stock specifications.</p></div>
-<div style={{maxWidth:1200,margin:"0 auto"}}><img src="/img/portable-ring-box-gallery.webp" alt="Portable ring box product details, colors, materials and specifications" style={{width:"100%",height:"auto",display:"block",borderRadius:18}} /></div>
-</div></section>
 
 <section className="mrb-section soft"><div className="container">
 <div className="mrb-head center"><span className="eyebrow dark">PRODUCT FEATURES</span><h2>Compact Ring Storage for Travel &amp; Retail</h2><p>A ready-stock jewelry case for buyers who need a small order quantity and a refined ring presentation.</p></div>
