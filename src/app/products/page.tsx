@@ -93,7 +93,6 @@ const products = [
 ];
 
 const buyingPaths = [
-  { title: "Portable Ring Box — In Stock", desc: "Compact PU leather and velvet ring case with stock MOQ from 20 pcs.", href: "/products/portable-ring-box/" },
   { title: "Custom Jewelry Boxes", desc: "Luxury jewelry packaging for rings, necklaces, earrings, bracelets and coordinated sets.", href: "/products/custom-jewelry-boxes/" },
   { title: "Custom Ring Boxes", desc: "Compact branded ring packaging for engagement rings, wedding bands and fine jewelry.", href: "/products/custom-ring-boxes/" },
   { title: "Necklace & Earring Boxes", desc: "Tailored packaging for necklaces, pendants, earrings and matching jewelry collections.", href: "/products/custom-necklace-earring-boxes/" },
