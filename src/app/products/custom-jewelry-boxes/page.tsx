@@ -75,6 +75,24 @@ export default function CustomJewelryBoxesPage() {
       </div>
     </div></section>
 
+    <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}><div className="container">
+      <div className="mrb-head center">
+        <span className="eyebrow dark">IN-STOCK JEWELRY BOX</span>
+        <h2>Portable Fingertip Ring Box — MOQ From 20 pcs</h2>
+        <p>Ready-stock PU leather ring box with velvet lining, compact 10 × 4.8 × 3.3 cm size and multiple stock styles.</p>
+      </div>
+      <div className="mrb-apps mrb-apps-3">
+        <a className="mrb-app mrb-app-link" href="/products/portable-ring-box/">
+          <img src="/img/portable-ring-box-1.webp" alt="Portable fingertip ring box in stock" />
+          <div>
+            <b>Portable Ring Box</b>
+            <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>PU leather + velvet lining · In stock · MOQ from 20 pcs.</p>
+            <span className="mrb-app-cta">View Product →</span>
+          </div>
+        </a>
+      </div>
+    </div></section>
+
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">JEWELRY BOX RANGE</span><h2>Custom Boxes by Jewelry Type</h2><p>Choose the packaging format around the jewelry piece, presentation style, insert and retail experience.</p></div>
       <div className="mrb-features">{types.map(([title,desc],i)=><article className="mrb-feature" key={title}><strong>{String(i+1).padStart(2,"0")}</strong><h3>{title}</h3><p>{desc}</p></article>)}</div>
