@@ -10,7 +10,7 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/";
 export const metadata: Metadata = {
   title: { absolute: "Custom Luxury Packaging Boxes Manufacturer | SORIVA Packaging" },
   description:
-    "Explore custom magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes, tube packaging and luxury paper bags for premium brand packaging projects.",
+    "Explore custom magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes, tube packaging, luxury paper bags and jewelry packaging for premium brand projects.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -82,6 +82,13 @@ const products = [
     title: "Luxury Paper Bags",
     slug: "luxury-paper-bags",
     buyerNote: "Branded retail bags with custom paper, handles, printing and coordinated finishing.",
+  },
+  {
+    img: "/img/jewelry.webp",
+    alt: "Custom jewelry packaging and luxury jewelry boxes",
+    title: "Jewelry Packaging",
+    slug: "custom-jewelry-boxes",
+    buyerNote: "Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry gift sets with tailored inserts and premium finishing.",
   },
 ];
 
@@ -311,7 +318,7 @@ export default function ProductsPage() {
           <div className="mrb-head center">
             <span className="eyebrow dark">PACKAGING VISUAL CATALOG</span>
             <h2>Explore Structures, Applications &amp; Finishes</h2>
-            <p>A visual reference library across our six core packaging categories. Reference images illustrate structure, application and customization directions rather than confirmed customer projects unless stated otherwise.</p>
+            <p>A visual reference library across our core packaging categories. Reference images illustrate structure, application and customization directions rather than confirmed customer projects unless stated otherwise.</p>
           </div>
           <div className="mrb-apps mrb-apps-3">
             {visualCatalog.map((item) => (
