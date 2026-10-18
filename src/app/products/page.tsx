@@ -86,6 +86,9 @@ const products = [
 ];
 
 const buyingPaths = [
+  { title: "Custom Jewelry Boxes", desc: "Luxury jewelry packaging for rings, necklaces, earrings, bracelets and coordinated sets.", href: "/products/custom-jewelry-boxes/" },
+  { title: "Custom Ring Boxes", desc: "Compact branded ring packaging for engagement rings, wedding bands and fine jewelry.", href: "/products/custom-ring-boxes/" },
+  { title: "Necklace & Earring Boxes", desc: "Tailored packaging for necklaces, pendants, earrings and matching jewelry collections.", href: "/products/custom-necklace-earring-boxes/" },
   { title: "Vial & Sample Kit Boxes", desc: "Packaging for fragrance vials, sample bottles and discovery sets with fitted inserts.", href: "/products/custom-vial-sample-kit-boxes/" },
   { title: "Gift Boxes with Inserts", desc: "Compare rigid box structures and fitted insert options for premium product sets.", href: "/products/custom-gift-boxes-with-inserts/" },
   { title: "Perfume Magnetic Packaging", desc: "Rigid magnetic presentation structures for fragrance projects.", href: "/solutions/magnetic-rigid-boxes-for-perfume/" },
