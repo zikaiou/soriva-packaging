@@ -11,17 +11,17 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Drawer Boxes Manufacturer & Supplier | SORIVA Packaging",
+    absolute: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
   },
   description:
-    "Custom rigid drawer boxes with sliding trays, ribbon pulls, tailored inserts and premium finishing for jewelry, perfume, cosmetics and gift packaging.",
+    "Custom rigid drawer boxes from a direct manufacturer. Sliding tray gift boxes with ribbon pulls, tailored inserts, logo printing and premium finishing for jewelry, cosmetics, perfume and gifts.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Drawer Boxes Manufacturer & Supplier | SORIVA Packaging",
+    title: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
     description:
       "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
     siteName: "SORIVA Packaging",
@@ -501,11 +501,11 @@ export default function DrawerBoxesPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM RIGID PACKAGING</span>
-              <h1>Custom Rigid Drawer Boxes for Premium Packaging</h1>
+              <h1>Custom Rigid Drawer Boxes Manufacturer for Jewelry, Cosmetics &amp; Gifts</h1>
               <p className="mrb-lead">
-                Create an unforgettable unboxing experience with custom drawer boxes featuring a
-                smooth sliding mechanism, rigid greyboard construction, tailored product inserts
-                and luxury finishing. Ideal for jewelry, cosmetics, fragrances and luxury gifts.
+                Source custom rigid drawer boxes with sliding trays, ribbon pulls, tailored inserts
+                and premium finishing for jewelry, cosmetics, perfume and gift packaging. Sizes,
+                paper, logo treatment, insert layout and pull mechanisms can be developed around your product.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
@@ -539,6 +539,25 @@ export default function DrawerBoxesPage() {
                 height="900"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
+        <div className="container">
+          <div className="mrb-head" style={{ maxWidth: 920, marginBottom: 0 }}>
+            <span className="eyebrow dark">RIGID SLIDING GIFT BOXES</span>
+            <h2>Custom Drawer Gift Boxes with Inserts, Ribbon Pulls &amp; Logo Finishing</h2>
+            <p>
+              SORIVA manufactures custom sleeve-and-tray drawer boxes for jewelry, skincare,
+              fragrance, accessories and premium gift sets. Buyers can specify the finished size,
+              tray fit, insert material, ribbon or pull-tab style, paper wrap, printing and finishing.
+              For projects with fitted products, review our{" "}
+              <a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">insert comparison guide</a>
+              {" "}and{" "}
+              <a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>
+              {" "}before quotation.
+            </p>
           </div>
         </div>
       </section>
@@ -987,6 +1006,18 @@ export default function DrawerBoxesPage() {
         title="Drawer Box Buyer Guides & Resources"
         subtitle="Learn how to choose rigid box structures, measure product dimensions, select greyboard thickness and custom finishes."
         guides={[
+          {
+            tag: "Custom Inserts",
+            title: "EVA vs Paperboard vs Molded Pulp Packaging Inserts",
+            desc: "Compare fitted insert options for jewelry, cosmetics, perfume bottles and curated drawer-box gift sets.",
+            href: "/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/",
+          },
+          {
+            tag: "Finishing",
+            title: "Foil Stamping vs Embossing vs Spot UV",
+            desc: "Compare logo finishing options for rigid drawer box sleeves, trays and premium gift packaging.",
+            href: "/resources/foil-stamping-vs-embossing-vs-spot-uv/",
+          },
           {
             tag: "Box Structures",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
