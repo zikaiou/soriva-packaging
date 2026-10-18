@@ -89,7 +89,11 @@ export default function PortableRingBoxPage(){return <main className="mrb-page">
 
 <section className="mrb-section soft"><div className="container">
 <div className="mrb-head center"><span className="eyebrow dark">STYLE OPTIONS</span><h2>Available Stock Colors</h2><p>Jacquard Blue · Jacquard Pink · Black · Beige</p></div>
-<div className="mrb-hero-actions" style={{justifyContent:"center"}}><a className="btn ghost" href="/products/custom-ring-boxes/">Custom Ring Boxes →</a><a className="btn ghost" href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a></div>
+<div className="mrb-hero-actions" style={{justifyContent:"center"}}>
+<a className="btn ghost" style={{color:"#2f241d",borderColor:"#b9a48d",background:"transparent"}} href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
+<a className="btn ghost" style={{color:"#2f241d",borderColor:"#b9a48d",background:"transparent"}} href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
+<a className="btn ghost" style={{color:"#2f241d",borderColor:"#b9a48d",background:"transparent"}} href="/industries/jewelry-packaging/">Jewelry Packaging →</a>
+</div>
 </div></section>
 
 <ProductBuyerGuides title="Jewelry Packaging Guides" subtitle="Compare custom packaging options if you need branded or fully customized jewelry boxes." guides={[
