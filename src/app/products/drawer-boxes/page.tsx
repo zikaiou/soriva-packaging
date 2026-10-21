@@ -435,6 +435,11 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Rigid Drawer Boxes",
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "MOQ", value: "From 100 pcs for selected projects" },
+        { "@type": "PropertyValue", name: "Structure", value: "Outer rigid sleeve with sliding inner tray" },
+        { "@type": "PropertyValue", name: "Customization", value: "Size, inserts, ribbon pulls, paper, printing and finishing" }
+      ],
       image: "https://www.sorivapackaging.com/img/drawer-box.webp",
       description:
         "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
@@ -454,6 +459,14 @@ const structuredData = {
         url: "https://www.sorivapackaging.com/",
       },
       areaServed: "Worldwide",
+    },
+    {
+      "@type": "Organization",
+      name: "SORIVA Packaging",
+      url: "https://www.sorivapackaging.com/",
+      email: "AMY@XINGYUE.STORE",
+      description: "Custom luxury packaging manufacturer with a 10,000㎡ factory, 400+ employees, 50M+ annual capacity and 20 years of production experience.",
+      knowsAbout: ["Custom drawer boxes","Rigid gift boxes","Jewelry packaging","Cosmetic packaging","Packaging inserts","Luxury finishing"]
     },
     {
       "@type": "BreadcrumbList",
@@ -543,6 +556,18 @@ export default function DrawerBoxesPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">QUICK BUYER ANSWERS</span><h2>Custom Drawer Boxes — Key Sourcing Answers</h2></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature"><h3>What is a drawer box?</h3><p>A rigid drawer box uses an outer sleeve and a sliding inner tray, sometimes with a ribbon or pull tab for opening.</p></article>
+            <article className="mrb-feature"><h3>What is it best for?</h3><p>Jewelry, cosmetics, perfume, accessories and premium gift sets where a sliding reveal and fitted insert are useful.</p></article>
+            <article className="mrb-feature"><h3>What is the MOQ?</h3><p>Selected custom drawer box projects can start from 100 pcs. Final MOQ depends on structure, size, insert and finishing.</p></article>
+            <article className="mrb-feature"><h3>What should I send for a quote?</h3><p>Product dimensions, quantity, preferred structure, insert requirements, artwork, finishing direction and delivery destination.</p></article>
+          </div>
+        </div>
+      </section>
+
       <section className="mrb-section" style={{ paddingTop: 36, paddingBottom: 36 }}>
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
@@ -591,6 +616,30 @@ export default function DrawerBoxesPage() {
               {" "}before quotation.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">MANUFACTURER FACTS</span><h2>SORIVA Drawer Box Manufacturing Snapshot</h2></div>
+          <div className="mrb-stats">
+            <div className="mrb-stat"><b>10,000㎡</b><span>Factory Area</span></div>
+            <div className="mrb-stat"><b>400+</b><span>Employees</span></div>
+            <div className="mrb-stat"><b>50M+</b><span>Annual Capacity</span></div>
+            <div className="mrb-stat"><b>20 Years</b><span>Production Experience</span></div>
+          </div>
+          <div className="mrb-note" style={{marginTop:24}}><b>Commercial terms:</b> MOQ from 100 pcs for selected projects · prototype support available for selected projects · Sea / Air / Express shipping. Lead time depends on design complexity, quantity, materials and finishing requirements.</div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">BUYER COMPARISON</span><h2>Drawer Box vs Magnetic Box vs Two-Piece Box</h2></div>
+          <div className="mrb-table-wrap"><table className="mrb-table"><thead><tr><th>Structure</th><th>Best For</th><th>Main Buying Reason</th></tr></thead><tbody>
+            <tr><td><strong>Drawer Box</strong></td><td>Jewelry, cosmetics, perfume, gift sets</td><td>Sliding reveal, fitted insert and ribbon-pull presentation.</td></tr>
+            <tr><td><strong>Magnetic Rigid Box</strong></td><td>Luxury gifting, beauty, fragrance</td><td>Hinged opening and premium presentation for larger formats.</td></tr>
+            <tr><td><strong>Two-Piece Rigid Box</strong></td><td>Jewelry, cosmetics, general gifting</td><td>Classic lid-and-base structure with broad application range.</td></tr>
+          </tbody></table></div>
         </div>
       </section>
 
