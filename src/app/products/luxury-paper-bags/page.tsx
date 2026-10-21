@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "Custom Luxury Paper Bags Manufacturer | Branded Paper Bags | SORIVA",
   },
   description:
-    "Custom luxury branded paper bags from a direct manufacturer. Custom sizes, textured and specialty papers, ribbon or rope handles, logo printing, foil, embossing, sampling and MOQ from 100 pcs.",
+    "Custom luxury paper bags for beauty, fashion, jewelry and premium retail. Direct manufacturer with custom sizes, specialty papers, ribbon or rope handles, logo finishing, sampling and MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Luxury Paper Bags Manufacturer | Branded Paper Bags | SORIVA",
     description:
-      "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
+      "Custom luxury paper bags for beauty, fashion, jewelry and premium retail with tailored sizes, materials, handles, logo finishing, sampling and MOQ from 100 pcs.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -385,6 +385,10 @@ const stats = [
 
 const faqs = [
   {
+    q: "Do you make beauty paper bags for cosmetic and skincare brands?",
+    a: "Yes. We manufacture custom beauty paper bags for cosmetics, skincare, fragrance and beauty retail projects with custom sizes, specialty papers, ribbon or rope handles, logo printing, foil, embossing and other suitable finishes.",
+  },
+  {
     q: "Do you make branded paper bags and paper bags with logo?",
     a: "Yes. Branded paper bags and custom paper bags with logo can be developed using printing, foil stamping, embossing, debossing, spot UV or other suitable finishing based on the selected paper and artwork.",
   },
@@ -512,10 +516,9 @@ export default function LuxuryPaperBagsPage() {
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
               <h1>Custom Luxury Paper Bags Manufacturer for Premium Brands</h1>
               <p className="mrb-lead">
-                Create premium paper bags that reflect your brand identity through customized
-                sizes, materials, colors, handles, printing and finishing. From boutique shopping
-                bags to luxury gift packaging, SORIVA helps global brands produce refined, durable
-                and retail-ready paper bags.
+                Source custom branded paper bags for beauty, fashion, jewelry and premium retail. Choose
+                custom sizes, specialty or textured papers, ribbon or rope handles, logo printing,
+                foil, embossing and coordinated finishes, with sampling support and MOQ from 100 pcs.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
@@ -526,7 +529,7 @@ export default function LuxuryPaperBagsPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/rfq/" className="btn gold">
-                  Request Packaging Quote
+                  Get Paper Bag Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.paperBags)}
@@ -553,13 +556,45 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      <section className="mrb-section" style={{ paddingTop: 36, paddingBottom: 36 }}>
+        <div className="container">
+          <div className="mrb-head center" style={{ marginBottom: 24 }}>
+            <span className="eyebrow dark">SHOP BY BUYING NEED</span>
+            <h2>Luxury Paper Bags for High-Intent Retail Projects</h2>
+            <p>Start with your market or packaging goal, then compare materials, handles, finishing and quantity options.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature">
+              <strong>01</strong><h3>Beauty &amp; Cosmetic Paper Bags</h3>
+              <p>Premium branded bags for skincare, cosmetics, fragrance and beauty retail launches.</p>
+              <p style={{marginTop:10}}><a href="/solutions/luxury-paper-bags-for-cosmetics/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Beauty Bags →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>02</strong><h3>Fashion &amp; Boutique Shopping Bags</h3>
+              <p>Custom retail bags for apparel, accessories, footwear and premium boutique purchases.</p>
+              <p style={{marginTop:10}}><a href="/solutions/luxury-paper-bags-for-fashion/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Fashion Bags →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>03</strong><h3>Matching Bags &amp; Gift Boxes</h3>
+              <p>Coordinate paper bags with rigid boxes using aligned paper, color direction and logo finishing.</p>
+              <p style={{marginTop:10}}><a href="/solutions/custom-paper-bags-with-matching-gift-boxes/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Matching Sets →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>04</strong><h3>MOQ From 100 pcs</h3>
+              <p>Selected projects can start from 100 pcs, with sampling available before production for suitable designs.</p>
+              <p style={{marginTop:10}}><a href="/rfq/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
         <div className="container">
           <div className="mrb-head" style={{ maxWidth: 900, marginBottom: 0 }}>
             <span className="eyebrow dark">BRANDED PAPER BAGS</span>
             <h2>Luxury Branded Paper Bags for Beauty, Fashion &amp; Premium Retail</h2>
             <p>
-              Source custom luxury paper bags directly from SORIVA with tailored dimensions, specialty or textured papers,
+              Source custom luxury paper bags and beauty paper bags directly from SORIVA with tailored dimensions, specialty or textured papers,
               logo printing, ribbon or rope handles and premium finishing. For tactile paper selection, see our
               {" "}<a href="/resources/textured-specialty-paper-bags-luxury-brands/">textured &amp; specialty paper bag guide</a>;
               for skincare and cosmetics, see the <a href="/resources/luxury-paper-bags-beauty-cosmetic-brands/">beauty paper bag buyer guide</a>.
