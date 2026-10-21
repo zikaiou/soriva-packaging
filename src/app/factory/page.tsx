@@ -70,7 +70,21 @@ const structuredData = {
         { "@type": "ListItem", position: 2, name: "Factory", item: PAGE_URL },
       ],
     },
-    { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+    {
+      "@type": "Organization",
+      "@id": "https://www.sorivapackaging.com/#organization",
+      name: "SORIVA Packaging",
+      url: "https://www.sorivapackaging.com/",
+      email: "AMY@XINGYUE.STORE",
+      numberOfEmployees: { "@type": "QuantitativeValue", minValue: 400 },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Factory Area", value: "10,000㎡" },
+        { "@type": "PropertyValue", name: "Annual Capacity", value: "50M+ boxes" },
+        { "@type": "PropertyValue", name: "Production Experience", value: "20 years" },
+        { "@type": "PropertyValue", name: "Custom Packaging MOQ", value: "From 100 pcs for selected projects" },
+        { "@type": "PropertyValue", name: "Shipping", value: "Sea, Air and Express" }
+      ]
+    },
   ],
 };
 
@@ -103,6 +117,18 @@ export default function FactoryPage() {
             <CtaButtons />
           </div>
           <img className="factory-image factory-hero-image" src="/img/factory-v1-workshop-overview.jpg" alt="SORIVA packaging production workshops" fetchPriority="high" />
+        </div>
+      </section>
+
+      <section className="factory-section cream">
+        <div className="factory-container">
+          <div className="factory-heading"><span className="factory-eyebrow dark">QUICK BUYER ANSWERS</span><h2>SORIVA Manufacturing — Key Facts</h2><p>Concise sourcing facts for buyers comparing custom packaging manufacturers.</p></div>
+          <div className="factory-grid four">
+            <article className="factory-card"><h3>What does SORIVA manufacture?</h3><p>Custom rigid gift boxes, luxury paper bags, jewelry packaging and other premium packaging structures.</p></article>
+            <article className="factory-card"><h3>What is the production scale?</h3><p>10,000㎡ factory area, 400+ employees and 50M+ boxes annual capacity.</p></article>
+            <article className="factory-card"><h3>Can buyers sample first?</h3><p>A 1 pc prototype or pre-production sample is available for selected projects before mass production.</p></article>
+            <article className="factory-card"><h3>How are orders shipped?</h3><p>Sea, Air and Express shipping options are available according to project and delivery requirements.</p></article>
+          </div>
         </div>
       </section>
 
