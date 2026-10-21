@@ -33,7 +33,7 @@ const types = [
 
 const structures = [
   { title:"Two-Piece Rigid Boxes", desc:"Classic lid-and-base presentation for compact jewelry packaging.", href:"/products/two-piece-rigid-boxes/" },
-  { title:"Drawer Boxes", desc:"Sliding tray structures with optional ribbon pulls and fitted inserts.", href:"/products/drawer-boxes/" },
+  { title:"Drawer Boxes", desc:"Sliding rigid jewelry boxes with ribbon pulls and fitted inserts for rings, necklaces, earrings and gift sets.", href:"/products/drawer-boxes/" },
   { title:"Magnetic Rigid Boxes", desc:"Hinged presentation boxes for larger jewelry sets and luxury gifting.", href:"/products/magnetic-rigid-boxes/" },
   { title:"Gift Boxes with Inserts", desc:"Compare fitted insert options for different jewelry products.", href:"/products/custom-gift-boxes-with-inserts/" },
 ];
