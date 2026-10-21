@@ -242,6 +242,26 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section soft" aria-label="SORIVA manufacturer facts">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow dark">SORIVA AT A GLANCE</span>
+            <h2>Custom Packaging Manufacturing for Global Brands</h2>
+            <p>SORIVA Packaging manufactures custom rigid boxes, luxury paper bags and jewelry packaging with flexible customization, sampling and international shipping support.</p>
+          </div>
+          <div className="benefit-grid">
+            <article><strong>10,000㎡</strong><h3>Factory Area</h3><p>Custom packaging production and assembly capability.</p></article>
+            <article><strong>400+</strong><h3>Employees</h3><p>Production support across printing, finishing, assembly and packing.</p></article>
+            <article><strong>50M+</strong><h3>Annual Capacity</h3><p>Manufacturing capacity across supported packaging categories.</p></article>
+            <article><strong>20 Years</strong><h3>Production Experience</h3><p>Experience supporting custom packaging development and production.</p></article>
+          </div>
+          <div className="section-cta">
+            <a href="/about/" className="btn dark">About SORIVA →</a>
+            <a href="/factory/" className="btn ghost">Verify Factory Capability →</a>
+          </div>
+        </div>
+      </section>
+
       <section className="section" id="products">
         <div className="container">
           <div className="section-head">
