@@ -83,7 +83,7 @@ export default function CustomJewelryBoxesPage() {
       </div>
       <div className="mrb-apps mrb-apps-3">
         <a className="mrb-app mrb-app-link" href="/products/portable-ring-box/">
-          <img src="/img/project-jewelry.webp" alt="Portable fingertip ring box in stock" />
+          <img src="/img/portable-ring-box-hero.webp" alt="Portable fingertip ring box in stock" />
           <div>
             <b>Portable Ring Box</b>
             <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>PU leather + velvet lining · In stock · MOQ from 20 pcs.</p>
