@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
   },
   description:
-    "Custom rigid drawer boxes from a direct manufacturer. Sliding tray gift boxes with ribbon pulls, tailored inserts, logo printing and premium finishing for jewelry, cosmetics, perfume and gifts.",
+    "Custom drawer boxes for jewelry, cosmetics, perfume and premium gifts. Direct manufacturer with sliding trays, ribbon pulls, fitted inserts, logo finishing, sampling and MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
     description:
-      "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
+      "Custom drawer boxes with sliding trays, ribbon pulls, fitted inserts and premium logo finishing for jewelry, cosmetics, perfume and gift packaging. MOQ from 100 pcs.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -516,7 +516,7 @@ export default function DrawerBoxesPage() {
               </div>
               <div className="mrb-hero-actions">
                 <a href="/rfq/" className="btn gold">
-                  Request Packaging Quote
+                  Get Drawer Box Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.drawer)}
@@ -539,6 +539,38 @@ export default function DrawerBoxesPage() {
                 height="900"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section" style={{ paddingTop: 36, paddingBottom: 36 }}>
+        <div className="container">
+          <div className="mrb-head center" style={{ marginBottom: 24 }}>
+            <span className="eyebrow dark">SHOP BY APPLICATION</span>
+            <h2>Custom Drawer Boxes for Jewelry, Beauty, Perfume &amp; Gift Sets</h2>
+            <p>Choose the application first, then define tray fit, insert material, ribbon pull, paper wrap and logo finishing.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature">
+              <strong>01</strong><h3>Jewelry Drawer Boxes</h3>
+              <p>Sliding rigid boxes for rings, necklaces, earrings, bracelets and watches with fitted presentation inserts.</p>
+              <p style={{marginTop:10}}><a href="/products/custom-jewelry-boxes/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Jewelry Packaging →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>02</strong><h3>Cosmetic Drawer Boxes</h3>
+              <p>Premium sleeve-and-tray packaging for skincare sets, serums, cosmetics and beauty launch kits.</p>
+              <p style={{marginTop:10}}><a href="/industries/cosmetic-packaging/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Cosmetic Packaging →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>03</strong><h3>Perfume Drawer Boxes</h3>
+              <p>Custom sliding presentation boxes for fragrance bottles, discovery sets and premium gifting.</p>
+              <p style={{marginTop:10}}><a href="/industries/perfume-packaging/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Explore Perfume Packaging →</a></p>
+            </article>
+            <article className="mrb-feature">
+              <strong>04</strong><h3>MOQ From 100 pcs</h3>
+              <p>Selected custom drawer box projects can start from 100 pcs, with sampling available for suitable designs.</p>
+              <p style={{marginTop:10}}><a href="/rfq/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
+            </article>
           </div>
         </div>
       </section>
@@ -591,16 +623,6 @@ export default function DrawerBoxesPage() {
       <section className="mrb-section soft" id="references">
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE, APPLICATION &amp; PROCESS REFERENCES</span><h2>Drawer Box Packaging Reference Guides</h2><p>These generated or optimized images are reference illustrations only. They are not real customer projects, factory photos, production samples or shipped orders.</p></div>
-          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
-            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
-          </div>
-        </div>
-      </section>
-
-      {/* Generated reference imagery: structure, application, materials and workflow only */}
-      <section className="mrb-section soft" id="references">
-        <div className="container">
-          <div className="mrb-head center"><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Drawer Box Structure, Application &amp; Workflow References</h2><p>All images in this section are generated or optimized reference illustrations only. They are not real customer cases, factory photos, production samples or shipped orders, and pictured equipment is not claimed as verified factory equipment.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
             {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
