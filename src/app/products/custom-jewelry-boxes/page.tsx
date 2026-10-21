@@ -49,7 +49,12 @@ const faqs = [
 const structuredData = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"Product", name:"Custom Jewelry Boxes", image:"https://www.sorivapackaging.com/img/jewelry.webp", description:"Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry sets.", brand:{"@type":"Brand",name:"SORIVA Packaging"}, url:PAGE_URL },
+    { "@type":"Product", name:"Custom Jewelry Boxes", image:"https://www.sorivapackaging.com/img/jewelry.webp", description:"Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry sets.", brand:{"@type":"Brand",name:"SORIVA Packaging"}, url:PAGE_URL, additionalProperty:[
+      {"@type":"PropertyValue",name:"MOQ",value:"From 100 pcs for selected custom projects"},
+      {"@type":"PropertyValue",name:"In-stock option",value:"Portable ring box from 20 pcs"},
+      {"@type":"PropertyValue",name:"Customization",value:"Size, structure, inserts, papers and logo finishing"}
+    ] },
+    { "@type":"Organization", name:"SORIVA Packaging", url:"https://www.sorivapackaging.com/", email:"AMY@XINGYUE.STORE", description:"Custom luxury packaging manufacturer with a 10,000㎡ factory, 400+ employees, 50M+ annual capacity and 20 years of production experience.", knowsAbout:["Jewelry packaging","Custom jewelry boxes","Ring boxes","Drawer boxes","Packaging inserts","Luxury finishing"] },
     { "@type":"BreadcrumbList", itemListElement:[
       {"@type":"ListItem",position:1,name:"Home",item:"https://www.sorivapackaging.com/"},
       {"@type":"ListItem",position:2,name:"Products",item:"https://www.sorivapackaging.com/products/"},
@@ -73,6 +78,37 @@ export default function CustomJewelryBoxesPage() {
         </div>
         <div className="mrb-hero-media"><img src="/img/jewelry.webp" alt="Custom luxury jewelry box packaging" width="1200" height="900" /></div>
       </div>
+    </div></section>
+
+    <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}><div className="container">
+      <div className="mrb-head center"><span className="eyebrow dark">QUICK BUYER ANSWERS</span><h2>Custom Jewelry Boxes — Key Sourcing Answers</h2></div>
+      <div className="mrb-features" style={{gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))"}}>
+        <article className="mrb-feature"><h3>What jewelry can be packaged?</h3><p>Rings, necklaces, pendants, earrings, bracelets, watches and coordinated jewelry gift sets.</p></article>
+        <article className="mrb-feature"><h3>Which structures are available?</h3><p>Drawer boxes, two-piece rigid boxes, magnetic rigid boxes and other project-specific presentation structures.</p></article>
+        <article className="mrb-feature"><h3>What is the custom MOQ?</h3><p>Selected custom jewelry box projects can start from 100 pcs. The in-stock portable ring box can start from 20 pcs.</p></article>
+        <article className="mrb-feature"><h3>Can inserts be customized?</h3><p>Yes. Insert layout and material can be developed around the jewelry size, display direction and presentation requirements.</p></article>
+      </div>
+    </div></section>
+
+    <section className="mrb-section"><div className="container">
+      <div className="mrb-head center"><span className="eyebrow dark">MANUFACTURER FACTS</span><h2>SORIVA Jewelry Packaging Manufacturing Snapshot</h2></div>
+      <div className="mrb-stats">
+        <div className="mrb-stat"><b>10,000㎡</b><span>Factory Area</span></div>
+        <div className="mrb-stat"><b>400+</b><span>Employees</span></div>
+        <div className="mrb-stat"><b>50M+</b><span>Annual Capacity</span></div>
+        <div className="mrb-stat"><b>20 Years</b><span>Production Experience</span></div>
+      </div>
+      <div className="mrb-note" style={{marginTop:24}}><b>Commercial terms:</b> Custom jewelry packaging MOQ from 100 pcs for selected projects · 1 pc prototype available for selected projects · Sea / Air / Express shipping. Lead time depends on design complexity, quantity, materials and finishing requirements.</div>
+    </div></section>
+
+    <section className="mrb-section soft"><div className="container">
+      <div className="mrb-head center"><span className="eyebrow dark">BUYER COMPARISON</span><h2>Choose a Jewelry Box by Product Type</h2></div>
+      <div className="mrb-table-wrap"><table className="mrb-table"><thead><tr><th>Jewelry Type</th><th>Recommended Packaging Direction</th><th>Insert Focus</th></tr></thead><tbody>
+        <tr><td><strong>Rings</strong></td><td>Compact two-piece, drawer or dedicated ring box</td><td>Ring slot, orientation and presentation height.</td></tr>
+        <tr><td><strong>Necklaces &amp; Pendants</strong></td><td>Longer rigid box or drawer format</td><td>Chain control, pendant position and anti-tangle layout.</td></tr>
+        <tr><td><strong>Earrings</strong></td><td>Compact rigid box or coordinated set box</td><td>Post, hoop or drop-earring fixation.</td></tr>
+        <tr><td><strong>Bracelets &amp; Watches</strong></td><td>Rigid presentation box with cushion or fitted insert</td><td>Circumference support and stable display position.</td></tr>
+      </tbody></table></div>
     </div></section>
 
     <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}><div className="container">
