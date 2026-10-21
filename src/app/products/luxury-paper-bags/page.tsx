@@ -440,6 +440,11 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Luxury Paper Bags",
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "MOQ", value: "From 100 pcs for selected projects" },
+        { "@type": "PropertyValue", name: "Customization", value: "Size, paper, GSM, handles, printing and finishing" },
+        { "@type": "PropertyValue", name: "Shipping", value: "Sea, Air and Express" }
+      ],
       image: "https://www.sorivapackaging.com/img/paper-bags.webp",
       description:
         "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
@@ -459,6 +464,14 @@ const structuredData = {
         url: "https://www.sorivapackaging.com/",
       },
       areaServed: "Worldwide",
+    },
+    {
+      "@type": "Organization",
+      name: "SORIVA Packaging",
+      url: "https://www.sorivapackaging.com/",
+      email: "AMY@XINGYUE.STORE",
+      description: "Custom luxury packaging manufacturer with a 10,000㎡ factory, 400+ employees, 50M+ annual capacity and 20 years of production experience.",
+      knowsAbout: ["Custom luxury packaging","Custom paper bags","Rigid gift boxes","Packaging inserts","Foil stamping","Embossing"]
     },
     {
       "@type": "BreadcrumbList",
@@ -556,6 +569,18 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">QUICK BUYER ANSWERS</span><h2>Custom Luxury Paper Bags — Key Sourcing Answers</h2></div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature"><h3>What are they best for?</h3><p>Beauty, fashion, jewelry, fragrance, boutique retail and premium gifting where branded presentation matters.</p></article>
+            <article className="mrb-feature"><h3>What can be customized?</h3><p>Bag size, paper stock, GSM, color, printing, foil, embossing, handle style, reinforcement and coordinated finishing.</p></article>
+            <article className="mrb-feature"><h3>What is the MOQ?</h3><p>Selected custom paper bag projects can start from 100 pcs. Final MOQ depends on material, printing, handle and finishing requirements.</p></article>
+            <article className="mrb-feature"><h3>Can I sample first?</h3><p>Prototype or pre-production sampling is available for selected projects to review size, paper, print, handle feel and finishing.</p></article>
+          </div>
+        </div>
+      </section>
+
       <section className="mrb-section" style={{ paddingTop: 36, paddingBottom: 36 }}>
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
@@ -603,7 +628,31 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-            {/* 1. Customization Overview */}
+            <section className="mrb-section">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">MANUFACTURER FACTS</span><h2>SORIVA Paper Bag Manufacturing Snapshot</h2><p>Core company facts kept consistent across SORIVA sourcing pages.</p></div>
+          <div className="mrb-stats">
+            <div className="mrb-stat"><b>10,000㎡</b><span>Factory Area</span></div>
+            <div className="mrb-stat"><b>400+</b><span>Employees</span></div>
+            <div className="mrb-stat"><b>50M+</b><span>Annual Capacity</span></div>
+            <div className="mrb-stat"><b>20 Years</b><span>Production Experience</span></div>
+          </div>
+          <div className="mrb-note" style={{marginTop:24}}><b>Commercial terms:</b> MOQ from 100 pcs for selected projects · prototype support available for selected projects · Sea / Air / Express shipping. Lead time depends on design complexity, quantity, materials and finishing requirements.</div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">BUYER COMPARISON</span><h2>Ribbon Handle vs Rope Handle Paper Bags</h2><p>Choose the handle according to brand presentation, bag size and carrying requirements.</p></div>
+          <div className="mrb-table-wrap"><table className="mrb-table"><thead><tr><th>Option</th><th>Best For</th><th>Buyer Consideration</th></tr></thead><tbody>
+            <tr><td><strong>Ribbon Handles</strong></td><td>Beauty, jewelry, gifting, boutique retail</td><td>Premium visual presentation with satin or grosgrain choices.</td></tr>
+            <tr><td><strong>Rope Handles</strong></td><td>Fashion, retail, larger carrier bags</td><td>Available in cotton, paper or synthetic constructions depending on the project.</td></tr>
+            <tr><td><strong>Die-Cut Handles</strong></td><td>Minimal retail concepts</td><td>Integrated handle opening with no external ribbon or rope.</td></tr>
+          </tbody></table></div>
+        </div>
+      </section>
+
+      {/* 1. Customization Overview */}
       <section className="mrb-section" id="customization">
         <div className="container">
           <div className="mrb-head center">
