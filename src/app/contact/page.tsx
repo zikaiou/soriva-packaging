@@ -32,8 +32,30 @@ const structuredData = {
       "@type": "ContactPage",
       name: "Contact SORIVA Packaging",
       url: PAGE_URL,
-      description:
-        "Contact SORIVA Packaging for custom packaging quotes and inquiries.",
+      description: "Contact SORIVA Packaging for custom luxury packaging quotations and sourcing inquiries.",
+      about: { "@id": "https://www.sorivapackaging.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.sorivapackaging.com/#organization",
+      name: "SORIVA Packaging",
+      url: "https://www.sorivapackaging.com/",
+      email: "AMY@XINGYUE.STORE",
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        telephone: "+86 159 1388 1634",
+        email: "AMY@XINGYUE.STORE",
+        areaServed: "Worldwide",
+        availableLanguage: ["English", "Chinese"]
+      },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Factory Area", value: "10,000㎡" },
+        { "@type": "PropertyValue", name: "Employees", value: "400+" },
+        { "@type": "PropertyValue", name: "Annual Capacity", value: "50M+ boxes" },
+        { "@type": "PropertyValue", name: "Production Experience", value: "20 years" },
+        { "@type": "PropertyValue", name: "Custom Packaging MOQ", value: "From 100 pcs for selected projects" }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -91,6 +113,17 @@ export default function ContactPage() {
         </div>
       </section>
 
+      <section className="mrb-section soft"><div className="container">
+        <div className="mrb-head center"><span className="eyebrow dark">MANUFACTURER FACTS</span><h2>Who You Are Contacting</h2><p>SORIVA Packaging is a custom luxury packaging manufacturer serving global brands.</p></div>
+        <div className="mrb-stats">
+          <div className="mrb-stat"><b>10,000㎡</b><span>Factory Area</span></div>
+          <div className="mrb-stat"><b>400+</b><span>Employees</span></div>
+          <div className="mrb-stat"><b>50M+</b><span>Annual Capacity</span></div>
+          <div className="mrb-stat"><b>20 Years</b><span>Production Experience</span></div>
+        </div>
+        <div className="mrb-note" style={{marginTop:24}}><b>Project support:</b> custom specifications · MOQ from 100 pcs for selected projects · prototype support for selected projects · Sea / Air / Express shipping.</div>
+      </div></section>
+
       <section className="mrb-quote" id="quote">
         <div className="container mrb-quote-grid">
           <div>
@@ -113,8 +146,8 @@ export default function ContactPage() {
                 <a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a>
               </div>
               <div className="mrb-contact-note">
-                <b>Response</b>
-                <span style={{ color: "#c5c5c5" }}>Within 24 hours</span>
+                <b>Manufacturer</b>
+                <a href="/about/">About SORIVA</a>
               </div>
             </div>
             <a className="mrb-back" href="/">
