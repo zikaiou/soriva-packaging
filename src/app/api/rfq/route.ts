@@ -209,7 +209,15 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("RFQ notification failed", error);
     await supabase.from("rfq_submissions").update({ status: "reviewing" } as never).eq("id", rfq.id);
-    return json({ error: "Your inquiry was saved, but notification processing failed. Please contact us on WhatsApp." }, 502);
+
+    // The RFQ has already been saved successfully. Do not show the customer
+    // a submission failure just because email notification failed.
+    return json({
+      ok: true,
+      rfqId: rfq.id,
+      redirect: "/rfq/thank-you/",
+      notificationWarning: true,
+    });
   }
 
   return json({ ok: true, rfqId: rfq.id, redirect: "/rfq/thank-you/" });
