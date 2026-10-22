@@ -89,7 +89,7 @@ export default function RfqPage() {
             headers: { "content-type": signed.type, "x-upsert": "false" },
             body: file,
           });
-          if (!uploadResponse.ok) throw new Error("File upload failed.");
+          if (!uploadResponse.ok) throw new Error(`File upload failed: ${signed.name}. Please try again or submit without attachments and send the file by WhatsApp or email.`);
           uploadedFiles.push({ original_name: signed.name, storage_path: signed.path, mime_type: signed.type, size_bytes: signed.size });
         }));
       }
@@ -147,7 +147,7 @@ export default function RfqPage() {
         </div>
       </section>
       <section className="rfq-section rfq-soft"><div className="rfq-wrap"><p className="rfq-eyebrow">WHAT HAPPENS NEXT</p><h2>From RFQ to Production</h2><div className="rfq-steps"><div><b>1. Review</b><p>We review size, quantity, structure, material and finishing.</p></div><div><b>2. Quote & Sample</b><p>We prepare the quotation and confirm whether a prototype is needed.</p></div><div><b>3. Production</b><p>After specification approval, the project moves into production and QC.</p></div></div></div></section>
-      <section className="rfq-contact"><div className="rfq-wrap"><h2>Prefer WhatsApp?</h2><p>Send your reference image, size and quantity directly.</p><a className="btn-wa" href={waLink("Hello SORIVA Packaging, I would like to request a custom packaging quotation.")} target="_blank" rel="noreferrer">Chat on WhatsApp</a></div></section>
+      <section className="rfq-contact"><div className="rfq-wrap"><h2>Need a Backup Contact Method?</h2><p>If the form or file upload does not work, send your project details and reference files directly by WhatsApp or email.</p><div style={{display:"flex",gap:12,flexWrap:"wrap",justifyContent:"center"}}><a className="btn-wa" href={waLink("Hello SORIVA Packaging, I would like to request a custom packaging quotation.")} target="_blank" rel="noreferrer">Chat on WhatsApp</a><a className="btn gold" href="mailto:AMY@XINGYUE.STORE">Email AMY@XINGYUE.STORE</a></div></div></section>
     </main>
   );
 }
