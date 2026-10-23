@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
+    absolute: "Custom Magnetic Boxes & Magnetic Gift Boxes | SORIVA Packaging",
   },
   description:
-    "Custom magnetic rigid boxes with book-style structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, jewelry and gift packaging.",
+    "Custom magnetic closure gift boxes and rigid packaging with custom sizes, logo printing, inserts and premium finishes. Manufacturer for luxury brands; selected MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes | SORIVA Packaging",
+    title: "Custom Magnetic Gift Boxes & Rigid Boxes | SORIVA Packaging",
     description:
-      "Premium magnetic rigid boxes with hidden magnetic closures, custom inserts and luxury finishes. MOQ from 100 pcs, 1 pc prototype and global shipping.",
+      "Custom magnetic gift boxes with concealed closures, branded finishes and optional inserts. Book-style or foldable rigid structures for selected projects.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -201,8 +201,8 @@ const processSteps = [
 
 const faqs = [
   {
-    q: "Can magnetic rigid boxes be customized with a logo?",
-    a: "Yes. Logo treatment can include printing, foil stamping, embossing, debossing or other suitable finishing depending on the paper and design.",
+    q: "Can I order custom magnetic gift boxes with my logo?",
+    a: "Yes. Custom magnetic gift boxes with logo can use printing, foil stamping, embossing, debossing or other suitable finishes, depending on the selected paper, artwork and structure.",
   },
   {
     q: "Can you customize the insert?",
@@ -237,8 +237,8 @@ const faqs = [
     a: "Yes. 1 pc custom prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
   },
   {
-    q: "Do you offer foldable magnetic box options for export shipping?",
-    a: "Yes. Foldable structures can improve packing efficiency and reduce shipping volume for suitable projects, maintaining rigid box presentation upon assembly.",
+    q: "Do you offer foldable magnetic gift boxes as well as traditional rigid boxes?",
+    a: "Yes. For suitable designs, foldable magnetic gift boxes can be supplied flat to improve packing efficiency. Traditional assembled magnetic rigid boxes are also available. Final construction, closure and assembly method depend on the project specifications.",
   },
 ];
 
@@ -250,7 +250,7 @@ const structuredData = {
       name: "Custom Magnetic Rigid Boxes",
       image: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
       description:
-        "Custom magnetic rigid boxes with book-style structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, jewelry and gift packaging.",
+        "Custom magnetic closure gift boxes and rigid packaging with custom sizes, logo printing, inserts and premium finishes. Manufacturer for luxury brands; selected MOQ from 100 pcs.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       offers: {
         "@type": "AggregateOffer",
@@ -346,12 +346,9 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">PRODUCT OVERVIEW</span>
-            <h2>Premium Custom Packaging Built Around Your Brand</h2>
+            <h2>Custom Magnetic Closure Gift Boxes for Premium Brands</h2>
             <p>
-              Magnetic rigid boxes are premium presentation boxes built with a
-              sturdy greyboard core, wrapped paper surfaces and hidden magnetic
-              closures. They are widely used for cosmetics, perfume, jewelry,
-              gifts and other premium products.
+              Our custom magnetic closure boxes combine a sturdy greyboard core, wrapped paper surfaces and concealed magnets for a refined opening experience. These magnetic gift boxes can be tailored with logo printing, foil stamping, custom inserts and paper finishes for cosmetics, perfume, jewelry and premium gifting.
             </p>
           </div>
           <div className="mrb-features">
@@ -390,8 +387,8 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BUYER DECISION</span>
-            <h2>When to Choose a Magnetic Rigid Box</h2>
-            <p>Choose a magnetic rigid box when premium presentation, hinged opening and concealed magnetic closure are important to the unboxing experience. Final structure, insert fit, paper selection and finishing should be confirmed during sampling.</p>
+            <h2>Magnetic Closure Rigid Boxes: When to Choose This Structure</h2>
+            <p>Choose magnetic closure rigid boxes when premium presentation, a hinged opening and concealed magnets are important to the unboxing experience. Book-style and suitable foldable magnetic rigid boxes offer different packing and assembly requirements; confirm structure, insert fit, paper and finishes during sampling.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
             <article className="mrb-feature"><h3>Book-Style Magnetic Box</h3><p>A hinged book-style magnetic box creates a clear opening sequence for fragrance, jewelry and premium gift presentation.</p></article>
@@ -533,7 +530,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Built for Sampling and Scalable Production</h2>
+            <h2>Custom Magnetic Box Manufacturer: Sampling & Production</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
