@@ -87,6 +87,24 @@
   border: 1px solid rgba(199, 154, 81, 0.25);
 }
 
+/* Buyer resource links sit on a light background: override white ghost-button text.
+   Scoped to this section so the dark hero's ghost button remains unchanged. */
+.mrb-page .mrb-buyer-resource-links a.btn.ghost {
+  color: #1c1c1c !important;
+  background: #ffffff;
+  border-color: #a88b5b;
+}
+.mrb-page .mrb-buyer-resource-links a.btn.ghost:hover,
+.mrb-page .mrb-buyer-resource-links a.btn.ghost:focus-visible {
+  color: #ffffff !important;
+  background: #1c1c1c;
+  border-color: #1c1c1c;
+}
+.mrb-page .mrb-buyer-resource-links a.btn.ghost:focus-visible {
+  outline: 2px solid #a77a32;
+  outline-offset: 3px;
+}
+
 /* ---------- WhatsApp button ---------- */
 .btn-wa {
   display: inline-flex;
