@@ -246,22 +246,13 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Magnetic Rigid Boxes",
-      image: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
-      description:
-        "Custom magnetic closure gift boxes and rigid packaging with custom sizes, logo printing, inserts and premium finishes. Manufacturer for luxury brands; selected MOQ from 100 pcs.",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        price: "1.20",
-        lowPrice: "0.80",
-        highPrice: "5.00",
-        offerCount: "1000",
-        availability: "https://schema.org/InStock",
-      },
+      "@type": "Service",
+      name: "Custom Magnetic Rigid Box Manufacturing",
+      description: "Made-to-order magnetic closure rigid gift boxes for brands, with custom sizes, inserts, artwork, foil and other finishes. Specifications and pricing are confirmed by quotation.",
       url: PAGE_URL,
+      serviceType: "Custom Magnetic Rigid Box Manufacturing",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
