@@ -433,20 +433,6 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Rigid Drawer Boxes",
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "MOQ", value: "From 100 pcs for selected projects" },
-        { "@type": "PropertyValue", name: "Structure", value: "Outer rigid sleeve with sliding inner tray" },
-        { "@type": "PropertyValue", name: "Customization", value: "Size, inserts, ribbon pulls, paper, printing and finishing" }
-      ],
-      image: "https://www.sorivapackaging.com/img/drawer-box.webp",
-      description:
-        "Custom rigid drawer boxes with tailored sizes, inserts, paper materials, printing and premium finishing. OEM/ODM support, sampling and flexible customization for global brands.",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      url: PAGE_URL,
-    },
-    {
       "@type": "Service",
       name: "Custom Drawer Box Manufacturing",
       description:
