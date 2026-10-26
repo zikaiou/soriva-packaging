@@ -438,20 +438,6 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Luxury Paper Bags",
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "MOQ", value: "From 100 pcs for selected projects" },
-        { "@type": "PropertyValue", name: "Customization", value: "Size, paper, GSM, handles, printing and finishing" },
-        { "@type": "PropertyValue", name: "Shipping", value: "Sea, Air and Express" }
-      ],
-      image: "https://www.sorivapackaging.com/img/paper-bags.webp",
-      description:
-        "Custom luxury paper bags with tailored sizes, materials, printing, handles and premium finishing options. OEM/ODM support, sampling and flexible customization for global brands.",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      url: PAGE_URL,
-    },
-    {
       "@type": "Service",
       name: "Custom Luxury Paper Bag Manufacturing",
       description:
