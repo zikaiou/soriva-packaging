@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA Packaging",
+    absolute: "Luxury Paper Bag Manufacturer | Custom Printed Bags | SORIVA",
   },
   description:
-    "Custom luxury paper bags with logo printing, custom sizes, premium paper and ribbon or rope handles. Direct manufacturer for retail brands; MOQ from 100 pcs on selected projects.",
+    "Luxury paper bag manufacturer for custom printed bags with logo, premium paper, ribbon or rope handles and tailored sizes. MOQ from 100 pcs for selected projects.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer | SORIVA Packaging",
+    title: "Luxury Paper Bag Manufacturer | Custom Printed Bags | SORIVA",
     description:
-      "Custom printed luxury paper bags for retail brands. Choose logo printing, specialty paper, custom sizes, ribbon or rope handles and premium finishes.",
+      "Custom printed luxury paper bags for retail brands with logo printing, specialty paper, custom sizes, ribbon or rope handles and premium finishes.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -513,11 +513,11 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Luxury Paper Bags Manufacturer for Premium Brands</h1>
+              <h1>Luxury Paper Bag Manufacturer for Custom Printed Bags</h1>
               <p className="mrb-lead">
-                Source custom branded paper bags for beauty, fashion, jewelry and premium retail. Choose
-                custom sizes, specialty or textured papers, ribbon or rope handles, logo printing,
-                foil, embossing and coordinated finishes, with sampling support and MOQ from 100 pcs.
+                Source custom printed luxury paper bags with logo for beauty, fashion, jewelry and premium retail.
+                Choose tailored sizes, specialty or textured papers, ribbon or rope handles, foil, embossing and
+                coordinated finishes, with sampling support and MOQ from 100 pcs for selected projects.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
