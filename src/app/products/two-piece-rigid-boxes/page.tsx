@@ -273,22 +273,22 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Two-Piece Rigid Boxes",
-      description:
-        "Classic lid-and-base rigid boxes with premium structure, dependable protection and flexible customization. MOQ from 100 pcs, 1 pc prototype and global export.",
-      image: "https://www.sorivapackaging.com/img/two-piece-rigid.webp",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Rigid greyboard + custom wrapping paper",
+      "@type": "Service",
+      name: "Custom Two-Piece Rigid Box Manufacturing",
+      description: "Custom rigid lid-and-base gift box manufacturing with tailored dimensions, inserts, wrapping paper, printing and premium finishing.",
+      url: PAGE_URL,
+      serviceType: "Custom Two-Piece Rigid Box Manufacturing",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Products", item: "https://www.sorivapackaging.com/products/" },
         {
           "@type": "ListItem",
-          position: 2,
+          position: 3,
           name: "Custom Two-Piece Rigid Boxes",
           item: PAGE_URL,
         },
