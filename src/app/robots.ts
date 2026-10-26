@@ -6,8 +6,9 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/_next/", "/api/"],
+        disallow: ["/api/"],
       },
+      // Allow search crawlers to fetch Next.js CSS and JS assets for page rendering.
       // AI crawlers — explicitly allowed for generative engine optimization
       { userAgent: "OAI-SearchBot", allow: "/" },
       { userAgent: "GPTBot", allow: "/" },
