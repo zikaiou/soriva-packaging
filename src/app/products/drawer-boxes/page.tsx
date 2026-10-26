@@ -384,16 +384,16 @@ const faqs = [
     a: "Yes. Matchbox style boxes use an outer sleeve and sliding tray; proportions, materials and pull solutions are customized according to the product.",
   },
   {
-    q: "Can you make drawer boxes with ribbon pull?",
-    a: "Yes. Drawer boxes with ribbon pull can be developed with satin, grosgrain or other suitable pull-tab solutions.",
+    q: "How do you confirm the sliding tray fits properly?",
+    a: "We review the product dimensions, sleeve and tray clearances, board thickness and any insert before production. A physical sample can be used to check the opening feel, product fit and final presentation.",
   },
   {
-    q: "Can I order drawer gift boxes with logo?",
-    a: "Yes. Drawer gift boxes with logo can use printing, foil stamping, embossing, debossing or suitable finishing based on the artwork.",
+    q: "Are rigid drawer boxes shipped assembled or flat-packed?",
+    a: "Traditional rigid drawer boxes are typically supplied assembled because the outer sleeve and sliding tray need to retain their shape. Carton dimensions and shipping volume depend on the final box design and should be confirmed before ordering.",
   },
   {
-    q: "Are you a drawer box manufacturer and drawer box supplier?",
-    a: "SORIVA supports buyers comparing a drawer box manufacturer and drawer box supplier for custom rigid sliding packaging projects.",
+    q: "Do you support OEM drawer box packaging for brands?",
+    a: "Yes. OEM drawer box packaging can be developed with brand-specific dimensions, sleeve and tray construction, logo artwork, inserts and finishing. Share your product measurements, target quantity and destination so we can review the manufacturing requirements.",
   },
   {
     q: "Do you offer wholesale drawer boxes?",
