@@ -215,14 +215,13 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Paper Tube Packaging",
-      description:
-        "Custom cylindrical paper packaging for cosmetics, perfume, candles, tea and premium gifts. MOQ from 100 pcs.",
-      image: "https://www.sorivapackaging.com/img/tube-packaging.webp",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Paperboard tube + specialty paper",
+      "@type": "Service",
+      name: "Custom Paper Tube Packaging Manufacturing",
+      description: "Made-to-order cylindrical paper tube packaging with tailored sizes, inserts and finishing for fragrance, cosmetics, candles and gift products.",
+      url: PAGE_URL,
+      serviceType: "Custom Paper Tube Packaging Manufacturing",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
