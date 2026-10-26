@@ -138,8 +138,8 @@ const faqs = [
     a: "Diameter and height can be customized according to the product dimensions, insert requirements and desired fit. Final dimensions should be confirmed during sampling.",
   },
   {
-    q: "What is the difference between telescopic and shoulder-neck tube packaging?",
-    a: "A telescopic tube typically uses a lid that overlaps the base, while a shoulder-neck tube uses an inner raised section to create a defined reveal and alignment between lid and base.",
+    q: "What is telescopic tube packaging and how does it differ from shoulder-neck tube packaging?",
+    a: "Telescopic tube packaging typically uses a lid that overlaps the base, while a shoulder-neck tube uses an inner raised section to create a defined reveal and alignment between lid and base.",
   },
   {
     q: "Can paper tubes be customized with a logo?",
@@ -324,13 +324,14 @@ export default function TubePackagingPage() {
           <div className="mrb-head center"><span className="eyebrow dark">WHAT IS PAPER TUBE PACKAGING?</span><h2>Custom Cylindrical Packaging for Product Presentation</h2><p>Paper tube packaging uses a cylindrical paperboard structure and can be customized in diameter, height, lid style, lining, printing and finishing. It is often selected for perfume, cosmetics, candles, gifts and other products where a distinctive cylindrical presentation is preferred.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
             <article className="mrb-feature"><strong>01</strong><h3>Custom Size</h3><p>Custom diameter, custom height, product-based sizing, insert clearance and lid fit can be reviewed. Final dimensions should be confirmed according to product size, insert and required fit during sampling.</p><p><a href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a></p></article>
-            <article className="mrb-feature"><strong>02</strong><h3>Lid &amp; Closure Options</h3><p>Paper lid, rigid paper cover, transparent cover, metal lid, pull-tab or easy-open structures can be considered where suitable for the project.</p></article>
-            <article className="mrb-feature"><strong>03</strong><h3>Materials</h3><p>Greyboard / rigid paperboard, white linerboard, kraft paper, specialty paper, coated paper, black paper and pearlescent or metallic paper where suitable.</p></article>
-            <article className="mrb-feature"><strong>04</strong><h3>Printing &amp; Finishing</h3><p>Offset printing, screen printing where suitable, foil stamping, embossing, debossing, spot UV, matte lamination, gloss lamination and custom artwork can be reviewed.</p><p><a href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Comparison →</a></p></article>
-            <article className="mrb-feature"><strong>05</strong><h3>Inner Lining &amp; Inserts</h3><p>Paper lining, black or white coated paper, kraft lining, aluminum foil lining where appropriate, paper insert, EVA or foam insert and molded insert where suitable.</p><p><a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Comparison →</a></p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Lid / Closure Options</h3><p>Paper lid, rigid paper cover, transparent cover, metal lid, pull-tab or easy-open structures can be considered where suitable for the project.</p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Materials Reference</h3><p>Greyboard / rigid paperboard, white linerboard, kraft paper, specialty paper, coated paper, black paper and pearlescent or metallic paper where suitable.</p></article>
+            <article className="mrb-feature"><strong>04</strong><h3>Printing &amp; Finishing Reference</h3><p>Offset printing, screen printing where suitable, foil stamping, embossing, debossing, spot UV, matte lamination, gloss lamination and custom artwork can be reviewed.</p><p><a href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Comparison →</a></p></article>
+            <article className="mrb-feature"><strong>07</strong><h3>Color &amp; Artwork</h3><p>CMYK process printing and Pantone (PMS) spot-color matching can be reviewed from approved artwork. Vector artwork is preferred, with high-resolution raster files where needed; artwork is reviewed before sampling.</p><p><a href="/resources/pantone-vs-cmyk-custom-packaging/">Color System Guide →</a></p></article>
+            <article className="mrb-feature"><strong>05</strong><h3>Inner Lining / Insert Options</h3><p>Paper lining, black or white coated paper, kraft lining, aluminum foil lining where appropriate, paper insert, EVA or foam insert and molded insert where suitable.</p><p><a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Comparison →</a></p></article>
             <article className="mrb-feature"><strong>06</strong><h3>Buyer Decision</h3><p>Choose paper tube packaging when cylindrical presentation, shelf differentiation and flexible diameter or height customization are important. Final structure, lid fit, lining, insert and finishing should be confirmed during sampling.</p></article>
           </div>
-          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Tube Structure, Materials &amp; Customization References</h2>            <p>All images below are reference or concept-support images only; they are illustrative concepts rather than documentary evidence of client work, facility photography, third-party compliance documentation or completed delivery records. Visible third-party marks are not presented as SORIVA customers.</p></div>
+          <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Tube Structure, Materials &amp; Customization References</h2>            <p>All images below are reference or concept-support images only; they illustrate possible packaging directions and are not presented as verified brand work, site photography, compliance documentation or shipment records. Visible third-party marks are not presented as SORIVA customers.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
             {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
@@ -357,7 +358,7 @@ export default function TubePackagingPage() {
           <div className="mrb-structure">
             <div className="mrb-head">
               <span className="eyebrow dark">STRUCTURE OPTIONS</span>
-              <h2>Tube Structures</h2>
+              <h2>Tube Structure Options</h2>
             </div>
             <ol>
               {structures.map((s) => (
@@ -463,7 +464,7 @@ export default function TubePackagingPage() {
           <div className="mrb-head center">
             <span className="eyebrow dark">TUBE PACKAGING SOLUTIONS</span>
             <h2>Explore Tube Packaging by Application</h2>
-            <p>Review dedicated solution pages and application references for perfume, cosmetics, candles and premium gifts. The concept images on this page are not claims of completed customer projects.</p>
+            <p>Review dedicated solution pages and application references for perfume, cosmetics, candles and premium gifts. The concept images on this page describe possible packaging directions only.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
             {[
