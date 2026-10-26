@@ -288,22 +288,22 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      name: "Custom Foldable Magnetic Rigid Boxes",
-      description:
-        "Custom foldable magnetic rigid boxes with flat-pack structures, concealed magnetic closures and tailored inserts. Final structure and project specifications are confirmed during sampling.",
-      image: "https://www.sorivapackaging.com/img/foldable-rigid.webp",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      category: "Custom Luxury Packaging",
-      material: "Rigid greyboard + custom wrapping paper",
+      "@type": "Service",
+      name: "Custom Foldable Magnetic Rigid Box Manufacturing",
+      description: "Custom flat-pack magnetic rigid gift boxes with concealed closures, tailored dimensions, inserts and finishing for branded packaging projects.",
+      url: PAGE_URL,
+      serviceType: "Custom Foldable Rigid Box Manufacturing",
+      provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
+      areaServed: "Worldwide",
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.sorivapackaging.com/" },
+        { "@type": "ListItem", position: 2, name: "Products", item: "https://www.sorivapackaging.com/products/" },
         {
           "@type": "ListItem",
-          position: 2,
+          position: 3,
           name: "Custom Foldable Magnetic Rigid Boxes",
           item: PAGE_URL,
         },
