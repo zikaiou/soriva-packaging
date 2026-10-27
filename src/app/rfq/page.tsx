@@ -96,6 +96,7 @@ export default function RfqPage() {
         });
         const uploadData = await readApiResponse(uploadRequest);
         if (!uploadRequest.ok) throw new Error(typeof uploadData.error === "string" ? uploadData.error : "Could not prepare file upload.");
+        if (!Array.isArray(uploadData.files) || uploadData.files.length !== files.length) throw new Error("We could not confirm all attachment uploads. Please send your files by WhatsApp or email.");
         await Promise.all((Array.isArray(uploadData.files) ? uploadData.files : []).map(async (signed: { signedUrl: string; path: string; token: string; name: string; type: string; size: number }) => {
           const file = files.find((candidate) => candidate.name === signed.name && candidate.type === signed.type && candidate.size === signed.size);
           if (!file) throw new Error("Uploaded file could not be matched.");
