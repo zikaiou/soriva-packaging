@@ -45,9 +45,10 @@ export async function POST(request: Request) {
   const files = Array.isArray(body.files) ? body.files : [];
   if (files.length > RFQ_MAX_FILES) return json({ error: `Please upload no more than ${RFQ_MAX_FILES} files.` }, 400);
 
+  const signed = [] as Array<{ signedUrl: string; path: string; token: string; name: string; type: string; size: number }>;
   try {
     const supabase = getSupabaseAdmin();
-  const signed = [] as Array<{ signedUrl: string; path: string; token: string; name: string; type: string; size: number }>;
+
   for (const file of files) {
     const candidate = {
       name: typeof file.name === "string" ? file.name.slice(0, 200) : "",
