@@ -64,6 +64,7 @@ export default function RfqPage() {
   const [status, setStatus] = useState("");
   const [error, setError] = useState("");
   const [sending, setSending] = useState(false);
+  const [backupDelivered, setBackupDelivered] = useState(false);
   const [finishes, setFinishes] = useState<string[]>([]);
   const [website, setWebsite] = useState("");
   const fileNames = useMemo(() => files.map((file) => file.name).join(", "), [files]);
@@ -118,6 +119,12 @@ export default function RfqPage() {
       const result = await readApiResponse(response);
       if (!response.ok) throw new Error(typeof result.error === "string" ? result.error : "We could not confirm your inquiry. Please contact us using WhatsApp or email below.");
       if (result.ok !== true) throw new Error("Your inquiry could not be confirmed. Please contact us using WhatsApp or email below.");
+      if (result.backupDelivery === "email") {
+        setBackupDelivered(true);
+        setStatus("Your inquiry details were delivered to our team by backup email because our database is temporarily unavailable. Please do not submit this inquiry again. If you attached files, their delivery is not confirmed; please resend them by WhatsApp or email below.");
+        setSending(false);
+        return;
+      }
       window.location.href = typeof result.redirect === "string" && result.redirect.startsWith("/rfq/") ? result.redirect : "/rfq/thank-you/";
     } catch (submissionError) {
       setError(submissionError instanceof Error ? submissionError.message : "We could not submit your inquiry.");
@@ -158,7 +165,7 @@ export default function RfqPage() {
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>
               <label className="rfq-field rfq-full"><span>Upload Logo / Reference Images</span><input name="files" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" multiple onChange={(event) => { const selected = Array.from(event.target.files || []); const message = validateFiles(selected); setError(message); if (!message) setFiles(selected); }} /><small>{fileNames || "JPG, PNG or PDF. Maximum 10MB per file, up to 5 files."}</small></label>
               <label className="rfq-honeypot" aria-hidden="true">Website<input tabIndex={-1} autoComplete="off" value={website} onChange={(event) => setWebsite(event.target.value)} /></label>
-              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending}>{sending ? "Sending…" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink("Hello SORIVA Packaging, I tried submitting an RFQ but the website could not confirm it. Please help me with my custom packaging inquiry.")} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <p className="rfq-status">{status}</p>}</div>
+              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending || backupDelivered}>{sending ? "Sending…" : backupDelivered ? "Inquiry Sent by Email" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink("Hello SORIVA Packaging, I tried submitting an RFQ but the website could not confirm it. Please help me with my custom packaging inquiry.")} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <div className="rfq-status" role="status"><p>{status}</p>{backupDelivered && <p style={{ marginTop: 8 }}>Need to resend reference files? <a href={waLink("Hello SORIVA Packaging, I submitted an RFQ using the backup email delivery and would like to send my attachment files.")} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: 700 }}>Contact us on WhatsApp</a> or <a href="mailto:AMY@XINGYUE.STORE?subject=SORIVA%20RFQ%20Attachments" style={{ textDecoration: "underline", fontWeight: 700 }}>email your files</a>.</p>}</div>}</div>
             </div>
           </form>
         </div>
