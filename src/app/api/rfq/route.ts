@@ -46,6 +46,35 @@ function value(body: Record<string, unknown>, name: string, max = 4000) {
   return typeof body[name] === "string" ? String(body[name]).trim().slice(0, max) : "";
 }
 
+async function emailBackupInquiry(fields: Record<string, string>, uploadedFileNames: string[]) {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from = process.env.RFQ_FROM_EMAIL;
+  const to = process.env.RFQ_TO_EMAIL;
+  if (!apiKey || !from || !to) return false;
+
+  try {
+    const resend = new Resend(apiKey);
+    const details = Object.entries(fields)
+      .map(([key, val]) => `<p><strong>${escapeHtml(key)}:</strong> ${escapeHtml(val || "—")}</p>`)
+      .join("");
+    const { error } = await resend.emails.send({
+      from,
+      to: [to],
+      replyTo: fields.email,
+      subject: `SORIVA RFQ BACKUP | ${fields.packaging_type} | ${fields.country}`,
+      html: `<h1>RFQ received by backup email</h1><p>The database was unavailable. This request was NOT saved in Supabase. Please reply to the customer directly.</p>${details}<p><strong>Uploaded file names (may need to request again):</strong> ${escapeHtml(uploadedFileNames.join(", ") || "None")}</p>`,
+    });
+    if (error) {
+      console.error("RFQ backup email failed", error);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.error("RFQ backup email exception", error);
+    return false;
+  }
+}
+
 function isUploadedFile(valueToCheck: unknown): valueToCheck is {
   original_name: string;
   storage_path: string;
@@ -119,7 +148,10 @@ export async function POST(request: Request) {
     size_bytes: number;
   }>;
 
-  const supabase = getSupabaseAdmin();
+  let supabase: ReturnType<typeof getSupabaseAdmin>;
+  let rfq: { id: string; created_at: string } | null = null;
+  try {
+    supabase = getSupabaseAdmin();
   const rfqPayload: Record<string, unknown> = {
     ...fields,
     company: fields.company || null,
@@ -140,11 +172,22 @@ export async function POST(request: Request) {
     .insert(rfqPayload as never)
     .select("id, created_at")
     .single();
-  const rfq = rfqData as { id: string; created_at: string } | null;
+  rfq = rfqData as { id: string; created_at: string } | null;
 
   if (rfqError || !rfq) {
     console.error("RFQ insert failed", rfqError);
-    return json({ error: "We could not save your inquiry. Please try again." }, 500);
+    throw new Error("RFQ database insert failed");
+  }
+  } catch (error) {
+    console.error("RFQ storage unavailable", error);
+    const backupSent = await emailBackupInquiry(fields, files.map((file) => file.original_name));
+    if (backupSent) {
+      return json({ ok: true, redirect: "/rfq/thank-you/", backupDelivery: "email" });
+    }
+    return json({
+      error: "We could not confirm your submission. Please contact us by WhatsApp or email using the links below. If you already submitted, mention that to avoid duplicates.",
+      fallbackContact: true,
+    }, 503);
   }
 
   try {
@@ -208,7 +251,11 @@ export async function POST(request: Request) {
     if (confirmationEmailError) throw confirmationEmailError;
   } catch (error) {
     console.error("RFQ notification failed", error);
-    await supabase.from("rfq_submissions").update({ status: "reviewing" } as never).eq("id", rfq.id);
+    try {
+      await supabase.from("rfq_submissions").update({ status: "reviewing" } as never).eq("id", rfq.id);
+    } catch (statusError) {
+      console.error("RFQ status update failed", statusError);
+    }
 
     // The RFQ has already been saved successfully. Do not show the customer
     // a submission failure just because email notification failed.
