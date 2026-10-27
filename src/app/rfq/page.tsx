@@ -46,6 +46,19 @@ function validateFiles(files: File[]) {
   return "";
 }
 
+async function readApiResponse(response: Response): Promise<Record<string, unknown>> {
+  const raw = await response.text();
+  if (!raw.trim()) return {};
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed)
+      ? parsed as Record<string, unknown>
+      : {};
+  } catch {
+    throw new Error("The quotation service returned an unexpected response. Your submission is not confirmed. Please use WhatsApp or email below so we can assist you.");
+  }
+}
+
 export default function RfqPage() {
   const [files, setFiles] = useState<File[]>([]);
   const [status, setStatus] = useState("");
@@ -54,6 +67,7 @@ export default function RfqPage() {
   const [finishes, setFinishes] = useState<string[]>([]);
   const [website, setWebsite] = useState("");
   const fileNames = useMemo(() => files.map((file) => file.name).join(", "), [files]);
+  const [lastPayload, setLastPayload] = useState<Record<string, unknown> | null>(null);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -69,6 +83,7 @@ export default function RfqPage() {
     payload.finishing = finishes.join(", ");
     payload.source_page = window.location.pathname;
     payload.website = website;
+    setLastPayload(payload);
     setSending(true);
 
     try {
@@ -79,9 +94,9 @@ export default function RfqPage() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ files: files.map((file) => ({ name: file.name, type: file.type, size: file.size })) }),
         });
-        const uploadData = await uploadRequest.json();
-        if (!uploadRequest.ok) throw new Error(uploadData.error || "Could not prepare file upload.");
-        await Promise.all(uploadData.files.map(async (signed: { signedUrl: string; path: string; token: string; name: string; type: string; size: number }) => {
+        const uploadData = await readApiResponse(uploadRequest);
+        if (!uploadRequest.ok) throw new Error(typeof uploadData.error === "string" ? uploadData.error : "Could not prepare file upload.");
+        await Promise.all((Array.isArray(uploadData.files) ? uploadData.files : []).map(async (signed: { signedUrl: string; path: string; token: string; name: string; type: string; size: number }) => {
           const file = files.find((candidate) => candidate.name === signed.name && candidate.type === signed.type && candidate.size === signed.size);
           if (!file) throw new Error("Uploaded file could not be matched.");
           const uploadResponse = await fetch(signed.signedUrl, {
@@ -99,9 +114,10 @@ export default function RfqPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...payload, uploaded_files: uploadedFiles }),
       });
-      const result = await response.json();
-      if (!response.ok) throw new Error(result.error || "We could not submit your inquiry.");
-      window.location.href = result.redirect || "/rfq/thank-you/";
+      const result = await readApiResponse(response);
+      if (!response.ok) throw new Error(typeof result.error === "string" ? result.error : "We could not confirm your inquiry. Please contact us using WhatsApp or email below.");
+      if (result.ok !== true) throw new Error("Your inquiry could not be confirmed. Please contact us using WhatsApp or email below.");
+      window.location.href = typeof result.redirect === "string" && result.redirect.startsWith("/rfq/") ? result.redirect : "/rfq/thank-you/";
     } catch (submissionError) {
       setError(submissionError instanceof Error ? submissionError.message : "We could not submit your inquiry.");
       setSending(false);
@@ -141,7 +157,7 @@ export default function RfqPage() {
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>
               <label className="rfq-field rfq-full"><span>Upload Logo / Reference Images</span><input name="files" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" multiple onChange={(event) => { const selected = Array.from(event.target.files || []); const message = validateFiles(selected); setError(message); if (!message) setFiles(selected); }} /><small>{fileNames || "JPG, PNG or PDF. Maximum 10MB per file, up to 5 files."}</small></label>
               <label className="rfq-honeypot" aria-hidden="true">Website<input tabIndex={-1} autoComplete="off" value={website} onChange={(event) => setWebsite(event.target.value)} /></label>
-              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending}>{sending ? "Sending…" : "Submit Quote Request"}</button>{error && <p className="rfq-error" role="alert">{error}</p>}{status && <p className="rfq-status">{status}</p>}</div>
+              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending}>{sending ? "Sending…" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink("Hello SORIVA Packaging, I tried submitting an RFQ but the website could not confirm it. Please help me with my custom packaging inquiry.")} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <p className="rfq-status">{status}</p>}</div>
             </div>
           </form>
         </div>
