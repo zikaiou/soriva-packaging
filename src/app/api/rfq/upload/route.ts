@@ -45,7 +45,8 @@ export async function POST(request: Request) {
   const files = Array.isArray(body.files) ? body.files : [];
   if (files.length > RFQ_MAX_FILES) return json({ error: `Please upload no more than ${RFQ_MAX_FILES} files.` }, 400);
 
-  const supabase = getSupabaseAdmin();
+  try {
+    const supabase = getSupabaseAdmin();
   const signed = [] as Array<{ signedUrl: string; path: string; token: string; name: string; type: string; size: number }>;
   for (const file of files) {
     const candidate = {
@@ -66,5 +67,9 @@ export async function POST(request: Request) {
     signed.push({ signedUrl: data.signedUrl, path, token: data.token, name: candidate.name, type: candidate.type, size: candidate.size });
   }
 
+  } catch (error) {
+    console.error("RFQ upload preparation failed", error);
+    return json({ error: "We could not prepare the file upload. Please submit without attachments and send files by WhatsApp or email." }, 503);
+  }
   return json({ ok: true, draftId, files: signed });
 }
