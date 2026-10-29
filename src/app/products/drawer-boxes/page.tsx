@@ -117,41 +117,41 @@ const structureDetails = [
 const sizeGuide = [
   {
     category: "Small (Jewelry / Rings / Watches)",
-    dimensions: "Reference proportions only",
+    dimensions: "Tailored to jewelry dimensions and insert layout",
     idealFor: "Rings, earrings, pendants, luxury watches, cufflinks and delicate jewelry sets.",
   },
   {
     category: "Medium (Cosmetics / Perfume / Gifts)",
-    dimensions: "Reference proportions only",
+    dimensions: "Sized for bottle height, clearance and tray fit",
     idealFor: "Skincare serums, luxury perfume bottles, compact palettes, scented candles and gift cards.",
   },
   {
     category: "Large (Apparel / Presentation Sets)",
-    dimensions: "Reference proportions only",
+    dimensions: "Designed around product set and shipping requirements",
     idealFor: "Silk scarves, designer accessories, eyewear cases, multi-product corporate gift sets and VIP launch kits.",
   },
   {
     category: "Custom Dimensions",
-    dimensions: "Fully Tailored Proportions",
+    dimensions: "Share L × W × H and product weight for quotation",
     idealFor: "Bespoke dimensions engineered around your specific product size, accessory layout and shipping carton requirements.",
   },
 ];
 
 const greyboardGuide = [
   {
-    thickness: "Reference size only",
-    rigidity: "Selected by project requirements",
+    thickness: "Compact drawer boxes",
+    rigidity: "Board specification confirmed during sampling",
     bestFor: "Small jewelry boxes, lightweight beauty compacts and small accessory drawer boxes.",
   },
   {
-    thickness: "Reference size only",
-    rigidity: "Selected by project requirements",
+    thickness: "Standard gift-set boxes",
+    rigidity: "Board specification selected for sleeve and tray fit",
     bestFor: "Cosmetics gift boxes, perfume drawer packaging, candle gift sets and general retail presentation.",
   },
   {
-    thickness: "Reference size only",
-    rigidity: "Selected by project requirements",
-    bestFor: "Large presentation hampers, heavier glass bottles, multi-tier sliding drawers and premium collectors' editions.",
+    thickness: "Large or heavier gift sets",
+    rigidity: "Board and structural support reviewed for product weight",
+    bestFor: "Large presentation sets, heavier glass bottles, multi-tier sliding drawers and premium collectors' editions.",
   },
 ];
 
@@ -364,24 +364,8 @@ const faqs = [
     a: "Yes. Logo treatments can include printing, foil stamping, embossing, debossing or suitable finishing depending on paper and artwork.",
   },
   {
-    q: "Can I add a ribbon pull?",
-    a: "Yes. Ribbon pulls or other pull-tab solutions can be considered depending on the box size and structure.",
-  },
-  {
     q: "What information is needed for a quote?",
     a: "Product or box dimensions, quantity, preferred structure, materials, printing or finishing, insert requirements and destination are useful for quotation.",
-  },
-  {
-    q: "What is a drawer box?",
-    a: "A drawer box (also known as a slide box or matchbox style rigid box) consists of an outer rigid sleeve and an inner sliding tray. The structure can be customized in size, materials, inserts, pull ribbons and finishing according to the project.",
-  },
-  {
-    q: "Are these drawer gift boxes for jewelry and gifts?",
-    a: "Yes. These drawer gift boxes can be developed for jewelry, perfume, cosmetics and corporate gifting, with structure and inserts selected for the project.",
-  },
-  {
-    q: "Can you make matchbox style boxes?",
-    a: "Yes. Matchbox style boxes use an outer sleeve and sliding tray; proportions, materials and pull solutions are customized according to the product.",
   },
   {
     q: "How do you confirm the sliding tray fits properly?",
@@ -396,10 +380,6 @@ const faqs = [
     a: "Yes. OEM drawer box packaging can be developed with brand-specific dimensions, sleeve and tray construction, logo artwork, inserts and finishing. Share your product measurements, target quantity and destination so we can review the manufacturing requirements.",
   },
   {
-    q: "Do you offer wholesale drawer boxes?",
-    a: "Wholesale drawer boxes are available for selected custom projects; quantity, materials, inserts and finishing are reviewed before quotation.",
-  },
-  {
     q: "Can drawer boxes be customized to my product size?",
     a: "Yes. The outer sleeve, inner tray and custom insert are developed around product dimensions, orientation and presentation requirements.",
   },
@@ -410,14 +390,6 @@ const faqs = [
   {
     q: "Can I customize the pull tab, ribbon or handle?",
     a: "Yes. Satin ribbon loops, grosgrain tabs, embedded fabric pulls, half-moon thumb cuts and woven tags can be considered according to the box size and structure.",
-  },
-  {
-    q: "Can you match specific Pantone (PMS) brand colors?",
-    a: "Pantone (PMS) color matching is based on approved artwork and production specifications, alongside high-definition CMYK process printing.",
-  },
-  {
-    q: "What luxury finishing options are available?",
-    a: "Available finishes include hot foil stamping (gold, silver, rose gold, holographic), multi-level embossing, debossing, gloss spot UV coating, soft-touch matte lamination and matte or gloss lamination.",
   },
   {
     q: "Can I order a physical sample before mass production?",
@@ -590,16 +562,20 @@ export default function DrawerBoxesPage() {
         <div className="container">
           <div className="mrb-head" style={{ maxWidth: 920, marginBottom: 0 }}>
             <span className="eyebrow dark">RIGID SLIDING GIFT BOXES</span>
-            <h2>Custom Drawer Gift Boxes with Inserts, Ribbon Pulls &amp; Logo Finishing</h2>
+            <h2>OEM Drawer Box Packaging: Prepare a Faster, More Accurate Quote</h2>
             <p>
-              SORIVA manufactures custom sleeve-and-tray drawer boxes for jewelry, skincare,
-              fragrance, accessories and premium gift sets. Buyers can specify the finished size,
-              tray fit, insert material, ribbon or pull-tab style, paper wrap, printing and finishing.
-              For projects with fitted products, review our{" "}
+              For custom rigid drawer boxes, send the product or target box dimensions (L × W × H),
+              estimated order quantity, product weight, destination and preferred opening style.
+              Include logo artwork, paper or color references, insert requirements and any ribbon-pull
+              preference. We can then review the sleeve-and-tray fit, sample requirements and suitable
+              manufacturing options before quotation.
+            </p>
+            <p style={{ marginTop: 12 }}>
+              Not sure about the insert or measurements? Use our{" "}
               <a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">insert comparison guide</a>
               {" "}and{" "}
-              <a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>
-              {" "}before quotation.
+              <a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>.
+              {" "}<a href="/rfq/">Send your drawer box RFQ →</a>
             </p>
           </div>
         </div>
@@ -709,7 +685,7 @@ export default function DrawerBoxesPage() {
               <thead>
                 <tr>
                   <th>Category</th>
-                  <th>Reference Proportions Only (L × W × H)</th>
+                  <th>Sizing Approach (L × W × H)</th>
                   <th>Typical Industry Applications</th>
                 </tr>
               </thead>
@@ -750,7 +726,7 @@ export default function DrawerBoxesPage() {
             <table className="mrb-table">
               <thead>
                 <tr>
-                  <th>Greyboard Reference</th>
+                  <th>Box Format</th>
                   <th>Rigidity Classification</th>
                   <th>Recommended Applications</th>
                 </tr>
