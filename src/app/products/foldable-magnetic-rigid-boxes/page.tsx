@@ -12,10 +12,10 @@ const PAGE_URL =
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Foldable Magnetic Rigid Boxes Manufacturer & Supplier | SORIVA Packaging",
+    absolute: "Custom Foldable Magnetic Gift Boxes & Rigid Boxes | SORIVA",
   },
   description:
-    "Custom foldable magnetic rigid boxes with flat-pack structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics and corporate gift packaging.",
+    "Custom foldable magnetic gift boxes and collapsible rigid boxes for wholesale and OEM orders. Flat-pack supply, custom logo finishes and inserts. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -385,9 +385,9 @@ export default function FoldableMagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">WHY CHOOSE FOLDABLE</span>
-            <h2>The Best of Both Worlds</h2>
+            <h2>Foldable Magnetic Gift Boxes for Wholesale &amp; OEM Projects</h2>
             <p>
-              Designed for brands that want premium rigid packaging presentation while evaluating a flatter supply form for storage and shipment.
+              Custom foldable magnetic gift boxes offer a rigid presentation with a flat-pack supply format. For wholesale and OEM projects, brands can specify box dimensions, magnetic closures, printed wraps and protective inserts.
             </p>
           </div>
           <div className="mrb-features">
@@ -407,8 +407,8 @@ export default function FoldableMagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">WHAT IS A FOLDABLE MAGNETIC RIGID BOX?</span>
-            <h2>Flat-Pack Structure for Premium Presentation</h2>
-            <p>A foldable magnetic rigid box is designed to ship and store in a flatter form, then assemble into a structured presentation box for use. The final structure, closure, reinforcement and interior layout should be confirmed during sampling according to box size, product weight and presentation requirements.</p>
+            <h2>How Collapsible Magnetic Rigid Boxes Assemble</h2>
+            <p>These collapsible magnetic boxes are designed to ship and store in a flatter form, then assemble into a structured rigid gift box for use. Flat-pack magnetic boxes still require a project-specific review of corner fixings, closure, reinforcement and interior layout during sampling according to box size, product weight and presentation requirements.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))" }}>
             {[
@@ -418,7 +418,7 @@ export default function FoldableMagneticRigidBoxesPage() {
               ["Assembled presentation", "The finished form is reviewed for product fit, insert clearance and presentation."],
             ].map(([title, desc]) => <article className="mrb-feature" key={title}><h3>{title}</h3><p>{desc}</p></article>)}
           </div>
-          <div className="mrb-note" style={{ marginTop: 24 }}><b>Buyer Decision:</b> Choose a foldable magnetic rigid box when a premium rigid-box presentation is required together with a structure that can be supplied in a flatter form for storage or shipment. Final assembly method, reinforcement, insert fit and closure details should be confirmed during sampling.</div>
+          <div className="mrb-note" style={{ marginTop: 24 }}><b>Buyer Decision:</b> Choose a foldable magnetic rigid box when a premium rigid-box presentation is required together with a structure that can be supplied in a flatter form for storage or shipment. Final assembly method, reinforcement, insert fit and closure details should be confirmed during sampling. For a finished-box alternative, review our <a href="/products/magnetic-rigid-boxes/">custom magnetic rigid boxes</a>.</div>
         </div>
       </section>
 
