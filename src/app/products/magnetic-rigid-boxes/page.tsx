@@ -225,20 +225,12 @@ const faqs = [
     a: "Yes. Every dimension (Length × Width × Height) and structural opening style (book-style, front-flap, double-door or foldable) is fully customized around your product specifications.",
   },
   {
-    q: "What types of product inserts can you produce?",
-    a: "EVA, velvet-covered, paperboard or molded pulp inserts can be selected according to product protection and presentation requirements.",
-  },
-  {
     q: "How are the magnetic closures integrated?",
     a: "Magnetic closure specifications are selected according to box size, structure and project requirements.",
   },
   {
-    q: "Can I order a physical sample before mass production?",
-    a: "Yes. 1 pc custom prototype sample complete with custom insert, foil stamping and print colors is available for review and sign-off before commencing bulk manufacturing.",
-  },
-  {
     q: "Do you offer foldable magnetic gift boxes as well as traditional rigid boxes?",
-    a: "Yes. For suitable designs, foldable magnetic gift boxes can be supplied flat to improve packing efficiency. Traditional assembled magnetic rigid boxes are also available. Final construction, closure and assembly method depend on the project specifications.",
+    a: "Yes. Suitable foldable magnetic gift boxes can be supplied flat, while traditional rigid boxes arrive assembled. Ask for the corner-fixing method, assembly instructions, packed carton dimensions and insert fit before comparing the two options. Final specifications depend on the approved design.",
   },
 ];
 
@@ -386,6 +378,60 @@ export default function MagneticRigidBoxesPage() {
             <article className="mrb-feature"><h3>Custom Insert Presentation</h3><p>Insert material and layout are selected according to product dimensions, weight, presentation and protection requirements.</p></article>
             <article className="mrb-feature"><h3>Branding &amp; Finishing</h3><p>Printing, foil stamping, embossing, debossing, Spot UV, printed paper and specialty paper can be reviewed for the approved artwork.</p></article>
           </div>
+        </div>
+      </section>
+
+      {/* OEM buyer comparison: assembled vs flat-pack magnetic rigid boxes */}
+      <section className="mrb-section soft" id="magnetic-box-structures">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">OEM STRUCTURE COMPARISON</span>
+            <h2>Foldable Magnetic Gift Boxes vs Assembled Magnetic Rigid Boxes</h2>
+            <p>
+              Both structures can use concealed magnetic closures and custom branding. The right choice
+              depends on presentation, packing volume, assembly requirements and the product inside.
+              Compare the construction before finalizing an OEM magnetic box quotation.
+            </p>
+          </div>
+          <div className="mrb-table-wrap">
+            <table className="mrb-table">
+              <thead><tr><th>Buyer Consideration</th><th>Assembled Magnetic Rigid Box</th><th>Foldable Magnetic Rigid Box</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Delivery format</strong></td><td>Shipped in its assembled box form</td><td>Suitable structures can be supplied flat for assembly at destination</td></tr>
+                <tr><td><strong>Unboxing &amp; setup</strong></td><td>Ready to fill after unpacking</td><td>Requires an approved corner-fixing and assembly method</td></tr>
+                <tr><td><strong>Shipping &amp; storage</strong></td><td>Carton volume reflects assembled dimensions</td><td>Flat packing may reduce volume; confirm carton size and freight with the final design</td></tr>
+                <tr><td><strong>Inserts</strong></td><td>Custom inserts can be reviewed with the assembled structure</td><td>Confirm insert fit, placement and any assembly sequence</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style={{ marginTop: 20, lineHeight: 1.8 }}>
+            For foldable magnetic gift boxes, ask us to confirm whether magnets, corner fixings and assembly
+            instructions are included, and request an assembly reference before ordering.
+            {" "}<a href="/rfq/">Compare both box structures in one RFQ →</a>
+          </p>
+        </div>
+      </section>
+
+      {/* OEM quotation preparation */}
+      <section className="mrb-section" id="magnetic-box-rfq-guide">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">MAGNETIC BOX BUYER CHECKLIST</span>
+            <h2>How to Request an Accurate Custom Magnetic Box Quote</h2>
+            <p>Provide the details below so we can assess structure, sampling, packing and suitable manufacturing options.</p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature"><h3>01 · Dimensions &amp; Product</h3><p>Share target internal or external L × W × H dimensions, product size, approximate weight and whether the interior needs an insert.</p></article>
+            <article className="mrb-feature"><h3>02 · Structure &amp; Material</h3><p>Choose assembled or flat-pack magnetic closure, preferred greyboard and wrapping paper, plus any special corner or assembly requirements.</p></article>
+            <article className="mrb-feature"><h3>03 · Branding &amp; Insert</h3><p>Provide logo artwork, color references, foil or embossing preferences, and any EVA, paperboard or other insert specifications.</p></article>
+            <article className="mrb-feature"><h3>04 · Quantity &amp; Destination</h3><p>Include quantity per size, sample needs, delivery country and target date. Ask for unit price, carton dimensions and freight as separate items.</p></article>
+          </div>
+          <p style={{ marginTop: 20, lineHeight: 1.8 }}>
+            Selected custom projects may start from 100 pcs; the final MOQ, sampling terms and lead time
+            depend on the approved specifications. For measurement help, see our
+            {" "}<a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>.
+            {" "}<a href="/rfq/">Send your magnetic box RFQ →</a>
+          </p>
         </div>
       </section>
 
