@@ -601,15 +601,39 @@ export default function LuxuryPaperBagsPage() {
 
       <section className="mrb-section soft" style={{ paddingTop: 34, paddingBottom: 34 }}>
         <div className="container">
-          <div className="mrb-head" style={{ maxWidth: 900, marginBottom: 0 }}>
-            <span className="eyebrow dark">BRANDED PAPER BAGS</span>
-            <h2>Custom Printed Paper Bags with Logo for Luxury Brands</h2>
+          <div className="mrb-head" style={{ maxWidth: 920, marginBottom: 18 }}>
+            <span className="eyebrow dark">WHOLESALE &amp; OEM PAPER BAGS</span>
+            <h2>Custom Printed Paper Bags with Logo — What Buyers Should Specify</h2>
             <p>
-              For branded paper bags, choose custom printed paper bags with logo using CMYK or approved Pantone colors, or consider foil stamping, embossing and spot UV where suitable for the paper stock. SORIVA supports boutique shopping bags and matching packaging for beauty, fashion and jewelry brands. Compare paper weight, handle attachment and reinforcement based on the products your customers will carry. For tactile paper selection, see our
-              {" "}<a href="/resources/textured-specialty-paper-bags-luxury-brands/">textured &amp; specialty paper bag guide</a>;
-              for skincare and cosmetics, see the <a href="/resources/luxury-paper-bags-beauty-cosmetic-brands/">beauty paper bag buyer guide</a>.
+              SORIVA develops custom paper shopping bags for beauty, fashion, jewelry and gift brands.
+              For wholesale paper bags or an OEM order, start with the product load and target bag size.
+              Paper GSM, reinforced tops and bases, handle attachment and printing should be reviewed
+              together rather than chosen from appearance alone.
             </p>
           </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
+            <article className="mrb-feature">
+              <h3>01 · Size &amp; Intended Load</h3>
+              <p>Share bag dimensions (L × gusset × H), product dimensions, approximate packed weight and how the bag will be carried.</p>
+            </article>
+            <article className="mrb-feature">
+              <h3>02 · Material &amp; Handles</h3>
+              <p>Choose coated, kraft or specialty paper; specify preferred GSM, ribbon or rope handles and any bottom or top reinforcement.</p>
+            </article>
+            <article className="mrb-feature">
+              <h3>03 · Logo &amp; Finishing</h3>
+              <p>Provide artwork and color references for CMYK or Pantone review, plus foil, embossing or lamination preferences.</p>
+            </article>
+            <article className="mrb-feature">
+              <h3>04 · Quantity &amp; Delivery</h3>
+              <p>Send quantity per design, target delivery country and desired timing. MOQ starts from 100 pcs for selected projects; final terms depend on specifications.</p>
+            </article>
+          </div>
+          <p style={{ marginTop: 20, lineHeight: 1.8 }}>
+            Compare <a href="/resources/textured-specialty-paper-bags-luxury-brands/">specialty paper options</a>
+            {" "}or read our <a href="/resources/luxury-paper-bags-beauty-cosmetic-brands/">beauty paper bag buyer guide</a>.
+            {" "}Ready to source? <a href="/rfq/">Request a custom paper bag quotation →</a>
+          </p>
         </div>
       </section>
 
