@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Boxes & Magnetic Gift Boxes | SORIVA Packaging",
+    absolute: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
   },
   description:
-    "Custom magnetic closure gift boxes and rigid packaging with custom sizes, logo printing, inserts and premium finishes. Manufacturer for luxury brands; selected MOQ from 100 pcs.",
+    "Custom magnetic closure gift boxes for brands and wholesale buyers. Compare rigid and foldable styles, logo finishes, inserts and OEM options. Request a custom quote.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -329,9 +329,9 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">PRODUCT OVERVIEW</span>
-            <h2>Custom Magnetic Closure Gift Boxes for Premium Brands</h2>
+            <h2>Custom Magnetic Closure Gift Boxes for Brands &amp; Wholesale Buyers</h2>
             <p>
-              Our custom magnetic closure boxes combine a sturdy greyboard core, wrapped paper surfaces and concealed magnets for a refined opening experience. These magnetic gift boxes can be tailored with logo printing, foil stamping, custom inserts and paper finishes for cosmetics, perfume, jewelry and premium gifting.
+              Our custom magnetic closure boxes combine a sturdy greyboard core, wrapped paper surfaces and concealed magnets for a refined opening experience. For wholesale magnetic gift boxes and OEM orders, brands can specify box dimensions, logo printing, foil stamping, inserts and paper finishes for cosmetics, perfume, jewelry and premium gifting.
             </p>
           </div>
           <div className="mrb-features">
@@ -407,7 +407,7 @@ export default function MagneticRigidBoxesPage() {
           <p style={{ marginTop: 20, lineHeight: 1.8 }}>
             For foldable magnetic gift boxes, ask us to confirm whether magnets, corner fixings and assembly
             instructions are included, and request an assembly reference before ordering.
-            {" "}<a href="/rfq/">Compare both box structures in one RFQ →</a>
+            {" "}See the <a href="/resources/foldable-vs-traditional-rigid-box/">foldable vs traditional rigid box guide</a>, or <a href="/rfq/">compare both box structures in one RFQ →</a>
           </p>
         </div>
       </section>
@@ -567,7 +567,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Custom Magnetic Box Manufacturer: Sampling & Production</h2>
+            <h2>Magnetic Gift Box Manufacturer: OEM Sampling &amp; Production</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
