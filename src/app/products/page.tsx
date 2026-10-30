@@ -70,14 +70,14 @@ const products = [
     buyerNote: "Classic lid-and-base rigid presentation boxes with optional shoulder-neck structures.",
   },
   {
-    img: "/img/tube-packaging.webp",
+    img: "/img/soriva-tube-packaging-concept.webp",
     alt: "Custom tube packaging",
     title: "Tube Packaging",
     slug: "tube-packaging",
     buyerNote: "Cylindrical paper packaging for perfume, cosmetics, candles and premium gift products.",
   },
   {
-    img: "/img/paper-bags.webp",
+    img: "/img/soriva-paper-bags-concept.webp",
     alt: "Custom luxury paper bags",
     title: "Luxury Paper Bags",
     slug: "luxury-paper-bags",
@@ -97,8 +97,8 @@ const featuredStyles = [
   { img: "/img/two-piece-rigid.webp", alt: "Lid and base rigid gift box", title: "Lid & Base Boxes", href: "/products/two-piece-rigid-boxes/", detail: "Classic two-piece rigid boxes with separate lids and bases." },
   { img: "/img/drawer-box.webp", alt: "Sliding drawer style rigid gift box", title: "Drawer Boxes", href: "/products/drawer-boxes/", detail: "Sliding sleeve-and-tray packaging with optional ribbon pulls." },
   { img: "/img/jewelry.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
-  { img: "/img/paper-bags.webp", alt: "Custom luxury paper shopping bags", title: "Paper Bags", href: "/products/luxury-paper-bags/", detail: "Branded paper shopping bags with custom handles and finishes." },
-  { img: "/img/tube-packaging.webp", alt: "Custom cylindrical paper tube packaging", title: "Tube Packaging", href: "/products/tube-packaging/", detail: "Paper tube boxes for fragrance, candles and specialty gifts." },
+  { img: "/img/soriva-paper-bags-concept.webp", alt: "Custom luxury paper shopping bags", title: "Paper Bags", href: "/products/luxury-paper-bags/", detail: "Branded paper shopping bags with custom handles and finishes." },
+  { img: "/img/soriva-tube-packaging-concept.webp", alt: "Custom cylindrical paper tube packaging", title: "Tube Packaging", href: "/products/tube-packaging/", detail: "Paper tube boxes for fragrance, candles and specialty gifts." },
 ];
 
 const buyingPaths = [
@@ -128,10 +128,10 @@ const visualCatalog = [
   { img: "/img/two-piece-rigid.webp", alt: "Custom two-piece rigid box", category: "Two-Piece", title: "Lid & Base Box" },
   { img: "/img/two-piece-rigid-box-shoulder-neck-reference.png", alt: "Shoulder-neck rigid box structure reference", category: "Two-Piece", title: "Shoulder-Neck Structure" },
   { img: "/img/two-piece-rigid-box-perfume-application.png", alt: "Two-piece rigid perfume packaging reference", category: "Two-Piece", title: "Perfume Application" },
-  { img: "/img/tube-packaging.webp", alt: "Custom paper tube packaging", category: "Tube", title: "Paper Tube Packaging" },
+  { img: "/img/soriva-tube-packaging-concept.webp", alt: "Custom paper tube packaging", category: "Tube", title: "Paper Tube Packaging" },
   { img: "/img/tube-packaging-black-gold-reference.jpg", alt: "Black and gold paper tube packaging reference", category: "Tube", title: "Premium Tube Reference" },
   { img: "/img/tube-packaging-various-styles-reference.jpg", alt: "Various paper tube packaging styles", category: "Tube", title: "Tube Style Reference" },
-  { img: "/img/paper-bags.webp", alt: "Custom luxury paper bags", category: "Paper Bags", title: "Luxury Paper Bags" },
+  { img: "/img/soriva-paper-bags-concept.webp", alt: "Custom luxury paper bags", category: "Paper Bags", title: "Luxury Paper Bags" },
   { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Ribbon handle paper bag sample reference", category: "Paper Bags", title: "Ribbon Handle Reference" },
   { img: "/img/sample-paperbag-matching-set.jpg", alt: "Coordinated paper bag and packaging set reference", category: "Paper Bags", title: "Coordinated Packaging Set" },
 ];
