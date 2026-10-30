@@ -92,6 +92,15 @@ const products = [
   },
 ];
 
+const featuredStyles = [
+  { img: "/img/magnetic-rigid.webp", alt: "Magnetic closure rigid gift box", title: "Magnetic Boxes", href: "/products/magnetic-rigid-boxes/", detail: "Custom magnetic closure boxes for premium gifting and retail." },
+  { img: "/img/two-piece-rigid.webp", alt: "Lid and base rigid gift box", title: "Lid & Base Boxes", href: "/products/two-piece-rigid-boxes/", detail: "Classic two-piece rigid boxes with separate lids and bases." },
+  { img: "/img/drawer-box.webp", alt: "Sliding drawer style rigid gift box", title: "Drawer Boxes", href: "/products/drawer-boxes/", detail: "Sliding sleeve-and-tray packaging with optional ribbon pulls." },
+  { img: "/img/jewelry.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
+  { img: "/img/paper-bags.webp", alt: "Custom luxury paper shopping bags", title: "Paper Bags", href: "/products/luxury-paper-bags/", detail: "Branded paper shopping bags with custom handles and finishes." },
+  { img: "/img/tube-packaging.webp", alt: "Custom cylindrical paper tube packaging", title: "Tube Packaging", href: "/products/tube-packaging/", detail: "Paper tube boxes for fragrance, candles and specialty gifts." },
+];
+
 const buyingPaths = [
   { title: "Custom Jewelry Boxes", desc: "Luxury jewelry packaging for rings, necklaces, earrings, bracelets and coordinated sets.", href: "/products/custom-jewelry-boxes/" },
   { title: "Custom Ring Boxes", desc: "Compact branded ring packaging for engagement rings, wedding bands and fine jewelry.", href: "/products/custom-ring-boxes/" },
@@ -254,38 +263,45 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Products */}
-      <section className="mrb-section soft">
+      {/* Products: six-category visual entry, using existing SORIVA site images */}
+      <section className="mrb-section soft" style={{ paddingTop: 54, paddingBottom: 58 }}>
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">PRODUCT RANGE</span>
-            <h2>Our Packaging Solutions</h2>
-            <p>
-              Custom structures developed around your product, brand and
-              budget, with flexible MOQ and sampling support. Sample timing depends on structure, materials, finishing and project requirements.
-            </p>
+            <span className="eyebrow dark">SORIVA PRODUCTS</span>
+            <h2>Explore Custom Packaging Styles</h2>
+            <p>Browse by box structure, product application and finishing. Choose a style to explore custom sizes, materials and sourcing options.</p>
           </div>
-          <div className="mrb-apps">
-            {products.map((p) => (
+          <div className="mrb-apps mrb-apps-3" aria-label="Custom packaging styles">
+            {featuredStyles.map((item) => (
               <a
-                className="mrb-app"
-                key={p.slug}
-                href={`/products/${p.slug}/`}
-                style={{ display: "block", color: "inherit", textDecoration: "none" }}
+                className="mrb-app-link"
+                href={item.href}
+                key={item.href}
+                style={{ display: "block", textDecoration: "none", color: "inherit", borderRadius: 16 }}
               >
-                <img src={p.img} alt={p.alt} />
-                <div>
-                  <b>{p.title}</b>
-                  <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>
-                    {p.buyerNote}
-                  </p>
-                  <span style={{ color: "#c79a51", fontWeight: 600, marginTop: 8 }}>
-                    View Details
-                  </span>
+                <img
+                  src={item.img}
+                  alt={item.alt}
+                  loading="lazy"
+                  decoding="async"
+                  style={{ display: "block", width: "100%", aspectRatio: "1 / 1", objectFit: "cover", borderRadius: 16 }}
+                />
+                <div style={{ padding: "14px 2px 2px" }}>
+                  <h3 style={{ margin: 0, fontSize: 19, lineHeight: 1.3, color: "#24201b" }}>{item.title}</h3>
+                  <p style={{ margin: "7px 0 8px", fontSize: 14, lineHeight: 1.55, color: "#5b554e" }}>{item.detail}</p>
+                  <span style={{ color: "#946a2b", fontSize: 13, fontWeight: 700 }}>Explore Packaging →</span>
                 </div>
               </a>
             ))}
           </div>
+          <div style={{ marginTop: 30, padding: "20px 24px", border: "1px solid #d8c7ac", borderRadius: 12, background: "#fff", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 18, flexWrap: "wrap" }}>
+            <div>
+              <b style={{ color: "#24201b", fontSize: 17 }}>Need flat-pack magnetic boxes?</b>
+              <p style={{ color: "#5b554e", fontSize: 14, lineHeight: 1.5, margin: "5px 0 0" }}>Explore foldable magnetic rigid boxes designed for compact storage and export shipping.</p>
+            </div>
+            <a href="/products/foldable-magnetic-rigid-boxes/" style={{ color: "#80581e", fontWeight: 700, textDecoration: "underline", textUnderlineOffset: 4 }}>View Foldable Magnetic Boxes →</a>
+          </div>
+          <p style={{ textAlign: "center", color: "#70695f", fontSize: 12, margin: "20px auto 0" }}>Product images illustrate packaging styles. Final materials, structure and production specifications are confirmed for each custom project.</p>
         </div>
       </section>
 
