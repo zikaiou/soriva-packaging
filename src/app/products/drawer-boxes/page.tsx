@@ -11,17 +11,17 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
+    absolute: "Custom Drawer Boxes | Cardboard Gift Box Packaging | SORIVA",
   },
   description:
-    "Custom drawer boxes for jewelry, cosmetics, perfume and premium gifts. Direct manufacturer with sliding trays, ribbon pulls, fitted inserts, logo finishing, sampling and MOQ from 100 pcs.",
+    "Custom cardboard drawer boxes and rigid sliding gift box packaging for jewelry, cosmetics and premium gifts. OEM sizes, inserts and logo finishes. Selected MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Drawer Boxes Manufacturer | Rigid Sliding Gift Boxes | SORIVA",
+    title: "Custom Drawer Boxes | Cardboard Gift Box Packaging | SORIVA",
     description:
       "Custom drawer boxes with sliding trays, ribbon pulls, fitted inserts and premium logo finishing for jewelry, cosmetics, perfume and gift packaging. MOQ from 100 pcs.",
     siteName: "SORIVA Packaging",
@@ -530,8 +530,8 @@ export default function DrawerBoxesPage() {
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
             <span className="eyebrow dark">SHOP BY APPLICATION</span>
-            <h2>Custom Drawer Boxes for Jewelry, Beauty, Perfume &amp; Gift Sets</h2>
-            <p>Choose the application first, then define tray fit, insert material, ribbon pull, paper wrap and logo finishing.</p>
+            <h2>Custom Cardboard Drawer Boxes for Jewelry, Beauty &amp; Gifts</h2>
+            <p>These custom drawer gift boxes use a paper-wrapped rigid sleeve and sliding tray, not furniture drawers. Choose the application first, then define tray fit, insert material, ribbon pull, paper wrap and logo finishing.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
             <article className="mrb-feature">
@@ -562,9 +562,9 @@ export default function DrawerBoxesPage() {
         <div className="container">
           <div className="mrb-head" style={{ maxWidth: 920, marginBottom: 0 }}>
             <span className="eyebrow dark">RIGID SLIDING GIFT BOXES</span>
-            <h2>OEM Drawer Box Packaging: Prepare a Faster, More Accurate Quote</h2>
+            <h2>Custom Rigid Drawer Box Packaging: OEM Quote Checklist</h2>
             <p>
-              For custom rigid drawer boxes, send the product or target box dimensions (L × W × H),
+              For custom rigid drawer boxes and sliding gift box packaging, send the product or target box dimensions (L × W × H),
               estimated order quantity, product weight, destination and preferred opening style.
               Include logo artwork, paper or color references, insert requirements and any ribbon-pull
               preference. We can then review the sleeve-and-tray fit, sample requirements and suitable
