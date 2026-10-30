@@ -257,7 +257,7 @@ export default function Home() {
           </div>
           <div className="section-cta">
             <a href="/about/" className="btn dark">About SORIVA →</a>
-            <a href="/factory/" className="btn ghost">Verify Factory Capability →</a>
+            <a href="/factory/" className="btn ghost factory-verify-cta">Verify Factory Capability →</a>
           </div>
         </div>
       </section>
