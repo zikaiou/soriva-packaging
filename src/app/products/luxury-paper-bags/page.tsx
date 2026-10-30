@@ -11,17 +11,17 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bag Manufacturer | Custom Printed Bags | SORIVA",
+    absolute: "Custom Paper Bags with Logo | Luxury Wholesale Bags | SORIVA",
   },
   description:
-    "Luxury paper bag manufacturer for custom printed bags with logo, premium paper, ribbon or rope handles and tailored sizes. MOQ from 100 pcs for selected projects.",
+    "Custom paper bags with logo for wholesale and luxury retail brands. Custom sizes, printed finishes, ribbon or rope handles. Selected MOQ from 100 pcs. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bag Manufacturer | Custom Printed Bags | SORIVA",
+    title: "Custom Paper Bags with Logo | Luxury Wholesale Bags | SORIVA",
     description:
       "Custom printed luxury paper bags for retail brands with logo printing, specialty paper, custom sizes, ribbon or rope handles and premium finishes.",
     siteName: "SORIVA Packaging",
@@ -571,8 +571,8 @@ export default function LuxuryPaperBagsPage() {
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
             <span className="eyebrow dark">SHOP BY BUYING NEED</span>
-            <h2>Luxury Paper Bags for High-Intent Retail Projects</h2>
-            <p>Start with your market or packaging goal, then compare materials, handles, finishing and quantity options.</p>
+            <h2>Custom Luxury Paper Bags for Retail &amp; Wholesale Buyers</h2>
+            <p>Explore custom printed paper bags for branded retail, boutique shopping and gift packaging. Compare paper materials, handles, logo finishes and quantities before requesting a wholesale quotation.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
             <article className="mrb-feature">
@@ -606,7 +606,7 @@ export default function LuxuryPaperBagsPage() {
             <h2>Custom Printed Paper Bags with Logo — What Buyers Should Specify</h2>
             <p>
               SORIVA develops custom paper shopping bags for beauty, fashion, jewelry and gift brands.
-              For wholesale paper bags or an OEM order, start with the product load and target bag size.
+              For custom paper bags wholesale orders or OEM projects, start with the product load and target bag size.
               Paper GSM, reinforced tops and bases, handle attachment and printing should be reviewed
               together rather than chosen from appearance alone.
             </p>
