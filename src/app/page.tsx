@@ -34,14 +34,14 @@ const products = [
     slug: "foldable-magnetic-rigid-boxes",
   },
   {
-    img: "/img/tube-packaging.webp",
+    img: "/img/soriva-tube-packaging-concept.webp",
     alt: "Luxury tube packaging",
     title: "Tube Packaging",
     desc: "Custom cylindrical packaging for fragrance, candles, bottles and gifts.",
     slug: "tube-packaging",
   },
   {
-    img: "/img/paper-bags.webp",
+    img: "/img/soriva-paper-bags-concept.webp",
     alt: "Custom luxury paper bags",
     title: "Luxury Paper Bags",
     desc: "Branded retail bags designed to complete your premium packaging system.",
