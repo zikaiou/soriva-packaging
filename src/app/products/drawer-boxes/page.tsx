@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Drawer Boxes | Cardboard Gift Box Packaging | SORIVA",
+    absolute: "Custom Drawer Boxes Manufacturer | SORIVA Packaging",
   },
   description:
-    "Custom cardboard drawer boxes and rigid sliding gift box packaging for jewelry, cosmetics and premium gifts. OEM sizes, inserts and logo finishes. Selected MOQ from 100 pcs.",
+    "Custom rigid drawer boxes with sliding trays for jewelry, cosmetics and gifts. Choose custom sizes, inserts and logo finishes. Selected MOQ from 100 pcs. Get a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Drawer Boxes | Cardboard Gift Box Packaging | SORIVA",
+    title: "Custom Drawer Boxes Manufacturer | SORIVA Packaging",
     description:
-      "Custom drawer boxes with sliding trays, ribbon pulls, fitted inserts and premium logo finishing for jewelry, cosmetics, perfume and gift packaging. MOQ from 100 pcs.",
+      "Custom rigid drawer boxes and sliding gift boxes with ribbon pulls, fitted inserts and logo finishing for jewelry, cosmetics and perfume packaging.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -575,6 +575,7 @@ export default function DrawerBoxesPage() {
               <a href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">insert comparison guide</a>
               {" "}and{" "}
               <a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>.
+              {" "}Compare <a href="/custom-packaging/">custom packaging options</a> for coordinated boxes and bags.
               {" "}<a href="/rfq/">Send your drawer box RFQ →</a>
             </p>
           </div>
