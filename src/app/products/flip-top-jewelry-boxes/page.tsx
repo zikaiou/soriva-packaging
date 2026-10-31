@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Custom Flip-Top Jewelry Gift Boxes | SORIVA Packaging",
     description: "Explore custom flip-top jewelry gift boxes with hinged or lift-open lids, fitted velvet-style inserts and branded finishes for rings, earrings and necklace collections.",
     siteName: "SORIVA Packaging", locale: "en_US",
-    images: [{ url: "https://www.sorivapackaging.com/img/jewelry.webp", width: 1200, height: 900, alt: "Luxury jewelry packaging reference; flip-top structure and finish are customized to project specifications" }],
+    images: [{ url: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp", width: 1018, height: 758, alt: "SORIVA flip-top jewelry box design visualization with gold necklace" }],
   },
 };
 const formats = [{title:"Hinged Ring Presentation Boxes",desc:"Compact flip-open boxes with fitted slots for engagement rings and fine jewelry."},
@@ -62,7 +62,7 @@ export default function JewelryBoxPage() {
             <a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
           </div>
         </div>
-        <div className="mrb-hero-media"><img src="/img/jewelry.webp" alt="Luxury jewelry packaging reference; flip-top structure and finish are customized to project specifications" width="1200" height="900" /></div>
+        <div className="mrb-hero-media"><img src="/img/soriva-flip-top-jewelry-boxes-hd.webp" alt="SORIVA flip-top jewelry box design visualization with gold necklace" width="1018" height="758" /></div>
       </div>
     </div></section>
     <section className="mrb-section soft"><div className="container">
