@@ -10,18 +10,18 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/tube-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Paper Tube Packaging Manufacturer | SORIVA Packaging",
+  title: { absolute: "Custom Paper Tube Packaging for Cosmetics | SORIVA" },
   description:
-    "Custom paper tube packaging with telescopic, shoulder-neck and cylindrical structures, tailored inserts, specialty papers and premium finishing for perfume, cosmetics, candles and gifts.",
+    "Custom paper tube packaging for cosmetics, perfume and candles. Choose tube diameter, height, inserts and branded finishes. Request a custom packaging quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Tube Packaging | SORIVA Packaging",
+    title: "Custom Paper Tube Packaging for Cosmetics | SORIVA",
     description:
-      "Custom paper tube packaging developed around product size, retail presentation, branding requirements and project-dependent inserts.",
+      "Custom cosmetic and perfume paper tubes with custom diameters, product inserts and premium printed wraps for branded cylindrical packaging.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -257,8 +257,8 @@ export default function TubePackagingPage() {
               <span className="mrb-eyebrow">CUSTOM TUBE PACKAGING</span>
               <h1>Premium Paper Tube Packaging for Brands</h1>
               <p className="mrb-lead">
-                Custom cylindrical paper packaging developed around your
-                product size, retail presentation and branding requirements.
+                Custom cylindrical paper packaging for cosmetics, perfume, candles and gifts,
+                developed around your product size, inserts, retail presentation and branding.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
@@ -302,8 +302,10 @@ export default function TubePackagingPage() {
             <span className="eyebrow dark">PRODUCT OVERVIEW</span>
             <h2>Distinctive Cylindrical Packaging</h2>
             <p>
-              A custom tube program covering structure, papers, inserts and
-              luxury finishing.
+              A custom paper tube program covering structure, papers, inserts and
+              luxury finishing. For skincare jars, serum bottles and beauty sets,
+              explore our <a href="/solutions/tube-packaging-for-cosmetics/">tube packaging for cosmetics</a>;
+              fragrance brands can compare <a href="/solutions/tube-packaging-for-perfume/">perfume paper tube options</a>.
             </p>
           </div>
           <div className="mrb-features">

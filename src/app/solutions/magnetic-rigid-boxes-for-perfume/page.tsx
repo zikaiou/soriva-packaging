@@ -10,19 +10,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/solutions/magnetic-rigid-boxes
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Rigid Boxes for Perfume | Custom Luxury Perfume Packaging | SORIVA Packaging",
+    absolute: "Magnetic Perfume Boxes | Custom Rigid Packaging | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for perfume and fragrance bottles. Premium board structures, custom-cut velvet EVA inserts, Pantone color matching and luxury foil stamping.",
+    "Custom magnetic perfume boxes for fragrance bottles and gift sets. Choose rigid or foldable structures, custom bottle inserts and branded finishes. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Magnetic Rigid Boxes for Perfume | Custom Luxury Perfume Packaging | SORIVA Packaging",
+    title: "Magnetic Perfume Boxes | Custom Rigid Packaging | SORIVA",
     description:
-      "Custom magnetic rigid boxes for perfume and fragrance bottles. Premium board structures, custom-cut velvet EVA inserts, Pantone color matching and luxury foil stamping.",
+      "Custom magnetic perfume boxes for fragrance bottles and gift sets. Choose rigid or foldable structures, custom bottle inserts and branded finishes. Request a quote.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -178,9 +178,9 @@ export default function PerfumeMagneticBoxesSolution() {
               <span className="mrb-eyebrow">FRAGRANCE &amp; PERFUME PACKAGING</span>
               <h1>Custom Magnetic Rigid Boxes for Perfume</h1>
               <p className="mrb-lead">
-                Elevate your fragrance presentation with bespoke magnetic rigid boxes.
-                Engineered with sturdy greyboard structures, precision-cut velvet-covered EVA inserts,
-                concealed magnetic closure and metallic hot foil stamping for luxury perfume brands.
+                Develop custom magnetic perfume boxes around bottle dimensions, cap clearance
+                and protective inserts. Choose assembled or foldable rigid structures, concealed
+                magnetic closures and branded finishes for fragrance collections and gift sets.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
