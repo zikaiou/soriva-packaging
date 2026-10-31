@@ -341,9 +341,9 @@ export default function JewelryPackagingPage() {
             <h2>Explore Custom Jewelry Box Products</h2>
             <p>Start with the jewelry piece, then choose the rigid box structure, insert and finishing for your project.</p>
             <div className="mrb-hero-actions" style={{ justifyContent: "center" }}>
-              <a className="btn ghost" href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
-              <a className="btn ghost" href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
-              <a className="btn ghost" href="/products/custom-necklace-earring-boxes/">Necklace &amp; Earring Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-necklace-earring-boxes/">Necklace &amp; Earring Boxes →</a>
             </div>
           </div>
         </div>
@@ -470,8 +470,8 @@ export default function JewelryPackagingPage() {
             <article className="mrb-feature"><strong>03</strong><h3>Matching Boutique Paper Bags</h3><p>Coordinate colors, logo artwork, paper texture and ribbon or rope handles with your jewelry box collection.</p></article>
           </div>
           <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24,flexWrap:"wrap"}}>
-            <a className="btn ghost" href="/products/luxury-paper-bags/">Explore Matching Paper Bags →</a>
-            <a className="btn ghost" href="/products/custom-jewelry-boxes/">Compare Jewelry Box Types →</a>
+            <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/luxury-paper-bags/">Explore Matching Paper Bags →</a>
+            <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-jewelry-boxes/">Compare Jewelry Box Types →</a>
             <a className="btn gold" href="/rfq/">Request a Jewelry Packaging Set Quote</a>
           </div>
         </div>
