@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
+    absolute: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
   },
   description:
-    "Custom magnetic closure gift boxes for brands and wholesale buyers. Compare rigid and foldable styles, logo finishes, inserts and OEM options. Request a custom quote.",
+    "Custom magnetic rigid boxes for wholesale brands, perfume and cosmetics. Compare rigid or foldable styles, custom inserts and logo finishes. Request an OEM quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Gift Boxes & Rigid Boxes | SORIVA Packaging",
+    title: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
     description:
-      "Custom magnetic gift boxes with concealed closures, branded finishes and optional inserts. Book-style or foldable rigid structures for selected projects.",
+      "Custom magnetic rigid gift boxes with concealed closures, branded finishes and custom inserts for fragrance, cosmetics and premium gifts.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -331,7 +331,7 @@ export default function MagneticRigidBoxesPage() {
             <span className="eyebrow dark">PRODUCT OVERVIEW</span>
             <h2>Custom Magnetic Closure Gift Boxes for Brands &amp; Wholesale Buyers</h2>
             <p>
-              Our custom magnetic closure boxes combine a sturdy greyboard core, wrapped paper surfaces and concealed magnets for a refined opening experience. For wholesale magnetic gift boxes and OEM orders, brands can specify box dimensions, logo printing, foil stamping, inserts and paper finishes for cosmetics, perfume, jewelry and premium gifting.
+              Our custom magnetic closure boxes combine a sturdy greyboard core, wrapped paper surfaces and concealed magnets for a refined opening experience. For wholesale magnetic gift boxes and OEM orders, brands can specify box dimensions, logo printing, foil stamping, inserts and paper finishes for cosmetics, perfume, jewelry and premium gifting. Need magnetic perfume boxes? Compare <a href="/solutions/magnetic-rigid-boxes-for-perfume/">magnetic rigid boxes for perfume bottles</a> and <a href="/industries/perfume-packaging/">fragrance packaging requirements</a> before choosing the box and insert structure.
             </p>
           </div>
           <div className="mrb-features">
