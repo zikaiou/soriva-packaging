@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/industries/jewelry-packaging/"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Jewelry Packaging Manufacturer | Luxury Jewelry Boxes | SORIVA Packaging",
+    absolute: "Custom Jewelry Packaging Boxes & Bags | SORIVA Packaging",
   },
   description:
-    "Custom jewelry packaging and luxury jewelry boxes with tailored rigid structures, inserts, premium materials, printing and finishing for jewelry and accessory brands.",
+    "Custom jewelry packaging boxes and matching paper bags for brands. Compare flip-top, drawer, rigid and PU leather jewelry boxes, custom inserts and branded finishes.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Jewelry Packaging Manufacturer | Luxury Jewelry Boxes | SORIVA Packaging",
     description:
-      "Custom jewelry packaging and luxury jewelry boxes with tailored rigid structures, inserts, premium materials, printing and finishing for jewelry and accessory brands.",
+      "Custom jewelry packaging boxes and matching paper bags for brands. Compare flip-top, drawer, rigid and PU leather jewelry boxes, custom inserts and branded finishes.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -91,6 +91,20 @@ const recommendedStructures = [
     title: "Magnetic Rigid Boxes",
     desc: "Front-opening magnetic closure boxes delivering an unboxing reveal for luxury jewelry sets and necklaces.",
     slug: "magnetic-rigid-boxes",
+  },
+  {
+    img: "/img/portable-ring-box-hero.webp",
+    alt: "PU leather portable ring box example with velvet lining",
+    title: "PU Leather Jewelry Boxes",
+    desc: "Leather-look jewelry presentation formats with fabric-lined interiors and fitted ring, necklace or bracelet inserts.",
+    slug: "pu-leather-jewelry-boxes",
+  },
+  {
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    alt: "High-resolution SORIVA flip-top jewelry box design visualization with necklace",
+    title: "Flip-Top Jewelry Boxes",
+    desc: "Connected lift-open lids and custom jewelry inserts for retail presentation and gifting.",
+    slug: "flip-top-jewelry-boxes",
   },
   {
     img: "/img/paper-bags.webp",
@@ -327,9 +341,9 @@ export default function JewelryPackagingPage() {
             <h2>Explore Custom Jewelry Box Products</h2>
             <p>Start with the jewelry piece, then choose the rigid box structure, insert and finishing for your project.</p>
             <div className="mrb-hero-actions" style={{ justifyContent: "center" }}>
-              <a className="btn ghost" href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
-              <a className="btn ghost" href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
-              <a className="btn ghost" href="/products/custom-necklace-earring-boxes/">Necklace &amp; Earring Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-jewelry-boxes/">Custom Jewelry Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-ring-boxes/">Custom Ring Boxes →</a>
+              <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-necklace-earring-boxes/">Necklace &amp; Earring Boxes →</a>
             </div>
           </div>
         </div>
@@ -435,6 +449,30 @@ export default function JewelryPackagingPage() {
                 </div>
               </a>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Jewelry packaging suites for B2B buyers */}
+      <section className="mrb-section" id="jewelry-packaging-sets">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">MATCHING JEWELRY PACKAGING</span>
+            <h2>Custom Jewelry Packaging Sets: Boxes, Inserts &amp; Bags</h2>
+            <p>
+              Build a consistent presentation across rings, earrings, necklaces and gift collections.
+              Coordinate jewelry box colors and logo finishing with protective inserts and matching retail paper bags.
+            </p>
+          </div>
+          <div className="mrb-features">
+            <article className="mrb-feature"><strong>01</strong><h3>Jewelry Presentation Boxes</h3><p>Choose flip-top, drawer, two-piece or PU leather-look formats according to the product and desired opening experience.</p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>Jewelry-Specific Inserts</h3><p>Specify ring slots, earring holes, pendant tabs or bracelet cushions based on jewelry dimensions and display requirements.</p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Matching Boutique Paper Bags</h3><p>Coordinate colors, logo artwork, paper texture and ribbon or rope handles with your jewelry box collection.</p></article>
+          </div>
+          <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24,flexWrap:"wrap"}}>
+            <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/luxury-paper-bags/">Explore Matching Paper Bags →</a>
+            <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-jewelry-boxes/">Compare Jewelry Box Types →</a>
+            <a className="btn gold" href="/rfq/">Request a Jewelry Packaging Set Quote</a>
           </div>
         </div>
       </section>
