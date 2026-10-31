@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Paper Bags with Logo | Luxury Wholesale Bags | SORIVA",
+    absolute: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
   },
   description:
-    "Custom paper bags with logo for wholesale and luxury retail brands. Custom sizes, printed finishes, ribbon or rope handles. Selected MOQ from 100 pcs. Request a quote.",
+    "Custom luxury paper bags with logo for retail and wholesale brands. Choose paper GSM, sizes, ribbon or rope handles and finishes. MOQ from 100 pcs for selected orders.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Paper Bags with Logo | Luxury Wholesale Bags | SORIVA",
+    title: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
     description:
-      "Custom printed luxury paper bags for retail brands with logo printing, specialty paper, custom sizes, ribbon or rope handles and premium finishes.",
+      "Custom printed paper shopping bags with logo, specialty papers, tailored sizes and ribbon or rope handles for retail, beauty and fashion brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -608,7 +608,8 @@ export default function LuxuryPaperBagsPage() {
               SORIVA develops custom paper shopping bags for beauty, fashion, jewelry and gift brands.
               For custom paper bags wholesale orders or OEM projects, start with the product load and target bag size.
               Paper GSM, reinforced tops and bases, handle attachment and printing should be reviewed
-              together rather than chosen from appearance alone.
+              together rather than chosen from appearance alone. For a coordinated box-and-bag
+              collection, see our <a href="/custom-packaging/">custom packaging solutions</a>.
             </p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>

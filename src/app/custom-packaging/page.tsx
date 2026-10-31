@@ -8,16 +8,16 @@ import "../products/product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/custom-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging Solutions Manufacturer | SORIVA Packaging",
+  title: { absolute: "Custom Packaging Manufacturer | Boxes & Bags | SORIVA" },
   description:
-    "Complete custom packaging solutions from SORIVA Packaging: structure design, material selection, prototyping, mass production and global delivery. MOQ from 100 pcs.",
+    "Custom packaging manufacturer for rigid gift boxes, drawer boxes and branded paper bags. OEM design, sampling and global delivery. Selected MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Packaging Solutions | SORIVA Packaging",
+    title: "Custom Packaging Manufacturer | SORIVA Packaging",
     description:
       "From concept to premium packaging production — structure design, materials, finishing and global delivery.",
     images: [
@@ -112,9 +112,9 @@ export default function Page() {
                 From Concept To Premium Packaging Production
               </p>
               <p className="mrb-lead">
-                SORIVA provides complete custom packaging solutions from
-                structure design, material selection, prototyping, production
-                and global delivery.
+                SORIVA develops custom rigid gift boxes, drawer boxes and branded paper bags.
+                From structure design and material selection to samples, production and global
+                delivery, our team helps brands plan coordinated packaging for their products.
               </p>
               <div className="mrb-tags">
                 {pills.map((p) => (
@@ -211,6 +211,9 @@ export default function Page() {
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               <a href="/products/luxury-paper-bags/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
                 Explore Luxury Paper Bags →
+              </a>
+              <a href="/products/drawer-boxes/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
+                Explore Custom Drawer Boxes →
               </a>
               <a href="/rfq/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 14 }}>
                 Request Packaging Quote →
