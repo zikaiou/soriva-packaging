@@ -76,7 +76,7 @@ export default function JewelryBoxPage() {
     </div></section>
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">COORDINATED PACKAGING</span><h2>Explore Related Jewelry Packaging</h2><p>Coordinate presentation boxes, protective inserts and matching paper bags across your jewelry collection.</p></div>
-      <div className="mrb-hero-actions" style={{justifyContent:"center",flexWrap:"wrap"}}>{related.map(item=><a key={item.href} className="btn ghost" href={item.href}>{item.title} →</a>)}</div>
+      <div className="mrb-hero-actions" style={{justifyContent:"center",flexWrap:"wrap"}}>{related.map(item=><a key={item.href} className="btn ghost" style={{color:"#25211b",background:"#ffffff",border:"1px solid #a88b5b",fontWeight:700}} href={item.href}>{item.title} →</a>)}</div>
     </div></section>
     <section className="mrb-section"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">FAQ</span><h2>Frequently Asked Questions</h2></div>
