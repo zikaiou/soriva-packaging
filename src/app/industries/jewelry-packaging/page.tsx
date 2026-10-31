@@ -100,8 +100,8 @@ const recommendedStructures = [
     slug: "pu-leather-jewelry-boxes",
   },
   {
-    img: "/img/jewelry.webp",
-    alt: "Jewelry packaging reference for custom flip-top box design",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    alt: "High-resolution SORIVA flip-top jewelry box design visualization with necklace",
     title: "Flip-Top Jewelry Boxes",
     desc: "Connected lift-open lids and custom jewelry inserts for retail presentation and gifting.",
     slug: "flip-top-jewelry-boxes",
