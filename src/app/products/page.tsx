@@ -172,7 +172,7 @@ const industries = [
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/v18-candle.webp",
+    img: "/img/v20-jar-candles.webp",
     title: "Candle Packaging",
     href: "/industries/candle-packaging/",
   },
