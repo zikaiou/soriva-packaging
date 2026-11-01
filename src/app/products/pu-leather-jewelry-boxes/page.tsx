@@ -74,6 +74,17 @@ export default function JewelryBoxPage() {
       <div className="mrb-features">{materials.map((item, i) => <article className="mrb-feature" key={item.title}><strong>{String(i+1).padStart(2,"0")}</strong><h3>{item.title}</h3><p>{item.desc}</p></article>)}</div>
       <div className="mrb-note" style={{marginTop:24}}><b>For accurate pricing:</b> Send target quantity, jewelry dimensions, preferred box structure, material, logo artwork and delivery country. MOQ, sampling and production lead time are confirmed for each specification.</div>
     </div></section>
+    <section className="mrb-section"><div className="container">
+      <div className="mrb-head center"><span className="eyebrow dark">CUSTOM VS IN-STOCK SOURCING</span><h2>PU Leather Jewelry Box Wholesale: Choose the Right Order Route</h2><p>Stocked presentation boxes and fully customized PU leather jewelry packaging have different quotation requirements.</p></div>
+      <div className="mrb-features">
+        <article className="mrb-feature"><strong>01</strong><h3>In-Stock Portable Ring Box</h3><p>For an existing portable ring box, check the current stock, available colors and the product-specific minimum quantity before planning delivery.</p><p><a href="/products/portable-ring-box/">View the in-stock ring box →</a></p></article>
+        <article className="mrb-feature"><strong>02</strong><h3>Fully Customized Jewelry Box</h3><p>For custom dimensions, PU surface color, lining or logo finishing, send the intended jewelry type and reference photos. Tooling and MOQ are reviewed per design.</p></article>
+        <article className="mrb-feature"><strong>03</strong><h3>Interior Fit &amp; Materials</h3><p>Specify ring slots, pendant tabs or bracelet cushions, including the jewelry measurements. PU leather, velvet-style lining and logo methods need sample approval.</p></article>
+        <article className="mrb-feature"><strong>04</strong><h3>Quote by Quantity &amp; Destination</h3><p>Share quantities by style and color, required packaging set, destination and target date. We will confirm sampling, production feasibility and shipping options.</p></article>
+      </div>
+      <div className="mrb-note" style={{marginTop:24}}><b>MOQ clarification:</b> The minimum quantity for an in-stock portable ring box does not automatically apply to a custom PU leather jewelry box. Ask for a quotation based on the exact construction and logo requirements. For other connected-lid options, compare <a href="/products/flip-top-jewelry-boxes/">flip-top jewelry boxes</a>.</div>
+      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Request PU Leather Box Wholesale Quote</a></div>
+    </div></section>
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">COORDINATED PACKAGING</span><h2>Explore Related Jewelry Packaging</h2><p>Coordinate presentation boxes, protective inserts and matching paper bags across your jewelry collection.</p></div>
       <div className="mrb-hero-actions" style={{justifyContent:"center",flexWrap:"wrap"}}>{related.map(item=><a key={item.href} className="btn ghost" style={{color:"#25211b",background:"#ffffff",border:"1px solid #a88b5b",fontWeight:700}} href={item.href}>{item.title} →</a>)}</div>

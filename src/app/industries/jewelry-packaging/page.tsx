@@ -453,6 +453,21 @@ export default function JewelryPackagingPage() {
         </div>
       </section>
 
+      {/* V16: buyer-intent structure comparison and RFQ qualification */}
+      <section className="mrb-section soft" id="jewelry-box-structure-comparison">
+        <div className="container">
+          <div className="mrb-head center"><span className="eyebrow dark">JEWELRY BOX STRUCTURE COMPARISON</span><h2>Which Custom Jewelry Box Is Right for Your Brand?</h2><p>Compare how the box opens, the jewelry insert and the branding surface before requesting wholesale pricing.</p></div>
+          <div className="mrb-features">
+            <article className="mrb-feature"><strong>01</strong><h3>Flip-Top Jewelry Boxes</h3><p>A connected lid supports a one-piece opening experience. Confirm the hinge style, opening angle and fitted insert during sampling.</p><p><a href="/products/flip-top-jewelry-boxes/">Explore flip-top boxes →</a></p></article>
+            <article className="mrb-feature"><strong>02</strong><h3>PU Leather Jewelry Boxes</h3><p>Leather-look presentation with soft lining for rings, earrings or pendants. Stocked designs and fully custom projects have different MOQ requirements.</p><p><a href="/products/pu-leather-jewelry-boxes/">Explore PU leather boxes →</a></p></article>
+            <article className="mrb-feature"><strong>03</strong><h3>Drawer &amp; Two-Piece Boxes</h3><p>Sliding trays offer a pull-out reveal, while lift-off lids keep the construction simple. Both can be developed with jewelry-specific inserts.</p><p><a href="/products/drawer-boxes/">Drawer boxes →</a> · <a href="/products/two-piece-rigid-boxes/">Two-piece boxes →</a></p></article>
+            <article className="mrb-feature"><strong>04</strong><h3>Matching Packaging Sets</h3><p>For multi-item collections, specify the box, insert and paper bag as one coordinated project, including color references and artwork.</p><p><a href="/products/luxury-paper-bags/">Matching paper bags →</a></p></article>
+          </div>
+          <div className="mrb-note" style={{marginTop:24}}><b>To receive a useful B2B quote:</b> Send jewelry dimensions, required box sizes, quantity per style/color, material or finish references, logo artwork and shipping destination. Custom MOQ, sampling and lead time are confirmed after reviewing the specifications. <a href="/resources/jewelry-packaging-buyer-guide/">See the jewelry packaging buyer guide</a>.</div>
+          <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Request a Custom Jewelry Packaging Quote</a></div>
+        </div>
+      </section>
+
       {/* Jewelry packaging suites for B2B buyers */}
       <section className="mrb-section" id="jewelry-packaging-sets">
         <div className="container">
