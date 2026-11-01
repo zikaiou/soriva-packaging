@@ -546,9 +546,11 @@ export default function LuxuryPaperBagsPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/paper-bags.webp"
-                alt="Custom luxury paper bags with premium handles and gold foil"
+                alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -710,6 +712,7 @@ export default function LuxuryPaperBagsPage() {
                   src={s.img}
                   alt={s.alt}
                   loading="lazy"
+                  decoding="async"
                   style={{ width: "100%", height: 260, objectFit: "cover" }}
                 />
                 <div style={{ padding: "18px 20px" }}>
@@ -976,6 +979,7 @@ export default function LuxuryPaperBagsPage() {
               src="/img/sample-paperbag-matching-set.jpg"
               alt="Coordinated paper bag and gift box packaging set"
               loading="lazy"
+              decoding="async"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
             />
           </div>
@@ -1155,7 +1159,7 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>
                     {a.href ? (

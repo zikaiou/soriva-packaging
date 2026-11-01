@@ -62,7 +62,7 @@ export default function JewelryBoxPage() {
             <a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
           </div>
         </div>
-        <div className="mrb-hero-media"><img src="/img/portable-ring-box-hero.webp" alt="In-stock PU leather ring box shown as a material reference; custom jewelry box specifications vary" width="1200" height="900" style={{aspectRatio:"2.4 / 1",objectFit:"cover",objectPosition:"center top"}} /><p style={{color:"#c9c2b5",fontSize:12,lineHeight:1.5,marginTop:10}}>Material reference: in-stock portable ring box. Custom box sizes, materials and minimum quantities are quoted separately.</p></div>
+        <div className="mrb-hero-media"><img src="/img/portable-ring-box-hero.webp" alt="In-stock PU leather ring box shown as a material reference; custom jewelry box specifications vary" width="640" height="960" fetchPriority="high" decoding="async" style={{aspectRatio:"2.4 / 1",objectFit:"cover",objectPosition:"center top"}} /><p style={{color:"#c9c2b5",fontSize:12,lineHeight:1.5,marginTop:10}}>Material reference: in-stock portable ring box. Custom box sizes, materials and minimum quantities are quoted separately.</p></div>
       </div>
     </div></section>
     <section className="mrb-section soft"><div className="container">

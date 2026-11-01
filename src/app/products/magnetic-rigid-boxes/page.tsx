@@ -315,9 +315,11 @@ export default function MagneticRigidBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/magnetic-rigid.webp"
-                alt="Custom magnetic rigid box with luxury finish"
+                alt="Custom magnetic rigid gift box with luxury finish"
                 width="1200"
                 height="900"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -357,7 +359,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
             {realSamples.map((sample) => (
               <figure className="mrb-feature" key={sample.caption} style={{ margin: 0 }}>
-                <img src={sample.img} alt={sample.alt} width="1200" height="1200" loading="lazy" style={{ width: "100%", height: "auto", display: "block", borderRadius: 6 }} />
+                <img src={sample.img} alt={sample.alt} width="1200" height="1200" loading="lazy" decoding="async" style={{ width: "100%", height: "auto", display: "block", borderRadius: 6 }} />
                 <figcaption style={{ marginTop: 14 }}><strong>{sample.caption}</strong><br /><span>{sample.note}</span></figcaption>
               </figure>
             ))}
@@ -533,7 +535,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-gallery">
             {details.map((d) => (
               <figure key={d.caption}>
-                <img src={d.img} alt={d.caption} />
+                <img src={d.img} alt={d.caption} loading="lazy" decoding="async" />
                 <figcaption>{d.href ? <a href={d.href} style={{ color: "inherit", textDecoration: "underline" }}>{d.caption} →</a> : d.caption}</figcaption>
               </figure>
             ))}
@@ -551,7 +553,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>

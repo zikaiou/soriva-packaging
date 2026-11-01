@@ -372,8 +372,12 @@ export default function FoldableMagneticRigidBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/foldable-rigid.webp"
-                alt="Custom foldable magnetic rigid box"
+                alt="Custom foldable magnetic rigid gift box supplied flat"
                 loading="eager"
+                fetchPriority="high"
+                decoding="async"
+                width="1200"
+                height="900"
               />
             </div>
           </div>
@@ -426,7 +430,7 @@ export default function FoldableMagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE &amp; PROCESS REFERENCES</span><h2>Foldable Magnetic Box Reference Guides</h2><p>These generated images are structure, assembly, customization, insert and workflow illustrations only. They are not real customer projects, factory photos, production samples or shipment photos.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
-            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.title} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} style={{ width: "100%", borderRadius: 8 }} loading="lazy" /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.eyebrow}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.title} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} style={{ width: "100%", borderRadius: 8 }} loading="lazy" decoding="async" /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.eyebrow}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
         </div>
       </section>
@@ -553,7 +557,7 @@ export default function FoldableMagneticRigidBoxesPage() {
           <div className="mrb-gallery">
             {details.map((d) => (
               <figure key={d.caption}>
-                <img src={d.img} alt={d.caption} />
+                <img src={d.img} alt={d.caption} loading="lazy" decoding="async" />
                 <figcaption>{d.href ? <a href={d.href} style={{ color: "inherit", textDecoration: "underline" }}>{d.caption} →</a> : d.caption}</figcaption>
               </figure>
             ))}
@@ -571,7 +575,7 @@ export default function FoldableMagneticRigidBoxesPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>

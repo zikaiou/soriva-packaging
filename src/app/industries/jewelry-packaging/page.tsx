@@ -107,7 +107,7 @@ const recommendedStructures = [
     slug: "flip-top-jewelry-boxes",
   },
   {
-    img: "/img/paper-bags.webp",
+    img: "/img/v18-paper-bags.webp",
     alt: "Luxury paper bag for jewelry retail",
     title: "Matching Paper Bags",
     desc: "Coordinated luxury boutique paper shopping bags with ribbon handles to complete your retail packaging suite.",
@@ -392,8 +392,10 @@ export default function JewelryPackagingPage() {
               <img
                 src="/img/soriva-flip-top-jewelry-boxes-hd.webp"
                 alt="Luxury flip-top jewelry box with necklace and gold branding, design visualization"
-                width="1200"
-                height="630"
+                width="1018"
+                height="758"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -441,7 +443,7 @@ export default function JewelryPackagingPage() {
           <div className="mrb-apps">
             {recommendedStructures.map((p) => (
               <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}>
-                <img src={p.img} alt={p.alt} loading="lazy" />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{p.title}</b>
                   <span>{p.desc}</span>
@@ -698,8 +700,10 @@ export default function JewelryPackagingPage() {
           </div>
           <div style={{ maxWidth: 880, margin: "0 auto", background: "#fbf9f6", border: "1px solid #e7e2d9", borderRadius: 12, padding: "28px 32px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24, alignItems: "center" }}>
             <img
-              src="/img/project-jewelry.webp"
-              alt="Fine jewelry presentation box with custom velvet insert and gold foil"
+              src="/img/v18-jewelry-case.webp"
+              alt="Fine jewelry presentation box with necklace and black velvet-style insert, design visualization"
+              loading="lazy"
+              decoding="async"
               style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
             />
             <div>

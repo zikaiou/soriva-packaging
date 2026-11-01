@@ -357,8 +357,12 @@ export default function TwoPieceRigidBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/two-piece-rigid.webp"
-                alt="Custom two piece rigid gift box"
+                alt="Custom two-piece rigid gift box with lift-off lid"
                 loading="eager"
+                fetchPriority="high"
+                decoding="async"
+                width="1200"
+                height="900"
               />
             </div>
           </div>
@@ -403,7 +407,7 @@ export default function TwoPieceRigidBoxesPage() {
           </div>
           <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">GENERATED REFERENCE IMAGE LIBRARY</span><h2>Structure, Materials, Finishing &amp; Artwork References</h2><p>All images below are generated or optimized reference images only; they are illustrative concepts rather than documentary evidence of client work, facility photography, third-party compliance documentation or completed delivery records.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
-            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" decoding="async" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
         </div>
       </section>
@@ -533,7 +537,7 @@ export default function TwoPieceRigidBoxesPage() {
           <div className="mrb-gallery">
             {details.map((d) => (
               <figure key={d.caption}>
-                <img src={d.img} alt={d.caption} />
+                <img src={d.img} alt={d.caption} loading="lazy" decoding="async" />
                 <figcaption>{d.href ? <a href={d.href} style={{ color: "inherit", textDecoration: "underline" }}>{d.caption} →</a> : d.caption}</figcaption>
               </figure>
             ))}
@@ -551,7 +555,7 @@ export default function TwoPieceRigidBoxesPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{a.href ? <a href={a.href} style={{ color: "inherit", textDecoration: "none" }}>{a.title} →</a> : a.title}</b>
                   <span>{a.desc}</span>

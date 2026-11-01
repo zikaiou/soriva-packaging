@@ -84,8 +84,8 @@ const products = [
     buyerNote: "Branded retail bags with custom paper, handles, printing and coordinated finishing.",
   },
   {
-    img: "/img/jewelry.webp",
-    alt: "Custom jewelry packaging and luxury jewelry boxes",
+    img: "/img/v18-jewelry.webp",
+    alt: "Luxury flip-top jewelry presentation box with necklace, design visualization",
     title: "Jewelry Packaging",
     slug: "custom-jewelry-boxes",
     buyerNote: "Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry gift sets with tailored inserts and premium finishing.",
@@ -96,7 +96,7 @@ const featuredStyles = [
   { img: "/img/magnetic-rigid.webp", alt: "Magnetic closure rigid gift box", title: "Magnetic Boxes", href: "/products/magnetic-rigid-boxes/", detail: "Custom magnetic closure boxes for premium gifting and retail." },
   { img: "/img/two-piece-rigid.webp", alt: "Lid and base rigid gift box", title: "Lid & Base Boxes", href: "/products/two-piece-rigid-boxes/", detail: "Classic two-piece rigid boxes with separate lids and bases." },
   { img: "/img/drawer-box.webp", alt: "Sliding drawer style rigid gift box", title: "Drawer Boxes", href: "/products/drawer-boxes/", detail: "Sliding sleeve-and-tray packaging with optional ribbon pulls." },
-  { img: "/img/jewelry.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
+  { img: "/img/v18-jewelry.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
   { img: "/img/soriva-paper-bags-concept.webp", alt: "Custom luxury paper shopping bags", title: "Paper Bags", href: "/products/luxury-paper-bags/", detail: "Branded paper shopping bags with custom handles and finishes." },
   { img: "/img/soriva-tube-packaging-concept.webp", alt: "Custom cylindrical paper tube packaging", title: "Tube Packaging", href: "/products/tube-packaging/", detail: "Paper tube boxes for fragrance, candles and specialty gifts." },
 ];
@@ -147,17 +147,17 @@ const comparison = [
 
 const industries = [
   {
-    img: "/img/cosmetics.webp",
+    img: "/img/v18-cosmetics.webp",
     title: "Cosmetics Packaging",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/perfume.webp",
+    img: "/img/v18-perfume.webp",
     title: "Perfume Packaging",
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/jewelry.webp",
+    img: "/img/v18-jewelry.webp",
     title: "Jewelry Packaging",
     href: "/industries/jewelry-packaging/",
   },
@@ -167,12 +167,12 @@ const industries = [
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/corporate.webp",
+    img: "/img/v18-corporate.webp",
     title: "Corporate Gift Packaging",
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/v18-candle.webp",
     title: "Candle Packaging",
     href: "/industries/candle-packaging/",
   },
@@ -338,7 +338,7 @@ export default function ProductsPage() {
           <div className="mrb-apps mrb-apps-3">
             {visualCatalog.map((item) => (
               <figure className="mrb-app" key={item.img} style={{ margin: 0 }}>
-                <img src={item.img} alt={item.alt} loading="lazy" />
+                <img src={item.img} alt={item.alt} loading="lazy" decoding="async" />
                 <figcaption>
                   <span style={{ color: "#c79a51", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{item.category}</span>
                   <b style={{ display: "block", marginTop: 6 }}>{item.title}</b>
@@ -375,7 +375,7 @@ export default function ProductsPage() {
           <div className="mrb-apps mrb-apps-3">
             {industries.map((i) => (
               <a className="mrb-app mrb-app-link" href={i.href ?? "/contact/"} key={i.title}>
-                <img src={i.img} alt={i.title} />
+                <img src={i.img} alt={i.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{i.title}</b>
                   <span className="mrb-app-cta">View Details</span>

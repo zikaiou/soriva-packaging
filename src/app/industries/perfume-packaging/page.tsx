@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/perfume.webp",
+        url: "https://www.sorivapackaging.com/img/v18-perfume.webp",
         width: 1200,
         height: 630,
         alt: "Custom luxury perfume packaging boxes",
@@ -250,7 +250,7 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Luxury Perfume Packaging Boxes",
-      image: "https://www.sorivapackaging.com/img/perfume.webp",
+      image: "https://www.sorivapackaging.com/img/v18-perfume.webp",
       description:
         "Custom perfume packaging and luxury perfume boxes with tailored rigid structures, inserts, premium papers, printing and finishing. OEM/ODM support for fragrance brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
@@ -357,10 +357,12 @@ export default function PerfumePackagingPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/perfume.webp"
-                alt="Custom luxury perfume packaging box with gold foil branding"
-                width="1200"
-                height="630"
+                src="/img/v18-perfume.webp"
+                alt="Luxury perfume presentation packaging with custom branding"
+                width="572"
+                height="526"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -408,7 +410,7 @@ export default function PerfumePackagingPage() {
           <div className="mrb-apps">
             {recommendedStructures.map((p) => (
               <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}>
-                <img src={p.img} alt={p.alt} loading="lazy" />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{p.title}</b>
                   <span>{p.desc}</span>
@@ -623,6 +625,8 @@ export default function PerfumePackagingPage() {
             <img
               src="/img/project-perfume.webp"
               alt="Premium perfume packaging project with custom insert and gold foil"
+              loading="lazy"
+              decoding="async"
               style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
             />
             <div>
