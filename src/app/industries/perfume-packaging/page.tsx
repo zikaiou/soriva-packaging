@@ -358,9 +358,11 @@ export default function PerfumePackagingPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/perfume.webp"
-                alt="Custom luxury perfume packaging box with gold foil branding"
-                width="1200"
-                height="630"
+                alt="Luxury perfume presentation packaging with custom branding"
+                width="620"
+                height="420"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -408,7 +410,7 @@ export default function PerfumePackagingPage() {
           <div className="mrb-apps">
             {recommendedStructures.map((p) => (
               <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}>
-                <img src={p.img} alt={p.alt} loading="lazy" />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{p.title}</b>
                   <span>{p.desc}</span>
@@ -623,6 +625,8 @@ export default function PerfumePackagingPage() {
             <img
               src="/img/project-perfume.webp"
               alt="Premium perfume packaging project with custom insert and gold foil"
+              loading="lazy"
+              decoding="async"
               style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
             />
             <div>
