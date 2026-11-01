@@ -84,8 +84,8 @@ const products = [
     buyerNote: "Branded retail bags with custom paper, handles, printing and coordinated finishing.",
   },
   {
-    img: "/img/jewelry.webp",
-    alt: "Custom jewelry packaging and luxury jewelry boxes",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    alt: "Luxury flip-top jewelry presentation box with necklace, design visualization",
     title: "Jewelry Packaging",
     slug: "custom-jewelry-boxes",
     buyerNote: "Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry gift sets with tailored inserts and premium finishing.",
@@ -338,7 +338,7 @@ export default function ProductsPage() {
           <div className="mrb-apps mrb-apps-3">
             {visualCatalog.map((item) => (
               <figure className="mrb-app" key={item.img} style={{ margin: 0 }}>
-                <img src={item.img} alt={item.alt} loading="lazy" />
+                <img src={item.img} alt={item.alt} loading="lazy" decoding="async" />
                 <figcaption>
                   <span style={{ color: "#c79a51", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{item.category}</span>
                   <b style={{ display: "block", marginTop: 6 }}>{item.title}</b>
@@ -375,7 +375,7 @@ export default function ProductsPage() {
           <div className="mrb-apps mrb-apps-3">
             {industries.map((i) => (
               <a className="mrb-app mrb-app-link" href={i.href ?? "/contact/"} key={i.title}>
-                <img src={i.img} alt={i.title} />
+                <img src={i.img} alt={i.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{i.title}</b>
                   <span className="mrb-app-cta">View Details</span>
