@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/jewelry.webp",
+        url: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp",
         width: 1200,
         height: 630,
         alt: "Custom luxury jewelry packaging boxes",
@@ -268,7 +268,7 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Luxury Jewelry Packaging Boxes",
-      image: "https://www.sorivapackaging.com/img/jewelry.webp",
+      image: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp",
       description:
         "Custom jewelry packaging and luxury jewelry boxes with tailored rigid structures, inserts, premium materials, printing and finishing for jewelry and accessory brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
@@ -390,8 +390,8 @@ export default function JewelryPackagingPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/jewelry.webp"
-                alt="Custom luxury jewelry packaging boxes with gold foil branding"
+                src="/img/soriva-flip-top-jewelry-boxes-hd.webp"
+                alt="Luxury flip-top jewelry box with necklace and gold branding, design visualization"
                 width="1200"
                 height="630"
               />
