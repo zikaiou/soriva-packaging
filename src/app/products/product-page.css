@@ -1223,3 +1223,28 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* V19 — Compact quote contact rows on product and industry landing pages. */
+.mrb-quote .mrb-contact {
+  width: 100%;
+  max-width: 560px;
+}
+.mrb-quote .mrb-contact-note {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  justify-content: initial;
+  align-items: baseline;
+  gap: 18px;
+  padding: 12px 0;
+}
+.mrb-quote .mrb-contact-note a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+@media (max-width: 420px) {
+  .mrb-quote .mrb-contact-note {
+    grid-template-columns: 90px minmax(0, 1fr);
+    gap: 12px;
+  }
+}
