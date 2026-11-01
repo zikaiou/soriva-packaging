@@ -341,21 +341,20 @@ export default function Home() {
 
       <section className="section custom" id="custom">
         <div className="container">
-          <div className="section-head inverse">
-            <span className="eyebrow">FULL CUSTOMIZATION</span>
-            <h2>Make It Uniquely Yours</h2>
-            <p>
-              From paper and structure to printing, finishing and inserts,
-              every detail can be developed around your brand.
-            </p>
+          <div className="section-head inverse finish-heading">
+            <span className="eyebrow">CRAFTSMANSHIP IN EVERY DETAIL</span>
+            <h2>Premium Packaging Details</h2>
+            <p>Explore foil stamping, precision edges, ribbon closures, fitted inserts and specialty papers for your custom packaging project.</p>
           </div>
-          <div className="finish-grid">
-            {finishes.map((f) => (
+          <div className="finish-grid" aria-label="Premium packaging customization details">
+            {finishes.map((f, index) => (
               <article className="finish-card" key={f.title}>
-                <img src={f.img} alt={f.alt} loading="lazy" decoding="async" />
-                <div>
-                  <b>{f.title}</b>
-                  <span>{f.desc}</span>
+                <div className="finish-photo">
+                  <img src={f.img} alt={f.alt} loading="lazy" decoding="async" width="640" height="420" />
+                </div>
+                <div className="finish-info">
+                  <span className="finish-mark" aria-hidden="true">{["◇", "▣", "⌜", "⌁", "⬡", "≋"][index]}</span>
+                  <div className="finish-copy"><h3>{f.title}</h3><p>{f.desc}</p></div>
                 </div>
               </article>
             ))}
