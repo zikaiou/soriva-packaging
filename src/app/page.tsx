@@ -94,45 +94,6 @@ const industries = [
   },
 ];
 
-const finishes = [
-  {
-    img: "/img/foil-clean.webp",
-    alt: "Gold foil stamping",
-    title: "Gold Foil Stamping",
-    desc: "Metallic logo detailing for a premium first impression.",
-  },
-  {
-    img: "/img/emboss-clean.webp",
-    alt: "Embossing and debossing",
-    title: "Embossing / Debossing",
-    desc: "Raised or recessed logo effects that add tactile depth.",
-  },
-  {
-    img: "/img/edge-clean.webp",
-    alt: "Premium edge finish",
-    title: "Premium Edge Finish",
-    desc: "Clean wrapped corners and precise edge alignment.",
-  },
-  {
-    img: "/img/ribbon-clean.webp",
-    alt: "Satin ribbon detail",
-    title: "Ribbon & Accessories",
-    desc: "Luxury closures and add-ons to elevate the unboxing experience.",
-  },
-  {
-    img: "/img/insert-clean.webp",
-    alt: "Custom packaging inserts",
-    title: "Custom Inserts",
-    desc: "Paper, EVA or velvet inserts tailored to your product fit.",
-  },
-  {
-    img: "/img/texture-clean.webp",
-    alt: "Textured paper finish",
-    title: "Textured Paper",
-    desc: "Specialty papers and surface textures for a more distinctive look.",
-  },
-];
-
 const benefits = [
   {
     num: "01",
@@ -339,27 +300,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section custom" id="custom">
+      <section className="section custom" id="custom" aria-label="Premium Packaging Details">
         <div className="container">
-          <div className="section-head inverse">
-            <span className="eyebrow">FULL CUSTOMIZATION</span>
-            <h2>Make It Uniquely Yours</h2>
-            <p>
-              From paper and structure to printing, finishing and inserts,
-              every detail can be developed around your brand.
-            </p>
-          </div>
-          <div className="finish-grid">
-            {finishes.map((f) => (
-              <article className="finish-card" key={f.title}>
-                <img src={f.img} alt={f.alt} loading="lazy" decoding="async" />
-                <div>
-                  <b>{f.title}</b>
-                  <span>{f.desc}</span>
-                </div>
-              </article>
-            ))}
-          </div>
+          <figure style={{ margin: 0 }}>
+            <img
+              src="/img/soriva-premium-packaging-details.svg"
+              alt="Premium Packaging Details: Gold foil stamping, embossing and debossing, premium edge finish, ribbon and accessories, custom inserts, and textured paper."
+              loading="lazy"
+              decoding="async"
+              width={1536}
+              height={1024}
+              style={{ display: "block", width: "100%", height: "auto", borderRadius: 2 }}
+            />
+            <figcaption style={{ fontSize: 14, lineHeight: 1.6, color: "#d6d0c8", textAlign: "center", paddingTop: 16 }}>
+              Custom foil, embossed logos, precise edges, ribbons, inserts and textured papers for luxury packaging projects.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
