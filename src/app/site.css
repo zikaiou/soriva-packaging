@@ -7,3 +7,20 @@
 /* Homepage factory CTA: readable on the light factory credibility section. */
 .section-cta .btn.factory-verify-cta{color:#171717;border-color:#8b6a42;background:transparent}
 .section-cta .btn.factory-verify-cta:hover,.section-cta .btn.factory-verify-cta:focus-visible{color:#fff;background:#171717;border-color:#171717}
+
+/* V17 — Premium packaging details: consistent editorial layout and readable captions */
+.custom .finish-heading{text-align:center;max-width:860px;margin:0 auto 34px}
+.custom .finish-heading h2{font-family:Georgia,serif;font-size:clamp(32px,4.4vw,54px);line-height:1.12;letter-spacing:-.02em}
+.custom .finish-heading .eyebrow{display:block;letter-spacing:.2em;color:#d8b371;margin-bottom:14px}
+.custom .finish-heading p{max-width:680px;margin:12px auto 0;color:#d6d0c8;line-height:1.7}
+.custom .finish-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.custom .finish-card{background:#191a1d;border:1px solid #55565a;overflow:hidden;min-width:0;box-shadow:0 12px 28px rgba(0,0,0,.13)}
+.custom .finish-photo{height:auto;aspect-ratio:1.6/1;overflow:hidden;background:#292929}
+.custom .finish-photo img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center;filter:contrast(1.06)}
+.custom .finish-info{display:flex;align-items:center;gap:16px;min-height:106px;padding:18px 20px;background:#191a1d;border-top:1px solid #55565a}
+.custom .finish-mark{display:flex;align-items:center;justify-content:center;flex:0 0 50px;min-height:52px;border-right:1px solid #89827a;padding-right:14px;color:#d5a459;font-size:34px;line-height:1}
+.custom .finish-copy{min-width:0}
+.custom .finish-copy h3{margin:0 0 6px;color:#fff;font-size:15px;line-height:1.25;font-weight:700;letter-spacing:.025em;text-transform:uppercase}
+.custom .finish-copy p{margin:0;color:#eee;font-size:13px;line-height:1.55}
+@media(max-width:960px){.custom .finish-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.custom .finish-info{min-height:112px;padding:15px}}
+@media(max-width:620px){.custom .finish-grid{grid-template-columns:1fr}.custom .finish-heading{margin-bottom:24px}.custom .finish-photo{aspect-ratio:1.7/1}.custom .finish-info{min-height:94px}.custom .finish-mark{flex-basis:48px}}
