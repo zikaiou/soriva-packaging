@@ -7,7 +7,7 @@ const page: IndustryLanding = {
   description: "Premium packaging for candle and home fragrance brands.",
   eyebrow: "CANDLE PACKAGING",
   subtitle: "Premium Presentation for Candle & Home Fragrance Brands",
-  image: "/img/candles.webp",
+  image: "/img/v18-candle.webp",
   imageAlt: "Custom candle packaging boxes",
   message: "Hello SORIVA Packaging, I am interested in custom candle packaging and would like to discuss structure, size, insert, MOQ and pricing.",
   recommendations: [
@@ -17,7 +17,7 @@ const page: IndustryLanding = {
     { img: "/img/paper-bags.webp", alt: "Luxury paper bag for candles", title: "Luxury Paper Bags", desc: "Retail bags that complete the candle packaging system.", slug: "luxury-paper-bags" },
   ],
   applications: ["Jar Candles", "Luxury Candle Sets", "Diffusers", "Home Fragrance Gifts"],
-  applicationImage: "/img/candles.webp",
+  applicationImage: "/img/v18-candle.webp",
   applicationAlt: "Candle and home fragrance packaging",
   customization: [
     { title: "Materials", items: ["Rigid Greyboard", "Art Paper", "Specialty Paper", "Textured Paper"] },
