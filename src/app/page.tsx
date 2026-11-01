@@ -65,8 +65,8 @@ const industries = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/jewelry.webp",
-    alt: "Jewelry and watches packaging",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    alt: "Black flip-top jewelry presentation box with necklace and gold branding, design visualization",
     title: "Jewelry & Watches",
     desc: "Compact rigid structures for rings, necklaces and premium accessories.",
     href: "/industries/jewelry-packaging/",
