@@ -7,8 +7,8 @@ import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/flip-top-jewelry-boxes/";
 export const metadata: Metadata = {
-  title: { absolute: "Custom Flip-Top Jewelry Gift Boxes | SORIVA Packaging" },
-  description: "Explore custom flip-top jewelry gift boxes with hinged or lift-open lids, fitted velvet-style inserts and branded finishes for rings, earrings and necklace collections.",
+  title: { absolute: "Custom Flip-Top Jewelry Boxes Wholesale | SORIVA Packaging" },
+  description: "Custom flip-top jewelry boxes wholesale for rings, earrings and necklaces. Compare hinged lids, velvet inserts, logo finishes and OEM quote requirements.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website", url: PAGE_URL,
@@ -73,6 +73,17 @@ export default function JewelryBoxPage() {
       <div className="mrb-head center"><span className="eyebrow dark">MATERIALS &amp; CUSTOMIZATION</span><h2>Materials, Inserts and Brand Finishing</h2><p>Available construction and finishing options are reviewed against your approved specifications and samples.</p></div>
       <div className="mrb-features">{materials.map((item, i) => <article className="mrb-feature" key={item.title}><strong>{String(i+1).padStart(2,"0")}</strong><h3>{item.title}</h3><p>{item.desc}</p></article>)}</div>
       <div className="mrb-note" style={{marginTop:24}}><b>For accurate pricing:</b> Send target quantity, jewelry dimensions, preferred box structure, material, logo artwork and delivery country. MOQ, sampling and production lead time are confirmed for each specification.</div>
+    </div></section>
+    <section className="mrb-section"><div className="container">
+      <div className="mrb-head center"><span className="eyebrow dark">WHOLESALE BUYER CHECKLIST</span><h2>Custom Flip-Top Jewelry Boxes: What to Specify Before Quotation</h2><p>Share these four details to help us compare a hinged jewelry box with other structures and prepare a more accurate wholesale proposal.</p></div>
+      <div className="mrb-features">
+        <article className="mrb-feature"><strong>01</strong><h3>Jewelry Size &amp; Display</h3><p>Provide ring diameter, pendant size or earring dimensions, plus how the item should sit in the insert. Include a photo or drawing when possible.</p></article>
+        <article className="mrb-feature"><strong>02</strong><h3>Hinge &amp; Box Construction</h3><p>Confirm whether the lid must stay attached and whether a fixed opening angle matters. A separate lift-off lid is a different structure and should be quoted separately.</p></article>
+        <article className="mrb-feature"><strong>03</strong><h3>Exterior &amp; Insert</h3><p>Choose a paper wrap or other suitable surface, a velvet-style or paperboard insert, and your logo finishing. Material samples determine the final combination.</p></article>
+        <article className="mrb-feature"><strong>04</strong><h3>Quantity &amp; Delivery</h3><p>Tell us the quantity per size and color, destination country, and desired delivery date. MOQ, sample cost and lead time depend on the approved specifications.</p></article>
+      </div>
+      <div className="mrb-note" style={{marginTop:24}}><b>Comparing structures?</b> See <a href="/products/two-piece-rigid-boxes/">two-piece rigid boxes</a> for removable lids, or <a href="/products/magnetic-rigid-boxes/">magnetic rigid boxes</a> for a different closure. <a href="/resources/jewelry-packaging-buyer-guide/">Read the jewelry packaging buyer guide</a>.</div>
+      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Send Your Flip-Top Box Specifications</a></div>
     </div></section>
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">COORDINATED PACKAGING</span><h2>Explore Related Jewelry Packaging</h2><p>Coordinate presentation boxes, protective inserts and matching paper bags across your jewelry collection.</p></div>
