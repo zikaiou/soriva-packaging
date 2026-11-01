@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/cosmetics.webp",
+        url: "https://www.sorivapackaging.com/img/v18-cosmetics.webp",
         width: 1200,
         height: 900,
         alt: "Custom cosmetic packaging",
@@ -87,7 +87,7 @@ const applications = [
     title: "Skincare Packaging",
   },
   {
-    img: "/img/cosmetics.webp",
+    img: "/img/v18-cosmetics.webp",
     title: "Makeup Packaging",
   },
   {
@@ -187,7 +187,7 @@ export default function CosmeticPackagingPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/cosmetics.webp"
+                src="/img/v18-cosmetics.webp"
                 alt="Custom cosmetic gift packaging box for premium beauty products"
                 width="620"
                 height="420"

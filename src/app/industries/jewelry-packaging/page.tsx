@@ -107,7 +107,7 @@ const recommendedStructures = [
     slug: "flip-top-jewelry-boxes",
   },
   {
-    img: "/img/paper-bags.webp",
+    img: "/img/v18-paper-bags.webp",
     alt: "Luxury paper bag for jewelry retail",
     title: "Matching Paper Bags",
     desc: "Coordinated luxury boutique paper shopping bags with ribbon handles to complete your retail packaging suite.",
@@ -700,8 +700,8 @@ export default function JewelryPackagingPage() {
           </div>
           <div style={{ maxWidth: 880, margin: "0 auto", background: "#fbf9f6", border: "1px solid #e7e2d9", borderRadius: 12, padding: "28px 32px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24, alignItems: "center" }}>
             <img
-              src="/img/project-jewelry.webp"
-              alt="Fine jewelry presentation box with custom velvet insert and gold foil"
+              src="/img/v18-jewelry-case.webp"
+              alt="Fine jewelry presentation box with necklace and black velvet-style insert, design visualization"
               loading="lazy"
               decoding="async"
               style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
