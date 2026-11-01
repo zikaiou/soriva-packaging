@@ -286,9 +286,11 @@ export default function TubePackagingPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/tube-packaging.webp"
-                alt="Custom paper tube packaging with luxury finish"
+                alt="Custom luxury paper tube packaging with branded finishes"
                 width="1200"
                 height="900"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -335,7 +337,7 @@ export default function TubePackagingPage() {
           </div>
           <div className="mrb-head center" style={{ marginTop: 54 }}><span className="eyebrow dark">REFERENCE IMAGE LIBRARY</span><h2>Tube Structure, Materials &amp; Customization References</h2>            <p>All images below are reference or concept-support images only; they illustrate possible packaging directions and are not presented as verified brand work, site photography, compliance documentation or shipment records. Visible third-party marks are not presented as SORIVA customers.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))" }}>
-            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" decoding="async" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
         </div>
       </section>
@@ -383,7 +385,7 @@ export default function TubePackagingPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>{a.title}</b>
                   <span>{a.desc}</span>
