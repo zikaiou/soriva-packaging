@@ -505,9 +505,11 @@ export default function DrawerBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/drawer-box.webp"
-                alt="Custom rigid drawer box with sliding tray and gold foil branding"
+                alt="Custom rigid drawer gift box with sliding tray and gold foil branding"
                 width="1200"
                 height="900"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -636,7 +638,7 @@ export default function DrawerBoxesPage() {
         <div className="container">
           <div className="mrb-head center"><span className="eyebrow dark">STRUCTURE, APPLICATION &amp; PROCESS REFERENCES</span><h2>Drawer Box Packaging Reference Guides</h2><p>These generated or optimized images are reference illustrations only. They are not real customer projects, factory photos, production samples or shipped orders.</p></div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
-            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
+            {conceptReferences.map((ref) => <figure className="mrb-feature" key={ref.img} style={{ margin: 0 }}><img src={ref.img} alt={ref.alt} loading="lazy" decoding="async" style={{ width: "100%", borderRadius: 8 }} /><span style={{ display: "block", marginTop: 14, color: "var(--color-gold, #c79a51)", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em" }}>{ref.type}</span><h3>{ref.title}</h3><figcaption>{ref.caption}</figcaption></figure>)}
           </div>
         </div>
       </section>
@@ -949,7 +951,7 @@ export default function DrawerBoxesPage() {
           <div className="mrb-apps">
             {applications.map((a) => (
               <article className="mrb-app" key={a.title}>
-                <img src={a.img} alt={a.title} />
+                <img src={a.img} alt={a.title} loading="lazy" decoding="async" />
                 <div>
                   <b>
                     {a.href ? (
