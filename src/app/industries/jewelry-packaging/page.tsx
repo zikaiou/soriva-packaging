@@ -392,8 +392,10 @@ export default function JewelryPackagingPage() {
               <img
                 src="/img/soriva-flip-top-jewelry-boxes-hd.webp"
                 alt="Luxury flip-top jewelry box with necklace and gold branding, design visualization"
-                width="1200"
-                height="630"
+                width="1018"
+                height="758"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </div>
@@ -441,7 +443,7 @@ export default function JewelryPackagingPage() {
           <div className="mrb-apps">
             {recommendedStructures.map((p) => (
               <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}>
-                <img src={p.img} alt={p.alt} loading="lazy" />
+                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{p.title}</b>
                   <span>{p.desc}</span>
@@ -700,6 +702,8 @@ export default function JewelryPackagingPage() {
             <img
               src="/img/project-jewelry.webp"
               alt="Fine jewelry presentation box with custom velvet insert and gold foil"
+              loading="lazy"
+              decoding="async"
               style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
             />
             <div>
