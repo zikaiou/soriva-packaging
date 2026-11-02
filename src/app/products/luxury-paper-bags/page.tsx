@@ -1252,6 +1252,12 @@ export default function LuxuryPaperBagsPage() {
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
           {
+            tag: "Wholesale Buyer Guide",
+            title: "Custom Paper Bags Wholesale: Buyer & RFQ Guide",
+            desc: "Specify bag dimensions, paper GSM, handles, reinforcement, branding and shipping details for a comparable wholesale quotation.",
+            href: "/resources/custom-paper-bags-wholesale-buyer-guide/",
+          },
+          {
             tag: "Beauty & Cosmetics",
             title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
             desc: "Choose paper, GSM, ribbon or rope handles and logo finishing for skincare, cosmetics and fragrance retail bags.",
