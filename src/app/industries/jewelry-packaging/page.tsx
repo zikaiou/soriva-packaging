@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Jewelry Packaging Manufacturer | Luxury Jewelry Boxes | SORIVA Packaging",
+    title: "Custom Jewelry Packaging Manufacturer | Wholesale Boxes & Bags | SORIVA",
     description:
-      "Custom jewelry packaging boxes and matching paper bags for brands. Compare flip-top, drawer, rigid and PU leather jewelry boxes, custom inserts and branded finishes.",
+      "Custom jewelry packaging for wholesale brands: ring, necklace and earring boxes, fitted inserts, pouches and matching luxury paper bags. Request a manufacturer quote.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -265,24 +265,6 @@ const faqs = [
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      name: "Custom Luxury Jewelry Packaging Boxes",
-      image: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp",
-      description:
-        "Custom jewelry packaging and luxury jewelry boxes with tailored rigid structures, inserts, premium materials, printing and finishing for jewelry and accessory brands.",
-      brand: { "@type": "Brand", name: "SORIVA Packaging" },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        price: "1.20",
-        lowPrice: "0.60",
-        highPrice: "4.80",
-        offerCount: "1000",
-        availability: "https://schema.org/InStock",
-      },
-      url: PAGE_URL,
-    },
     {
       "@type": "Service",
       name: "Custom Jewelry Packaging Manufacturing",
