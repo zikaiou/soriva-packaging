@@ -646,6 +646,12 @@ export default function MagneticRigidBoxesPage() {
         guides={[
           {
             tag: "Box Structures",
+            title: "Custom Rigid Boxes Wholesale: Buyer & RFQ Guide",
+            desc: "Compare rigid box formats, materials, inserts, samples and shipping before requesting a wholesale manufacturer quote.",
+            href: "/resources/custom-rigid-boxes-wholesale-buyer-guide/",
+          },
+          {
+            tag: "Box Structures",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
             desc: "Compare magnetic rigid boxes, drawer boxes and two-piece rigid boxes by opening experience, presentation and packing efficiency.",
             href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
