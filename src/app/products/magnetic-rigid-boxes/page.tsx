@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    title: "Custom Magnetic Rigid Boxes Wholesale Manufacturer | SORIVA",
     description:
-      "Custom magnetic rigid gift boxes with concealed closures, branded finishes and custom inserts for fragrance, cosmetics and premium gifts.",
+      "Wholesale magnetic rigid gift boxes with concealed closures, custom inserts and branded finishes for fragrance, cosmetics, jewelry and premium gifts.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
