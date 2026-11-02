@@ -1,9 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { waLink } from "../../lib/whatsapp";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Thank You | SORIVA Packaging",
   description: "Your custom packaging RFQ has been received by SORIVA Packaging.",
+  robots: { index: false, follow: true },
 };
 
 export default function RfqThankYouPage() {
