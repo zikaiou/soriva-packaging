@@ -14,13 +14,15 @@ const ALLOWED = new Map([
 
 declare global {
   interface Window {
-    gtag?: (command: string, eventName: string, parameters?: Record<string, string>) => void;
+    dataLayer?: IArguments[];
+    gtag?: (...args: unknown[]) => void;
   }
 }
 
 function trackSuccessfulRfq(payload: Record<string, unknown>) {
-  if (typeof window.gtag !== "function") return;
-  window.gtag("event", "generate_lead", {
+  window.dataLayer = window.dataLayer || [];
+  const gtag = window.gtag || function () { window.dataLayer!.push(arguments); };
+  gtag("event", "generate_lead", {
     method: "rfq_form",
     packaging_type: String(payload.packaging_type || "unspecified"),
     quantity: String(payload.quantity || "unspecified"),
