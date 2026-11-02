@@ -84,7 +84,7 @@ export default function CustomPaperBagsWholesaleGuide() {
 
       <section className="mrb-section">
         <div className="container mrb-article">
-          <main className="mrb-article-main">
+          <article className="mrb-article-main">
             <p><strong>Quick answer:</strong> A wholesale paper bag quotation should be based on the finished bag dimensions, product weight, paper and GSM, handle construction, reinforcement, artwork, quantity and destination. Ask the supplier to confirm the sample standard and export carton details before approving production.</p>
 
             <h2>1. Start with the product and finished bag size</h2>
