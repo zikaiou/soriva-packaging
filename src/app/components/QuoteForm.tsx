@@ -7,12 +7,11 @@ export default function QuoteForm() {
   return (
     <div className="quote-form-next">
       <p>
-        For a structured quotation, send your packaging details and reference
-        files through our RFQ form. Your inquiry is saved securely for review.
+        For a more accurate quotation, share your packaging type, estimated quantity, dimensions, materials, logo finishing and delivery destination. You can also upload reference images or a PDF in the RFQ form.
       </p>
       <div className="quote-form-next-actions">
         <Link className="btn gold" href="/rfq/">
-          Open RFQ Form
+          Request a Quote
         </Link>
         <a
           className="btn-wa"
@@ -20,7 +19,7 @@ export default function QuoteForm() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Chat on WhatsApp
+          Discuss on WhatsApp
         </a>
       </div>
     </div>
