@@ -91,7 +91,7 @@ export default function JewelryPackagingBuyerGuide() {
 
       <section className="mrb-section">
         <div className="container mrb-article">
-          <main className="mrb-article-main">
+          <article className="mrb-article-main">
             <p><strong>Quick answer:</strong> The right custom jewelry box starts with the jewelry dimensions and the way the piece should be displayed. Choose the box structure and insert together, then confirm the material, logo finish, sample standard, quantity and shipping details in the RFQ.</p>
 
             <h2>1. Choose a box structure for the jewelry and retail experience</h2>
