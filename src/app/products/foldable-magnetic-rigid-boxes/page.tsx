@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Foldable Magnetic Rigid Boxes | SORIVA Packaging",
+    title: "Foldable Magnetic Rigid Boxes Wholesale | SORIVA",
     description:
-      "Foldable magnetic rigid boxes with premium presentation and space-saving logistics. MOQ from 100 pcs, 1 pc prototype and global export.",
+      "Wholesale foldable magnetic rigid boxes supplied flat, with custom inserts and branding for premium gift and retail packaging.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
