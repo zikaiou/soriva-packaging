@@ -394,6 +394,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/resources/custom-rigid-boxes-wholesale-buyer-guide/`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/resources/custom-paper-bags-wholesale-buyer-guide/`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     ...productEntries,
     {
       url: `${BASE_URL}/products/portable-ring-box/`,
