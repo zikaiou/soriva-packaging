@@ -12,6 +12,26 @@ const ALLOWED = new Map([
   ["application/pdf", ["pdf"]],
 ]);
 
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+  }
+}
+
+function trackRfqLead(payload: Record<string, unknown>) {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push([
+    "event",
+    "generate_lead",
+    {
+      method: "rfq_form",
+      packaging_type: String(payload.packaging_type || "unspecified"),
+      quantity: String(payload.quantity || "unspecified"),
+      source_page: String(payload.source_page || "/rfq/"),
+    },
+  ]);
+}
+
 const fieldLabels: Record<string, string> = {
   name: "Name",
   company: "Company",
@@ -119,6 +139,7 @@ export default function RfqPage() {
       const result = await readApiResponse(response);
       if (!response.ok) throw new Error(typeof result.error === "string" ? result.error : "We could not confirm your inquiry. Please contact us using WhatsApp or email below.");
       if (result.ok !== true) throw new Error("Your inquiry could not be confirmed. Please contact us using WhatsApp or email below.");
+      trackRfqLead(payload);
       if (result.backupDelivery === "email") {
         setBackupDelivered(true);
         setStatus("Your inquiry details were delivered to our team by backup email because our database is temporarily unavailable. Please do not submit this inquiry again. If you attached files, their delivery is not confirmed; please resend them by WhatsApp or email below.");
