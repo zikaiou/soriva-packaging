@@ -138,7 +138,7 @@ export default function JewelryPackagingBuyerGuide() {
               <li><a href="/products/custom-necklace-earring-boxes/">Custom necklace and earring boxes</a></li>
               <li><a href="/products/luxury-paper-bags/">Matching luxury paper bags</a></li>
             </ul>
-          </main>
+          </article>
           <aside className="mrb-sidebar">
             <b>Request a jewelry packaging quote</b>
             <p>Send jewelry dimensions, quantity, structure, insert, material, logo artwork and destination.</p>
