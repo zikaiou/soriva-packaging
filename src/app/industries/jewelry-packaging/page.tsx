@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/industries/jewelry-packaging/"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Jewelry Packaging Boxes & Bags | SORIVA Packaging",
+    absolute: "Custom Jewelry Packaging Manufacturer | Wholesale Boxes & Bags | SORIVA",
   },
   description:
-    "Custom jewelry packaging boxes and matching paper bags for brands. Compare flip-top, drawer, rigid and PU leather jewelry boxes, custom inserts and branded finishes.",
+    "Custom jewelry packaging for wholesale brands: ring, necklace and earring boxes, fitted inserts, pouches and matching luxury paper bags. Request a manufacturer quote.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -358,7 +358,7 @@ export default function JewelryPackagingPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">FINE JEWELRY &amp; ACCESSORY PACKAGING</span>
-              <h1>Custom Luxury Jewelry Packaging for Premium Brands</h1>
+              <h1>Custom Jewelry Packaging Manufacturer for Premium Brands</h1>
               <p className="mrb-lead">
                 Create refined jewelry packaging designed around product presentation, protection and
                 unboxing experience. SORIVA supports custom jewelry box projects for rings, necklaces,
