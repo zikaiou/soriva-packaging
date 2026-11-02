@@ -55,6 +55,18 @@ const startHereGuides = [
 
 const featuredGuides = [
   {
+    tag: "Rigid Boxes Wholesale",
+    title: "Custom Rigid Boxes Wholesale: Buyer & RFQ Guide",
+    desc: "Compare magnetic, foldable, drawer and two-piece rigid boxes, inserts, finishes, samples and freight before requesting a manufacturer quote.",
+    href: "/resources/custom-rigid-boxes-wholesale-buyer-guide/",
+  },
+  {
+    tag: "Paper Bags Wholesale",
+    title: "Custom Paper Bags Wholesale: Buyer & RFQ Guide",
+    desc: "Plan bag dimensions, GSM, handles, reinforcement, branding and export packing for a more accurate wholesale quotation.",
+    href: "/resources/custom-paper-bags-wholesale-buyer-guide/",
+  },
+  {
     tag: "Low MOQ & Startups",
     title: "Low MOQ Custom Packaging for Small Business",
     desc: "How startups and growing brands can plan a first custom packaging run without overordering or overcomplicating the structure.",
