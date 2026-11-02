@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    title: "Luxury Paper Bags Manufacturer & Wholesale | SORIVA",
     description:
-      "Custom printed paper shopping bags with logo, specialty papers, tailored sizes and ribbon or rope handles for retail, beauty and fashion brands.",
+      "Custom luxury paper bags wholesale with tailored sizes, paper choices, ribbon or rope handles and logo finishing for retail, beauty, jewelry and fashion brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
