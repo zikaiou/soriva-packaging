@@ -132,7 +132,7 @@ export default function CustomPaperBagsWholesaleGuide() {
               <li><a href="/resources/luxury-paper-bag-handles-reinforcement-guide/">Handles and reinforcement guide</a></li>
               <li><a href="/resources/how-to-prepare-custom-packaging-rfq/">Prepare a custom packaging RFQ</a></li>
             </ul>
-          </main>
+          </article>
           <aside className="mrb-sidebar">
             <b>Request a quote</b>
             <p>Send bag dimensions, packed weight, quantity, paper, handles, artwork and destination for a specification-based quotation.</p>
