@@ -12,10 +12,10 @@ const PAGE_URL =
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Foldable Magnetic Gift Boxes & Rigid Boxes | SORIVA",
+    absolute: "Foldable Magnetic Rigid Boxes Wholesale | SORIVA",
   },
   description:
-    "Custom foldable magnetic gift boxes and collapsible rigid boxes for wholesale and OEM orders. Flat-pack supply, custom logo finishes and inserts. Request a quote.",
+    "Wholesale foldable magnetic rigid boxes supplied flat for space-efficient shipping. Custom sizes, fitted inserts and branded finishes for gift, beauty and fragrance packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
