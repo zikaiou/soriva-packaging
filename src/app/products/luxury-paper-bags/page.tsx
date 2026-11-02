@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/paper-bags.webp",
+        url: "https://www.sorivapackaging.com/img/v18-paper-bags.webp",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for premium brands",
@@ -545,7 +545,7 @@ export default function LuxuryPaperBagsPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/paper-bags.webp"
+                src="/img/v18-paper-bags.webp"
                 alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"
