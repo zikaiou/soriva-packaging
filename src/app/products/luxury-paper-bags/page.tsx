@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    absolute: "Luxury Paper Bags Manufacturer & Wholesale | SORIVA",
   },
   description:
-    "Custom luxury paper bags with logo for retail and wholesale brands. Choose paper GSM, sizes, ribbon or rope handles and finishes. MOQ from 100 pcs for selected orders.",
+    "Custom luxury paper bags wholesale for retail, beauty, jewelry and fashion brands. Choose paper, GSM, handles, reinforcement and logo finishes. Request a manufacturer quote.",
   alternates: {
     canonical: PAGE_URL,
   },
