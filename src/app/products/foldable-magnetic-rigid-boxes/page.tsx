@@ -667,6 +667,12 @@ export default function FoldableMagneticRigidBoxesPage() {
         guides={[
           {
             tag: "Structure Guide",
+            title: "Custom Rigid Boxes Wholesale: Buyer & RFQ Guide",
+            desc: "Prepare a complete rigid box RFQ covering structure, inserts, materials, flat-pack assembly and export carton volume.",
+            href: "/resources/custom-rigid-boxes-wholesale-buyer-guide/",
+          },
+          {
+            tag: "Structure Guide",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",
             desc: "Compare opening styles, unboxing presentation and packing efficiency for gift packaging.",
             href: "/resources/rigid-box-structure-guide-magnetic-vs-drawer-vs-two-piece/",
