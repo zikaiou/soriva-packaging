@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    absolute: "Custom Magnetic Rigid Boxes Wholesale Manufacturer | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for wholesale brands, perfume and cosmetics. Compare rigid or foldable styles, custom inserts and logo finishes. Request an OEM quote.",
+    "Wholesale custom magnetic rigid boxes for perfume, cosmetics, jewelry and gift brands. Compare assembled or foldable styles, fitted inserts and logo finishes. Request a manufacturer quote.",
   alternates: {
     canonical: PAGE_URL,
   },
