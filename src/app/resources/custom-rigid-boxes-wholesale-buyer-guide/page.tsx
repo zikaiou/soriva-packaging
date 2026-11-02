@@ -146,7 +146,7 @@ export default function CustomRigidBoxesWholesaleGuide() {
               <li><a href="/products/two-piece-rigid-boxes/">Two-piece rigid boxes</a></li>
               <li><a href="/factory/">Factory and production capabilities</a></li>
             </ul>
-          </main>
+          </article>
           <aside className="mrb-sidebar">
             <b>Request a quote</b>
             <p>Send the box structure, product size, quantity, insert, artwork and destination for a specification-based quotation.</p>
