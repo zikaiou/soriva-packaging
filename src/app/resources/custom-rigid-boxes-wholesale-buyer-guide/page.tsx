@@ -91,7 +91,7 @@ export default function CustomRigidBoxesWholesaleGuide() {
 
       <section className="mrb-section">
         <div className="container mrb-article">
-          <main className="mrb-article-main">
+          <article className="mrb-article-main">
             <p><strong>Quick answer:</strong> A useful wholesale rigid box RFQ defines the product fit, opening structure, board and wrap materials, insert, branding, quantity, sample standard and delivery destination. Ask every supplier to quote against the same specification so unit prices and freight assumptions can be compared fairly.</p>
 
             <h2>1. Compare the main rigid box structures</h2>
