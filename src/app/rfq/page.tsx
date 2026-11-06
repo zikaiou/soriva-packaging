@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { waLink } from "../lib/whatsapp";
 
@@ -61,6 +61,7 @@ async function readApiResponse(response: Response): Promise<Record<string, unkno
 
 export default function RfqPage() {
   const [files, setFiles] = useState<File[]>([]);
+  const [packagingType, setPackagingType] = useState("");
   const [status, setStatus] = useState("");
   const [error, setError] = useState("");
   const [sending, setSending] = useState(false);
@@ -69,6 +70,12 @@ export default function RfqPage() {
   const [website, setWebsite] = useState("");
   const fileNames = useMemo(() => files.map((file) => file.name).join(", "), [files]);
   const [lastPayload, setLastPayload] = useState<Record<string, unknown> | null>(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requestedProduct = params.get("product");
+    if (requestedProduct === "Luxury Paper Bag") setPackagingType(requestedProduct);
+  }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -82,7 +89,10 @@ export default function RfqPage() {
       if (key !== "files" && key !== "finish") payload[key] = value;
     }
     payload.finishing = finishes.join(", ");
-    payload.source_page = window.location.pathname;
+    const requestedSource = new URLSearchParams(window.location.search).get("source_page");
+    payload.source_page = requestedSource && requestedSource.startsWith("/") && !requestedSource.startsWith("//")
+      ? requestedSource
+      : window.location.pathname;
     payload.website = website;
     setLastPayload(payload);
     setSending(true);
@@ -159,7 +169,7 @@ export default function RfqPage() {
               {Object.entries(fieldLabels).map(([name, label]) => (
                 <label key={name} className={name === "project_details" ? "rfq-field rfq-full" : "rfq-field"}>
                   <span>{label}{["name", "email", "country", "packaging_type", "quantity", "project_details"].includes(name) ? " *" : ""}</span>
-                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder="Product, colors, logo position, finish and special requirements." /> : name === "packaging_type" ? <select name={name} required defaultValue=""><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
+                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder={packagingType === "Luxury Paper Bag" ? "For paper bags, share width × gusset × height, quantity, paper type/GSM, handle style, logo/finishing and destination country." : "Product, colors, logo position, finish and special requirements."} /> : name === "packaging_type" ? <select name={name} required value={packagingType} onChange={(event) => setPackagingType(event.target.value)}><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
                 </label>
               ))}
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>

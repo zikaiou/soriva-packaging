@@ -32,7 +32,7 @@ export const WA_MESSAGES = {
   tubeCandle:
     "Hello SORIVA Packaging, I am interested in custom tube packaging for candles and would like to discuss size, structure, insert, MOQ and pricing.",
   paperBags:
-    "Hello SORIVA Packaging, I am interested in your custom luxury paper bags and would like to discuss size, paper, handle, MOQ and pricing.",
+    "Hello SORIVA Packaging, I am sourcing custom luxury paper bags with logo. Could you quote based on my bag size (W × gusset × H), quantity, paper type/GSM, handle style, logo/finishing and destination country? I can share artwork or a reference photo.",
   tube:
     "Hello SORIVA Packaging, I am interested in custom tube packaging and would like to discuss size, material, insert, MOQ and pricing.",
   industries:
