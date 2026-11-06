@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { waLink } from "../lib/whatsapp";
 
-export default function QuoteForm() {
+type QuoteFormProps = { href?: string };
+
+export default function QuoteForm({ href = "/rfq/" }: QuoteFormProps) {
   return (
     <div className="quote-form-next">
       <p>
@@ -11,7 +13,7 @@ export default function QuoteForm() {
         files through our RFQ form. Your inquiry is saved securely for review.
       </p>
       <div className="quote-form-next-actions">
-        <Link className="btn gold" href="/rfq/">
+        <Link className="btn gold" href={href}>
           Open RFQ Form
         </Link>
         <a

@@ -8,22 +8,23 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
+const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Fluxury-paper-bags%2F";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
   },
   description:
-    "Custom luxury paper bags with logo for retail and wholesale brands. Choose paper GSM, sizes, ribbon or rope handles and finishes. MOQ from 100 pcs for selected orders.",
+    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
     description:
-      "Custom printed paper shopping bags with logo, specialty papers, tailored sizes and ribbon or rope handles for retail, beauty and fashion brands.",
+      "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -527,7 +528,7 @@ export default function LuxuryPaperBagsPage() {
                 <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Get Paper Bag Quote
                 </a>
                 <a
@@ -595,7 +596,7 @@ export default function LuxuryPaperBagsPage() {
             <article className="mrb-feature">
               <strong>04</strong><h3>MOQ From 100 pcs</h3>
               <p>Selected projects can start from 100 pcs, with sampling available before production for suitable designs.</p>
-              <p style={{marginTop:10}}><a href="/rfq/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
+              <p style={{marginTop:10}}><a href={RFQ_URL} style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
             </article>
           </div>
         </div>
@@ -635,7 +636,7 @@ export default function LuxuryPaperBagsPage() {
           <p style={{ marginTop: 20, lineHeight: 1.8 }}>
             Compare <a href="/resources/textured-specialty-paper-bags-luxury-brands/">specialty paper options</a>
             {" "}or read our <a href="/resources/luxury-paper-bags-beauty-cosmetic-brands/">beauty paper bag buyer guide</a>.
-            {" "}Ready to source? <a href="/rfq/">Request a custom paper bag quotation →</a>
+            {" "}Ready to source? <a href={RFQ_URL}>Request a custom paper bag quotation →</a>
           </p>
         </div>
       </section>
@@ -1049,7 +1050,7 @@ export default function LuxuryPaperBagsPage() {
             material recommendations, dieline templates and tier-based quotations.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="/rfq/" className="btn gold">
+            <a href={RFQ_URL} className="btn gold">
               Request Packaging Quote
             </a>
             <a
@@ -1347,7 +1348,7 @@ export default function LuxuryPaperBagsPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} />
         </div>
       </section>
 
