@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    absolute: "Custom Magnetic Rigid Boxes Wholesale Manufacturer | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for wholesale brands, perfume and cosmetics. Compare rigid or foldable styles, custom inserts and logo finishes. Request an OEM quote.",
+    "Wholesale custom magnetic rigid boxes for perfume, cosmetics, jewelry and gift brands. Compare assembled or foldable styles, fitted inserts and logo finishes. Request a manufacturer quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    title: "Custom Magnetic Rigid Boxes Wholesale Manufacturer | SORIVA",
     description:
-      "Custom magnetic rigid gift boxes with concealed closures, branded finishes and custom inserts for fragrance, cosmetics and premium gifts.",
+      "Wholesale magnetic rigid gift boxes with concealed closures, custom inserts and branded finishes for fragrance, cosmetics, jewelry and premium gifts.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -644,6 +644,12 @@ export default function MagneticRigidBoxesPage() {
         title="Magnetic Rigid Box Buyer Guides & Resources"
         subtitle="Explore practical advice on greyboard thickness, box structures, custom inserts and cost drivers."
         guides={[
+          {
+            tag: "Box Structures",
+            title: "Custom Rigid Boxes Wholesale: Buyer & RFQ Guide",
+            desc: "Compare rigid box formats, materials, inserts, samples and shipping before requesting a wholesale manufacturer quote.",
+            href: "/resources/custom-rigid-boxes-wholesale-buyer-guide/",
+          },
           {
             tag: "Box Structures",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",

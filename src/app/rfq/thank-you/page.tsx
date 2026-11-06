@@ -2,6 +2,7 @@ import Link from "next/link";
 import { waLink } from "../../lib/whatsapp";
 
 export const metadata = {
+  robots: { index: false, follow: true },
   title: "Thank You | SORIVA Packaging",
   description: "Your custom packaging RFQ has been received by SORIVA Packaging.",
 };

@@ -12,19 +12,19 @@ const PAGE_URL =
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Foldable Magnetic Gift Boxes & Rigid Boxes | SORIVA",
+    absolute: "Foldable Magnetic Rigid Boxes Wholesale | SORIVA",
   },
   description:
-    "Custom foldable magnetic gift boxes and collapsible rigid boxes for wholesale and OEM orders. Flat-pack supply, custom logo finishes and inserts. Request a quote.",
+    "Wholesale foldable magnetic rigid boxes supplied flat for space-efficient shipping. Custom sizes, fitted inserts and branded finishes for gift, beauty and fragrance packaging.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Foldable Magnetic Rigid Boxes | SORIVA Packaging",
+    title: "Foldable Magnetic Rigid Boxes Wholesale | SORIVA",
     description:
-      "Foldable magnetic rigid boxes with premium presentation and space-saving logistics. MOQ from 100 pcs, 1 pc prototype and global export.",
+      "Wholesale foldable magnetic rigid boxes supplied flat, with custom inserts and branding for premium gift and retail packaging.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -665,6 +665,12 @@ export default function FoldableMagneticRigidBoxesPage() {
         title="Foldable Magnetic Box Buyer Guides & Resources"
          subtitle="Explore practical guidance on product measurement, inserts, finishing, color matching and sample review."
         guides={[
+          {
+            tag: "Structure Guide",
+            title: "Custom Rigid Boxes Wholesale: Buyer & RFQ Guide",
+            desc: "Prepare a complete rigid box RFQ covering structure, inserts, materials, flat-pack assembly and export carton volume.",
+            href: "/resources/custom-rigid-boxes-wholesale-buyer-guide/",
+          },
           {
             tag: "Structure Guide",
             title: "Rigid Box Structure Guide: Magnetic vs Drawer vs Two-Piece",

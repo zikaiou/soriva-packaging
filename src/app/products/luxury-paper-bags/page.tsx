@@ -11,24 +11,24 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/luxury-paper-bags/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    absolute: "Luxury Paper Bags Manufacturer & Wholesale | SORIVA",
   },
   description:
-    "Custom luxury paper bags with logo for retail and wholesale brands. Choose paper GSM, sizes, ribbon or rope handles and finishes. MOQ from 100 pcs for selected orders.",
+    "Custom luxury paper bags wholesale for retail, beauty, jewelry and fashion brands. Choose paper, GSM, handles, reinforcement and logo finishes. Request a manufacturer quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    title: "Luxury Paper Bags Manufacturer & Wholesale | SORIVA",
     description:
-      "Custom printed paper shopping bags with logo, specialty papers, tailored sizes and ribbon or rope handles for retail, beauty and fashion brands.",
+      "Custom luxury paper bags wholesale with tailored sizes, paper choices, ribbon or rope handles and logo finishing for retail, beauty, jewelry and fashion brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/paper-bags.webp",
+        url: "https://www.sorivapackaging.com/img/v18-paper-bags.webp",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for premium brands",
@@ -545,7 +545,7 @@ export default function LuxuryPaperBagsPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/paper-bags.webp"
+                src="/img/v18-paper-bags.webp"
                 alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"
@@ -1251,6 +1251,12 @@ export default function LuxuryPaperBagsPage() {
         title="Luxury Paper Bag Buyer Guides & Resources"
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
+          {
+            tag: "Wholesale Buyer Guide",
+            title: "Custom Paper Bags Wholesale: Buyer & RFQ Guide",
+            desc: "Specify bag dimensions, paper GSM, handles, reinforcement, branding and shipping details for a comparable wholesale quotation.",
+            href: "/resources/custom-paper-bags-wholesale-buyer-guide/",
+          },
           {
             tag: "Beauty & Cosmetics",
             title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
