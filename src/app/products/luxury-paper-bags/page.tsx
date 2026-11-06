@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
   },
   description:
-    "Custom luxury paper bags with logo for retail brands. Choose sizes, paper GSM, ribbon or rope handles and premium finishes. Selected projects from 100 pcs.",
+    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bag Manufacturer | Custom Logo Bags | SORIVA",
+    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
     description:
       "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
     siteName: "SORIVA Packaging",
