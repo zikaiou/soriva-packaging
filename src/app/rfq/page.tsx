@@ -71,13 +71,14 @@ export default function RfqPage() {
   const fileNames = useMemo(() => files.map((file) => file.name).join(", "), [files]);
   const [lastPayload, setLastPayload] = useState<Record<string, unknown> | null>(null);
 
-  const projectDetailsPlaceholder = {
+  const projectDetailsByProduct: Record<string, string> = {
     "Luxury Paper Bag": "For paper bags, share width × gusset × height, quantity, paper type/GSM, handle style, logo/finishing and destination country.",
     "Magnetic Rigid Box": "For magnetic rigid boxes, share internal/external L × W × H, product size and weight, insert requirement, paper/finish, quantity and delivery country.",
     "Foldable Magnetic Rigid Box": "For foldable magnetic boxes, share internal/external L × W × H, product size and weight, flat-pack requirement, insert, corner fixing, quantity and delivery country.",
     "Drawer Box": "For drawer boxes, share internal/external L × W × H, product size and weight, tray/insert, ribbon or pull-tab style, paper/finish, quantity and delivery country.",
     "Two-Piece Rigid Box": "For two-piece rigid boxes, share internal/external L × W × H, lid/base or shoulder-neck structure, product size, insert, paper/finish, quantity and delivery country.",
-  }[packagingType] || "Product, colors, logo position, finish and special requirements.";
+  };
+  const projectDetailsPlaceholder = projectDetailsByProduct[packagingType] || "Product, colors, logo position, finish and special requirements.";
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
