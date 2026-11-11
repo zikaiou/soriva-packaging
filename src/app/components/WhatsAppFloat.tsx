@@ -35,7 +35,7 @@ export default function WhatsAppFloat() {
   const [message, setMessage] = useState(WA_MESSAGES.home);
 
   useEffect(() => {
-    const path = pathname === "/" ? "/" : `${pathname?.replace(/\\/+$/, "") || ""}/`;
+    const path = !pathname || pathname === "/" ? "/" : pathname.endsWith("/") ? pathname : `${pathname}/`;
     const requestedProduct = new URLSearchParams(window.location.search).get("product") || "";
     const contextualMessage =
       path === "/rfq/"
