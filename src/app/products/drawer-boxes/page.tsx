@@ -8,6 +8,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
+const RFQ_URL = "/rfq/?product=Drawer%20Box&source_page=%2Fproducts%2Fdrawer-boxes%2F";
 
 export const metadata: Metadata = {
   title: {
@@ -486,7 +487,7 @@ export default function DrawerBoxesPage() {
                 <span>Global Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Get Drawer Box Quote
                 </a>
                 <a
@@ -554,7 +555,7 @@ export default function DrawerBoxesPage() {
             <article className="mrb-feature">
               <strong>04</strong><h3>MOQ From 100 pcs</h3>
               <p>Selected custom drawer box projects can start from 100 pcs, with sampling available for suitable designs.</p>
-              <p style={{marginTop:10}}><a href="/rfq/" style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
+              <p style={{marginTop:10}}><a href={RFQ_URL} style={{color:"var(--color-gold, #c79a51)",fontWeight:700,fontSize:13}}>Request a Quote →</a></p>
             </article>
           </div>
         </div>
@@ -578,7 +579,7 @@ export default function DrawerBoxesPage() {
               {" "}and{" "}
               <a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>.
               {" "}Compare <a href="/custom-packaging/">custom packaging options</a> for coordinated boxes and bags.
-              {" "}<a href="/rfq/">Send your drawer box RFQ →</a>
+              {" "}<a href={RFQ_URL}>Send your drawer box RFQ →</a>
             </p>
           </div>
         </div>
@@ -841,7 +842,7 @@ export default function DrawerBoxesPage() {
             provide structure advice, dieline templates and tier-based quotations.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="/rfq/" className="btn gold">
+            <a href={RFQ_URL} className="btn gold">
               Request Packaging Quote
             </a>
             <a
@@ -1120,13 +1121,13 @@ export default function DrawerBoxesPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.drawer} />
         </div>
       </section>
 
       <section className="mrb-section soft">
         <div className="container">
-          <div className="mrb-head center"><span className="eyebrow dark">RELATED INDUSTRIES &amp; GUIDES</span><h2>Plan Your Drawer Box Project</h2><p>Compare drawer box requirements across jewelry, cosmetics and perfume projects before preparing an RFQ.</p><div className="mrb-hero-actions mrb-buyer-resource-links" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+          <div className="mrb-head center"><span className="eyebrow dark">RELATED INDUSTRIES &amp; GUIDES</span><h2>Plan Your Drawer Box Project</h2><p>Compare drawer box requirements across jewelry, cosmetics and perfume projects before preparing an RFQ.</p><div className="mrb-hero-actions mrb-buyer-resource-links" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn gold" href={RFQ_URL}>Request an RFQ →</a></div></div>
         </div>
       </section>
       <ProductCrossLinks industryHref="/industries/jewelry-packaging/" industryLabel="Jewelry Packaging" />

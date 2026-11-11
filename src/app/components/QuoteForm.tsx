@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { waLink } from "../lib/whatsapp";
 
-type QuoteFormProps = { href?: string };
+type QuoteFormProps = { href?: string; whatsappMessage?: string };
 
-export default function QuoteForm({ href = "/rfq/" }: QuoteFormProps) {
+export default function QuoteForm({ href = "/rfq/", whatsappMessage = "Hello SORIVA Packaging, I would like a quote for custom packaging." }: QuoteFormProps) {
   return (
     <div className="quote-form-next">
       <p>
@@ -18,7 +18,7 @@ export default function QuoteForm({ href = "/rfq/" }: QuoteFormProps) {
         </Link>
         <a
           className="btn-wa"
-          href={waLink("Hello SORIVA Packaging, I would like a quote for custom packaging.")}
+          href={waLink(whatsappMessage)}
           target="_blank"
           rel="noopener noreferrer"
         >

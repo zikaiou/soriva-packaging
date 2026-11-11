@@ -8,6 +8,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/two-piece-rigid-boxes/";
+const RFQ_URL = "/rfq/?product=Two-Piece%20Rigid%20Box&source_page=%2Fproducts%2Ftwo-piece-rigid-boxes%2F";
 
 export const metadata: Metadata = {
   title: {
@@ -338,7 +339,7 @@ export default function TwoPieceRigidBoxesPage() {
                 <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Request Packaging Quote
                 </a>
                 <a
@@ -698,7 +699,7 @@ export default function TwoPieceRigidBoxesPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.twoPiece} />
         </div>
       </section>
 

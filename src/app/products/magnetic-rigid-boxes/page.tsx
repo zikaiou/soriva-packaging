@@ -8,6 +8,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/";
+const RFQ_URL = "/rfq/?product=Magnetic%20Rigid%20Box&source_page=%2Fproducts%2Fmagnetic-rigid-boxes%2F";
 
 export const metadata: Metadata = {
   title: {
@@ -296,7 +297,7 @@ export default function MagneticRigidBoxesPage() {
                 <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Request Packaging Quote
                 </a>
                 <a
@@ -409,7 +410,7 @@ export default function MagneticRigidBoxesPage() {
           <p style={{ marginTop: 20, lineHeight: 1.8 }}>
             For foldable magnetic gift boxes, ask us to confirm whether magnets, corner fixings and assembly
             instructions are included, and request an assembly reference before ordering.
-            {" "}See the <a href="/resources/foldable-vs-traditional-rigid-box/">foldable vs traditional rigid box guide</a>, or <a href="/rfq/">compare both box structures in one RFQ →</a>
+            {" "}See the <a href="/resources/foldable-vs-traditional-rigid-box/">foldable vs traditional rigid box guide</a>, or <a href={RFQ_URL}>compare both box structures in one RFQ →</a>
           </p>
         </div>
       </section>
@@ -432,7 +433,7 @@ export default function MagneticRigidBoxesPage() {
             Selected custom projects may start from 100 pcs; the final MOQ, sampling terms and lead time
             depend on the approved specifications. For measurement help, see our
             {" "}<a href="/resources/how-to-measure-product-for-custom-box-packaging/">product measurement guide</a>.
-            {" "}<a href="/rfq/">Send your magnetic box RFQ →</a>
+            {" "}<a href={RFQ_URL}>Send your magnetic box RFQ →</a>
           </p>
         </div>
       </section>
@@ -697,13 +698,13 @@ export default function MagneticRigidBoxesPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.magnetic} />
         </div>
       </section>
 
       <section className="mrb-section soft">
         <div className="container">
-          <div className="mrb-head center"><span className="eyebrow dark">MAGNETIC BOX BUYER RESOURCES</span><h2>Compare Applications, Inserts and Finishes</h2><p>Use these guides to prepare product dimensions, choose insert materials and review branding options before requesting a quote.</p><div className="mrb-hero-actions mrb-buyer-resource-links" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Materials Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK Guide →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+          <div className="mrb-head center"><span className="eyebrow dark">MAGNETIC BOX BUYER RESOURCES</span><h2>Compare Applications, Inserts and Finishes</h2><p>Use these guides to prepare product dimensions, choose insert materials and review branding options before requesting a quote.</p><div className="mrb-hero-actions mrb-buyer-resource-links" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/jewelry-packaging/">Jewelry Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Product Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Materials Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK Guide →</a><a className="btn gold" href={RFQ_URL}>Request an RFQ →</a></div></div>
         </div>
       </section>
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetic Packaging" />
