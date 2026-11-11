@@ -2,7 +2,7 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { waLink } from "../lib/whatsapp";
+import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
 const MAX_FILES = 5;
@@ -84,6 +84,21 @@ export default function RfqPage() {
     "Portable Ring Box": "For the in-stock portable ring box, share your preferred colors (jacquard blue, jacquard pink, black or beige), quantity (MOQ from 20 pcs), delivery country and target date. Please confirm current stock availability.",
   };
   const projectDetailsPlaceholder = projectDetailsByProduct[packagingType] || "Product, colors, logo position, finish and special requirements.";
+  const whatsappMessageByProduct: Record<string, string> = {
+    "Luxury Paper Bag": WA_MESSAGES.paperBags,
+    "Magnetic Rigid Box": WA_MESSAGES.magnetic,
+    "Foldable Magnetic Rigid Box": WA_MESSAGES.foldable,
+    "Drawer Box": WA_MESSAGES.drawer,
+    "Two-Piece Rigid Box": WA_MESSAGES.twoPiece,
+    "Jewelry Packaging": WA_MESSAGES.jewelry,
+    "Custom Jewelry Box": WA_MESSAGES.customJewelryBoxes,
+    "PU Leather Jewelry Box": WA_MESSAGES.puLeatherJewelry,
+    "Flip-Top Jewelry Box": WA_MESSAGES.flipTopJewelry,
+    "Portable Ring Box": WA_MESSAGES.portableRingBox,
+  };
+  const contextualWhatsAppMessage =
+    whatsappMessageByProduct[packagingType] || WA_MESSAGES.home;
+
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -203,13 +218,13 @@ export default function RfqPage() {
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>
               <label className="rfq-field rfq-full"><span>Upload Logo / Reference Images</span><input name="files" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" multiple onChange={(event) => { const selected = Array.from(event.target.files || []); const message = validateFiles(selected); setError(message); if (!message) setFiles(selected); }} /><small>{fileNames || "JPG, PNG or PDF. Maximum 10MB per file, up to 5 files."}</small></label>
               <label className="rfq-honeypot" aria-hidden="true">Website<input tabIndex={-1} autoComplete="off" value={website} onChange={(event) => setWebsite(event.target.value)} /></label>
-              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending || backupDelivered}>{sending ? "Sending…" : backupDelivered ? "Inquiry Sent by Email" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink("Hello SORIVA Packaging, I tried submitting an RFQ but the website could not confirm it. Please help me with my custom packaging inquiry.")} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <div className="rfq-status" role="status"><p>{status}</p>{backupDelivered && <p style={{ marginTop: 8 }}>Need to resend reference files? <a href={waLink("Hello SORIVA Packaging, I submitted an RFQ using the backup email delivery and would like to send my attachment files.")} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: 700 }}>Contact us on WhatsApp</a> or <a href="mailto:AMY@XINGYUE.STORE?subject=SORIVA%20RFQ%20Attachments" style={{ textDecoration: "underline", fontWeight: 700 }}>email your files</a>.</p>}</div>}</div>
+              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending || backupDelivered}>{sending ? "Sending…" : backupDelivered ? "Inquiry Sent by Email" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink(`Hello SORIVA Packaging, I tried submitting an RFQ for ${packagingType || "custom packaging"}, but the website could not confirm it. Please help me with this inquiry. ${contextualWhatsAppMessage}`)} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <div className="rfq-status" role="status"><p>{status}</p>{backupDelivered && <p style={{ marginTop: 8 }}>Need to resend reference files? <a href={waLink("Hello SORIVA Packaging, I submitted an RFQ using the backup email delivery and would like to send my attachment files.")} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: 700 }}>Contact us on WhatsApp</a> or <a href="mailto:AMY@XINGYUE.STORE?subject=SORIVA%20RFQ%20Attachments" style={{ textDecoration: "underline", fontWeight: 700 }}>email your files</a>.</p>}</div>}</div>
             </div>
           </form>
         </div>
       </section>
       <section className="rfq-section rfq-soft"><div className="rfq-wrap"><p className="rfq-eyebrow">WHAT HAPPENS NEXT</p><h2>From RFQ to Production</h2><div className="rfq-steps"><div><b>1. Review</b><p>We review size, quantity, structure, material and finishing.</p></div><div><b>2. Quote & Sample</b><p>We prepare the quotation and confirm whether a prototype is needed.</p></div><div><b>3. Production</b><p>After specification approval, the project moves into production and QC.</p></div></div></div></section>
-      <section className="rfq-contact"><div className="rfq-wrap"><h2>Need a Backup Contact Method?</h2><p>If the form or file upload does not work, send your project details and reference files directly by WhatsApp or email.</p><div style={{display:"flex",gap:12,flexWrap:"wrap",justifyContent:"center"}}><a className="btn-wa" href={waLink("Hello SORIVA Packaging, I would like to request a custom packaging quotation.")} target="_blank" rel="noreferrer">Chat on WhatsApp</a><a className="btn gold" href="mailto:AMY@XINGYUE.STORE">Email AMY@XINGYUE.STORE</a></div></div></section>
+      <section className="rfq-contact"><div className="rfq-wrap"><h2>Need a Backup Contact Method?</h2><p>If the form or file upload does not work, send your project details and reference files directly by WhatsApp or email.</p><div style={{display:"flex",gap:12,flexWrap:"wrap",justifyContent:"center"}}><a className="btn-wa" href={waLink(contextualWhatsAppMessage)} target="_blank" rel="noreferrer">Chat on WhatsApp</a><a className="btn gold" href="mailto:AMY@XINGYUE.STORE">Email AMY@XINGYUE.STORE</a></div></div></section>
     </main>
   );
 }
