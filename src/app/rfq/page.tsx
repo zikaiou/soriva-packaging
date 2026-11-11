@@ -77,6 +77,11 @@ export default function RfqPage() {
     "Foldable Magnetic Rigid Box": "For foldable magnetic boxes, share internal/external L × W × H, product size and weight, flat-pack requirement, insert, corner fixing, quantity and delivery country.",
     "Drawer Box": "For drawer boxes, share internal/external L × W × H, product size and weight, tray/insert, ribbon or pull-tab style, paper/finish, quantity and delivery country.",
     "Two-Piece Rigid Box": "For two-piece rigid boxes, share internal/external L × W × H, lid/base or shoulder-neck structure, product size, insert, paper/finish, quantity and delivery country.",
+    "Jewelry Packaging": "For jewelry packaging, share jewelry types, dimensions, box styles and sizes, quantity per style/color, insert requirements, logo/finishing and delivery country.",
+    "Custom Jewelry Box": "For custom jewelry boxes, share jewelry dimensions, preferred box structure, insert material/layout, logo artwork, paper/finish, quantity and delivery country.",
+    "PU Leather Jewelry Box": "For PU leather jewelry boxes, share jewelry type and size, PU color/texture, interior lining, insert layout, logo method, quantity and delivery country. Please specify if you need a stocked or fully customized design.",
+    "Flip-Top Jewelry Box": "For flip-top jewelry boxes, share jewelry dimensions, hinge/opening requirements, insert layout, exterior material, logo/finish, quantity and delivery country.",
+    "Portable Ring Box": "For the in-stock portable ring box, share your preferred colors (jacquard blue, jacquard pink, black or beige), quantity (MOQ from 20 pcs), delivery country and target date. Please confirm current stock availability.",
   };
   const projectDetailsPlaceholder = projectDetailsByProduct[packagingType] || "Product, colors, logo position, finish and special requirements.";
 
@@ -89,6 +94,11 @@ export default function RfqPage() {
       "Foldable Magnetic Rigid Box",
       "Drawer Box",
       "Two-Piece Rigid Box",
+      "Jewelry Packaging",
+      "Custom Jewelry Box",
+      "PU Leather Jewelry Box",
+      "Flip-Top Jewelry Box",
+      "Portable Ring Box",
     ];
     if (requestedProduct && supportedProducts.includes(requestedProduct)) {
       setPackagingType(requestedProduct);
@@ -187,7 +197,7 @@ export default function RfqPage() {
               {Object.entries(fieldLabels).map(([name, label]) => (
                 <label key={name} className={name === "project_details" ? "rfq-field rfq-full" : "rfq-field"}>
                   <span>{label}{["name", "email", "country", "packaging_type", "quantity", "project_details"].includes(name) ? " *" : ""}</span>
-                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder={projectDetailsPlaceholder} /> : name === "packaging_type" ? <select name={name} required value={packagingType} onChange={(event) => setPackagingType(event.target.value)}><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
+                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder={projectDetailsPlaceholder} /> : name === "packaging_type" ? <select name={name} required value={packagingType} onChange={(event) => setPackagingType(event.target.value)}><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Jewelry Packaging</option><option>Custom Jewelry Box</option><option>PU Leather Jewelry Box</option><option>Flip-Top Jewelry Box</option><option>Portable Ring Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
                 </label>
               ))}
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>

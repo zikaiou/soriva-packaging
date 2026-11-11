@@ -42,7 +42,15 @@ export const WA_MESSAGES = {
   perfume:
     "Hello SORIVA Packaging, I'm looking for custom perfume packaging. Could you share more details?",
   jewelry:
-    "Hello SORIVA Packaging, I'm looking for custom jewelry packaging. Could you share more details?",
+    "Hello SORIVA Packaging, I am sourcing custom jewelry packaging. Please advise based on jewelry type and dimensions, box style, quantity per style/color, insert, logo/finishing and delivery country. I can share artwork or reference photos.",
+  customJewelryBoxes:
+    "Hello SORIVA Packaging, I am sourcing custom jewelry boxes. Please advise based on jewelry dimensions, box structure, insert layout, logo/finishing, quantity and delivery country. I can share artwork or reference photos.",
+  puLeatherJewelry:
+    "Hello SORIVA Packaging, I am interested in PU leather jewelry boxes. Please advise on PU colors/textures, interior lining, insert layout, logo method, MOQ and delivery country. I can share a reference photo.",
+  flipTopJewelry:
+    "Hello SORIVA Packaging, I am sourcing custom flip-top jewelry boxes. Please advise based on jewelry dimensions, hinge/opening style, insert, exterior material, logo/finish, quantity and delivery country.",
+  portableRingBox:
+    "Hello SORIVA Packaging, I am interested in the in-stock portable ring box. Please confirm availability, color options, MOQ from 20 pcs, carton details and shipping to my country.",
   candle:
     "Hello SORIVA Packaging, I am interested in custom candle packaging and would like to discuss structure, size, insert, MOQ and pricing.",
   fashion:
