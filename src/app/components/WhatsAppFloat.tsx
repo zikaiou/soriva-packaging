@@ -30,19 +30,22 @@ const PATH_MESSAGES: Record<string, string> = {
   "/industries/jewelry-packaging/": WA_MESSAGES.jewelry,
 };
 
+function messageForLocation(pathname: string, search: string) {
+  const path = !pathname || pathname === "/" ? "/" : pathname.endsWith("/") ? pathname : `${pathname}/`;
+  const requestedProduct = new URLSearchParams(search).get("product") || "";
+  if (path === "/rfq/" && PRODUCT_MESSAGES[requestedProduct]) {
+    return PRODUCT_MESSAGES[requestedProduct];
+  }
+  return PATH_MESSAGES[path] || WA_MESSAGES.home;
+}
+
+
 export default function WhatsAppFloat() {
   const pathname = usePathname();
   const [message, setMessage] = useState(WA_MESSAGES.home);
 
   useEffect(() => {
-    const path = !pathname || pathname === "/" ? "/" : pathname.endsWith("/") ? pathname : `${pathname}/`;
-    const requestedProduct = new URLSearchParams(window.location.search).get("product") || "";
-    const contextualMessage =
-      path === "/rfq/"
-        ? PRODUCT_MESSAGES[requestedProduct]
-        : PATH_MESSAGES[path];
-
-    setMessage(contextualMessage || WA_MESSAGES.home);
+    setMessage(messageForLocation(pathname || "/", window.location.search));
   }, [pathname]);
 
   return (
@@ -52,6 +55,11 @@ export default function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with SORIVA Packaging on WhatsApp"
+      onClick={(event) => {
+        event.currentTarget.href = waLink(
+          messageForLocation(window.location.pathname, window.location.search)
+        );
+      }}
     >
       <span>WhatsApp</span>
       <b>Chat Now</b>
