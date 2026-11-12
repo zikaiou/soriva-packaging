@@ -8,6 +8,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/industries/jewelry-packaging/";
+const RFQ_URL = "/rfq/?product=Jewelry%20Packaging&source_page=%2Findustries%2Fjewelry-packaging%2F";
 
 export const metadata: Metadata = {
   title: {
@@ -372,11 +373,11 @@ export default function JewelryPackagingPage() {
                 <span>Global Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Request Packaging Quote
                 </a>
                 <a
-                  href={waLink(WA_MESSAGES.industries)}
+                  href={waLink(WA_MESSAGES.jewelry)}
                   target="_blank"
                   rel="noopener"
                   className="btn-wa"
@@ -466,7 +467,7 @@ export default function JewelryPackagingPage() {
             <article className="mrb-feature"><strong>04</strong><h3>Matching Packaging Sets</h3><p>For multi-item collections, specify the box, insert and paper bag as one coordinated project, including color references and artwork.</p><p><a href="/products/luxury-paper-bags/">Matching paper bags →</a></p></article>
           </div>
           <div className="mrb-note" style={{marginTop:24}}><b>To receive a useful B2B quote:</b> Send jewelry dimensions, required box sizes, quantity per style/color, material or finish references, logo artwork and shipping destination. Custom MOQ, sampling and lead time are confirmed after reviewing the specifications. <a href="/resources/jewelry-packaging-buyer-guide/">See the jewelry packaging buyer guide</a>.</div>
-          <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Request a Custom Jewelry Packaging Quote</a></div>
+          <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href={RFQ_URL}>Request a Custom Jewelry Packaging Quote</a></div>
         </div>
       </section>
 
@@ -489,7 +490,7 @@ export default function JewelryPackagingPage() {
           <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24,flexWrap:"wrap"}}>
             <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/luxury-paper-bags/">Explore Matching Paper Bags →</a>
             <a className="btn ghost" style={{color:"#24201a",backgroundColor:"#ffffff",border:"1px solid #ad8b50",fontWeight:700}} href="/products/custom-jewelry-boxes/">Compare Jewelry Box Types →</a>
-            <a className="btn gold" href="/rfq/">Request a Jewelry Packaging Set Quote</a>
+            <a className="btn gold" href={RFQ_URL}>Request a Jewelry Packaging Set Quote</a>
           </div>
         </div>
       </section>
@@ -608,11 +609,11 @@ export default function JewelryPackagingPage() {
             structure recommendations, insert dielines and tier-based quotations.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="/rfq/" className="btn gold">
+            <a href={RFQ_URL} className="btn gold">
               Request Packaging Quote
             </a>
             <a
-              href={waLink(WA_MESSAGES.industries)}
+              href={waLink(WA_MESSAGES.jewelry)}
               target="_blank"
               rel="noopener"
               className="btn-wa"
@@ -827,7 +828,7 @@ export default function JewelryPackagingPage() {
             <div className="mrb-contact">
               <div className="mrb-contact-note">
                 <b>WhatsApp</b>
-                <a href={waLink(WA_MESSAGES.industries)} target="_blank" rel="noopener">
+                <a href={waLink(WA_MESSAGES.jewelry)} target="_blank" rel="noopener">
                   +86 159 1388 1634
                 </a>
               </div>
@@ -840,7 +841,7 @@ export default function JewelryPackagingPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.jewelry} />
         </div>
       </section>
 

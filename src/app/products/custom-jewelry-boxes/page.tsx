@@ -8,6 +8,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/custom-jewelry-boxes/";
+const RFQ_URL = "/rfq/?product=Custom%20Jewelry%20Box&source_page=%2Fproducts%2Fcustom-jewelry-boxes%2F";
 
 export const metadata: Metadata = {
   title: { absolute: "Custom Jewelry Boxes Manufacturer | Luxury Jewelry Packaging | SORIVA" },
@@ -74,7 +75,7 @@ export default function CustomJewelryBoxesPage() {
           <h1>Custom Jewelry Boxes Manufacturer for Premium Brands</h1>
           <p className="mrb-lead">Develop branded jewelry boxes for rings, necklaces, earrings, bracelets, watches and gift sets with custom sizes, fitted inserts, specialty papers and premium logo finishing.</p>
           <div className="mrb-tags"><span>MOQ From 100 pcs</span><span>Custom Size &amp; Inserts</span><span>Foil / Emboss / Print</span><span>Rigid Box Structures</span><span>Global Shipping</span></div>
-          <div className="mrb-hero-actions"><a href="/rfq/" className="btn gold">Request Jewelry Box Quote</a><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
+          <div className="mrb-hero-actions"><a href={RFQ_URL} className="btn gold">Request Jewelry Box Quote</a><a href={waLink(WA_MESSAGES.customJewelryBoxes)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
         </div>
         <div className="mrb-hero-media"><img src="/img/jewelry.webp" alt="Custom luxury jewelry box packaging" width="1200" height="900" /></div>
       </div>
@@ -148,7 +149,7 @@ export default function CustomJewelryBoxesPage() {
 
     <section className="mrb-section soft"><div className="container"><div className="mrb-head center"><span className="eyebrow dark">FAQ</span><h2>Custom Jewelry Box Questions</h2></div><div className="mrb-faq">{faqs.map(f=><div className="mrb-faq-item" key={f.q}><b>{f.q}</b><p>{f.a}</p></div>)}</div></div></section>
 
-    <section className="mrb-quote"><div className="container mrb-quote-grid"><div><span className="mrb-eyebrow">START A PROJECT</span><h2>Request a Custom Jewelry Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7}}>Send your jewelry dimensions, quantity, preferred box style, insert requirements, logo artwork and destination. Lead time depends on design complexity, quantity, materials and finishing requirements.</p></div><QuoteForm /></div></section>
+    <section className="mrb-quote"><div className="container mrb-quote-grid"><div><span className="mrb-eyebrow">START A PROJECT</span><h2>Request a Custom Jewelry Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7}}>Send your jewelry dimensions, quantity, preferred box style, insert requirements, logo artwork and destination. Lead time depends on design complexity, quantity, materials and finishing requirements.</p></div><QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.customJewelryBoxes} /></div></section>
     <ProductCrossLinks industryHref="/industries/jewelry-packaging/" industryLabel="Jewelry Packaging" />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
   </main>;

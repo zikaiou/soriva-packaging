@@ -18,13 +18,13 @@ export const WA_MESSAGES = {
   products:
     "Hello SORIVA Packaging, I'm interested in your custom packaging products. Could you share more details?",
   magnetic:
-    "Hello SORIVA Packaging, I would like a quote for custom magnetic rigid boxes.",
+    "Hello SORIVA Packaging, I'm sourcing custom magnetic rigid boxes. Please advise based on my box size (L × W × H), quantity, product/insert, paper and finish, and delivery country. I can share artwork or a reference photo.",
   foldable:
-    "Hello SORIVA Packaging, I would like a quote for custom foldable magnetic rigid boxes.",
+    "Hello SORIVA Packaging, I'm sourcing foldable magnetic rigid boxes. Please advise based on my box size (L × W × H), quantity, flat-pack requirements, corner fixing, insert and delivery country. I can share artwork or a reference photo.",
   drawer:
-    "Hello SORIVA Packaging, I would like a quote for custom drawer boxes.",
+    "Hello SORIVA Packaging, I'm sourcing custom rigid drawer boxes. Please advise based on my box size (L × W × H), quantity, tray/insert, ribbon or pull-tab style, finish and delivery country. I can share artwork or a reference photo.",
   twoPiece:
-    "Hello SORIVA Packaging, I would like a quote for custom two-piece rigid boxes.",
+    "Hello SORIVA Packaging, I'm sourcing custom two-piece rigid boxes. Please advise based on my box size (L × W × H), quantity, lid/base structure, insert, paper/finish and delivery country. I can share artwork or a reference photo.",
   tubePerfume:
     "Hello SORIVA Packaging, I am interested in custom tube packaging for perfume and would like to discuss size, structure, insert, MOQ and pricing.",
   tubeCosmetics:
@@ -42,7 +42,15 @@ export const WA_MESSAGES = {
   perfume:
     "Hello SORIVA Packaging, I'm looking for custom perfume packaging. Could you share more details?",
   jewelry:
-    "Hello SORIVA Packaging, I'm looking for custom jewelry packaging. Could you share more details?",
+    "Hello SORIVA Packaging, I am sourcing custom jewelry packaging. Please advise based on jewelry type and dimensions, box style, quantity per style/color, insert, logo/finishing and delivery country. I can share artwork or reference photos.",
+  customJewelryBoxes:
+    "Hello SORIVA Packaging, I am sourcing custom jewelry boxes. Please advise based on jewelry dimensions, box structure, insert layout, logo/finishing, quantity and delivery country. I can share artwork or reference photos.",
+  puLeatherJewelry:
+    "Hello SORIVA Packaging, I am interested in PU leather jewelry boxes. Please advise on PU colors/textures, interior lining, insert layout, logo method, MOQ and delivery country. I can share a reference photo.",
+  flipTopJewelry:
+    "Hello SORIVA Packaging, I am sourcing custom flip-top jewelry boxes. Please advise based on jewelry dimensions, hinge/opening style, insert, exterior material, logo/finish, quantity and delivery country.",
+  portableRingBox:
+    "Hello SORIVA Packaging, I am interested in the in-stock portable ring box. Please confirm availability, color options, MOQ from 20 pcs, carton details and shipping to my country.",
   candle:
     "Hello SORIVA Packaging, I am interested in custom candle packaging and would like to discuss structure, size, insert, MOQ and pricing.",
   fashion:

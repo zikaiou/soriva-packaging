@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import Header from "./components/Header";
-import { waLink, WA_MESSAGES } from "./lib/whatsapp";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 import "./globals.css";
 import "./site.css";
 
@@ -157,16 +157,7 @@ export default function RootLayout({
             </span>
           </div>
         </footer>
-        <a
-          className="whatsapp-float"
-          href={waLink(WA_MESSAGES.home)}
-          target="_blank"
-          rel="noopener"
-          aria-label="Chat with SORIVA Packaging on WhatsApp"
-        >
-          <span>WhatsApp</span>
-          <b>Chat Now</b>
-        </a>
+        <WhatsAppFloat />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

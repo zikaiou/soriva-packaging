@@ -6,6 +6,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/pu-leather-jewelry-boxes/";
+const RFQ_URL = "/rfq/?product=PU%20Leather%20Jewelry%20Box&source_page=%2Fproducts%2Fpu-leather-jewelry-boxes%2F";
 export const metadata: Metadata = {
   title: { absolute: "Custom PU Leather Jewelry Boxes Manufacturer | SORIVA" },
   description: "Custom PU leather jewelry presentation boxes for rings, necklaces, bracelets and gift sets. Explore velvet interiors, inserts, branding and coordinated retail packaging.",
@@ -58,8 +59,8 @@ export default function JewelryBoxPage() {
           <p className="mrb-lead">Create a cohesive jewelry presentation with PU leather-look surfaces, soft-touch interior linings and tailored ring, earring, necklace or bracelet inserts. We review custom dimensions, color matching and logo treatments for each project.</p>
           <div className="mrb-tags"><span>PU Leather-Look Surfaces</span><span>Velvet-Style Interiors</span><span>Custom Inserts</span><span>Logo & Color Options</span></div>
           <div className="mrb-hero-actions">
-            <a className="btn gold" href="/rfq/">Request PU Leather Jewelry Box Quote</a>
-            <a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
+            <a className="btn gold" href={RFQ_URL}>Request PU Leather Jewelry Box Quote</a>
+            <a href={waLink(WA_MESSAGES.puLeatherJewelry)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
           </div>
         </div>
         <div className="mrb-hero-media"><img src="/img/portable-ring-box-hero.webp" alt="In-stock PU leather ring box shown as a material reference; custom jewelry box specifications vary" width="640" height="960" fetchPriority="high" decoding="async" style={{aspectRatio:"2.4 / 1",objectFit:"cover",objectPosition:"center top"}} /><p style={{color:"#c9c2b5",fontSize:12,lineHeight:1.5,marginTop:10}}>Material reference: in-stock portable ring box. Custom box sizes, materials and minimum quantities are quoted separately.</p></div>
@@ -83,7 +84,7 @@ export default function JewelryBoxPage() {
         <article className="mrb-feature"><strong>04</strong><h3>Quote by Quantity &amp; Destination</h3><p>Share quantities by style and color, required packaging set, destination and target date. We will confirm sampling, production feasibility and shipping options.</p></article>
       </div>
       <div className="mrb-note" style={{marginTop:24}}><b>MOQ clarification:</b> The minimum quantity for an in-stock portable ring box does not automatically apply to a custom PU leather jewelry box. Ask for a quotation based on the exact construction and logo requirements. For other connected-lid options, compare <a href="/products/flip-top-jewelry-boxes/">flip-top jewelry boxes</a>.</div>
-      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Request PU Leather Box Wholesale Quote</a></div>
+      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href={RFQ_URL}>Request PU Leather Box Wholesale Quote</a></div>
     </div></section>
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">COORDINATED PACKAGING</span><h2>Explore Related Jewelry Packaging</h2><p>Coordinate presentation boxes, protective inserts and matching paper bags across your jewelry collection.</p></div>
@@ -95,8 +96,8 @@ export default function JewelryBoxPage() {
     </div></section>
     <section className="mrb-quote" id="quote"><div className="container mrb-quote-grid">
       <div><span className="mrb-eyebrow">START YOUR PROJECT</span><h2>Request PU Leather Jewelry Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7,margin:"12px 0 16px"}}>Share your jewelry size, preferred box structure, materials, target quantity and shipping destination. We will review feasibility, sampling and quotation details.</p>
-        <div className="mrb-contact"><div className="mrb-contact-note"><b>Email</b><a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a></div><div className="mrb-contact-note"><b>WhatsApp</b><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener">Contact SORIVA</a></div></div>
-      </div><QuoteForm />
+        <div className="mrb-contact"><div className="mrb-contact-note"><b>Email</b><a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a></div><div className="mrb-contact-note"><b>WhatsApp</b><a href={waLink(WA_MESSAGES.puLeatherJewelry)} target="_blank" rel="noopener">Contact SORIVA</a></div></div>
+      </div><QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.puLeatherJewelry} />
     </div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
   </main>;
