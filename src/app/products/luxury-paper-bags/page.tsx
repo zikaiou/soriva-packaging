@@ -736,10 +736,9 @@ export default function LuxuryPaperBagsPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">6 PAPER BAG CATEGORIES</span>
-            <h2>Real Custom Paper Bag Samples</h2>
+            <h2>Explore 6 Types of Custom Paper Shopping Bags</h2>
             <p>
-              Explore real paper bag samples developed for different brand styles, sizes, handle
-              structures and presentation requirements.
+              Browse six custom paper bag styles by construction and handle type. Customize dimensions, paper stock, colors, printing and finishing to fit your retail brand.
             </p>
           </div>
           <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
@@ -750,7 +749,7 @@ export default function LuxuryPaperBagsPage() {
                   alt={s.alt}
                   loading="lazy"
                   decoding="async"
-                  style={{ width: "100%", height: 260, objectFit: "cover" }}
+                  style={{ width: "100%", aspectRatio: "4 / 3", height: "auto", objectFit: "cover", display: "block" }}
                 />
                 <div style={{ padding: "18px 20px" }}>
                   <b style={{ fontSize: 18, color: "#111", display: "block", marginBottom: 8 }}>{s.title}</b>
