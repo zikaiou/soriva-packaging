@@ -120,27 +120,51 @@ const bagStyles = [
 
 const sampleShowcase = [
   {
-    img: "/img/paper-bags-soriva-color-collection.webp",
-    alt: "SORIVA custom paper shopping bags in multiple colors with satin bow handles",
-    title: "Custom Color Paper Shopping Bags",
-    desc: "A coordinated range of colorful paper shopping bags with matching ribbon bows, die-cut handle openings and customizable brand colors.",
-    href: "/rfq/?product=Custom%20Color%20Paper%20Shopping%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    img: "/img/paper-bags-category-luxury-branded.webp",
+    alt: "Luxury branded paper shopping bag with custom rope handle and gold foil logo",
+    title: "01. Luxury Branded Paper Bags",
+    desc: "Premium branded paper bags with custom colors, structured gussets, refined handle details and foil-stamped logos for luxury retail and gifting.",
+    href: "/rfq/?product=Luxury%20Branded%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
     linkText: "Request This Bag Style →",
   },
   {
-    img: "/img/paper-bags-soriva-burgundy-pair.webp",
-    alt: "SORIVA burgundy luxury paper shopping bags with ribbon loop handles",
-    title: "Burgundy Ribbon Handle Shopping Bags",
-    desc: "Deep burgundy paper bags with elegant ribbon loop handles and a refined branded presentation for boutiques, gifting and premium retail.",
-    href: "/rfq/?product=Burgundy%20Ribbon%20Handle%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    img: "/img/paper-bags-category-boutique.webp",
+    alt: "Boutique shopping bag in warm ivory paper with ribbon handles and gold logo",
+    title: "02. Boutique Shopping Bags",
+    desc: "Elegant boutique carrier bags for jewelry, beauty, fashion and specialty retail, customized with brand colors, paper stocks and handle options.",
+    href: "/rfq/?product=Boutique%20Shopping%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
     linkText: "Request This Bag Style →",
   },
   {
-    img: "/img/paper-bags-soriva-burgundy-ribbon-pair.webp",
-    alt: "SORIVA premium burgundy paper carrier bags with satin ribbon handles",
-    title: "Premium Burgundy Paper Carrier Bags",
-    desc: "A two-bag presentation showing coordinated proportions, structured gussets and satin ribbon handle options for custom retail packaging.",
-    href: "/rfq/?product=Premium%20Burgundy%20Paper%20Carrier%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    img: "/img/paper-bags-category-rope-handle.webp",
+    alt: "Black luxury paper shopping bags with cotton rope handles",
+    title: "03. Rope Handle Paper Bags",
+    desc: "Durable cotton rope handle bags with reinforced attachment points, suitable for premium boutiques, apparel and corporate gifting.",
+    href: "/rfq/?product=Rope%20Handle%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-kraft.webp",
+    alt: "Custom kraft paper shopping bags in multiple sizes with printed logos",
+    title: "04. Kraft Paper Bags",
+    desc: "Natural kraft paper shopping bags with customizable sizes, gussets, paper handles and printed branding for retail and takeaway packaging.",
+    href: "/rfq/?product=Kraft%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-ribbon-handle.webp",
+    alt: "Colorful premium paper shopping bags with satin ribbon handles",
+    title: "05. Ribbon Handle Paper Bags",
+    desc: "Luxury shopping bags finished with satin or grosgrain ribbon handles, ideal for beauty, fashion, fragrance and gift collections.",
+    href: "/rfq/?product=Ribbon%20Handle%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-custom-printed.webp",
+    alt: "Black custom printed paper shopping bag with premium decorative print",
+    title: "06. Custom Printed Paper Bags",
+    desc: "Custom printed carrier bags with CMYK or Pantone artwork, logo placement and optional foil, embossing, debossing and surface coatings.",
+    href: "/rfq/?product=Custom%20Printed%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
     linkText: "Request This Bag Style →",
   },
 ];
@@ -707,18 +731,18 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* NEW: Real Custom Paper Bag Samples (Visual Trust Module A) */}
+      {/* NEW: Explore 6 Types of Custom Paper Shopping Bags (Visual Trust Module A) */}
       <section className="mrb-section soft" id="samples">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">REAL SAMPLE SHOWCASE</span>
+            <span className="eyebrow dark">6 PAPER BAG CATEGORIES</span>
             <h2>Real Custom Paper Bag Samples</h2>
             <p>
               Explore real paper bag samples developed for different brand styles, sizes, handle
               structures and presentation requirements.
             </p>
           </div>
-          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
             {sampleShowcase.map((s) => (
               <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
                 <img
