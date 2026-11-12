@@ -12,19 +12,19 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    absolute: "Luxury Paper Shopping Bags Manufacturer | SORIVA",
   },
   description:
-    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
+    "Custom luxury paper shopping bags with logo for fashion, beauty and retail brands. Choose paper, GSM, handles and premium finishes. Wholesale and OEM orders.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    title: "Luxury Paper Shopping Bags Manufacturer | SORIVA",
     description:
-      "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
+      "Wholesale custom paper shopping bags with logo, tailored sizes, paper options, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -440,9 +440,9 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      name: "Custom Luxury Paper Bag Manufacturing",
+      name: "Luxury Paper Shopping Bag Manufacturing",
       description:
-        "OEM/ODM custom luxury paper bag manufacturing and supply for cosmetics, perfume, jewelry, fashion, corporate gift and retail brands.",
+        "OEM/ODM custom luxury paper shopping bag manufacturing for cosmetics, perfume, fashion, corporate gifting and retail brands.",
       url: PAGE_URL,
       serviceType: "Custom Paper Bag Manufacturing",
       provider: {
@@ -514,11 +514,11 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Luxury Paper Bag Manufacturer for Custom Printed Bags</h1>
+              <h1>Luxury Paper Shopping Bags Manufacturer for Custom Branded Retail Bags</h1>
               <p className="mrb-lead">
-                Source custom printed luxury paper bags with logo for beauty, fashion, jewelry and premium retail.
-                Choose tailored sizes, specialty or textured papers, ribbon or rope handles, foil, embossing and
-                coordinated finishes, with sampling support and MOQ from 100 pcs for selected projects.
+                Source custom paper shopping bags with logo for beauty, fashion and premium retail brands.
+                Customize bag dimensions, paper stocks, GSM, ribbon or rope handles, printing and premium finishes.
+                Sampling and wholesale quotations are available for selected projects.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
@@ -547,7 +547,7 @@ export default function LuxuryPaperBagsPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/paper-bags.webp"
-                alt="Custom luxury paper shopping bags with handles and gold foil finishing"
+                alt="Luxury custom paper shopping bags with ribbon handles and gold foil logo"
                 width="1200"
                 height="900"
                 fetchPriority="high"
