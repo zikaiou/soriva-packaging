@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 
 const PRODUCT_MESSAGES: Record<string, string> = {
@@ -41,12 +40,11 @@ function messageForLocation(pathname: string, search: string) {
 
 
 export default function WhatsAppFloat() {
-  const pathname = usePathname();
   const [message, setMessage] = useState(WA_MESSAGES.home);
 
   useEffect(() => {
-    setMessage(messageForLocation(pathname || "/", window.location.search));
-  }, [pathname]);
+    setMessage(messageForLocation(window.location.pathname, window.location.search));
+  }, []);
 
   return (
     <a
