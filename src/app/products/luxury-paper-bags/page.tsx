@@ -79,52 +79,42 @@ const bagStyles = [
   {
     title: "Vertical Paper Shopping Bags",
     desc: "Tall custom paper shopping bags for perfume, wine, cosmetics and slender retail products. Available with tailored gusset depth, reinforced bases and premium handles.",
-    keyword: "vertical paper shopping bags",
   },
   {
     title: "Horizontal Paper Shopping Bags",
     desc: "Wide-format paper carrier bags designed for apparel, shoe boxes, fashion accessories and luxury gift sets.",
-    keyword: "horizontal paper shopping bags",
   },
   {
     title: "Ribbon Handle Paper Bags",
     desc: "Luxury paper bags finished with satin or grosgrain ribbon handles for jewelry, beauty, fragrance and boutique gifting.",
-    keyword: "ribbon handle paper bags",
   },
   {
     title: "Cotton Rope Handle Paper Bags",
     desc: "Premium retail shopping bags with cotton rope handles, suitable for fashion boutiques, corporate gifts and heavier packaged products.",
-    keyword: "cotton rope handle paper bags",
   },
   {
     title: "Twisted Paper Handle Bags",
     desc: "Classic twisted-handle shopping bags for retail stores, events and everyday branded packaging, with custom paper and print options.",
-    keyword: "twisted paper handle bags",
   },
   {
     title: "Die-Cut Handle Paper Bags",
     desc: "Minimal paper shopping bags with integrated die-cut handles for lightweight retail items, promotional kits and compact gift packaging.",
-    keyword: "die cut handle paper bags",
   },
   {
     title: "Kraft Paper Shopping Bags",
     desc: "Natural brown or white kraft paper bags for retail, takeaway gifting and brands seeking a simple paper-forward presentation.",
-    keyword: "kraft paper shopping bags",
   },
   {
     title: "Matte Laminated Paper Bags",
     desc: "Custom printed shopping bags with a smooth matte surface for refined color presentation and everyday retail handling.",
-    keyword: "matte laminated paper bags",
   },
   {
     title: "Textured Specialty Paper Bags",
     desc: "Luxury carrier bags made with selected textured or specialty papers to create a distinctive tactile brand experience.",
-    keyword: "textured luxury paper bags",
   },
   {
     title: "Custom Printed Paper Gift Bags",
     desc: "Branded paper gift bags with custom artwork, foil stamping, embossing and coordinated colors for launches, events and premium gifting.",
-    keyword: "custom printed paper gift bags",
   },
 ];
 
@@ -800,9 +790,6 @@ export default function LuxuryPaperBagsPage() {
                 <strong>{String(idx + 1).padStart(2, "0")}</strong>
                 <h3>{style.title}</h3>
                 <p>{style.desc}</p>
-                <p style={{ marginTop: 12, fontSize: 11, color: "#8a744f", letterSpacing: "0.02em" }}>
-                  Search focus: {style.keyword}
-                </p>
                 <p style={{ marginTop: 10 }}>
                   <a
                     href={`/rfq/?product=${encodeURIComponent(style.title)}&source_page=%2Fproducts%2Fluxury-paper-bags%2F`}
