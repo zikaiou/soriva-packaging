@@ -12,10 +12,10 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Shopping Bags Manufacturer | SORIVA",
+    absolute: "Custom Paper Bags Manufacturer | Wholesale & OEM | SORIVA",
   },
   description:
-    "Custom luxury paper shopping bags with logo for fashion, beauty and retail brands. Choose paper, GSM, handles and premium finishes. Wholesale and OEM orders.",
+    "Custom paper bags for retail brands, wholesalers and importers. Competitive supply-chain pricing, flexible paper and handle options, custom printing and OEM/ODM support. Request a quotation.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Luxury Paper Shopping Bags Manufacturer | SORIVA",
     description:
-      "Wholesale custom paper shopping bags with logo, tailored sizes, paper options, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
+      "Custom paper shopping bags with competitive supply-chain pricing, tailored sizes, paper options, ribbon or rope handles and printing for retail brands, wholesalers and importers.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -476,9 +476,9 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      name: "Luxury Paper Shopping Bag Manufacturing",
+      name: "Custom Paper Bag Manufacturing",
       description:
-        "OEM/ODM custom luxury paper shopping bag manufacturing for cosmetics, perfume, fashion, corporate gifting and retail brands.",
+        "Custom paper bag sourcing and OEM/ODM production for retail brands, wholesalers, importers, cosmetics, fashion, gifting and everyday shopping applications, with competitive supply-chain pricing.",
       url: PAGE_URL,
       serviceType: "Custom Paper Bag Manufacturing",
       provider: {
@@ -514,7 +514,7 @@ const structuredData = {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Luxury Paper Bags",
+          name: "Custom Paper Bags",
           item: PAGE_URL,
         },
       ],
@@ -536,7 +536,7 @@ export default function LuxuryPaperBagsPage() {
       <section className="mrb-section soft" style={{ paddingTop: 28, paddingBottom: 28 }}>
         <div className="container">
           <div className="mrb-note" style={{ margin: 0 }}>
-            <b>Beauty & Cosmetic Brands:</b> Read our <a href={buyerGuideLink.href}>{buyerGuideLink.title}</a> for materials, GSM, handles, finishes and MOQ planning.
+            <b>For Retail Brands, Wholesalers & Importers:</b> Compare paper bag styles, materials, handle options and printing finishes. Ask us for cost-effective specifications and a competitive quotation.
           </div>
         </div>
       </section>
@@ -549,19 +549,17 @@ export default function LuxuryPaperBagsPage() {
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
-              <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Luxury Paper Shopping Bags Manufacturer for Custom Branded Retail Bags</h1>
+              <span className="mrb-eyebrow">CUSTOM PAPER BAGS · COMPETITIVE SOURCING</span>
+              <h1>Custom Paper Bags Manufacturer for Retail, Wholesale &amp; Brand Packaging</h1>
               <p className="mrb-lead">
-                Source custom paper shopping bags with logo for beauty, fashion and premium retail brands.
-                Customize bag dimensions, paper stocks, GSM, ribbon or rope handles, printing and premium finishes.
-                Sampling and wholesale quotations are available for selected projects.
+                Source custom paper shopping bags for retail brands, wholesalers and importers. Our established supply chain helps us offer competitive pricing across different paper stocks, bag structures and handle options. Customize sizes, printing and finishes to balance cost, appearance and performance.
               </p>
               <div className="mrb-tags">
-                <span>MOQ From 100 pcs</span>
+                <span>Competitive Supply-Chain Pricing</span>
                 <span>Custom Size &amp; GSM</span>
                 <span>CMYK &amp; Pantone Matching</span>
                 <span>Foil / Emboss / Spot UV</span>
-                <span>Worldwide Shipping</span>
+                <span>OEM / ODM &amp; Wholesale</span>
               </div>
               <div className="mrb-hero-actions">
                 <a href={RFQ_URL} className="btn gold">
