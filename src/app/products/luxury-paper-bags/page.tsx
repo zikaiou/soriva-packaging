@@ -12,19 +12,19 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    absolute: "Custom Paper Bags Manufacturer | Wholesale & OEM | SORIVA",
   },
   description:
-    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
+    "Custom paper bags for retail brands, wholesalers and importers. Competitive supply-chain pricing, flexible paper and handle options, custom printing and OEM/ODM support. Request a quotation.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    title: "Luxury Paper Shopping Bags Manufacturer | SORIVA",
     description:
-      "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
+      "Custom paper shopping bags with competitive supply-chain pricing, tailored sizes, paper options, ribbon or rope handles and printing for retail brands, wholesalers and importers.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -77,59 +77,95 @@ const customizationPillars = [
 
 const bagStyles = [
   {
-    title: "Vertical Paper Bags",
-    desc: "Tall vertical proportions ideal for wine, fragrance bottles, cosmetics, jewelry boxes and slender luxury items.",
+    title: "Vertical Paper Shopping Bags",
+    desc: "Tall custom paper shopping bags for perfume, wine, cosmetics and slender retail products. Available with tailored gusset depth, reinforced bases and premium handles.",
   },
   {
-    title: "Horizontal Paper Bags",
-    desc: "Wide-format landscape orientation designed for apparel, shoe boxes, fashion accessories and luxury gift hampers.",
+    title: "Horizontal Paper Shopping Bags",
+    desc: "Wide-format paper carrier bags designed for apparel, shoe boxes, fashion accessories and luxury gift sets.",
   },
   {
-    title: "Luxury Shopping Bags",
-    desc: "Boutique shopping bags with reinforced top turn-overs and bottom inserts selected according to bag size, product load and presentation requirements.",
+    title: "Ribbon Handle Paper Bags",
+    desc: "Luxury paper bags finished with satin or grosgrain ribbon handles for jewelry, beauty, fragrance and boutique gifting.",
   },
   {
-    title: "Gift & Presentation Bags",
-    desc: "Refined presentation bags featuring ribbon bow closures, custom tissue lining and delicate tactile finishes.",
+    title: "Cotton Rope Handle Paper Bags",
+    desc: "Premium retail shopping bags with cotton rope handles, suitable for fashion boutiques, corporate gifts and heavier packaged products.",
   },
   {
-    title: "Die-Cut Handle Bags",
-    desc: "Integrated die-cut oval handles offering a sleek, minimalist aesthetic without external cords.",
+    title: "Twisted Paper Handle Bags",
+    desc: "Classic twisted-handle shopping bags for retail stores, events and everyday branded packaging, with custom paper and print options.",
   },
   {
-    title: "Rope Handle Bags",
-    desc: "Cotton, paper or synthetic rope handles can be selected according to appearance, bag size and project requirements.",
+    title: "Die-Cut Handle Paper Bags",
+    desc: "Minimal paper shopping bags with integrated die-cut handles for lightweight retail items, promotional kits and compact gift packaging.",
   },
   {
-    title: "Twisted Handle Bags",
-    desc: "Modern twisted paper handle bags suitable for upscale eco-conscious retail and department store packaging.",
+    title: "Kraft Paper Shopping Bags",
+    desc: "Natural brown or white kraft paper bags for retail, takeaway gifting and brands seeking a simple paper-forward presentation.",
+  },
+  {
+    title: "Matte Laminated Paper Bags",
+    desc: "Custom printed shopping bags with a smooth matte surface for refined color presentation and everyday retail handling.",
+  },
+  {
+    title: "Textured Specialty Paper Bags",
+    desc: "Luxury carrier bags made with selected textured or specialty papers to create a distinctive tactile brand experience.",
+  },
+  {
+    title: "Custom Printed Paper Gift Bags",
+    desc: "Branded paper gift bags with custom artwork, foil stamping, embossing and coordinated colors for launches, events and premium gifting.",
   },
 ];
 
 const sampleShowcase = [
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
-    alt: "Custom minimal luxury paper bag sample with satin ribbon handles",
-    title: "Minimal Luxury Paper Bags with Ribbon Handles",
-    desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
-    href: "/projects/minimal-luxury-paper-bag-project/",
-    linkText: "View Capability Reference →",
+    img: "/img/paper-bags-category-luxury-branded.webp",
+    alt: "Luxury branded paper shopping bag with custom rope handle and gold foil logo",
+    title: "01. Luxury Branded Paper Bags",
+    desc: "Premium branded paper bags with custom colors, structured gussets, refined handle details and foil-stamped logos for luxury retail and gifting.",
+    href: "/rfq/?product=Luxury%20Branded%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
   },
   {
-    img: "/img/sample-paperbag-coordinated-floral.jpg",
-    alt: "Custom branded paper bag and coordinated packaging set with gold hot stamping",
-    title: "Coordinated Floral Packaging & Shopping Bags",
-    desc: "Full-bleed CMYK pattern printing paired with metallic hot foil stamping and matching gift packaging elements.",
-    href: "/solutions/luxury-paper-bags-for-fashion/",
-    linkText: "Fashion Solutions →",
+    img: "/img/paper-bags-category-boutique.webp",
+    alt: "Boutique shopping bag in warm ivory paper with ribbon handles and gold logo",
+    title: "02. Boutique Shopping Bags",
+    desc: "Elegant boutique carrier bags for jewelry, beauty, fashion and specialty retail, customized with brand colors, paper stocks and handle options.",
+    href: "/rfq/?product=Boutique%20Shopping%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
   },
   {
-    img: "/img/sample-paperbag-matching-set.jpg",
-    alt: "Matching luxury paper bag and rigid gift box packaging suite",
-    title: "Matching Paper Bag & Rigid Box Suite",
-    desc: "Coordinated paper texture, color direction and finishing can be developed across retail carrier bags and rigid presentation boxes.",
-    href: "/projects/coordinated-paper-bag-gift-box-packaging/",
-    linkText: "View Capability Reference →",
+    img: "/img/paper-bags-category-rope-handle.webp",
+    alt: "Black luxury paper shopping bags with cotton rope handles",
+    title: "03. Rope Handle Paper Bags",
+    desc: "Durable cotton rope handle bags with reinforced attachment points, suitable for premium boutiques, apparel and corporate gifting.",
+    href: "/rfq/?product=Rope%20Handle%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-kraft.webp",
+    alt: "Custom kraft paper shopping bags in multiple sizes with printed logos",
+    title: "04. Kraft Paper Bags",
+    desc: "Natural kraft paper shopping bags with customizable sizes, gussets, paper handles and printed branding for retail and takeaway packaging.",
+    href: "/rfq/?product=Kraft%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-ribbon-handle.webp",
+    alt: "Colorful premium paper shopping bags with satin ribbon handles",
+    title: "05. Ribbon Handle Paper Bags",
+    desc: "Luxury shopping bags finished with satin or grosgrain ribbon handles, ideal for beauty, fashion, fragrance and gift collections.",
+    href: "/rfq/?product=Ribbon%20Handle%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
+  },
+  {
+    img: "/img/paper-bags-category-custom-printed.webp",
+    alt: "Black custom printed paper shopping bag with premium decorative print",
+    title: "06. Custom Printed Paper Bags",
+    desc: "Custom printed carrier bags with CMYK or Pantone artwork, logo placement and optional foil, embossing, debossing and surface coatings.",
+    href: "/rfq/?product=Custom%20Printed%20Paper%20Bags&source_page=%2Fproducts%2Fluxury-paper-bags%2F",
+    linkText: "Request This Bag Style →",
   },
 ];
 
@@ -440,9 +476,9 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      name: "Custom Luxury Paper Bag Manufacturing",
+      name: "Custom Paper Bag Manufacturing",
       description:
-        "OEM/ODM custom luxury paper bag manufacturing and supply for cosmetics, perfume, jewelry, fashion, corporate gift and retail brands.",
+        "Custom paper bag sourcing and OEM/ODM production for retail brands, wholesalers, importers, cosmetics, fashion, gifting and everyday shopping applications, with competitive supply-chain pricing.",
       url: PAGE_URL,
       serviceType: "Custom Paper Bag Manufacturing",
       provider: {
@@ -478,7 +514,7 @@ const structuredData = {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Luxury Paper Bags",
+          name: "Custom Paper Bags",
           item: PAGE_URL,
         },
       ],
@@ -500,7 +536,7 @@ export default function LuxuryPaperBagsPage() {
       <section className="mrb-section soft" style={{ paddingTop: 28, paddingBottom: 28 }}>
         <div className="container">
           <div className="mrb-note" style={{ margin: 0 }}>
-            <b>Beauty & Cosmetic Brands:</b> Read our <a href={buyerGuideLink.href}>{buyerGuideLink.title}</a> for materials, GSM, handles, finishes and MOQ planning.
+            <b>For Retail Brands, Wholesalers & Importers:</b> Compare paper bag styles, materials, handle options and printing finishes. Ask us for cost-effective specifications and a competitive quotation.
           </div>
         </div>
       </section>
@@ -513,19 +549,17 @@ export default function LuxuryPaperBagsPage() {
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
-              <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Luxury Paper Bag Manufacturer for Custom Printed Bags</h1>
+              <span className="mrb-eyebrow">CUSTOM PAPER BAGS · COMPETITIVE SOURCING</span>
+              <h1>Custom Paper Bags Manufacturer for Retail, Wholesale &amp; Brand Packaging</h1>
               <p className="mrb-lead">
-                Source custom printed luxury paper bags with logo for beauty, fashion, jewelry and premium retail.
-                Choose tailored sizes, specialty or textured papers, ribbon or rope handles, foil, embossing and
-                coordinated finishes, with sampling support and MOQ from 100 pcs for selected projects.
+                Source custom paper shopping bags for retail brands, wholesalers and importers. Our established supply chain helps us offer competitive pricing across different paper stocks, bag structures and handle options. Customize sizes, printing and finishes to balance cost, appearance and performance.
               </p>
               <div className="mrb-tags">
-                <span>MOQ From 100 pcs</span>
+                <span>Competitive Supply-Chain Pricing</span>
                 <span>Custom Size &amp; GSM</span>
                 <span>CMYK &amp; Pantone Matching</span>
                 <span>Foil / Emboss / Spot UV</span>
-                <span>Worldwide Shipping</span>
+                <span>OEM / ODM &amp; Wholesale</span>
               </div>
               <div className="mrb-hero-actions">
                 <a href={RFQ_URL} className="btn gold">
@@ -547,7 +581,7 @@ export default function LuxuryPaperBagsPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/paper-bags.webp"
-                alt="Custom luxury paper shopping bags with handles and gold foil finishing"
+                alt="Luxury custom paper shopping bags with ribbon handles and gold foil logo"
                 width="1200"
                 height="900"
                 fetchPriority="high"
@@ -695,18 +729,17 @@ export default function LuxuryPaperBagsPage() {
         </div>
       </section>
 
-      {/* NEW: Real Custom Paper Bag Samples (Visual Trust Module A) */}
+      {/* NEW: Explore 6 Types of Custom Paper Shopping Bags (Visual Trust Module A) */}
       <section className="mrb-section soft" id="samples">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">REAL SAMPLE SHOWCASE</span>
-            <h2>Real Custom Paper Bag Samples</h2>
+            <span className="eyebrow dark">6 PAPER BAG CATEGORIES</span>
+            <h2>Explore 6 Types of Custom Paper Shopping Bags</h2>
             <p>
-              Explore real paper bag samples developed for different brand styles, sizes, handle
-              structures and presentation requirements.
+              Browse six custom paper bag styles by construction and handle type. Customize dimensions, paper stock, colors, printing and finishing to fit your retail brand.
             </p>
           </div>
-          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
             {sampleShowcase.map((s) => (
               <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
                 <img
@@ -714,7 +747,7 @@ export default function LuxuryPaperBagsPage() {
                   alt={s.alt}
                   loading="lazy"
                   decoding="async"
-                  style={{ width: "100%", height: 260, objectFit: "cover" }}
+                  style={{ width: "100%", aspectRatio: "4 / 3", height: "auto", objectFit: "cover", display: "block" }}
                 />
                 <div style={{ padding: "18px 20px" }}>
                   <b style={{ fontSize: 18, color: "#111", display: "block", marginBottom: 8 }}>{s.title}</b>
@@ -765,11 +798,11 @@ export default function LuxuryPaperBagsPage() {
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">BAG STYLES</span>
-            <h2>Paper Bag Styles for Different Applications</h2>
+            <span className="eyebrow dark">10 CUSTOM BAG STYLES</span>
+            <h2>Explore 10 Types of Custom Paper Shopping Bags</h2>
             <p>
-              Choose from classic vertical shoppers, wide horizontal carrier bags, die-cut handle
-              styles and bespoke luxury gift bags.
+              Compare popular paper shopping bag styles by shape, handle construction, paper finish
+              and intended use. Each style can be customized with your brand artwork, dimensions and quantity.
             </p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
@@ -778,6 +811,14 @@ export default function LuxuryPaperBagsPage() {
                 <strong>{String(idx + 1).padStart(2, "0")}</strong>
                 <h3>{style.title}</h3>
                 <p>{style.desc}</p>
+                <p style={{ marginTop: 10 }}>
+                  <a
+                    href={`/rfq/?product=${encodeURIComponent(style.title)}&source_page=%2Fproducts%2Fluxury-paper-bags%2F`}
+                    style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}
+                  >
+                    Request This Bag Style →
+                  </a>
+                </p>
               </article>
             ))}
           </div>
