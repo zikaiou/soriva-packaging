@@ -12,10 +12,10 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    absolute: "Luxury Paper Bag Manufacturer | Custom Paper Bags | SORIVA",
   },
   description:
-    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
+    "Factory-direct custom luxury paper bags with logo for retail, beauty and fashion brands. Choose sizes, paper GSM, handles and premium finishes. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
