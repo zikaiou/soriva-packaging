@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Custom Jewelry Boxes Manufacturer | SORIVA Packaging",
     description: "Custom luxury jewelry boxes with tailored structures, inserts, materials and branding for jewelry brands.",
     siteName: "SORIVA Packaging", locale: "en_US",
-    images: [{ url: "https://www.sorivapackaging.com/img/jewelry.webp", width: 1200, height: 900, alt: "Custom luxury jewelry boxes" }],
+    images: [{ url: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp", width: 1200, height: 900, alt: "Custom luxury jewelry boxes" }],
   },
 };
 
@@ -49,7 +49,7 @@ const faqs = [
 const structuredData = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"Product", name:"Custom Jewelry Boxes", image:"https://www.sorivapackaging.com/img/jewelry.webp", description:"Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry sets.", brand:{"@type":"Brand",name:"SORIVA Packaging"}, url:PAGE_URL, additionalProperty:[
+    { "@type":"Product", name:"Custom Jewelry Boxes", image:"https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp", description:"Custom jewelry boxes for rings, necklaces, earrings, bracelets and jewelry sets.", brand:{"@type":"Brand",name:"SORIVA Packaging"}, url:PAGE_URL, additionalProperty:[
       {"@type":"PropertyValue",name:"MOQ",value:"From 100 pcs for selected custom projects"},
       {"@type":"PropertyValue",name:"In-stock option",value:"Portable ring box from 20 pcs"},
       {"@type":"PropertyValue",name:"Customization",value:"Size, structure, inserts, papers and logo finishing"}
@@ -76,7 +76,7 @@ export default function CustomJewelryBoxesPage() {
           <div className="mrb-tags"><span>MOQ From 100 pcs</span><span>Custom Size &amp; Inserts</span><span>Foil / Emboss / Print</span><span>Rigid Box Structures</span><span>Global Shipping</span></div>
           <div className="mrb-hero-actions"><a href="/rfq/" className="btn gold">Request Jewelry Box Quote</a><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
         </div>
-        <div className="mrb-hero-media"><img src="/img/jewelry.webp" alt="Custom luxury jewelry box packaging" width="1200" height="900" /></div>
+        <div className="mrb-hero-media"><img src="/img/soriva-flip-top-jewelry-boxes-hd.webp" alt="Custom luxury jewelry box packaging" width="1200" height="900" /></div>
       </div>
     </div></section>
 

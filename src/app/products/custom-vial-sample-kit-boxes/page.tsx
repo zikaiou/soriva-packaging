@@ -98,7 +98,7 @@ const references = [
     alt: "Insert and lining options for sample kit packaging",
   },
   {
-    img: "/img/perfume.webp",
+    img: "/img/project-perfume.webp",
     type: "INDUSTRY REFERENCE",
     title: "Perfume & Fragrance Packaging",
     alt: "Perfume and fragrance packaging reference",
