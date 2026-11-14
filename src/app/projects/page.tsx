@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.sorivapackaging.com/projects/";
 export const metadata: Metadata = {
   title: "Custom Packaging Projects & Case Studies | SORIVA Packaging",
   description:
-    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes and luxury paper bags.",
+    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes and luxury paper bags.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Packaging Projects | SORIVA Packaging",
     description:
-      "Real packaging projects developed for beauty, fragrance, jewelry, fashion and premium gift brands.",
+      "Real packaging projects developed for beauty, fragrance, fashion and premium gift brands.",
     images: [
       {
         url: "https://www.sorivapackaging.com/img/hero-boxes.webp",
@@ -71,16 +71,16 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-jewelry.webp",
-    alt: "Jewelry two-piece rigid box packaging project reference",
-    slug: "jewelry-two-piece-rigid-box-project",
-    title: "Jewelry Two-Piece Rigid Box Project",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    alt: "Minimal luxury paper bag project with satin ribbon handles",
+    slug: "minimal-luxury-paper-bag-project",
+    title: "Minimal Luxury Paper Bag Project",
     fields: [
-      ["Industry", "Fine Jewelry & Watches"],
-      ["Packaging", "Compact Lid & Base Box"],
-      ["Material", "Rigid Board + Black Paper"],
-      ["Finish", "Gold Foil + Matte Lamination"],
-      ["Insert", "Velvet Insert with Slits"],
+      ["Industry", "Boutique Retail & Cosmetics"],
+      ["Packaging", "Luxury Paper Shopping Bag"],
+      ["Material", "250 GSM Coated Art Paper"],
+      ["Finish", "Soft-Touch Matte + Gold Foil"],
+      ["Handles", "Embedded Satin Ribbon"],
     ],
   },
   {
@@ -184,18 +184,6 @@ const projects = [
       ["Packaging", "Magnetic Rigid Box"],
       ["Finish", "Soft Touch Paper + Gold Foil"],
       ["Insert", "Velvet Insert"],
-    ],
-  },
-  {
-    img: "/img/project-jewelry.webp",
-    alt: "Fine jewelry presentation box project",
-    slug: "fine-jewelry-presentation-box",
-    title: "Fine Jewelry Presentation Box Project",
-    fields: [
-      ["Industry", "Jewelry"],
-      ["Packaging", "Drawer Box"],
-      ["Structure", "Sliding Drawer"],
-      ["Insert", "Velvet + EVA"],
     ],
   },
   {
@@ -308,7 +296,7 @@ export default function Page() {
             <h2>Featured Packaging Projects</h2>
             <p>
               A selection of custom packaging solutions delivered for global
-              beauty, fragrance, jewelry, fashion and gift brands.
+              beauty, fragrance, fashion and gift brands.
             </p>
           </div>
           <div className="mrb-cases">
