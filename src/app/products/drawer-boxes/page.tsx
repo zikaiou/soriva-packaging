@@ -270,7 +270,7 @@ const applications = [
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Reinforced rigid sliding boxes for luxury jar candles, wick trimmers and diffuser sets.",
     href: "/industries/candle-packaging/",

@@ -319,7 +319,7 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
     title: "Jewelry & Watches",
     desc: "Sturdy small-format bags with ribbon closures designed to accompany fine jewelry presentation boxes.",
     href: "/industries/jewelry-packaging/",
