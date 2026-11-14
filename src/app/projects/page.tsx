@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/project-perfume.webp?v=20261114",
     alt: "Cylindrical perfume tube packaging project reference",
     slug: "cylindrical-perfume-tube-packaging-project",
     title: "Cylindrical Perfume Tube Packaging Project",
@@ -45,7 +45,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/tube-packaging.webp",
+    img: "/img/tube-packaging.webp?v=20261114",
     alt: "Luxury cylindrical tube gift packaging project reference",
     slug: "luxury-tube-gift-packaging-project",
     title: "Luxury Tube Gift Packaging Project",
@@ -58,7 +58,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid.webp?v=20261114",
     alt: "Premium two-piece rigid gift box project reference",
     slug: "premium-two-piece-gift-box-project",
     title: "Premium Two-Piece Gift Box Project",
@@ -84,7 +84,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/foldable-rigid.webp",
+    img: "/img/foldable-rigid.webp?v=20261114",
     alt: "Foldable magnetic gift box project reference",
     slug: "foldable-magnetic-gift-box-project",
     title: "Foldable Magnetic Gift Box Project",
@@ -97,7 +97,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/project-gift-clean.webp?v=20261114",
     alt: "Flat-pack corporate gift box project reference",
     slug: "flat-pack-corporate-gift-box-project",
     title: "Flat-Pack Corporate Gift Box Project",
@@ -110,7 +110,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/magnetic-rigid.webp",
+    img: "/img/magnetic-rigid.webp?v=20261114",
     alt: "Premium magnetic gift box project reference",
     slug: "premium-magnetic-gift-box-project",
     title: "Premium Magnetic Gift Box Project",
@@ -123,7 +123,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/project-skincare.webp?v=20261114",
     alt: "Cosmetic magnetic gift packaging project reference",
     slug: "cosmetic-magnetic-packaging-project",
     title: "Cosmetic Magnetic Packaging Project",
@@ -162,7 +162,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/project-skincare.webp?v=20261114",
     alt: "Luxury skincare gift box project",
     slug: "luxury-skincare-gift-box",
     title: "Luxury Skincare Gift Box Project",
@@ -175,7 +175,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/project-perfume.webp?v=20261114",
     alt: "Premium perfume packaging project",
     slug: "premium-perfume-packaging",
     title: "Premium Perfume Packaging Project",
@@ -187,7 +187,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/project-gift-clean.webp?v=20261114",
     alt: "Corporate luxury gift box project",
     slug: "corporate-luxury-gift-box",
     title: "Corporate Luxury Gift Box Project",
