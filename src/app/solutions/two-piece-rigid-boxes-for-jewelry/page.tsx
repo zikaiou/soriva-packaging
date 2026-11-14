@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/jewelry.webp",
+        url: "https://www.sorivapackaging.com/img/project-jewelry.webp",
         width: 1200,
         height: 900,
         alt: "Custom two-piece rigid boxes for jewelry and luxury accessories",
@@ -99,7 +99,7 @@ const samples = [
     desc: "Rigid lid-and-base presentation box with custom velvet-lined insert and metallic gold foil.",
   },
   {
-    img: "/img/jewelry.webp",
+    img: "/img/project-jewelry.webp",
     title: "Luxury Ring & Pendant Case",
     desc: "Classic two-piece rigid box with textured specialty paper wrap and precision ring slot cutouts.",
   },
@@ -208,7 +208,7 @@ export default function TwoPieceJewelryBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/jewelry.webp"
+                src="/img/project-jewelry.webp"
                 alt="Custom two-piece rigid boxes for jewelry and luxury accessories"
                 width="1200"
                 height="900"
@@ -363,7 +363,7 @@ export default function TwoPieceJewelryBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/jewelry.webp"
+              src="/img/project-jewelry.webp"
               alt="Jewelry presentation packaging solutions"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
