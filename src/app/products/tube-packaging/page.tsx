@@ -88,7 +88,7 @@ const applications = [
     desc: "Premium cylindrical fragrance presentation.",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candles",
     desc: "Decorative and protective candle packaging.",
   },

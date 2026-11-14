@@ -51,42 +51,42 @@ const products = [
 
 const industries = [
   {
-    img: "/img/v18-cosmetics.webp",
+    img: "/img/project-skincare.webp",
     alt: "Cosmetics and skincare packaging",
     title: "Cosmetics & Skincare",
     desc: "Refined gift boxes for serums, creams and skincare kits.",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/v18-perfume.webp",
+    img: "/img/project-perfume.webp",
     alt: "Perfume and fragrance packaging",
     title: "Perfume & Fragrance",
     desc: "Presentation boxes with inserts for bottles and fragrance sets.",
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/v18-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     alt: "Black flip-top jewelry presentation box with necklace and gold branding, design visualization",
     title: "Jewelry & Watches",
     desc: "Compact rigid structures for rings, necklaces and premium accessories.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/v20-jar-candles.webp",
+    img: "/img/project-candle-clean.webp",
     alt: "Candle gift packaging",
     title: "Candles",
     desc: "Protective box formats for candle jars and luxury home fragrance.",
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
     alt: "Fashion and apparel packaging",
     title: "Fashion & Apparel",
     desc: "Premium boxes and bags for garments, scarves and retail presentation.",
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/v18-corporate.webp",
+    img: "/img/project-pr-clean.webp",
     alt: "Corporate gift packaging",
     title: "Corporate Gifts",
     desc: "Gift set packaging for campaigns, events and executive presents.",
@@ -135,9 +135,9 @@ const factoryPoints = [
 const projects = [
   { img: "/img/project-skincare.webp", alt: "Skincare gift box", title: "Skincare Gift Box", desc: "Magnetic rigid structure · premium insert" },
   { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", desc: "Rigid presentation box · foil detailing" },
-  { img: "/img/project-jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Presentation", desc: "Premium insert · compact rigid structure" },
-  { img: "/img/v20-jar-candles.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
-  { img: "/img/v18-corporate.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
+  { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", alt: "Jewelry packaging", title: "Jewelry Presentation", desc: "Premium insert · compact rigid structure" },
+  { img: "/img/project-candle-clean.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
+  { img: "/img/project-pr-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
   { img: "/img/project-pr-clean.webp", alt: "PR packaging box", title: "PR / Influencer Box", desc: "Custom structure · campaign packaging" },
 ];
 

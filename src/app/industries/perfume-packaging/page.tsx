@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/v18-perfume.webp",
+        url: "https://www.sorivapackaging.com/img/project-perfume.webp",
         width: 1200,
         height: 630,
         alt: "Custom luxury perfume packaging boxes",
@@ -250,7 +250,7 @@ const structuredData = {
     {
       "@type": "Product",
       name: "Custom Luxury Perfume Packaging Boxes",
-      image: "https://www.sorivapackaging.com/img/v18-perfume.webp",
+      image: "https://www.sorivapackaging.com/img/project-perfume.webp",
       description:
         "Custom perfume packaging and luxury perfume boxes with tailored rigid structures, inserts, premium papers, printing and finishing. OEM/ODM support for fragrance brands.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
@@ -357,7 +357,7 @@ export default function PerfumePackagingPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/v18-perfume.webp"
+                src="/img/project-perfume.webp"
                 alt="Luxury perfume presentation packaging with custom branding"
                 width="572"
                 height="526"

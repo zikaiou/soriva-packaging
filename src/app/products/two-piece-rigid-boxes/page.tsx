@@ -120,7 +120,7 @@ const details = [
   { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
-  { img: "/img/project-jewelry.webp", caption: "Jewelry Packaging", href: "/solutions/two-piece-rigid-boxes-for-jewelry/" },
+  { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", caption: "Jewelry Packaging", href: "/solutions/two-piece-rigid-boxes-for-jewelry/" },
   { img: "/img/project-perfume.webp", caption: "Perfume Packaging", href: "/solutions/two-piece-rigid-boxes-for-perfume/" },
 ];
 
@@ -132,7 +132,7 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces, watches and fine accessories.",
     href: "/industries/jewelry-packaging/",
@@ -150,13 +150,13 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Jar candles, diffuser sets and scented home gifts.",
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
     title: "Fashion & Apparel Gifting",
     desc: "Scarves, belts and boutique retail presentation.",
     href: "/industries/fashion-packaging/",

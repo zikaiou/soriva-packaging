@@ -159,19 +159,19 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Luxury jar candles, diffusers and scented gift collections.",
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces, watches and fine jewelry.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
     title: "Fashion & Accessories",
     desc: "Belts, wallets, silk scarves and sunglasses.",
     href: "/industries/fashion-packaging/",

@@ -107,7 +107,7 @@ const recommendedStructures = [
     slug: "flip-top-jewelry-boxes",
   },
   {
-    img: "/img/v18-paper-bags.webp",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
     alt: "Luxury paper bag for jewelry retail",
     title: "Matching Paper Bags",
     desc: "Coordinated luxury boutique paper shopping bags with ribbon handles to complete your retail packaging suite.",

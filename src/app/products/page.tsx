@@ -84,7 +84,7 @@ const products = [
     buyerNote: "Branded retail bags with custom paper, handles, printing and coordinated finishing.",
   },
   {
-    img: "/img/v18-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     alt: "Luxury flip-top jewelry presentation box with necklace, design visualization",
     title: "Jewelry Packaging",
     slug: "custom-jewelry-boxes",
@@ -96,7 +96,7 @@ const featuredStyles = [
   { img: "/img/magnetic-rigid.webp", alt: "Magnetic closure rigid gift box", title: "Magnetic Boxes", href: "/products/magnetic-rigid-boxes/", detail: "Custom magnetic closure boxes for premium gifting and retail." },
   { img: "/img/two-piece-rigid.webp", alt: "Lid and base rigid gift box", title: "Lid & Base Boxes", href: "/products/two-piece-rigid-boxes/", detail: "Classic two-piece rigid boxes with separate lids and bases." },
   { img: "/img/drawer-box.webp", alt: "Sliding drawer style rigid gift box", title: "Drawer Boxes", href: "/products/drawer-boxes/", detail: "Sliding sleeve-and-tray packaging with optional ribbon pulls." },
-  { img: "/img/v18-jewelry.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
+  { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", alt: "Jewelry presentation box", title: "Jewelry Boxes", href: "/products/custom-jewelry-boxes/", detail: "Custom ring, necklace and jewelry gift packaging with inserts." },
   { img: "/img/soriva-paper-bags-concept.webp", alt: "Custom luxury paper shopping bags", title: "Paper Bags", href: "/products/luxury-paper-bags/", detail: "Branded paper shopping bags with custom handles and finishes." },
   { img: "/img/soriva-tube-packaging-concept.webp", alt: "Custom cylindrical paper tube packaging", title: "Tube Packaging", href: "/products/tube-packaging/", detail: "Paper tube boxes for fragrance, candles and specialty gifts." },
 ];
@@ -147,32 +147,32 @@ const comparison = [
 
 const industries = [
   {
-    img: "/img/v18-cosmetics.webp",
+    img: "/img/project-skincare.webp",
     title: "Cosmetics Packaging",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/v18-perfume.webp",
+    img: "/img/project-perfume.webp",
     title: "Perfume Packaging",
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/v18-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Jewelry Packaging",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
     title: "Fashion Packaging",
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/v18-corporate.webp",
+    img: "/img/project-pr-clean.webp",
     title: "Corporate Gift Packaging",
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/v20-jar-candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle Packaging",
     href: "/industries/candle-packaging/",
   },

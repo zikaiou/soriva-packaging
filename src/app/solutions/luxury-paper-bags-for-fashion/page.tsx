@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/fashion.webp",
+        url: "https://www.sorivapackaging.com/img/sample-paperbag-coordinated-floral.jpg",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for fashion and apparel brands",
@@ -232,7 +232,7 @@ export default function FashionPaperBagsSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/fashion.webp"
+                src="/img/sample-paperbag-coordinated-floral.jpg"
                 alt="Custom luxury paper bags for fashion and apparel brands"
                 width="1200"
                 height="900"

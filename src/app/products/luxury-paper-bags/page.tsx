@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/paper-bags.webp",
+        url: "https://www.sorivapackaging.com/img/sample-paperbag-ribbon-minimal.jpg",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for premium brands",
@@ -319,13 +319,13 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Jewelry & Watches",
     desc: "Sturdy small-format bags with ribbon closures designed to accompany fine jewelry presentation boxes.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg",
     title: "Fashion & Apparel",
     desc: "Large-format branded carrier bags for designer clothing, luxury scarves, footwear and boutique accessories.",
     href: "/industries/fashion-packaging/",
@@ -337,7 +337,7 @@ const applications = [
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Reinforced bottom shopping bags supporting heavy glass jars, home diffusers and holiday sets.",
     href: "/industries/candle-packaging/",
@@ -546,7 +546,7 @@ export default function LuxuryPaperBagsPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/paper-bags.webp"
+                src="/img/sample-paperbag-ribbon-minimal.jpg"
                 alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"

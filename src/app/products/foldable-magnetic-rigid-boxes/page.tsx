@@ -202,7 +202,7 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces and premium accessories.",
     href: "/industries/jewelry-packaging/",

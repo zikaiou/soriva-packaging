@@ -429,7 +429,7 @@ const packagingSolutions = [
     title: "Luxury Paper Bags",
     desc: "Custom boutique paper shopping bags with rope handles.",
     href: "/products/luxury-paper-bags/",
-    img: "/img/paper-bags.webp",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
   },
 ];
 

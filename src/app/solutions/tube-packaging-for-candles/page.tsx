@@ -6,7 +6,7 @@ const page: TubeSolutionData = {
   title: "Tube Packaging for Candles | Custom Luxury Candle Tubes | SORIVA Packaging",
   description: "Custom luxury tube packaging for candles, jar candles, diffusers and home fragrance gifts with tailored cylindrical structure, product fit, paper wraps and premium finishing.",
   eyebrow: "CANDLE & HOME FRAGRANCE TUBE PACKAGING",
-  image: "/img/candles.webp",
+  image: "/img/project-candle-clean.webp",
   imageAlt: "Custom cylindrical tube packaging for candles and home fragrance products",
   message: "Hello SORIVA Packaging, I am interested in custom tube packaging for candles and would like to discuss size, structure, insert, MOQ and pricing.",
   industryHref: "/industries/candle-packaging/",
