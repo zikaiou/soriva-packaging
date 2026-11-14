@@ -135,7 +135,7 @@ const factoryPoints = [
 const projects = [
   { img: "/img/project-skincare.webp", alt: "Skincare gift box", title: "Skincare Gift Box", desc: "Magnetic rigid structure · premium insert" },
   { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", desc: "Rigid presentation box · foil detailing" },
-  { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", alt: "Jewelry packaging", title: "Jewelry Presentation", desc: "Premium insert · compact rigid structure" },
+  { img: "/img/sample-paperbag-coordinated-floral.jpg", alt: "Luxury paper bag packaging project", title: "Luxury Paper Bag Project", desc: "Premium paper finish · custom retail presentation" },
   { img: "/img/project-candle-clean.webp", alt: "Candle gift packaging", title: "Candle Gift Packaging", desc: "Custom insert · textured paper finish" },
   { img: "/img/project-pr-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gift Set", desc: "Multi-product insert · branded presentation" },
   { img: "/img/project-pr-clean.webp", alt: "PR packaging box", title: "PR / Influencer Box", desc: "Custom structure · campaign packaging" },
