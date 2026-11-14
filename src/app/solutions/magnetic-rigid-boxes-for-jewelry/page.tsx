@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/jewelry.webp",
+        url: "https://www.sorivapackaging.com/img/soriva-flip-top-jewelry-boxes-hd.webp",
         width: 1200,
         height: 900,
         alt: "Custom magnetic rigid boxes for jewelry and luxury accessories",
@@ -99,7 +99,7 @@ const samples = [
     desc: "Rigid drawer and magnetic presentation box with custom velvet-lined insert and metallic gold foil.",
   },
   {
-    img: "/img/jewelry.webp",
+    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
     title: "Luxury Ring & Pendant Case",
     desc: "Flap magnetic rigid box with textured specialty paper wrap and precision ring slot cutouts.",
   },
@@ -208,7 +208,7 @@ export default function JewelryMagneticBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/jewelry.webp"
+                src="/img/soriva-flip-top-jewelry-boxes-hd.webp"
                 alt="Custom magnetic rigid boxes for jewelry and luxury accessories"
                 width="1200"
                 height="900"
@@ -363,7 +363,7 @@ export default function JewelryMagneticBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/jewelry.webp"
+              src="/img/soriva-flip-top-jewelry-boxes-hd.webp"
               alt="Jewelry presentation packaging solutions"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
