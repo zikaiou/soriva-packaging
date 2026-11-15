@@ -74,10 +74,10 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
-    title: "Jewelry & Watches",
-    desc: "Rings, necklaces, bracelets, watches and premium accessories.",
-    href: "/industries/jewelry-packaging/",
+    img: "/img/project-gift-clean.webp",
+    title: "Premium Gift Sets",
+    desc: "Custom inserts for curated gift collections and branded presentation sets.",
+    href: "/industries/corporate-gift-packaging/",
   },
   {
     img: "/img/project-candle-clean.webp",
