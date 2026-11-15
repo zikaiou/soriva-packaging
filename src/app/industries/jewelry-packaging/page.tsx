@@ -79,7 +79,7 @@ const recommendedStructures = [
     slug: "drawer-boxes",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     alt: "Two piece rigid jewelry gift box",
     title: "Two-Piece Rigid Boxes",
     desc: "Classic lid-and-base presentation boxes with neck shoulders for heirloom jewelry collections and watches.",
