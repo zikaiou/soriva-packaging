@@ -116,7 +116,7 @@ const structure = [
 ];
 
 const details = [
-  { img: "/img/two-piece-rigid.webp", caption: "Lid & Base Presentation" },
+  { img: "/img/two-piece-rigid-box-correct.png.png", caption: "Black and Gold Lid & Base Presentation" },
   { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
