@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/insert-clean.webp",
+        url: "https://www.sorivapackaging.com/img/two-piece-rigid-box-perfume-application.png",
         width: 1200,
         height: 900,
         alt: "Custom gift box with insert",
@@ -124,7 +124,7 @@ const boxStructures = [
 
 const references = [
   {
-    img: "/img/insert-clean.webp",
+    img: "/img/two-piece-rigid-box-perfume-application.png",
     type: "INSERT REFERENCE",
     title: "Custom Product Insert",
     alt: "Custom product insert for rigid gift box",
@@ -231,7 +231,7 @@ const structuredData = {
       name: "Custom Gift Boxes with Inserts",
       description:
         "Custom rigid gift boxes with EVA, paperboard, molded pulp, foam and fabric-lined inserts for premium product presentation.",
-      image: "https://www.sorivapackaging.com/img/insert-clean.webp",
+      image: "https://www.sorivapackaging.com/img/two-piece-rigid-box-perfume-application.png",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       category: "Custom Luxury Packaging",
     },
@@ -293,7 +293,7 @@ export default function CustomGiftBoxesWithInsertsPage() {
               </div>
             </div>
             <div className="mrb-hero-media">
-              <img src="/img/insert-clean.webp" alt="Custom rigid gift box with insert" loading="eager" />
+              <img src="/img/two-piece-rigid-box-perfume-application.png" alt="Custom rigid presentation gift box with fitted perfume insert" loading="eager" />
             </div>
           </div>
         </div>
