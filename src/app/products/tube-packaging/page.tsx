@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/tube-packaging.webp",
+        url: "https://www.sorivapackaging.com/img/tube-packaging-black-gold-reference.jpg",
         width: 1200,
         height: 900,
         alt: "Custom paper tube packaging",
@@ -78,22 +78,22 @@ const structures = [
 
 const applications = [
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/tube-packaging-application-grid.jpg",
     title: "Cosmetics & Skincare",
     desc: "Bottles, jars, serums and gift sets.",
   },
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/tube-packaging-various-styles-reference.jpg",
     title: "Perfume",
     desc: "Premium cylindrical fragrance presentation.",
   },
   {
-    img: "/img/project-candle-clean.webp",
+    img: "/img/tube-packaging-kraft-closed-end-reference.jpg",
     title: "Candles",
     desc: "Decorative and protective candle packaging.",
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/tube-packaging-kraft-open-end-reference.jpg",
     title: "Tea & Gifts",
     desc: "Distinctive packaging for specialty retail products.",
   },
@@ -285,7 +285,7 @@ export default function TubePackagingPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/tube-packaging.webp"
+                src="/img/tube-packaging-black-gold-reference.jpg"
                 alt="Custom luxury paper tube packaging with branded finishes"
                 width="1200"
                 height="900"
