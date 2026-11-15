@@ -79,7 +79,7 @@ const recommendedStructures = [
     slug: "magnetic-rigid-boxes",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     alt: "Two piece rigid perfume gift box",
     title: "Two-Piece Rigid Boxes",
     desc: "Classic lid-and-base presentation boxes with neck shoulders or full-telescoping lids for perfume sets.",
