@@ -258,7 +258,7 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/drawer-box-ribbon-pull-reference.png",
     title: "Fashion Accessories",
     desc: "Rigid drawer boxes for leather wallets, silk scarves, belts and luxury eyewear.",
     href: "/industries/fashion-packaging/",
