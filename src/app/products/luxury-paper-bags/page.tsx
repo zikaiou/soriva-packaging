@@ -307,13 +307,13 @@ const solutionsList = [
 
 const applications = [
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/showroom-paperbag-assortment.png",
     title: "Cosmetics & Skincare",
     desc: "Boutique retail bags for skincare bottles, makeup collections, beauty sets and launch kits.",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/sample-paperbag-matching-set.jpg",
     title: "Perfume & Fragrance",
     desc: "Elegant retail and gift shopping bags sized for luxury fragrance bottles and sample sets.",
     href: "/industries/perfume-packaging/",
@@ -331,13 +331,13 @@ const applications = [
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/showroom-giftbox-paperbag-variety.png",
     title: "Corporate Gifting & Events",
     desc: "VIP event favor bags, corporate anniversary gifts, press kits and executive launch packaging.",
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/project-candle-clean.webp",
+    img: "/img/showroom-wide-display.png",
     title: "Candle & Home Fragrance",
     desc: "Reinforced bottom shopping bags supporting heavy glass jars, home diffusers and holiday sets.",
     href: "/industries/candle-packaging/",
