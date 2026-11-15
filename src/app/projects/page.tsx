@@ -258,7 +258,7 @@ export default function Page() {
               </p>
               <p className="mrb-lead">
                 Explore our custom packaging projects for beauty, fragrance,
-                jewelry, fashion and premium gift brands.
+                fashion and premium gift brands.
               </p>
               <div className="mrb-hero-actions">
                 <a href="#featured" className="btn gold">
