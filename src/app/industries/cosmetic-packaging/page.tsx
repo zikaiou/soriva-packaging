@@ -74,7 +74,7 @@ const solutions = [
     slug: "drawer-boxes",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     alt: "Two piece rigid box",
     title: "Two-Piece Rigid Boxes",
     slug: "two-piece-rigid-boxes",
