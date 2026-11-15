@@ -6,7 +6,7 @@ const study: CaseStudy = {
   title: "Premium Two-Piece Gift Box Project",
   description:
     "A capability case study of a premium two-piece rigid gift box project featuring separate lid and base construction, gold foil branding and custom velvet EVA insert.",
-  image: "/img/two-piece-rigid.webp",
+  image: "/img/two-piece-rigid-box-correct.png.png",
   imageAlt: "Premium two-piece rigid gift box project reference",
   industry: "Luxury Retail & Gifting",
   structure: "Two-Piece Lid and Base Rigid Box",
