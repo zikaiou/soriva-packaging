@@ -240,7 +240,7 @@ const finishingOptions = [
 
 const applications = [
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/drawer-box-application-grid.png",
     title: "Jewelry & Fine Watches",
     desc: "Sliding presentation boxes for rings, necklaces, bracelets and luxury timepieces.",
     href: "/industries/jewelry-packaging/",
