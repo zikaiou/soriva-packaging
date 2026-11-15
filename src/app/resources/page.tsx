@@ -399,7 +399,7 @@ const packagingSolutions = [
     title: "Magnetic Rigid Boxes",
     desc: "Book-style & front-opening luxury magnetic boxes.",
     href: "/products/magnetic-rigid-boxes/",
-    img: "/img/magnetic-rigid.webp",
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
   },
   {
     title: "Foldable Magnetic Boxes",
@@ -411,25 +411,25 @@ const packagingSolutions = [
     title: "Sliding Drawer Boxes",
     desc: "Matchbox-style slide boxes with satin ribbon pulls.",
     href: "/products/drawer-boxes/",
-    img: "/img/drawer-box.webp",
+    img: "/img/drawer-box-application-grid.png",
   },
   {
     title: "Two-Piece Rigid Boxes",
     desc: "Classic lid-and-base gift packaging boxes.",
     href: "/products/two-piece-rigid-boxes/",
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
   },
   {
     title: "Round Tube Packaging",
     desc: "Rigid cylindrical paperboard canisters and tubes.",
     href: "/products/tube-packaging/",
-    img: "/img/tube-packaging.webp",
+    img: "/img/tube-packaging-application-grid.jpg",
   },
   {
     title: "Luxury Paper Bags",
     desc: "Custom boutique paper shopping bags with rope handles.",
     href: "/products/luxury-paper-bags/",
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/showroom-paperbag-assortment.png",
   },
 ];
 
