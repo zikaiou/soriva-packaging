@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/sample-paperbag-ribbon-minimal.jpg",
+        url: "https://www.sorivapackaging.com/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for premium brands",
@@ -108,7 +108,7 @@ const bagStyles = [
 
 const sampleShowcase = [
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
     alt: "Custom minimal luxury paper bag sample with satin ribbon handles",
     title: "Minimal Luxury Paper Bags with Ribbon Handles",
     desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
@@ -116,7 +116,7 @@ const sampleShowcase = [
     linkText: "View Capability Reference →",
   },
   {
-    img: "/img/sample-paperbag-coordinated-floral.jpg",
+    img: "/img/sample-paperbag-coordinated-floral.jpg?v=20261115",
     alt: "Custom branded paper bag and coordinated packaging set with gold hot stamping",
     title: "Coordinated Floral Packaging & Shopping Bags",
     desc: "Full-bleed CMYK pattern printing paired with metallic hot foil stamping and matching gift packaging elements.",
@@ -124,7 +124,7 @@ const sampleShowcase = [
     linkText: "Fashion Solutions →",
   },
   {
-    img: "/img/sample-paperbag-matching-set.jpg",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     alt: "Matching luxury paper bag and rigid gift box packaging suite",
     title: "Matching Paper Bag & Rigid Box Suite",
     desc: "Coordinated paper texture, color direction and finishing can be developed across retail carrier bags and rigid presentation boxes.",
@@ -135,17 +135,17 @@ const sampleShowcase = [
 
 const showroomImages = [
   {
-    img: "/img/showroom-wide-display.png",
+    img: "/img/showroom-wide-display.png?v=20261115",
     alt: "Custom luxury paper bags and gift boxes displayed in SORIVA packaging showroom",
     caption: "Wide Showroom Display — Comparing structures, dimensions and material options in person.",
   },
   {
-    img: "/img/showroom-paperbag-assortment.png",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     alt: "Assortment of custom paper bags with different handle styles and colors in showroom",
     caption: "Handle & Color Assortment — Cotton ropes, satin ribbons, grosgrain and twisted paper cords.",
   },
   {
-    img: "/img/showroom-giftbox-paperbag-variety.png",
+    img: "/img/showroom-giftbox-paperbag-variety.png?v=20261115",
     alt: "Packaging showroom featuring coordinated rigid boxes and boutique shopping bags",
     caption: "Coordinated Suites — Developing matching retail carrier bags alongside custom rigid gift boxes.",
   },
@@ -307,37 +307,37 @@ const solutionsList = [
 
 const applications = [
   {
-    img: "/img/showroom-paperbag-assortment.png",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     title: "Cosmetics & Skincare",
     desc: "Boutique retail bags for skincare bottles, makeup collections, beauty sets and launch kits.",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/sample-paperbag-matching-set.jpg",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     title: "Perfume & Fragrance",
     desc: "Elegant retail and gift shopping bags sized for luxury fragrance bottles and sample sets.",
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
     title: "Jewelry & Watches",
     desc: "Sturdy small-format bags with ribbon closures designed to accompany fine jewelry presentation boxes.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/sample-paperbag-coordinated-floral.jpg",
+    img: "/img/sample-paperbag-coordinated-floral.jpg?v=20261115",
     title: "Fashion & Apparel",
     desc: "Large-format branded carrier bags for designer clothing, luxury scarves, footwear and boutique accessories.",
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/showroom-giftbox-paperbag-variety.png",
+    img: "/img/showroom-giftbox-paperbag-variety.png?v=20261115",
     title: "Corporate Gifting & Events",
     desc: "VIP event favor bags, corporate anniversary gifts, press kits and executive launch packaging.",
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/showroom-wide-display.png",
+    img: "/img/showroom-wide-display.png?v=20261115",
     title: "Candle & Home Fragrance",
     desc: "Reinforced bottom shopping bags supporting heavy glass jars, home diffusers and holiday sets.",
     href: "/industries/candle-packaging/",
@@ -546,7 +546,7 @@ export default function LuxuryPaperBagsPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/sample-paperbag-ribbon-minimal.jpg"
+                src="/img/sample-paperbag-ribbon-minimal.jpg?v=20261115"
                 alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"
@@ -977,7 +977,7 @@ export default function LuxuryPaperBagsPage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/sample-paperbag-matching-set.jpg"
+              src="/img/showroom-paperbag-assortment.png?v=20261115"
               alt="Coordinated paper bag and gift box packaging set"
               loading="lazy"
               decoding="async"
@@ -1133,7 +1133,7 @@ export default function LuxuryPaperBagsPage() {
               controls
               playsInline
               preload="none"
-              poster="/img/showroom-wide-display.png"
+              poster="/img/showroom-wide-display.png?v=20261115"
               style={{ width: "100%", maxHeight: 480, display: "block" }}
             >
               <source src="/video/showroom-paperbag-tour.mp4" type="video/mp4" />
