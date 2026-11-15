@@ -11,7 +11,7 @@ const page: IndustryLanding = {
   imageAlt: "Black candle jar and fitted two-piece rigid packaging box, design visualization",
   message: "Hello SORIVA Packaging, I am interested in custom candle packaging and would like to discuss structure, size, insert, MOQ and pricing.",
   recommendations: [
-    { img: "/img/two-piece-rigid.webp", alt: "Two-piece rigid candle box", title: "Two-Piece Rigid Boxes", desc: "Classic presentation for candle jars and gift sets.", slug: "two-piece-rigid-boxes" },
+    { img: "/img/two-piece-rigid-box-correct.png.png", alt: "Two-piece rigid candle box", title: "Two-Piece Rigid Boxes", desc: "Classic presentation for candle jars and gift sets.", slug: "two-piece-rigid-boxes" },
     { img: "/img/tube-packaging.webp", alt: "Tube packaging for candles", title: "Tube Packaging", desc: "Distinctive cylindrical formats for candles and home fragrance.", slug: "tube-packaging" },
     { img: "/img/magnetic-rigid.webp", alt: "Magnetic rigid candle box", title: "Magnetic Rigid Boxes", desc: "Premium opening experience for candle collections.", slug: "magnetic-rigid-boxes" },
     { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Luxury paper bag for candles", title: "Luxury Paper Bags", desc: "Retail bags that complete the candle packaging system.", slug: "luxury-paper-bags" },
