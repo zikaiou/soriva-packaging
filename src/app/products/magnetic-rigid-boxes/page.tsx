@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid-box-satin-lining-sample.png",
         width: 1200,
         height: 900,
         alt: "Custom magnetic rigid box",
@@ -318,7 +318,7 @@ export default function MagneticRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/magnetic-rigid.webp"
+                src="/img/magnetic-rigid-box-satin-lining-sample.png"
                 alt="Custom magnetic rigid gift box with luxury finish"
                 width="1200"
                 height="900"
