@@ -165,7 +165,7 @@ const applications = [
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces, watches and fine jewelry.",
     href: "/industries/jewelry-packaging/",
