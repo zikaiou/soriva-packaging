@@ -12,7 +12,7 @@ const page: IndustryLanding = {
   message: "Hello SORIVA Packaging, I am interested in custom fashion packaging and would like to discuss box style, paper bags, MOQ and pricing.",
   recommendations: [
     { img: "/img/foldable-rigid.webp", alt: "Foldable magnetic fashion box", title: "Foldable Magnetic Rigid Boxes", desc: "Space-saving presentation boxes for export and retail programs.", slug: "foldable-magnetic-rigid-boxes" },
-    { img: "/img/two-piece-rigid.webp", alt: "Two-piece fashion box", title: "Two-Piece Rigid Boxes", desc: "Classic packaging for apparel, accessories and gifting.", slug: "two-piece-rigid-boxes" },
+    { img: "/img/two-piece-rigid-box-correct.png.png", alt: "Two-piece fashion box", title: "Two-Piece Rigid Boxes", desc: "Classic packaging for apparel, accessories and gifting.", slug: "two-piece-rigid-boxes" },
     { img: "/img/magnetic-rigid.webp", alt: "Magnetic rigid fashion box", title: "Magnetic Rigid Boxes", desc: "Premium opening experience for fashion collections.", slug: "magnetic-rigid-boxes" },
     { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Luxury fashion paper bag", title: "Luxury Paper Bags", desc: "Branded retail bags for boutiques and premium stores.", slug: "luxury-paper-bags" },
   ],
