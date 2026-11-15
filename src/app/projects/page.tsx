@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    img: "/img/project-perfume.webp?v=20261114",
+    img: "/img/tube-packaging-black-gold-reference.jpg",
     alt: "Cylindrical perfume tube packaging project reference",
     slug: "cylindrical-perfume-tube-packaging-project",
     title: "Cylindrical Perfume Tube Packaging Project",
@@ -45,7 +45,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/tube-packaging.webp?v=20261114",
+    img: "/img/tube-packaging-various-styles-reference.jpg",
     alt: "Luxury cylindrical tube gift packaging project reference",
     slug: "luxury-tube-gift-packaging-project",
     title: "Luxury Tube Gift Packaging Project",
@@ -58,7 +58,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/two-piece-rigid.webp?v=20261114",
+    img: "/img/two-piece-rigid-box-floral-reference.png",
     alt: "Premium two-piece rigid gift box project reference",
     slug: "premium-two-piece-gift-box-project",
     title: "Premium Two-Piece Gift Box Project",
@@ -71,7 +71,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/showroom-paperbag-assortment.png",
     alt: "Minimal luxury paper bag project with satin ribbon handles",
     slug: "minimal-luxury-paper-bag-project",
     title: "Minimal Luxury Paper Bag Project",
@@ -84,7 +84,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/foldable-rigid.webp?v=20261114",
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
     alt: "Foldable magnetic gift box project reference",
     slug: "foldable-magnetic-gift-box-project",
     title: "Foldable Magnetic Gift Box Project",
@@ -97,7 +97,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-gift-clean.webp?v=20261114",
+    img: "/img/two-piece-rigid-box-lid-base-overview.png",
     alt: "Flat-pack corporate gift box project reference",
     slug: "flat-pack-corporate-gift-box-project",
     title: "Flat-Pack Corporate Gift Box Project",
@@ -110,7 +110,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/magnetic-rigid.webp?v=20261114",
+    img: "/img/magnetic-rigid-box-brown-textured-sample.png",
     alt: "Premium magnetic gift box project reference",
     slug: "premium-magnetic-gift-box-project",
     title: "Premium Magnetic Gift Box Project",
@@ -123,7 +123,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp?v=20261114",
+    img: "/img/two-piece-rigid-box-perfume-application.png",
     alt: "Cosmetic magnetic gift packaging project reference",
     slug: "cosmetic-magnetic-packaging-project",
     title: "Cosmetic Magnetic Packaging Project",
@@ -136,7 +136,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/showroom-paperbag-assortment.png",
     alt: "Minimal luxury paper bag project with satin ribbon handles",
     slug: "minimal-luxury-paper-bag-project",
     title: "Minimal Luxury Paper Bag Project",
@@ -162,7 +162,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp?v=20261114",
+    img: "/img/two-piece-rigid-box-perfume-application.png",
     alt: "Luxury skincare gift box project",
     slug: "luxury-skincare-gift-box",
     title: "Luxury Skincare Gift Box Project",
@@ -175,7 +175,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-perfume.webp?v=20261114",
+    img: "/img/tube-packaging-black-gold-reference.jpg",
     alt: "Premium perfume packaging project",
     slug: "premium-perfume-packaging",
     title: "Premium Perfume Packaging Project",
@@ -187,7 +187,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-gift-clean.webp?v=20261114",
+    img: "/img/two-piece-rigid-box-lid-base-overview.png",
     alt: "Corporate luxury gift box project",
     slug: "corporate-luxury-gift-box",
     title: "Corporate Luxury Gift Box Project",
