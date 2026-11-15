@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/two-piece-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/two-piece-rigid-box-correct.png.png",
         width: 1200,
         height: 900,
         alt: "Two piece rigid gift box",
@@ -356,7 +356,7 @@ export default function TwoPieceRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/two-piece-rigid.webp"
+                src="/img/two-piece-rigid-box-correct.png.png"
                 alt="Custom two-piece rigid gift box with lift-off lid"
                 loading="eager"
                 fetchPriority="high"
