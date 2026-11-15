@@ -122,7 +122,7 @@ const structure = [
 ];
 
 const details = [
-  { img: "/img/magnetic-rigid.webp", caption: "Packaging Style Reference: Open Box Presentation" },
+  { img: "/img/magnetic-rigid-box-satin-lining-sample.png", caption: "Packaging Style Reference: Open Magnetic Box Presentation" },
   { img: "/img/foil-clean.webp", caption: "Packaging Style Reference: Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Packaging Style Reference: Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Packaging Style Reference: Custom Product Insert" },
