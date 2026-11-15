@@ -104,7 +104,7 @@ const samples = [
     desc: "Classic two-piece rigid box with textured specialty paper wrap and precision ring slot cutouts.",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     title: "Bespoke Jewelry Suite Box",
     desc: "Two-piece rigid presentation box engineered for complete jewelry collection displays.",
   },
