@@ -11,7 +11,7 @@ const page: IndustryLanding = {
   imageAlt: "Custom corporate gift packaging",
   message: "Hello SORIVA Packaging, I am interested in custom corporate gift packaging and would like to discuss structure, insert, MOQ, timeline and pricing.",
   recommendations: [
-    { img: "/img/two-piece-rigid.webp", alt: "Two-piece corporate gift box", title: "Two-Piece Rigid Boxes", desc: "Classic presentation for executive gift collections.", slug: "two-piece-rigid-boxes" },
+    { img: "/img/two-piece-rigid-box-correct.png.png", alt: "Two-piece corporate gift box", title: "Two-Piece Rigid Boxes", desc: "Classic presentation for executive gift collections.", slug: "two-piece-rigid-boxes" },
     { img: "/img/magnetic-rigid.webp", alt: "Magnetic corporate gift box", title: "Magnetic Rigid Boxes", desc: "Premium opening experience for campaign gift sets.", slug: "magnetic-rigid-boxes" },
     { img: "/img/foldable-rigid.webp", alt: "Foldable corporate gift box", title: "Foldable Magnetic Rigid Boxes", desc: "Efficient storage and shipping for larger programs.", slug: "foldable-magnetic-rigid-boxes" },
     { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Luxury corporate gift paper bag", title: "Luxury Paper Bags", desc: "Matching bags for events, launches and retail gifting.", slug: "luxury-paper-bags" },
