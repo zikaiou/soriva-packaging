@@ -11,17 +11,17 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Rigid Drawer Boxes | OEM Packaging | SORIVA",
+    absolute: "Custom Rigid Drawer Boxes Manufacturer | SORIVA",
   },
   description:
-    "Custom rigid drawer boxes and OEM drawer box packaging for jewelry, cosmetics, perfume and gifts. Customize sizes, sliding trays, inserts and logo finishes. Selected MOQ from 100 pcs.",
+    "Custom rigid drawer boxes with sliding trays, fitted inserts, ribbon pulls and premium logo finishes. OEM packaging for jewelry, cosmetics, perfume and gifts. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Rigid Drawer Boxes | OEM Packaging | SORIVA",
+    title: "Custom Rigid Drawer Boxes Manufacturer | SORIVA",
     description:
       "OEM rigid drawer box packaging for jewelry, cosmetics, perfume and gifts, with custom sliding trays, fitted inserts, ribbon pulls and premium logo finishes.",
     siteName: "SORIVA Packaging",
@@ -505,7 +505,7 @@ export default function DrawerBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/drawer-box.webp"
-                alt="Custom rigid drawer gift box with sliding tray and gold foil branding"
+                alt="Custom rigid drawer box packaging with sliding inner tray and gold foil branding"
                 width="1200"
                 height="900"
                 fetchPriority="high"
