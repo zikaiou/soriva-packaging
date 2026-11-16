@@ -42,7 +42,7 @@ const customizationPillars = [
   {
     num: "01",
     title: "Custom Sizes",
-    desc: "Engineered Length × Width × Height proportions tailored to your product lines, boutique items or gift sets.",
+    desc: "Engineered Width × Gusset × Height (W × G × H) proportions tailored to your product lines, boutique items or gift sets.",
   },
   {
     num: "02",
@@ -170,7 +170,7 @@ const sizeGuide = [
   {
     category: "Custom Proportions",
     dimensions: "Fully Tailored Proportions",
-    idealFor: "Custom length, width and gusset depth engineered around your specific product packaging box sizes.",
+    idealFor: "Custom width, gusset depth and height engineered around your specific product packaging box sizes.",
   },
 ];
 
@@ -313,7 +313,7 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/showroom-paperbag-assortment.png?v=20261115",
+    img: "/img/showroom-wide-display.png?v=20261115",
     title: "Perfume & Fragrance",
     desc: "Elegant retail and gift shopping bags sized for luxury fragrance bottles and sample sets.",
     href: "/industries/perfume-packaging/",
@@ -407,7 +407,7 @@ const faqs = [
   },
   {
     q: "Can I customize the exact paper bag dimensions?",
-    a: "Yes. Length, width, height and gusset depth can be customized according to the product, retail box or gift set. Final dimensions should be confirmed during sampling.",
+    a: "Yes. Width, gusset depth and height can be customized according to the product, retail box or gift set. Final dimensions should be confirmed during sampling.",
   },
   {
     q: "Can you match specific Pantone (PMS) brand colors?",
@@ -618,7 +618,7 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
             <article className="mrb-feature">
               <h3>01 · Size &amp; Intended Load</h3>
-              <p>Share bag dimensions (L × gusset × H), product dimensions, approximate packed weight and how the bag will be carried.</p>
+              <p>Share bag dimensions (W × G × H), product dimensions, approximate packed weight and how the bag will be carried.</p>
             </article>
             <article className="mrb-feature">
               <h3>02 · Material &amp; Handles</h3>
@@ -827,7 +827,7 @@ export default function LuxuryPaperBagsPage() {
             <span className="eyebrow dark">DIMENSION GUIDE</span>
             <h2>Custom Sizes Engineered to Fit Your Products</h2>
             <p>
-              Paper bag dimensions are specified as Length × Width (Gusset) × Height. Below are
+              Paper bag dimensions are specified as Width × Gusset × Height (W × G × H). Below are
               common industry standard reference proportions.
             </p>
           </div>
@@ -836,7 +836,7 @@ export default function LuxuryPaperBagsPage() {
               <thead>
                 <tr>
                   <th>Category</th>
-                  <th>Standard Reference Dimensions (L × W × H)</th>
+                  <th>Standard Reference Dimensions (W × G × H)</th>
                   <th>Typical Industry Applications</th>
                 </tr>
               </thead>
@@ -1322,9 +1322,9 @@ export default function LuxuryPaperBagsPage() {
             <span className="mrb-eyebrow">START A PROJECT</span>
             <h2>Start Your Custom Paper Bag Project</h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
-              Send us your target size, quantity, logo artwork, material preference and destination.
-              Our packaging specialists can help review suitable paper, printing, finishing and
-              handle options for your project.
+              Send us your bag width, gusset, height, quantity, logo artwork, paper preference, handle style,
+              finishing requirements and destination. Our packaging specialists can review suitable
+              materials, printing and construction for your project.
             </p>
             <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
               <li>MOQ from 100 pcs for selected projects</li>
