@@ -12,19 +12,19 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bag Manufacturer | Custom Paper Bags | SORIVA",
+    absolute: "Luxury Paper Bag Manufacturer & Supplier | SORIVA",
   },
   description:
-    "Factory-direct custom luxury paper bags with logo for retail, beauty and fashion brands. Choose sizes, paper GSM, handles and premium finishes. MOQ from 100 pcs.",
+    "SORIVA is a custom paper bag manufacturer and wholesale supplier for luxury retail, beauty and fashion brands. Order custom printed paper bags with logo, tailored sizes, paper GSM, handles and premium finishes. Selected projects start from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    title: "Luxury Paper Bag Manufacturer & Wholesale Supplier | SORIVA",
     description:
-      "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
+      "Custom and wholesale luxury paper bags with logo for beauty, fashion and retail brands. Choose custom sizes, specialty papers, ribbon or rope handles and premium finishes from SORIVA.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -514,11 +514,11 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Luxury Paper Bag Manufacturer for Custom Printed Bags</h1>
+              <h1>Luxury Paper Bag Manufacturer &amp; Wholesale Supplier</h1>
               <p className="mrb-lead">
-                Source custom printed luxury paper bags with logo for beauty, fashion, jewelry and premium retail.
-                Choose tailored sizes, specialty or textured papers, ribbon or rope handles, foil, embossing and
-                coordinated finishes, with sampling support and MOQ from 100 pcs for selected projects.
+                SORIVA is a custom paper bag manufacturer and wholesale supplier for beauty, fashion, jewelry and premium retail brands.
+                Develop custom printed paper bags with your logo, tailored sizes, specialty or textured papers, ribbon or rope handles,
+                foil and embossing, with sampling support and MOQ from 100 pcs for selected projects.
               </p>
               <div className="mrb-tags">
                 <span>MOQ From 100 pcs</span>
