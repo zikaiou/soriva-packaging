@@ -7,6 +7,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL="https://www.sorivapackaging.com/products/portable-ring-box/";
+const RFQ_URL = "/rfq/?product=Portable%20Ring%20Box&source_page=%2Fproducts%2Fportable-ring-box%2F";
 
 export const metadata:Metadata={
   title:{absolute:"Portable Ring Box | PU Leather Travel Ring Case | MOQ 20 | SORIVA"},
@@ -67,7 +68,7 @@ export default function PortableRingBoxPage(){return <main className="mrb-page">
 <h1>Portable Fingertip Ring Box</h1>
 <p className="mrb-lead">Compact PU leather ring case with velvet lining for travel, retail and daily jewelry storage. In stock with a low MOQ from 20 pcs.</p>
 <div className="mrb-tags"><span>In Stock</span><span>MOQ From 20 pcs</span><span>PU Leather + Velvet</span><span>10 × 4.8 × 3.3 cm</span></div>
-<div className="mrb-hero-actions"><a className="btn gold" href="/rfq/">Request Stock Quote</a><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
+<div className="mrb-hero-actions"><a className="btn gold" href={RFQ_URL}>Request Stock Quote</a><a href={waLink(WA_MESSAGES.portableRingBox)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a></div>
 </div>
 <div className="mrb-hero-media"><img src="/img/portable-ring-box-hero.webp" alt="Portable fingertip ring box with velvet lining" width="1200" height="900"/></div>
 </div></div></section>
@@ -110,7 +111,7 @@ export default function PortableRingBoxPage(){return <main className="mrb-page">
 
 <section className="mrb-section soft"><div className="container"><div className="mrb-head center"><span className="eyebrow dark">FAQ</span><h2>Portable Ring Box Questions</h2></div><div className="mrb-faq">{faqs.map(f=><div className="mrb-faq-item" key={f.q}><b>{f.q}</b><p>{f.a}</p></div>)}</div></div></section>
 
-<section className="mrb-quote"><div className="container mrb-quote-grid"><div><span className="mrb-eyebrow">STOCK ORDER</span><h2>Request a Portable Ring Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7}}>Send the quantity, preferred color mix and destination. Stock availability is confirmed before order placement.</p><ul style={{color:"#c5c5c5",lineHeight:2,paddingLeft:18}}><li>MOQ from 20 pcs</li><li>PU leather + velvet lining</li><li>Four stock style options</li><li>Sea, Air &amp; Express shipping available</li></ul></div><QuoteForm/></div></section>
+<section className="mrb-quote"><div className="container mrb-quote-grid"><div><span className="mrb-eyebrow">STOCK ORDER</span><h2>Request a Portable Ring Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7}}>Send the quantity, preferred color mix and destination. Stock availability is confirmed before order placement.</p><ul style={{color:"#c5c5c5",lineHeight:2,paddingLeft:18}}><li>MOQ from 20 pcs</li><li>PU leather + velvet lining</li><li>Four stock style options</li><li>Sea, Air &amp; Express shipping available</li></ul></div><QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.portableRingBox} /></div></section>
 
 <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
 </main>}

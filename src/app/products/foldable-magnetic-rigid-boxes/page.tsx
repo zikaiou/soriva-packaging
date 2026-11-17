@@ -9,6 +9,7 @@ import "../product-page.css";
 
 const PAGE_URL =
   "https://www.sorivapackaging.com/products/foldable-magnetic-rigid-boxes/";
+const RFQ_URL = "/rfq/?product=Foldable%20Magnetic%20Rigid%20Box&source_page=%2Fproducts%2Ffoldable-magnetic-rigid-boxes%2F";
 
 export const metadata: Metadata = {
   title: {
@@ -353,7 +354,7 @@ export default function FoldableMagneticRigidBoxesPage() {
                 <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href={RFQ_URL} className="btn gold">
                   Request Packaging Quote
                 </a>
                 <a
@@ -718,13 +719,13 @@ export default function FoldableMagneticRigidBoxesPage() {
               Explore Custom Packaging System →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.foldable} />
         </div>
       </section>
 
       <section className="mrb-section soft">
         <div className="container">
-          <div className="mrb-head center"><span className="eyebrow dark">FOLDABLE BOX BUYER RESOURCES</span><h2>Prepare a Foldable Magnetic Box RFQ</h2><p>Compare applications, check product dimensions, review insert and finishing options, then send the project requirements for quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK →</a><a className="btn gold" href="/rfq/">Request an RFQ →</a></div></div>
+          <div className="mrb-head center"><span className="eyebrow dark">FOLDABLE BOX BUYER RESOURCES</span><h2>Prepare a Foldable Magnetic Box RFQ</h2><p>Compare applications, check product dimensions, review insert and finishing options, then send the project requirements for quotation.</p><div className="mrb-hero-actions" style={{ justifyContent: "center" }}><a className="btn ghost" href="/industries/perfume-packaging/">Perfume Packaging →</a><a className="btn ghost" href="/industries/cosmetic-packaging/">Cosmetics Packaging →</a><a className="btn ghost" href="/industries/corporate-gift-packaging/">Corporate Gifts →</a><a className="btn ghost" href="/resources/how-to-measure-product-for-custom-box-packaging/">Measurement Guide →</a><a className="btn ghost" href="/resources/packaging-inserts-eva-vs-paperboard-vs-molded-pulp/">Insert Guide →</a><a className="btn ghost" href="/resources/foil-stamping-vs-embossing-vs-spot-uv/">Finishing Guide →</a><a className="btn ghost" href="/resources/pantone-vs-cmyk-custom-packaging/">Pantone vs CMYK →</a><a className="btn gold" href={RFQ_URL}>Request an RFQ →</a></div></div>
         </div>
       </section>
       <ProductCrossLinks industryHref="/industries/cosmetic-packaging/" industryLabel="Cosmetic Packaging" />

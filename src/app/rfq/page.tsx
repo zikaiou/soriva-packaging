@@ -2,7 +2,7 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { waLink } from "../lib/whatsapp";
+import { waLink, WA_MESSAGES } from "../lib/whatsapp";
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
 const MAX_FILES = 5;
@@ -71,10 +71,53 @@ export default function RfqPage() {
   const fileNames = useMemo(() => files.map((file) => file.name).join(", "), [files]);
   const [lastPayload, setLastPayload] = useState<Record<string, unknown> | null>(null);
 
+  const projectDetailsByProduct: Record<string, string> = {
+    "Luxury Paper Bag": "For paper bags, share width × gusset × height, quantity, paper type/GSM, handle style, logo/finishing and destination country.",
+    "Magnetic Rigid Box": "For magnetic rigid boxes, share internal/external L × W × H, product size and weight, insert requirement, paper/finish, quantity and delivery country.",
+    "Foldable Magnetic Rigid Box": "For foldable magnetic boxes, share internal/external L × W × H, product size and weight, flat-pack requirement, insert, corner fixing, quantity and delivery country.",
+    "Drawer Box": "For drawer boxes, share internal/external L × W × H, product size and weight, tray/insert, ribbon or pull-tab style, paper/finish, quantity and delivery country.",
+    "Two-Piece Rigid Box": "For two-piece rigid boxes, share internal/external L × W × H, lid/base or shoulder-neck structure, product size, insert, paper/finish, quantity and delivery country.",
+    "Jewelry Packaging": "For jewelry packaging, share jewelry types, dimensions, box styles and sizes, quantity per style/color, insert requirements, logo/finishing and delivery country.",
+    "Custom Jewelry Box": "For custom jewelry boxes, share jewelry dimensions, preferred box structure, insert material/layout, logo artwork, paper/finish, quantity and delivery country.",
+    "PU Leather Jewelry Box": "For PU leather jewelry boxes, share jewelry type and size, PU color/texture, interior lining, insert layout, logo method, quantity and delivery country. Please specify if you need a stocked or fully customized design.",
+    "Flip-Top Jewelry Box": "For flip-top jewelry boxes, share jewelry dimensions, hinge/opening requirements, insert layout, exterior material, logo/finish, quantity and delivery country.",
+    "Portable Ring Box": "For the in-stock portable ring box, share your preferred colors (jacquard blue, jacquard pink, black or beige), quantity (MOQ from 20 pcs), delivery country and target date. Please confirm current stock availability.",
+  };
+  const projectDetailsPlaceholder = projectDetailsByProduct[packagingType] || "Product, colors, logo position, finish and special requirements.";
+  const whatsappMessageByProduct: Record<string, string> = {
+    "Luxury Paper Bag": WA_MESSAGES.paperBags,
+    "Magnetic Rigid Box": WA_MESSAGES.magnetic,
+    "Foldable Magnetic Rigid Box": WA_MESSAGES.foldable,
+    "Drawer Box": WA_MESSAGES.drawer,
+    "Two-Piece Rigid Box": WA_MESSAGES.twoPiece,
+    "Jewelry Packaging": WA_MESSAGES.jewelry,
+    "Custom Jewelry Box": WA_MESSAGES.customJewelryBoxes,
+    "PU Leather Jewelry Box": WA_MESSAGES.puLeatherJewelry,
+    "Flip-Top Jewelry Box": WA_MESSAGES.flipTopJewelry,
+    "Portable Ring Box": WA_MESSAGES.portableRingBox,
+  };
+  const contextualWhatsAppMessage =
+    whatsappMessageByProduct[packagingType] || WA_MESSAGES.home;
+
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const requestedProduct = params.get("product");
-    if (requestedProduct === "Luxury Paper Bag") setPackagingType(requestedProduct);
+    const supportedProducts = [
+      "Luxury Paper Bag",
+      "Magnetic Rigid Box",
+      "Foldable Magnetic Rigid Box",
+      "Drawer Box",
+      "Two-Piece Rigid Box",
+      "Jewelry Packaging",
+      "Custom Jewelry Box",
+      "PU Leather Jewelry Box",
+      "Flip-Top Jewelry Box",
+      "Portable Ring Box",
+    ];
+    if (requestedProduct && supportedProducts.includes(requestedProduct)) {
+      setPackagingType(requestedProduct);
+    }
   }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
@@ -169,19 +212,19 @@ export default function RfqPage() {
               {Object.entries(fieldLabels).map(([name, label]) => (
                 <label key={name} className={name === "project_details" ? "rfq-field rfq-full" : "rfq-field"}>
                   <span>{label}{["name", "email", "country", "packaging_type", "quantity", "project_details"].includes(name) ? " *" : ""}</span>
-                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder={packagingType === "Luxury Paper Bag" ? "For paper bags, share width × gusset × height, quantity, paper type/GSM, handle style, logo/finishing and destination country." : "Product, colors, logo position, finish and special requirements."} /> : name === "packaging_type" ? <select name={name} required value={packagingType} onChange={(event) => setPackagingType(event.target.value)}><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
+                  {name === "project_details" ? <textarea name={name} required rows={6} placeholder={projectDetailsPlaceholder} /> : name === "packaging_type" ? <select name={name} required value={packagingType} onChange={(event) => setPackagingType(event.target.value)}><option value="">Select</option><option>Magnetic Rigid Box</option><option>Foldable Magnetic Rigid Box</option><option>Drawer Box</option><option>Two-Piece Rigid Box</option><option>Jewelry Packaging</option><option>Custom Jewelry Box</option><option>PU Leather Jewelry Box</option><option>Flip-Top Jewelry Box</option><option>Portable Ring Box</option><option>Tube Packaging</option><option>Luxury Paper Bag</option><option>Not Sure / Need Recommendation</option></select> : name === "quantity" ? <select name={name} required defaultValue=""><option value="">Select</option><option>100–299 pcs</option><option>300–499 pcs</option><option>500–999 pcs</option><option>1,000–4,999 pcs</option><option>5,000+ pcs</option></select> : <input name={name} type={name === "email" ? "email" : name === "target_delivery_date" ? "date" : "text"} required={["name", "email", "country"].includes(name)} placeholder={name.includes("size") ? "L × W × H (mm)" : undefined} />}
                 </label>
               ))}
               <div className="rfq-field rfq-full"><span>Finishing Required</span><div className="rfq-checks">{["Foil Stamping", "Embossing", "Debossing", "Spot UV", "Matte Lamination", "Not Sure"].map((finish) => <label key={finish}><input type="checkbox" name="finish" value={finish} checked={finishes.includes(finish)} onChange={(event) => setFinishes((current) => event.target.checked ? [...current, finish] : current.filter((item) => item !== finish))} /> {finish}</label>)}</div></div>
               <label className="rfq-field rfq-full"><span>Upload Logo / Reference Images</span><input name="files" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" multiple onChange={(event) => { const selected = Array.from(event.target.files || []); const message = validateFiles(selected); setError(message); if (!message) setFiles(selected); }} /><small>{fileNames || "JPG, PNG or PDF. Maximum 10MB per file, up to 5 files."}</small></label>
               <label className="rfq-honeypot" aria-hidden="true">Website<input tabIndex={-1} autoComplete="off" value={website} onChange={(event) => setWebsite(event.target.value)} /></label>
-              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending || backupDelivered}>{sending ? "Sending…" : backupDelivered ? "Inquiry Sent by Email" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink("Hello SORIVA Packaging, I tried submitting an RFQ but the website could not confirm it. Please help me with my custom packaging inquiry.")} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <div className="rfq-status" role="status"><p>{status}</p>{backupDelivered && <p style={{ marginTop: 8 }}>Need to resend reference files? <a href={waLink("Hello SORIVA Packaging, I submitted an RFQ using the backup email delivery and would like to send my attachment files.")} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: 700 }}>Contact us on WhatsApp</a> or <a href="mailto:AMY@XINGYUE.STORE?subject=SORIVA%20RFQ%20Attachments" style={{ textDecoration: "underline", fontWeight: 700 }}>email your files</a>.</p>}</div>}</div>
+              <div className="rfq-full"><button className="rfq-submit" type="submit" disabled={sending || backupDelivered}>{sending ? "Sending…" : backupDelivered ? "Inquiry Sent by Email" : "Submit Quote Request"}</button>{error && <div className="rfq-error" role="alert"><p>{error}</p><p style={{marginTop:8}}>Need help now? <a href={waLink(`Hello SORIVA Packaging, I tried submitting an RFQ for ${packagingType || "custom packaging"}, but the website could not confirm it. Please help me with this inquiry. ${contextualWhatsAppMessage}`)} target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",fontWeight:700}}>Send via WhatsApp</a> or <a href={`mailto:AMY@XINGYUE.STORE?subject=${encodeURIComponent("SORIVA RFQ Form Issue")}&body=${encodeURIComponent(lastPayload ? Object.entries(lastPayload).filter(([k])=>k!=="website").map(([k,v])=>`${k}: ${String(v)}`).join("\\n") : "Hello, I had trouble submitting the RFQ form.")}`} style={{textDecoration:"underline",fontWeight:700}}>send by email</a>. You do not need to re-enter your details.</p></div>}{status && <div className="rfq-status" role="status"><p>{status}</p>{backupDelivered && <p style={{ marginTop: 8 }}>Need to resend reference files? <a href={waLink("Hello SORIVA Packaging, I submitted an RFQ using the backup email delivery and would like to send my attachment files.")} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: 700 }}>Contact us on WhatsApp</a> or <a href="mailto:AMY@XINGYUE.STORE?subject=SORIVA%20RFQ%20Attachments" style={{ textDecoration: "underline", fontWeight: 700 }}>email your files</a>.</p>}</div>}</div>
             </div>
           </form>
         </div>
       </section>
       <section className="rfq-section rfq-soft"><div className="rfq-wrap"><p className="rfq-eyebrow">WHAT HAPPENS NEXT</p><h2>From RFQ to Production</h2><div className="rfq-steps"><div><b>1. Review</b><p>We review size, quantity, structure, material and finishing.</p></div><div><b>2. Quote & Sample</b><p>We prepare the quotation and confirm whether a prototype is needed.</p></div><div><b>3. Production</b><p>After specification approval, the project moves into production and QC.</p></div></div></div></section>
-      <section className="rfq-contact"><div className="rfq-wrap"><h2>Need a Backup Contact Method?</h2><p>If the form or file upload does not work, send your project details and reference files directly by WhatsApp or email.</p><div style={{display:"flex",gap:12,flexWrap:"wrap",justifyContent:"center"}}><a className="btn-wa" href={waLink("Hello SORIVA Packaging, I would like to request a custom packaging quotation.")} target="_blank" rel="noreferrer">Chat on WhatsApp</a><a className="btn gold" href="mailto:AMY@XINGYUE.STORE">Email AMY@XINGYUE.STORE</a></div></div></section>
+      <section className="rfq-contact"><div className="rfq-wrap"><h2>Need a Backup Contact Method?</h2><p>If the form or file upload does not work, send your project details and reference files directly by WhatsApp or email.</p><div style={{display:"flex",gap:12,flexWrap:"wrap",justifyContent:"center"}}><a className="btn-wa" href={waLink(contextualWhatsAppMessage)} target="_blank" rel="noreferrer">Chat on WhatsApp</a><a className="btn gold" href="mailto:AMY@XINGYUE.STORE">Email AMY@XINGYUE.STORE</a></div></div></section>
     </main>
   );
 }

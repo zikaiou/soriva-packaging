@@ -6,6 +6,7 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/flip-top-jewelry-boxes/";
+const RFQ_URL = "/rfq/?product=Flip-Top%20Jewelry%20Box&source_page=%2Fproducts%2Fflip-top-jewelry-boxes%2F";
 export const metadata: Metadata = {
   title: { absolute: "Custom Flip-Top Jewelry Boxes Wholesale | SORIVA Packaging" },
   description: "Custom flip-top jewelry boxes wholesale for rings, earrings and necklaces. Compare hinged lids, velvet inserts, logo finishes and OEM quote requirements.",
@@ -58,8 +59,8 @@ export default function JewelryBoxPage() {
           <p className="mrb-lead">Develop jewelry presentation boxes with a connected lift-open lid for a memorable retail reveal. Choose a suitable hinge or lid construction, fitted insert, exterior paper or wrap and branded finish for your collection.</p>
           <div className="mrb-tags"><span>Connected Lift-Open Lid</span><span>Ring / Earring / Necklace</span><span>Custom Insert Geometry</span><span>Logo & Surface Finishes</span></div>
           <div className="mrb-hero-actions">
-            <a className="btn gold" href="/rfq/">Request Flip-Top Jewelry Box Quote</a>
-            <a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
+            <a className="btn gold" href={RFQ_URL}>Request Flip-Top Jewelry Box Quote</a>
+            <a href={waLink(WA_MESSAGES.flipTopJewelry)} target="_blank" rel="noopener" className="btn-wa"><WhatsAppIcon /> Chat on WhatsApp</a>
           </div>
         </div>
         <div className="mrb-hero-media"><img src="/img/soriva-flip-top-jewelry-boxes-hd.webp" alt="SORIVA flip-top jewelry box design visualization with gold necklace" width="1018" height="758" /></div>
@@ -83,7 +84,7 @@ export default function JewelryBoxPage() {
         <article className="mrb-feature"><strong>04</strong><h3>Quantity &amp; Delivery</h3><p>Tell us the quantity per size and color, destination country, and desired delivery date. MOQ, sample cost and lead time depend on the approved specifications.</p></article>
       </div>
       <div className="mrb-note" style={{marginTop:24}}><b>Comparing structures?</b> See <a href="/products/two-piece-rigid-boxes/">two-piece rigid boxes</a> for removable lids, or <a href="/products/magnetic-rigid-boxes/">magnetic rigid boxes</a> for a different closure. <a href="/resources/jewelry-packaging-buyer-guide/">Read the jewelry packaging buyer guide</a>.</div>
-      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href="/rfq/">Send Your Flip-Top Box Specifications</a></div>
+      <div className="mrb-hero-actions" style={{justifyContent:"center",marginTop:24}}><a className="btn gold" href={RFQ_URL}>Send Your Flip-Top Box Specifications</a></div>
     </div></section>
     <section className="mrb-section soft"><div className="container">
       <div className="mrb-head center"><span className="eyebrow dark">COORDINATED PACKAGING</span><h2>Explore Related Jewelry Packaging</h2><p>Coordinate presentation boxes, protective inserts and matching paper bags across your jewelry collection.</p></div>
@@ -95,8 +96,8 @@ export default function JewelryBoxPage() {
     </div></section>
     <section className="mrb-quote" id="quote"><div className="container mrb-quote-grid">
       <div><span className="mrb-eyebrow">START YOUR PROJECT</span><h2>Request Flip-Top Jewelry Box Quote</h2><p style={{color:"#c5c5c5",lineHeight:1.7,margin:"12px 0 16px"}}>Share your jewelry size, preferred box structure, materials, target quantity and shipping destination. We will review feasibility, sampling and quotation details.</p>
-        <div className="mrb-contact"><div className="mrb-contact-note"><b>Email</b><a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a></div><div className="mrb-contact-note"><b>WhatsApp</b><a href={waLink(WA_MESSAGES.products)} target="_blank" rel="noopener">Contact SORIVA</a></div></div>
-      </div><QuoteForm />
+        <div className="mrb-contact"><div className="mrb-contact-note"><b>Email</b><a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a></div><div className="mrb-contact-note"><b>WhatsApp</b><a href={waLink(WA_MESSAGES.flipTopJewelry)} target="_blank" rel="noopener">Contact SORIVA</a></div></div>
+      </div><QuoteForm href={RFQ_URL} whatsappMessage={WA_MESSAGES.flipTopJewelry} />
     </div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} />
   </main>;
