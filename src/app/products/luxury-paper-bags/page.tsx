@@ -1256,6 +1256,13 @@ export default function LuxuryPaperBagsPage() {
         subtitle="Explore practical advice on paper types, MOQ economics, inventory planning, shipping and trade terms."
         guides={[
           {
+    tag: "Paper Bag Branding",
+    title: "Custom Printed Paper Bags vs Stamps & Stickers",
+    desc: "Compare costs, staff time, logo quality and a 100-bag order checklist for boutiques.",
+    href: "/resources/custom-printed-paper-bags-vs-stamps-stickers/",
+  },
+
+          {
             tag: "Beauty & Cosmetics",
             title: "Luxury Paper Bags for Beauty & Cosmetic Brands",
             desc: "Choose paper, GSM, ribbon or rope handles and logo finishing for skincare, cosmetics and fragrance retail bags.",

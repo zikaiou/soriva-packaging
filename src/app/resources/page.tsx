@@ -55,6 +55,13 @@ const startHereGuides = [
 
 const featuredGuides = [
   {
+    tag: "Paper Bag Branding",
+    title: "Custom Printed Paper Bags vs Stamps & Stickers",
+    desc: "Compare costs, staff time, logo quality and a 100-bag order checklist for boutiques.",
+    href: "/resources/custom-printed-paper-bags-vs-stamps-stickers/",
+  },
+
+  {
     tag: "Low MOQ & Startups",
     title: "Low MOQ Custom Packaging for Small Business",
     desc: "How startups and growing brands can plan a first custom packaging run without overordering or overcomplicating the structure.",

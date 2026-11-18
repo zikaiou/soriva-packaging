@@ -449,6 +449,13 @@ export default function FashionPaperBagsSolution() {
         subtitle="Practical buyer guides on paper materials, inventory planning and freight reduction."
         guides={[
           {
+    tag: "Paper Bag Branding",
+    title: "Custom Printed Paper Bags vs Stamps & Stickers",
+    desc: "Compare costs, staff time, logo quality and a 100-bag order checklist for boutiques.",
+    href: "/resources/custom-printed-paper-bags-vs-stamps-stickers/",
+  },
+
+          {
             tag: "Boutique Shopping Bags",
             title: "Custom Boutique Shopping Bags for Fashion Brands",
             desc: "Choose bag proportions, paper weights, handles and finishing for premium apparel and boutique retail.",
