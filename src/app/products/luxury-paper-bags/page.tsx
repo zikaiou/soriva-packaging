@@ -12,19 +12,19 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    absolute: "Custom Printed Paper Bags with Logo | SORIVA Packaging",
   },
   description:
-    "Custom luxury paper bags wholesale with logo for retail brands. Choose custom sizes, paper GSM, ribbon or rope handles and premium finishes. MOQ from 100 pcs.",
+    "Custom paper bags with your logo for retail brands and boutiques. MOQ 100 bags. Sampling around 5 days; production around 15–20 days. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
+    title: "Custom Printed Paper Bags with Logo | SORIVA Packaging",
     description:
-      "Wholesale custom paper bags with logo, custom sizes, specialty papers, ribbon or rope handles and premium finishes for beauty, fashion and retail brands.",
+      "Custom printed paper bags with logo for retail brands and boutiques. Orders start at 100 bags, with sampling around 5 days and production around 15–20 days.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -431,7 +431,7 @@ const faqs = [
   },
   {
     q: "What are the shipping options and production lead times?",
-    a: "We support international Sea, Air and Express freight with flat-packed carton optimization. Production lead time is confirmed based on design complexity, quantity, materials and finishing requirements.",
+    a: "Sampling takes approximately 5 days and bulk production approximately 15–20 days. These are estimates subject to project confirmation. International Sea, Air and Express freight options are available; shipping time is quoted separately.",
   },
 ];
 
@@ -514,19 +514,22 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Luxury Paper Bag Manufacturer for Custom Printed Bags</h1>
+              <h1>Custom Printed Paper Bags with Your Logo</h1>
               <p className="mrb-lead">
-                Source custom printed luxury paper bags with logo for beauty, fashion, jewelry and premium retail.
-                Choose tailored sizes, specialty or textured papers, ribbon or rope handles, foil, embossing and
-                coordinated finishes, with sampling support and MOQ from 100 pcs for selected projects.
+                Create branded paper carrier bags for fashion labels, boutiques and retail businesses.
+                Discuss custom dimensions, paper materials, handle options and logo printing with SORIVA.
+                Orders start at 100 bags, with coordinated luxury packaging available for your collection.
               </p>
               <div className="mrb-tags">
-                <span>MOQ From 100 pcs</span>
+                <span>MOQ: 100 Bags</span>
+                <span>Sampling: Approx. 5 Days</span>
+                <span>Production: Approx. 15–20 Days</span>
                 <span>Custom Size &amp; GSM</span>
                 <span>CMYK &amp; Pantone Matching</span>
                 <span>Foil / Emboss / Spot UV</span>
                 <span>Worldwide Shipping</span>
               </div>
+              <p className="mrb-lead">Timelines are estimates, subject to project confirmation. Shipping time is quoted separately.</p>
               <div className="mrb-hero-actions">
                 <a href={RFQ_URL} className="btn gold">
                   Get Paper Bag Quote
@@ -565,7 +568,7 @@ export default function LuxuryPaperBagsPage() {
             <article className="mrb-feature"><h3>What are they best for?</h3><p>Beauty, fashion, jewelry, fragrance, boutique retail and premium gifting where branded presentation matters.</p></article>
             <article className="mrb-feature"><h3>What can be customized?</h3><p>Bag size, paper stock, GSM, color, printing, foil, embossing, handle style, reinforcement and coordinated finishing.</p></article>
             <article className="mrb-feature"><h3>What is the MOQ?</h3><p>Selected custom paper bag projects can start from 100 pcs. Final MOQ depends on material, printing, handle and finishing requirements.</p></article>
-            <article className="mrb-feature"><h3>Can I sample first?</h3><p>Prototype or pre-production sampling is available for selected projects to review size, paper, print, handle feel and finishing.</p></article>
+            <article className="mrb-feature"><h3>How long does sampling take?</h3><p>Sampling takes approximately 5 days, with bulk production around 15–20 days. Your project schedule and shipping time are confirmed with the quotation.</p></article>
           </div>
         </div>
       </section>
@@ -574,8 +577,8 @@ export default function LuxuryPaperBagsPage() {
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
             <span className="eyebrow dark">SHOP BY BUYING NEED</span>
-            <h2>Custom Luxury Paper Bags for Retail &amp; Wholesale Buyers</h2>
-            <p>Explore custom printed paper bags for branded retail, boutique shopping and gift packaging. Compare paper materials, handles, logo finishes and quantities before requesting a wholesale quotation.</p>
+            <h2>Custom Paper Bags for Wholesale &amp; Retail Orders</h2>
+            <p>Source custom paper bags with logo for wholesale and retail orders, starting at 100 bags. Share your quantity, dimensions, artwork and delivery country for a quotation. Pricing depends on paper, size, printing, handles and finishing. If you are unsure about specifications, send a reference image and tell us what the bags need to carry.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
             <article className="mrb-feature">
@@ -650,7 +653,7 @@ export default function LuxuryPaperBagsPage() {
             <div className="mrb-stat"><b>50M+</b><span>Annual Capacity</span></div>
             <div className="mrb-stat"><b>20 Years</b><span>Production Experience</span></div>
           </div>
-          <div className="mrb-note" style={{marginTop:24}}><b>Commercial terms:</b> MOQ from 100 pcs for selected projects · prototype support available for selected projects · Sea / Air / Express shipping. Lead time depends on design complexity, quantity, materials and finishing requirements.</div>
+          <div className="mrb-note" style={{marginTop:24}}><b>Commercial terms:</b> MOQ from 100 pcs for selected projects · prototype support available for selected projects · Sea / Air / Express shipping. Sampling: approximately 5 days. Bulk production: approximately 15–20 days. Timelines are subject to project confirmation; shipping time is quoted separately.</div>
         </div>
       </section>
 

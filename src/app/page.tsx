@@ -1,10 +1,36 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import type { Metadata } from "next";
+
 import QuoteForm from "./components/QuoteForm";
 import WhatsAppIcon from "./components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "./lib/whatsapp";
 
+export const metadata: Metadata = {
+  title: { absolute: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA" },
+  description: "Custom printed paper bags with logo for fashion brands, boutiques and retail businesses. MOQ 100 bags, with coordinated luxury packaging available. Request a quote.",
+  openGraph: {
+    title: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA",
+    description: "Branded paper shopping bags for fashion labels and boutiques. MOQ 100 bags, with coordinated luxury packaging available.",
+    url: "https://www.sorivapackaging.com/",
+    images: [{ url: "/img/paper-bags.webp", width: 1200, height: 900, alt: "Custom paper shopping bags with logo" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA",
+    description: "Custom printed paper bags for fashion brands and boutiques. Orders start at 100 bags.",
+    images: ["/img/paper-bags.webp"],
+  },
+};
+
 const products = [
+  {
+    img: "/img/soriva-paper-bags-concept.webp",
+    alt: "Custom luxury paper bags",
+    title: "Luxury Paper Bags",
+    desc: "Branded retail bags designed to complete your premium packaging system.",
+    slug: "luxury-paper-bags",
+  },
   {
     img: "/img/magnetic-rigid.webp",
     alt: "Custom magnetic rigid box",
@@ -39,13 +65,6 @@ const products = [
     title: "Tube Packaging",
     desc: "Custom cylindrical packaging for fragrance, candles, bottles and gifts.",
     slug: "tube-packaging",
-  },
-  {
-    img: "/img/soriva-paper-bags-concept.webp",
-    alt: "Custom luxury paper bags",
-    title: "Luxury Paper Bags",
-    desc: "Branded retail bags designed to complete your premium packaging system.",
-    slug: "luxury-paper-bags",
   },
 ];
 
@@ -157,13 +176,14 @@ export default function Home() {
           <div className="hero-copy">
             <span className="eyebrow">CUSTOM LUXURY PACKAGING</span>
             <h1>
-              Packaging That Makes
+              Custom Paper Shopping Bags
               <br />
-              Your Brand Stand Out.
+              &amp; Luxury Packaging
             </h1>
             <p>
-              Premium rigid boxes, magnetic gift boxes and custom packaging
-              solutions developed for growing brands worldwide.
+              Branded paper bags for fashion labels, boutiques and retail businesses,
+              with coordinated luxury packaging options. Start your custom paper bag
+              project with a minimum order of 100 bags.
             </p>
             <div className="hero-actions">
               <a href="#quote" className="btn gold">
@@ -177,8 +197,8 @@ export default function Home() {
               >
                 <WhatsAppIcon /> Chat on WhatsApp
               </a>
-              <a href="#products" className="btn ghost">
-                Explore Packaging
+              <a href="/products/luxury-paper-bags/" className="btn ghost">
+                Explore Custom Paper Bags
               </a>
             </div>
             <div className="trust-row">
@@ -190,16 +210,27 @@ export default function Home() {
           </div>
           <div className="hero-media">
             <Image
-              src="/img/hero-boxes.webp"
-              alt="SORIVA custom luxury rigid packaging boxes"
+              src="/img/paper-bags.webp"
+              alt="Custom paper shopping bags with handles and logo finishing"
               width={1200}
-              height={820}
+              height={900}
               priority
               fetchPriority="high"
               sizes="(max-width: 980px) 100vw, 54vw"
               quality={80}
             />
           </div>
+        </div>
+      </section>
+
+      <section className="section soft" aria-label="Paper shopping bags for fashion brands">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow dark">FASHION &amp; BOUTIQUE PAPER BAGS</span>
+            <h2>Paper Shopping Bags for Fashion &amp; Boutiques</h2>
+            <p>Explore logo printing, bag proportions, paper materials and handles for clothing, footwear and accessories. Paper bag sampling takes approximately 5 days and bulk production approximately 15–20 days, subject to project confirmation. Shipping time is quoted separately.</p>
+          </div>
+          <a href="/solutions/luxury-paper-bags-for-fashion/" className="btn dark">Explore Fashion Paper Bags →</a>
         </div>
       </section>
 

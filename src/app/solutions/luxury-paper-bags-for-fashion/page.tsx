@@ -7,22 +7,23 @@ import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
 import "../../products/product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/solutions/luxury-paper-bags-for-fashion/";
+const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fsolutions%2Fluxury-paper-bags-for-fashion%2F";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Luxury Paper Bags for Fashion Brands | Custom Boutique Shopping Bags | SORIVA Packaging",
+    absolute: "Custom Paper Shopping Bags for Fashion Brands | SORIVA",
   },
   description:
-    "Custom luxury paper bags for fashion, designer apparel and boutique stores. Heavyweight paper, reinforced handles, custom proportions, hot stamping and global export.",
+    "Custom paper shopping bags for fashion brands and boutiques. Add your logo and discuss sizes, materials and handles. MOQ 100 bags. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Luxury Paper Bags for Fashion Brands | Custom Boutique Shopping Bags | SORIVA Packaging",
+    title: "Custom Paper Shopping Bags for Fashion Brands | SORIVA",
     description:
-      "Custom luxury paper bags for fashion, designer apparel and boutique stores. Heavyweight paper, reinforced handles, custom proportions, hot stamping and global export.",
+      "Custom paper shopping bags for fashion brands and boutiques. Add your logo and discuss sizes, materials and handles. MOQ 100 bags. Request a quote.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -149,7 +150,7 @@ const faqs = [
   },
   {
     q: "What is the lead time?",
-    a: "Lead time depends on design complexity, quantity, materials and finishing requirements.",
+    a: "Sampling takes approximately 5 days and bulk production approximately 15–20 days. Timelines are estimates subject to project confirmation; shipping time is quoted separately.",
   },
 ];
 
@@ -200,22 +201,25 @@ export default function FashionPaperBagsSolution() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">FASHION &amp; BOUTIQUE PACKAGING</span>
-              <h1>Custom Luxury Paper Bags for Fashion Brands</h1>
+              <h1>Custom Paper Shopping Bags for Fashion Brands</h1>
               <p className="mrb-lead">
-                Transform your boutique shopping experience with custom luxury paper bags.
-                Engineered with heavyweight paper stocks (250–300+ GSM), reinforced top/bottom boards,
-                ergonomic handles and metallic foil stamping for designer apparel and accessories.
+                Complete your boutique shopping experience with paper bags featuring your brand’s logo.
+                SORIVA develops custom shopping bags for clothing, footwear and accessories, with size,
+                material, handle and finishing options tailored to your project.
               </p>
               <div className="mrb-tags">
-                <span>MOQ From 100 pcs</span>
+                <span>MOQ: 100 Bags</span>
+                <span>Sampling: Approx. 5 Days</span>
+                <span>Production: Approx. 15–20 Days</span>
                 <span>Heavyweight 250–300+ GSM</span>
                 <span>Wide Landscape Formats</span>
                 <span>Thick Cotton Rope &amp; Ribbon</span>
                 <span>Matte &amp; Specialty Finishes</span>
               </div>
+              <p className="mrb-lead">Timelines are estimates, subject to project confirmation. Shipping time is quoted separately.</p>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
-                  Request Packaging Quote
+                <a href={RFQ_URL} className="btn gold">
+                  Request a Paper Bag Quote
                 </a>
                 <a
                   href={waLink(WA_MESSAGES.paperBags)}
@@ -245,8 +249,9 @@ export default function FashionPaperBagsSolution() {
         <div className="container">
           <div className="mrb-head">
             <span className="eyebrow dark">FASHION CARRY DECISION</span>
-            <h2>Buyer Decision Notes</h2>
-            <p>Fashion paper bags are selected around boutique proportions and the carrying experience after a purchase. The buyer decision is the relationship between apparel or accessory dimensions, bag width and depth, handle drop and the way garments or shoe boxes sit inside. A landscape carrier may suit folded apparel, while a compact square or vertical format may work better for accessories and seasonal gifting. Paper surface, pattern placement and foil scale should be reviewed across gussets, front panels and handles so the bag reads consistently in a retail environment. If the program includes matching boxes or tissue, those items should be considered before the bag dieline is locked. This page therefore owns fashion retail proportions, handles and carry experience rather than the beauty or coordinated-suite intent of the neighboring solutions.</p>
+            <h2>Boutique Bags with Your Logo</h2>
+            <p>Create a consistent presentation across your retail packaging. Share your logo, brand colors and reference images so we can discuss paper, printing and finishing options for your luxury shopping bags. For folded clothing, shoe boxes or accessories, send product dimensions and approximate packed weight to help us review bag proportions, gusset depth, handles and reinforcement before sampling.</p>
+            <p>Compare materials and finishes in our <a href="/products/luxury-paper-bags/">custom printed paper bag collection</a>, or request a quotation for your boutique.</p>
           </div>
         </div>
       </section>
@@ -488,7 +493,7 @@ export default function FashionPaperBagsSolution() {
               Back to Fashion Packaging Hub →
             </a>
           </div>
-          <QuoteForm />
+          <QuoteForm href={RFQ_URL} />
         </div>
       </section>
     </main>
