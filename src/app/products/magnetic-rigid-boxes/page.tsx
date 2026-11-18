@@ -171,7 +171,7 @@ const applications = [
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/sample-paperbag-coordinated-floral.jpg",
+    img: "/img/magnetic-rigid-box-brown-textured-sample.png",
     title: "Fashion & Accessories",
     desc: "Belts, wallets, silk scarves and sunglasses.",
     href: "/industries/fashion-packaging/",
