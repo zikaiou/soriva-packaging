@@ -577,7 +577,7 @@ export default function LuxuryPaperBagsPage() {
         <div className="container">
           <div className="mrb-head center" style={{ marginBottom: 24 }}>
             <span className="eyebrow dark">SHOP BY BUYING NEED</span>
-            <h2>Custom Paper Bags for Wholesale &amp; Retail Orders</h2>
+            <h2>Custom Printed Paper Carrier Bags for Retail &amp; Wholesale</h2>
             <p>Source custom paper bags with logo for wholesale and retail orders, starting at 100 bags. Share your quantity, dimensions, artwork and delivery country for a quotation. Pricing depends on paper, size, printing, handles and finishing. If you are unsure about specifications, send a reference image and tell us what the bags need to carry.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>

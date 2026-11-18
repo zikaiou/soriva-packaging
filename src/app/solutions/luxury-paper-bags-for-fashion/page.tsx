@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const fashionUseCases = [
   {
     title: "Designer Apparel & Knitwear",
-    desc: "Heavyweight horizontal carrier bags engineered with wide gussets to carry folded garments, blazers and winter outerwear without creasing.",
+    desc: "Heavyweight horizontal carrier bags engineered with wide gussets to carry folded garments, blazers and winter outerwear. Final size and packing should be reviewed with your garments.",
   },
   {
     title: "Luxury Scarves & Boutique Accessories",
@@ -90,7 +90,7 @@ const materials = [
   },
   {
     name: "Natural & Bleached Kraft Paper",
-    desc: "Eco-conscious raw organic paper offering high tear resistance for contemporary sustainable fashion labels.",
+    desc: "Natural or bleached kraft paper with a textured appearance. Review strength, printing and finishing against your retail requirements.",
   },
   {
     name: "Specialty Embossed & Textured Sheets",
@@ -109,7 +109,7 @@ const handles = [
   },
   {
     title: "Twisted Kraft Paper Cords",
-    desc: "High-strength twisted paper handles glued to the interior turnover for modern, 100% recyclable boutique shoppers.",
+    desc: "Twisted paper handles glued to the interior turnover. Recyclability depends on the complete bag construction, coatings and local collection requirements.",
   },
   {
     title: "Die-Cut Reinforced Handles",
@@ -136,6 +136,14 @@ const samples = [
 ];
 
 const faqs = [
+  {
+    q: "What information do you need to quote boutique bags with a logo?",
+    a: "Share the quantity, bag width, gusset and height, delivery country and logo or reference image. If you are unsure about dimensions or materials, send the garment or shoe box dimensions and approximate packed weight so we can discuss options.",
+  },
+  {
+    q: "How are custom fashion paper bags priced?",
+    a: "Pricing depends on quantity, bag dimensions, paper, handles, logo printing, finishing and delivery requirements. Send your specifications for a project quotation; sampling and shipping arrangements are confirmed separately.",
+  },
   {
     q: "How should fashion bag proportions be selected?",
     a: "Apparel, shoes and accessories require different widths, depths, gussets and handle drops, so the purchase mix should be supplied.",
@@ -289,7 +297,7 @@ export default function FashionPaperBagsSolution() {
               <thead>
                 <tr>
                   <th>Format / Silhouette</th>
-                  <th>Typical Dimensions (L × W × H)</th>
+                  <th>Typical Dimensions (W × G × H)</th>
                   <th>Apparel Applications</th>
                 </tr>
               </thead>
