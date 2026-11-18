@@ -313,6 +313,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/resources/luxury-paper-bag-size-gsm-guide/`,
+      lastModified: new Date("2026-11-18T00:00:00+08:00"),
       changeFrequency: "monthly",
       priority: 0.7,
     },
