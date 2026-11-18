@@ -116,6 +116,7 @@ export default function PaperBagBrandingGuide() {
         <a href="/solutions/luxury-paper-bags-for-fashion/">Fashion &amp; Boutique Shopping Bags</a>
         <a href="/resources/luxury-paper-bag-size-gsm-guide/">Size &amp; Paper Weight Guide</a>
         <a href="/resources/custom-boutique-shopping-bags-fashion-brands/">Boutique Bag Selection Guide</a>
+        <a href="/resources/100-custom-paper-bags-with-logo-first-order-guide/">Plan a 100-Bag First Order</a>
         <a href={RFQ_URL}>Request a Paper Bag Quote</a>
       </aside>
     </div></section>

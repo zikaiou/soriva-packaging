@@ -20,6 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
   return [
     {
+      url: `${BASE_URL}/resources/100-custom-paper-bags-with-logo-first-order-guide/`,
+      lastModified: new Date("2026-11-18T00:00:00+08:00"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/resources/custom-printed-paper-bags-vs-stamps-stickers/`,
       lastModified: new Date("2026-11-18T00:00:00+08:00"),
       changeFrequency: "monthly",

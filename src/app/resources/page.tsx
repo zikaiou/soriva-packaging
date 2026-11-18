@@ -55,6 +55,13 @@ const startHereGuides = [
 
 const featuredGuides = [
   {
+    tag: "First Paper Bag Order",
+    title: "Ordering 100 Custom Paper Bags with Logo",
+    desc: "Prepare a first-order brief, confirm minimums per design and compare sampling, setup and delivery costs.",
+    href: "/resources/100-custom-paper-bags-with-logo-first-order-guide/",
+  },
+
+  {
     tag: "Paper Bag Branding",
     title: "Custom Printed Paper Bags vs Stamps & Stickers",
     desc: "Compare costs, staff time, logo quality and a 100-bag order checklist for boutiques.",
