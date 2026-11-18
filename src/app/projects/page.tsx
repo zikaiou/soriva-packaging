@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.sorivapackaging.com/projects/";
 export const metadata: Metadata = {
   title: "Custom Packaging Projects & Case Studies | SORIVA Packaging",
   description:
-    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, jewelry, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes and luxury paper bags.",
+    "Explore SORIVA Packaging custom packaging projects for beauty, skincare, fragrance, fashion and corporate gift brands — magnetic rigid boxes, foldable boxes, drawer boxes, two-piece boxes and luxury paper bags.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Packaging Projects | SORIVA Packaging",
     description:
-      "Real packaging projects developed for beauty, fragrance, jewelry, fashion and premium gift brands.",
+      "Real packaging projects developed for beauty, fragrance, fashion and premium gift brands.",
     images: [
       {
         url: "https://www.sorivapackaging.com/img/hero-boxes.webp",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/tube-packaging-black-gold-reference.jpg",
     alt: "Cylindrical perfume tube packaging project reference",
     slug: "cylindrical-perfume-tube-packaging-project",
     title: "Cylindrical Perfume Tube Packaging Project",
@@ -45,7 +45,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/tube-packaging.webp",
+    img: "/img/tube-packaging-various-styles-reference.jpg",
     alt: "Luxury cylindrical tube gift packaging project reference",
     slug: "luxury-tube-gift-packaging-project",
     title: "Luxury Tube Gift Packaging Project",
@@ -58,7 +58,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-floral-reference.png",
     alt: "Premium two-piece rigid gift box project reference",
     slug: "premium-two-piece-gift-box-project",
     title: "Premium Two-Piece Gift Box Project",
@@ -71,20 +71,20 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-jewelry.webp",
-    alt: "Jewelry two-piece rigid box packaging project reference",
-    slug: "jewelry-two-piece-rigid-box-project",
-    title: "Jewelry Two-Piece Rigid Box Project",
+    img: "/img/showroom-paperbag-assortment.png",
+    alt: "Minimal luxury paper bag project with satin ribbon handles",
+    slug: "minimal-luxury-paper-bag-project",
+    title: "Minimal Luxury Paper Bag Project",
     fields: [
-      ["Industry", "Fine Jewelry & Watches"],
-      ["Packaging", "Compact Lid & Base Box"],
-      ["Material", "Rigid Board + Black Paper"],
-      ["Finish", "Gold Foil + Matte Lamination"],
-      ["Insert", "Velvet Insert with Slits"],
+      ["Industry", "Boutique Retail & Cosmetics"],
+      ["Packaging", "Luxury Paper Shopping Bag"],
+      ["Material", "250 GSM Coated Art Paper"],
+      ["Finish", "Soft-Touch Matte + Gold Foil"],
+      ["Handles", "Embedded Satin Ribbon"],
     ],
   },
   {
-    img: "/img/foldable-rigid.webp",
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
     alt: "Foldable magnetic gift box project reference",
     slug: "foldable-magnetic-gift-box-project",
     title: "Foldable Magnetic Gift Box Project",
@@ -97,7 +97,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/two-piece-rigid-box-lid-base-overview.png",
     alt: "Flat-pack corporate gift box project reference",
     slug: "flat-pack-corporate-gift-box-project",
     title: "Flat-Pack Corporate Gift Box Project",
@@ -110,7 +110,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/magnetic-rigid.webp",
+    img: "/img/magnetic-rigid-box-brown-textured-sample.png",
     alt: "Premium magnetic gift box project reference",
     slug: "premium-magnetic-gift-box-project",
     title: "Premium Magnetic Gift Box Project",
@@ -123,7 +123,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/two-piece-rigid-box-perfume-application.png",
     alt: "Cosmetic magnetic gift packaging project reference",
     slug: "cosmetic-magnetic-packaging-project",
     title: "Cosmetic Magnetic Packaging Project",
@@ -136,7 +136,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/showroom-paperbag-assortment.png",
     alt: "Minimal luxury paper bag project with satin ribbon handles",
     slug: "minimal-luxury-paper-bag-project",
     title: "Minimal Luxury Paper Bag Project",
@@ -162,7 +162,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/two-piece-rigid-box-perfume-application.png",
     alt: "Luxury skincare gift box project",
     slug: "luxury-skincare-gift-box",
     title: "Luxury Skincare Gift Box Project",
@@ -175,7 +175,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/tube-packaging-black-gold-reference.jpg",
     alt: "Premium perfume packaging project",
     slug: "premium-perfume-packaging",
     title: "Premium Perfume Packaging Project",
@@ -187,19 +187,7 @@ const projects = [
     ],
   },
   {
-    img: "/img/project-jewelry.webp",
-    alt: "Fine jewelry presentation box project",
-    slug: "fine-jewelry-presentation-box",
-    title: "Fine Jewelry Presentation Box Project",
-    fields: [
-      ["Industry", "Jewelry"],
-      ["Packaging", "Drawer Box"],
-      ["Structure", "Sliding Drawer"],
-      ["Insert", "Velvet + EVA"],
-    ],
-  },
-  {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/two-piece-rigid-box-lid-base-overview.png",
     alt: "Corporate luxury gift box project",
     slug: "corporate-luxury-gift-box",
     title: "Corporate Luxury Gift Box Project",
@@ -270,7 +258,7 @@ export default function Page() {
               </p>
               <p className="mrb-lead">
                 Explore our custom packaging projects for beauty, fragrance,
-                jewelry, fashion and premium gift brands.
+                fashion and premium gift brands.
               </p>
               <div className="mrb-hero-actions">
                 <a href="#featured" className="btn gold">
@@ -308,7 +296,7 @@ export default function Page() {
             <h2>Featured Packaging Projects</h2>
             <p>
               A selection of custom packaging solutions delivered for global
-              beauty, fragrance, jewelry, fashion and gift brands.
+              beauty, fragrance, fashion and gift brands.
             </p>
           </div>
           <div className="mrb-cases">

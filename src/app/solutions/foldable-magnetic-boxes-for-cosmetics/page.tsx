@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/cosmetics.webp",
+        url: "https://www.sorivapackaging.com/img/project-skincare.webp",
         width: 1200,
         height: 900,
         alt: "Custom foldable magnetic boxes for cosmetics and skincare",
@@ -100,7 +100,7 @@ const samples = [
     desc: "Collapsible magnetic rigid box with rose gold foil stamping, custom-cut EVA insert and Pantone color matching.",
   },
   {
-    img: "/img/cosmetics.webp",
+    img: "/img/project-skincare.webp",
     title: "Luxury Beauty Discovery Set",
     desc: "Foldable magnetic closure gift box with velvet-lined interior tray for skincare bottles and jars.",
   },
@@ -209,7 +209,7 @@ export default function FoldableCosmeticBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/cosmetics.webp"
+                src="/img/project-skincare.webp"
                 alt="Custom foldable magnetic boxes for cosmetics and skincare"
                 width="1200"
                 height="900"

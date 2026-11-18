@@ -79,7 +79,7 @@ const recommendedStructures = [
     slug: "drawer-boxes",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     alt: "Two piece rigid jewelry gift box",
     title: "Two-Piece Rigid Boxes",
     desc: "Classic lid-and-base presentation boxes with neck shoulders for heirloom jewelry collections and watches.",
@@ -107,7 +107,7 @@ const recommendedStructures = [
     slug: "flip-top-jewelry-boxes",
   },
   {
-    img: "/img/v18-paper-bags.webp",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg",
     alt: "Luxury paper bag for jewelry retail",
     title: "Matching Paper Bags",
     desc: "Coordinated luxury boutique paper shopping bags with ribbon handles to complete your retail packaging suite.",

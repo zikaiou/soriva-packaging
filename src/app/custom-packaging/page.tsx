@@ -55,12 +55,12 @@ const capabilities = [
 ];
 
 const industries = [
-  { img: "/img/cosmetics.webp", alt: "Cosmetic packaging", title: "Cosmetic Packaging", href: "/industries/cosmetic-packaging/" },
-  { img: "/img/perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", href: "/industries/perfume-packaging/" },
-  { img: "/img/jewelry.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/industries/jewelry-packaging/" },
-  { img: "/img/fashion.webp", alt: "Fashion packaging", title: "Fashion Packaging", href: "/industries/fashion-packaging/" },
-  { img: "/img/corporate.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/industries/corporate-gift-packaging/" },
-  { img: "/img/candles.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/industries/candle-packaging/" },
+  { img: "/img/project-skincare.webp", alt: "Cosmetic packaging", title: "Cosmetic Packaging", href: "/industries/cosmetic-packaging/" },
+  { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", href: "/industries/perfume-packaging/" },
+  { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/industries/jewelry-packaging/" },
+  { img: "/img/sample-paperbag-coordinated-floral.jpg", alt: "Fashion packaging", title: "Fashion Packaging", href: "/industries/fashion-packaging/" },
+  { img: "/img/project-pr-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/industries/corporate-gift-packaging/" },
+  { img: "/img/project-candle-clean.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/industries/candle-packaging/" },
 ];
 
 const stats = [

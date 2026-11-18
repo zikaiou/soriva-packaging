@@ -104,7 +104,7 @@ const samples = [
     desc: "Classic two-piece lid and base box engineered with custom dual cavities for 50ml and 100ml fragrance bottles.",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     title: "Luxury Discovery Two-Piece Set",
     desc: "Rigid lid-and-base presentation box with metallic hot stamping and precision interior insert dividers.",
   },

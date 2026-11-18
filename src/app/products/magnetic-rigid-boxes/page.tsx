@@ -11,10 +11,10 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    absolute: "Magnetic Rigid Box Manufacturer | Custom Boxes | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for wholesale brands, perfume and cosmetics. Compare rigid or foldable styles, custom inserts and logo finishes. Request an OEM quote.",
+    "Custom magnetic rigid boxes for perfume, serum and skincare brands. Choose book-style or foldable boxes, fitted inserts and premium logo finishes. Request a wholesale quote.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid-box-satin-lining-sample.png",
         width: 1200,
         height: 900,
         alt: "Custom magnetic rigid box",
@@ -122,7 +122,7 @@ const structure = [
 ];
 
 const details = [
-  { img: "/img/magnetic-rigid.webp", caption: "Packaging Style Reference: Open Box Presentation" },
+  { img: "/img/magnetic-rigid-box-satin-lining-sample.png", caption: "Packaging Style Reference: Open Magnetic Box Presentation" },
   { img: "/img/foil-clean.webp", caption: "Packaging Style Reference: Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Packaging Style Reference: Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Packaging Style Reference: Custom Product Insert" },
@@ -159,19 +159,19 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Luxury jar candles, diffusers and scented gift collections.",
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/magnetic-rigid-box-satin-lining-sample.png",
     title: "Jewelry & Watches",
     desc: "Rings, necklaces, watches and fine jewelry.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/magnetic-rigid-box-brown-textured-sample.png",
     title: "Fashion & Accessories",
     desc: "Belts, wallets, silk scarves and sunglasses.",
     href: "/industries/fashion-packaging/",
@@ -219,6 +219,10 @@ const faqs = [
   {
     q: "What is the MOQ for custom magnetic rigid boxes?",
     a: "Selected custom magnetic rigid box projects can start from 100 pcs. The optimal production quantity depends on box size, paper material, insert complexity and surface finishing requirements.",
+  },
+  {
+    q: "Can you make rigid magnetic boxes for serum bottles?",
+    a: "Yes. We can develop custom rigid magnetic boxes for serum bottles and skincare sets. Please share bottle dimensions, cap height, filled weight, quantity and preferred insert material so the box size and cavity fit can be reviewed.",
   },
   {
     q: "Can I customize the exact box dimensions and structure?",
@@ -282,7 +286,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Magnetic Rigid Boxes</h1>
+              <h1>Custom Magnetic Rigid Boxes for Brands &amp; Wholesale Buyers</h1>
               <p className="mrb-lead">
                 Premium custom magnetic rigid boxes engineered with greyboard structures,
                 concealed magnetic closure, precision-cut inserts and bespoke finishes for
@@ -314,7 +318,7 @@ export default function MagneticRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/magnetic-rigid.webp"
+                src="/img/magnetic-rigid-box-satin-lining-sample.png"
                 alt="Custom magnetic rigid gift box with luxury finish"
                 width="1200"
                 height="900"
@@ -345,6 +349,27 @@ export default function MagneticRigidBoxesPage() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Serum & skincare application */}
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-head center">
+            <span className="eyebrow dark">SKINCARE &amp; SERUM PACKAGING</span>
+            <h2>Rigid Magnetic Boxes for Serum Bottles &amp; Skincare Sets</h2>
+            <p>
+              For serum bottles, ampoules and skincare gift sets, a custom magnetic rigid box can combine a protective greyboard shell with a fitted insert that keeps each item organized. We review bottle height, cap clearance, filled weight and set layout before confirming the box dimensions and insert structure.
+            </p>
+          </div>
+          <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
+            <article className="mrb-feature"><h3>Custom Serum Bottle Inserts</h3><p>EVA, paperboard or velvet-covered insert options can be assessed around bottle shape, cap size and the required presentation.</p></article>
+            <article className="mrb-feature"><h3>Single &amp; Multi-Bottle Sets</h3><p>Plan a box for one serum bottle, a coordinated skincare routine or a multi-item discovery set with individual cavities.</p></article>
+            <article className="mrb-feature"><h3>Branded Skincare Presentation</h3><p>Review printed wraps, Pantone colors, foil stamping, embossing and soft-touch finishes against the approved brand artwork.</p></article>
+          </div>
+          <p style={{ textAlign: "center", marginTop: 20 }}>
+            <a href="/solutions/magnetic-gift-boxes-for-cosmetics/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700 }}>Explore magnetic gift boxes for cosmetics →</a>
+          </p>
         </div>
       </section>
 

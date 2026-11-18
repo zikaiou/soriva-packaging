@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/drawer-boxes/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Drawer Boxes Manufacturer | SORIVA Packaging",
+    absolute: "Custom Rigid Drawer Boxes Manufacturer | SORIVA",
   },
   description:
-    "Custom rigid drawer boxes with sliding trays for jewelry, cosmetics and gifts. Choose custom sizes, inserts and logo finishes. Selected MOQ from 100 pcs. Get a quote.",
+    "Custom rigid drawer boxes with sliding trays, fitted inserts, ribbon pulls and premium logo finishes. OEM packaging for jewelry, cosmetics, perfume and gifts. MOQ from 100 pcs.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Drawer Boxes Manufacturer | SORIVA Packaging",
+    title: "Custom Rigid Drawer Boxes Manufacturer | SORIVA",
     description:
-      "Custom rigid drawer boxes and sliding gift boxes with ribbon pulls, fitted inserts and logo finishing for jewelry, cosmetics and perfume packaging.",
+      "OEM rigid drawer box packaging for jewelry, cosmetics, perfume and gifts, with custom sliding trays, fitted inserts, ribbon pulls and premium logo finishes.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -240,7 +240,7 @@ const finishingOptions = [
 
 const applications = [
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/drawer-box-application-grid.png",
     title: "Jewelry & Fine Watches",
     desc: "Sliding presentation boxes for rings, necklaces, bracelets and luxury timepieces.",
     href: "/industries/jewelry-packaging/",
@@ -258,7 +258,7 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/drawer-box-ribbon-pull-reference.png",
     title: "Fashion Accessories",
     desc: "Rigid drawer boxes for leather wallets, silk scarves, belts and luxury eyewear.",
     href: "/industries/fashion-packaging/",
@@ -270,7 +270,7 @@ const applications = [
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Reinforced rigid sliding boxes for luxury jar candles, wick trimmers and diffuser sets.",
     href: "/industries/candle-packaging/",
@@ -505,7 +505,7 @@ export default function DrawerBoxesPage() {
             <div className="mrb-hero-media">
               <img
                 src="/img/drawer-box.webp"
-                alt="Custom rigid drawer gift box with sliding tray and gold foil branding"
+                alt="Custom rigid drawer box packaging with sliding inner tray and gold foil branding"
                 width="1200"
                 height="900"
                 fetchPriority="high"

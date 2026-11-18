@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/two-piece-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/two-piece-rigid-box-correct.png.png",
         width: 1200,
         height: 900,
         alt: "Two piece rigid gift box",
@@ -116,11 +116,11 @@ const structure = [
 ];
 
 const details = [
-  { img: "/img/two-piece-rigid.webp", caption: "Lid & Base Presentation" },
+  { img: "/img/two-piece-rigid-box-correct.png.png", caption: "Black and Gold Lid & Base Presentation" },
   { img: "/img/foil-clean.webp", caption: "Gold Foil & Branding" },
   { img: "/img/emboss-clean.webp", caption: "Embossing / Debossing" },
   { img: "/img/insert-clean.webp", caption: "Custom Product Insert" },
-  { img: "/img/project-jewelry.webp", caption: "Jewelry Packaging", href: "/solutions/two-piece-rigid-boxes-for-jewelry/" },
+  { img: "/img/project-gift-clean.webp", caption: "Premium Gift Packaging", href: "/industries/corporate-gift-packaging/" },
   { img: "/img/project-perfume.webp", caption: "Perfume Packaging", href: "/solutions/two-piece-rigid-boxes-for-perfume/" },
 ];
 
@@ -132,8 +132,8 @@ const applications = [
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
-    title: "Jewelry & Watches",
+    img: "/img/project-gift-clean.webp",
+    title: "Premium Gift Sets",
     desc: "Rings, necklaces, watches and fine accessories.",
     href: "/industries/jewelry-packaging/",
   },
@@ -150,13 +150,13 @@ const applications = [
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/project-candle-clean.webp",
     title: "Candle & Home Fragrance",
     desc: "Jar candles, diffuser sets and scented home gifts.",
     href: "/industries/candle-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/project-gift-clean.webp",
     title: "Fashion & Apparel Gifting",
     desc: "Scarves, belts and boutique retail presentation.",
     href: "/industries/fashion-packaging/",
@@ -356,7 +356,7 @@ export default function TwoPieceRigidBoxesPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/two-piece-rigid.webp"
+                src="/img/two-piece-rigid-box-correct.png.png"
                 alt="Custom two-piece rigid gift box with lift-off lid"
                 loading="eager"
                 fetchPriority="high"

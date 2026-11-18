@@ -99,7 +99,7 @@ const samples = [
     desc: "Two-piece lid-and-base presentation box with gold foil branding and multi-compartment velvet insert.",
   },
   {
-    img: "/img/two-piece-rigid.webp",
+    img: "/img/two-piece-rigid-box-correct.png.png",
     title: "Executive Presentation Box",
     desc: "Classic two-piece rigid box engineered for executive merchandise and corporate anniversary gifting.",
   },

@@ -99,7 +99,7 @@ const samples = [
     desc: "Book-style magnetic box with soft-touch matte wrap, gold foil typography and velvet-covered EVA insert.",
   },
   {
-    img: "/img/perfume.webp",
+    img: "/img/project-perfume.webp",
     title: "Double-Bottle Fragrance Gift Set",
     desc: "Front-flap magnetic closure box engineered with custom dual cavities for 50ml and 100ml fragrance bottles.",
   },
@@ -366,7 +366,7 @@ export default function PerfumeMagneticBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/perfume.webp"
+              src="/img/project-perfume.webp"
               alt="Fragrance presentation packaging solutions"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/paper-bags.webp",
+        url: "https://www.sorivapackaging.com/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
         width: 1200,
         height: 900,
         alt: "Custom luxury paper bags for premium brands",
@@ -42,7 +42,7 @@ const customizationPillars = [
   {
     num: "01",
     title: "Custom Sizes",
-    desc: "Engineered Length × Width × Height proportions tailored to your product lines, boutique items or gift sets.",
+    desc: "Engineered Width × Gusset × Height (W × G × H) proportions tailored to your product lines, boutique items or gift sets.",
   },
   {
     num: "02",
@@ -108,7 +108,7 @@ const bagStyles = [
 
 const sampleShowcase = [
   {
-    img: "/img/sample-paperbag-ribbon-minimal.jpg",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
     alt: "Custom minimal luxury paper bag sample with satin ribbon handles",
     title: "Minimal Luxury Paper Bags with Ribbon Handles",
     desc: "Clean typography, matte lamination and premium satin ribbon handles engineered for boutique cosmetics and fine accessories.",
@@ -116,7 +116,7 @@ const sampleShowcase = [
     linkText: "View Capability Reference →",
   },
   {
-    img: "/img/sample-paperbag-coordinated-floral.jpg",
+    img: "/img/sample-paperbag-coordinated-floral.jpg?v=20261115",
     alt: "Custom branded paper bag and coordinated packaging set with gold hot stamping",
     title: "Coordinated Floral Packaging & Shopping Bags",
     desc: "Full-bleed CMYK pattern printing paired with metallic hot foil stamping and matching gift packaging elements.",
@@ -124,7 +124,7 @@ const sampleShowcase = [
     linkText: "Fashion Solutions →",
   },
   {
-    img: "/img/sample-paperbag-matching-set.jpg",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     alt: "Matching luxury paper bag and rigid gift box packaging suite",
     title: "Matching Paper Bag & Rigid Box Suite",
     desc: "Coordinated paper texture, color direction and finishing can be developed across retail carrier bags and rigid presentation boxes.",
@@ -135,17 +135,17 @@ const sampleShowcase = [
 
 const showroomImages = [
   {
-    img: "/img/showroom-wide-display.png",
+    img: "/img/showroom-wide-display.png?v=20261115",
     alt: "Custom luxury paper bags and gift boxes displayed in SORIVA packaging showroom",
     caption: "Wide Showroom Display — Comparing structures, dimensions and material options in person.",
   },
   {
-    img: "/img/showroom-paperbag-assortment.png",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     alt: "Assortment of custom paper bags with different handle styles and colors in showroom",
     caption: "Handle & Color Assortment — Cotton ropes, satin ribbons, grosgrain and twisted paper cords.",
   },
   {
-    img: "/img/showroom-giftbox-paperbag-variety.png",
+    img: "/img/showroom-giftbox-paperbag-variety.png?v=20261115",
     alt: "Packaging showroom featuring coordinated rigid boxes and boutique shopping bags",
     caption: "Coordinated Suites — Developing matching retail carrier bags alongside custom rigid gift boxes.",
   },
@@ -170,7 +170,7 @@ const sizeGuide = [
   {
     category: "Custom Proportions",
     dimensions: "Fully Tailored Proportions",
-    idealFor: "Custom length, width and gusset depth engineered around your specific product packaging box sizes.",
+    idealFor: "Custom width, gusset depth and height engineered around your specific product packaging box sizes.",
   },
 ];
 
@@ -307,37 +307,37 @@ const solutionsList = [
 
 const applications = [
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/showroom-paperbag-assortment.png?v=20261115",
     title: "Cosmetics & Skincare",
     desc: "Boutique retail bags for skincare bottles, makeup collections, beauty sets and launch kits.",
     href: "/industries/cosmetic-packaging/",
   },
   {
-    img: "/img/project-perfume.webp",
+    img: "/img/showroom-wide-display.png?v=20261115",
     title: "Perfume & Fragrance",
     desc: "Elegant retail and gift shopping bags sized for luxury fragrance bottles and sample sets.",
     href: "/industries/perfume-packaging/",
   },
   {
-    img: "/img/project-jewelry.webp",
+    img: "/img/sample-paperbag-ribbon-minimal.jpg?v=20261115",
     title: "Jewelry & Watches",
     desc: "Sturdy small-format bags with ribbon closures designed to accompany fine jewelry presentation boxes.",
     href: "/industries/jewelry-packaging/",
   },
   {
-    img: "/img/fashion.webp",
+    img: "/img/sample-paperbag-coordinated-floral.jpg?v=20261115",
     title: "Fashion & Apparel",
     desc: "Large-format branded carrier bags for designer clothing, luxury scarves, footwear and boutique accessories.",
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/project-gift-clean.webp",
+    img: "/img/showroom-giftbox-paperbag-variety.png?v=20261115",
     title: "Corporate Gifting & Events",
     desc: "VIP event favor bags, corporate anniversary gifts, press kits and executive launch packaging.",
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/candles.webp",
+    img: "/img/showroom-wide-display.png?v=20261115",
     title: "Candle & Home Fragrance",
     desc: "Reinforced bottom shopping bags supporting heavy glass jars, home diffusers and holiday sets.",
     href: "/industries/candle-packaging/",
@@ -407,7 +407,7 @@ const faqs = [
   },
   {
     q: "Can I customize the exact paper bag dimensions?",
-    a: "Yes. Length, width, height and gusset depth can be customized according to the product, retail box or gift set. Final dimensions should be confirmed during sampling.",
+    a: "Yes. Width, gusset depth and height can be customized according to the product, retail box or gift set. Final dimensions should be confirmed during sampling.",
   },
   {
     q: "Can you match specific Pantone (PMS) brand colors?",
@@ -516,7 +516,7 @@ export default function LuxuryPaperBagsPage() {
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
               <h1>Custom Printed Paper Bags with Your Logo</h1>
               <p className="mrb-lead">
-                Create branded paper carrier bags for fashion labels, boutiques and retail businesses.
+                SORIVA manufactures custom printed paper bags and supplies branded paper carrier bags for fashion labels, boutiques and retail businesses.
                 Discuss custom dimensions, paper materials, handle options and logo printing with SORIVA.
                 Orders start at 100 bags, with coordinated luxury packaging available for your collection.
               </p>
@@ -549,7 +549,7 @@ export default function LuxuryPaperBagsPage() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/paper-bags.webp"
+                src="/img/sample-paperbag-ribbon-minimal.jpg?v=20261115"
                 alt="Custom luxury paper shopping bags with handles and gold foil finishing"
                 width="1200"
                 height="900"
@@ -621,7 +621,7 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
             <article className="mrb-feature">
               <h3>01 · Size &amp; Intended Load</h3>
-              <p>Share bag dimensions (L × gusset × H), product dimensions, approximate packed weight and how the bag will be carried.</p>
+              <p>Share bag dimensions (W × G × H), product dimensions, approximate packed weight and how the bag will be carried.</p>
             </article>
             <article className="mrb-feature">
               <h3>02 · Material &amp; Handles</h3>
@@ -830,7 +830,7 @@ export default function LuxuryPaperBagsPage() {
             <span className="eyebrow dark">DIMENSION GUIDE</span>
             <h2>Custom Sizes Engineered to Fit Your Products</h2>
             <p>
-              Paper bag dimensions are specified as Length × Width (Gusset) × Height. Below are
+              Paper bag dimensions are specified as Width × Gusset × Height (W × G × H). Below are
               common industry standard reference proportions.
             </p>
           </div>
@@ -839,7 +839,7 @@ export default function LuxuryPaperBagsPage() {
               <thead>
                 <tr>
                   <th>Category</th>
-                  <th>Standard Reference Dimensions (L × W × H)</th>
+                  <th>Standard Reference Dimensions (W × G × H)</th>
                   <th>Typical Industry Applications</th>
                 </tr>
               </thead>
@@ -980,7 +980,7 @@ export default function LuxuryPaperBagsPage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/sample-paperbag-matching-set.jpg"
+              src="/img/showroom-paperbag-assortment.png?v=20261115"
               alt="Coordinated paper bag and gift box packaging set"
               loading="lazy"
               decoding="async"
@@ -1136,7 +1136,7 @@ export default function LuxuryPaperBagsPage() {
               controls
               playsInline
               preload="none"
-              poster="/img/showroom-wide-display.png"
+              poster="/img/showroom-wide-display.png?v=20261115"
               style={{ width: "100%", maxHeight: 480, display: "block" }}
             >
               <source src="/video/showroom-paperbag-tour.mp4" type="video/mp4" />
@@ -1325,9 +1325,9 @@ export default function LuxuryPaperBagsPage() {
             <span className="mrb-eyebrow">START A PROJECT</span>
             <h2>Start Your Custom Paper Bag Project</h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
-              Send us your target size, quantity, logo artwork, material preference and destination.
-              Our packaging specialists can help review suitable paper, printing, finishing and
-              handle options for your project.
+              Send us your bag width, gusset, height, quantity, logo artwork, paper preference, handle style,
+              finishing requirements and destination. Our packaging specialists can review suitable
+              materials, printing and construction for your project.
             </p>
             <ul style={{ color: "#c5c5c5", lineHeight: 2, paddingLeft: 18, margin: "16px 0" }}>
               <li>MOQ from 100 pcs for selected projects</li>
