@@ -189,7 +189,7 @@ const industries = [
     href: "/industries/fashion-packaging/",
   },
   {
-    img: "/img/project-pr-clean.webp",
+    img: "/img/v18-corporate.webp",
     alt: "Corporate gift packaging",
     title: "Corporate Gifts",
     desc: "Gift set packaging for campaigns, events and executive presents.",

@@ -7,7 +7,7 @@ const page: IndustryLanding = {
   description: "Premium packaging for executive gifts, events, campaigns and seasonal programs.",
   eyebrow: "CORPORATE GIFT PACKAGING",
   subtitle: "Premium Presentation for Executive Gifts & Campaigns",
-  image: "/img/project-pr-clean.webp",
+  image: "/img/project-gift-clean.webp",
   imageAlt: "Custom corporate gift packaging",
   message: "Hello SORIVA Packaging, I am interested in custom corporate gift packaging and would like to discuss structure, insert, MOQ, timeline and pricing.",
   recommendations: [
@@ -17,7 +17,7 @@ const page: IndustryLanding = {
     { img: "/img/sample-paperbag-ribbon-minimal.jpg", alt: "Luxury corporate gift paper bag", title: "Luxury Paper Bags", desc: "Matching bags for events, launches and retail gifting.", slug: "luxury-paper-bags" },
   ],
   applications: ["Executive Gifts", "Event Gift Sets", "Holiday Campaigns", "Brand Launch Kits"],
-  applicationImage: "/img/project-pr-clean.webp",
+  applicationImage: "/img/v18-corporate.webp",
   applicationAlt: "Corporate gift packaging",
   customization: [
     { title: "Materials", items: ["Rigid Greyboard", "Art Paper", "Specialty Paper", "Textured Paper"] },

@@ -59,8 +59,8 @@ const industries = [
   { img: "/img/project-perfume.webp", alt: "Perfume packaging", title: "Perfume Packaging", href: "/industries/perfume-packaging/" },
   { img: "/img/soriva-flip-top-jewelry-boxes-hd.webp", alt: "Jewelry packaging", title: "Jewelry Packaging", href: "/industries/jewelry-packaging/" },
   { img: "/img/sample-paperbag-coordinated-floral.jpg", alt: "Fashion packaging", title: "Fashion Packaging", href: "/industries/fashion-packaging/" },
-  { img: "/img/project-pr-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/industries/corporate-gift-packaging/" },
-  { img: "/img/project-candle-clean.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/industries/candle-packaging/" },
+  { img: "/img/project-gift-clean.webp", alt: "Corporate gift packaging", title: "Corporate Gifts", href: "/industries/corporate-gift-packaging/" },
+  { img: "/img/v18-candle.webp", alt: "Candle packaging", title: "Candle Packaging", href: "/industries/candle-packaging/" },
 ];
 
 const stats = [

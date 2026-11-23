@@ -80,7 +80,7 @@ const applications = [
     href: "/industries/corporate-gift-packaging/",
   },
   {
-    img: "/img/project-candle-clean.webp",
+    img: "/img/v20-candle-sets.webp",
     title: "Candles & Home Fragrance",
     desc: "Candles, diffusers and multi-item home fragrance gift sets.",
     href: "/industries/candle-packaging/",
