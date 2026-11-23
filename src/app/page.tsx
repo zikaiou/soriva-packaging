@@ -26,12 +26,13 @@ export const metadata: Metadata = {
 const products = [
   {
     "slug": "magnetic-rigid-boxes",
-    "title": "Magnetic Rigid Gift Boxes",
+    "title": "Custom Magnetic Rigid Gift Box",
     "img": "/img/magnetic-rigid.webp",
-    "alt": "Magnetic Rigid Gift Boxes packaging reference",
-    "structure": "Magnetic flap closure",
-    "use": "Beauty, fragrance and gift sets",
-    "options": "Custom inserts, logo printing and surface finishes"
+    "alt": "Black magnetic rigid gift box with a fitted perfume insert and gold branding",
+    "structure": "Rigid greyboard · hinged magnetic flap",
+    "use": "Cosmetics, fragrance and premium gift sets",
+    "options": "Custom insert, logo printing and surface finishes",
+    "description": "A rigid greyboard box with a hinged magnetic flap, customizable paper wrap and fitted insert for a refined product presentation."
   },
   {
     "slug": "two-piece-rigid-boxes",
@@ -326,7 +327,9 @@ export default function Home() {
                   <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 33vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                 </a>
                 <div className="home-product-body">
+                  {product.slug === "magnetic-rigid-boxes" && <span className="home-product-label">MAGNETIC RIGID BOX</span>}
                   <h3><a href={`/products/${product.slug}/`}>{product.title}</a></h3>
+                  {"description" in product && <p className="home-product-description">{product.description}</p>}
                   <p className="home-product-structure">{product.structure}</p>
                   <dl>
                     <div><dt>Suitable for</dt><dd>{product.use}</dd></div>
