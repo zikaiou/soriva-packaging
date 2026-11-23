@@ -7,65 +7,149 @@ import WhatsAppIcon from "./components/WhatsAppIcon";
 import { waLink, WA_MESSAGES } from "./lib/whatsapp";
 
 export const metadata: Metadata = {
-  title: { absolute: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA" },
-  description: "Custom printed paper bags with logo for fashion brands, boutiques and retail businesses. MOQ 100 bags, with coordinated luxury packaging available. Request a quote.",
+  title: { absolute: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA" },
+  description: "Explore magnetic gift boxes, drawer boxes, lid-and-base boxes, foldable packaging, jewelry boxes, paper tubes and custom paper bags. View details and request a quote.",
   openGraph: {
-    title: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA",
-    description: "Branded paper shopping bags for fashion labels and boutiques. MOQ 100 bags, with coordinated luxury packaging available.",
+    title: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA",
+    description: "Compare custom gift box structures, jewelry packaging and paper shopping bags, with dedicated details and quotation options for every product type.",
     url: "https://www.sorivapackaging.com/",
-    images: [{ url: "/img/paper-bags.webp", width: 1200, height: 900, alt: "Custom paper shopping bags with logo" }],
+    images: [{ url: "/img/hero-boxes.webp", width: 1200, height: 820, alt: "Custom luxury gift box packaging" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Paper Shopping Bags & Luxury Packaging | SORIVA",
-    description: "Custom printed paper bags for fashion brands and boutiques. Orders start at 100 bags.",
-    images: ["/img/paper-bags.webp"],
+    title: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA",
+    description: "Custom gift boxes, jewelry packaging and printed paper bags. Compare structures and request a project quote.",
+    images: ["/img/hero-boxes.webp"],
   },
 };
 
 const products = [
   {
-    img: "/img/soriva-paper-bags-concept.webp",
-    alt: "Custom luxury paper bags",
-    title: "Luxury Paper Bags",
-    desc: "Branded retail bags designed to complete your premium packaging system.",
-    slug: "luxury-paper-bags",
+    "slug": "magnetic-rigid-boxes",
+    "title": "Magnetic Rigid Gift Boxes",
+    "img": "/img/magnetic-rigid.webp",
+    "alt": "Magnetic Rigid Gift Boxes packaging reference",
+    "structure": "Magnetic flap closure",
+    "use": "Beauty, fragrance and gift sets",
+    "options": "Custom inserts, logo printing and surface finishes"
   },
   {
-    img: "/img/magnetic-rigid.webp",
-    alt: "Custom magnetic rigid box",
-    title: "Magnetic Rigid Boxes",
-    desc: "Premium magnetic closure packaging for cosmetics, gifts and luxury products.",
-    slug: "magnetic-rigid-boxes",
+    "slug": "two-piece-rigid-boxes",
+    "title": "Two-Piece Lid & Base Boxes",
+    "img": "/img/two-piece-rigid-box-correct.png.png",
+    "alt": "Two-Piece Lid & Base Boxes packaging reference",
+    "structure": "Separate lid and base",
+    "use": "Jewelry, apparel and premium gifts",
+    "options": "Custom dimensions, paper wrap and inserts"
   },
   {
-    img: "/img/two-piece-rigid-box-correct.png.png",
-    alt: "Two piece rigid gift box",
-    title: "Two-Piece Rigid Boxes",
-    desc: "Classic lid-and-base presentation boxes with premium finishes and inserts.",
-    slug: "two-piece-rigid-boxes",
+    "slug": "drawer-boxes",
+    "title": "Sliding Drawer Boxes",
+    "img": "/img/drawer-box.webp",
+    "alt": "Sliding Drawer Boxes packaging reference",
+    "structure": "Sliding sleeve and tray",
+    "use": "Jewelry, accessories and discovery sets",
+    "options": "Tray layout, ribbon pulls and logo finishes"
   },
   {
-    img: "/img/drawer-box.webp",
-    alt: "Custom drawer packaging box",
-    title: "Drawer Boxes",
-    desc: "Elegant sliding boxes ideal for jewelry, beauty products and fragrances.",
-    slug: "drawer-boxes",
+    "slug": "foldable-magnetic-rigid-boxes",
+    "title": "Foldable Magnetic Boxes",
+    "img": "/img/foldable-rigid.webp",
+    "alt": "Foldable Magnetic Boxes packaging reference",
+    "structure": "Collapsible rigid construction",
+    "use": "Apparel and corporate gift programs",
+    "options": "Fold-flat structure, colors and branding"
   },
   {
-    img: "/img/foldable-rigid.webp",
-    alt: "Foldable rigid gift box",
-    title: "Foldable Rigid Boxes",
-    desc: "Luxury presentation with reduced storage and international shipping volume.",
-    slug: "foldable-magnetic-rigid-boxes",
+    "slug": "tube-packaging",
+    "title": "Custom Paper Tube Packaging",
+    "img": "/img/tube-packaging-black-gold-reference.jpg",
+    "alt": "Custom Paper Tube Packaging packaging reference",
+    "structure": "Cylindrical paper structure",
+    "use": "Fragrance, candles and specialty gifts",
+    "options": "Diameter, height, wrap and logo printing"
   },
   {
-    img: "/img/soriva-tube-packaging-concept.webp",
-    alt: "Luxury tube packaging",
-    title: "Tube Packaging",
-    desc: "Custom cylindrical packaging for fragrance, candles, bottles and gifts.",
-    slug: "tube-packaging",
+    "slug": "luxury-paper-bags",
+    "title": "Custom Printed Paper Bags",
+    "img": "/img/sample-paperbag-ribbon-minimal.jpg",
+    "alt": "Custom Printed Paper Bags packaging reference",
+    "structure": "Paper shopping bag with handles",
+    "use": "Fashion boutiques and retail collections",
+    "options": "Size, paper, handles and logo printing"
   },
+  {
+    "slug": "custom-jewelry-boxes",
+    "title": "Custom Jewelry Packaging",
+    "img": "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    "alt": "Custom Jewelry Packaging packaging reference",
+    "structure": "Coordinated jewelry box collection",
+    "use": "Jewelry brands and retail gifting",
+    "options": "Box structure, fitted inserts and finishing"
+  },
+  {
+    "slug": "custom-ring-boxes",
+    "title": "Custom Ring Boxes",
+    "img": "/img/project-jewelry.webp",
+    "alt": "Custom Ring Boxes packaging reference",
+    "structure": "Compact ring presentation box",
+    "use": "Fine jewelry and bridal collections",
+    "options": "Ring inserts, dimensions and brand finishes"
+  },
+  {
+    "slug": "custom-necklace-earring-boxes",
+    "title": "Necklace & Earring Boxes",
+    "img": "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    "alt": "Necklace & Earring Boxes packaging reference",
+    "structure": "Fitted jewelry presentation",
+    "use": "Necklaces, pendants and earring sets",
+    "options": "Insert layout, lining and logo placement"
+  },
+  {
+    "slug": "flip-top-jewelry-boxes",
+    "title": "Flip-Top Jewelry Boxes",
+    "img": "/img/soriva-flip-top-jewelry-boxes-hd.webp",
+    "alt": "Flip-Top Jewelry Boxes packaging reference",
+    "structure": "Attached flip-top lid",
+    "use": "Jewelry collections and premium retail",
+    "options": "Interior presentation, outer wrap and branding"
+  },
+  {
+    "slug": "pu-leather-jewelry-boxes",
+    "title": "PU Leather Jewelry Boxes",
+    "img": "/img/portable-ring-box-hero.webp",
+    "alt": "PU Leather Jewelry Boxes packaging reference",
+    "structure": "PU-covered presentation box",
+    "use": "Jewelry retail and coordinated gift sets",
+    "options": "Covering, lining, insert and logo options"
+  },
+  {
+    "slug": "portable-ring-box",
+    "title": "Portable Ring Boxes",
+    "img": "/img/portable-ring-box-hero.webp",
+    "alt": "Portable Ring Boxes packaging reference",
+    "structure": "Compact portable ring case",
+    "use": "Ring presentation and travel use",
+    "options": "Exterior, interior and brand details"
+  },
+  {
+    "slug": "custom-gift-boxes-with-inserts",
+    "title": "Custom Gift Boxes with Inserts",
+    "img": "/img/two-piece-rigid-box-perfume-application.png",
+    "alt": "Custom Gift Boxes with Inserts packaging reference",
+    "structure": "Rigid box with a fitted insert",
+    "use": "Multi-product gifts and presentation sets",
+    "options": "Box dimensions, insert cavities and finishes"
+  },
+  {
+    "slug": "custom-vial-sample-kit-boxes",
+    "title": "Vial & Sample Kit Boxes",
+    "img": "/img/project-perfume.webp",
+    "alt": "Vial & Sample Kit Boxes packaging reference",
+    "structure": "Box with individual sample cavities",
+    "use": "Fragrance discovery and sample programs",
+    "options": "Cavity size, sample layout and branding"
+  }
 ];
 
 const industries = [
@@ -171,19 +255,24 @@ const sustainList = [
 export default function Home() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "ItemList", name: "SORIVA Custom Packaging Types",
+        numberOfItems: products.length,
+        itemListElement: products.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.title, url: `https://www.sorivapackaging.com/products/${product.slug}/` })),
+      }) }} />
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow">CUSTOM LUXURY PACKAGING</span>
             <h1>
-              Custom Paper Shopping Bags
+              Custom Gift Boxes
               <br />
-              &amp; Luxury Packaging
+              &amp; Branded Paper Bags
             </h1>
             <p>
-              Branded paper bags for fashion labels, boutiques and retail businesses,
-              with coordinated luxury packaging options. Start your custom paper bag
-              project with a minimum order of 100 bags.
+              Compare magnetic, lid-and-base, drawer and foldable gift boxes,
+              jewelry packaging, paper tubes and custom printed shopping bags.
+              Choose a product type to explore structures, materials and branding options.
             </p>
             <div className="hero-actions">
               <a href="#quote" className="btn gold">
@@ -197,8 +286,8 @@ export default function Home() {
               >
                 <WhatsAppIcon /> Chat on WhatsApp
               </a>
-              <a href="/products/luxury-paper-bags/" className="btn ghost">
-                Explore Custom Paper Bags
+              <a href="#products" className="btn ghost">
+                Explore All Packaging Types
               </a>
             </div>
             <div className="trust-row">
@@ -210,16 +299,49 @@ export default function Home() {
           </div>
           <div className="hero-media">
             <Image
-              src="/img/paper-bags.webp"
-              alt="Custom paper shopping bags with handles and logo finishing"
+              src="/img/hero-boxes.webp"
+              alt="Custom luxury gift boxes for branded product packaging"
               width={1200}
-              height={900}
+              height={820}
               priority
               fetchPriority="high"
               sizes="(max-width: 980px) 100vw, 54vw"
               quality={80}
             />
           </div>
+        </div>
+      </section>
+
+      <section className="section home-catalog" id="products" aria-labelledby="packaging-catalog-title">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow dark">COMPLETE PACKAGING COLLECTION</span>
+            <h2 id="packaging-catalog-title">Explore All Custom Packaging Types</h2>
+            <p>Compare all 14 current product categories. Open any type for its construction, materials, customization options and quotation details.</p>
+          </div>
+          <div className="home-catalog-grid">
+            {products.map((product) => (
+              <article className="home-product-card" key={product.slug}>
+                <a className="home-product-image" href={`/products/${product.slug}/`} aria-label={`Explore ${product.title}`}>
+                  <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 33vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                </a>
+                <div className="home-product-body">
+                  <h3><a href={`/products/${product.slug}/`}>{product.title}</a></h3>
+                  <p className="home-product-structure">{product.structure}</p>
+                  <dl>
+                    <div><dt>Suitable for</dt><dd>{product.use}</dd></div>
+                    <div><dt>Customize</dt><dd>{product.options}</dd></div>
+                  </dl>
+                  <div className="home-product-actions">
+                    <a href={`/products/${product.slug}/`}>View Details <span aria-hidden="true">→</span><span className="home-sr-only">: {product.title}</span></a>
+                    <a href={`/rfq/?source_page=%2F&interest=${encodeURIComponent(product.title)}`}>Request a Quote<span className="home-sr-only">: {product.title}</span></a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+          <p className="home-catalog-note">Images show product or design references. Final dimensions, materials, minimum quantities, pricing and production schedules are confirmed for each project.</p>
+          <div className="section-cta"><a href="/products/" className="btn dark">Browse the Product Directory →</a><a href="/rfq/" className="btn ghost factory-verify-cta">Help Me Choose a Structure</a></div>
         </div>
       </section>
 
@@ -254,48 +376,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section" id="products">
-        <div className="container">
-          <div className="section-head">
-            <span className="eyebrow dark">OUR PACKAGING</span>
-            <h2>Explore Our Packaging</h2>
-            <p>
-              Premium custom packaging built around your product, brand and
-              customer experience.
-            </p>
-          </div>
-          <div className="product-grid">
-            {products.map((p) => (
-              <article className="card" key={p.title}>
-                <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
-                <div>
-                  <h3>{p.title}</h3>
-                  <p>{p.desc}</p>
-                  <a href={p.slug ? `/products/${p.slug}/` : "#quote"}>
-                    {p.slug ? "View Details" : "View Details"}
-                  </a>
-                </div>
-              </article>
-            ))}
-          </div>
-          <div className="section-cta">
-            <a
-              href="/products/"
-              className="btn dark"
-            >
-              Explore All Product Categories →
-            </a>
-            <a
-              href={waLink(WA_MESSAGES.products)}
-              target="_blank"
-              rel="noopener"
-              className="btn-wa"
-            >
-              <WhatsAppIcon /> Ask about our packaging products
-            </a>
-          </div>
-        </div>
-      </section>
 
       <section className="section soft" id="industries">
         <div className="container">
