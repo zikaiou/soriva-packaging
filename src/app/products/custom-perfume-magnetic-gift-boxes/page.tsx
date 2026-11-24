@@ -63,7 +63,7 @@ const schema = {
   ],
 };
 
-const quoteParams = new URLSearchParams({ product: PRODUCT_NAME, source_page: PRODUCT_PATH });
+const quoteParams = new URLSearchParams({ interest: PRODUCT_NAME, source_page: PRODUCT_PATH });
 
 export default function CustomPerfumeMagneticGiftBoxesPage() {
   return (
