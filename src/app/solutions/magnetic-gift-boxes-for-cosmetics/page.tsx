@@ -10,7 +10,7 @@ const PAGE_URL = "https://www.sorivapackaging.com/solutions/magnetic-gift-boxes-
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Gift Boxes for Cosmetics | Custom Luxury Cosmetic Packaging | SORIVA Packaging",
+    absolute: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
   },
   description:
     "Custom magnetic gift boxes for cosmetics and luxury skincare collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Magnetic Gift Boxes for Cosmetics | Custom Luxury Cosmetic Packaging | SORIVA Packaging",
+    title: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
     description:
       "Custom magnetic gift boxes for cosmetics and luxury skincare collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
     siteName: "SORIVA Packaging",
@@ -99,11 +99,6 @@ const samples = [
     desc: "Foldable magnetic rigid box with rose gold foil stamping, custom-cut EVA insert and Pantone color matching.",
   },
   {
-    img: "/img/project-skincare.webp",
-    title: "Luxury Beauty Presentation Set",
-    desc: "Book-style magnetic closure gift box with velvet-lined interior tray for skincare bottles and jars.",
-  },
-  {
     img: "/img/foldable-rigid.webp",
     title: "Collapsible Cosmetic Carrier Box",
     desc: "Space-saving foldable magnetic box engineered for efficient international shipping and retail display.",
@@ -142,7 +137,7 @@ const structuredData = {
     },
     {
       "@type": "Service",
-      name: "Custom Magnetic Gift Boxes for Cosmetics",
+      name: "Custom Cosmetic Magnetic Gift Boxes",
       description:
         "OEM/ODM custom magnetic gift box manufacturing for cosmetics, beauty and skincare brands.",
       provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
@@ -176,7 +171,7 @@ export default function CosmeticMagneticBoxesSolution() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">COSMETIC &amp; BEAUTY PACKAGING</span>
-              <h1>Custom Magnetic Gift Boxes for Cosmetics</h1>
+              <h1>Custom Cosmetic Magnetic Gift Boxes</h1>
               <p className="mrb-lead">
                 Create memorable beauty unboxing experiences with custom magnetic gift boxes.
                 Engineered with multi-product cavity inserts, soft-touch velvet lamination,
@@ -221,7 +216,7 @@ export default function CosmeticMagneticBoxesSolution() {
         <div className="container">
           <div className="mrb-head">
             <span className="eyebrow dark">COSMETIC SET DECISION</span>
-            <h2>Buyer Decision Notes</h2>
+            <h2>How to Plan a Multi-Product Skincare Gift Box</h2>
             <p>Cosmetic packaging buyers are often solving a multi-SKU layout rather than a single-product box. A magnetic gift box should therefore be planned around the combination of serums, jars, droppers, spatulas or promotional accessories that will appear together. The primary structural decision is the cavity map: each item needs its own position, clearance and visual order. The inner lid can then support a routine message, ingredient story or launch theme without competing with the product set. Paper wrap, interior lining and print colors should be checked as one brand system, especially when several finishes appear beside white, glass or pastel packaging. A physical product set, target assortment and intended campaign use give the supplier enough information to propose an insert layout that is practical for sampling and repeat production.</p>
           </div>
         </div>
@@ -323,7 +318,7 @@ export default function CosmeticMagneticBoxesSolution() {
           <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
             {samples.map((s) => (
               <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
-                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: 260, objectFit: "cover" }} />
+                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: "auto", aspectRatio: "4 / 3", objectFit: "contain" }} />
                 <div style={{ padding: "16px 20px" }}>
                   <b style={{ fontSize: 17, color: "#111", display: "block", marginBottom: 6 }}>{s.title}</b>
                   <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
