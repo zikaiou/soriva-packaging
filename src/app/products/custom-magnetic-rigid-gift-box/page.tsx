@@ -48,7 +48,7 @@ export default function CustomMagneticRigidGiftBoxPage() {
               <span className="mrb-eyebrow">BLACK &amp; GOLD PRESENTATION BOX</span>
               <h1>Custom Magnetic Rigid Gift Box</h1>
               <p className="mrb-subtitle">A matte black magnetic gift box with gold foil branding</p>
-              <p className="mrb-lead">Present your product in a rigid greyboard box with a hinged magnetic flap, customized paper wrap and a fitted insert. Develop the dimensions, interior layout and branding around your product.</p>
+              <p className="mrb-lead">Present your product in a custom black magnetic rigid gift box with a hinged magnetic flap, customized paper wrap and a fitted insert. Develop the dimensions, interior layout and branding around your product.</p>
               <div className="mrb-hero-actions">
                 <a className="btn gold" href="#quote">Request a Quote</a>
                 <a className="btn-wa" href={waLink("Hello SORIVA Packaging, I am interested in the Custom Black Magnetic Rigid Gift Box. Please help me with customization and a quotation.")} target="_blank" rel="noopener noreferrer"><WhatsAppIcon /> Chat on WhatsApp</a>
