@@ -10,19 +10,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/solutions/magnetic-rigid-boxes
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Perfume Boxes | Custom Rigid Packaging | SORIVA",
+    absolute: "Custom Perfume Magnetic Gift Boxes Manufacturer | SORIVA",
   },
   description:
-    "Custom magnetic perfume boxes for fragrance bottles and gift sets. Choose rigid or foldable structures, custom bottle inserts and branded finishes. Request a quote.",
+    "Custom perfume magnetic gift boxes with fitted bottle inserts, branded logos and luxury finishes. Factory-direct fragrance packaging. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Magnetic Perfume Boxes | Custom Rigid Packaging | SORIVA",
+    title: "Custom Perfume Magnetic Gift Boxes Manufacturer | SORIVA",
     description:
-      "Custom magnetic perfume boxes for fragrance bottles and gift sets. Choose rigid or foldable structures, custom bottle inserts and branded finishes. Request a quote.",
+      "Custom perfume magnetic gift boxes with fitted bottle inserts, branded logos and luxury finishes. Factory-direct fragrance packaging. Request a quote.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -142,7 +142,7 @@ const structuredData = {
     },
     {
       "@type": "Service",
-      name: "Custom Magnetic Rigid Boxes for Perfume",
+      name: "Custom Perfume Magnetic Gift Boxes",
       description:
         "OEM/ODM custom magnetic rigid box manufacturing for perfume, fragrance and beauty brands.",
       provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
@@ -171,14 +171,14 @@ export default function PerfumeMagneticBoxesSolution() {
       <section className="mrb-hero">
         <div className="container">
           <nav className="mrb-breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a> / <a href="/custom-packaging/">Solutions</a> / Magnetic Rigid Boxes for Perfume
+            <a href="/">Home</a> / <a href="/custom-packaging/">Solutions</a> / Custom Perfume Magnetic Gift Boxes
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">FRAGRANCE &amp; PERFUME PACKAGING</span>
-              <h1>Custom Magnetic Rigid Boxes for Perfume</h1>
+              <h1>Custom Perfume Magnetic Gift Boxes</h1>
               <p className="mrb-lead">
-                Develop custom magnetic perfume boxes around bottle dimensions, cap clearance
+                SORIVA manufactures custom perfume magnetic gift boxes around bottle dimensions, cap clearance
                 and protective inserts. Choose assembled or foldable rigid structures, concealed
                 magnetic closures and branded finishes for fragrance collections and gift sets.
               </p>
@@ -190,7 +190,7 @@ export default function PerfumeMagneticBoxesSolution() {
                 <span>Worldwide Shipping</span>
               </div>
               <div className="mrb-hero-actions">
-                <a href="/rfq/" className="btn gold">
+                <a href="/rfq/?source_page=%2Fsolutions%2Fmagnetic-rigid-boxes-for-perfume%2F&amp;interest=Custom%20Perfume%20Magnetic%20Gift%20Boxes" className="btn gold">
                   Request Packaging Quote
                 </a>
                 <a
@@ -316,9 +316,9 @@ export default function PerfumeMagneticBoxesSolution() {
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">SAMPLE PROOF</span>
-            <h2>Real Perfume Magnetic Box References</h2>
-            <p>Explore real packaging capability samples produced for fragrance and perfume brands.</p>
+            <span className="eyebrow dark">PACKAGING REFERENCES</span>
+            <h2>Perfume Magnetic Gift Box Design References</h2>
+            <p>Explore packaging design references for fragrance and perfume brands. Final structures and inserts are developed for each project.</p>
           </div>
           <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
             {samples.map((s) => (
@@ -425,7 +425,7 @@ export default function PerfumeMagneticBoxesSolution() {
         <div className="container mrb-quote-grid">
           <div>
             <span className="mrb-eyebrow">START A PROJECT</span>
-            <h2>Develop Your Custom Perfume Magnetic Boxes</h2>
+            <h2>Develop Your Custom Perfume Magnetic Gift Boxes</h2>
             <p style={{ color: "#c5c5c5", lineHeight: 1.7, margin: "12px 0 16px" }}>
               Send us your perfume bottle dimensions, target quantity, artwork files and insert preferences.
               Our packaging specialists will provide dielines, material recommendations and quotation.
