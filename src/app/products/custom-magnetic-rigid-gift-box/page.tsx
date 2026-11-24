@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import QuoteForm from "../../components/QuoteForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
-import { waLink, WA_MESSAGES } from "../../lib/whatsapp";
+import { waLink } from "../../lib/whatsapp";
 import "../product-page.css";
 
 const PAGE_URL = "https://www.sorivapackaging.com/products/custom-magnetic-rigid-gift-box/";
