@@ -85,3 +85,17 @@
 .home-product-actions{padding-top:8px;gap:4px 10px}
 .home-product-actions a{min-height:44px;font-size:13px}
 @media(max-width:620px){.home-product-body{padding:14px 16px 10px}.home-product-body h3{min-height:0}}
+
+/* Four-column compact catalog */
+@media(min-width:1101px){.home-catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}}
+.home-product-label{border:0;background:#f4eee4;color:#79561f;border-radius:4px;padding:4px 7px;margin:0 0 8px;letter-spacing:.05em}
+.home-product-body{padding:14px}
+.home-product-body h3{font-size:19px;min-height:2.4em}
+.home-product-description{font-size:13px;line-height:1.5;margin-bottom:12px}
+.home-product-body .home-product-specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:auto 0 10px;font-size:12px;line-height:1.35}
+.home-product-specs>div+div{margin-top:0!important}
+.home-product-specs dt{font-size:10px;letter-spacing:.03em}
+.home-product-specs dd{font-weight:600;overflow-wrap:anywhere}
+.home-product-actions{margin-top:0;display:flex;flex-direction:column;align-items:stretch;gap:0;border:0;padding:0}
+.home-product-actions a:last-child{order:-1;border:1px solid #b39155;border-radius:5px;justify-content:center;min-height:40px}
+.home-product-actions a:first-child{justify-content:center;min-height:36px}
