@@ -72,9 +72,9 @@ const perfumePriorities = [
 
 const recommendedStructures = [
   {
-    img: "/img/magnetic-rigid.webp",
-    alt: "Magnetic rigid perfume packaging box",
-    title: "Magnetic Rigid Boxes",
+    img: "/img/perfume-magnetic-gift-box-champagne-v2.webp",
+    alt: "Champagne magnetic perfume gift box design reference",
+    title: "Custom Perfume Magnetic Gift Boxes",
     desc: "Book-style or front-opening magnetic closure boxes delivering an upscale retail opening experience.",
     slug: "magnetic-rigid-boxes",
   },
@@ -401,7 +401,7 @@ export default function PerfumePackagingPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">RECOMMENDED STRUCTURES</span>
-            <h2>Box Structures for Perfume Packaging</h2>
+            <h2>Compare Perfume Packaging Boxes by Structure</h2>
             <p>
               Explore rigid box formats engineered for fragrance bottle protection, gifting and
               boutique retail display.
@@ -427,7 +427,7 @@ export default function PerfumePackagingPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BOTTLE INSERTS</span>
-            <h2>Custom Inserts for Perfume Bottles</h2>
+            <h2>Custom Inserts for Perfume Bottle Packaging</h2>
             <p>
               The insert secures the bottle neck, base and cap, preventing internal movement during
               handling and transit.
@@ -657,7 +657,7 @@ export default function PerfumePackagingPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">FACTORY CAPABILITY</span>
-            <h2>Custom Packaging Support for Global Perfume Brands</h2>
+            <h2>Perfume Packaging Supplier for Global Fragrance Brands</h2>
             <p>
               Backed by robust production infrastructure, experienced craftsmen and strict QC
               inspections before international dispatch.
