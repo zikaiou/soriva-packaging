@@ -10,27 +10,27 @@ const PAGE_URL = "https://www.sorivapackaging.com/solutions/magnetic-gift-boxes-
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Gift Boxes for Cosmetics | Custom Luxury Cosmetic Packaging | SORIVA Packaging",
+    absolute: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
   },
   description:
-    "Custom magnetic gift boxes for cosmetics and luxury skincare collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
+    "Custom cosmetic magnetic gift boxes for skincare sets and beauty brands. Choose fitted inserts, magnetic closures and luxury finishes for wholesale projects.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Magnetic Gift Boxes for Cosmetics | Custom Luxury Cosmetic Packaging | SORIVA Packaging",
+    title: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
     description:
-      "Custom magnetic gift boxes for cosmetics and luxury skincare collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
+      "Custom cosmetic magnetic gift boxes for skincare sets and beauty brands. Choose fitted inserts, magnetic closures and luxury finishes for wholesale projects.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/project-skincare.webp",
+        url: "https://www.sorivapackaging.com/img/cosmetic-magnetic-gift-box-pink.webp",
         width: 1200,
         height: 900,
-        alt: "Custom magnetic gift boxes for cosmetics and luxury skincare",
+        alt: "Pink magnetic cosmetic gift box with fitted skincare inserts, design visualization",
       },
     ],
   },
@@ -94,14 +94,9 @@ const inserts = [
 
 const samples = [
   {
-    img: "/img/project-skincare.webp",
+    img: "/img/cosmetic-magnetic-gift-box-pink.webp",
     title: "Multi-Product Skincare Magnetic Box",
-    desc: "Foldable magnetic rigid box with rose gold foil stamping, custom-cut EVA insert and Pantone color matching.",
-  },
-  {
-    img: "/img/project-skincare.webp",
-    title: "Luxury Beauty Presentation Set",
-    desc: "Book-style magnetic closure gift box with velvet-lined interior tray for skincare bottles and jars.",
+    desc: "Pink magnetic gift box design visualization with individual skincare product cavities and gold branding.",
   },
   {
     img: "/img/foldable-rigid.webp",
@@ -142,7 +137,7 @@ const structuredData = {
     },
     {
       "@type": "Service",
-      name: "Custom Magnetic Gift Boxes for Cosmetics",
+      name: "Custom Cosmetic Magnetic Gift Boxes",
       description:
         "OEM/ODM custom magnetic gift box manufacturing for cosmetics, beauty and skincare brands.",
       provider: { "@type": "Organization", name: "SORIVA Packaging", url: "https://www.sorivapackaging.com/" },
@@ -176,9 +171,9 @@ export default function CosmeticMagneticBoxesSolution() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">COSMETIC &amp; BEAUTY PACKAGING</span>
-              <h1>Custom Magnetic Gift Boxes for Cosmetics</h1>
+              <h1>Custom Cosmetic Magnetic Gift Boxes</h1>
               <p className="mrb-lead">
-                Create memorable beauty unboxing experiences with custom magnetic gift boxes.
+                Create luxury skincare gift box packaging with custom magnetic gift boxes for cosmetics.
                 Engineered with multi-product cavity inserts, soft-touch velvet lamination,
                 concealed magnetic closure and metallic foil stamping for premium skincare and cosmetic sets.
               </p>
@@ -208,8 +203,8 @@ export default function CosmeticMagneticBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/project-skincare.webp"
-                alt="Custom magnetic gift boxes for cosmetics and luxury skincare"
+                src="/img/cosmetic-magnetic-gift-box-pink.webp"
+                alt="Pink magnetic cosmetic gift box with fitted skincare inserts, design visualization"
                 width="1200"
                 height="900"
               />
@@ -221,7 +216,7 @@ export default function CosmeticMagneticBoxesSolution() {
         <div className="container">
           <div className="mrb-head">
             <span className="eyebrow dark">COSMETIC SET DECISION</span>
-            <h2>Buyer Decision Notes</h2>
+            <h2>How to Plan a Multi-Product Skincare Gift Box</h2>
             <p>Cosmetic packaging buyers are often solving a multi-SKU layout rather than a single-product box. A magnetic gift box should therefore be planned around the combination of serums, jars, droppers, spatulas or promotional accessories that will appear together. The primary structural decision is the cavity map: each item needs its own position, clearance and visual order. The inner lid can then support a routine message, ingredient story or launch theme without competing with the product set. Paper wrap, interior lining and print colors should be checked as one brand system, especially when several finishes appear beside white, glass or pastel packaging. A physical product set, target assortment and intended campaign use give the supplier enough information to propose an insert layout that is practical for sampling and repeat production.</p>
           </div>
         </div>
@@ -233,7 +228,7 @@ export default function CosmeticMagneticBoxesSolution() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BEAUTY PACKAGING PRIORITIES</span>
-            <h2>Why Magnetic Gift Boxes Suit Cosmetics</h2>
+            <h2>Why Magnetic Gift Boxes Suit Skincare and Cosmetics</h2>
             <p>Multi-product skincare routines benefit from organized presentation, reliable protection and a refined tactile feel.</p>
           </div>
           <div className="mrb-features">
@@ -316,14 +311,14 @@ export default function CosmeticMagneticBoxesSolution() {
       <section className="mrb-section soft">
         <div className="container">
           <div className="mrb-head center">
-            <span className="eyebrow dark">SAMPLE PROOF</span>
-            <h2>Real Cosmetic Magnetic Box References</h2>
-            <p>Explore real packaging capability samples produced for cosmetics and skincare brands.</p>
+            <span className="eyebrow dark">DESIGN REFERENCES</span>
+            <h2>Cosmetic Magnetic Box Design References</h2>
+            <p>Explore design references and packaging structure options for cosmetics and skincare brands.</p>
           </div>
           <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
             {samples.map((s) => (
               <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
-                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: 260, objectFit: "cover" }} />
+                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: "auto", aspectRatio: "4 / 3", objectFit: "contain" }} />
                 <div style={{ padding: "16px 20px" }}>
                   <b style={{ fontSize: 17, color: "#111", display: "block", marginBottom: 6 }}>{s.title}</b>
                   <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
@@ -332,7 +327,7 @@ export default function CosmeticMagneticBoxesSolution() {
             ))}
           </div>
           <p style={{ fontSize: 12, color: "#888", textAlign: "center", marginTop: 16 }}>
-            <em>Sample displays shown for packaging capability reference.</em>
+            <em>Design visualizations and structure references; final specifications are subject to sample approval.</em>
           </p>
         </div>
       </section>
@@ -351,7 +346,7 @@ export default function CosmeticMagneticBoxesSolution() {
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <a href="/industries/cosmetic-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Cosmetic Packaging Industry Hub →
+                Custom Cosmetic Packaging Solutions →
               </a>
               <a href="/projects/luxury-skincare-gift-box/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Skincare Gift Box Case Study →
@@ -363,8 +358,8 @@ export default function CosmeticMagneticBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/project-skincare.webp"
-              alt="Skincare presentation packaging solutions"
+              src="/img/cosmetic-magnetic-gift-box-pink.webp"
+              alt="Pink skincare magnetic gift box design reference"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
             />

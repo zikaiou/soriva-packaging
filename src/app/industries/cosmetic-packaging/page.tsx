@@ -8,7 +8,7 @@ import "../../products/product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/industries/cosmetic-packaging/";
 
 export const metadata: Metadata = {
-  title: "Custom Cosmetic Packaging Boxes Manufacturer",
+  title: "Custom Cosmetic Packaging & Boxes Manufacturer",
   description:
     "Custom cosmetic packaging boxes from SORIVA Packaging: magnetic rigid boxes, drawer boxes and two-piece rigid boxes for skincare, makeup, beauty gift sets and sample kits. MOQ from 100 pcs, 1 pc prototype, 48-hour sample support.",
   alternates: {
@@ -163,8 +163,7 @@ export default function CosmeticPackagingPage() {
                 Luxury Packaging Solutions For Beauty Brands
               </p>
               <p className="mrb-lead">
-                Create premium cosmetic packaging that enhances brand image and
-                improves the customer unboxing experience.
+                SORIVA manufactures custom cosmetic boxes and luxury skincare packaging for beauty brands. Compare rigid magnetic, drawer and lid-and-base boxes for jars, bottles and coordinated product sets.
               </p>
               <div className="mrb-tags">
                 {pills.map((p) => (
@@ -224,6 +223,7 @@ export default function CosmeticPackagingPage() {
           <div className="mrb-head center">
             <span className="eyebrow dark">RECOMMENDED</span>
             <h2>Recommended Cosmetic Packaging Solutions</h2>
+            <p>For coordinated skincare sets, explore our <a href="/solutions/magnetic-gift-boxes-for-cosmetics/">custom cosmetic magnetic gift boxes</a> with fitted multi-product inserts.</p>
           </div>
           <div className="mrb-apps">
             {solutions.map((s) => (
@@ -251,7 +251,7 @@ export default function CosmeticPackagingPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">APPLICATIONS</span>
-            <h2>Cosmetic Packaging Applications</h2>
+            <h2>Custom Skincare and Cosmetic Packaging Applications</h2>
           </div>
           <div className="mrb-apps mrb-apps-3">
             {applications.map((a) => (

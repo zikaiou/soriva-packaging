@@ -8,14 +8,14 @@ import "../product-page.css";
 const PAGE_URL = "https://www.sorivapackaging.com/products/custom-magnetic-rigid-gift-box/";
 
 export const metadata: Metadata = {
-  title: { absolute: "Custom Magnetic Rigid Gift Box for Perfume | SORIVA" },
-  description: "Custom black magnetic rigid gift boxes for perfume and premium gift sets. Rigid greyboard construction, hinged magnetic flap, fitted insert and custom paper wrap. Request a manufacturer quote.",
+  title: { absolute: "Custom Black Magnetic Rigid Gift Box | SORIVA" },
+  description: "Custom black magnetic rigid gift boxes with gold foil branding for premium product sets. Rigid greyboard construction, hinged magnetic flap, fitted insert and custom paper wrap. Request a manufacturer quote.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Gift Box for Perfume | SORIVA",
-    description: "A dedicated custom magnetic rigid gift box solution for perfume presentation, with a hinged magnetic flap, fitted insert and branded paper wrap.",
+    title: "Custom Black Magnetic Rigid Gift Box | SORIVA",
+    description: "A black magnetic rigid gift box design for premium product presentation, with a hinged magnetic flap, fitted insert and branded paper wrap.",
     images: [{ url: "/img/magnetic-rigid.webp", width: 1200, height: 900, alt: "Black magnetic rigid perfume gift box with fitted insert and gold branding" }],
   },
 };
@@ -28,7 +28,7 @@ const features = [
 ];
 
 const faqs = [
-  { q: "Can this magnetic rigid gift box be customized for perfume bottles?", a: "Yes. The box dimensions and insert layout can be developed around your perfume bottle size and presentation requirements." },
+  { q: "Can the black magnetic gift box be customized for my products?", a: "Yes. The box dimensions and insert layout can be developed around your product size and presentation requirements." },
   { q: "What finish is specified for this box?", a: "The current product specification is matte lamination with a gold foil logo. Other finishes should be confirmed separately before quotation." },
   { q: "What is the minimum order quantity?", a: "The stated MOQ for this product is 100 pieces. Please confirm the final quantity and specifications when requesting a quotation." },
   { q: "Are the box dimensions and production lead time fixed?", a: "The box dimensions, sampling time and bulk production lead time have not yet been confirmed. Please share your product dimensions and target delivery schedule so these details can be reviewed." },
@@ -45,13 +45,13 @@ export default function CustomMagneticRigidGiftBoxPage() {
           </nav>
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
-              <span className="mrb-eyebrow">CUSTOM PERFUME PRESENTATION BOX</span>
+              <span className="mrb-eyebrow">BLACK &amp; GOLD PRESENTATION BOX</span>
               <h1>Custom Magnetic Rigid Gift Box</h1>
-              <p className="mrb-subtitle">A refined black gift box for perfume and premium product sets</p>
-              <p className="mrb-lead">Present your product in a rigid greyboard box with a hinged magnetic flap, customized paper wrap and a fitted insert. Develop the dimensions, interior layout and branding around your product.</p>
+              <p className="mrb-subtitle">A matte black magnetic gift box with gold foil branding</p>
+              <p className="mrb-lead">Present your product in a custom black magnetic rigid gift box with a hinged magnetic flap, customized paper wrap and a fitted insert. Develop the dimensions, interior layout and branding around your product.</p>
               <div className="mrb-hero-actions">
                 <a className="btn gold" href="#quote">Request a Quote</a>
-                <a className="btn-wa" href={waLink("Hello SORIVA Packaging, I am interested in the Custom Magnetic Rigid Gift Box for perfume. Please help me with customization and a quotation.")} target="_blank" rel="noopener noreferrer"><WhatsAppIcon /> Chat on WhatsApp</a>
+                <a className="btn-wa" href={waLink("Hello SORIVA Packaging, I am interested in the Custom Black Magnetic Rigid Gift Box. Please help me with customization and a quotation.")} target="_blank" rel="noopener noreferrer"><WhatsAppIcon /> Chat on WhatsApp</a>
               </div>
             </div>
             <div className="mrb-hero-media">
@@ -110,7 +110,7 @@ export default function CustomMagneticRigidGiftBoxPage() {
           <ul>
             <li>Custom box dimensions</li>
             <li>Hinged magnetic closure</li>
-            <li>Fitted perfume insert</li>
+            <li>Fitted EVA insert</li>
             <li>Exterior paper wrap</li>
             <li>Custom logo treatment</li>
             <li>Interior presentation layout</li>
@@ -153,11 +153,12 @@ export default function CustomMagneticRigidGiftBoxPage() {
           <div>
             <span className="mrb-eyebrow">START YOUR PROJECT</span>
             <h2>Request a Custom Magnetic Rigid Gift Box Quote</h2>
-            <p>Tell us about your perfume bottle, required quantity, preferred box dimensions and branding. Share a reference image or artwork to help us review your project.</p>
+            <p>Tell us about your product dimensions, required quantity, preferred box dimensions and branding. Share a reference image or artwork to help us review your project.</p>
             <div className="mrb-contact">
               <div className="mrb-contact-note"><b>WhatsApp</b><a href={waLink("Hello SORIVA Packaging, I would like a quotation for the Custom Magnetic Rigid Gift Box.")} target="_blank" rel="noopener noreferrer">+86 159 1388 1634</a></div>
               <div className="mrb-contact-note"><b>Email</b><a href="mailto:AMY@XINGYUE.STORE">AMY@XINGYUE.STORE</a></div>
             </div>
+            <p>For bottle-specific packaging, explore our <a href="/solutions/magnetic-rigid-boxes-for-perfume/">custom perfume magnetic gift boxes</a>. For other structures, see <a href="/products/magnetic-rigid-boxes/">custom magnetic boxes</a>.</p>
             <a className="mrb-back" href="/products/">← Browse All Products</a>
           </div>
           <QuoteForm href="/rfq/?product=Custom%20Magnetic%20Rigid%20Gift%20Box&source_page=%2Fproducts%2Fcustom-magnetic-rigid-gift-box%2F" />

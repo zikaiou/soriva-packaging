@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Rigid Box Manufacturer | Custom Boxes | SORIVA",
+    absolute: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for perfume, serum and skincare brands. Choose book-style or foldable boxes, fitted inserts and premium logo finishes. Request a wholesale quote.",
+    "Factory-direct custom magnetic boxes and magnetic closure gift boxes with fitted inserts and logo finishes. Compare rigid and foldable options for bulk orders.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    title: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
     description:
-      "Custom magnetic rigid gift boxes with concealed closures, branded finishes and custom inserts for fragrance, cosmetics and premium gifts.",
+      "Factory-direct custom magnetic boxes and magnetic closure gift boxes with fitted inserts and logo finishes. Compare rigid and foldable options for bulk orders.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -59,13 +59,13 @@ const features = [
 const magneticSolutions = [
   {
     tag: "FRAGRANCE & PERFUME",
-    title: "Magnetic Rigid Boxes for Perfume",
+    title: "Custom Perfume Magnetic Gift Boxes",
     desc: "Bottle protection, concealed magnetic closure and velvet-covered EVA inserts for fragrance collections.",
     href: "/solutions/magnetic-rigid-boxes-for-perfume/",
   },
   {
     tag: "COSMETICS & BEAUTY",
-    title: "Magnetic Gift Boxes for Cosmetics",
+    title: "Custom Cosmetic Magnetic Gift Boxes",
     desc: "Multi-product cavity organization, soft-touch velvet finish and foldable packaging options for skincare sets.",
     href: "/solutions/magnetic-gift-boxes-for-cosmetics/",
   },
@@ -286,7 +286,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Magnetic Rigid Boxes for Brands &amp; Wholesale Buyers</h1>
+              <h1>Custom Magnetic Boxes for Brands &amp; Wholesale Buyers</h1>
               <p className="mrb-lead">
                 Premium custom magnetic rigid boxes engineered with greyboard structures,
                 concealed magnetic closure, precision-cut inserts and bespoke finishes for
@@ -357,7 +357,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">SKINCARE &amp; SERUM PACKAGING</span>
-            <h2>Rigid Magnetic Boxes for Serum Bottles &amp; Skincare Sets</h2>
+            <h2>Rigid Magnetic Boxes for Premium Product Sets</h2>
             <p>
               For serum bottles, ampoules and skincare gift sets, a custom magnetic rigid box can combine a protective greyboard shell with a fitted insert that keeps each item organized. We review bottle height, cap clearance, filled weight and set layout before confirming the box dimensions and insert structure.
             </p>
@@ -594,7 +594,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Magnetic Gift Box Manufacturer: OEM Sampling &amp; Production</h2>
+            <h2>Magnetic Gift Box Manufacturer: Bulk &amp; Wholesale Orders</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
@@ -651,7 +651,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BUYER FAQ</span>
-            <h2>Magnetic Rigid Box Buying Questions</h2>
+            <h2>Custom Magnetic Gift Boxes: Wholesale Buying Questions</h2>
           </div>
           <div className="mrb-faq">
             {faqs.map((f) => (
