@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/project-perfume.webp",
+        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
         width: 1200,
         height: 900,
-        alt: "Custom magnetic rigid boxes for perfume and fragrance bottles",
+        alt: "Open black magnetic rigid gift box with fitted perfume insert and gold branding",
       },
     ],
   },
@@ -94,19 +94,9 @@ const inserts = [
 
 const samples = [
   {
-    img: "/img/project-perfume.webp",
-    title: "Signature Fragrance Magnetic Box",
-    desc: "Book-style magnetic box with soft-touch matte wrap, gold foil typography and velvet-covered EVA insert.",
-  },
-  {
-    img: "/img/project-perfume.webp",
-    title: "Double-Bottle Fragrance Gift Set",
-    desc: "Front-flap magnetic closure box engineered with custom dual cavities for 50ml and 100ml fragrance bottles.",
-  },
-  {
     img: "/img/magnetic-rigid.webp",
-    title: "Luxury Discovery Presentation Box",
-    desc: "Rigid magnetic presentation box with metallic hot stamping and precision interior insert dividers.",
+    title: "Magnetic Perfume Presentation Box",
+    desc: "Open hinged magnetic rigid box with a fitted perfume insert and branded presentation. Design reference; final construction is confirmed during sampling.",
   },
 ];
 
@@ -208,8 +198,8 @@ export default function PerfumeMagneticBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/project-perfume.webp"
-                alt="Custom magnetic rigid boxes for perfume and fragrance bottles"
+                src="/img/magnetic-rigid.webp"
+                alt="Open black magnetic rigid gift box with fitted perfume insert and gold branding"
                 width="1200"
                 height="900"
               />
@@ -366,8 +356,8 @@ export default function PerfumeMagneticBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/project-perfume.webp"
-              alt="Fragrance presentation packaging solutions"
+              src="/img/magnetic-rigid.webp"
+              alt="Magnetic rigid perfume box with fitted insert"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
             />
