@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/industries/perfume-packaging/"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Perfume Packaging Manufacturer | Luxury Perfume Boxes | SORIVA Packaging",
+    absolute: "Custom Perfume Boxes & Luxury Fragrance Packaging | SORIVA",
   },
   description:
-    "Custom perfume packaging and luxury perfume boxes with tailored rigid structures, inserts, premium papers, printing and finishing. OEM/ODM support for fragrance brands.",
+    "Factory-direct custom perfume boxes and fragrance packaging. Compare magnetic, drawer and lid-and-base structures, custom inserts and branded finishes.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Perfume Packaging Manufacturer | Luxury Perfume Boxes | SORIVA Packaging",
+    title: "Custom Perfume Boxes & Luxury Fragrance Packaging | SORIVA",
     description:
-      "Custom perfume packaging and luxury perfume boxes with tailored rigid structures, inserts, premium papers, printing and finishing. OEM/ODM support for fragrance brands.",
+      "Factory-direct custom perfume boxes and fragrance packaging. Compare magnetic, drawer and lid-and-base structures, custom inserts and branded finishes.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -41,7 +41,7 @@ const perfumePriorities = [
   {
     num: "01",
     title: "Bottle Protection & Shock Absorption",
-    desc: "Rigid board construction and precision-fit inserts prevent glass breakage, neck strain and cap loosening during transit.",
+    desc: "Rigid board and fitted inserts help reduce movement and protect glass bottles; confirm performance through sampling and appropriate transit testing.",
   },
   {
     num: "02",
@@ -252,7 +252,7 @@ const structuredData = {
       name: "Custom Luxury Perfume Packaging Boxes",
       image: "https://www.sorivapackaging.com/img/project-perfume.webp",
       description:
-        "Custom perfume packaging and luxury perfume boxes with tailored rigid structures, inserts, premium papers, printing and finishing. OEM/ODM support for fragrance brands.",
+        "Factory-direct custom perfume boxes and fragrance packaging. Compare magnetic, drawer and lid-and-base structures, custom inserts and branded finishes.",
       brand: { "@type": "Brand", name: "SORIVA Packaging" },
       offers: {
         "@type": "AggregateOffer",
@@ -325,7 +325,7 @@ export default function PerfumePackagingPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">FRAGRANCE PACKAGING SOLUTIONS</span>
-              <h1>Custom Luxury Perfume Packaging for Fragrance Brands</h1>
+              <h1>Custom Perfume Boxes &amp; Fragrance Packaging</h1>
               <p className="mrb-lead">
                 Create premium perfume packaging designed around bottle shape, product protection,
                 brand positioning and unboxing experience. From niche artisan perfumeries to luxury
@@ -409,7 +409,7 @@ export default function PerfumePackagingPage() {
           </div>
           <div className="mrb-apps">
             {recommendedStructures.map((p) => (
-              <a className="mrb-app mrb-app-link" href={`/products/${p.slug}/`} key={p.title}>
+              <a className="mrb-app mrb-app-link" href={p.slug === "magnetic-rigid-boxes" ? "/solutions/magnetic-rigid-boxes-for-perfume/" : `/products/${p.slug}/`} key={p.title}>
                 <img src={p.img} alt={p.alt} loading="lazy" decoding="async" />
                 <div>
                   <b>{p.title}</b>
