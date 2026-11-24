@@ -5,6 +5,7 @@ const BASE_URL = "https://www.sorivapackaging.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const productPages = [
     "magnetic-rigid-boxes",
+    "custom-perfume-magnetic-gift-boxes",
     "foldable-magnetic-rigid-boxes",
     "drawer-boxes",
     "two-piece-rigid-boxes",
