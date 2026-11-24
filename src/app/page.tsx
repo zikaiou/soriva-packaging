@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
 };
 
-const products = [
+const products: { slug: string; title: string; img: string; alt: string; structure: string; use: string; options: string; description?: string; href?: string }[] = [
   {
     "slug": "custom-magnetic-rigid-gift-box",
     "title": "Custom Magnetic Rigid Gift Box",
@@ -150,6 +150,17 @@ const products = [
     "structure": "Box with individual sample cavities",
     "use": "Fragrance discovery and sample programs",
     "options": "Cavity size, sample layout and branding"
+  },
+  {
+    slug: "custom-perfume-magnetic-gift-boxes",
+    title: "Custom Perfume Magnetic Gift Boxes",
+    href: "/solutions/magnetic-rigid-boxes-for-perfume/",
+    img: "/img/project-perfume.webp",
+    alt: "Perfume fragrance gift packaging reference",
+    structure: "Rigid greyboard · magnetic closure",
+    use: "Perfume bottles, fragrance collections and gift sets",
+    options: "Fitted bottle inserts, custom dimensions and logo finishes",
+    description: "Custom magnetic rigid boxes developed around perfume bottle dimensions, cap clearance and branded presentation."
   }
 ];
 
@@ -259,7 +270,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "ItemList", name: "SORIVA Custom Packaging Types",
         numberOfItems: products.length,
-        itemListElement: products.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.title, url: `https://www.sorivapackaging.com/products/${product.slug}/` })),
+        itemListElement: products.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.title, url: `https://www.sorivapackaging.com${product.href ?? `/products/${product.slug}/`}` })),
       }) }} />
       <section className="hero">
         <div className="container hero-grid">
@@ -318,17 +329,17 @@ export default function Home() {
           <div className="section-head">
             <span className="eyebrow dark">COMPLETE PACKAGING COLLECTION</span>
             <h2 id="packaging-catalog-title">Explore All Custom Packaging Types</h2>
-            <p>Compare all 14 current product categories. Open any type for its construction, materials, customization options and quotation details.</p>
+            <p>Compare all {products.length} current product categories. Open any type for its construction, materials, customization options and quotation details.</p>
           </div>
           <div className="home-catalog-grid">
             {products.map((product) => (
               <article className="home-product-card" key={product.slug}>
-                <a className="home-product-image" href={`/products/${product.slug}/`} aria-label={`Explore ${product.title}`}>
+                <a className="home-product-image" href={(product.href ?? `/products/${product.slug}/`)} aria-label={`Explore ${product.title}`}>
                   <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 33vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                 </a>
                 <div className="home-product-body">
                   {product.slug === "magnetic-rigid-boxes" && <span className="home-product-label">MAGNETIC RIGID BOX</span>}
-                  <h3><a href={`/products/${product.slug}/`}>{product.title}</a></h3>
+                  <h3><a href={(product.href ?? `/products/${product.slug}/`)}>{product.title}</a></h3>
                   {"description" in product && <p className="home-product-description">{product.description}</p>}
                   <p className="home-product-structure">{product.structure}</p>
                   <dl>
@@ -336,7 +347,7 @@ export default function Home() {
                     <div><dt>Customize</dt><dd>{product.options}</dd></div>
                   </dl>
                   <div className="home-product-actions">
-                    <a href={`/products/${product.slug}/`}>View Details <span aria-hidden="true">→</span><span className="home-sr-only">: {product.title}</span></a>
+                    <a href={(product.href ?? `/products/${product.slug}/`)}>View Details <span aria-hidden="true">→</span><span className="home-sr-only">: {product.title}</span></a>
                     <a href={`/rfq/?source_page=%2F&interest=${encodeURIComponent(product.title)}`}>Request a Quote<span className="home-sr-only">: {product.title}</span></a>
                   </div>
                 </div>
