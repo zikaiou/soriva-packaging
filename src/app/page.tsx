@@ -161,6 +161,17 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     use: "Perfume bottles, fragrance collections and gift sets",
     options: "Fitted bottle inserts, custom dimensions and logo finishes",
     description: "Custom magnetic rigid boxes developed around perfume bottle dimensions, cap clearance and branded presentation."
+  },
+  {
+    slug: "custom-cosmetic-magnetic-gift-boxes",
+    title: "Custom Cosmetic Magnetic Gift Boxes",
+    href: "/solutions/magnetic-gift-boxes-for-cosmetics/",
+    img: "/img/project-skincare.webp",
+    alt: "Skincare gift packaging design reference for cosmetic sets",
+    structure: "Rigid greyboard · magnetic closure",
+    use: "Skincare routines, beauty launches and cosmetic gift sets",
+    options: "Multi-product inserts, custom cavity layouts and brand finishes",
+    description: "Custom magnetic gift boxes for coordinated skincare and beauty sets, with individual cavities for jars, serums and accessories."
   }
 ];
 
