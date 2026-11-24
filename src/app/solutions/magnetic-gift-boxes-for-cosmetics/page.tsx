@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     absolute: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
   },
   description:
-    "Pink magnetic cosmetic gift box with fitted skincare inserts, design visualization collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
+    "Custom cosmetic magnetic gift boxes for skincare sets and beauty brands. Choose fitted inserts, magnetic closures and luxury finishes for wholesale projects.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Cosmetic Magnetic Gift Boxes | SORIVA",
     description:
-      "Pink magnetic cosmetic gift box with fitted skincare inserts, design visualization collections. Tailored rigid box structures, multi-product cavity inserts, brand finishes and global shipping.",
+      "Custom cosmetic magnetic gift boxes for skincare sets and beauty brands. Choose fitted inserts, magnetic closures and luxury finishes for wholesale projects.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -173,7 +173,7 @@ export default function CosmeticMagneticBoxesSolution() {
               <span className="mrb-eyebrow">COSMETIC &amp; BEAUTY PACKAGING</span>
               <h1>Custom Cosmetic Magnetic Gift Boxes</h1>
               <p className="mrb-lead">
-                Create memorable beauty unboxing experiences with custom magnetic gift boxes.
+                Create luxury skincare gift box packaging with custom magnetic gift boxes for cosmetics.
                 Engineered with multi-product cavity inserts, soft-touch velvet lamination,
                 concealed magnetic closure and metallic foil stamping for premium skincare and cosmetic sets.
               </p>
@@ -228,7 +228,7 @@ export default function CosmeticMagneticBoxesSolution() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BEAUTY PACKAGING PRIORITIES</span>
-            <h2>Why Magnetic Gift Boxes Suit Cosmetics</h2>
+            <h2>Why Magnetic Gift Boxes Suit Skincare and Cosmetics</h2>
             <p>Multi-product skincare routines benefit from organized presentation, reliable protection and a refined tactile feel.</p>
           </div>
           <div className="mrb-features">
@@ -346,7 +346,7 @@ export default function CosmeticMagneticBoxesSolution() {
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <a href="/industries/cosmetic-packaging/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
-                Cosmetic Packaging Industry Hub →
+                Custom Cosmetic Packaging Solutions →
               </a>
               <a href="/projects/luxury-skincare-gift-box/" style={{ color: "var(--color-gold, #c79a51)", fontWeight: 700, fontSize: 13 }}>
                 Skincare Gift Box Case Study →
