@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "https://www.sorivapackaging.com/img/perfume-magnetic-gift-box-champagne-v2.webp",
         width: 1200,
         height: 900,
-        alt: "Open champagne gold book-style magnetic perfume gift box with fitted insert and magnetic closure flap",
+        alt: "Champagne gold book-style magnetic perfume gift box with fitted insert and closure flap, design reference",
       },
     ],
   },
@@ -108,6 +108,10 @@ const faqs = [
   {
     q: "What is the MOQ for a custom perfume magnetic box?",
     a: "Selected custom projects can start from 100 pcs, depending on structure, materials, size and finishing.",
+  },
+  {
+    q: "Can magnetic closure perfume boxes fit 30 ml, 50 ml and 100 ml bottles?",
+    a: "Yes, subject to the actual bottle and cap dimensions, filled weight and approved insert design. Bottle capacity alone is not enough to determine box size.",
   },
   {
     q: "Can I request a prototype?",
@@ -199,7 +203,7 @@ export default function PerfumeMagneticBoxesSolution() {
             <div className="mrb-hero-media">
               <img
                 src="/img/perfume-magnetic-gift-box-champagne-v2.webp"
-                alt="Open champagne gold book-style magnetic perfume gift box with fitted insert and magnetic closure flap"
+                alt="Champagne gold book-style magnetic perfume gift box with fitted insert and closure flap, design reference"
                 width="1200"
                 height="900"
               />
@@ -223,7 +227,7 @@ export default function PerfumeMagneticBoxesSolution() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">FRAGRANCE PACKAGING PRIORITIES</span>
-            <h2>Why Magnetic Rigid Boxes Work for Perfume</h2>
+            <h2>Why Rigid Perfume Boxes with Magnetic Closures Work</h2>
             <p>Fragrance bottles benefit from reliable structural support, organized presentation and an elegant unboxing reveal.</p>
           </div>
           <div className="mrb-features">
@@ -243,7 +247,7 @@ export default function PerfumeMagneticBoxesSolution() {
           <div className="mrb-head center">
             <span className="eyebrow dark">BOX STRUCTURE OPTIONS</span>
             <h2>Magnetic Closure Options for Luxury Perfume Boxes</h2>
-            <p>Select tailored box silhouettes engineered for single bottles, travel atomizers or discovery sets.</p>
+            <p>Compare magnetic perfume boxes for single bottles, travel atomizers or discovery sets. For a luxury perfume box, select the opening style and insert together.</p>
           </div>
           <div className="mrb-features" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
             {structures.map((s) => (
@@ -322,7 +326,7 @@ export default function PerfumeMagneticBoxesSolution() {
             ))}
           </div>
           <p style={{ fontSize: 12, color: "#888", textAlign: "center", marginTop: 16 }}>
-            <em>Sample displays shown for packaging capability reference.</em>
+            <em>Design visualization; final specifications are confirmed during sampling.</em>
           </p>
         </div>
       </section>
