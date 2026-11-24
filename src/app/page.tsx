@@ -32,7 +32,7 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Rigid greyboard · hinged magnetic flap",
     "use": "Cosmetics, fragrance and premium gift sets",
     "options": "Custom insert, logo printing and surface finishes",
-    "description": "A rigid greyboard box with a hinged magnetic flap, customizable paper wrap and fitted insert for a refined product presentation."
+    description: "Rigid magnetic gift boxes with fitted inserts and branded finishes for premium product presentation."
   },
   {
     "slug": "two-piece-rigid-boxes",
@@ -41,7 +41,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Two-Piece Lid & Base Boxes packaging reference",
     "structure": "Separate lid and base",
     "use": "Jewelry, apparel and premium gifts",
-    "options": "Custom dimensions, paper wrap and inserts"
+    "options": "Custom dimensions, paper wrap and inserts",
+    description: "Classic lift-off lid boxes with custom wraps and fitted interiors for premium retail packaging."
   },
   {
     "slug": "drawer-boxes",
@@ -50,7 +51,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Sliding Drawer Boxes packaging reference",
     "structure": "Sliding sleeve and tray",
     "use": "Jewelry, accessories and discovery sets",
-    "options": "Tray layout, ribbon pulls and logo finishes"
+    "options": "Tray layout, ribbon pulls and logo finishes",
+    description: "Sliding drawer packaging with tailored trays and ribbon pulls for a refined product reveal."
   },
   {
     "slug": "foldable-magnetic-rigid-boxes",
@@ -59,7 +61,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Foldable Magnetic Boxes packaging reference",
     "structure": "Collapsible rigid construction",
     "use": "Apparel and corporate gift programs",
-    "options": "Fold-flat structure, colors and branding"
+    "options": "Fold-flat structure, colors and branding",
+    description: "Collapsible magnetic rigid boxes designed for compact shipping and premium gift presentation."
   },
   {
     "slug": "tube-packaging",
@@ -68,7 +71,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Custom Paper Tube Packaging packaging reference",
     "structure": "Cylindrical paper structure",
     "use": "Fragrance, candles and specialty gifts",
-    "options": "Diameter, height, wrap and logo printing"
+    "options": "Diameter, height, wrap and logo printing",
+    description: "Custom cylindrical paper packaging with tailored dimensions and branded wraps for specialty products."
   },
   {
     "slug": "luxury-paper-bags",
@@ -77,7 +81,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Custom Printed Paper Bags packaging reference",
     "structure": "Paper shopping bag with handles",
     "use": "Fashion boutiques and retail collections",
-    "options": "Size, paper, handles and logo printing"
+    "options": "Size, paper, handles and logo printing",
+    description: "Branded paper shopping bags with customizable handles, paper finishes and sizes for retail collections."
   },
   {
     "slug": "custom-jewelry-boxes",
@@ -86,7 +91,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Custom Jewelry Packaging packaging reference",
     "structure": "Coordinated jewelry box collection",
     "use": "Jewelry brands and retail gifting",
-    "options": "Box structure, fitted inserts and finishing"
+    "options": "Box structure, fitted inserts and finishing",
+    description: "Coordinated custom jewelry packaging across multiple box sizes, fitted inserts and branded finishes."
   },
   {
     "slug": "custom-ring-boxes",
@@ -95,7 +101,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Custom Ring Boxes packaging reference",
     "structure": "Compact ring presentation box",
     "use": "Fine jewelry and bridal collections",
-    "options": "Ring inserts, dimensions and brand finishes"
+    "options": "Ring inserts, dimensions and brand finishes",
+    description: "Compact custom ring boxes with dedicated ring slots for bridal and fine jewelry collections."
   },
   {
     "slug": "custom-necklace-earring-boxes",
@@ -104,7 +111,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Necklace & Earring Boxes packaging reference",
     "structure": "Fitted jewelry presentation",
     "use": "Necklaces, pendants and earring sets",
-    "options": "Insert layout, lining and logo placement"
+    "options": "Insert layout, lining and logo placement",
+    description: "Tailored necklace and earring boxes with chain retention and dedicated earring inserts."
   },
   {
     "slug": "flip-top-jewelry-boxes",
@@ -113,16 +121,18 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Flip-Top Jewelry Boxes packaging reference",
     "structure": "Attached flip-top lid",
     "use": "Jewelry collections and premium retail",
-    "options": "Interior presentation, outer wrap and branding"
+    "options": "Interior presentation, outer wrap and branding",
+    description: "Connected flip-top lids with fitted jewelry inserts and customized exterior finishes."
   },
   {
     "slug": "pu-leather-jewelry-boxes",
-    "title": "PU Leather Jewelry Boxes",
+    "title": "Custom PU Leather Jewelry Boxes",
     "img": "/img/portable-ring-box-hero.webp",
     "alt": "PU Leather Jewelry Boxes packaging reference",
     "structure": "PU-covered presentation box",
     "use": "Jewelry retail and coordinated gift sets",
-    "options": "Covering, lining, insert and logo options"
+    "options": "Covering, lining, insert and logo options",
+    description: "Custom PU leather jewelry boxes with coordinated textures, soft linings and fitted inserts."
   },
   {
     "slug": "portable-ring-box",
@@ -131,7 +141,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Portable Ring Boxes packaging reference",
     "structure": "Compact portable ring case",
     "use": "Ring presentation and travel use",
-    "options": "Exterior, interior and brand details"
+    "options": "Stock styles and order quantities; MOQ from 20 pcs",
+    description: "Compact ready-stock travel ring cases with velvet lining and multiple ring slots."
   },
   {
     "slug": "custom-gift-boxes-with-inserts",
@@ -140,7 +151,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Custom Gift Boxes with Inserts packaging reference",
     "structure": "Rigid box with a fitted insert",
     "use": "Multi-product gifts and presentation sets",
-    "options": "Box dimensions, insert cavities and finishes"
+    "options": "Box dimensions, insert cavities and finishes",
+    description: "Custom gift boxes with fitted cavities designed around coordinated products and premium presentation."
   },
   {
     "slug": "custom-vial-sample-kit-boxes",
@@ -149,7 +161,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "alt": "Vial & Sample Kit Boxes packaging reference",
     "structure": "Box with individual sample cavities",
     "use": "Fragrance discovery and sample programs",
-    "options": "Cavity size, sample layout and branding"
+    "options": "Cavity size, sample layout and branding",
+    description: "Custom sample kit boxes with individual vial cavities for fragrance discovery and sampling programs."
   },
   {
     slug: "custom-perfume-magnetic-gift-boxes",
@@ -160,7 +173,7 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     structure: "Rigid greyboard · magnetic closure",
     use: "Perfume bottles, fragrance collections and gift sets",
     options: "Fitted bottle inserts, custom dimensions and logo finishes",
-    description: "Custom magnetic rigid boxes developed around perfume bottle dimensions, cap clearance and branded presentation."
+    description: "Custom magnetic rigid boxes with fitted perfume bottle inserts and premium branded finishes."
   },
   {
     slug: "custom-cosmetic-magnetic-gift-boxes",
@@ -171,7 +184,7 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     structure: "Rigid greyboard · magnetic closure",
     use: "Skincare routines, beauty launches and cosmetic gift sets",
     options: "Multi-product inserts, custom cavity layouts and brand finishes",
-    description: "Custom magnetic gift boxes for coordinated skincare and beauty sets, with individual cavities for jars, serums and accessories."
+    description: "Custom magnetic gift boxes with individual cavities for coordinated skincare and beauty sets."
   }
 ];
 
