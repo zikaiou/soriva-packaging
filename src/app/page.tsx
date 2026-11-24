@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 const products = [
   {
-    "slug": "magnetic-rigid-boxes",
+    "slug": "custom-magnetic-rigid-gift-box",
     "title": "Custom Magnetic Rigid Gift Box",
     "img": "/img/magnetic-rigid.webp",
     "alt": "Black magnetic rigid gift box with a fitted perfume insert and gold branding",
