@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Magnetic Rigid Gift Box for Perfume | SORIVA",
     description: "A dedicated custom magnetic rigid gift box solution for perfume presentation, with a hinged magnetic flap, fitted insert and branded paper wrap.",
-    images: [{ url: "/img/magnetic-rigid.webp", width: 1200, height: 900, alt: "Black magnetic rigid perfume gift box with fitted insert and gold branding" }],
+    images: [{ url: "/img/custom-magnetic-perfume-open.webp", width: 1200, height: 900, alt: "Black magnetic rigid perfume gift box with fitted insert and gold branding" }],
   },
 };
 
@@ -55,7 +55,7 @@ export default function CustomMagneticRigidGiftBoxPage() {
               </div>
             </div>
             <div className="mrb-hero-media">
-              <img src="/img/magnetic-rigid.webp" alt="Black magnetic rigid perfume gift box with fitted insert and gold branding" width="1200" height="900" fetchPriority="high" />
+              <img src="/img/custom-magnetic-perfume-open.webp" alt="Black magnetic rigid perfume gift box with fitted insert and gold branding" width="1200" height="900" fetchPriority="high" />
             </div>
           </div>
         </div>
