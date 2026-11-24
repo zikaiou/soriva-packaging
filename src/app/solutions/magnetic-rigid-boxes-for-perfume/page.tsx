@@ -310,10 +310,10 @@ export default function PerfumeMagneticBoxesSolution() {
             <h2>Perfume Magnetic Gift Box Design References</h2>
             <p>Explore packaging design references for fragrance and perfume brands. Final structures and inserts are developed for each project.</p>
           </div>
-          <div className="mrb-apps" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+          <div className="mrb-apps" style={{ gridTemplateColumns: "minmax(0, 1fr)", maxWidth: 760, margin: "0 auto" }}>
             {samples.map((s) => (
               <article className="mrb-app" key={s.title} style={{ background: "#fff", border: "1px solid #e7e2d9", borderRadius: 10, overflow: "hidden" }}>
-                <img src={s.img} alt={s.title} loading="lazy" style={{ width: "100%", height: 260, objectFit: "cover" }} />
+                <img src={s.img} alt={s.title} loading="lazy" width={1200} height={900} style={{ display: "block", width: "100%", height: "auto", aspectRatio: "4 / 3", objectFit: "contain" }} />
                 <div style={{ padding: "16px 20px" }}>
                   <b style={{ fontSize: 17, color: "#111", display: "block", marginBottom: 6 }}>{s.title}</b>
                   <span style={{ fontSize: 13, color: "#555", lineHeight: 1.6 }}>{s.desc}</span>
