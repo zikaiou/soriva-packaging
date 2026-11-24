@@ -150,6 +150,16 @@ const products = [
     "structure": "Box with individual sample cavities",
     "use": "Fragrance discovery and sample programs",
     "options": "Cavity size, sample layout and branding"
+  },
+  {
+    "slug": "custom-perfume-magnetic-gift-boxes",
+    "title": "Custom Perfume Magnetic Gift Boxes",
+    "img": "/img/magnetic-rigid.webp",
+    "alt": "Open magnetic rigid perfume gift box with a fitted bottle insert",
+    "structure": "Hinged rigid box with magnetic closure",
+    "use": "Perfume launches, retail presentation and fragrance gift sets",
+    "options": "Bottle-fitted insert, branded wrap and logo finishes",
+    "description": "Custom magnetic perfume boxes with fitted inserts for individual fragrance bottles and coordinated gift sets."
   }
 ];
 
