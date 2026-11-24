@@ -87,8 +87,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
   {
     "slug": "custom-jewelry-boxes",
     "title": "Custom Jewelry Packaging",
-    "img": "/img/soriva-flip-top-jewelry-boxes-hd.webp",
-    "alt": "Custom Jewelry Packaging packaging reference",
+    "img": "/img/soriva-custom-jewelry-packaging.png",
+    "alt": "Coordinated custom jewelry packaging collection, design reference",
     "structure": "Coordinated jewelry box collection",
     "use": "Jewelry brands and retail gifting",
     "options": "Box structure, fitted inserts and finishing",
@@ -97,8 +97,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
   {
     "slug": "custom-ring-boxes",
     "title": "Custom Ring Boxes",
-    "img": "/img/project-jewelry.webp",
-    "alt": "Custom Ring Boxes packaging reference",
+    "img": "/img/soriva-custom-ring-boxes.webp",
+    "alt": "Custom ring presentation box with fitted insert, design reference",
     "structure": "Compact ring presentation box",
     "use": "Fine jewelry and bridal collections",
     "options": "Ring inserts, dimensions and brand finishes",
@@ -107,8 +107,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
   {
     "slug": "custom-necklace-earring-boxes",
     "title": "Necklace & Earring Boxes",
-    "img": "/img/soriva-flip-top-jewelry-boxes-hd.webp",
-    "alt": "Necklace & Earring Boxes packaging reference",
+    "img": "/img/soriva-necklace-earring-boxes.webp",
+    "alt": "Custom necklace and earring gift box, design reference",
     "structure": "Fitted jewelry presentation",
     "use": "Necklaces, pendants and earring sets",
     "options": "Insert layout, lining and logo placement",
@@ -127,8 +127,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
   {
     "slug": "pu-leather-jewelry-boxes",
     "title": "Custom PU Leather Jewelry Boxes",
-    "img": "/img/portable-ring-box-hero.webp",
-    "alt": "PU Leather Jewelry Boxes packaging reference",
+    "img": "/img/soriva-pu-leather-jewelry-boxes.webp",
+    "alt": "Custom PU leather jewelry box collection, design reference",
     "structure": "PU-covered presentation box",
     "use": "Jewelry retail and coordinated gift sets",
     "options": "Covering, lining, insert and logo options",
