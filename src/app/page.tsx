@@ -8,22 +8,28 @@ import { waLink, WA_MESSAGES } from "./lib/whatsapp";
 
 export const metadata: Metadata = {
   title: { absolute: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA" },
-  description: "Explore magnetic gift boxes, drawer boxes, lid-and-base boxes, foldable packaging, jewelry boxes, paper tubes and custom paper bags. View details and request a quote.",
+  description: "Rigid greyboard gift boxes with hinged magnetic closure, fitted inserts, logo printing and custom surface finishes for cosmetics, fragrance and premium gift sets.",
+    label: "MAGNETIC CLOSURE",
+    specs: [{"label":"Material","value":"Greyboard"},{"label":"Closure","value":"Magnetic"},{"label":"Finish","value":"Custom logo"}],
   openGraph: {
     title: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA",
-    description: "Compare custom gift box structures, jewelry packaging and paper shopping bags, with dedicated details and quotation options for every product type.",
+    description: "Two-piece rigid boxes with separate lift-off lids, custom dimensions, paper wraps and fitted inserts for jewelry, apparel and premium gifts.",
+    label: "CLASSIC RIGID BOX",
+    specs: [{"label":"Structure","value":"Lid & base"},{"label":"Wrap","value":"Custom paper"},{"label":"Insert","value":"Fitted"}],
     url: "https://www.sorivapackaging.com/",
     images: [{ url: "/img/hero-boxes.webp", width: 1200, height: 820, alt: "Custom luxury gift box packaging" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Custom Gift Boxes & Paper Bags Manufacturer | SORIVA",
-    description: "Custom gift boxes, jewelry packaging and printed paper bags. Compare structures and request a project quote.",
+    description: "Sliding sleeve and tray boxes with tailored tray layouts, ribbon pulls and logo finishes for jewelry, accessories and fragrance discovery sets.",
+    label: "SLIDING DRAWER",
+    specs: [{"label":"Structure","value":"Sleeve & tray"},{"label":"Pull","value":"Ribbon"},{"label":"Finish","value":"Custom logo"}],
     images: ["/img/hero-boxes.webp"],
   },
 };
 
-const products: { slug: string; title: string; img: string; alt: string; structure: string; use: string; options: string; description?: string; href?: string }[] = [
+const products: { slug: string; title: string; img: string; alt: string; structure: string; use: string; options: string; description?: string; href?: string; label: string; specs: {label: string; value: string}[] }[] = [
   {
     "slug": "custom-magnetic-rigid-gift-box",
     "title": "Custom Magnetic Rigid Gift Box",
@@ -32,7 +38,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Rigid greyboard · hinged magnetic flap",
     "use": "Cosmetics, fragrance and premium gift sets",
     "options": "Custom insert, logo printing and surface finishes",
-    description: "Rigid magnetic gift boxes with fitted inserts and branded finishes for premium product presentation."
+    description: "Collapsible magnetic rigid boxes with fold-flat construction, custom colors and branding for apparel and corporate gift programs, designed to reduce shipping volume.",
+    label: "SPACE-SAVING",
+    specs: [{"label":"Structure","value":"Fold-flat"},{"label":"Closure","value":"Magnetic"},{"label":"Branding","value":"Custom"}]
   },
   {
     "slug": "two-piece-rigid-boxes",
@@ -42,7 +50,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Separate lid and base",
     "use": "Jewelry, apparel and premium gifts",
     "options": "Custom dimensions, paper wrap and inserts",
-    description: "Classic lift-off lid boxes with custom wraps and fitted interiors for premium retail packaging."
+    description: "Custom cylindrical paper tubes for fragrance, candles and specialty gifts, with tailored diameter, height, paper wraps and logo printing.",
+    label: "CYLINDRICAL PACKAGING",
+    specs: [{"label":"Shape","value":"Cylinder"},{"label":"Size","value":"Custom"},{"label":"Print","value":"Custom logo"}]
   },
   {
     "slug": "drawer-boxes",
@@ -52,7 +62,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Sliding sleeve and tray",
     "use": "Jewelry, accessories and discovery sets",
     "options": "Tray layout, ribbon pulls and logo finishes",
-    description: "Sliding drawer packaging with tailored trays and ribbon pulls for a refined product reveal."
+    description: "Custom printed paper shopping bags for fashion boutiques and retail collections, with tailored sizes, paper choices, handles and logo printing.",
+    label: "RETAIL PACKAGING",
+    specs: [{"label":"Material","value":"Paper"},{"label":"Handle","value":"Custom"},{"label":"Print","value":"Custom logo"}]
   },
   {
     "slug": "foldable-magnetic-rigid-boxes",
@@ -62,7 +74,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Collapsible rigid construction",
     "use": "Apparel and corporate gift programs",
     "options": "Fold-flat structure, colors and branding",
-    description: "Collapsible magnetic rigid boxes designed for compact shipping and premium gift presentation."
+    description: "Coordinated custom jewelry packaging for jewelry brands and retail gifting, with multiple box structures and sizes, fitted inserts and branded finishes.",
+    label: "JEWELRY COLLECTION",
+    specs: [{"label":"Range","value":"Multi-size"},{"label":"Insert","value":"Fitted"},{"label":"Finish","value":"Custom"}]
   },
   {
     "slug": "tube-packaging",
@@ -72,7 +86,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Cylindrical paper structure",
     "use": "Fragrance, candles and specialty gifts",
     "options": "Diameter, height, wrap and logo printing",
-    description: "Custom cylindrical paper packaging with tailored dimensions and branded wraps for specialty products."
+    description: "Compact custom ring boxes for fine jewelry and bridal collections, with dedicated ring slots, tailored dimensions and premium branded finishes.",
+    label: "RING PRESENTATION",
+    specs: [{"label":"Use","value":"Rings"},{"label":"Insert","value":"Ring slots"},{"label":"Size","value":"Custom"}]
   },
   {
     "slug": "luxury-paper-bags",
@@ -82,7 +98,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Paper shopping bag with handles",
     "use": "Fashion boutiques and retail collections",
     "options": "Size, paper, handles and logo printing",
-    description: "Branded paper shopping bags with customizable handles, paper finishes and sizes for retail collections."
+    description: "Custom necklace and earring boxes for pendants and coordinated sets, with tailored insert layouts, chain retention, lining and logo placement.",
+    label: "FITTED JEWELRY",
+    specs: [{"label":"Use","value":"Necklace / earrings"},{"label":"Insert","value":"Fitted"},{"label":"Lining","value":"Custom"}]
   },
   {
     "slug": "custom-jewelry-boxes",
@@ -92,7 +110,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Coordinated jewelry box collection",
     "use": "Jewelry brands and retail gifting",
     "options": "Box structure, fitted inserts and finishing",
-    description: "Coordinated custom jewelry packaging across multiple box sizes, fitted inserts and branded finishes."
+    description: "Flip-top jewelry boxes with attached lids for premium retail and jewelry collections, featuring fitted interiors, custom outer wraps and branding.",
+    label: "FLIP-TOP STRUCTURE",
+    specs: [{"label":"Structure","value":"Flip-top"},{"label":"Interior","value":"Fitted"},{"label":"Wrap","value":"Custom"}]
   },
   {
     "slug": "custom-ring-boxes",
@@ -102,7 +122,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Compact ring presentation box",
     "use": "Fine jewelry and bridal collections",
     "options": "Ring inserts, dimensions and brand finishes",
-    description: "Compact custom ring boxes with dedicated ring slots for bridal and fine jewelry collections."
+    description: "Custom PU leather jewelry boxes for retail and coordinated gift sets, with tailored coverings, soft linings, fitted inserts and logo options.",
+    label: "PU LEATHER",
+    specs: [{"label":"Cover","value":"PU leather"},{"label":"Lining","value":"Custom"},{"label":"Insert","value":"Fitted"}]
   },
   {
     "slug": "custom-necklace-earring-boxes",
@@ -112,7 +134,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Fitted jewelry presentation",
     "use": "Necklaces, pendants and earring sets",
     "options": "Insert layout, lining and logo placement",
-    description: "Tailored necklace and earring boxes with chain retention and dedicated earring inserts."
+    description: "Compact ready-stock portable ring cases for travel and ring presentation, with velvet lining and multiple ring slots. Available in stock styles with order quantities from 20 pieces.",
+    label: "PORTABLE RING CASE",
+    specs: [{"label":"MOQ","value":"20 pcs"},{"label":"Lining","value":"Velvet"},{"label":"Use","value":"Travel"}]
   },
   {
     "slug": "flip-top-jewelry-boxes",
@@ -122,7 +146,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Attached flip-top lid",
     "use": "Jewelry collections and premium retail",
     "options": "Interior presentation, outer wrap and branding",
-    description: "Connected flip-top lids with fitted jewelry inserts and customized exterior finishes."
+    description: "Rigid gift boxes with fitted inserts for multi-product gifts and presentation sets, with custom box dimensions, individual cavities and branded finishes.",
+    label: "CUSTOM INSERT",
+    specs: [{"label":"Structure","value":"Rigid box"},{"label":"Insert","value":"Custom cavities"},{"label":"Finish","value":"Custom"}]
   },
   {
     "slug": "pu-leather-jewelry-boxes",
@@ -132,7 +158,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "PU-covered presentation box",
     "use": "Jewelry retail and coordinated gift sets",
     "options": "Covering, lining, insert and logo options",
-    description: "Custom PU leather jewelry boxes with coordinated textures, soft linings and fitted inserts."
+    description: "Custom vial and sample kit boxes for fragrance discovery and sampling programs, with individual sample cavities, tailored layouts and custom branding.",
+    label: "SAMPLE PACKAGING",
+    specs: [{"label":"Use","value":"Sample kits"},{"label":"Insert","value":"Vial cavities"},{"label":"Branding","value":"Custom"}]
   },
   {
     "slug": "portable-ring-box",
@@ -142,7 +170,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Compact portable ring case",
     "use": "Ring presentation and travel use",
     "options": "Stock styles and order quantities; MOQ from 20 pcs",
-    description: "Compact ready-stock travel ring cases with velvet lining and multiple ring slots."
+    description: "Custom rigid greyboard magnetic gift boxes for perfume bottles, fragrance collections and gift sets, with fitted bottle inserts, tailored dimensions and premium logo finishes.",
+    label: "FRAGRANCE PACKAGING",
+    specs: [{"label":"Material","value":"Greyboard"},{"label":"Closure","value":"Magnetic"},{"label":"Insert","value":"Bottle fitted"}]
   },
   {
     "slug": "custom-gift-boxes-with-inserts",
@@ -152,7 +182,9 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     "structure": "Rigid box with a fitted insert",
     "use": "Multi-product gifts and presentation sets",
     "options": "Box dimensions, insert cavities and finishes",
-    description: "Custom gift boxes with fitted cavities designed around coordinated products and premium presentation."
+    description: "Custom magnetic gift boxes for skincare routines, beauty launches and cosmetic sets, with rigid greyboard construction, multi-product cavity inserts, custom layouts and branded finishes.",
+    label: "BEAUTY PACKAGING",
+    specs: [{"label":"MOQ","value":"From 100 pcs"},{"label":"Insert","value":"Multi-cavity"},{"label":"Closure","value":"Magnetic"}]
   },
   {
     "slug": "custom-vial-sample-kit-boxes",
@@ -359,11 +391,13 @@ export default function Home() {
             {products.map((product) => (
               <article className="home-product-card" key={product.slug}>
                 <a className="home-product-image" href={(product.href ?? `/products/${product.slug}/`)} aria-label={`Explore ${product.title}`}>
-                  <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 33vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                  <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 25vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                 </a>
                 <div className="home-product-body">
+                  <span className="home-product-label">{product.label}</span>
                   <h3><a href={(product.href ?? `/products/${product.slug}/`)}>{product.title}</a></h3>
                   <p className="home-product-description">{product.description ?? product.structure}</p>
+                  <dl className="home-product-specs">{product.specs.map(spec => <div key={spec.label}><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl>
                   <div className="home-product-actions">
                     <a href={(product.href ?? `/products/${product.slug}/`)}>View Details <span aria-hidden="true">→</span><span className="home-sr-only">: {product.title}</span></a>
                     <a href={`/rfq/?source_page=%2F&interest=${encodeURIComponent(product.title)}`}>Request a Quote<span className="home-sr-only">: {product.title}</span></a>
