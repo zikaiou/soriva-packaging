@@ -99,3 +99,19 @@
 .home-product-actions{margin-top:0;display:flex;flex-direction:column;align-items:stretch;gap:0;border:0;padding:0}
 .home-product-actions a:last-child{order:-1;border:1px solid #b39155;border-radius:5px;justify-content:center;min-height:40px}
 .home-product-actions a:first-child{justify-content:center;min-height:36px}
+
+/* Catalog alignment: fixed media frame, independent of source dimensions. */
+.home-catalog .section-head{max-width:100%;width:100%}
+#packaging-catalog-title{max-width:none;font-size:clamp(28px,3.6vw,52px);line-height:1.15}
+@media(min-width:981px){#packaging-catalog-title{white-space:nowrap}}
+.home-catalog .home-product-image{position:relative;display:block;box-sizing:border-box;width:100%;height:auto;aspect-ratio:4/3;flex:0 0 auto;min-height:0;overflow:hidden;padding:0}
+.home-catalog .home-product-image img{position:absolute;inset:8px;width:calc(100% - 16px)!important;height:calc(100% - 16px)!important;max-height:none;object-fit:contain!important}
+/* Homepage-only crop of the existing portrait specification image. */
+.home-catalog .home-product-image:has(img[src*="portable-ring-box-hero"]){background:#f4f1eb}
+.home-catalog .home-product-image img[src*="portable-ring-box-hero"]{object-view-box:inset(27% 0 36% 0);object-fit:contain!important}
+.home-catalog .home-product-body{min-height:0;padding:14px;gap:0}
+.home-catalog .home-product-body h3{min-height:2.4em;margin-bottom:6px}
+.home-catalog .home-product-description{margin:0 0 10px}
+.home-catalog .home-product-specs{margin:auto 0 8px}
+@media(min-width:621px) and (max-width:1100px){.home-catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.home-catalog .home-product-body h3{min-height:0}#packaging-catalog-title{white-space:normal}}
