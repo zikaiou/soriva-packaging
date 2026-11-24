@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.sorivapackaging.com/img/magnetic-rigid.webp",
+        url: "https://www.sorivapackaging.com/img/perfume-magnetic-gift-box-champagne-v2.webp",
         width: 1200,
         height: 900,
-        alt: "Open black magnetic rigid gift box with fitted perfume insert and gold branding",
+        alt: "Open champagne gold book-style magnetic perfume gift box with fitted insert and magnetic closure flap",
       },
     ],
   },
@@ -94,9 +94,9 @@ const inserts = [
 
 const samples = [
   {
-    img: "/img/magnetic-rigid.webp",
+    img: "/img/perfume-magnetic-gift-box-champagne-v2.webp",
     title: "Magnetic Perfume Presentation Box",
-    desc: "Open hinged magnetic rigid box with a fitted perfume insert and branded presentation. Design reference; final construction is confirmed during sampling.",
+    desc: "Champagne gold hinged magnetic rigid box with a fitted perfume insert and branded presentation. Design reference; final construction is confirmed during sampling.",
   },
 ];
 
@@ -198,8 +198,8 @@ export default function PerfumeMagneticBoxesSolution() {
             </div>
             <div className="mrb-hero-media">
               <img
-                src="/img/magnetic-rigid.webp"
-                alt="Open black magnetic rigid gift box with fitted perfume insert and gold branding"
+                src="/img/perfume-magnetic-gift-box-champagne-v2.webp"
+                alt="Open champagne gold book-style magnetic perfume gift box with fitted insert and magnetic closure flap"
                 width="1200"
                 height="900"
               />
@@ -356,7 +356,7 @@ export default function PerfumeMagneticBoxesSolution() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <img
-              src="/img/magnetic-rigid.webp"
+              src="/img/perfume-magnetic-gift-box-champagne-v2.webp"
               alt="Magnetic rigid perfume box with fitted insert"
               loading="lazy"
               style={{ width: "100%", borderRadius: 10, border: "1px solid #e7e2d9", objectFit: "cover" }}
