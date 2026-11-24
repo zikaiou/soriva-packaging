@@ -362,14 +362,8 @@ export default function Home() {
                   <Image src={product.img} alt={product.alt} width={800} height={600} sizes="(max-width: 620px) 100vw, (max-width: 980px) 50vw, 33vw" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                 </a>
                 <div className="home-product-body">
-                  {product.slug === "magnetic-rigid-boxes" && <span className="home-product-label">MAGNETIC RIGID BOX</span>}
                   <h3><a href={(product.href ?? `/products/${product.slug}/`)}>{product.title}</a></h3>
-                  {"description" in product && <p className="home-product-description">{product.description}</p>}
-                  <p className="home-product-structure">{product.structure}</p>
-                  <dl>
-                    <div><dt>Suitable for</dt><dd>{product.use}</dd></div>
-                    <div><dt>Customize</dt><dd>{product.options}</dd></div>
-                  </dl>
+                  <p className="home-product-description">{product.description ?? product.structure}</p>
                   <div className="home-product-actions">
                     <a href={(product.href ?? `/products/${product.slug}/`)}>View Details <span aria-hidden="true">→</span><span className="home-sr-only">: {product.title}</span></a>
                     <a href={`/rfq/?source_page=%2F&interest=${encodeURIComponent(product.title)}`}>Request a Quote<span className="home-sr-only">: {product.title}</span></a>
