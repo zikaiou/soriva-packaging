@@ -65,7 +65,7 @@ const magneticSolutions = [
   },
   {
     tag: "COSMETICS & BEAUTY",
-    title: "Magnetic Gift Boxes for Cosmetics",
+    title: "Custom Cosmetic Magnetic Gift Boxes",
     desc: "Multi-product cavity organization, soft-touch velvet finish and foldable packaging options for skincare sets.",
     href: "/solutions/magnetic-gift-boxes-for-cosmetics/",
   },
@@ -357,7 +357,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">SKINCARE &amp; SERUM PACKAGING</span>
-            <h2>Rigid Magnetic Boxes for Serum Bottles &amp; Skincare Sets</h2>
+            <h2>Rigid Magnetic Boxes for Premium Product Sets</h2>
             <p>
               For serum bottles, ampoules and skincare gift sets, a custom magnetic rigid box can combine a protective greyboard shell with a fitted insert that keeps each item organized. We review bottle height, cap clearance, filled weight and set layout before confirming the box dimensions and insert structure.
             </p>
@@ -594,7 +594,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Magnetic Gift Box Manufacturer: OEM Sampling &amp; Production</h2>
+            <h2>Magnetic Gift Box Manufacturer: Wholesale Orders &amp; Sampling</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
@@ -651,7 +651,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">BUYER FAQ</span>
-            <h2>Magnetic Rigid Box Buying Questions</h2>
+            <h2>Custom Magnetic Gift Boxes: Wholesale Buying Questions</h2>
           </div>
           <div className="mrb-faq">
             {faqs.map((f) => (
