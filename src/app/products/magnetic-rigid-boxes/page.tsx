@@ -11,19 +11,19 @@ const PAGE_URL = "https://www.sorivapackaging.com/products/magnetic-rigid-boxes/
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Magnetic Rigid Box Manufacturer | Custom Boxes | SORIVA",
+    absolute: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
   },
   description:
-    "Custom magnetic rigid boxes for perfume, serum and skincare brands. Choose book-style or foldable boxes, fitted inserts and premium logo finishes. Request a wholesale quote.",
+    "Factory-direct custom magnetic boxes with concealed closures, custom inserts and logo finishes. Compare assembled and foldable options for wholesale orders.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Magnetic Rigid Boxes Manufacturer | SORIVA",
+    title: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
     description:
-      "Custom magnetic rigid gift boxes with concealed closures, branded finishes and custom inserts for fragrance, cosmetics and premium gifts.",
+      "Factory-direct custom magnetic boxes with concealed closures, custom inserts and logo finishes. Compare assembled and foldable options for wholesale orders.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -59,7 +59,7 @@ const features = [
 const magneticSolutions = [
   {
     tag: "FRAGRANCE & PERFUME",
-    title: "Magnetic Rigid Boxes for Perfume",
+    title: "Custom Perfume Magnetic Gift Boxes",
     desc: "Bottle protection, concealed magnetic closure and velvet-covered EVA inserts for fragrance collections.",
     href: "/solutions/magnetic-rigid-boxes-for-perfume/",
   },
@@ -286,7 +286,7 @@ export default function MagneticRigidBoxesPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Magnetic Rigid Boxes for Brands &amp; Wholesale Buyers</h1>
+              <h1>Custom Magnetic Boxes for Brands &amp; Wholesale Buyers</h1>
               <p className="mrb-lead">
                 Premium custom magnetic rigid boxes engineered with greyboard structures,
                 concealed magnetic closure, precision-cut inserts and bespoke finishes for
