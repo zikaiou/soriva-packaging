@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
   },
   description:
-    "Factory-direct custom magnetic boxes with concealed closures, custom inserts and logo finishes. Compare assembled and foldable options for wholesale orders.",
+    "Factory-direct custom magnetic boxes and magnetic closure gift boxes with fitted inserts and logo finishes. Compare rigid and foldable options for bulk orders.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     title: "Custom Magnetic Boxes & Magnetic Closure Gift Boxes | SORIVA",
     description:
-      "Factory-direct custom magnetic boxes with concealed closures, custom inserts and logo finishes. Compare assembled and foldable options for wholesale orders.",
+      "Factory-direct custom magnetic boxes and magnetic closure gift boxes with fitted inserts and logo finishes. Compare rigid and foldable options for bulk orders.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -594,7 +594,7 @@ export default function MagneticRigidBoxesPage() {
         <div className="container">
           <div className="mrb-head center">
             <span className="eyebrow dark">MANUFACTURING CAPABILITY</span>
-            <h2>Magnetic Gift Box Manufacturer: Wholesale Orders &amp; Sampling</h2>
+            <h2>Magnetic Gift Box Manufacturer: Bulk &amp; Wholesale Orders</h2>
           </div>
           <div className="mrb-stats">
             {stats.map((s) => (
