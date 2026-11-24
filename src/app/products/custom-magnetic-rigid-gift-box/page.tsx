@@ -21,16 +21,18 @@ export const metadata: Metadata = {
 };
 
 const features = [
-  { num: "01", title: "Rigid Greyboard Body", desc: "A firm rigid box structure designed to present and protect premium products." },
+  { num: "01", title: "1.5 mm Rigid Greyboard", desc: "Built with 1.5 mm greyboard for a firm, structured presentation box." },
   { num: "02", title: "Hinged Magnetic Flap", desc: "An attached lid with magnetic closure for a neat, secure opening and closing experience." },
-  { num: "03", title: "Fitted Product Insert", desc: "A customized insert layout to hold a perfume bottle in position during presentation and handling." },
-  { num: "04", title: "Branded Paper Wrap", desc: "Customize the exterior wrap, color and logo treatment to align with your brand identity." },
+  { num: "03", title: "EVA Insert", desc: "An EVA insert can be customized to fit the product shape and help keep it in position inside the box." },
+  { num: "04", title: "Matte Finish & Gold Foil Logo", desc: "The confirmed finish for this product is matte lamination with a gold foil logo." },
 ];
 
 const faqs = [
   { q: "Can this magnetic rigid gift box be customized for perfume bottles?", a: "Yes. The box dimensions and insert layout can be developed around your perfume bottle size and presentation requirements." },
-  { q: "Can I customize the outside paper and logo?", a: "Yes. The paper wrap and branding treatment can be discussed according to your artwork, preferred color and finish." },
-  { q: "What information is needed for a quotation?", a: "Please share the bottle dimensions, box quantity, preferred materials or colors, logo artwork and delivery destination. A reference photo is also helpful." },
+  { q: "What finish is specified for this box?", a: "The current product specification is matte lamination with a gold foil logo. Other finishes should be confirmed separately before quotation." },
+  { q: "What is the minimum order quantity?", a: "The stated MOQ for this product is 100 pieces. Please confirm the final quantity and specifications when requesting a quotation." },
+  { q: "Are the box dimensions and production lead time fixed?", a: "The box dimensions, sampling time and bulk production lead time have not yet been confirmed. Please share your product dimensions and target delivery schedule so these details can be reviewed." },
+  { q: "What information is needed for a quotation?", a: "Please share the perfume or cosmetic product dimensions, required quantity, delivery destination and logo artwork. The final box dimensions and production schedule can then be confirmed." },
 ];
 
 export default function CustomMagneticRigidGiftBoxPage() {
@@ -72,6 +74,28 @@ export default function CustomMagneticRigidGiftBoxPage() {
                 <strong>{item.num}</strong><h3>{item.title}</h3><p>{item.desc}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mrb-section soft">
+        <div className="container">
+          <div className="mrb-spec-wrap">
+            <div>
+              <span className="eyebrow dark">PRODUCT SPECIFICATIONS</span>
+              <h2>Material &amp; Finish Details</h2>
+              <p>The following details are confirmed for this product. Final box dimensions and production timing will be reviewed according to the product being packed and the order requirements.</p>
+            </div>
+            <div className="mrb-spec">
+              <div className="mrb-spec-item"><b>Box Structure</b><span>Hinged magnetic rigid box</span></div>
+              <div className="mrb-spec-item"><b>Greyboard Thickness</b><span>1.5 mm</span></div>
+              <div className="mrb-spec-item"><b>Insert</b><span>EVA insert</span></div>
+              <div className="mrb-spec-item"><b>Surface Finish</b><span>Matte lamination</span></div>
+              <div className="mrb-spec-item"><b>Logo Finish</b><span>Gold foil stamping</span></div>
+              <div className="mrb-spec-item"><b>MOQ</b><span>100 pcs</span></div>
+              <div className="mrb-spec-item"><b>Applications</b><span>Perfume &amp; cosmetics</span></div>
+              <div className="mrb-spec-item"><b>Dimensions &amp; Lead Time</b><span>To be confirmed for each project</span></div>
+            </div>
           </div>
         </div>
       </section>
