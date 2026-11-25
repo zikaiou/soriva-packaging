@@ -102,6 +102,7 @@ const featuredStyles = [
 ];
 
 const buyingPaths = [
+  { title: "Custom Jewelry Gift Boxes", desc: "Magnetic rigid gift boxes for coordinated jewelry sets, custom inserts and wholesale orders from 200 pcs.", href: "/products/custom-jewelry-gift-boxes/" },
   { title: "Custom Jewelry Boxes", desc: "Luxury jewelry packaging for rings, necklaces, earrings, bracelets and coordinated sets.", href: "/products/custom-jewelry-boxes/" },
   { title: "Custom Ring Boxes", desc: "Compact branded ring packaging for engagement rings, wedding bands and fine jewelry.", href: "/products/custom-ring-boxes/" },
   { title: "Necklace & Earring Boxes", desc: "Tailored packaging for necklaces, pendants, earrings and matching jewelry collections.", href: "/products/custom-necklace-earring-boxes/" },
