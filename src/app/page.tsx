@@ -217,6 +217,18 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     description: "Custom magnetic gift boxes for skincare routines, beauty launches and cosmetic sets, with rigid greyboard construction, multi-product cavity inserts, custom layouts and branded finishes.",
     label: "BEAUTY PACKAGING",
     specs: [{"label":"MOQ","value":"From 100 pcs"},{"label":"Insert","value":"Multi-cavity"},{"label":"Closure","value":"Magnetic"}]
+  },
+  {
+    slug: "custom-jewelry-gift-boxes",
+    title: "Custom Jewelry Gift Boxes",
+    img: "/img/soriva-custom-jewelry-gift-boxes.webp",
+    alt: "Custom magnetic jewelry gift boxes with fitted inserts for necklace, earrings and ring, design reference",
+    structure: "Rigid greyboard · magnetic closure",
+    use: "Coordinated jewelry sets and premium retail gifting",
+    options: "Fitted inserts, luxury paper wraps and custom branding",
+    description: "Premium magnetic closure jewelry gift boxes with tailored inserts, luxury paper finishes and custom branding, designed for coordinated jewelry sets, boutique collections and high-end retail gifting.",
+    label: "LUXURY JEWELRY PACKAGING",
+    specs: [{"label":"MOQ","value":"200 pcs"},{"label":"Closure","value":"Magnetic"},{"label":"Insert","value":"Custom fitted"}]
   }
 ];
 
