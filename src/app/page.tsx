@@ -229,7 +229,8 @@ const products: { slug: string; title: string; img: string; alt: string; structu
     description: "Premium magnetic closure jewelry gift boxes with tailored inserts, luxury paper finishes and custom branding, designed for coordinated jewelry sets, boutique collections and high-end retail gifting.",
     label: "LUXURY JEWELRY PACKAGING",
     specs: [{"label":"MOQ","value":"200 pcs"},{"label":"Closure","value":"Magnetic"},{"label":"Insert","value":"Custom fitted"}]
-  }
+  },
+  { slug: "custom-corporate-gift-boxes", title: "Custom Corporate Gift Boxes", img: "/img/soriva-custom-corporate-gift-boxes.webp", alt: "Custom branded corporate magnetic rigid gift box, design reference", structure: "Rigid greyboard · magnetic closure", use: "Executive gifts, employee kits and corporate events", options: "Custom logo, fitted inserts and paper finishes", description: "Premium magnetic rigid gift boxes with custom branding and fitted inserts, designed for executive gifts, employee welcome kits, client appreciation and corporate events.", label: "CORPORATE GIFT PACKAGING", specs: [{label:"MOQ",value:"200 pcs"},{label:"Closure",value:"Magnetic"},{label:"Insert",value:"Custom fitted"}] }
 ];
 
 const industries = [
