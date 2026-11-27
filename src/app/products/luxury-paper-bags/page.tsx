@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
   },
   description:
-    "Custom luxury paper bags for retail brands and wholesalers. Tailored sizes, paper stocks, ribbon or rope handles, logo printing and premium finishes. Request a quote.",
+    "Custom luxury paper bags for retail brands and wholesalers. Tailored sizes, paper stocks, ribbon or rope handles, logo printing and refined finishes. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
