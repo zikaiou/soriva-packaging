@@ -102,6 +102,7 @@ const featuredStyles = [
 ];
 
 const buyingPaths = [
+  { title: "Custom PR Boxes", desc: "Branded influencer kit packaging with fitted inserts for media campaigns and product launches, from 200 pcs.", href: "/products/custom-pr-boxes/" },
   { title: "Custom Corporate Gift Boxes", desc: "Branded magnetic rigid gift boxes with fitted inserts for business gifting programs, from 200 pcs.", href: "/products/custom-corporate-gift-boxes/" },
   { title: "Custom Jewelry Gift Boxes", desc: "Magnetic rigid gift boxes for coordinated jewelry sets, custom inserts and wholesale orders from 200 pcs.", href: "/products/custom-jewelry-gift-boxes/" },
   { title: "Custom Jewelry Boxes", desc: "Luxury jewelry packaging for rings, necklaces, earrings, bracelets and coordinated sets.", href: "/products/custom-jewelry-boxes/" },
