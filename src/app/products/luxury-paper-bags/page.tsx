@@ -12,19 +12,19 @@ const RFQ_URL = "/rfq/?product=Luxury%20Paper%20Bag&source_page=%2Fproducts%2Flu
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Custom Printed Paper Bags with Logo | SORIVA Packaging",
+    absolute: "Custom Luxury Paper Bags Manufacturer | SORIVA",
   },
   description:
-    "Custom paper bags with your logo for retail brands and boutiques. MOQ 100 bags. Sampling around 5 days; production around 15–20 days. Request a quote.",
+    "Custom luxury paper bags for retail brands and wholesalers. Tailored sizes, paper stocks, ribbon or rope handles, logo printing and premium finishes. Request a quote.",
   alternates: {
     canonical: PAGE_URL,
   },
   openGraph: {
     type: "website",
     url: PAGE_URL,
-    title: "Custom Printed Paper Bags with Logo | SORIVA Packaging",
+    title: "Custom Luxury Paper Bags Manufacturer | SORIVA",
     description:
-      "Custom printed paper bags with logo for retail brands and boutiques. Orders start at 100 bags, with sampling around 5 days and production around 15–20 days.",
+      "Custom luxury paper bags for retail brands and wholesalers, with tailored sizes, premium paper stocks, ribbon or rope handles, logo printing and coordinated finishes.",
     siteName: "SORIVA Packaging",
     locale: "en_US",
     images: [
@@ -440,9 +440,9 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      name: "Custom Luxury Paper Bag Manufacturing",
+      name: "Custom Luxury Paper Bags Manufacturer",
       description:
-        "OEM/ODM custom luxury paper bag manufacturing and supply for cosmetics, perfume, jewelry, fashion, corporate gift and retail brands.",
+        "Custom luxury paper bag manufacturing for premium retail, fashion, beauty, fragrance and jewelry brands, with tailored dimensions, paper stocks, handles, logo printing and premium finishes.",
       url: PAGE_URL,
       serviceType: "Custom Paper Bag Manufacturing",
       provider: {
@@ -478,7 +478,7 @@ const structuredData = {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Luxury Paper Bags",
+          name: "Custom Luxury Paper Bags",
           item: PAGE_URL,
         },
       ],
@@ -514,11 +514,11 @@ export default function LuxuryPaperBagsPage() {
           <div className="mrb-hero-grid">
             <div className="mrb-hero-copy">
               <span className="mrb-eyebrow">CUSTOM LUXURY PACKAGING</span>
-              <h1>Custom Printed Paper Bags with Your Logo</h1>
+              <h1>Custom Luxury Paper Bags Manufacturer for Premium Retail Brands</h1>
               <p className="mrb-lead">
-                SORIVA manufactures custom printed paper bags and supplies branded paper carrier bags for fashion labels, boutiques and retail businesses.
-                Discuss custom dimensions, paper materials, handle options and logo printing with SORIVA.
-                Orders start at 100 bags, with coordinated luxury packaging available for your collection.
+                SORIVA manufactures custom luxury paper bags for premium retail brands, boutiques and wholesale buyers.
+                Specify bag dimensions, paper stocks, ribbon or rope handles, logo printing and premium finishes.
+                Coordinate your bags with matching gift boxes for a consistent brand presentation.
               </p>
               <div className="mrb-tags">
                 <span>MOQ: 100 Bags</span>
