@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "custom-corporate-gift-boxes",
     "custom-pr-boxes",
     "custom-boutique-shopping-bags",
+    "custom-jewelry-paper-bags",
   ] as const;
   const productEntries: MetadataRoute.Sitemap = productPages.map((slug) => ({
     url: `${BASE_URL}/products/${slug}/`,
